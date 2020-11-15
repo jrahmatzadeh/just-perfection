@@ -3,15 +3,10 @@
 This extension removes:
 
 - OSD
-
 - Search
-
 - Dash
-
 - Workspace Switcher
-
 - Top Panel
-
 - App gesture
 
 Also overrides the current GNOME shell theme (You don't need to have user-theme-extension).
