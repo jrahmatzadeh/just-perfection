@@ -6,7 +6,7 @@ This extension removes:
 
 - Search
 
-- Dock
+- Dash
 
 - Workspace Switcher
 
