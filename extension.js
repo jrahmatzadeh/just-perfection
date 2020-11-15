@@ -13,7 +13,7 @@ let wspOriginal;
 let overviewButton;
 let isInOverviewButton = false;
 
-function init() {
+function initGlobals() {
 
   // osd
   osdWindowManagerOriginal = Main.osdWindowManager.show;
@@ -60,10 +60,13 @@ function init() {
   overviewButton.connect("leave-event", () => {
     isInOverviewButton = false;
   });
-
 }
 
+function init() {}
+
 function enable() {
+
+  initGlobals();
 
   // top panel
   Main.panel.hide();
