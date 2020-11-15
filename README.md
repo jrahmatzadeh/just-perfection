@@ -18,7 +18,7 @@ Also override the current GNOME shell theme (You don't need to have user-theme-e
 
 ## License
 
-- This Extension has been released under The **GNU General Public License, version 2**.
+- This Extension has been released under The **GNU General Public License v3.0**.
 
 - All SVG files have been released under **CC0 1.0 Universal (CC0 1.0)
   Public Domain Dedication** License:
