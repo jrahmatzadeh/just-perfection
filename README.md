@@ -14,7 +14,7 @@ This extension removes:
 
 - App gesture
 
-Also override the current GNOME shell theme (You don't need to have user-theme-extension).
+Also overrides the current GNOME shell theme (You don't need to have user-theme-extension).
 
 ## License
 
