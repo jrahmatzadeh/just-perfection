@@ -79,7 +79,7 @@ function enable() {
   
   // search
   Main.overview.searchEntry.hide();
-	Main.overview.viewSelector.startSearch = () => {};
+  Main.overview.viewSelector.startSearch = () => {};
   
   // workspace
   ThumbnailsSlider._getAlwaysZoomOut = () => { return false; };
@@ -94,7 +94,7 @@ function enable() {
   global.stage.get_actions().forEach(a => a.enabled = false);
   
   // disable background menu
-	backgroundMenu.BackgroundMenu.prototype.open = () => {};
+  backgroundMenu.BackgroundMenu.prototype.open = () => {};
   
   // overview button
   Main.layoutManager.addChrome(overviewButton, {
@@ -117,7 +117,7 @@ function disable() {
   
   // search
   Main.overview.searchEntry.show(); 
-	Main.overview.viewSelector.startSearch = startSearchOriginal;
+  Main.overview.viewSelector.startSearch = startSearchOriginal;
 	
   // workspace
   ThumbnailsSlider._getAlwaysZoomOut = getAlwaysZoomOutOriginal;
