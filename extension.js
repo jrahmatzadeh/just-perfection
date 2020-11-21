@@ -130,7 +130,7 @@ function disable() {
   global.stage.get_actions().forEach(a => a.enabled = true);
   
   // disable background menu
-	backgroundMenu.BackgroundMenu.prototype.open = backgroundMenuOriginal;
+  backgroundMenu.BackgroundMenu.prototype.open = backgroundMenuOriginal;
   
   // overview button
   Main.layoutManager.removeChrome(overviewButton);
