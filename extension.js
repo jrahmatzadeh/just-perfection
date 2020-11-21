@@ -134,5 +134,7 @@ function disable() {
   
   // overview button
   Main.layoutManager.removeChrome(overviewButton);
+  overviewButton.destroy();
+  overviewButton = null;
 }
 
