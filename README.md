@@ -11,6 +11,10 @@ This extension removes:
 
 Also overrides the current GNOME shell theme (You don't need to have user-theme-extension).
 
+## GNOME Shell extensions Website
+
+This extension is also available on [GNOME Shell extensions website](https://extensions.gnome.org/extension/3843/just-perfection/).
+
 ## License
 
 - This Extension has been released under The **GNU General Public License v3.0**.
