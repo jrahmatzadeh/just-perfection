@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.2 -->
+<interface>
+  <requires lib="gtk+" version="3.18"/>
+  <object class="GtkScrolledWindow" id="main_prefs">
+    <property name="width_request">350</property>
+    <property name="height_request">400</property>
+    <property name="visible">True</property>
+    <property name="can_focus">True</property>
+    <property name="shadow_type">in</property>
+    <child>
+      <object class="GtkViewport" id="main_prefs_vp">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkBox" id="main_prefs_box">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_left">36</property>
+            <property name="margin_right">36</property>
+            <property name="margin_top">36</property>
+            <property name="margin_bottom">36</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkImage">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="margin_left">36</property>
+                <property name="margin_right">36</property>
+                <property name="margin_bottom">36</property>
+                <property name="pixbuf">../bin/top.svg</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="margin_bottom">12</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">Visibility</property>
+                    <attributes>
+                      <attribute name="weight" value="bold"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkFrame" id="frame1">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label_xalign">0</property>
+                <property name="shadow_type">in</property>
+                <child>
+                  <object class="GtkListBox" id="listbox1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="selection_mode">none</property>
+                    <child>
+                      <object class="GtkListBoxRow" id="listboxrow1">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <child>
+                          <object class="GtkBox" id="row_box1">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="margin_left">12</property>
+                            <property name="margin_right">12</property>
+                            <property name="margin_top">12</property>
+                            <property name="margin_bottom">12</property>
+                            <property name="orientation">vertical</property>
+                            <child>
+                              <object class="GtkBox" id="switch_box">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="spacing">32</property>
+                                <child>
+                                  <object class="GtkLabel" id="panel_switch_txt">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                    <property name="valign">center</property>
+                                    <property name="label" translatable="yes">Top Panel</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">True</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">0</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkSwitch" id="panel_switch">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="valign">center</property>
+                                    <signal name="state-set" handler="panel_switch_state_set" swapped="no"/>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">1</property>
+                                  </packing>
+                                </child>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">0</property>
+                              </packing>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkListBoxRow" id="listboxrow8">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <child>
+                          <object class="GtkBox" id="row_box8">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="margin_left">12</property>
+                            <property name="margin_right">12</property>
+                            <property name="margin_top">12</property>
+                            <property name="margin_bottom">12</property>
+                            <property name="orientation">vertical</property>
+                            <child>
+                              <object class="GtkBox" id="switch_box7">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="spacing">32</property>
+                                <child>
+                                  <object class="GtkLabel" id="hot_corner_switch_txt2">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                    <property name="valign">center</property>
+                                    <property name="label" translatable="yes">Hot Corner</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">True</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">0</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkSwitch" id="hot_corner_switch">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="valign">center</property>
+                                    <signal name="state-set" handler="hot_corner_switch_state_set" swapped="no"/>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">1</property>
+                                  </packing>
+                                </child>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">0</property>
+                              </packing>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkListBoxRow" id="listboxrow2">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <child>
+                          <object class="GtkBox" id="row_box2">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="margin_left">12</property>
+                            <property name="margin_right">12</property>
+                            <property name="margin_top">12</property>
+                            <property name="margin_bottom">12</property>
+                            <property name="orientation">vertical</property>
+                            <child>
+                              <object class="GtkBox" id="switch_box1">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="spacing">32</property>
+                                <child>
+                                  <object class="GtkLabel" id="search_switch_txt">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                    <property name="valign">center</property>
+                                    <property name="label" translatable="yes">Search</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">True</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">0</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkSwitch" id="search_switch">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="valign">center</property>
+                                    <signal name="state-set" handler="search_switch_state_set" swapped="no"/>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">1</property>
+                                  </packing>
+                                </child>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">0</property>
+                              </packing>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkListBoxRow" id="listboxrow3">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <child>
+                          <object class="GtkBox" id="row_box3">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="margin_left">12</property>
+                            <property name="margin_right">12</property>
+                            <property name="margin_top">12</property>
+                            <property name="margin_bottom">12</property>
+                            <property name="orientation">vertical</property>
+                            <child>
+                              <object class="GtkBox" id="switch_box2">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="spacing">32</property>
+                                <child>
+                                  <object class="GtkLabel" id="dash_switch_txt">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                    <property name="valign">center</property>
+                                    <property name="label" translatable="yes">Dash</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">True</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">0</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkSwitch" id="dash_switch">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="valign">center</property>
+                                    <signal name="state-set" handler="dash_switch_state_set" swapped="no"/>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">1</property>
+                                  </packing>
+                                </child>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">0</property>
+                              </packing>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkListBoxRow" id="listboxrow4">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <child>
+                          <object class="GtkBox" id="row_box4">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="margin_left">12</property>
+                            <property name="margin_right">12</property>
+                            <property name="margin_top">12</property>
+                            <property name="margin_bottom">12</property>
+                            <property name="orientation">vertical</property>
+                            <child>
+                              <object class="GtkBox" id="switch_box3">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="spacing">32</property>
+                                <child>
+                                  <object class="GtkLabel" id="osd_switch_txt">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                    <property name="valign">center</property>
+                                    <property name="label" translatable="yes">OSD</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">True</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">0</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkSwitch" id="osd_switch">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="valign">center</property>
+                                    <signal name="state-set" handler="osd_switch_state_set" swapped="no"/>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">1</property>
+                                  </packing>
+                                </child>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">0</property>
+                              </packing>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkListBoxRow" id="listboxrow10">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <child>
+                          <object class="GtkBox" id="row_box10">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="margin_left">12</property>
+                            <property name="margin_right">12</property>
+                            <property name="margin_top">12</property>
+                            <property name="margin_bottom">12</property>
+                            <property name="orientation">vertical</property>
+                            <child>
+                              <object class="GtkBox" id="switch_box9">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="spacing">32</property>
+                                <child>
+                                  <object class="GtkLabel" id="workspace_popup_switch_txt">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                    <property name="valign">center</property>
+                                    <property name="label" translatable="yes">Workspace Popup</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">True</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">0</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkSwitch" id="workspace_popup_switch">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="valign">center</property>
+                                    <signal name="state-set" handler="workspace_popup_switch_state_set" swapped="no"/>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">1</property>
+                                  </packing>
+                                </child>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">0</property>
+                              </packing>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkListBoxRow" id="listboxrow5">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <child>
+                          <object class="GtkBox" id="row_box5">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="margin_left">12</property>
+                            <property name="margin_right">12</property>
+                            <property name="margin_top">12</property>
+                            <property name="margin_bottom">12</property>
+                            <property name="orientation">vertical</property>
+                            <child>
+                              <object class="GtkBox" id="switch_box4">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="spacing">32</property>
+                                <child>
+                                  <object class="GtkLabel" id="workspace_switch_txt">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                    <property name="valign">center</property>
+                                    <property name="label" translatable="yes">Workspace Switcher</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">True</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">0</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkSwitch" id="workspace_switch">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="valign">center</property>
+                                    <signal name="state-set" handler="workspace_switch_state_set" swapped="no"/>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">1</property>
+                                  </packing>
+                                </child>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">0</property>
+                              </packing>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkListBoxRow" id="listboxrow6">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <child>
+                          <object class="GtkBox" id="row_box6">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="margin_left">12</property>
+                            <property name="margin_right">12</property>
+                            <property name="margin_top">12</property>
+                            <property name="margin_bottom">12</property>
+                            <property name="orientation">vertical</property>
+                            <child>
+                              <object class="GtkBox" id="switch_box5">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="spacing">32</property>
+                                <child>
+                                  <object class="GtkLabel" id="background_menu_switch_txt">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                    <property name="valign">center</property>
+                                    <property name="label" translatable="yes">Background Menu</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">True</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">0</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkSwitch" id="background_menu_switch">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="valign">center</property>
+                                    <signal name="state-set" handler="background_menu_switch_state_set" swapped="no"/>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">1</property>
+                                  </packing>
+                                </child>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">0</property>
+                              </packing>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkListBoxRow" id="listboxrow7">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <child>
+                          <object class="GtkBox" id="row_box7">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="margin_left">12</property>
+                            <property name="margin_right">12</property>
+                            <property name="margin_top">12</property>
+                            <property name="margin_bottom">12</property>
+                            <property name="orientation">vertical</property>
+                            <child>
+                              <object class="GtkBox" id="switch_box6">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="spacing">32</property>
+                                <child>
+                                  <object class="GtkLabel" id="gesture_switch_txt">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                    <property name="valign">center</property>
+                                    <property name="label" translatable="yes">App Gesture</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">True</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">0</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkSwitch" id="gesture_switch">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="valign">center</property>
+                                    <signal name="state-set" handler="gesture_switch_state_set" swapped="no"/>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">1</property>
+                                  </packing>
+                                </child>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">0</property>
+                              </packing>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="margin_top">36</property>
+                <property name="margin_bottom">12</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">Override</property>
+                    <attributes>
+                      <attribute name="weight" value="bold"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">3</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkFrame" id="frame2">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label_xalign">0</property>
+                <property name="shadow_type">in</property>
+                <child>
+                  <object class="GtkListBox" id="listbox2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="selection_mode">none</property>
+                    <child>
+                      <object class="GtkListBoxRow" id="listboxrow11">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <child>
+                          <object class="GtkBox" id="row_box11">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="margin_left">12</property>
+                            <property name="margin_right">12</property>
+                            <property name="margin_top">12</property>
+                            <property name="margin_bottom">12</property>
+                            <property name="orientation">vertical</property>
+                            <child>
+                              <object class="GtkBox" id="switch_box10">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="spacing">32</property>
+                                <child>
+                                  <object class="GtkLabel" id="themme_switch_txt">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                    <property name="valign">center</property>
+                                    <property name="label" translatable="yes">Shell Theme</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">True</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">0</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkSwitch" id="theme_switch">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="valign">center</property>
+                                    <signal name="state-set" handler="theme_switch_state_set" swapped="no"/>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">1</property>
+                                  </packing>
+                                </child>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">0</property>
+                              </packing>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">4</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
