@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    
+  <schema id="org.gnome.shell.extensions.just-perfection"
+    path="/org/gnome/shell/extensions/just-perfection/">
+    
+    <key type="b" name="panel">
+      <default>false</default>
+      <summary>Panel</summary>
+      <description>Panel Visibility Status</description>
+    </key>
+    
+    <key type="b" name="background-menu">
+      <default>false</default>
+      <summary>Background Menu</summary>
+      <description>Background Menu Status</description>
+    </key>
+    
+    <key type="b" name="search">
+      <default>false</default>
+      <summary>Search Box</summary>
+      <description>Search Box Visibility Status</description>
+    </key>
+    
+    <key type="b" name="workspace">
+      <default>false</default>
+      <summary>Workspace Switcher</summary>
+      <description>Workspace Switcher Visibility Status</description>
+    </key>
+    
+    <key type="b" name="dash">
+      <default>false</default>
+      <summary>Dash</summary>
+      <description>Dash Visibility Status</description>
+    </key>
+    
+    <key type="b" name="osd">
+      <default>false</default>
+      <summary>OSD</summary>
+      <description>OSD Visibility Status</description>
+    </key>
+    
+    <key type="b" name="workspace-popup">
+      <default>false</default>
+      <summary>Workspace Popup</summary>
+      <description>Workspace Popup Visibility Status</description>
+    </key>
+    
+    <key type="b" name="gesture">
+      <default>false</default>
+      <summary>Gesture</summary>
+      <description>Gesture Status</description>
+    </key>
+    
+    <key type="b" name="hot-corner">
+      <default>true</default>
+      <summary>Hot Corner</summary>
+      <description>Hot Corner Status</description>
+    </key>
+    
+    <key type="b" name="theme">
+      <default>true</default>
+      <summary>Theme</summary>
+      <description>Theme Status</description>
+    </key>
+    
+  </schema>
+  
+</schemalist>
+
