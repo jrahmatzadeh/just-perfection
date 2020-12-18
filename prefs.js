@@ -20,7 +20,7 @@ function buildPrefsWidget ()
 
     let builder = new Gtk.Builder();
     let settings = Settings.getSettings(Gio, schemaID, schemasFolderPath);
-    let prefs = new Prefs.Prefs({ 'Builder': builder, 'Settings': settings});
+    let prefs = new Prefs.Prefs({'Builder': builder, 'Settings': settings});
     
     return prefs.getMainPrefs(UIFilePath, gettextDomain);
 }
