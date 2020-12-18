@@ -1,81 +1,224 @@
-stage {
-  font-size: small;
+.just-perfection
+{
+    font-size: small;
 }
 
-.switcher-list {
-  color: #eeeeec;
-  background-color: rgba(0, 0, 0, 0.99);
-  border: 0 solid rgba(255, 255, 255, 0.16);
-  border-radius: 15px;
-  padding: 12px;
-  box-shadow: none;
+.just-perfection .switcher-list
+{
+    color: #eeeeec;
+    background-color: rgba(0, 0, 0, .99);
+    border: 0 solid rgba(255, 255, 255, .16);
+    border-radius: 15px;
+    padding: 12px;
+    box-shadow: none;
 }
 
-.window-close {
-  background-image: url("close-button.svg");
+.just-perfection .window-close
+{
+    background-image: url("bin/close-button.svg");
 }
 
-.window-clone-border {
-  border: 5px solid #004AC7;
-  border-radius: 16px;
-  box-shadow: inset 0px 0px 0px 0 #004AC7;
+.just-perfection .window-clone-border
+{
+    border: 5px solid #004AC7;
+    border-radius: 16px;
+    box-shadow: inset 0 0 0 0 #004AC7;
 }
 
-.window-caption {
-  spacing: 25px;
-  color: #ffffff;
-  background-color: #004AC7;
-  border-radius: 9px;
-  padding: 4px 12px;
-  font-size: small;
+.just-perfection .window-caption
+{
+    spacing: 25px;
+    color: #ffffff;
+    background-color: #004AC7;
+    border-radius: 9px;
+    padding: 4px 12px;
+    font-size: small;
 }
   
-.window-close {
-  background-size: 24px;
-  height: 24px;
-  width: 24px;
-  background-color: transparent;
-  color: transparent;
-  border-radius: 24px;
-  border: 0px solid #1b6acb;
+.just-perfection .window-close
+{
+    background-size: 24px;
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    color: transparent;
+    border-radius: 24px;
+    border: 0 solid #1b6acb;
 }
 
-.switcher-popup {
-  padding: 8px;
-  spacing: 24px;
+.just-perfection .switcher-popup
+{
+    padding: 8px;
+    spacing: 24px;
+    font-size: small;
 }
 
-.switcher-list .item-box {
-  padding: 8px;
-  border-radius: 14px;
-  border: 1px solid transparent;
+.just-perfection .switcher-list .item-box
+{
+    padding: 8px;
+    border-radius: 14px;
+    border: 1px solid transparent;
 }
 
-.switcher-list .item-box:outlined {
-  border: 0;
-  background-color: rgba(255,255,255, 0.1);
-  box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0.4);
+.just-perfection .switcher-list .item-box:outlined
+{
+    border: 0;
+    background-color: rgba(255, 255, 255, .1);
+    box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, .4);
 }
 
-.switcher-list .item-box:selected {
-  background-color: rgba(255,255,255, 0.1);
-  color: #eeeeec;
+.just-perfection .switcher-list .item-box:selected
+{
+    background-color: rgba(255,255,255, .1);
+    color: #eeeeec;
 }
 
-.switcher-list .thumbnail-box {
-  padding: 2px;
-  spacing: 6px;
+.just-perfection .switcher-list .thumbnail-box
+{
+    padding: 2px;
+    spacing: 6px;
 }
 
-.switcher-list .thumbnail {
-  width: 256px;
+.just-perfection .switcher-list .thumbnail
+{
+    width: 256px;
 }
 
-.switcher-list .separator {
-  width: 1px;
-  background: #272727;
+.just-perfection .switcher-list .separator
+{
+    width: 1px;
+    background: #272727;
 }
 
-.switcher-list .switcher-list-item-container {
-  spacing: 12px;
+.just-perfection .switcher-list .switcher-list-item-container
+{
+    spacing: 12px;
 }
+
+.just-perfection .workspace-switcher-container
+{
+    background-color: rgba(0, 0, 0, .7);
+    box-shadow: none;
+    padding: 3px;
+    border: 0;
+    border-radius: 3px;
+}
+
+.just-perfection .workspace-switcher
+{
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    spacing: 4px;
+}
+
+.just-perfection .ws-switcher-box
+{
+    background: transparent;
+    background-color: rgba(255, 255, 255, .02);
+    height: 10px;
+    background-size: 0;
+    border: 0;
+    border-radius: 1px;
+}
+
+.just-perfection .ws-switcher-active-up,
+.just-perfection .ws-switcher-active-down,
+.just-perfection .ws-switcher-active-left,
+.just-perfection .ws-switcher-active-right
+{
+    height: 10px;
+    background-color: rgba(255, 255, 255, .8);
+    border: 0;
+    border-radius: 1px;
+}
+
+.just-perfection .osd-window
+{
+    background-color: rgba(0, 0, 0, 1);
+    border: 0;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: none;
+}
+
+
+.just-perfection .search-entry
+{
+    caret-color: white;
+    selection-background-color: #008bff;
+    selected-color: white;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    border: 0;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.just-perfection .search-entry:focus
+{
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.just-perfection .search-entry .search-entry-icon
+{
+    icon-size: 18px;
+    padding: 0 0;
+    color: rgba(255, 255, 255, .5);
+}
+
+.just-perfection .search-section .search-section-separator
+{
+    height: 1px;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.just-perfection .search-section-content
+{
+    spacing: 0;
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+    background: none;
+    text-shadow: none;
+    color: rgba(255, 255, 255, .98);
+}
+
+.just-perfection #dash
+{
+    background-color: rgba(0, 0, 0, .4);
+    padding: 5px 0;
+    border: 0;
+    border-radius: 0 15px 15px 0;
+}
+
+.just-perfection #dash:rtl
+{
+    border-radius: 15px 0 0 15px;
+}
+
+.just-perfection .workspace-thumbnails
+{
+    visible-width: 15px;
+    spacing: 20px;
+    padding: 20px;
+    padding-right: 0;
+    margin: 0;
+    border-radius: 15px 0 0 15px;
+    border: 0;
+    color: rgba(255, 255, 255, .85);
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.just-perfection .workspace-thumbnail-indicator
+{
+    border: 0;
+    border-bottom: 2px solid transparent;
+    border-color: #0860f2;
+    padding: 0;
+    padding-bottom: 2px;
+    border-radius: 0;
+}
+
