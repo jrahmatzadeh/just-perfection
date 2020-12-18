@@ -1,6 +1,6 @@
 # Super minimal GNOME desktop with Just Perfection GNOME Shell Extension
 
-This extension removes:
+This extension allows you to disable:
 
 - OSD
 - Search
