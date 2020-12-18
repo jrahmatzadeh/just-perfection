@@ -1,0 +1,65 @@
+# Just Perfection GNOME Shell Extension Translation
+# Copyright (C) 2020
+# This file is distributed under GPL v3
+# Just Perfection <justperfection.channel@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-13 06:27-0800\n"
+"PO-Revision-Date: 2020-12-18 04:05-0800\n"
+"Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
+"Language-Team: Afrikaans\n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ui/prefs.ui:28
+msgid "Visibility"
+msgstr "Sigbaarheid"
+
+#: ui/prefs.ui:80
+msgid "Top Panel"
+msgstr "Boonste paneel"
+
+#: ui/prefs.ui:136
+msgid "Hot Corner"
+msgstr "Warm hoekie"
+
+#: ui/prefs.ui:192
+msgid "Search"
+msgstr "Soek"
+
+#: ui/prefs.ui:248
+msgid "Dash"
+msgstr "Dash"
+
+#: ui/prefs.ui:304
+msgid "OSD"
+msgstr "OSD"
+
+#: ui/prefs.ui:360
+msgid "Workspace Popup"
+msgstr "Werkruimte pop-up"
+
+#: ui/prefs.ui:416
+msgid "Workspace Switcher"
+msgstr "Werkspasie skakelaar"
+
+#: ui/prefs.ui:472
+msgid "Background Menu"
+msgstr "Agtergrond menu"
+
+#: ui/prefs.ui:528
+msgid "App Gesture"
+msgstr "App gebaar"
+
+#: ui/prefs.ui:580
+msgid "Override"
+msgstr "Ignoreer"
+
+#: ui/prefs.ui:632
+msgid "Shell Theme"
+msgstr "Skulp Tema"

@@ -1,0 +1,65 @@
+# Just Perfection GNOME Shell Extension Translation
+# Copyright (C) 2020
+# This file is distributed under GPL v3
+# Just Perfection <justperfection.channel@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-18 04:12-0800\n"
+"PO-Revision-Date: 2020-12-18 04:39-0800\n"
+"Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
+"Language-Team: Language cn\n"
+"Language: Chinese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ui/prefs.ui:48
+msgid "Visibility"
+msgstr "能见度"
+
+#: ui/prefs.ui:100
+msgid "Top Panel"
+msgstr "顶板"
+
+#: ui/prefs.ui:156
+msgid "Hot Corner"
+msgstr "热角"
+
+#: ui/prefs.ui:212
+msgid "Search"
+msgstr "搜索"
+
+#: ui/prefs.ui:268
+msgid "Dash"
+msgstr "短跑"
+
+#: ui/prefs.ui:324
+msgid "OSD"
+msgstr "OSD"
+
+#: ui/prefs.ui:380
+msgid "Workspace Popup"
+msgstr "工作区弹出"
+
+#: ui/prefs.ui:436
+msgid "Workspace Switcher"
+msgstr "工作区切换器"
+
+#: ui/prefs.ui:492
+msgid "Background Menu"
+msgstr "后台菜单"
+
+#: ui/prefs.ui:548
+msgid "App Gesture"
+msgstr "应用手势"
+
+#: ui/prefs.ui:600
+msgid "Override"
+msgstr "覆写"
+
+#: ui/prefs.ui:652
+msgid "Shell Theme"
+msgstr "贝壳主题"

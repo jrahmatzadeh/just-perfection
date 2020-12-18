@@ -1,0 +1,66 @@
+# Just Perfection GNOME Shell Extension Translation
+# Copyright (C) 2020
+# This file is distributed under GPL v3
+# Just Perfection <justperfection.channel@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-18 04:12-0800\n"
+"PO-Revision-Date: 2020-12-18 04:55-0800\n"
+"Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ui/prefs.ui:48
+msgid "Visibility"
+msgstr "Sichtweite"
+
+#: ui/prefs.ui:100
+msgid "Top Panel"
+msgstr "Oberes Bedienfeld"
+
+#: ui/prefs.ui:156
+msgid "Hot Corner"
+msgstr "Heiße Ecke"
+
+#: ui/prefs.ui:212
+msgid "Search"
+msgstr "Suche"
+
+#: ui/prefs.ui:268
+msgid "Dash"
+msgstr "Strich"
+
+#: ui/prefs.ui:324
+msgid "OSD"
+msgstr "OSD"
+
+#: ui/prefs.ui:380
+msgid "Workspace Popup"
+msgstr "Popup des Arbeitsbereichs"
+
+#: ui/prefs.ui:436
+msgid "Workspace Switcher"
+msgstr "Arbeitsplatz Schalter"
+
+#: ui/prefs.ui:492
+msgid "Background Menu"
+msgstr "Hintergrundmenü"
+
+#: ui/prefs.ui:548
+msgid "App Gesture"
+msgstr "App-Geste"
+
+#: ui/prefs.ui:600
+msgid "Override"
+msgstr "Überschreiben"
+
+#: ui/prefs.ui:652
+msgid "Shell Theme"
+msgstr "Shell-Thema"
