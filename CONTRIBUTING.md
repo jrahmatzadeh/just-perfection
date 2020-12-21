@@ -32,7 +32,7 @@
 
 - Initial language translation for current languages has been translated via online services. Feel free to edit that.
 
-- Only the extension package on GNOME Shell extensions website can have locale folder and that should be generated with *po/generate.mo*. Avoid adding locale folder to the repository.
+- Only the extension package on GNOME Shell extensions website can have locale folder and that should be generated with *po/generate-mo.sh*. Avoid adding locale folder to the repository.
 
 
 
