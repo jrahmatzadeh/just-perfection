@@ -6,8 +6,10 @@ This extension allows you to disable:
 - Search
 - Dash
 - Workspace Switcher
+- Workspace Popup
 - Top Panel
 - App gesture
+- Background Menu
 
 Also overrides the current GNOME shell theme (You don't need to have user-theme-extension).
 
