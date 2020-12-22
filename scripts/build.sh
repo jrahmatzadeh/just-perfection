@@ -26,12 +26,14 @@ echo "Packing Done!"
 while getopts i flag; do
     case $flag in
 
-        i)  gnome-extensions install --force just-perfection-desktop@just-perfection.shell-extension.zip && \
-            echo "Extension installed. Now restart the Shell ('Alt'+'F2', then 'r')." || \
+        i)  gnome-extensions install \
+            --force just-perfection-desktop@just-perfection.shell-extension.zip && \
+            echo "Extension installed. Now restart the GNOME Shell." || \
             { echo "ERROR: Could not install the extension!"; exit 1; };;
 
         *)  echo "ERROR: Invalid flag!"
-            echo "Use '-i' to install the extension to your system. To just build it, run the script without any flag."
+            echo "Use '-i' to install the extension to your system."
+            echo "To just build it, run the script without any flag."
             exit 1;;
     esac
 done
