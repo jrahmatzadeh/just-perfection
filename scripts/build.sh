@@ -18,7 +18,8 @@ gnome-extensions pack \
     --force \
     --extra-source="bin" \
     --extra-source="lib" \
-    --extra-source="ui"
+    --extra-source="ui" \
+    --extra-source="LICENSE"
 
 echo "Packing Done!"
 
