@@ -1,11 +1,12 @@
 const Me = imports.misc.extensionUtils.getCurrentExtension();
-const {Settings, Manager, HotCorner} = Me.imports.lib;
+const {API, Settings, Manager, HotCorner} = Me.imports.lib;
 const {Gio, St} = imports.gi;
 
 const Main = imports.ui.main;
 const BackgroundMenu = imports.ui.backgroundMenu;
-const ThumbnailsSlider = imports.ui.overviewControls.ThumbnailsSlider;
+const OverviewControls = imports.ui.overviewControls;
 const WorkspaceSwitcherPopup = imports.ui.workspaceSwitcherPopup;
+const Config = imports.misc.config;
 
 let manager;
 
@@ -19,14 +20,18 @@ function enable()
     let schemasFolderPath = Me.dir.get_child("schemas").get_path();
     let schemaID = Me.metadata['schema-id'];
 
-    let settings = Settings.getSettings(Gio, schemaID, schemasFolderPath);
-    let hotCorner = new HotCorner.HotCorner({ 'Main': Main, 'St': St});
-  
-    manager = new Manager.Manager({
+    let api = new API.API({
         'Main': Main,
         'BackgroundMenu': BackgroundMenu,
-        'ThumbnailsSlider': ThumbnailsSlider,
-        'WorkspaceSwitcherPopup': WorkspaceSwitcherPopup, 
+        'OverviewControls': OverviewControls,
+        'WorkspaceSwitcherPopup': WorkspaceSwitcherPopup,
+    }, Config.PACKAGE_VERSION);
+    
+    let settings = Settings.getSettings(Gio, schemaID, schemasFolderPath);
+    let hotCorner = new HotCorner.HotCorner({ 'API': api, 'St': St });
+    
+    manager = new Manager.Manager({
+        'API': api,
         'Settings': settings,
         'HotCorner': hotCorner,
     });

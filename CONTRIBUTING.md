@@ -26,6 +26,8 @@
 
 - All *ui* files should be inside *ui* folder.
 
+- All changes related to the GNOME Shell should pass through API (lib/API.js). Also API acts as compatibility layer.
+
 ## Translation
 
 - You can find main translation file (pot file) in *po/main.pot*. That's the translation reference file.
@@ -33,7 +35,5 @@
 - Initial language translation for current languages has been translated via online services. Feel free to edit that.
 
 - Only the extension package on GNOME Shell extensions website can have locale folder and that should be generated with *po/generate-mo.sh*. Avoid adding locale folder to the repository.
-
-
 
 *This file may be updated in the future. Any change should be applied to all files in this repository.*
