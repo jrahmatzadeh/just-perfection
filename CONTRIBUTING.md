@@ -2,6 +2,8 @@
 
 - Respect 90 characters margin.
 
+- The indentation is 4 characters. Don't use tab for indentation.
+
 - Avoid unnecessary comments. The code should be self explanatory.
 
 - Write a simple and readable code.
