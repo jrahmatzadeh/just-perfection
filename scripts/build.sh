@@ -5,7 +5,6 @@
 # This Script is released under GPL v3 license
 # Copyright (C) 2020 Just Perfection
 
-# Exit the script when one command fails.
 set -e
 
 # Go the repo root.
