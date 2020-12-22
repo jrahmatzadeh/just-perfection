@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-13 06:27-0800\n"
+"POT-Creation-Date: 2020-12-21 21:35+0100\n"
 "PO-Revision-Date: 2020-12-18 04:05-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Afrikaans\n"
@@ -16,50 +16,50 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ui/prefs.ui:28
+#: ui/prefs.ui:48
 msgid "Visibility"
 msgstr "Sigbaarheid"
 
-#: ui/prefs.ui:80
+#: ui/prefs.ui:100
 msgid "Top Panel"
 msgstr "Boonste paneel"
 
-#: ui/prefs.ui:136
+#: ui/prefs.ui:156
 msgid "Hot Corner"
 msgstr "Warm hoekie"
 
-#: ui/prefs.ui:192
+#: ui/prefs.ui:212
 msgid "Search"
 msgstr "Soek"
 
-#: ui/prefs.ui:248
+#: ui/prefs.ui:268
 msgid "Dash"
 msgstr "Dash"
 
-#: ui/prefs.ui:304
+#: ui/prefs.ui:324
 msgid "OSD"
 msgstr "OSD"
 
-#: ui/prefs.ui:360
+#: ui/prefs.ui:380
 msgid "Workspace Popup"
 msgstr "Werkruimte pop-up"
 
-#: ui/prefs.ui:416
+#: ui/prefs.ui:436
 msgid "Workspace Switcher"
 msgstr "Werkspasie skakelaar"
 
-#: ui/prefs.ui:472
+#: ui/prefs.ui:492
 msgid "Background Menu"
 msgstr "Agtergrond menu"
 
-#: ui/prefs.ui:528
+#: ui/prefs.ui:548
 msgid "App Gesture"
 msgstr "App gebaar"
 
-#: ui/prefs.ui:580
+#: ui/prefs.ui:600
 msgid "Override"
 msgstr "Ignoreer"
 
-#: ui/prefs.ui:632
+#: ui/prefs.ui:652
 msgid "Shell Theme"
 msgstr "Skulp Tema"
