@@ -5,13 +5,14 @@
 # This Script is released under GPL v3 license
 # Copyright (C) 2020 Just Perfection
 
-localeFolder="../locale";
+set -e
 
-for filename in *.po; do
-    lang=$(basename "$filename" .po);
-    moPath="$localeFolder/$lang/LC_MESSAGES/just-perfection.mo";
-    mkdir -p "$localeFolder/$lang/LC_MESSAGES";
-    msgfmt $filename --output-file="$moPath"
-    echo "$lang [OK]";
+# Go the repo root.
+cd "$( cd "$( dirname "$0" )" && pwd )/.."
+
+for filename in po/*.po; do
+    lang=$(basename "$filename" .po)
+    moPath="locale/$lang/LC_MESSAGES/just-perfection.mo"
+    mkdir -p "locale/$lang/LC_MESSAGES"
+    msgfmt "$filename" --output-file="$moPath" && echo "$lang [OK]" || echo "ERROR: Failed to generate '$lang.po'."
 done
-

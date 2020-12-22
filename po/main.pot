@@ -1,6 +1,6 @@
 # Just Perfection GNOME Shell Extension Translation
-# Copyright (C) 2020
-# This file is distributed under GPL v3
+# Copyright (C) 2020 Just Perfection
+# This file is distributed under the same license as the Just Perfection package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-18 04:12-0800\n"
+"POT-Creation-Date: 2020-12-22 11:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr ""
 
 #: ui/prefs.ui:324
 msgid "OSD"
-msgstr "OSD"
+msgstr ""
 
 #: ui/prefs.ui:380
 msgid "Workspace Popup"
