@@ -221,3 +221,14 @@
     border-radius: 0;
 }
 
+.just-perfection-no-search #overview
+{
+    spacing: 0;
+}
+
+.just-perfection-no-search .overview-controls
+{
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
