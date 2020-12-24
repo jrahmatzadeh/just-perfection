@@ -20,6 +20,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - Improve German translation from [@M4he](https://gitlab.com/M4he).
 - Displaying error for generate-mo.sh from [@daPhipz](https://gitlab.com/daPhipz).
+- Default settings to enable.
 
 ### Fixed
 
