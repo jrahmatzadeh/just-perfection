@@ -19,7 +19,8 @@ gnome-extensions pack \
     --extra-source="bin" \
     --extra-source="lib" \
     --extra-source="ui" \
-    --extra-source="LICENSE"
+    --extra-source="LICENSE" \
+    --extra-source="README.md"
 
 echo "Packing Done!"
 
