@@ -5,55 +5,55 @@
     path="/org/gnome/shell/extensions/just-perfection/">
     
     <key type="b" name="panel">
-      <default>false</default>
+      <default>true</default>
       <summary>Panel</summary>
       <description>Panel Visibility Status</description>
     </key>
     
     <key type="b" name="background-menu">
-      <default>false</default>
+      <default>true</default>
       <summary>Background Menu</summary>
       <description>Background Menu Status</description>
     </key>
     
     <key type="b" name="search">
-      <default>false</default>
+      <default>true</default>
       <summary>Search Box</summary>
       <description>Search Box Visibility Status</description>
     </key>
     
     <key type="b" name="workspace">
-      <default>false</default>
+      <default>true</default>
       <summary>Workspace Switcher</summary>
       <description>Workspace Switcher Visibility Status</description>
     </key>
     
     <key type="b" name="dash">
-      <default>false</default>
+      <default>true</default>
       <summary>Dash</summary>
       <description>Dash Visibility Status</description>
     </key>
     
     <key type="b" name="osd">
-      <default>false</default>
+      <default>true</default>
       <summary>OSD</summary>
       <description>OSD Visibility Status</description>
     </key>
     
     <key type="b" name="workspace-popup">
-      <default>false</default>
+      <default>true</default>
       <summary>Workspace Popup</summary>
       <description>Workspace Popup Visibility Status</description>
     </key>
     
     <key type="b" name="gesture">
-      <default>false</default>
+      <default>true</default>
       <summary>Gesture</summary>
       <description>Gesture Status</description>
     </key>
     
     <key type="b" name="hot-corner">
-      <default>true</default>
+      <default>false</default>
       <summary>Hot Corner</summary>
       <description>Hot Corner Status</description>
     </key>
