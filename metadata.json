@@ -1,11 +1,11 @@
 {
     "name": "Just Perfection",
-    "description": "Super minimal GNOME desktop. This extension removes OSD, Search, Dock, Workspace Switcher, Top Panel and App gesture. Also override the current GNOME shell theme (You don't need to have user-theme-extension).",
+    "description": "Super minimal GNOME desktop. This extension removes OSD, Search, Dock, Workspace Switcher, Workspace Popup, Top Panel, App Gesture and Background Menu. Also override the current GNOME shell theme (You don't need to have user-theme-extension).",
     "shell-version": ["3.36"],
     "schema-id": "org.gnome.shell.extensions.just-perfection",
     "gettext-domain": "just-perfection",
     "url": "https://gitlab.com/justperfection.channel/just-perfection-gnome-shell-desktop",
     "uuid": "just-perfection-desktop@just-perfection",
-    "version": 4
+    "version": 5
 }
 
