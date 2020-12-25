@@ -4,9 +4,7 @@ All notable changes to this project will be documented in this file.
 
 We go to the next version after each release on [GNOME Shell Extensions website](https://extensions.gnome.org/).
 
-## [Unreleased]
-
-## [4.0.0]
+## [4.0.0] 2020-12-25
 
 ### Added
 
