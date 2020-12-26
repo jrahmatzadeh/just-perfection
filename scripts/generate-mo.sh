@@ -7,7 +7,7 @@
 
 set -e
 
-# Go the repo root.
+# cd to the repo root
 cd "$( cd "$( dirname "$0" )" && pwd )/.."
 
 for filename in po/*.po;
@@ -18,3 +18,4 @@ do
     msgfmt "$filename" --output-file="$moPath" && echo "$lang [OK]" || 
     	echo "ERROR: Failed to generate '$lang.po'."
 done
+

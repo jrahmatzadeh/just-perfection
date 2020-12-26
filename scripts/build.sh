@@ -1,14 +1,17 @@
 #!/bin/bash
 
-# Script to build the extension zip
+# Script to build the extension zip and install the package
 #
 # This Script is released under GPL v3 license
 # Copyright (C) 2020 Just Perfection
 
 set -e
 
-# Go the repo root.
+# cd to the repo root
 cd "$( cd "$( dirname "$0" )" && pwd )/.."
+
+echo "Compiling schemas ..."
+glib-compile-schemas schemas/
 
 echo "Generating translations..."
 scripts/generate-mo.sh
@@ -20,7 +23,8 @@ gnome-extensions pack \
     --extra-source="lib" \
     --extra-source="ui" \
     --extra-source="LICENSE" \
-    --extra-source="README.md"
+    --extra-source="README.md" \
+    --extra-source="CHANGELOG.md"
 
 echo "Packing Done!"
 
@@ -29,7 +33,7 @@ while getopts i flag; do
 
         i)  gnome-extensions install \
             --force just-perfection-desktop@just-perfection.shell-extension.zip && \
-            echo "Extension installed. Now restart the GNOME Shell." || \
+            echo "Extension is installed. Now restart the GNOME Shell." || \
             { echo "ERROR: Could not install the extension!"; exit 1; };;
 
         *)  echo "ERROR: Invalid flag!"
@@ -38,3 +42,4 @@ while getopts i flag; do
             exit 1;;
     esac
 done
+

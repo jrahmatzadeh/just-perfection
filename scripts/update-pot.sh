@@ -7,7 +7,7 @@
 
 set -e
 
-# Go the repo root.
+# cd to the repo root
 cd "$( cd "$( dirname "$0" )" && pwd )/.."
 
 xgettext \
@@ -31,3 +31,4 @@ done
 if [[ -v fuzzy ]]; then
     echo "WARNING: Translations have unclear strings and need an update: ${fuzzy[*]}"
 fi
+
