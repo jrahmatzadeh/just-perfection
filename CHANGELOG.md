@@ -6,8 +6,6 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
-## [5.0.0]
-
 ### Changed
 
 - OSD in settings to "On Screen Display (OSD)".
