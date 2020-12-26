@@ -24,7 +24,7 @@
 
 - SVG and Image files should be released under CC0 license.
 
-- Overriding GNOME Shell theme is accepted and your style should be applied when the parent has *just-perfection* class in it. But avoid styling top panel.
+- Overriding GNOME Shell theme is accepted and your style should be applied when the parent has *just-perfection* class in it (or starts with just-perfection-). But avoid styling top panel.
 
 - All *ui* files should be inside *ui* folder.
 
