@@ -10,7 +10,7 @@ set -e
 # cd to the repo root
 cd "$( cd "$( dirname "$0" )" && pwd )/.."
 
-echo "Compiling schemas ..."
+echo "Compiling schemas..."
 glib-compile-schemas schemas/
 
 echo "Generating translations..."
