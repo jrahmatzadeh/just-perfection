@@ -8,6 +8,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [5.0.0]
 
+### Changed
+
+- OSD in settings to "On Screen Display (OSD)".
+
 ### Fixed
 
 - Padding on no dash.
