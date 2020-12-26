@@ -1,5 +1,7 @@
 # Super minimal GNOME desktop with Just Perfection GNOME Shell Extension
 
+![Just Perfection GNOME Shell Extension Logo](bin/top.svg)
+
 This extension allows you to disable:
 
 - OSD
