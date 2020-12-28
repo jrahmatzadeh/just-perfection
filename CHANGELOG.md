@@ -13,6 +13,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Fixed
 
 - Padding on no dash.
+- Search top padding on no top panel.
 
 ## [4.0.0] 2020-12-25
 
