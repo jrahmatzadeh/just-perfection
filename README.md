@@ -19,6 +19,14 @@ Also overrides the current GNOME shell theme (You don't need to have user-theme-
 
 This extension is also available on [GNOME Shell extensions website](https://extensions.gnome.org/extension/3843/just-perfection/).
 
+## Install Manually
+
+You can download this repo and install it manually with the build script:
+
+```bash
+$ ./scripts/build.sh -i
+```
+
 ## License
 
 - This Extension has been released under The **GNU General Public License v3.0**.
