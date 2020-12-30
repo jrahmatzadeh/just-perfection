@@ -12,6 +12,7 @@ This extension allows you to disable:
 - Top Panel
 - App gesture
 - Background Menu
+- Activities button
 
 Also overrides the current GNOME shell theme (You don't need to have user-theme-extension).
 
