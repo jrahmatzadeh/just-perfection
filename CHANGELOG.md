@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Added
+
+- Activities button visiblity to the settings.
+
 ### Changed
 
 - OSD in settings to "On Screen Display (OSD)".

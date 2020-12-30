@@ -64,6 +64,12 @@
       <description>Theme Status</description>
     </key>
     
+    <key type="b" name="activities-button">
+      <default>true</default>
+      <summary>Activities Button</summary>
+      <description>Activities Button Visibility Status</description>
+    </key>
+    
   </schema>
   
 </schemalist>

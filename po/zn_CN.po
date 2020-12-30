@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-25 23:18-0800\n"
+"POT-Creation-Date: 2020-12-30 13:11-0800\n"
 "PO-Revision-Date: 2020-12-18 04:39-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Language cn\n"
@@ -25,41 +25,45 @@ msgid "Top Panel"
 msgstr "顶板"
 
 #: ui/prefs.ui:156
+msgid "Activities Button"
+msgstr "活动按钮"
+
+#: ui/prefs.ui:212
 msgid "Hot Corner"
 msgstr "热角"
 
-#: ui/prefs.ui:212
+#: ui/prefs.ui:268
 msgid "Search"
 msgstr "搜索"
 
-#: ui/prefs.ui:268
+#: ui/prefs.ui:324
 msgid "Dash"
 msgstr "短跑"
 
-#: ui/prefs.ui:324
+#: ui/prefs.ui:380
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:380
+#: ui/prefs.ui:436
 msgid "Workspace Popup"
 msgstr "工作区弹出"
 
-#: ui/prefs.ui:436
+#: ui/prefs.ui:492
 msgid "Workspace Switcher"
 msgstr "工作区切换器"
 
-#: ui/prefs.ui:492
+#: ui/prefs.ui:548
 msgid "Background Menu"
 msgstr "后台菜单"
 
-#: ui/prefs.ui:548
+#: ui/prefs.ui:604
 msgid "App Gesture"
 msgstr "应用手势"
 
-#: ui/prefs.ui:600
+#: ui/prefs.ui:656
 msgid "Override"
 msgstr "覆写"
 
-#: ui/prefs.ui:652
+#: ui/prefs.ui:708
 msgid "Shell Theme"
 msgstr "贝壳主题"
