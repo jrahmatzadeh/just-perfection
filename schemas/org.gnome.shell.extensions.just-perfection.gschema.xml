@@ -76,6 +76,12 @@
       <description>App Menu Visibility Status</description>
     </key>
     
+    <key type="b" name="aggregate-menu">
+      <default>true</default>
+      <summary>Aggregate Menu</summary>
+      <description>Aggregate Menu Visibility Status</description>
+    </key>
+    
   </schema>
   
 </schemalist>

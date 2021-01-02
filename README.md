@@ -13,6 +13,8 @@ This extension allows you to disable:
 - App gesture
 - Background Menu
 - Activities button
+- App Menu
+- System Menu (Aggregate Menu)
 
 Also overrides the current GNOME shell theme (You don't need to have user-theme-extension).
 
