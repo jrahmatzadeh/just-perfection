@@ -20,11 +20,14 @@ function enable()
     let schemasFolderPath = Me.dir.get_child("schemas").get_path();
     let schemaID = Me.metadata['schema-id'];
 
+    let interfaceSettings = new Gio.Settings({schema_id: 'org.gnome.desktop.interface'});
+
     let api = new API.API({
         'Main': Main,
         'BackgroundMenu': BackgroundMenu,
         'OverviewControls': OverviewControls,
         'WorkspaceSwitcherPopup': WorkspaceSwitcherPopup,
+        'InterfaceSettings' : interfaceSettings,
     }, Config.PACKAGE_VERSION);
     
     let settings = Settings.getSettings(Gio, schemaID, schemasFolderPath);

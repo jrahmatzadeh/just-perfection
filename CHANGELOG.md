@@ -9,6 +9,8 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Added
 
 - Activities button visiblity to the settings.
+- App menu visiblity to the settings.
+- System Menu (Aggregate Menu) visiblity to the settings.
 
 ### Changed
 
@@ -18,6 +20,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - Padding on no dash.
 - Search top padding on no top panel.
+- Hot corner when top panel is visible.
 
 ## [4.0.0] 2020-12-25
 
