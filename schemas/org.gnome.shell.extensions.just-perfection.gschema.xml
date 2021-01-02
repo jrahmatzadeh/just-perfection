@@ -69,6 +69,12 @@
       <summary>Activities Button</summary>
       <description>Activities Button Visibility Status</description>
     </key>
+
+    <key type="b" name="app-menu">
+      <default>true</default>
+      <summary>App Menu</summary>
+      <description>App Menu Visibility Status</description>
+    </key>
     
   </schema>
   

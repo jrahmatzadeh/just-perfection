@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-30 13:11-0800\n"
+"POT-Creation-Date: 2021-01-02 11:38-0800\n"
 "PO-Revision-Date: 2020-12-18 04:45-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Swedish\n"
@@ -30,41 +30,45 @@ msgid "Activities Button"
 msgstr "Knappen Aktiviteter"
 
 #: ui/prefs.ui:212
+msgid "App Menu"
+msgstr "app-menyn"
+
+#: ui/prefs.ui:268
 msgid "Hot Corner"
 msgstr "Hot Corner"
 
-#: ui/prefs.ui:268
+#: ui/prefs.ui:324
 msgid "Search"
 msgstr "Sök"
 
-#: ui/prefs.ui:324
+#: ui/prefs.ui:380
 msgid "Dash"
 msgstr "Rusa"
 
-#: ui/prefs.ui:380
+#: ui/prefs.ui:436
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:436
+#: ui/prefs.ui:492
 msgid "Workspace Popup"
 msgstr "Arbetsytan Pop up"
 
-#: ui/prefs.ui:492
+#: ui/prefs.ui:548
 msgid "Workspace Switcher"
 msgstr "Arbetsytaswitcher"
 
-#: ui/prefs.ui:548
+#: ui/prefs.ui:604
 msgid "Background Menu"
 msgstr "Bakgrundsmeny"
 
-#: ui/prefs.ui:604
+#: ui/prefs.ui:660
 msgid "App Gesture"
 msgstr "App gest"
 
-#: ui/prefs.ui:656
+#: ui/prefs.ui:712
 msgid "Override"
 msgstr "Åsidosätta"
 
-#: ui/prefs.ui:708
+#: ui/prefs.ui:764
 msgid "Shell Theme"
 msgstr "Shell-tema"
