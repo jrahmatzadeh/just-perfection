@@ -88,6 +88,12 @@
       <description>Keyboard Layout Visibility Status</description>
     </key>
     
+    <key type="b" name="accessibility-menu">
+      <default>true</default>
+      <summary>Accessibility Menu</summary>
+      <description>Accessibility Menu Visibility Status</description>
+    </key>
+    
     <key type="b" name="aggregate-menu">
       <default>true</default>
       <summary>Aggregate Menu</summary>

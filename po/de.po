@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-04 12:31-0800\n"
+"POT-Creation-Date: 2021-01-04 12:51-0800\n"
 "PO-Revision-Date: 2020-12-18 04:55-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: German\n"
@@ -42,45 +42,49 @@ msgid "Keyboard Layout"
 msgstr "Tastaturbelegung"
 
 #: ui/prefs.ui:380
+msgid "Accessibility Menu"
+msgstr "Eingabehilfen-Menü"
+
+#: ui/prefs.ui:436
 msgid "System Menu (Aggregate Menu)"
 msgstr "Das Systemmenü"
 
-#: ui/prefs.ui:436
+#: ui/prefs.ui:492
 msgid "Hot Corner"
 msgstr "Funktionale Ecke"
 
-#: ui/prefs.ui:492
+#: ui/prefs.ui:548
 msgid "Search"
 msgstr "Suche"
 
-#: ui/prefs.ui:548
+#: ui/prefs.ui:604
 msgid "Dash"
 msgstr "Dash"
 
-#: ui/prefs.ui:604
+#: ui/prefs.ui:660
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:660
+#: ui/prefs.ui:716
 msgid "Workspace Popup"
 msgstr "Arbeitsflächen-Popup"
 
-#: ui/prefs.ui:716
+#: ui/prefs.ui:772
 msgid "Workspace Switcher"
 msgstr "Arbeitsflächenumschalter"
 
-#: ui/prefs.ui:772
+#: ui/prefs.ui:828
 msgid "Background Menu"
 msgstr "Hintergrundmenü"
 
-#: ui/prefs.ui:828
+#: ui/prefs.ui:884
 msgid "App Gesture"
 msgstr "App-Geste"
 
-#: ui/prefs.ui:880
+#: ui/prefs.ui:936
 msgid "Override"
 msgstr "Überschreiben"
 
-#: ui/prefs.ui:932
+#: ui/prefs.ui:988
 msgid "Shell Theme"
 msgstr "Shell-Thema"

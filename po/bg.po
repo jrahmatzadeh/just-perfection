@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-04 12:31-0800\n"
+"POT-Creation-Date: 2021-01-04 12:51-0800\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -42,45 +42,49 @@ msgid "Keyboard Layout"
 msgstr "Клавиатурна подредба"
 
 #: ui/prefs.ui:380
+msgid "Accessibility Menu"
+msgstr "Меню за достъпност"
+
+#: ui/prefs.ui:436
 msgid "System Menu (Aggregate Menu)"
 msgstr "системно меню"
 
-#: ui/prefs.ui:436
+#: ui/prefs.ui:492
 msgid "Hot Corner"
 msgstr "Горещ ъгъл"
 
-#: ui/prefs.ui:492
+#: ui/prefs.ui:548
 msgid "Search"
 msgstr "Търсене"
 
-#: ui/prefs.ui:548
+#: ui/prefs.ui:604
 msgid "Dash"
 msgstr "Тире"
 
-#: ui/prefs.ui:604
+#: ui/prefs.ui:660
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:660
+#: ui/prefs.ui:716
 msgid "Workspace Popup"
 msgstr "Изскачащо работно пространство"
 
-#: ui/prefs.ui:716
+#: ui/prefs.ui:772
 msgid "Workspace Switcher"
 msgstr "Превключвател на работното пространство"
 
-#: ui/prefs.ui:772
+#: ui/prefs.ui:828
 msgid "Background Menu"
 msgstr "Меню на фона"
 
-#: ui/prefs.ui:828
+#: ui/prefs.ui:884
 msgid "App Gesture"
 msgstr "App жест"
 
-#: ui/prefs.ui:880
+#: ui/prefs.ui:936
 msgid "Override"
 msgstr "Замяна"
 
-#: ui/prefs.ui:932
+#: ui/prefs.ui:988
 msgid "Shell Theme"
 msgstr "Тема Shell"

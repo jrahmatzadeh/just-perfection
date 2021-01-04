@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-04 12:33-0800\n"
+"POT-Creation-Date: 2021-01-04 12:54-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,45 +42,49 @@ msgid "Keyboard Layout"
 msgstr ""
 
 #: ui/prefs.ui:380
-msgid "System Menu (Aggregate Menu)"
+msgid "Accessibility Menu"
 msgstr ""
 
 #: ui/prefs.ui:436
-msgid "Hot Corner"
+msgid "System Menu (Aggregate Menu)"
 msgstr ""
 
 #: ui/prefs.ui:492
-msgid "Search"
+msgid "Hot Corner"
 msgstr ""
 
 #: ui/prefs.ui:548
-msgid "Dash"
+msgid "Search"
 msgstr ""
 
 #: ui/prefs.ui:604
-msgid "On Screen Display (OSD)"
+msgid "Dash"
 msgstr ""
 
 #: ui/prefs.ui:660
-msgid "Workspace Popup"
+msgid "On Screen Display (OSD)"
 msgstr ""
 
 #: ui/prefs.ui:716
-msgid "Workspace Switcher"
+msgid "Workspace Popup"
 msgstr ""
 
 #: ui/prefs.ui:772
-msgid "Background Menu"
+msgid "Workspace Switcher"
 msgstr ""
 
 #: ui/prefs.ui:828
+msgid "Background Menu"
+msgstr ""
+
+#: ui/prefs.ui:884
 msgid "App Gesture"
 msgstr ""
 
-#: ui/prefs.ui:880
+#: ui/prefs.ui:936
 msgid "Override"
 msgstr ""
 
-#: ui/prefs.ui:932
+#: ui/prefs.ui:988
 msgid "Shell Theme"
 msgstr ""

@@ -12,6 +12,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - App menu visiblity to the settings.
 - Clock menu visiblity to the settings.
 - Keyboard Layout visiblity to the settings.
+- Accessibility Menu visiblity to the settings.
 - System Menu (Aggregate Menu) visiblity to the settings.
 
 ### Changed
