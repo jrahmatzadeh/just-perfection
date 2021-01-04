@@ -10,6 +10,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - Activities button visiblity to the settings.
 - App menu visiblity to the settings.
+- Clock menu visiblity to the settings.
 - System Menu (Aggregate Menu) visiblity to the settings.
 
 ### Changed
