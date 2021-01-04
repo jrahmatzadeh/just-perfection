@@ -15,6 +15,7 @@ This extension allows you to disable:
 - Activities button
 - App Menu
 - Clock Menu
+- Keyboard Layout
 - System Menu (Aggregate Menu)
 
 Also overrides the current GNOME shell theme (You don't need to have user-theme-extension).

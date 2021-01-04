@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-04 11:53-0800\n"
+"POT-Creation-Date: 2021-01-04 12:31-0800\n"
 "PO-Revision-Date: 2020-12-18 04:39-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Language cn\n"
@@ -37,45 +37,49 @@ msgid "Clock Menu"
 msgstr "时钟菜单"
 
 #: ui/prefs.ui:324
+msgid "Keyboard Layout"
+msgstr "键盘布局"
+
+#: ui/prefs.ui:380
 msgid "System Menu (Aggregate Menu)"
 msgstr "系统菜单"
 
-#: ui/prefs.ui:380
+#: ui/prefs.ui:436
 msgid "Hot Corner"
 msgstr "热角"
 
-#: ui/prefs.ui:436
+#: ui/prefs.ui:492
 msgid "Search"
 msgstr "搜索"
 
-#: ui/prefs.ui:492
+#: ui/prefs.ui:548
 msgid "Dash"
 msgstr "短跑"
 
-#: ui/prefs.ui:548
+#: ui/prefs.ui:604
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:604
+#: ui/prefs.ui:660
 msgid "Workspace Popup"
 msgstr "工作区弹出"
 
-#: ui/prefs.ui:660
+#: ui/prefs.ui:716
 msgid "Workspace Switcher"
 msgstr "工作区切换器"
 
-#: ui/prefs.ui:716
+#: ui/prefs.ui:772
 msgid "Background Menu"
 msgstr "后台菜单"
 
-#: ui/prefs.ui:772
+#: ui/prefs.ui:828
 msgid "App Gesture"
 msgstr "应用手势"
 
-#: ui/prefs.ui:824
+#: ui/prefs.ui:880
 msgid "Override"
 msgstr "覆写"
 
-#: ui/prefs.ui:876
+#: ui/prefs.ui:932
 msgid "Shell Theme"
 msgstr "贝壳主题"
