@@ -33,9 +33,9 @@ You can download this repo and install it manually with the build script:
 $ ./scripts/build.sh -i
 ```
 
-## Donation
+## Support
 
-If you want to support my work, you can do it via [Patreon](https://www.patreon.com/justperfection).
+You can support my work via [Patreon](https://www.patreon.com/justperfection).
 
 ## License
 
