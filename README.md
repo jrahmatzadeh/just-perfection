@@ -1,4 +1,4 @@
-# Super minimal GNOME desktop with Just Perfection GNOME Shell Extension
+# Just Perfection GNOME Shell Extension
 
 ![Just Perfection GNOME Shell Extension Logo](bin/top.svg)
 
