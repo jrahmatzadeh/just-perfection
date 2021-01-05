@@ -6,14 +6,16 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+## [5.0.0] - 2021-01-05
+
 ### Added
 
-- Activities button visiblity to the settings.
-- App menu visiblity to the settings.
-- Clock menu visiblity to the settings.
-- Keyboard Layout visiblity to the settings.
-- Accessibility Menu visiblity to the settings.
-- System Menu (Aggregate Menu) visiblity to the settings.
+- Activities button visibility to the settings.
+- App menu visibility to the settings.
+- Clock menu visibility to the settings.
+- Keyboard Layout visibility to the settings.
+- Accessibility Menu visibility to the settings.
+- System Menu (Aggregate Menu) visibility to the settings.
 
 ### Changed
 
