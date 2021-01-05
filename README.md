@@ -33,6 +33,10 @@ You can download this repo and install it manually with the build script:
 $ ./scripts/build.sh -i
 ```
 
+## Donation
+
+If you want to support my work, you can do it via [Patreon](https://www.patreon.com/justperfection).
+
 ## License
 
 - This Extension has been released under The **GNU General Public License v3.0**.
