@@ -232,3 +232,9 @@
     padding-bottom: 36px;
 }
 
+.just-perfection-api-no-workspace .window-picker
+{
+    /* 100% won't work but when the px is more than the maximum width it will be 100%*/
+    width: 100000px;
+}
+
