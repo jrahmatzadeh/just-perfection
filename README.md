@@ -37,6 +37,10 @@ $ ./scripts/build.sh -i
 
 You can support my work via [Patreon](https://www.patreon.com/justperfection).
 
+## Awards
+
+- [Ask Noah Show (Pick of the Week)](https://podcast.asknoahshow.com/212?t=1643).
+
 ## License
 
 - This Extension has been released under The **GNU General Public License v3.0**.
