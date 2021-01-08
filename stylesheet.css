@@ -33,6 +33,7 @@
     border-radius: 9px;
     padding: 4px 12px;
     font-size: small;
+    font-weight: normal;
 }
   
 .just-perfection .window-close
@@ -218,6 +219,13 @@
     border-color: #0860f2;
     padding: 0;
     padding-bottom: 2px;
+    border-radius: 0;
+}
+
+.just-perfection .tile-preview
+{
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 0;
 }
 
