@@ -2,11 +2,15 @@ const Me = imports.misc.extensionUtils.getCurrentExtension();
 const {API, Settings, Manager, HotCorner} = Me.imports.lib;
 const {Gio, St} = imports.gi;
 
+const Config = imports.misc.config;
+const ShellVersion = parseFloat(Config.PACKAGE_VERSION);
+
 const Main = imports.ui.main;
 const BackgroundMenu = imports.ui.backgroundMenu;
 const OverviewControls = imports.ui.overviewControls;
 const WorkspaceSwitcherPopup = imports.ui.workspaceSwitcherPopup;
-const Config = imports.misc.config;
+const SearchController = (ShellVersion >= 40) ? imports.ui.searchController : null;
+
 
 let manager;
 
@@ -28,7 +32,8 @@ function enable()
         'OverviewControls': OverviewControls,
         'WorkspaceSwitcherPopup': WorkspaceSwitcherPopup,
         'InterfaceSettings' : interfaceSettings,
-    }, Config.PACKAGE_VERSION);
+        'SearchController' : SearchController,
+    }, ShellVersion);
     
     let settings = Settings.getSettings(Gio, schemaID, schemasFolderPath);
     let hotCorner = new HotCorner.HotCorner({ 'API': api, 'St': St });
