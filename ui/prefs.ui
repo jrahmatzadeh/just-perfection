@@ -111,7 +111,6 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="valign">center</property>
-                                    <signal name="state-set" handler="panel_switch_state_set" swapped="no"/>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>
@@ -167,7 +166,6 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="valign">center</property>
-                                    <signal name="state-set" handler="activities_button_switch_state_set" swapped="no"/>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>
@@ -223,7 +221,6 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="valign">center</property>
-                                    <signal name="state-set" handler="app_menu_switch_state_set" swapped="no"/>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>
@@ -279,7 +276,6 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="valign">center</property>
-                                    <signal name="state-set" handler="clock_menu_switch_state_set" swapped="no"/>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>
@@ -335,7 +331,6 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="valign">center</property>
-                                    <signal name="state-set" handler="keyboard_layout_switch_state_set" swapped="no"/>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>
@@ -391,7 +386,6 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="valign">center</property>
-                                    <signal name="state-set" handler="accessibility_menu_switch_state_set" swapped="no"/>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>
@@ -447,7 +441,6 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="valign">center</property>
-                                    <signal name="state-set" handler="aggregate_menu_switch_state_set" swapped="no"/>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>
@@ -503,7 +496,6 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="valign">center</property>
-                                    <signal name="state-set" handler="hot_corner_switch_state_set" swapped="no"/>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>
@@ -559,7 +551,6 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="valign">center</property>
-                                    <signal name="state-set" handler="search_switch_state_set" swapped="no"/>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>
@@ -615,7 +606,6 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="valign">center</property>
-                                    <signal name="state-set" handler="dash_switch_state_set" swapped="no"/>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>
@@ -671,7 +661,6 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="valign">center</property>
-                                    <signal name="state-set" handler="osd_switch_state_set" swapped="no"/>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>
@@ -727,7 +716,6 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="valign">center</property>
-                                    <signal name="state-set" handler="workspace_popup_switch_state_set" swapped="no"/>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>
@@ -783,7 +771,6 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="valign">center</property>
-                                    <signal name="state-set" handler="workspace_switch_state_set" swapped="no"/>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>
@@ -839,7 +826,6 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="valign">center</property>
-                                    <signal name="state-set" handler="background_menu_switch_state_set" swapped="no"/>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>
@@ -895,7 +881,6 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="valign">center</property>
-                                    <signal name="state-set" handler="gesture_switch_state_set" swapped="no"/>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>
@@ -999,7 +984,6 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="valign">center</property>
-                                    <signal name="state-set" handler="theme_switch_state_set" swapped="no"/>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>
