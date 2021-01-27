@@ -42,7 +42,7 @@ function enable()
         'API': api,
         'Settings': settings,
         'HotCorner': hotCorner,
-    });
+    }, ShellVersion);
         
     manager.registerSettingsSignals();
     manager.applyAll();

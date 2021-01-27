@@ -200,7 +200,7 @@
     border-radius: 15px 0 0 15px;
 }
 
-.just-perfection .workspace-thumbnails
+.just-perfection.just-perfection-gnome3 .workspace-thumbnails
 {
     spacing: 20px;
     padding: 20px;
@@ -212,7 +212,7 @@
     background-color: rgba(0, 0, 0, .5);
 }
 
-.just-perfection .workspace-thumbnail-indicator
+.just-perfection.just-perfection-gnome3 .workspace-thumbnail-indicator
 {
     border: 0;
     border-bottom: 2px solid transparent;
