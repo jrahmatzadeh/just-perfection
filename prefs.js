@@ -15,6 +15,7 @@ function buildPrefsWidget ()
     let gettextDomain = Me.metadata['gettext-domain'];
     let UIFilePath = Me.dir.get_child("ui").get_path() + '/prefs.ui';
     let localeFolderPath = Me.dir.get_child("locale").get_path();
+    let binFolderPath = Me.dir.get_child("bin").get_path();
     
     Translation.init(Gettext, gettextDomain, localeFolderPath);
 
@@ -22,6 +23,6 @@ function buildPrefsWidget ()
     let settings = Settings.getSettings(Gio, schemaID, schemasFolderPath);
     let prefs = new Prefs.Prefs({'Builder': builder, 'Settings': settings});
     
-    return prefs.getMainPrefs(UIFilePath, gettextDomain);
+    return prefs.getMainPrefs(UIFilePath, binFolderPath, gettextDomain);
 }
 
