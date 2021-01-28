@@ -11,6 +11,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - GNOME Shell 3.38 extra padding on no workspace switcher.
 - GNOME Shell 40 support for search entry.
 - GNOME Shell 40 and GTK4 support for prefs.
+- GNOME Shell 40 support for workspace switcher.
 
 ## [5.0.0] - 2021-01-05
 

@@ -240,9 +240,20 @@
     padding-bottom: 36px;
 }
 
-.just-perfection-api-no-workspace .window-picker
+.just-perfection-api-gnome3.just-perfection-api-no-workspace .window-picker
 {
     /* 100% won't work but when the px is more than the maximum width it will be 100%*/
     width: 100000px;
+}
+
+.just-perfection-api-gnome40.just-perfection-api-no-workspace .workspace-thumbnails,
+.just-perfection-api-gnome40.just-perfection-api-no-workspace .workspace-thumbnail-indicator
+{
+    spacing: 0;
+    padding: 0;
+    margin: 0;
+    width: 0;
+    height: 0;
+    border: 0;
 }
 

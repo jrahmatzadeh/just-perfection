@@ -13,6 +13,7 @@ const SearchController = (ShellVersion >= 40) ? imports.ui.searchController : nu
 
 
 let manager;
+let api;
 
 
 function init()
@@ -26,7 +27,7 @@ function enable()
 
     let interfaceSettings = new Gio.Settings({schema_id: 'org.gnome.desktop.interface'});
 
-    let api = new API.API({
+    api = new API.API({
         'Main': Main,
         'BackgroundMenu': BackgroundMenu,
         'OverviewControls': OverviewControls,
@@ -34,6 +35,8 @@ function enable()
         'InterfaceSettings' : interfaceSettings,
         'SearchController' : SearchController,
     }, ShellVersion);
+    
+    api.open();
     
     let settings = Settings.getSettings(Gio, schemaID, schemasFolderPath);
     let hotCorner = new HotCorner.HotCorner({ 'API': api, 'St': St });
@@ -52,5 +55,6 @@ function disable()
 {
     manager.revertAll();
     manager = null;
+    api.close();
 }
 
