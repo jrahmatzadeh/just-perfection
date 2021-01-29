@@ -6,6 +6,8 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+## [6.0.0] - 2021-01-29
+
 ### Fixed
 
 - GNOME Shell 3.38 extra padding on no workspace switcher.
