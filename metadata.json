@@ -1,7 +1,7 @@
 {
     "name": "Just Perfection",
     "description": "Super minimal GNOME desktop. This extension removes OSD, Search, Dock, Workspace Switcher, Workspace Popup, App Gesture, Top Panel, Activities button, App Menu, Clock Menu, Keyboard Layout, Accessibility Menu, System Menu and Background Menu. Also override the current GNOME shell theme (You don't need to have user-theme-extension).",
-    "shell-version": ["3.36", "3.38", "40"],
+    "shell-version": ["3.36", "3.38", "40.0"],
     "schema-id": "org.gnome.shell.extensions.just-perfection",
     "gettext-domain": "just-perfection",
     "url": "https://gitlab.com/justperfection.channel/just-perfection-gnome-shell-desktop",
