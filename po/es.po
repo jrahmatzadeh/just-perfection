@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Just Perfection
+# This file is distributed under the same license as the Just Perfection package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Óscar Fernández Díaz <oscfdezdz@tuta.io>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Just Perfection 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-04 12:54-0800\n"
+"PO-Revision-Date: 2021-02-01 18:27+0100\n"
+"Language-Team: Spanish; Castilian <oscfdezdz@tuta.io>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Gtranslator 3.38.0\n"
+"Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Language: es\n"
+
+#: ui/prefs.ui:48
+msgid "Visibility"
+msgstr "Visibilidad"
+
+#: ui/prefs.ui:100
+msgid "Top Panel"
+msgstr "Panel superior"
+
+#: ui/prefs.ui:156
+msgid "Activities Button"
+msgstr "Botón de actividades"
+
+#: ui/prefs.ui:212
+msgid "App Menu"
+msgstr "Menú de aplicaciones"
+
+#: ui/prefs.ui:268
+msgid "Clock Menu"
+msgstr "Menú del reloj"
+
+#: ui/prefs.ui:324
+msgid "Keyboard Layout"
+msgstr "Distribución del teclado"
+
+#: ui/prefs.ui:380
+msgid "Accessibility Menu"
+msgstr "Menú de accesibilidad"
+
+#: ui/prefs.ui:436
+msgid "System Menu (Aggregate Menu)"
+msgstr "Menú del sistema (Menú agregado)"
+
+#: ui/prefs.ui:492
+msgid "Hot Corner"
+msgstr "Esquina activa"
+
+#: ui/prefs.ui:548
+msgid "Search"
+msgstr "Búsqueda"
+
+#: ui/prefs.ui:604
+msgid "Dash"
+msgstr "Dash"
+
+#: ui/prefs.ui:660
+msgid "On Screen Display (OSD)"
+msgstr "Visualización en pantalla (OSD)"
+
+#: ui/prefs.ui:716
+msgid "Workspace Popup"
+msgstr "Indicador del espacio de trabajo"
+
+#: ui/prefs.ui:772
+msgid "Workspace Switcher"
+msgstr "Conmutador del espacio de trabajo"
+
+#: ui/prefs.ui:828
+msgid "Background Menu"
+msgstr "Menú del fondo de pantalla"
+
+#: ui/prefs.ui:884
+msgid "App Gesture"
+msgstr "Animación de \"Mostrar aplicaciones\""
+
+#: ui/prefs.ui:936
+msgid "Override"
+msgstr "Control manual"
+
+#: ui/prefs.ui:988
+msgid "Shell Theme"
+msgstr "Tema de Shell"
