@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Added
+
+- Spanish translation by [oscfdezdz](https://gitlab.com/oscfdezdz).
+
 ## [6.0.0] - 2021-01-29
 
 ### Fixed
@@ -42,14 +46,14 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - API to decouple all libraries from using GNOME Shell ui directly.
 - Compatibility layer for API.
-- Translation automation script from [@daPhipz](https://gitlab.com/daPhipz).
-- Automate build process from [@daPhipz](https://gitlab.com/daPhipz).
+- Translation automation script by [@daPhipz](https://gitlab.com/daPhipz).
+- Automate build process by [@daPhipz](https://gitlab.com/daPhipz).
 - CHANGELOG.md file.
 
 ### Changed
 
-- Improve German translation from [@M4he](https://gitlab.com/M4he).
-- Displaying error for generate-mo.sh from [@daPhipz](https://gitlab.com/daPhipz).
+- Improve German translation by [@M4he](https://gitlab.com/M4he).
+- Displaying error for generate-mo.sh by [@daPhipz](https://gitlab.com/daPhipz).
 - Default settings to enable.
 
 ### Fixed
