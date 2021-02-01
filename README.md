@@ -25,6 +25,14 @@ Also overrides the current GNOME shell theme (You don't need to have user-theme-
 
 This extension is also available on [GNOME Shell extensions website](https://extensions.gnome.org/extension/3843/just-perfection/).
 
+## GNOME Shell Support
+
+| GNOME Shell Version | End Of Support |
+| ------------------- | -------------- |
+| 3.36                | July 2025      |
+| 3.38                | July 2025      |
+| 40.0                | TBA            |
+
 ## Install Manually
 
 You can download this repo and install it manually with the build script:
