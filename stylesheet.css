@@ -269,3 +269,14 @@
     margin-bottom: 55px;
 }
 
+.just-perfection-api-gnome3.just-perfection-api-no-panel .search-entry
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.just-perfection-api-gnome40.just-perfection-api-no-panel .search-entry
+{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
