@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Fixed
+
+- GNOME Shell 40 hidden side by side workspace preview.
+
 ### Added
 
 - Spanish translation by [oscfdezdz](https://gitlab.com/oscfdezdz).
