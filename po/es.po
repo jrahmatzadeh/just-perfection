@@ -8,85 +8,89 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-04 12:54-0800\n"
+"POT-Creation-Date: 2021-02-03 15:08-0800\n"
 "PO-Revision-Date: 2021-02-01 18:27+0100\n"
+"Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish; Castilian <oscfdezdz@tuta.io>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Gtranslator 3.38.0\n"
-"Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"Language: es\n"
 
-#: ui/prefs.ui:48
+#: ui/prefs.ui:41
 msgid "Visibility"
 msgstr "Visibilidad"
 
-#: ui/prefs.ui:100
+#: ui/prefs.ui:82
 msgid "Top Panel"
 msgstr "Panel superior"
 
-#: ui/prefs.ui:156
+#: ui/prefs.ui:123
 msgid "Activities Button"
 msgstr "Botón de actividades"
 
-#: ui/prefs.ui:212
+#: ui/prefs.ui:164
 msgid "App Menu"
 msgstr "Menú de aplicaciones"
 
-#: ui/prefs.ui:268
+#: ui/prefs.ui:205
 msgid "Clock Menu"
 msgstr "Menú del reloj"
 
-#: ui/prefs.ui:324
+#: ui/prefs.ui:246
 msgid "Keyboard Layout"
 msgstr "Distribución del teclado"
 
-#: ui/prefs.ui:380
+#: ui/prefs.ui:287
 msgid "Accessibility Menu"
 msgstr "Menú de accesibilidad"
 
-#: ui/prefs.ui:436
+#: ui/prefs.ui:328
 msgid "System Menu (Aggregate Menu)"
 msgstr "Menú del sistema (Menú agregado)"
 
-#: ui/prefs.ui:492
+#: ui/prefs.ui:369
 msgid "Hot Corner"
 msgstr "Esquina activa"
 
-#: ui/prefs.ui:548
+#: ui/prefs.ui:410
 msgid "Search"
 msgstr "Búsqueda"
 
-#: ui/prefs.ui:604
+#: ui/prefs.ui:451
 msgid "Dash"
 msgstr "Dash"
 
-#: ui/prefs.ui:660
+#: ui/prefs.ui:492
 msgid "On Screen Display (OSD)"
 msgstr "Visualización en pantalla (OSD)"
 
-#: ui/prefs.ui:716
+#: ui/prefs.ui:533
 msgid "Workspace Popup"
 msgstr "Indicador del espacio de trabajo"
 
-#: ui/prefs.ui:772
+#: ui/prefs.ui:574
 msgid "Workspace Switcher"
 msgstr "Conmutador del espacio de trabajo"
 
-#: ui/prefs.ui:828
+#: ui/prefs.ui:615
 msgid "Background Menu"
 msgstr "Menú del fondo de pantalla"
 
-#: ui/prefs.ui:884
+#: ui/prefs.ui:656
 msgid "App Gesture"
 msgstr "Animación de \"Mostrar aplicaciones\""
 
-#: ui/prefs.ui:936
+#: ui/prefs.ui:688
 msgid "Override"
 msgstr "Control manual"
 
-#: ui/prefs.ui:988
+#: ui/prefs.ui:729
 msgid "Shell Theme"
 msgstr "Tema de Shell"
+
+#: ui/prefs.ui:770
+msgid "No Panel Corner"
+msgstr "Sin esquina de panel"

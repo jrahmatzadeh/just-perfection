@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-04 12:51-0800\n"
+"POT-Creation-Date: 2021-02-03 15:08-0800\n"
 "PO-Revision-Date: 2020-12-18 04:58-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -18,74 +18,78 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ui/prefs.ui:48
+#: ui/prefs.ui:41
 msgid "Visibility"
 msgstr "Видимость"
 
-#: ui/prefs.ui:100
+#: ui/prefs.ui:82
 msgid "Top Panel"
 msgstr "Верхняя панель"
 
-#: ui/prefs.ui:156
+#: ui/prefs.ui:123
 msgid "Activities Button"
 msgstr "Кнопка действий"
 
-#: ui/prefs.ui:212
+#: ui/prefs.ui:164
 msgid "App Menu"
 msgstr "меню приложения"
 
-#: ui/prefs.ui:268
+#: ui/prefs.ui:205
 msgid "Clock Menu"
 msgstr "часы Меню"
 
-#: ui/prefs.ui:324
+#: ui/prefs.ui:246
 msgid "Keyboard Layout"
 msgstr "Раскладка клавиатуры"
 
-#: ui/prefs.ui:380
+#: ui/prefs.ui:287
 msgid "Accessibility Menu"
 msgstr "Меню специальных возможностей"
 
-#: ui/prefs.ui:436
+#: ui/prefs.ui:328
 msgid "System Menu (Aggregate Menu)"
 msgstr "системное меню"
 
-#: ui/prefs.ui:492
+#: ui/prefs.ui:369
 msgid "Hot Corner"
 msgstr "Горячий уголок"
 
-#: ui/prefs.ui:548
+#: ui/prefs.ui:410
 msgid "Search"
 msgstr "Поиск"
 
-#: ui/prefs.ui:604
+#: ui/prefs.ui:451
 msgid "Dash"
 msgstr "Тире"
 
-#: ui/prefs.ui:660
+#: ui/prefs.ui:492
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:716
+#: ui/prefs.ui:533
 msgid "Workspace Popup"
 msgstr "Всплывающее окно рабочей области"
 
-#: ui/prefs.ui:772
+#: ui/prefs.ui:574
 msgid "Workspace Switcher"
 msgstr "Переключатель рабочего пространства"
 
-#: ui/prefs.ui:828
+#: ui/prefs.ui:615
 msgid "Background Menu"
 msgstr "Фоновое меню"
 
-#: ui/prefs.ui:884
+#: ui/prefs.ui:656
 msgid "App Gesture"
 msgstr "Жест приложения"
 
-#: ui/prefs.ui:936
+#: ui/prefs.ui:688
 msgid "Override"
 msgstr "Переопределить"
 
-#: ui/prefs.ui:988
+#: ui/prefs.ui:729
 msgid "Shell Theme"
 msgstr "Тема оболочки"
+
+#: ui/prefs.ui:770
+msgid "No Panel Corner"
+msgstr "Без угла панели"

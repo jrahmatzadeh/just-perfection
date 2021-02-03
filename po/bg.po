@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-04 12:51-0800\n"
+"POT-Creation-Date: 2021-02-03 15:08-0800\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -17,74 +17,78 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ui/prefs.ui:48
+#: ui/prefs.ui:41
 msgid "Visibility"
 msgstr "Видимост"
 
-#: ui/prefs.ui:100
+#: ui/prefs.ui:82
 msgid "Top Panel"
 msgstr "Горен панел"
 
-#: ui/prefs.ui:156
+#: ui/prefs.ui:123
 msgid "Activities Button"
 msgstr "Бутон за дейности"
 
-#: ui/prefs.ui:212
+#: ui/prefs.ui:164
 msgid "App Menu"
 msgstr "Меню на приложението"
 
-#: ui/prefs.ui:268
+#: ui/prefs.ui:205
 msgid "Clock Menu"
 msgstr "часовник Меню"
 
-#: ui/prefs.ui:324
+#: ui/prefs.ui:246
 msgid "Keyboard Layout"
 msgstr "Клавиатурна подредба"
 
-#: ui/prefs.ui:380
+#: ui/prefs.ui:287
 msgid "Accessibility Menu"
 msgstr "Меню за достъпност"
 
-#: ui/prefs.ui:436
+#: ui/prefs.ui:328
 msgid "System Menu (Aggregate Menu)"
 msgstr "системно меню"
 
-#: ui/prefs.ui:492
+#: ui/prefs.ui:369
 msgid "Hot Corner"
 msgstr "Горещ ъгъл"
 
-#: ui/prefs.ui:548
+#: ui/prefs.ui:410
 msgid "Search"
 msgstr "Търсене"
 
-#: ui/prefs.ui:604
+#: ui/prefs.ui:451
 msgid "Dash"
 msgstr "Тире"
 
-#: ui/prefs.ui:660
+#: ui/prefs.ui:492
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:716
+#: ui/prefs.ui:533
 msgid "Workspace Popup"
 msgstr "Изскачащо работно пространство"
 
-#: ui/prefs.ui:772
+#: ui/prefs.ui:574
 msgid "Workspace Switcher"
 msgstr "Превключвател на работното пространство"
 
-#: ui/prefs.ui:828
+#: ui/prefs.ui:615
 msgid "Background Menu"
 msgstr "Меню на фона"
 
-#: ui/prefs.ui:884
+#: ui/prefs.ui:656
 msgid "App Gesture"
 msgstr "App жест"
 
-#: ui/prefs.ui:936
+#: ui/prefs.ui:688
 msgid "Override"
 msgstr "Замяна"
 
-#: ui/prefs.ui:988
+#: ui/prefs.ui:729
 msgid "Shell Theme"
 msgstr "Тема Shell"
+
+#: ui/prefs.ui:770
+msgid "No Panel Corner"
+msgstr "Няма панелен ъгъл"

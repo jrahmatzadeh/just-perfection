@@ -280,3 +280,8 @@
     margin-top: 30px;
     margin-bottom: 10px;
 }
+
+.just-perfection-api-no-panel-corner #panel .panel-corner
+{
+  -panel-corner-radius: 0;
+}

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-04 12:51-0800\n"
+"POT-Creation-Date: 2021-02-03 15:08-0800\n"
 "PO-Revision-Date: 2020-12-13 07:26-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: French\n"
@@ -18,74 +18,78 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 2.3\n"
 
-#: ui/prefs.ui:48
+#: ui/prefs.ui:41
 msgid "Visibility"
 msgstr "Visibilité"
 
-#: ui/prefs.ui:100
+#: ui/prefs.ui:82
 msgid "Top Panel"
 msgstr "Panneau du haut"
 
-#: ui/prefs.ui:156
+#: ui/prefs.ui:123
 msgid "Activities Button"
 msgstr "Bouton d'activités"
 
-#: ui/prefs.ui:212
+#: ui/prefs.ui:164
 msgid "App Menu"
 msgstr "menu de l'application"
 
-#: ui/prefs.ui:268
+#: ui/prefs.ui:205
 msgid "Clock Menu"
 msgstr "Menu horloge"
 
-#: ui/prefs.ui:324
+#: ui/prefs.ui:246
 msgid "Keyboard Layout"
 msgstr "Clavier"
 
-#: ui/prefs.ui:380
+#: ui/prefs.ui:287
 msgid "Accessibility Menu"
 msgstr "Menu d'accessibilité"
 
-#: ui/prefs.ui:436
+#: ui/prefs.ui:328
 msgid "System Menu (Aggregate Menu)"
 msgstr "menu système"
 
-#: ui/prefs.ui:492
+#: ui/prefs.ui:369
 msgid "Hot Corner"
 msgstr "Coin chaud"
 
-#: ui/prefs.ui:548
+#: ui/prefs.ui:410
 msgid "Search"
 msgstr "Chercher"
 
-#: ui/prefs.ui:604
+#: ui/prefs.ui:451
 msgid "Dash"
 msgstr "Tiret"
 
-#: ui/prefs.ui:660
+#: ui/prefs.ui:492
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:716
+#: ui/prefs.ui:533
 msgid "Workspace Popup"
 msgstr "Fenêtre contextuelle de l'espace de travail"
 
-#: ui/prefs.ui:772
+#: ui/prefs.ui:574
 msgid "Workspace Switcher"
 msgstr "Commutateur d'espace de travail"
 
-#: ui/prefs.ui:828
+#: ui/prefs.ui:615
 msgid "Background Menu"
 msgstr "Menu d'arrière-plan"
 
-#: ui/prefs.ui:884
+#: ui/prefs.ui:656
 msgid "App Gesture"
 msgstr "Geste d'application"
 
-#: ui/prefs.ui:936
+#: ui/prefs.ui:688
 msgid "Override"
 msgstr "Passer outre"
 
-#: ui/prefs.ui:988
+#: ui/prefs.ui:729
 msgid "Shell Theme"
 msgstr "Thème Shell"
+
+#: ui/prefs.ui:770
+msgid "No Panel Corner"
+msgstr "Aucun coin de panneau"

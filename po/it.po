@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-04 12:51-0800\n"
+"POT-Creation-Date: 2021-02-03 15:08-0800\n"
 "PO-Revision-Date: 2020-12-18 04:52-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Italian\n"
@@ -17,74 +17,78 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ui/prefs.ui:48
+#: ui/prefs.ui:41
 msgid "Visibility"
 msgstr "Visibilità"
 
-#: ui/prefs.ui:100
+#: ui/prefs.ui:82
 msgid "Top Panel"
 msgstr "Pannello superiore"
 
-#: ui/prefs.ui:156
+#: ui/prefs.ui:123
 msgid "Activities Button"
 msgstr "Pulsante attività"
 
-#: ui/prefs.ui:212
+#: ui/prefs.ui:164
 msgid "App Menu"
 msgstr "menu dell'app"
 
-#: ui/prefs.ui:268
+#: ui/prefs.ui:205
 msgid "Clock Menu"
 msgstr "Menu orologio"
 
-#: ui/prefs.ui:324
+#: ui/prefs.ui:246
 msgid "Keyboard Layout"
 msgstr "Layout della tastiera"
 
-#: ui/prefs.ui:380
+#: ui/prefs.ui:287
 msgid "Accessibility Menu"
 msgstr "Menu accessibilità"
 
-#: ui/prefs.ui:436
+#: ui/prefs.ui:328
 msgid "System Menu (Aggregate Menu)"
 msgstr "menu di sistema"
 
-#: ui/prefs.ui:492
+#: ui/prefs.ui:369
 msgid "Hot Corner"
 msgstr "Angolo caldo"
 
-#: ui/prefs.ui:548
+#: ui/prefs.ui:410
 msgid "Search"
 msgstr "Ricerca"
 
-#: ui/prefs.ui:604
+#: ui/prefs.ui:451
 msgid "Dash"
 msgstr "Dash"
 
-#: ui/prefs.ui:660
+#: ui/prefs.ui:492
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:716
+#: ui/prefs.ui:533
 msgid "Workspace Popup"
 msgstr "Pop up dell'area di lavoro"
 
-#: ui/prefs.ui:772
+#: ui/prefs.ui:574
 msgid "Workspace Switcher"
 msgstr "Switcher area di lavoro"
 
-#: ui/prefs.ui:828
+#: ui/prefs.ui:615
 msgid "Background Menu"
 msgstr "sfondo menù"
 
-#: ui/prefs.ui:884
+#: ui/prefs.ui:656
 msgid "App Gesture"
 msgstr "Gesto dell'app"
 
-#: ui/prefs.ui:936
+#: ui/prefs.ui:688
 msgid "Override"
 msgstr "Oltrepassare"
 
-#: ui/prefs.ui:988
+#: ui/prefs.ui:729
 msgid "Shell Theme"
 msgstr "Tema Shell"
+
+#: ui/prefs.ui:770
+msgid "No Panel Corner"
+msgstr "Nessun angolo del pannello"

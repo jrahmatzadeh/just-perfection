@@ -100,6 +100,12 @@
       <description>Aggregate Menu Visibility Status</description>
     </key>
     
+    <key type="b" name="no-panel-corner">
+      <default>false</default>
+      <summary>No Panel Corner</summary>
+      <description>Force GNOME Shell to have no Panel Corner</description>
+    </key>
+    
   </schema>
   
 </schemalist>

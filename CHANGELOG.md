@@ -14,6 +14,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Added
 
 - Spanish translation by [oscfdezdz](https://gitlab.com/oscfdezdz).
+- No panel corner to the settings.
 
 ## [6.0.0] - 2021-01-29
 
