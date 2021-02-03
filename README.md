@@ -10,6 +10,7 @@ This extension allows you to disable:
 - Workspace Switcher
 - Workspace Popup
 - Top Panel
+- Top Panel Corners
 - App gesture
 - Background Menu
 - Activities button
