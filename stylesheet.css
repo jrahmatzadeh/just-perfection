@@ -283,5 +283,12 @@
 
 .just-perfection-api-no-panel-corner #panel .panel-corner
 {
-  -panel-corner-radius: 0;
+    -panel-corner-radius: 0;
+}
+
+.just-perfection-api-no-window-picker-icon .icon-dropshadow
+{
+    width: 0;
+    height: 0;
+    padding: 0;
 }

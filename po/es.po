@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-03 15:08-0800\n"
+"POT-Creation-Date: 2021-02-05 11:15-0800\n"
 "PO-Revision-Date: 2021-02-01 18:27+0100\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish; Castilian <oscfdezdz@tuta.io>\n"
@@ -83,14 +83,18 @@ msgstr "Menú del fondo de pantalla"
 msgid "App Gesture"
 msgstr "Animación de \"Mostrar aplicaciones\""
 
-#: ui/prefs.ui:688
+#: ui/prefs.ui:697
+msgid "Window Picker Icon"
+msgstr "Icono de selector de ventana"
+
+#: ui/prefs.ui:729
 msgid "Override"
 msgstr "Control manual"
 
-#: ui/prefs.ui:729
+#: ui/prefs.ui:770
 msgid "Shell Theme"
 msgstr "Tema de Shell"
 
-#: ui/prefs.ui:770
+#: ui/prefs.ui:811
 msgid "No Panel Corner"
 msgstr "Sin esquina de panel"

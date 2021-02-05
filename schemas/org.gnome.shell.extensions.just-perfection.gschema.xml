@@ -106,6 +106,12 @@
       <description>Force GNOME Shell to have no Panel Corner</description>
     </key>
     
+    <key type="b" name="window-picker-icon">
+      <default>true</default>
+      <summary>Window Picker Icon</summary>
+      <description>Window Picker Icon Visiblity</description>
+    </key>
+    
   </schema>
   
 </schemalist>

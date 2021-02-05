@@ -3,6 +3,9 @@ const {Settings, Translation, Prefs} = Me.imports.lib;
 const {Gtk, Gio} = imports.gi;
 const Gettext = imports.gettext;
 
+const Config = imports.misc.config;
+const ShellVersion = parseFloat(Config.PACKAGE_VERSION);
+
 
 function init ()
 {
@@ -21,7 +24,10 @@ function buildPrefsWidget ()
 
     let builder = new Gtk.Builder();
     let settings = Settings.getSettings(Gio, schemaID, schemasFolderPath);
-    let prefs = new Prefs.Prefs({'Builder': builder, 'Settings': settings});
+    let prefs = new Prefs.Prefs({
+        'Builder': builder,
+        'Settings': settings
+    }, ShellVersion);
     
     return prefs.getMainPrefs(UIFilePath, binFolderPath, gettextDomain);
 }

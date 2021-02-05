@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-03 15:08-0800\n"
+"POT-Creation-Date: 2021-02-05 11:15-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,14 +81,18 @@ msgstr ""
 msgid "App Gesture"
 msgstr ""
 
-#: ui/prefs.ui:688
-msgid "Override"
+#: ui/prefs.ui:697
+msgid "Window Picker Icon"
 msgstr ""
 
 #: ui/prefs.ui:729
-msgid "Shell Theme"
+msgid "Override"
 msgstr ""
 
 #: ui/prefs.ui:770
+msgid "Shell Theme"
+msgstr ""
+
+#: ui/prefs.ui:811
 msgid "No Panel Corner"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-03 15:08-0800\n"
+"POT-Creation-Date: 2021-02-05 11:15-0800\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -81,14 +81,18 @@ msgstr "Меню на фона"
 msgid "App Gesture"
 msgstr "App жест"
 
-#: ui/prefs.ui:688
+#: ui/prefs.ui:697
+msgid "Window Picker Icon"
+msgstr "Икона за избор на прозорец"
+
+#: ui/prefs.ui:729
 msgid "Override"
 msgstr "Замяна"
 
-#: ui/prefs.ui:729
+#: ui/prefs.ui:770
 msgid "Shell Theme"
 msgstr "Тема Shell"
 
-#: ui/prefs.ui:770
+#: ui/prefs.ui:811
 msgid "No Panel Corner"
 msgstr "Няма панелен ъгъл"
