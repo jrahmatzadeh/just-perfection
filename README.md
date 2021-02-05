@@ -19,6 +19,7 @@ This extension allows you to disable:
 - Keyboard Layout
 - Accessibility Menu
 - System Menu (Aggregate Menu)
+- Window Picker Icon
 
 Also overrides the current GNOME shell theme (You don't need to have user-theme-extension).
 
