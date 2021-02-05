@@ -1,6 +1,6 @@
 {
     "name": "Just Perfection",
-    "description": "This extension allows you to disable OSD, Search, Dock, Workspace Switcher, Workspace Popup, App Gesture, Top Panel, Top Panel Corners, Activities button, App Menu, Clock Menu, Keyboard Layout, Accessibility Menu, System Menu and Background Menu. Also override the current GNOME shell theme (You don't need to have user-theme-extension).",
+    "description": "Disable GNOME shell UI elements",
     "shell-version": ["3.36", "3.38", "40.0"],
     "schema-id": "org.gnome.shell.extensions.just-perfection",
     "gettext-domain": "just-perfection",
