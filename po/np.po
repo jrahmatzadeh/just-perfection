@@ -1,0 +1,95 @@
+# Just Perfection GNOME Shell Extension Translation
+# Copyright (C) 2021 Just Perfection
+# This file is distributed under GPL v3
+# 1BA4 <nabin7076@protonmail.com>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Just Perfection 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-03 15:08-0800\n"
+"PO-Revision-Date: 2021-02-05 14:43+0545\n"
+"Last-Translator: 1BA4 <nabin7076@protonmail.com>\n"
+"Language-Team: Nepali <>\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Gtranslator 3.38.0\n"
+
+#: ui/prefs.ui:41
+msgid "Visibility"
+msgstr "दृश्यता"
+
+#: ui/prefs.ui:82
+msgid "Top Panel"
+msgstr "शीर्ष प्यानल"
+
+#: ui/prefs.ui:123
+msgid "Activities Button"
+msgstr "एकटीभीटिज बटन"
+
+#: ui/prefs.ui:164
+msgid "App Menu"
+msgstr "ए्याप मेनु"
+
+#: ui/prefs.ui:205
+msgid "Clock Menu"
+msgstr "घडी मेनू"
+
+#: ui/prefs.ui:246
+msgid "Keyboard Layout"
+msgstr "कीबोर्ड लेआउट"
+
+#: ui/prefs.ui:287
+msgid "Accessibility Menu"
+msgstr "पहुँच मेनू"
+
+#: ui/prefs.ui:328
+msgid "System Menu (Aggregate Menu)"
+msgstr "सिस्टम मेनु (समग्र मेनु)"
+
+#: ui/prefs.ui:369
+msgid "Hot Corner"
+msgstr "हट कर्नर"
+
+#: ui/prefs.ui:410
+msgid "Search"
+msgstr "खोज"
+
+#: ui/prefs.ui:451
+msgid "Dash"
+msgstr "ड्यास"
+
+#: ui/prefs.ui:492
+msgid "On Screen Display (OSD)"
+msgstr "अन स्क्रिन डिस्प्ले (ओएसडी)"
+
+#: ui/prefs.ui:533
+msgid "Workspace Popup"
+msgstr "वोर्कस्पेस पप अप"
+
+#: ui/prefs.ui:574
+msgid "Workspace Switcher"
+msgstr "वोर्कस्पेस स्विचर"
+
+#: ui/prefs.ui:615
+msgid "Background Menu"
+msgstr "पृष्ठभूमि मेनू"
+
+#: ui/prefs.ui:656
+msgid "App Gesture"
+msgstr "ए्याप जेस्चर्स"
+
+#: ui/prefs.ui:688
+msgid "Override"
+msgstr "ओभरराइड"
+
+#: ui/prefs.ui:729
+msgid "Shell Theme"
+msgstr "शेल थिम"
+
+#: ui/prefs.ui:770
+msgid "No Panel Corner"
+msgstr "प्यानल बिनाको कुनो"
