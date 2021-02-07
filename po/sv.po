@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-05 11:15-0800\n"
+"POT-Creation-Date: 2021-02-07 13:50-0800\n"
 "PO-Revision-Date: 2020-12-18 04:45-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Swedish\n"
@@ -85,14 +85,22 @@ msgstr "App gest"
 msgid "Window Picker Icon"
 msgstr "Ikon för fönsterplockare"
 
-#: ui/prefs.ui:729
+#: ui/prefs.ui:731
+msgid "Behavior"
+msgstr "Beteende"
+
+#: ui/prefs.ui:772
+msgid "Type to Search"
+msgstr "Skriv för att söka"
+
+#: ui/prefs.ui:807
 msgid "Override"
 msgstr "Åsidosätta"
 
-#: ui/prefs.ui:770
+#: ui/prefs.ui:848
 msgid "Shell Theme"
 msgstr "Shell-tema"
 
-#: ui/prefs.ui:811
+#: ui/prefs.ui:889
 msgid "No Panel Corner"
 msgstr "Inget panelhörn"

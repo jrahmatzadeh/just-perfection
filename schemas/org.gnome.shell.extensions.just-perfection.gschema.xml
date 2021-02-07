@@ -111,7 +111,12 @@
       <summary>Window Picker Icon</summary>
       <description>Window Picker Icon Visiblity</description>
     </key>
-    
+
+    <key type="b" name="type-to-search">
+      <default>true</default>
+      <summary>Type to Search</summary>
+      <description>Type to Search Behavior</description>
+    </key>
   </schema>
   
 </schemalist>

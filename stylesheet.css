@@ -292,3 +292,13 @@
     height: 0;
     padding: 0;
 }
+
+.just-perfection-api-type-to-search #overview
+{
+    margin-top: 25px;
+}
+
+.just-perfection-api-type-to-search #overview .search-entry
+{
+    margin-bottom: 25px;
+}

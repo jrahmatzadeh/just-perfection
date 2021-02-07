@@ -6,6 +6,7 @@ This extension allows you to disable:
 
 - OSD
 - Search
+- Type to Search
 - Dash
 - Workspace Switcher
 - Workspace Popup

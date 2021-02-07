@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-05 11:15-0800\n"
+"POT-Creation-Date: 2021-02-07 13:50-0800\n"
 "PO-Revision-Date: 2020-12-18 04:22-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -86,14 +86,22 @@ msgstr "Жэст прыкладання"
 msgid "Window Picker Icon"
 msgstr "Акно выбару вокнаў"
 
-#: ui/prefs.ui:729
+#: ui/prefs.ui:731
+msgid "Behavior"
+msgstr "Паводзіны"
+
+#: ui/prefs.ui:772
+msgid "Type to Search"
+msgstr "Набярыце для пошуку"
+
+#: ui/prefs.ui:807
 msgid "Override"
 msgstr "Перавызначыць"
 
-#: ui/prefs.ui:770
+#: ui/prefs.ui:848
 msgid "Shell Theme"
 msgstr "Тэма Shell"
 
-#: ui/prefs.ui:811
+#: ui/prefs.ui:889
 msgid "No Panel Corner"
 msgstr "Няма панэльнага кутка"
