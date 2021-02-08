@@ -10,6 +10,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - GNOME Shell 40 hidden side by side workspace preview.
 - GNOME Shell 40 search padding when panel is disabled.
+- Initial prefs window size.
 
 ### Added
 
