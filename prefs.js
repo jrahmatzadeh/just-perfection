@@ -1,6 +1,6 @@
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 const {Settings, Translation, Prefs} = Me.imports.lib;
-const {Gtk, Gio} = imports.gi;
+const {Gtk, Gio, GObject} = imports.gi;
 const Gettext = imports.gettext;
 
 const Config = imports.misc.config;
@@ -26,7 +26,8 @@ function buildPrefsWidget ()
     let settings = Settings.getSettings(Gio, schemaID, schemasFolderPath);
     let prefs = new Prefs.Prefs({
         'Builder': builder,
-        'Settings': settings
+        'Settings': settings,
+        'GObjectBindingFlags' : GObject.BindingFlags,
     }, ShellVersion);
     
     return prefs.getMainPrefs(UIFilePath, binFolderPath, gettextDomain);

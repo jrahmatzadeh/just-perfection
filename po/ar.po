@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-07 13:50-0800\n"
+"POT-Creation-Date: 2021-02-10 14:47-0800\n"
 "PO-Revision-Date: 2020-12-18 04:15-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Arabic\n"
@@ -16,90 +16,98 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ui/prefs.ui:41
+#: ui/prefs.ui:138
 msgid "Visibility"
 msgstr "الرؤية"
 
-#: ui/prefs.ui:82
+#: ui/prefs.ui:186
 msgid "Top Panel"
 msgstr "اللوحة العلوية"
 
-#: ui/prefs.ui:123
+#: ui/prefs.ui:235
 msgid "Activities Button"
 msgstr "زر الأنشطة"
 
-#: ui/prefs.ui:164
+#: ui/prefs.ui:284
 msgid "App Menu"
 msgstr "قائمة التطبيق"
 
-#: ui/prefs.ui:205
+#: ui/prefs.ui:333
 msgid "Clock Menu"
 msgstr "قائمة الساعة"
 
-#: ui/prefs.ui:246
+#: ui/prefs.ui:382
 msgid "Keyboard Layout"
 msgstr "تخطيط لوحة المفاتيح"
 
-#: ui/prefs.ui:287
+#: ui/prefs.ui:431
 msgid "Accessibility Menu"
 msgstr "قائمة الوصول"
 
-#: ui/prefs.ui:328
+#: ui/prefs.ui:480
 msgid "System Menu (Aggregate Menu)"
 msgstr "قائمة النظام"
 
-#: ui/prefs.ui:369
+#: ui/prefs.ui:529
 msgid "Hot Corner"
 msgstr "ركن ساخن"
 
-#: ui/prefs.ui:410
+#: ui/prefs.ui:578
 msgid "Search"
 msgstr "بحث"
 
-#: ui/prefs.ui:451
+#: ui/prefs.ui:627
 msgid "Dash"
 msgstr "اندفاع"
 
-#: ui/prefs.ui:492
+#: ui/prefs.ui:676
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:533
+#: ui/prefs.ui:725
 msgid "Workspace Popup"
 msgstr "مساحة العمل المنبثقة"
 
-#: ui/prefs.ui:574
+#: ui/prefs.ui:774
 msgid "Workspace Switcher"
 msgstr "مبدل مساحة العمل"
 
-#: ui/prefs.ui:615
+#: ui/prefs.ui:823
 msgid "Background Menu"
 msgstr "قائمة الخلفية"
 
-#: ui/prefs.ui:656
+#: ui/prefs.ui:872
 msgid "App Gesture"
 msgstr "إيماءة التطبيق"
 
-#: ui/prefs.ui:697
+#: ui/prefs.ui:921
 msgid "Window Picker Icon"
 msgstr "رمز منتقي النافذة"
 
-#: ui/prefs.ui:731
+#: ui/prefs.ui:961
 msgid "Behavior"
 msgstr "سلوك"
 
-#: ui/prefs.ui:772
+#: ui/prefs.ui:1009
 msgid "Type to Search"
 msgstr "اكتب للبحث"
 
-#: ui/prefs.ui:807
+#: ui/prefs.ui:1049
 msgid "Override"
 msgstr "تجاوز"
 
-#: ui/prefs.ui:848
+#: ui/prefs.ui:1097
 msgid "Shell Theme"
 msgstr "موضوع شل"
 
-#: ui/prefs.ui:889
+#: ui/prefs.ui:1146
 msgid "No Panel Corner"
 msgstr "لا زاوية لوحة"
+
+#: ui/prefs.ui:1188
+msgid "What Is Done In Love Is Well Done!"
+msgstr "ما تم في الحب جيد!"
+
+#: ui/prefs.ui:1196
+msgid "Vincent van Gogh"
+msgstr "Vincent van Gogh"

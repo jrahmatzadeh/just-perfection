@@ -1,5 +1,7 @@
 # Just Perfection GNOME Shell Extension
 
+**"What Is Done In Love Is Well Done!" Vincent van Gogh**
+
 ![Just Perfection GNOME Shell Extension Logo](bin/top.svg)
 
 This extension allows you to disable:

@@ -19,6 +19,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - No panel corner to the settings.
 - GNOME Shell 40 window picker icon visibility to the settings.
 - Type to Search to the settings.
+- Search feature to the settings.
 
 ## [6.0.0] - 2021-01-29
 
