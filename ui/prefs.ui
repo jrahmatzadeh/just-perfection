@@ -48,6 +48,7 @@
     <property name="hexpand">1</property>
     
     <!-- SEARCH BAR -->
+    
     <child>
       <object class="GtkSearchBar" id="searchbar">
         <property name="visible">True</property>
@@ -90,6 +91,7 @@
     </child>
     
     <!-- ITEMS CONTAINER -->
+    
     <child>
       <object class="GtkScrolledWindow" id="items_container">
         <property name="width-request">400</property>
