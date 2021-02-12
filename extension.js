@@ -10,6 +10,7 @@ const BackgroundMenu = imports.ui.backgroundMenu;
 const OverviewControls = imports.ui.overviewControls;
 const WorkspaceSwitcherPopup = imports.ui.workspaceSwitcherPopup;
 const ViewSelector = imports.ui.viewSelector;
+const WorkspaceThumbnail = imports.ui.workspaceThumbnail;
 // commented because:
 // search contoller will comeback to final GNOME Shell 40 release
 // it's just temporarily stepped back
@@ -40,6 +41,7 @@ function enable()
         'InterfaceSettings' : interfaceSettings,
         'SearchController' : SearchController,
         'ViewSelector' : ViewSelector,
+        'WorkspaceThumbnail' : WorkspaceThumbnail,
     }, ShellVersion);
     
     api.open();
