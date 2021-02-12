@@ -255,11 +255,12 @@
 .just-perfection-api-gnome40.just-perfection-api-no-workspace .workspace-thumbnails,
 .just-perfection-api-gnome40.just-perfection-api-no-workspace .workspace-thumbnail-indicator
 {
-    spacing: 0;
+    /* we use scale=0 which is giving us the same width and height as 0 */
+    /* spacing: 0; */
+    /* width: 0; */
+    /* height: 0; */
     padding: 0;
     margin: 0;
-    width: 0;
-    height: 0;
     border: 0;
 }
 
