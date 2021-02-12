@@ -4,16 +4,18 @@
 
 ![Just Perfection GNOME Shell Extension Logo](bin/top.svg)
 
-This extension allows you to disable:
+## What Can It Do?
+
+This extension allows you to do the following:
+
+### Disable
 
 - OSD
 - Search
-- Type to Search
 - Dash
 - Workspace Switcher
 - Workspace Popup
 - Top Panel
-- Top Panel Corners
 - App gesture
 - Background Menu
 - Activities button
@@ -24,7 +26,17 @@ This extension allows you to disable:
 - System Menu (Aggregate Menu)
 - Window Picker Icon
 
-Also overrides the current GNOME shell theme (You don't need to have user-theme-extension).
+### Behavior
+
+- Disable Type to Search
+
+### Customize
+
+- Top Panel Corner size
+
+### Override
+
+- GNOME shell theme (You don't need to have user-theme-extension)
 
 ## GNOME Shell extensions Website
 

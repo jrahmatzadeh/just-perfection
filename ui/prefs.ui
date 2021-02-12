@@ -1037,6 +1037,163 @@
                     </object>
                   </child>
                   
+                  
+                  <!-- Customize -->
+                  
+                  <child>
+                    <object class="GtkBox">
+                      <property name="visible">True</property>
+                      <property name="can-focus">False</property>
+                      <property name="margin-top">36</property>
+                      <property name="margin-bottom">12</property>
+                      
+                      <child>
+                        <object class="GtkLabel">
+                          <property name="visible">True</property>
+                          <property name="can-focus">False</property>
+                          <property name="label" translatable="yes">Customize</property>
+                          <attributes>
+                            <attribute name="weight" value="bold"/>
+                          </attributes>
+                        </object>
+                      </child>
+                      
+                    </object>
+                  </child>
+                  
+                  <child>
+                    <object class="GtkFrame" id="customize_frame">
+                      <property name="visible">True</property>
+                      <property name="can-focus">False</property>
+                      <property name="label-xalign">0</property>
+                      
+                      <child>
+                        <object class="GtkListBox" id="customize_listbox">
+                          <property name="visible">True</property>
+                          <property name="can-focus">False</property>
+                          <property name="selection-mode">none</property>
+                          
+                          <child>
+                            <object class="GtkListBoxRow" id="panel_corner_size_row">
+                              <property name="visible">True</property>
+                              <property name="can-focus">True</property>
+                              
+                              <child>
+                                <object class="GtkBox" id="panel_corner_size_box">
+                                  <property name="visible">True</property>
+                                  <property name="can-focus">False</property>
+                                  <property name="margin-start">12</property>
+                                  <property name="margin-end">12</property>
+                                  <property name="margin-top">12</property>
+                                  <property name="margin-bottom">12</property>
+                                  <property name="orientation">vertical</property>
+                                  
+                                  <child>
+                                    <object class="GtkBox" id="panel_corner_size_box2">
+                                      <property name="visible">True</property>
+                                      <property name="can-focus">False</property>
+                                      <property name="spacing">32</property>
+                                      
+                                      <child>
+                                        <object class="GtkLabel" id="panel_corner_size_txt">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">False</property>
+                                          <property name="valign">center</property>
+                                          <property name="label" translatable="yes">Panel Corner Size</property>
+                                          <property name="xalign">0</property>
+                                          <property name="hexpand">1</property>
+                                        </object>
+                                      </child>
+                                      
+                                      <child>
+                                        <object class="GtkComboBoxText" id="panel_corner_size_comboboxtext">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">True</property>
+                                          <items>
+                                            <item translatable="yes">By Shell Theme</item>
+                                            <item translatable="yes">No Corner</item>
+                                            <item>1</item>
+                                            <item>2</item>
+                                            <item>3</item>
+                                            <item>4</item>
+                                            <item>5</item>
+                                            <item>6</item>
+                                            <item>7</item>
+                                            <item>8</item>
+                                            <item>9</item>
+                                            <item>10</item>
+                                            <item>11</item>
+                                            <item>12</item>
+                                            <item>13</item>
+                                            <item>14</item>
+                                            <item>15</item>
+                                            <item>16</item>
+                                            <item>17</item>
+                                            <item>18</item>
+                                            <item>19</item>
+                                            <item>20</item>
+                                            <item>21</item>
+                                            <item>22</item>
+                                            <item>23</item>
+                                            <item>24</item>
+                                            <item>25</item>
+                                            <item>26</item>
+                                            <item>27</item>
+                                            <item>28</item>
+                                            <item>29</item>
+                                            <item>30</item>
+                                            <item>31</item>
+                                            <item>32</item>
+                                            <item>33</item>
+                                            <item>34</item>
+                                            <item>35</item>
+                                            <item>36</item>
+                                            <item>37</item>
+                                            <item>38</item>
+                                            <item>39</item>
+                                            <item>40</item>
+                                            <item>41</item>
+                                            <item>42</item>
+                                            <item>43</item>
+                                            <item>44</item>
+                                            <item>45</item>
+                                            <item>46</item>
+                                            <item>47</item>
+                                            <item>48</item>
+                                            <item>49</item>
+                                            <item>50</item>
+                                            <item>51</item>
+                                            <item>52</item>
+                                            <item>53</item>
+                                            <item>54</item>
+                                            <item>55</item>
+                                            <item>56</item>
+                                            <item>57</item>
+                                            <item>58</item>
+                                            <item>59</item>
+                                            <item>60</item>
+                                          </items>
+                                        </object>
+                                      </child>
+                                      
+                                    </object>
+                                  </child>
+                                  
+                                </object>
+                              </child>
+                              
+                            </object>
+                          </child>
+                          
+                        </object>
+                      </child>
+                      
+                    </object>
+                  </child>
+                  
+                  
+                  <!-- Override -->
+                  
                   <child>
                     <object class="GtkBox">
                       <property name="visible">True</property>
@@ -1119,61 +1276,14 @@
                             </object>
                           </child>
                           
-                          <child>
-                            <object class="GtkListBoxRow" id="no_panel_corner_row">
-                              <property name="visible">True</property>
-                              <property name="can-focus">True</property>
-                              
-                              <child>
-                                <object class="GtkBox" id="no_panel_corner_box">
-                                  <property name="visible">True</property>
-                                  <property name="can-focus">False</property>
-                                  <property name="margin-start">12</property>
-                                  <property name="margin-end">12</property>
-                                  <property name="margin-top">12</property>
-                                  <property name="margin-bottom">12</property>
-                                  <property name="orientation">vertical</property>
-                                  
-                                  <child>
-                                    <object class="GtkBox" id="no_panel_corner_box2">
-                                      <property name="visible">True</property>
-                                      <property name="can-focus">False</property>
-                                      <property name="spacing">32</property>
-                                      
-                                      <child>
-                                        <object class="GtkLabel" id="no_panel_corner_txt">
-                                          <property name="visible">True</property>
-                                          <property name="can-focus">False</property>
-                                          <property name="valign">center</property>
-                                          <property name="label" translatable="yes">No Panel Corner</property>
-                                          <property name="xalign">0</property>
-                                          <property name="hexpand">1</property>
-                                        </object>
-                                      </child>
-                                      
-                                      <child>
-                                        <object class="GtkSwitch" id="no_panel_corner_switch">
-                                          <property name="visible">True</property>
-                                          <property name="can-focus">True</property>
-                                          <property name="valign">center</property>
-                                        </object>
-                                      </child>
-                                      
-                                    </object>
-                                  </child>
-                                  
-                                </object>
-                              </child>
-                              
-                            </object>
-                          </child>
-                          
                         </object>
                       </child>
                       
                     </object>
                   </child>
                   
+                  
+                  <!-- Footer -->
                   
                   <child>
                     <object class="GtkBox">

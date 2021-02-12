@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-10 14:47-0800\n"
+"POT-Creation-Date: 2021-02-11 16:04-0800\n"
 "PO-Revision-Date: 2020-12-18 04:39-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Language cn\n"
@@ -16,98 +16,110 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ui/prefs.ui:138
+#: ui/prefs.ui:140
 msgid "Visibility"
 msgstr "能见度"
 
-#: ui/prefs.ui:186
+#: ui/prefs.ui:188
 msgid "Top Panel"
 msgstr "顶板"
 
-#: ui/prefs.ui:235
+#: ui/prefs.ui:237
 msgid "Activities Button"
 msgstr "活动按钮"
 
-#: ui/prefs.ui:284
+#: ui/prefs.ui:286
 msgid "App Menu"
 msgstr "应用菜单"
 
-#: ui/prefs.ui:333
+#: ui/prefs.ui:335
 msgid "Clock Menu"
 msgstr "时钟菜单"
 
-#: ui/prefs.ui:382
+#: ui/prefs.ui:384
 msgid "Keyboard Layout"
 msgstr "键盘布局"
 
-#: ui/prefs.ui:431
+#: ui/prefs.ui:433
 msgid "Accessibility Menu"
 msgstr "辅助功能菜单"
 
-#: ui/prefs.ui:480
+#: ui/prefs.ui:482
 msgid "System Menu (Aggregate Menu)"
 msgstr "系统菜单"
 
-#: ui/prefs.ui:529
+#: ui/prefs.ui:531
 msgid "Hot Corner"
 msgstr "热角"
 
-#: ui/prefs.ui:578
+#: ui/prefs.ui:580
 msgid "Search"
 msgstr "搜索"
 
-#: ui/prefs.ui:627
+#: ui/prefs.ui:629
 msgid "Dash"
 msgstr "短跑"
 
-#: ui/prefs.ui:676
+#: ui/prefs.ui:678
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:725
+#: ui/prefs.ui:727
 msgid "Workspace Popup"
 msgstr "工作区弹出"
 
-#: ui/prefs.ui:774
+#: ui/prefs.ui:776
 msgid "Workspace Switcher"
 msgstr "工作区切换器"
 
-#: ui/prefs.ui:823
+#: ui/prefs.ui:825
 msgid "Background Menu"
 msgstr "后台菜单"
 
-#: ui/prefs.ui:872
+#: ui/prefs.ui:874
 msgid "App Gesture"
 msgstr "应用手势"
 
-#: ui/prefs.ui:921
+#: ui/prefs.ui:923
 msgid "Window Picker Icon"
 msgstr "窗口选择器图标"
 
-#: ui/prefs.ui:961
+#: ui/prefs.ui:963
 msgid "Behavior"
 msgstr "行为"
 
-#: ui/prefs.ui:1009
+#: ui/prefs.ui:1011
 msgid "Type to Search"
 msgstr "输入搜索"
 
-#: ui/prefs.ui:1049
+#: ui/prefs.ui:1054
+msgid "Customize"
+msgstr "定制"
+
+#: ui/prefs.ui:1102
+msgid "Panel Corner Size"
+msgstr "面板角尺寸"
+
+#: ui/prefs.ui:1113
+msgid "By Shell Theme"
+msgstr "通过壳主题"
+
+#: ui/prefs.ui:1114
+msgid "No Corner"
+msgstr "没有角落"
+
+#: ui/prefs.ui:1208
 msgid "Override"
 msgstr "覆写"
 
-#: ui/prefs.ui:1097
+#: ui/prefs.ui:1256
 msgid "Shell Theme"
 msgstr "贝壳主题"
 
-#: ui/prefs.ui:1146
-msgid "No Panel Corner"
-msgstr "无面板角"
-
-#: ui/prefs.ui:1188
+#: ui/prefs.ui:1300
 msgid "What Is Done In Love Is Well Done!"
-msgstr "Liàn'ài zhōng de shìqíng zuò dé hěn hǎo!"
+msgstr "恋爱中的事情做得很好！"
 
-#: ui/prefs.ui:1196
+#: ui/prefs.ui:1308
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"

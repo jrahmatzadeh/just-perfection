@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-10 14:47-0800\n"
+"POT-Creation-Date: 2021-02-11 16:04-0800\n"
 "PO-Revision-Date: 2020-12-18 04:52-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Italian\n"
@@ -17,98 +17,110 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ui/prefs.ui:138
+#: ui/prefs.ui:140
 msgid "Visibility"
 msgstr "Visibilità"
 
-#: ui/prefs.ui:186
+#: ui/prefs.ui:188
 msgid "Top Panel"
 msgstr "Pannello superiore"
 
-#: ui/prefs.ui:235
+#: ui/prefs.ui:237
 msgid "Activities Button"
 msgstr "Pulsante attività"
 
-#: ui/prefs.ui:284
+#: ui/prefs.ui:286
 msgid "App Menu"
 msgstr "menu dell'app"
 
-#: ui/prefs.ui:333
+#: ui/prefs.ui:335
 msgid "Clock Menu"
 msgstr "Menu orologio"
 
-#: ui/prefs.ui:382
+#: ui/prefs.ui:384
 msgid "Keyboard Layout"
 msgstr "Layout della tastiera"
 
-#: ui/prefs.ui:431
+#: ui/prefs.ui:433
 msgid "Accessibility Menu"
 msgstr "Menu accessibilità"
 
-#: ui/prefs.ui:480
+#: ui/prefs.ui:482
 msgid "System Menu (Aggregate Menu)"
 msgstr "menu di sistema"
 
-#: ui/prefs.ui:529
+#: ui/prefs.ui:531
 msgid "Hot Corner"
 msgstr "Angolo caldo"
 
-#: ui/prefs.ui:578
+#: ui/prefs.ui:580
 msgid "Search"
 msgstr "Ricerca"
 
-#: ui/prefs.ui:627
+#: ui/prefs.ui:629
 msgid "Dash"
 msgstr "Dash"
 
-#: ui/prefs.ui:676
+#: ui/prefs.ui:678
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:725
+#: ui/prefs.ui:727
 msgid "Workspace Popup"
 msgstr "Pop up dell'area di lavoro"
 
-#: ui/prefs.ui:774
+#: ui/prefs.ui:776
 msgid "Workspace Switcher"
 msgstr "Switcher area di lavoro"
 
-#: ui/prefs.ui:823
+#: ui/prefs.ui:825
 msgid "Background Menu"
 msgstr "sfondo menù"
 
-#: ui/prefs.ui:872
+#: ui/prefs.ui:874
 msgid "App Gesture"
 msgstr "Gesto dell'app"
 
-#: ui/prefs.ui:921
+#: ui/prefs.ui:923
 msgid "Window Picker Icon"
 msgstr "Icona di selezione della finestra"
 
-#: ui/prefs.ui:961
+#: ui/prefs.ui:963
 msgid "Behavior"
 msgstr "Comportamento"
 
-#: ui/prefs.ui:1009
+#: ui/prefs.ui:1011
 msgid "Type to Search"
 msgstr "Digita per cercare"
 
-#: ui/prefs.ui:1049
+#: ui/prefs.ui:1054
+msgid "Customize"
+msgstr "personalizzare"
+
+#: ui/prefs.ui:1102
+msgid "Panel Corner Size"
+msgstr "Dimensione dell'angolo del pannello"
+
+#: ui/prefs.ui:1113
+msgid "By Shell Theme"
+msgstr "Di Shell Theme"
+
+#: ui/prefs.ui:1114
+msgid "No Corner"
+msgstr "Nessun angolo"
+
+#: ui/prefs.ui:1208
 msgid "Override"
 msgstr "Oltrepassare"
 
-#: ui/prefs.ui:1097
+#: ui/prefs.ui:1256
 msgid "Shell Theme"
 msgstr "Tema Shell"
 
-#: ui/prefs.ui:1146
-msgid "No Panel Corner"
-msgstr "Nessun angolo del pannello"
-
-#: ui/prefs.ui:1188
+#: ui/prefs.ui:1300
 msgid "What Is Done In Love Is Well Done!"
 msgstr "Ciò che è fatto in amore è ben fatto!"
 
-#: ui/prefs.ui:1196
+#: ui/prefs.ui:1308
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-10 14:47-0800\n"
+"POT-Creation-Date: 2021-02-11 16:04-0800\n"
 "PO-Revision-Date: 2021-02-05 14:43+0545\n"
 "Last-Translator: 1BA4 <nabin7076@protonmail.com>\n"
 "Language-Team: Nepali <>\n"
@@ -18,98 +18,110 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "X-Generator: Gtranslator 3.38.0\n"
 
-#: ui/prefs.ui:138
+#: ui/prefs.ui:140
 msgid "Visibility"
 msgstr "दृश्यता"
 
-#: ui/prefs.ui:186
+#: ui/prefs.ui:188
 msgid "Top Panel"
 msgstr "शीर्ष प्यानल"
 
-#: ui/prefs.ui:235
+#: ui/prefs.ui:237
 msgid "Activities Button"
 msgstr "एकटीभीटिज बटन"
 
-#: ui/prefs.ui:284
+#: ui/prefs.ui:286
 msgid "App Menu"
 msgstr "ए्याप मेनु"
 
-#: ui/prefs.ui:333
+#: ui/prefs.ui:335
 msgid "Clock Menu"
 msgstr "घडी मेनू"
 
-#: ui/prefs.ui:382
+#: ui/prefs.ui:384
 msgid "Keyboard Layout"
 msgstr "कीबोर्ड लेआउट"
 
-#: ui/prefs.ui:431
+#: ui/prefs.ui:433
 msgid "Accessibility Menu"
 msgstr "पहुँच मेनू"
 
-#: ui/prefs.ui:480
+#: ui/prefs.ui:482
 msgid "System Menu (Aggregate Menu)"
 msgstr "सिस्टम मेनु (समग्र मेनु)"
 
-#: ui/prefs.ui:529
+#: ui/prefs.ui:531
 msgid "Hot Corner"
 msgstr "हट कर्नर"
 
-#: ui/prefs.ui:578
+#: ui/prefs.ui:580
 msgid "Search"
 msgstr "खोज"
 
-#: ui/prefs.ui:627
+#: ui/prefs.ui:629
 msgid "Dash"
 msgstr "ड्यास"
 
-#: ui/prefs.ui:676
+#: ui/prefs.ui:678
 msgid "On Screen Display (OSD)"
 msgstr "अन स्क्रिन डिस्प्ले (ओएसडी)"
 
-#: ui/prefs.ui:725
+#: ui/prefs.ui:727
 msgid "Workspace Popup"
 msgstr "वोर्कस्पेस पप अप"
 
-#: ui/prefs.ui:774
+#: ui/prefs.ui:776
 msgid "Workspace Switcher"
 msgstr "वोर्कस्पेस स्विचर"
 
-#: ui/prefs.ui:823
+#: ui/prefs.ui:825
 msgid "Background Menu"
 msgstr "पृष्ठभूमि मेनू"
 
-#: ui/prefs.ui:872
+#: ui/prefs.ui:874
 msgid "App Gesture"
 msgstr "ए्याप जेस्चर्स"
 
-#: ui/prefs.ui:921
+#: ui/prefs.ui:923
 msgid "Window Picker Icon"
 msgstr "विन्डो पिकर आइकन"
 
-#: ui/prefs.ui:961
+#: ui/prefs.ui:963
 msgid "Behavior"
 msgstr "व्यवहार"
 
-#: ui/prefs.ui:1009
+#: ui/prefs.ui:1011
 msgid "Type to Search"
 msgstr "खोजी गर्न टाइप गर्नुहोस्"
 
-#: ui/prefs.ui:1049
+#: ui/prefs.ui:1054
+msgid "Customize"
+msgstr "अनुकूलन गर्नुहोस्"
+
+#: ui/prefs.ui:1102
+msgid "Panel Corner Size"
+msgstr "प्यानल कुना आकार"
+
+#: ui/prefs.ui:1113
+msgid "By Shell Theme"
+msgstr "शेल थिम द्वारा"
+
+#: ui/prefs.ui:1114
+msgid "No Corner"
+msgstr "कुनै कर्नर छैन"
+
+#: ui/prefs.ui:1208
 msgid "Override"
 msgstr "ओभरराइड"
 
-#: ui/prefs.ui:1097
+#: ui/prefs.ui:1256
 msgid "Shell Theme"
 msgstr "शेल थिम"
 
-#: ui/prefs.ui:1146
-msgid "No Panel Corner"
-msgstr "प्यानल बिनाको कुनो"
-
-#: ui/prefs.ui:1188
+#: ui/prefs.ui:1300
 msgid "What Is Done In Love Is Well Done!"
 msgstr "प्रेममा के भयो राम्रो भयो!"
 
-#: ui/prefs.ui:1196
+#: ui/prefs.ui:1308
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"

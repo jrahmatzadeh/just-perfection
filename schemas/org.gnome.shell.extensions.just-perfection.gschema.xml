@@ -100,12 +100,6 @@
       <description>Aggregate Menu Visibility Status</description>
     </key>
     
-    <key type="b" name="no-panel-corner">
-      <default>false</default>
-      <summary>No Panel Corner</summary>
-      <description>Force GNOME Shell to have no Panel Corner</description>
-    </key>
-    
     <key type="b" name="window-picker-icon">
       <default>true</default>
       <summary>Window Picker Icon</summary>
@@ -117,6 +111,14 @@
       <summary>Type to Search</summary>
       <description>Type to Search Behavior</description>
     </key>
+    
+    <key type="i" name="panel-corner-size">
+      <default>0</default>
+      <range min="0" max="61"/>
+      <summary>0 means use Shell theme, 1 means no border, 2 - 61 means border size</summary>
+      <description>Panel Corner Size</description>
+    </key>
+    
   </schema>
   
 </schemalist>
