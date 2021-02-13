@@ -6,6 +6,8 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+## [7.0.0] - 2021-02-12
+
 ### Fixed
 
 - GNOME Shell 40 hidden side by side workspace preview.
