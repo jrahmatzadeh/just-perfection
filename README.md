@@ -63,7 +63,7 @@ $ ./scripts/build.sh -i
 
 You can support my work via [Patreon](https://www.patreon.com/justperfection).
 
-![Support via Patreon](bin/support.svg)
+[![Support via Patreon](bin/support.svg)](https://www.patreon.com/justperfection)
 
 ## Awards
 
