@@ -18,6 +18,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Nepali translation by [@IBA4](https://gitlab.com/IBA4).
 - Panel corner size to the settings.
 - GNOME Shell 40 window picker icon visibility to the settings.
+- GNOME Shell 40 workspace switcher size to the settings.
 - Type to Search to the settings.
 - Search feature to the settings.
 

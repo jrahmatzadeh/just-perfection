@@ -119,6 +119,13 @@
       <description>Panel Corner Size</description>
     </key>
     
+    <key type="i" name="workspace-switcher-size">
+      <default>0</default>
+      <range min="0" max="10"/>
+      <summary>Workspace Switcher Size in percent, 0 means use default size</summary>
+      <description>Workspace Switcher Size</description>
+    </key>
+    
   </schema>
   
 </schemalist>

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-11 16:04-0800\n"
+"POT-Creation-Date: 2021-02-12 15:22-0800\n"
 "PO-Revision-Date: 2021-02-05 14:43+0545\n"
 "Last-Translator: 1BA4 <nabin7076@protonmail.com>\n"
 "Language-Team: Nepali <>\n"
@@ -110,18 +110,26 @@ msgstr "शेल थिम द्वारा"
 msgid "No Corner"
 msgstr "कुनै कर्नर छैन"
 
-#: ui/prefs.ui:1208
+#: ui/prefs.ui:1214
+msgid "Workspace Switcher Size"
+msgstr "कार्यक्षेत्र स्विचर आकार"
+
+#: ui/prefs.ui:1225
+msgid "Default"
+msgstr "पूर्वनिर्धारित"
+
+#: ui/prefs.ui:1269
 msgid "Override"
 msgstr "ओभरराइड"
 
-#: ui/prefs.ui:1256
+#: ui/prefs.ui:1317
 msgid "Shell Theme"
 msgstr "शेल थिम"
 
-#: ui/prefs.ui:1300
+#: ui/prefs.ui:1361
 msgid "What Is Done In Love Is Well Done!"
 msgstr "प्रेममा के भयो राम्रो भयो!"
 
-#: ui/prefs.ui:1308
+#: ui/prefs.ui:1369
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"

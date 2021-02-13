@@ -24,7 +24,7 @@ This extension allows you to do the following:
 - Keyboard Layout
 - Accessibility Menu
 - System Menu (Aggregate Menu)
-- Window Picker Icon
+- Window Picker Icon (Only GNOME 40.0)
 
 ### Behavior
 
@@ -32,7 +32,8 @@ This extension allows you to do the following:
 
 ### Customize
 
-- Top Panel Corner size
+- Top Panel Corner Size
+- Workspace Switcher Size (Only GNOME 40.0)
 
 ### Override
 

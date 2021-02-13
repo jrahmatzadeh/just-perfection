@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-11 16:04-0800\n"
+"POT-Creation-Date: 2021-02-12 15:22-0800\n"
 "PO-Revision-Date: 2020-12-18 04:05-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Afrikaans\n"
@@ -108,18 +108,26 @@ msgstr "Deur Shell-tema"
 msgid "No Corner"
 msgstr "Geen hoekie nie"
 
-#: ui/prefs.ui:1208
+#: ui/prefs.ui:1214
+msgid "Workspace Switcher Size"
+msgstr "Grootte van die skakelaar van die werkruimte"
+
+#: ui/prefs.ui:1225
+msgid "Default"
+msgstr "Verstek"
+
+#: ui/prefs.ui:1269
 msgid "Override"
 msgstr "Ignoreer"
 
-#: ui/prefs.ui:1256
+#: ui/prefs.ui:1317
 msgid "Shell Theme"
 msgstr "Skulp Tema"
 
-#: ui/prefs.ui:1300
+#: ui/prefs.ui:1361
 msgid "What Is Done In Love Is Well Done!"
 msgstr "Wat in liefde gedoen word, is goed gedoen!"
 
-#: ui/prefs.ui:1308
+#: ui/prefs.ui:1369
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"

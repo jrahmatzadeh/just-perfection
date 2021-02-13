@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-11 16:04-0800\n"
+"POT-Creation-Date: 2021-02-12 15:22-0800\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -109,18 +109,26 @@ msgstr "От Shell Theme"
 msgid "No Corner"
 msgstr "Без ъгъл"
 
-#: ui/prefs.ui:1208
+#: ui/prefs.ui:1214
+msgid "Workspace Switcher Size"
+msgstr "Размер на превключвателя на работното пространство"
+
+#: ui/prefs.ui:1225
+msgid "Default"
+msgstr "По подразбиране"
+
+#: ui/prefs.ui:1269
 msgid "Override"
 msgstr "Замяна"
 
-#: ui/prefs.ui:1256
+#: ui/prefs.ui:1317
 msgid "Shell Theme"
 msgstr "Тема Shell"
 
-#: ui/prefs.ui:1300
+#: ui/prefs.ui:1361
 msgid "What Is Done In Love Is Well Done!"
 msgstr "Какво е направено в любовта е добре направено!"
 
-#: ui/prefs.ui:1308
+#: ui/prefs.ui:1369
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"
