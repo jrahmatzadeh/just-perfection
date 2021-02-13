@@ -63,6 +63,8 @@ $ ./scripts/build.sh -i
 
 You can support my work via [Patreon](https://www.patreon.com/justperfection).
 
+![Support via Patreon](bin/support.svg)
+
 ## Awards
 
 - [Ask Noah Show (Pick of the Week)](https://podcast.asknoahshow.com/212?t=1643).
