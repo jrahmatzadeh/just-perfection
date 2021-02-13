@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Fixed
+
+- Nepali translation filename by [@IBA4](https://gitlab.com/IBA4).
+
 ## [7.0.0] - 2021-02-12
 
 ### Fixed
