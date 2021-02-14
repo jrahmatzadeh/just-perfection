@@ -6,13 +6,13 @@
   
   <object class="GtkBox" id="csd_box">
     <property name="visible">True</property>
-    <property name="can-focus">False</property>
+    <property name="can-focus">True</property>
     <property name="hexpand">1</property>
     
     <child>
       <object class="GtkHeaderBar" id="header_bar">
         <property name="visible">True</property>
-        <property name="can-focus">False</property>
+        <property name="can-focus">True</property>
         <property name="hexpand">1</property>
         
         <child>
@@ -23,7 +23,7 @@
             <child>
               <object class="GtkImage">
                 <property name="visible">True</property>
-                <property name="can-focus">False</property>
+                <property name="can-focus">True</property>
                 <property name="icon-name">system-search-symbolic</property>
                 <property name="icon-size">1</property>
                 
@@ -43,7 +43,7 @@
   
   <object class="GtkBox" id="main_prefs">
     <property name="visible">True</property>
-    <property name="can-focus">False</property>
+    <property name="can-focus">True</property>
     <property name="orientation">vertical</property>
     <property name="hexpand">1</property>
     
@@ -52,12 +52,12 @@
     <child>
       <object class="GtkSearchBar" id="searchbar">
         <property name="visible">True</property>
-        <property name="can-focus">False</property>
+        <property name="can-focus">True</property>
         
         <child>
           <object class="GtkRevealer" id="searchbar_revealer">
             <property name="visible">True</property>
-            <property name="can-focus">False</property>
+            <property name="can-focus">True</property>
             <property name="transition-type">none</property>
             <property name="reveal-child">True</property>
             <property name="margin-start">5</property>
@@ -70,7 +70,7 @@
             <child>
               <object class="GtkBox">
                 <property name="visible">True</property>
-                <property name="can-focus">False</property>
+                <property name="can-focus">True</property>
                 <property name="orientation">vertical</property>
                 
                 <child>
