@@ -128,7 +128,7 @@
                   </child>
                   
                   <child>
-                    <object class="GtkBox">
+                    <object class="GtkBox" id="visiblity_title">
                       <property name="visible">True</property>
                       <property name="can-focus">False</property>
                       <property name="margin-bottom">12</property>
@@ -950,7 +950,7 @@
                   </child>
                   
                   <child>
-                    <object class="GtkBox">
+                    <object class="GtkBox" id="behavior_title">
                       <property name="visible">True</property>
                       <property name="can-focus">False</property>
                       <property name="margin-top">36</property>
@@ -1041,7 +1041,7 @@
                   <!-- Customize -->
                   
                   <child>
-                    <object class="GtkBox">
+                    <object class="GtkBox" id="customize_title">
                       <property name="visible">True</property>
                       <property name="can-focus">False</property>
                       <property name="margin-top">36</property>
@@ -1256,7 +1256,7 @@
                   <!-- Override -->
                   
                   <child>
-                    <object class="GtkBox">
+                    <object class="GtkBox" id="override_title">
                       <property name="visible">True</property>
                       <property name="can-focus">False</property>
                       <property name="margin-top">36</property>
@@ -1347,7 +1347,7 @@
                   <!-- Footer -->
                   
                   <child>
-                    <object class="GtkBox">
+                    <object class="GtkBox" id="footer">
                       <property name="visible">True</property>
                       <property name="can-focus">False</property>
                       <property name="margin-top">36</property>
