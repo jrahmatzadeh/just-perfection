@@ -11,11 +11,7 @@ const OverviewControls = imports.ui.overviewControls;
 const WorkspaceSwitcherPopup = imports.ui.workspaceSwitcherPopup;
 const ViewSelector = imports.ui.viewSelector;
 const WorkspaceThumbnail = imports.ui.workspaceThumbnail;
-// commented because:
-// search contoller will comeback to final GNOME Shell 40 release
-// it's just temporarily stepped back
-//const SearchController = (ShellVersion >= 40) ? imports.ui.searchController : null;
-const SearchController = null;
+const SearchController = (ShellVersion >= 40) ? imports.ui.searchController : null;
 
 
 let manager;
