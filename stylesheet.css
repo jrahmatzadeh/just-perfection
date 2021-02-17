@@ -187,16 +187,11 @@
     color: rgba(255, 255, 255, .98);
 }
 
-.just-perfection #dash
-{
-    background-color: rgba(0, 0, 0, .4);
-    padding: 5px;
-    border: 0;
-}
-
 .just-perfection.just-perfection-gnome3 #dash
 {
+    background-color: rgba(0, 0, 0, .4);
     padding: 5px 0;
+    border: 0;
     border-radius: 0 15px 15px 0;
 }
 
