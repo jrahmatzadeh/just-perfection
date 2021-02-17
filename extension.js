@@ -9,7 +9,7 @@ const Main = imports.ui.main;
 const BackgroundMenu = imports.ui.backgroundMenu;
 const OverviewControls = imports.ui.overviewControls;
 const WorkspaceSwitcherPopup = imports.ui.workspaceSwitcherPopup;
-const ViewSelector = imports.ui.viewSelector;
+const ViewSelector = (ShellVersion < 40) ? imports.ui.viewSelector : null;
 const WorkspaceThumbnail = imports.ui.workspaceThumbnail;
 const SearchController = (ShellVersion >= 40) ? imports.ui.searchController : null;
 
