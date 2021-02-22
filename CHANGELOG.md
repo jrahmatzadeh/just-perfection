@@ -6,9 +6,20 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+## [8.0.0] - 2021-02-22
+
+### Changed
+
+- Holding back lonely overview until the final GNOME 40 release.
+
 ### Fixed
 
 - Nepali translation filename by [@IBA4](https://gitlab.com/IBA4).
+- Focus for find entry on prefs.
+- Workspace switcher enable related to workspace switcher size.
+- Start search for GNOME Shell 40 beta.
+- Search controller for GNOME Shell 40 beta.
+- Dash override theme on GNOME Shell 40 beta.
 
 ## [7.0.0] - 2021-02-12
 
