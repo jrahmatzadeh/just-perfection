@@ -33,7 +33,8 @@ This extension allows you to do the following:
 
 ### Customize
 
-- Top Panel Corner Size
+- Panel Position
+- Top Panel Round Corner Size
 - Workspace Switcher Size (Only GNOME 40.0)
 
 ### Override

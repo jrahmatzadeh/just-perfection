@@ -14,6 +14,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Added
 
 - Disable power icon.
+- Panel position.
 
 ## [8.0.0] - 2021-02-22
 

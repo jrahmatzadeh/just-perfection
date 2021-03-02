@@ -131,6 +131,13 @@
       <summary>Workspace Switcher Size in percent, 0 means use default size</summary>
       <description>Workspace Switcher Size</description>
     </key>
+      
+    <key type="i" name="top-panel-position">
+      <default>0</default>
+      <range min="0" max="1"/>
+      <summary>Top Panel Position</summary>
+      <description>Top Panel Position Status</description>
+    </key>
     
   </schema>
   

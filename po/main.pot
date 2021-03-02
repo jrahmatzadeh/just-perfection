@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-02 00:08-0800\n"
+"POT-Creation-Date: 2021-03-02 05:37-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -114,25 +114,37 @@ msgid "No Corner"
 msgstr ""
 
 #: ui/prefs.ui:1263
-msgid "Workspace Switcher Size"
+msgid "Panel Position"
 msgstr ""
 
 #: ui/prefs.ui:1274
+msgid "Top"
+msgstr ""
+
+#: ui/prefs.ui:1275
+msgid "Bottom"
+msgstr ""
+
+#: ui/prefs.ui:1315
+msgid "Workspace Switcher Size"
+msgstr ""
+
+#: ui/prefs.ui:1326
 msgid "Default"
 msgstr ""
 
-#: ui/prefs.ui:1318
+#: ui/prefs.ui:1370
 msgid "Override"
 msgstr ""
 
-#: ui/prefs.ui:1366
+#: ui/prefs.ui:1418
 msgid "Shell Theme"
 msgstr ""
 
-#: ui/prefs.ui:1410
+#: ui/prefs.ui:1462
 msgid "What Is Done In Love Is Well Done!"
 msgstr ""
 
-#: ui/prefs.ui:1418
+#: ui/prefs.ui:1470
 msgid "Vincent van Gogh"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-02 00:08-0800\n"
+"POT-Creation-Date: 2021-03-02 05:32-0800\n"
 "PO-Revision-Date: 2021-02-01 18:27+0100\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish; Castilian <oscfdezdz@tuta.io>\n"
@@ -116,25 +116,37 @@ msgid "No Corner"
 msgstr "Sin esquina"
 
 #: ui/prefs.ui:1263
+msgid "Panel Position"
+msgstr "Posición del panel"
+
+#: ui/prefs.ui:1274
+msgid "Top"
+msgstr "Cima"
+
+#: ui/prefs.ui:1275
+msgid "Bottom"
+msgstr "Fondo"
+
+#: ui/prefs.ui:1315
 msgid "Workspace Switcher Size"
 msgstr "Tamaño del conmutador de espacio de trabajo"
 
-#: ui/prefs.ui:1274
+#: ui/prefs.ui:1326
 msgid "Default"
 msgstr "Defecto"
 
-#: ui/prefs.ui:1318
+#: ui/prefs.ui:1370
 msgid "Override"
 msgstr "Control manual"
 
-#: ui/prefs.ui:1366
+#: ui/prefs.ui:1418
 msgid "Shell Theme"
 msgstr "Tema de Shell"
 
-#: ui/prefs.ui:1410
+#: ui/prefs.ui:1462
 msgid "What Is Done In Love Is Well Done!"
 msgstr "¡Lo que se hace en el amor está bien hecho!"
 
-#: ui/prefs.ui:1418
+#: ui/prefs.ui:1470
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"

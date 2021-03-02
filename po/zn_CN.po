@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-02 00:08-0800\n"
+"POT-Creation-Date: 2021-03-02 05:32-0800\n"
 "PO-Revision-Date: 2020-12-18 04:39-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Language cn\n"
@@ -113,25 +113,37 @@ msgid "No Corner"
 msgstr "没有角落"
 
 #: ui/prefs.ui:1263
+msgid "Panel Position"
+msgstr "面板位置"
+
+#: ui/prefs.ui:1274
+msgid "Top"
+msgstr "最佳"
+
+#: ui/prefs.ui:1275
+msgid "Bottom"
+msgstr "底部"
+
+#: ui/prefs.ui:1315
 msgid "Workspace Switcher Size"
 msgstr "工作区切换器大小"
 
-#: ui/prefs.ui:1274
+#: ui/prefs.ui:1326
 msgid "Default"
 msgstr "默认"
 
-#: ui/prefs.ui:1318
+#: ui/prefs.ui:1370
 msgid "Override"
 msgstr "覆写"
 
-#: ui/prefs.ui:1366
+#: ui/prefs.ui:1418
 msgid "Shell Theme"
 msgstr "贝壳主题"
 
-#: ui/prefs.ui:1410
+#: ui/prefs.ui:1462
 msgid "What Is Done In Love Is Well Done!"
 msgstr "恋爱中的事情做得很好！"
 
-#: ui/prefs.ui:1418
+#: ui/prefs.ui:1470
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"
