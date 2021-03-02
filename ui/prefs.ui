@@ -38,7 +38,6 @@
     
   </object>
   
-  
   <!-- MAIN_PREFS -->
   
   <object class="GtkBox" id="main_prefs">
@@ -997,6 +996,8 @@
                       
                     </object>
                   </child>
+                    
+                  <!-- BEHAVIOR -->
                   
                   <child>
                     <object class="GtkBox" id="behavior_title">
@@ -1085,9 +1086,8 @@
                       
                     </object>
                   </child>
-                  
-                  
-                  <!-- Customize -->
+
+                  <!-- CUSTOMIZE -->
                   
                   <child>
                     <object class="GtkBox" id="customize_title">
@@ -1353,8 +1353,7 @@
                     </object>
                   </child>
                   
-                  
-                  <!-- Override -->
+                  <!-- OVERRIDE -->
                   
                   <child>
                     <object class="GtkBox" id="override_title">
@@ -1444,8 +1443,7 @@
                     </object>
                   </child>
                   
-                  
-                  <!-- Footer -->
+                  <!-- FOOTER -->
                   
                   <child>
                     <object class="GtkBox" id="footer">
@@ -1470,7 +1468,6 @@
                           <property name="label" translatable="yes">Vincent van Gogh</property>
                         </object>
                       </child>
-                      
                       
                     </object>
                   </child>
