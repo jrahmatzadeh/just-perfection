@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-12 15:22-0800\n"
+"POT-Creation-Date: 2021-03-02 00:08-0800\n"
 "PO-Revision-Date: 2020-12-18 04:22-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -51,85 +51,89 @@ msgid "System Menu (Aggregate Menu)"
 msgstr "сістэмнае меню"
 
 #: ui/prefs.ui:531
+msgid "Power Icon"
+msgstr "Абразок харчавання"
+
+#: ui/prefs.ui:580
 msgid "Hot Corner"
 msgstr "Гарачы кут"
 
-#: ui/prefs.ui:580
+#: ui/prefs.ui:629
 msgid "Search"
 msgstr "Пошук"
 
-#: ui/prefs.ui:629
+#: ui/prefs.ui:678
 msgid "Dash"
 msgstr "Працяжнік"
 
-#: ui/prefs.ui:678
+#: ui/prefs.ui:727
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:727
+#: ui/prefs.ui:776
 msgid "Workspace Popup"
 msgstr "Усплывальнае працоўнае месца"
 
-#: ui/prefs.ui:776
+#: ui/prefs.ui:825
 msgid "Workspace Switcher"
 msgstr "Пераключальнік працоўнай прасторы"
 
-#: ui/prefs.ui:825
+#: ui/prefs.ui:874
 msgid "Background Menu"
 msgstr "Фонавае меню"
 
-#: ui/prefs.ui:874
+#: ui/prefs.ui:923
 msgid "App Gesture"
 msgstr "Жэст прыкладання"
 
-#: ui/prefs.ui:923
+#: ui/prefs.ui:972
 msgid "Window Picker Icon"
 msgstr "Акно выбару вокнаў"
 
-#: ui/prefs.ui:963
+#: ui/prefs.ui:1012
 msgid "Behavior"
 msgstr "Паводзіны"
 
-#: ui/prefs.ui:1011
+#: ui/prefs.ui:1060
 msgid "Type to Search"
 msgstr "Набярыце для пошуку"
 
-#: ui/prefs.ui:1054
+#: ui/prefs.ui:1103
 msgid "Customize"
 msgstr "Наладзіць"
 
-#: ui/prefs.ui:1102
+#: ui/prefs.ui:1151
 msgid "Panel Corner Size"
 msgstr "Памер кута панэлі"
 
-#: ui/prefs.ui:1113
+#: ui/prefs.ui:1162
 msgid "By Shell Theme"
 msgstr "Тэма Shell"
 
-#: ui/prefs.ui:1114
+#: ui/prefs.ui:1163
 msgid "No Corner"
 msgstr "Няма кутка"
 
-#: ui/prefs.ui:1214
+#: ui/prefs.ui:1263
 msgid "Workspace Switcher Size"
 msgstr "Памер пераключальніка працоўнай вобласці"
 
-#: ui/prefs.ui:1225
+#: ui/prefs.ui:1274
 msgid "Default"
 msgstr "Па змаўчанні"
 
-#: ui/prefs.ui:1269
+#: ui/prefs.ui:1318
 msgid "Override"
 msgstr "Перавызначыць"
 
-#: ui/prefs.ui:1317
+#: ui/prefs.ui:1366
 msgid "Shell Theme"
 msgstr "Тэма Shell"
 
-#: ui/prefs.ui:1361
+#: ui/prefs.ui:1410
 msgid "What Is Done In Love Is Well Done!"
 msgstr "Тое, што зроблена ў каханні, зроблена!"
 
-#: ui/prefs.ui:1369
+#: ui/prefs.ui:1418
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"

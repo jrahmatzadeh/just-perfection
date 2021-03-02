@@ -501,6 +501,55 @@
                               
                             </object>
                           </child>
+                            
+                          <child>
+                            <object class="GtkListBoxRow" id="power_icon_row">
+                              <property name="visible">True</property>
+                              <property name="can-focus">True</property>
+                              
+                              <child>
+                                <object class="GtkBox" id="power_icon_box">
+                                  <property name="visible">True</property>
+                                  <property name="can-focus">False</property>
+                                  <property name="margin-start">12</property>
+                                  <property name="margin-end">12</property>
+                                  <property name="margin-top">12</property>
+                                  <property name="margin-bottom">12</property>
+                                  <property name="orientation">vertical</property>
+                                  
+                                  <child>
+                                    <object class="GtkBox" id="power_icon_box2">
+                                      <property name="visible">True</property>
+                                      <property name="can-focus">False</property>
+                                      <property name="spacing">32</property>
+                                      
+                                      <child>
+                                        <object class="GtkLabel" id="power_icon_txt">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">False</property>
+                                          <property name="valign">center</property>
+                                          <property name="label" translatable="yes">Power Icon</property>
+                                          <property name="xalign">0</property>
+                                          <property name="hexpand">1</property>
+                                        </object>
+                                      </child>
+                                      
+                                      <child>
+                                        <object class="GtkSwitch" id="power_icon_switch">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">True</property>
+                                          <property name="valign">center</property>
+                                        </object>
+                                      </child>
+                                      
+                                    </object>
+                                  </child>
+                                  
+                                </object>
+                              </child>
+                              
+                            </object>
+                          </child>
                           
                           <child>
                             <object class="GtkListBoxRow" id="hot_corner_row">

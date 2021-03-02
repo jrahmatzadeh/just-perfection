@@ -24,6 +24,7 @@ This extension allows you to do the following:
 - Keyboard Layout
 - Accessibility Menu
 - System Menu (Aggregate Menu)
+- Power Icon
 - Window Picker Icon (Only GNOME 40.0)
 
 ### Behavior

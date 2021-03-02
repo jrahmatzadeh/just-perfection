@@ -284,6 +284,13 @@
     padding: 0;
 }
 
+.just-perfection-api-no-power-icon .power-status StIcon
+{
+    width: 0;
+    height: 0;
+    padding: 0;
+}
+
 .just-perfection-api-gnome3.just-perfection-api-type-to-search #overview
 {
     margin-top: 23px;
