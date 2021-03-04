@@ -301,6 +301,16 @@
     margin-bottom: 23px;
 }
 
+.just-perfection-api-bottom-panel #overview
+{
+    margin-bottom: 24px;
+}
+
+.just-perfection-api-bottom-panel.just-perfection-api-no-panel #overview
+{
+    margin-bottom: 0;
+}
+
 /**
  * we shouldn't mess with GNOME Shell theme
  * so styling with css for each size is more proper
