@@ -26,6 +26,7 @@ This extension allows you to do the following:
 - System Menu (Aggregate Menu)
 - Power Icon
 - Window Picker Icon (Only GNOME 40.0)
+- Panel Arrow (Only GNOME 3.36 and 3.38)
 
 ### Behavior
 

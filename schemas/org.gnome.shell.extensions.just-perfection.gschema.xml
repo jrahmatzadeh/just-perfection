@@ -106,6 +106,12 @@
       <description>Power Icon Visibility Status</description>
     </key>
     
+    <key type="b" name="panel-arrow">
+      <default>true</default>
+      <summary>Panel Arrow</summary>
+      <description>Panel Arrow Visibility Status</description>
+    </key>
+    
     <key type="b" name="window-picker-icon">
       <default>true</default>
       <summary>Window Picker Icon</summary>

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 00:58-0800\n"
+"POT-Creation-Date: 2021-03-08 07:33-0800\n"
 "PO-Revision-Date: 2020-12-18 04:58-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -26,13 +26,17 @@ msgstr "Поддерживать"
 msgid ""
 "Your support helps the development process continue and brings more features "
 "to the extension"
-msgstr "Ваша поддержка поможет продолжить процесс разработки и привнесет в расширение больше функций."
+msgstr ""
+"Ваша поддержка поможет продолжить процесс разработки и привнесет в "
+"расширение больше функций."
 
 #: ui/prefs.ui:298
 msgid ""
 "You can support my work via Patreon. Also your name will be mentioned at the "
 "end of videos on my YouTube Channel as Patreon supporter."
-msgstr "Вы можете поддержать мою работу через Patreon. Также ваше имя будет упомянуто в конце видео на моем канале YouTube как сторонник Patreon."
+msgstr ""
+"Вы можете поддержать мою работу через Patreon. Также ваше имя будет "
+"упомянуто в конце видео на моем канале YouTube как сторонник Patreon."
 
 #: ui/prefs.ui:473
 msgid "Override"
@@ -44,7 +48,9 @@ msgstr "Тема оболочки"
 
 #: ui/prefs.ui:541
 msgid "Overrides the shell theme partially to create a minimal desktop"
-msgstr "Частично переопределяет тему оболочки для создания минимального рабочего стола"
+msgstr ""
+"Частично переопределяет тему оболочки для создания минимального рабочего "
+"стола"
 
 #: ui/prefs.ui:591
 msgid "Visibility"
@@ -83,94 +89,100 @@ msgid "Power Icon"
 msgstr "Значок питания"
 
 #: ui/prefs.ui:1032
+msgid "Panel Arrow"
+msgstr "панель стрелка"
+
+#: ui/prefs.ui:1081
 msgid "Hot Corner"
 msgstr "Горячий уголок"
 
-#: ui/prefs.ui:1081
+#: ui/prefs.ui:1130
 msgid "Search"
 msgstr "Поиск"
 
-#: ui/prefs.ui:1130
+#: ui/prefs.ui:1179
 msgid "Dash"
 msgstr "Тире"
 
-#: ui/prefs.ui:1179
+#: ui/prefs.ui:1228
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:1228
+#: ui/prefs.ui:1277
 msgid "Workspace Popup"
 msgstr "Всплывающее окно рабочей области"
 
-#: ui/prefs.ui:1277
+#: ui/prefs.ui:1326
 msgid "Workspace Switcher"
 msgstr "Переключатель рабочего пространства"
 
-#: ui/prefs.ui:1326
+#: ui/prefs.ui:1375
 msgid "Background Menu"
 msgstr "Фоновое меню"
 
-#: ui/prefs.ui:1375
+#: ui/prefs.ui:1424
 msgid "App Gesture"
 msgstr "Жест приложения"
 
-#: ui/prefs.ui:1424
+#: ui/prefs.ui:1473
 msgid "Window Picker Icon"
 msgstr "Значок выбора окна"
 
-#: ui/prefs.ui:1465
+#: ui/prefs.ui:1514
 msgid "Behavior"
 msgstr "Поведение"
 
-#: ui/prefs.ui:1520
+#: ui/prefs.ui:1569
 msgid "Type to Search"
 msgstr "Введите для поиска"
 
-#: ui/prefs.ui:1531
+#: ui/prefs.ui:1580
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
-msgstr "Вы можете начать поиск без ввода поиска или даже сосредоточиться на нем в обзоре"
+msgstr ""
+"Вы можете начать поиск без ввода поиска или даже сосредоточиться на нем в "
+"обзоре"
 
-#: ui/prefs.ui:1581
+#: ui/prefs.ui:1630
 msgid "Customize"
 msgstr "Настроить"
 
-#: ui/prefs.ui:1630
+#: ui/prefs.ui:1679
 msgid "Panel Corner Size"
 msgstr "Размер угла панели"
 
-#: ui/prefs.ui:1641
+#: ui/prefs.ui:1690
 msgid "By Shell Theme"
 msgstr "Автор Shell Theme"
 
-#: ui/prefs.ui:1642
+#: ui/prefs.ui:1691
 msgid "No Corner"
 msgstr "Нет угла"
 
-#: ui/prefs.ui:1742
+#: ui/prefs.ui:1791
 msgid "Panel Position"
 msgstr "Положение панели"
 
-#: ui/prefs.ui:1753
+#: ui/prefs.ui:1802
 msgid "Top"
 msgstr "Вершина"
 
-#: ui/prefs.ui:1754
+#: ui/prefs.ui:1803
 msgid "Bottom"
 msgstr "Нижний"
 
-#: ui/prefs.ui:1794
+#: ui/prefs.ui:1843
 msgid "Workspace Switcher Size"
 msgstr "Размер переключателя рабочего пространства"
 
-#: ui/prefs.ui:1805
+#: ui/prefs.ui:1854
 msgid "Default"
 msgstr "Дефолт"
 
-#: ui/prefs.ui:1870
+#: ui/prefs.ui:1919
 msgid "What Is Done In Love Is Well Done!"
 msgstr "Что делается с любовью, - хорошо!"
 
-#: ui/prefs.ui:1881
+#: ui/prefs.ui:1930
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"

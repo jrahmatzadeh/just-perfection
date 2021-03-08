@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 00:58-0800\n"
+"POT-Creation-Date: 2021-03-08 07:33-0800\n"
 "PO-Revision-Date: 2021-02-05 14:43+0545\n"
 "Last-Translator: 1BA4 <nabin7076@protonmail.com>\n"
 "Language-Team: Nepali <>\n"
@@ -26,13 +26,16 @@ msgstr "समर्थन"
 msgid ""
 "Your support helps the development process continue and brings more features "
 "to the extension"
-msgstr "तपाईंको समर्थनले विकास प्रक्रिया जारी राख्न मद्दत गर्दछ र विस्तारमा थप सुविधाहरू ल्याउँछ"
+msgstr ""
+"तपाईंको समर्थनले विकास प्रक्रिया जारी राख्न मद्दत गर्दछ र विस्तारमा थप सुविधाहरू ल्याउँछ"
 
 #: ui/prefs.ui:298
 msgid ""
 "You can support my work via Patreon. Also your name will be mentioned at the "
 "end of videos on my YouTube Channel as Patreon supporter."
-msgstr "तपाईले मेरो कामलाई पाट्रेन मार्फत समर्थन गर्न सक्नुहुन्छ। साथै तपाईंको नाम मेरो YouTube च्यानलमा प्याट्रियोन समर्थकको रूपमा भिडियोहरूको अन्त्यमा उल्लेख हुनेछ।"
+msgstr ""
+"तपाईले मेरो कामलाई पाट्रेन मार्फत समर्थन गर्न सक्नुहुन्छ। साथै तपाईंको नाम मेरो YouTube "
+"च्यानलमा प्याट्रियोन समर्थकको रूपमा भिडियोहरूको अन्त्यमा उल्लेख हुनेछ।"
 
 #: ui/prefs.ui:473
 msgid "Override"
@@ -83,94 +86,99 @@ msgid "Power Icon"
 msgstr "पावर आइकन"
 
 #: ui/prefs.ui:1032
+msgid "Panel Arrow"
+msgstr "प्यानल एरो"
+
+#: ui/prefs.ui:1081
 msgid "Hot Corner"
 msgstr "हट कर्नर"
 
-#: ui/prefs.ui:1081
+#: ui/prefs.ui:1130
 msgid "Search"
 msgstr "खोज"
 
-#: ui/prefs.ui:1130
+#: ui/prefs.ui:1179
 msgid "Dash"
 msgstr "ड्यास"
 
-#: ui/prefs.ui:1179
+#: ui/prefs.ui:1228
 msgid "On Screen Display (OSD)"
 msgstr "अन स्क्रिन डिस्प्ले (ओएसडी)"
 
-#: ui/prefs.ui:1228
+#: ui/prefs.ui:1277
 msgid "Workspace Popup"
 msgstr "वोर्कस्पेस पप अप"
 
-#: ui/prefs.ui:1277
+#: ui/prefs.ui:1326
 msgid "Workspace Switcher"
 msgstr "वोर्कस्पेस स्विचर"
 
-#: ui/prefs.ui:1326
+#: ui/prefs.ui:1375
 msgid "Background Menu"
 msgstr "पृष्ठभूमि मेनू"
 
-#: ui/prefs.ui:1375
+#: ui/prefs.ui:1424
 msgid "App Gesture"
 msgstr "ए्याप जेस्चर्स"
 
-#: ui/prefs.ui:1424
+#: ui/prefs.ui:1473
 msgid "Window Picker Icon"
 msgstr "विन्डो पिकर आइकन"
 
-#: ui/prefs.ui:1465
+#: ui/prefs.ui:1514
 msgid "Behavior"
 msgstr "व्यवहार"
 
-#: ui/prefs.ui:1520
+#: ui/prefs.ui:1569
 msgid "Type to Search"
 msgstr "खोजी गर्न टाइप गर्नुहोस्"
 
-#: ui/prefs.ui:1531
+#: ui/prefs.ui:1580
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
-msgstr "तपाईं खोजी प्रविष्टि बिना वा सुरु सिंहावलोकनमा यसमा केन्द्रित नगरी खोजी सुरू गर्न सक्नुहुनेछ"
+msgstr ""
+"तपाईं खोजी प्रविष्टि बिना वा सुरु सिंहावलोकनमा यसमा केन्द्रित नगरी खोजी सुरू गर्न सक्नुहुनेछ"
 
-#: ui/prefs.ui:1581
+#: ui/prefs.ui:1630
 msgid "Customize"
 msgstr "अनुकूलन गर्नुहोस्"
 
-#: ui/prefs.ui:1630
+#: ui/prefs.ui:1679
 msgid "Panel Corner Size"
 msgstr "प्यानल कुना आकार"
 
-#: ui/prefs.ui:1641
+#: ui/prefs.ui:1690
 msgid "By Shell Theme"
 msgstr "शेल थिम द्वारा"
 
-#: ui/prefs.ui:1642
+#: ui/prefs.ui:1691
 msgid "No Corner"
 msgstr "कुनै कर्नर छैन"
 
-#: ui/prefs.ui:1742
+#: ui/prefs.ui:1791
 msgid "Panel Position"
 msgstr "प्यानल स्थिति"
 
-#: ui/prefs.ui:1753
+#: ui/prefs.ui:1802
 msgid "Top"
 msgstr "माथि"
 
-#: ui/prefs.ui:1754
+#: ui/prefs.ui:1803
 msgid "Bottom"
 msgstr "तल"
 
-#: ui/prefs.ui:1794
+#: ui/prefs.ui:1843
 msgid "Workspace Switcher Size"
 msgstr "कार्यक्षेत्र स्विचर आकार"
 
-#: ui/prefs.ui:1805
+#: ui/prefs.ui:1854
 msgid "Default"
 msgstr "पूर्वनिर्धारित"
 
-#: ui/prefs.ui:1870
+#: ui/prefs.ui:1919
 msgid "What Is Done In Love Is Well Done!"
 msgstr "प्रेममा के भयो राम्रो भयो!"
 
-#: ui/prefs.ui:1881
+#: ui/prefs.ui:1930
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"

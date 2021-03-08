@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 00:58-0800\n"
+"POT-Creation-Date: 2021-03-08 07:33-0800\n"
 "PO-Revision-Date: 2020-12-13 07:26-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: French\n"
@@ -26,13 +26,18 @@ msgstr "Soutien"
 msgid ""
 "Your support helps the development process continue and brings more features "
 "to the extension"
-msgstr "Votre support aide le processus de développement à se poursuivre et apporte plus de fonctionnalités à l'extension"
+msgstr ""
+"Votre support aide le processus de développement à se poursuivre et apporte "
+"plus de fonctionnalités à l'extension"
 
 #: ui/prefs.ui:298
 msgid ""
 "You can support my work via Patreon. Also your name will be mentioned at the "
 "end of videos on my YouTube Channel as Patreon supporter."
-msgstr "Vous pouvez soutenir mon travail via Patreon. Votre nom sera également mentionné à la fin des vidéos sur ma chaîne YouTube en tant que supporter de Patreon."
+msgstr ""
+"Vous pouvez soutenir mon travail via Patreon. Votre nom sera également "
+"mentionné à la fin des vidéos sur ma chaîne YouTube en tant que supporter de "
+"Patreon."
 
 #: ui/prefs.ui:473
 msgid "Override"
@@ -83,94 +88,100 @@ msgid "Power Icon"
 msgstr "Icône de puissance"
 
 #: ui/prefs.ui:1032
+msgid "Panel Arrow"
+msgstr "flèche de panneau"
+
+#: ui/prefs.ui:1081
 msgid "Hot Corner"
 msgstr "Coin chaud"
 
-#: ui/prefs.ui:1081
+#: ui/prefs.ui:1130
 msgid "Search"
 msgstr "Chercher"
 
-#: ui/prefs.ui:1130
+#: ui/prefs.ui:1179
 msgid "Dash"
 msgstr "Tiret"
 
-#: ui/prefs.ui:1179
+#: ui/prefs.ui:1228
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:1228
+#: ui/prefs.ui:1277
 msgid "Workspace Popup"
 msgstr "Fenêtre contextuelle de l'espace de travail"
 
-#: ui/prefs.ui:1277
+#: ui/prefs.ui:1326
 msgid "Workspace Switcher"
 msgstr "Commutateur d'espace de travail"
 
-#: ui/prefs.ui:1326
+#: ui/prefs.ui:1375
 msgid "Background Menu"
 msgstr "Menu d'arrière-plan"
 
-#: ui/prefs.ui:1375
+#: ui/prefs.ui:1424
 msgid "App Gesture"
 msgstr "Geste d'application"
 
-#: ui/prefs.ui:1424
+#: ui/prefs.ui:1473
 msgid "Window Picker Icon"
 msgstr "Icône de sélecteur de fenêtre"
 
-#: ui/prefs.ui:1465
+#: ui/prefs.ui:1514
 msgid "Behavior"
 msgstr "Comportement"
 
-#: ui/prefs.ui:1520
+#: ui/prefs.ui:1569
 msgid "Type to Search"
 msgstr "Tapez pour rechercher"
 
-#: ui/prefs.ui:1531
+#: ui/prefs.ui:1580
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
-msgstr "Vous pouvez lancer la recherche sans entrée de recherche ou même vous concentrer dessus dans l'aperçu"
+msgstr ""
+"Vous pouvez lancer la recherche sans entrée de recherche ou même vous "
+"concentrer dessus dans l'aperçu"
 
-#: ui/prefs.ui:1581
+#: ui/prefs.ui:1630
 msgid "Customize"
 msgstr "Personnaliser"
 
-#: ui/prefs.ui:1630
+#: ui/prefs.ui:1679
 msgid "Panel Corner Size"
 msgstr "Taille du coin du panneau"
 
-#: ui/prefs.ui:1641
+#: ui/prefs.ui:1690
 msgid "By Shell Theme"
 msgstr "Par thème Shell"
 
-#: ui/prefs.ui:1642
+#: ui/prefs.ui:1691
 msgid "No Corner"
 msgstr "Pas de coin"
 
-#: ui/prefs.ui:1742
+#: ui/prefs.ui:1791
 msgid "Panel Position"
 msgstr "Position du panneau"
 
-#: ui/prefs.ui:1753
+#: ui/prefs.ui:1802
 msgid "Top"
 msgstr "Sommet"
 
-#: ui/prefs.ui:1754
+#: ui/prefs.ui:1803
 msgid "Bottom"
 msgstr "Bas"
 
-#: ui/prefs.ui:1794
+#: ui/prefs.ui:1843
 msgid "Workspace Switcher Size"
 msgstr "Taille du sélecteur d'espace de travail"
 
-#: ui/prefs.ui:1805
+#: ui/prefs.ui:1854
 msgid "Default"
 msgstr "Défaut"
 
-#: ui/prefs.ui:1870
+#: ui/prefs.ui:1919
 msgid "What Is Done In Love Is Well Done!"
 msgstr "Ce qui est fait en amour est bien fait!"
 
-#: ui/prefs.ui:1881
+#: ui/prefs.ui:1930
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"

@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Added
+
+- Disable panel arrow in GNOME 3.36 and 3.38.
+
 ## [9.0.0] - 2021-03-06
 
 ### Changed

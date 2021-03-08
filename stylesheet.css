@@ -311,6 +311,12 @@
     margin-bottom: 0;
 }
 
+.just-perfection-api-no-panel-arrow .panel-button .popup-menu-arrow
+{
+    width: 0;
+    height: 0;
+}
+
 /**
  * we shouldn't mess with GNOME Shell theme
  * so styling with css for each size is more proper

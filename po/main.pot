@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 00:58-0800\n"
+"POT-Creation-Date: 2021-03-08 07:38-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgid "Visibility"
 msgstr ""
 
 #: ui/prefs.ui:640
-msgid "Top Panel"
+msgid "Panel"
 msgstr ""
 
 #: ui/prefs.ui:689
@@ -82,94 +82,98 @@ msgid "Power Icon"
 msgstr ""
 
 #: ui/prefs.ui:1032
-msgid "Hot Corner"
+msgid "Panel Arrow"
 msgstr ""
 
 #: ui/prefs.ui:1081
-msgid "Search"
+msgid "Hot Corner"
 msgstr ""
 
 #: ui/prefs.ui:1130
-msgid "Dash"
+msgid "Search"
 msgstr ""
 
 #: ui/prefs.ui:1179
-msgid "On Screen Display (OSD)"
+msgid "Dash"
 msgstr ""
 
 #: ui/prefs.ui:1228
-msgid "Workspace Popup"
+msgid "On Screen Display (OSD)"
 msgstr ""
 
 #: ui/prefs.ui:1277
-msgid "Workspace Switcher"
+msgid "Workspace Popup"
 msgstr ""
 
 #: ui/prefs.ui:1326
-msgid "Background Menu"
+msgid "Workspace Switcher"
 msgstr ""
 
 #: ui/prefs.ui:1375
-msgid "App Gesture"
+msgid "Background Menu"
 msgstr ""
 
 #: ui/prefs.ui:1424
+msgid "App Gesture"
+msgstr ""
+
+#: ui/prefs.ui:1473
 msgid "Window Picker Icon"
 msgstr ""
 
-#: ui/prefs.ui:1465
+#: ui/prefs.ui:1514
 msgid "Behavior"
 msgstr ""
 
-#: ui/prefs.ui:1520
+#: ui/prefs.ui:1569
 msgid "Type to Search"
 msgstr ""
 
-#: ui/prefs.ui:1531
+#: ui/prefs.ui:1580
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 
-#: ui/prefs.ui:1581
+#: ui/prefs.ui:1630
 msgid "Customize"
 msgstr ""
 
-#: ui/prefs.ui:1630
+#: ui/prefs.ui:1679
 msgid "Panel Corner Size"
 msgstr ""
 
-#: ui/prefs.ui:1641
+#: ui/prefs.ui:1690
 msgid "By Shell Theme"
 msgstr ""
 
-#: ui/prefs.ui:1642
+#: ui/prefs.ui:1691
 msgid "No Corner"
 msgstr ""
 
-#: ui/prefs.ui:1742
+#: ui/prefs.ui:1791
 msgid "Panel Position"
 msgstr ""
 
-#: ui/prefs.ui:1753
+#: ui/prefs.ui:1802
 msgid "Top"
 msgstr ""
 
-#: ui/prefs.ui:1754
+#: ui/prefs.ui:1803
 msgid "Bottom"
 msgstr ""
 
-#: ui/prefs.ui:1794
+#: ui/prefs.ui:1843
 msgid "Workspace Switcher Size"
 msgstr ""
 
-#: ui/prefs.ui:1805
+#: ui/prefs.ui:1854
 msgid "Default"
 msgstr ""
 
-#: ui/prefs.ui:1870
+#: ui/prefs.ui:1919
 msgid "What Is Done In Love Is Well Done!"
 msgstr ""
 
-#: ui/prefs.ui:1881
+#: ui/prefs.ui:1930
 msgid "Vincent van Gogh"
 msgstr ""
