@@ -61,6 +61,8 @@ You can download this repo and install it manually with the build script:
 $ ./scripts/build.sh -i
 ```
 
+*You need gettext package installed on your system*
+
 ## Support
 
 You can support my work by sending me some crypto:
