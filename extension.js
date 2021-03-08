@@ -18,9 +18,7 @@ let manager;
 let api;
 
 
-function init()
-{
-}
+function init() {}
 
 function enable()
 {

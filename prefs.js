@@ -7,9 +7,7 @@ const Config = imports.misc.config;
 const ShellVersion = parseFloat(Config.PACKAGE_VERSION);
 
 
-function init ()
-{
-}
+function init () {}
 
 function buildPrefsWidget ()
 {
@@ -28,6 +26,7 @@ function buildPrefsWidget ()
         'Builder': builder,
         'Settings': settings,
         'GObjectBindingFlags' : GObject.BindingFlags,
+        'Gtk': Gtk,
     }, ShellVersion);
     
     return prefs.getMainPrefs(UIFilePath, binFolderPath, gettextDomain);

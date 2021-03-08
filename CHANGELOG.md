@@ -6,6 +6,12 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+## [9.0.0] - 2021-03-06
+
+### Changed
+
+- Prefs interface.
+
 ### Fixed
 
 - GNOME Shell 40.beta version.
@@ -15,6 +21,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - Disable power icon.
 - Panel position.
+- Support to prefs window.
 
 ## [8.0.0] - 2021-02-22
 

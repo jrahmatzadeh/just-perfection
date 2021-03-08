@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-02 05:32-0800\n"
+"POT-Creation-Date: 2021-03-06 00:58-0800\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -17,134 +17,159 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ui/prefs.ui:140
-msgid "Visibility"
-msgstr "Видимост"
+#: ui/prefs.ui:73
+msgid "Support"
+msgstr "поддържа"
 
-#: ui/prefs.ui:188
-msgid "Top Panel"
-msgstr "Горен панел"
+#: ui/prefs.ui:87
+msgid ""
+"Your support helps the development process continue and brings more features "
+"to the extension"
+msgstr "Вашата поддръжка помага да продължи процесът на разработка и внася повече функции в разширението"
 
-#: ui/prefs.ui:237
-msgid "Activities Button"
-msgstr "Бутон за дейности"
+#: ui/prefs.ui:298
+msgid ""
+"You can support my work via Patreon. Also your name will be mentioned at the "
+"end of videos on my YouTube Channel as Patreon supporter."
+msgstr "Можете да подкрепите работата ми чрез Patreon. Също така името ви ще бъде споменато в края на видеоклиповете в моя канал в YouTube като поддръжник на Patreon."
 
-#: ui/prefs.ui:286
-msgid "App Menu"
-msgstr "Меню на приложението"
-
-#: ui/prefs.ui:335
-msgid "Clock Menu"
-msgstr "часовник Меню"
-
-#: ui/prefs.ui:384
-msgid "Keyboard Layout"
-msgstr "Клавиатурна подредба"
-
-#: ui/prefs.ui:433
-msgid "Accessibility Menu"
-msgstr "Меню за достъпност"
-
-#: ui/prefs.ui:482
-msgid "System Menu (Aggregate Menu)"
-msgstr "системно меню"
-
-#: ui/prefs.ui:531
-msgid "Power Icon"
-msgstr "Икона на захранването"
-
-#: ui/prefs.ui:580
-msgid "Hot Corner"
-msgstr "Горещ ъгъл"
-
-#: ui/prefs.ui:629
-msgid "Search"
-msgstr "Търсене"
-
-#: ui/prefs.ui:678
-msgid "Dash"
-msgstr "Тире"
-
-#: ui/prefs.ui:727
-msgid "On Screen Display (OSD)"
-msgstr "OSD"
-
-#: ui/prefs.ui:776
-msgid "Workspace Popup"
-msgstr "Изскачащо работно пространство"
-
-#: ui/prefs.ui:825
-msgid "Workspace Switcher"
-msgstr "Превключвател на работното пространство"
-
-#: ui/prefs.ui:874
-msgid "Background Menu"
-msgstr "Меню на фона"
-
-#: ui/prefs.ui:923
-msgid "App Gesture"
-msgstr "App жест"
-
-#: ui/prefs.ui:972
-msgid "Window Picker Icon"
-msgstr "Икона за избор на прозорец"
-
-#: ui/prefs.ui:1012
-msgid "Behavior"
-msgstr "Поведение"
-
-#: ui/prefs.ui:1060
-msgid "Type to Search"
-msgstr "Въведете за търсене"
-
-#: ui/prefs.ui:1103
-msgid "Customize"
-msgstr "Персонализирайте"
-
-#: ui/prefs.ui:1151
-msgid "Panel Corner Size"
-msgstr "Размер на ъгъла на панела"
-
-#: ui/prefs.ui:1162
-msgid "By Shell Theme"
-msgstr "От Shell Theme"
-
-#: ui/prefs.ui:1163
-msgid "No Corner"
-msgstr "Без ъгъл"
-
-#: ui/prefs.ui:1263
-msgid "Panel Position"
-msgstr "Позиция на панела"
-
-#: ui/prefs.ui:1274
-msgid "Top"
-msgstr "Връх"
-
-#: ui/prefs.ui:1275
-msgid "Bottom"
-msgstr "Отдолу"
-
-#: ui/prefs.ui:1315
-msgid "Workspace Switcher Size"
-msgstr "Размер на превключвателя на работното пространство"
-
-#: ui/prefs.ui:1326
-msgid "Default"
-msgstr "По подразбиране"
-
-#: ui/prefs.ui:1370
+#: ui/prefs.ui:473
 msgid "Override"
 msgstr "Замяна"
 
-#: ui/prefs.ui:1418
+#: ui/prefs.ui:530
 msgid "Shell Theme"
 msgstr "Тема Shell"
 
-#: ui/prefs.ui:1462
+#: ui/prefs.ui:541
+msgid "Overrides the shell theme partially to create a minimal desktop"
+msgstr "Заменя темата на черупката частично, за да създаде минимален работен плот"
+
+#: ui/prefs.ui:591
+msgid "Visibility"
+msgstr "Видимост"
+
+#: ui/prefs.ui:640
+msgid "Panel"
+msgstr "Панел"
+
+#: ui/prefs.ui:689
+msgid "Activities Button"
+msgstr "Бутон за дейности"
+
+#: ui/prefs.ui:738
+msgid "App Menu"
+msgstr "Меню на приложението"
+
+#: ui/prefs.ui:787
+msgid "Clock Menu"
+msgstr "часовник Меню"
+
+#: ui/prefs.ui:836
+msgid "Keyboard Layout"
+msgstr "Клавиатурна подредба"
+
+#: ui/prefs.ui:885
+msgid "Accessibility Menu"
+msgstr "Меню за достъпност"
+
+#: ui/prefs.ui:934
+msgid "System Menu (Aggregate Menu)"
+msgstr "системно меню"
+
+#: ui/prefs.ui:983
+msgid "Power Icon"
+msgstr "Икона на захранването"
+
+#: ui/prefs.ui:1032
+msgid "Hot Corner"
+msgstr "Горещ ъгъл"
+
+#: ui/prefs.ui:1081
+msgid "Search"
+msgstr "Търсене"
+
+#: ui/prefs.ui:1130
+msgid "Dash"
+msgstr "Тире"
+
+#: ui/prefs.ui:1179
+msgid "On Screen Display (OSD)"
+msgstr "OSD"
+
+#: ui/prefs.ui:1228
+msgid "Workspace Popup"
+msgstr "Изскачащо работно пространство"
+
+#: ui/prefs.ui:1277
+msgid "Workspace Switcher"
+msgstr "Превключвател на работното пространство"
+
+#: ui/prefs.ui:1326
+msgid "Background Menu"
+msgstr "Меню на фона"
+
+#: ui/prefs.ui:1375
+msgid "App Gesture"
+msgstr "App жест"
+
+#: ui/prefs.ui:1424
+msgid "Window Picker Icon"
+msgstr "Икона за избор на прозорец"
+
+#: ui/prefs.ui:1465
+msgid "Behavior"
+msgstr "Поведение"
+
+#: ui/prefs.ui:1520
+msgid "Type to Search"
+msgstr "Въведете за търсене"
+
+#: ui/prefs.ui:1531
+msgid ""
+"You can start search without search entry or even focusing on it in overview"
+msgstr "Можете да започнете търсенето без въвеждане на търсене или дори да се фокусирате върху него в общ преглед"
+
+#: ui/prefs.ui:1581
+msgid "Customize"
+msgstr "Персонализирайте"
+
+#: ui/prefs.ui:1630
+msgid "Panel Corner Size"
+msgstr "Размер на ъгъла на панела"
+
+#: ui/prefs.ui:1641
+msgid "By Shell Theme"
+msgstr "От Shell Theme"
+
+#: ui/prefs.ui:1642
+msgid "No Corner"
+msgstr "Без ъгъл"
+
+#: ui/prefs.ui:1742
+msgid "Panel Position"
+msgstr "Позиция на панела"
+
+#: ui/prefs.ui:1753
+msgid "Top"
+msgstr "Връх"
+
+#: ui/prefs.ui:1754
+msgid "Bottom"
+msgstr "Отдолу"
+
+#: ui/prefs.ui:1794
+msgid "Workspace Switcher Size"
+msgstr "Размер на превключвателя на работното пространство"
+
+#: ui/prefs.ui:1805
+msgid "Default"
+msgstr "По подразбиране"
+
+#: ui/prefs.ui:1870
 msgid "What Is Done In Love Is Well Done!"
 msgstr "Какво е направено в любовта е добре направено!"
 
-#: ui/prefs.ui:1470
+#: ui/prefs.ui:1881
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"
