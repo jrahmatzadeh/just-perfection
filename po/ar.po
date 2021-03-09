@@ -2,14 +2,14 @@
 # Copyright (C) 2020
 # This file is distributed under GPL v3
 # Just Perfection <justperfection.channel@gmail.com>, 2020.
-#
+# Kareem Abduljaleel <karemjaleel34@gmail.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-08 07:33-0800\n"
 "PO-Revision-Date: 2020-12-18 04:15-0800\n"
-"Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
+"Last-Translator: Kareem Abduljaleel <karemjaleel34@gmail.com>\n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -18,14 +18,14 @@ msgstr ""
 
 #: ui/prefs.ui:73
 msgid "Support"
-msgstr "الدعم"
+msgstr "دعم"
 
 #: ui/prefs.ui:87
 msgid ""
 "Your support helps the development process continue and brings more features "
 "to the extension"
 msgstr ""
-"يساعد دعمك في استمرار عملية التطوير ويجلب المزيد من الميزات إلى الامتداد"
+"يساعد دعمك في استمرار عملية التطوير ويجلب المزيد من الميزات إلى الاضافة"
 
 #: ui/prefs.ui:298
 msgid ""
@@ -33,7 +33,7 @@ msgid ""
 "end of videos on my YouTube Channel as Patreon supporter."
 msgstr ""
 "يمكنك دعم عملي عبر Patreon. كما سيُذكر اسمك في نهاية مقاطع الفيديو على قناتي "
-"على YouTube كمؤيد لـ Patreon."
+"على YouTube كداعم على لـ Patreon."
 
 #: ui/prefs.ui:473
 msgid "Override"
@@ -41,15 +41,15 @@ msgstr "تجاوز"
 
 #: ui/prefs.ui:530
 msgid "Shell Theme"
-msgstr "موضوع شل"
+msgstr "مظهر الشل"
 
 #: ui/prefs.ui:541
 msgid "Overrides the shell theme partially to create a minimal desktop"
-msgstr "تتجاوز سمة الصدفة جزئيًا لإنشاء سطح مكتب صغير"
+msgstr "تجاوز مظهر الشل جزئيا لصناعة سطح مكتب ادنى"
 
 #: ui/prefs.ui:591
 msgid "Visibility"
-msgstr "الرؤية"
+msgstr "الوضوح"
 
 #: ui/prefs.ui:640
 msgid "Panel"
@@ -61,7 +61,7 @@ msgstr "زر الأنشطة"
 
 #: ui/prefs.ui:738
 msgid "App Menu"
-msgstr "قائمة التطبيق"
+msgstr "قائمة التطبيقات"
 
 #: ui/prefs.ui:787
 msgid "Clock Menu"
@@ -69,7 +69,7 @@ msgstr "قائمة الساعة"
 
 #: ui/prefs.ui:836
 msgid "Keyboard Layout"
-msgstr "تخطيط لوحة المفاتيح"
+msgstr "نموذج لوحة المفاتيح"
 
 #: ui/prefs.ui:885
 msgid "Accessibility Menu"
@@ -81,7 +81,7 @@ msgstr "قائمة النظام"
 
 #: ui/prefs.ui:983
 msgid "Power Icon"
-msgstr "أيقونة القوة"
+msgstr "أيقونة الطاقة"
 
 #: ui/prefs.ui:1032
 msgid "Panel Arrow"
@@ -97,7 +97,7 @@ msgstr "بحث"
 
 #: ui/prefs.ui:1179
 msgid "Dash"
-msgstr "اندفاع"
+msgstr "الشريط"
 
 #: ui/prefs.ui:1228
 msgid "On Screen Display (OSD)"
@@ -121,11 +121,11 @@ msgstr "إيماءة التطبيق"
 
 #: ui/prefs.ui:1473
 msgid "Window Picker Icon"
-msgstr "رمز منتقي النافذة"
+msgstr "ايقونة منتقي النافذة"
 
 #: ui/prefs.ui:1514
 msgid "Behavior"
-msgstr "سلوك"
+msgstr "تصرف"
 
 #: ui/prefs.ui:1569
 msgid "Type to Search"
@@ -138,7 +138,7 @@ msgstr "يمكنك بدء البحث بدون إدخال بحث أو حتى ال
 
 #: ui/prefs.ui:1630
 msgid "Customize"
-msgstr "يعدل أو يكيف"
+msgstr "طوّع"
 
 #: ui/prefs.ui:1679
 msgid "Panel Corner Size"
@@ -146,23 +146,23 @@ msgstr "حجم زاوية اللوحة"
 
 #: ui/prefs.ui:1690
 msgid "By Shell Theme"
-msgstr "بواسطة شل الموضوع"
+msgstr "بواسطة مظهر الشل"
 
 #: ui/prefs.ui:1691
 msgid "No Corner"
-msgstr "لا ركن"
+msgstr "بدون ركن"
 
 #: ui/prefs.ui:1791
 msgid "Panel Position"
-msgstr "موقف اللوحة"
+msgstr "موقع اللوحة"
 
 #: ui/prefs.ui:1802
 msgid "Top"
-msgstr "قمة"
+msgstr "اعلى"
 
 #: ui/prefs.ui:1803
 msgid "Bottom"
-msgstr "قاع"
+msgstr "اسفل"
 
 #: ui/prefs.ui:1843
 msgid "Workspace Switcher Size"
@@ -170,12 +170,12 @@ msgstr "حجم مبدل مساحة العمل"
 
 #: ui/prefs.ui:1854
 msgid "Default"
-msgstr "تقصير"
+msgstr "المبدئي"
 
 #: ui/prefs.ui:1919
 msgid "What Is Done In Love Is Well Done!"
-msgstr "ما تم في الحب جيد!"
+msgstr "ما تم في الحب تم في شكل جيد!"
 
 #: ui/prefs.ui:1930
 msgid "Vincent van Gogh"
-msgstr "Vincent van Gogh"
+msgstr "فينسنت فان خوخ"
