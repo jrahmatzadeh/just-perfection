@@ -82,6 +82,12 @@
       <description>Clock Menu Visibility Status</description>
     </key>
     
+    <key type="b" name="panel-notification-icon">
+      <default>true</default>
+      <summary>Panel Notification Icon</summary>
+      <description>Panel Notification Icon Visibility Status</description>
+    </key>
+    
     <key type="b" name="keyboard-layout">
       <default>true</default>
       <summary>Keyboard Layout</summary>

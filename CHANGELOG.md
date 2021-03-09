@@ -13,6 +13,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Added
 
 - Disable panel arrow in GNOME 3.36 and 3.38.
+- Disable panel notification icon.
 
 ## [9.0.0] - 2021-03-06
 

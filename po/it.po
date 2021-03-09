@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-08 07:33-0800\n"
+"POT-Creation-Date: 2021-03-08 22:01-0800\n"
 "PO-Revision-Date: 2020-12-18 04:52-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Italian\n"
@@ -38,149 +38,153 @@ msgstr ""
 "menzionato alla fine dei video sul mio canale YouTube come sostenitore di "
 "Patreon."
 
-#: ui/prefs.ui:473
+#: ui/prefs.ui:474
 msgid "Override"
 msgstr "Oltrepassare"
 
-#: ui/prefs.ui:530
+#: ui/prefs.ui:531
 msgid "Shell Theme"
 msgstr "Tema Shell"
 
-#: ui/prefs.ui:541
+#: ui/prefs.ui:542
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "Ignora parzialmente il tema della shell per creare un desktop minimale"
 
-#: ui/prefs.ui:591
+#: ui/prefs.ui:592
 msgid "Visibility"
 msgstr "Visibilità"
 
-#: ui/prefs.ui:640
+#: ui/prefs.ui:641
 msgid "Panel"
 msgstr "Pannello"
 
-#: ui/prefs.ui:689
+#: ui/prefs.ui:690
 msgid "Activities Button"
 msgstr "Pulsante attività"
 
-#: ui/prefs.ui:738
+#: ui/prefs.ui:739
 msgid "App Menu"
 msgstr "menu dell'app"
 
-#: ui/prefs.ui:787
+#: ui/prefs.ui:788
 msgid "Clock Menu"
 msgstr "Menu orologio"
 
-#: ui/prefs.ui:836
+#: ui/prefs.ui:837
+msgid "Panel Notification Icon"
+msgstr "Icona di notifica del pannello"
+
+#: ui/prefs.ui:886
 msgid "Keyboard Layout"
 msgstr "Layout della tastiera"
 
-#: ui/prefs.ui:885
+#: ui/prefs.ui:935
 msgid "Accessibility Menu"
 msgstr "Menu accessibilità"
 
-#: ui/prefs.ui:934
+#: ui/prefs.ui:984
 msgid "System Menu (Aggregate Menu)"
 msgstr "menu di sistema"
 
-#: ui/prefs.ui:983
+#: ui/prefs.ui:1033
 msgid "Power Icon"
 msgstr "Icona di alimentazione"
 
-#: ui/prefs.ui:1032
+#: ui/prefs.ui:1082
 msgid "Panel Arrow"
 msgstr "freccia del pannello"
 
-#: ui/prefs.ui:1081
+#: ui/prefs.ui:1131
 msgid "Hot Corner"
 msgstr "Angolo caldo"
 
-#: ui/prefs.ui:1130
+#: ui/prefs.ui:1180
 msgid "Search"
 msgstr "Ricerca"
 
-#: ui/prefs.ui:1179
+#: ui/prefs.ui:1229
 msgid "Dash"
 msgstr "Dash"
 
-#: ui/prefs.ui:1228
+#: ui/prefs.ui:1278
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:1277
+#: ui/prefs.ui:1327
 msgid "Workspace Popup"
 msgstr "Pop up dell'area di lavoro"
 
-#: ui/prefs.ui:1326
+#: ui/prefs.ui:1376
 msgid "Workspace Switcher"
 msgstr "Switcher area di lavoro"
 
-#: ui/prefs.ui:1375
+#: ui/prefs.ui:1425
 msgid "Background Menu"
 msgstr "sfondo menù"
 
-#: ui/prefs.ui:1424
+#: ui/prefs.ui:1474
 msgid "App Gesture"
 msgstr "Gesto dell'app"
 
-#: ui/prefs.ui:1473
+#: ui/prefs.ui:1523
 msgid "Window Picker Icon"
 msgstr "Icona di selezione della finestra"
 
-#: ui/prefs.ui:1514
+#: ui/prefs.ui:1564
 msgid "Behavior"
 msgstr "Comportamento"
 
-#: ui/prefs.ui:1569
+#: ui/prefs.ui:1619
 msgid "Type to Search"
 msgstr "Digita per cercare"
 
-#: ui/prefs.ui:1580
+#: ui/prefs.ui:1630
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Puoi iniziare la ricerca senza voce di ricerca o concentrarti su di essa in "
 "panoramica"
 
-#: ui/prefs.ui:1630
+#: ui/prefs.ui:1680
 msgid "Customize"
 msgstr "personalizzare"
 
-#: ui/prefs.ui:1679
+#: ui/prefs.ui:1729
 msgid "Panel Corner Size"
 msgstr "Dimensione dell'angolo del pannello"
 
-#: ui/prefs.ui:1690
+#: ui/prefs.ui:1740
 msgid "By Shell Theme"
 msgstr "Di Shell Theme"
 
-#: ui/prefs.ui:1691
+#: ui/prefs.ui:1741
 msgid "No Corner"
 msgstr "Nessun angolo"
 
-#: ui/prefs.ui:1791
+#: ui/prefs.ui:1841
 msgid "Panel Position"
 msgstr "Posizione del pannello"
 
-#: ui/prefs.ui:1802
+#: ui/prefs.ui:1852
 msgid "Top"
 msgstr "Superiore"
 
-#: ui/prefs.ui:1803
+#: ui/prefs.ui:1853
 msgid "Bottom"
 msgstr "Parte inferiore"
 
-#: ui/prefs.ui:1843
+#: ui/prefs.ui:1893
 msgid "Workspace Switcher Size"
 msgstr "Dimensioni dello switcher dell'area di lavoro"
 
-#: ui/prefs.ui:1854
+#: ui/prefs.ui:1904
 msgid "Default"
 msgstr "Predefinito"
 
-#: ui/prefs.ui:1919
+#: ui/prefs.ui:1969
 msgid "What Is Done In Love Is Well Done!"
 msgstr "Ciò che è fatto in amore è ben fatto!"
 
-#: ui/prefs.ui:1930
+#: ui/prefs.ui:1980
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"

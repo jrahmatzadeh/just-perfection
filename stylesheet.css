@@ -383,3 +383,10 @@
 .just-perfection-api-panel-corner59 #panel .panel-corner { -panel-corner-radius: 59px; }
 .just-perfection-api-panel-corner60 #panel .panel-corner { -panel-corner-radius: 60px; }
 
+.just-perfection-api-no-panel-notification-icon .clock-display StIcon
+{
+    width: 0;
+    height: 0;
+    padding: 0;
+}
+

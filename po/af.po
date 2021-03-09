@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-08 07:33-0800\n"
+"POT-Creation-Date: 2021-03-08 22:01-0800\n"
 "PO-Revision-Date: 2020-12-18 04:05-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Afrikaans\n"
@@ -36,148 +36,152 @@ msgstr ""
 "U kan my werk via Patreon ondersteun. U naam sal ook aan die einde van "
 "video's op my YouTube-kanaal genoem word as Patreon-ondersteuner."
 
-#: ui/prefs.ui:473
+#: ui/prefs.ui:474
 msgid "Override"
 msgstr "Ignoreer"
 
-#: ui/prefs.ui:530
+#: ui/prefs.ui:531
 msgid "Shell Theme"
 msgstr "Skulp Tema"
 
-#: ui/prefs.ui:541
+#: ui/prefs.ui:542
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "Skep die dop-tema gedeeltelik om 'n minimale lessenaar te skep"
 
-#: ui/prefs.ui:591
+#: ui/prefs.ui:592
 msgid "Visibility"
 msgstr "Sigbaarheid"
 
-#: ui/prefs.ui:640
+#: ui/prefs.ui:641
 msgid "Panel"
 msgstr "paneel"
 
-#: ui/prefs.ui:689
+#: ui/prefs.ui:690
 msgid "Activities Button"
 msgstr "Aktiwiteite-knoppie"
 
-#: ui/prefs.ui:738
+#: ui/prefs.ui:739
 msgid "App Menu"
 msgstr "app spyskaart"
 
-#: ui/prefs.ui:787
+#: ui/prefs.ui:788
 msgid "Clock Menu"
 msgstr "klok Menu"
 
-#: ui/prefs.ui:836
+#: ui/prefs.ui:837
+msgid "Panel Notification Icon"
+msgstr "Paneelkennisgewing-ikoon"
+
+#: ui/prefs.ui:886
 msgid "Keyboard Layout"
 msgstr "Sleutelborduitleg"
 
-#: ui/prefs.ui:885
+#: ui/prefs.ui:935
 msgid "Accessibility Menu"
 msgstr "Toeganklikheids-menu"
 
-#: ui/prefs.ui:934
+#: ui/prefs.ui:984
 msgid "System Menu (Aggregate Menu)"
 msgstr "stelsel menu"
 
-#: ui/prefs.ui:983
+#: ui/prefs.ui:1033
 msgid "Power Icon"
 msgstr "Krag-ikoon"
 
-#: ui/prefs.ui:1032
+#: ui/prefs.ui:1082
 msgid "Panel Arrow"
 msgstr "paneelpyltjie"
 
-#: ui/prefs.ui:1081
+#: ui/prefs.ui:1131
 msgid "Hot Corner"
 msgstr "Warm hoekie"
 
-#: ui/prefs.ui:1130
+#: ui/prefs.ui:1180
 msgid "Search"
 msgstr "Soek"
 
-#: ui/prefs.ui:1179
+#: ui/prefs.ui:1229
 msgid "Dash"
 msgstr "Dash"
 
-#: ui/prefs.ui:1228
+#: ui/prefs.ui:1278
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:1277
+#: ui/prefs.ui:1327
 msgid "Workspace Popup"
 msgstr "Werkruimte pop-up"
 
-#: ui/prefs.ui:1326
+#: ui/prefs.ui:1376
 msgid "Workspace Switcher"
 msgstr "Werkspasie skakelaar"
 
-#: ui/prefs.ui:1375
+#: ui/prefs.ui:1425
 msgid "Background Menu"
 msgstr "Agtergrond menu"
 
-#: ui/prefs.ui:1424
+#: ui/prefs.ui:1474
 msgid "App Gesture"
 msgstr "App gebaar"
 
-#: ui/prefs.ui:1473
+#: ui/prefs.ui:1523
 msgid "Window Picker Icon"
 msgstr "Vensterkeuse-ikoon"
 
-#: ui/prefs.ui:1514
+#: ui/prefs.ui:1564
 msgid "Behavior"
 msgstr "Gedrag"
 
-#: ui/prefs.ui:1569
+#: ui/prefs.ui:1619
 msgid "Type to Search"
 msgstr "Tik om te soek"
 
-#: ui/prefs.ui:1580
+#: ui/prefs.ui:1630
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "U kan begin soek sonder om in te soek of selfs in oorsig daarop te fokus"
 
-#: ui/prefs.ui:1630
+#: ui/prefs.ui:1680
 msgid "Customize"
 msgstr "Pas aan"
 
-#: ui/prefs.ui:1679
+#: ui/prefs.ui:1729
 msgid "Panel Corner Size"
 msgstr "Paneelhoekgrootte"
 
-#: ui/prefs.ui:1690
+#: ui/prefs.ui:1740
 msgid "By Shell Theme"
 msgstr "Deur Shell-tema"
 
-#: ui/prefs.ui:1691
+#: ui/prefs.ui:1741
 msgid "No Corner"
 msgstr "Geen hoekie nie"
 
-#: ui/prefs.ui:1791
+#: ui/prefs.ui:1841
 msgid "Panel Position"
 msgstr "Paneelposisie"
 
-#: ui/prefs.ui:1802
+#: ui/prefs.ui:1852
 msgid "Top"
 msgstr "Top"
 
-#: ui/prefs.ui:1803
+#: ui/prefs.ui:1853
 msgid "Bottom"
 msgstr "Onder"
 
-#: ui/prefs.ui:1843
+#: ui/prefs.ui:1893
 msgid "Workspace Switcher Size"
 msgstr "Grootte van die skakelaar van die werkruimte"
 
-#: ui/prefs.ui:1854
+#: ui/prefs.ui:1904
 msgid "Default"
 msgstr "Verstek"
 
-#: ui/prefs.ui:1919
+#: ui/prefs.ui:1969
 msgid "What Is Done In Love Is Well Done!"
 msgstr "Wat in liefde gedoen word, is goed gedoen!"
 
-#: ui/prefs.ui:1930
+#: ui/prefs.ui:1980
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-08 07:33-0800\n"
+"POT-Creation-Date: 2021-03-08 22:01-0800\n"
 "PO-Revision-Date: 2021-02-05 14:43+0545\n"
 "Last-Translator: 1BA4 <nabin7076@protonmail.com>\n"
 "Language-Team: Nepali <>\n"
@@ -37,148 +37,152 @@ msgstr ""
 "तपाईले मेरो कामलाई पाट्रेन मार्फत समर्थन गर्न सक्नुहुन्छ। साथै तपाईंको नाम मेरो YouTube "
 "च्यानलमा प्याट्रियोन समर्थकको रूपमा भिडियोहरूको अन्त्यमा उल्लेख हुनेछ।"
 
-#: ui/prefs.ui:473
+#: ui/prefs.ui:474
 msgid "Override"
 msgstr "ओभरराइड"
 
-#: ui/prefs.ui:530
+#: ui/prefs.ui:531
 msgid "Shell Theme"
 msgstr "शेल थिम"
 
-#: ui/prefs.ui:541
+#: ui/prefs.ui:542
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "न्यूनतम डेस्कटप सिर्जना गर्न आंशिक रूपमा शेल विषयवस्तु ओभरराइड गर्दछ"
 
-#: ui/prefs.ui:591
+#: ui/prefs.ui:592
 msgid "Visibility"
 msgstr "दृश्यता"
 
-#: ui/prefs.ui:640
+#: ui/prefs.ui:641
 msgid "Panel"
 msgstr "प्यानल"
 
-#: ui/prefs.ui:689
+#: ui/prefs.ui:690
 msgid "Activities Button"
 msgstr "एकटीभीटिज बटन"
 
-#: ui/prefs.ui:738
+#: ui/prefs.ui:739
 msgid "App Menu"
 msgstr "ए्याप मेनु"
 
-#: ui/prefs.ui:787
+#: ui/prefs.ui:788
 msgid "Clock Menu"
 msgstr "घडी मेनू"
 
-#: ui/prefs.ui:836
+#: ui/prefs.ui:837
+msgid "Panel Notification Icon"
+msgstr "प्यानल सूचना आइकन"
+
+#: ui/prefs.ui:886
 msgid "Keyboard Layout"
 msgstr "कीबोर्ड लेआउट"
 
-#: ui/prefs.ui:885
+#: ui/prefs.ui:935
 msgid "Accessibility Menu"
 msgstr "पहुँच मेनू"
 
-#: ui/prefs.ui:934
+#: ui/prefs.ui:984
 msgid "System Menu (Aggregate Menu)"
 msgstr "सिस्टम मेनु (समग्र मेनु)"
 
-#: ui/prefs.ui:983
+#: ui/prefs.ui:1033
 msgid "Power Icon"
 msgstr "पावर आइकन"
 
-#: ui/prefs.ui:1032
+#: ui/prefs.ui:1082
 msgid "Panel Arrow"
 msgstr "प्यानल एरो"
 
-#: ui/prefs.ui:1081
+#: ui/prefs.ui:1131
 msgid "Hot Corner"
 msgstr "हट कर्नर"
 
-#: ui/prefs.ui:1130
+#: ui/prefs.ui:1180
 msgid "Search"
 msgstr "खोज"
 
-#: ui/prefs.ui:1179
+#: ui/prefs.ui:1229
 msgid "Dash"
 msgstr "ड्यास"
 
-#: ui/prefs.ui:1228
+#: ui/prefs.ui:1278
 msgid "On Screen Display (OSD)"
 msgstr "अन स्क्रिन डिस्प्ले (ओएसडी)"
 
-#: ui/prefs.ui:1277
+#: ui/prefs.ui:1327
 msgid "Workspace Popup"
 msgstr "वोर्कस्पेस पप अप"
 
-#: ui/prefs.ui:1326
+#: ui/prefs.ui:1376
 msgid "Workspace Switcher"
 msgstr "वोर्कस्पेस स्विचर"
 
-#: ui/prefs.ui:1375
+#: ui/prefs.ui:1425
 msgid "Background Menu"
 msgstr "पृष्ठभूमि मेनू"
 
-#: ui/prefs.ui:1424
+#: ui/prefs.ui:1474
 msgid "App Gesture"
 msgstr "ए्याप जेस्चर्स"
 
-#: ui/prefs.ui:1473
+#: ui/prefs.ui:1523
 msgid "Window Picker Icon"
 msgstr "विन्डो पिकर आइकन"
 
-#: ui/prefs.ui:1514
+#: ui/prefs.ui:1564
 msgid "Behavior"
 msgstr "व्यवहार"
 
-#: ui/prefs.ui:1569
+#: ui/prefs.ui:1619
 msgid "Type to Search"
 msgstr "खोजी गर्न टाइप गर्नुहोस्"
 
-#: ui/prefs.ui:1580
+#: ui/prefs.ui:1630
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "तपाईं खोजी प्रविष्टि बिना वा सुरु सिंहावलोकनमा यसमा केन्द्रित नगरी खोजी सुरू गर्न सक्नुहुनेछ"
 
-#: ui/prefs.ui:1630
+#: ui/prefs.ui:1680
 msgid "Customize"
 msgstr "अनुकूलन गर्नुहोस्"
 
-#: ui/prefs.ui:1679
+#: ui/prefs.ui:1729
 msgid "Panel Corner Size"
 msgstr "प्यानल कुना आकार"
 
-#: ui/prefs.ui:1690
+#: ui/prefs.ui:1740
 msgid "By Shell Theme"
 msgstr "शेल थिम द्वारा"
 
-#: ui/prefs.ui:1691
+#: ui/prefs.ui:1741
 msgid "No Corner"
 msgstr "कुनै कर्नर छैन"
 
-#: ui/prefs.ui:1791
+#: ui/prefs.ui:1841
 msgid "Panel Position"
 msgstr "प्यानल स्थिति"
 
-#: ui/prefs.ui:1802
+#: ui/prefs.ui:1852
 msgid "Top"
 msgstr "माथि"
 
-#: ui/prefs.ui:1803
+#: ui/prefs.ui:1853
 msgid "Bottom"
 msgstr "तल"
 
-#: ui/prefs.ui:1843
+#: ui/prefs.ui:1893
 msgid "Workspace Switcher Size"
 msgstr "कार्यक्षेत्र स्विचर आकार"
 
-#: ui/prefs.ui:1854
+#: ui/prefs.ui:1904
 msgid "Default"
 msgstr "पूर्वनिर्धारित"
 
-#: ui/prefs.ui:1919
+#: ui/prefs.ui:1969
 msgid "What Is Done In Love Is Well Done!"
 msgstr "प्रेममा के भयो राम्रो भयो!"
 
-#: ui/prefs.ui:1930
+#: ui/prefs.ui:1980
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"
