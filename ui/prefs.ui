@@ -369,20 +369,21 @@
           <object class="GtkRevealer" id="searchbar_revealer">
             <property name="visible">True</property>
             <property name="can-focus">True</property>
-            <property name="transition-type">none</property>
+            <property name="transition-type">slide-up</property>
             <property name="reveal-child">True</property>
-            <property name="margin-start">5</property>
-            <property name="margin-end">5</property>
+            <property name="margin-start">36</property>
+            <property name="margin-end">36</property>
             <property name="margin-top">5</property>
             <property name="margin-bottom">5</property>
             <property name="hexpand">1</property>
-            <property name="width-request">345</property>
+            <property name="width_request">450</property>
             
             <child>
               <object class="GtkBox">
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
                 <property name="orientation">vertical</property>
+                <property name="hexpand">1</property>
                 
                 <child>
                   <object class="GtkSearchEntry" id="search_entry">
