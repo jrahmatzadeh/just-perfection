@@ -13,11 +13,15 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Fixed
 
 - Horizontal scroll in prefs.
+- Primary Monitor Panel Position.
+- Arabic translation by [@karem34](https://gitlab.com/karem34).
 
 ### Added
 
 - Disable panel arrow in GNOME 3.36 and 3.38.
 - Disable panel notification icon.
+- Galician translation by [@frandieguez](https://gitlab.com/frandieguez).
+- Brazilian Portuguese Translation by [@Zelling](https://gitlab.com/Zelling).
 
 ## [9.0.0] - 2021-03-06
 
