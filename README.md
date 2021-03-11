@@ -1,7 +1,5 @@
 # Just Perfection GNOME Shell Extension
 
-**"What Is Done In Love Is Well Done!" Vincent van Gogh**
-
 ![Just Perfection GNOME Shell Extension Logo](bin/logo.svg)
 
 ## What Can It Do?
@@ -27,7 +25,7 @@ This extension allows you to do the following:
 - Power Icon
 - Window Picker Icon (Only GNOME 40.0)
 - Panel Arrow (Only GNOME 3.36 and 3.38)
-- Panel Notification icon. 
+- Panel Notification icon
 
 ### Behavior
 

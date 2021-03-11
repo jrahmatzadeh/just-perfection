@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-10 16:21-0300\n"
+"POT-Creation-Date: 2021-03-11 00:56-0800\n"
 "PO-Revision-Date: 2020-12-18 04:15-0800\n"
 "Last-Translator: Kareem Abduljaleel <karemjaleel34@gmail.com>\n"
 "Language-Team: Arabic\n"
@@ -35,151 +35,143 @@ msgstr ""
 "يمكنك دعم عملي عبر Patreon. كما سيُذكر اسمك في نهاية مقاطع الفيديو على قناتي "
 "على YouTube كداعم على لـ Patreon."
 
-#: ui/prefs.ui:475
+#: ui/prefs.ui:443
 msgid "Override"
 msgstr "تجاوز"
 
-#: ui/prefs.ui:532
+#: ui/prefs.ui:500
 msgid "Shell Theme"
 msgstr "مظهر الشل"
 
-#: ui/prefs.ui:543
+#: ui/prefs.ui:511
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "تجاوز مظهر الشل جزئيا لصناعة سطح مكتب ادنى"
 
-#: ui/prefs.ui:593
+#: ui/prefs.ui:561
 msgid "Visibility"
 msgstr "الوضوح"
 
-#: ui/prefs.ui:642
+#: ui/prefs.ui:610
 msgid "Panel"
 msgstr "اللوحة"
 
-#: ui/prefs.ui:691
+#: ui/prefs.ui:659
 msgid "Activities Button"
 msgstr "زر الأنشطة"
 
-#: ui/prefs.ui:740
+#: ui/prefs.ui:708
 msgid "App Menu"
 msgstr "قائمة التطبيقات"
 
-#: ui/prefs.ui:789
+#: ui/prefs.ui:757
 msgid "Clock Menu"
 msgstr "قائمة الساعة"
 
-#: ui/prefs.ui:838
+#: ui/prefs.ui:806
 msgid "Panel Notification Icon"
 msgstr "رمز لوحة الإخطار"
 
-#: ui/prefs.ui:887
+#: ui/prefs.ui:855
 msgid "Keyboard Layout"
 msgstr "نموذج لوحة المفاتيح"
 
-#: ui/prefs.ui:936
+#: ui/prefs.ui:904
 msgid "Accessibility Menu"
 msgstr "قائمة الوصول"
 
-#: ui/prefs.ui:985
+#: ui/prefs.ui:953
 msgid "System Menu (Aggregate Menu)"
 msgstr "قائمة النظام"
 
-#: ui/prefs.ui:1034
+#: ui/prefs.ui:1002
 msgid "Power Icon"
 msgstr "أيقونة الطاقة"
 
-#: ui/prefs.ui:1083
+#: ui/prefs.ui:1051
 msgid "Panel Arrow"
 msgstr "سهم اللوحة"
 
-#: ui/prefs.ui:1132
+#: ui/prefs.ui:1100
 msgid "Hot Corner"
 msgstr "ركن ساخن"
 
-#: ui/prefs.ui:1181
+#: ui/prefs.ui:1149
 msgid "Search"
 msgstr "بحث"
 
-#: ui/prefs.ui:1230
+#: ui/prefs.ui:1198
 msgid "Dash"
 msgstr "الشريط"
 
-#: ui/prefs.ui:1279
+#: ui/prefs.ui:1247
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:1328
+#: ui/prefs.ui:1296
 msgid "Workspace Popup"
 msgstr "مساحة العمل المنبثقة"
 
-#: ui/prefs.ui:1377
+#: ui/prefs.ui:1345
 msgid "Workspace Switcher"
 msgstr "مبدل مساحة العمل"
 
-#: ui/prefs.ui:1426
+#: ui/prefs.ui:1394
 msgid "Background Menu"
 msgstr "قائمة الخلفية"
 
-#: ui/prefs.ui:1475
+#: ui/prefs.ui:1443
 msgid "App Gesture"
 msgstr "إيماءة التطبيق"
 
-#: ui/prefs.ui:1524
+#: ui/prefs.ui:1492
 msgid "Window Picker Icon"
 msgstr "ايقونة منتقي النافذة"
 
-#: ui/prefs.ui:1565
+#: ui/prefs.ui:1533
 msgid "Behavior"
 msgstr "تصرف"
 
-#: ui/prefs.ui:1620
+#: ui/prefs.ui:1588
 msgid "Type to Search"
 msgstr "اكتب للبحث"
 
-#: ui/prefs.ui:1631
+#: ui/prefs.ui:1599
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr "يمكنك بدء البحث بدون إدخال بحث أو حتى التركيز عليه في نظرة عامة"
 
-#: ui/prefs.ui:1681
+#: ui/prefs.ui:1649
 msgid "Customize"
 msgstr "طوّع"
 
-#: ui/prefs.ui:1730
+#: ui/prefs.ui:1698
 msgid "Panel Corner Size"
 msgstr "حجم زاوية اللوحة"
 
-#: ui/prefs.ui:1741
+#: ui/prefs.ui:1709
 msgid "By Shell Theme"
 msgstr "بواسطة مظهر الشل"
 
-#: ui/prefs.ui:1742
+#: ui/prefs.ui:1710
 msgid "No Corner"
 msgstr "بدون ركن"
 
-#: ui/prefs.ui:1842
+#: ui/prefs.ui:1810
 msgid "Panel Position"
 msgstr "موقع اللوحة"
 
-#: ui/prefs.ui:1853
+#: ui/prefs.ui:1821
 msgid "Top"
 msgstr "اعلى"
 
-#: ui/prefs.ui:1854
+#: ui/prefs.ui:1822
 msgid "Bottom"
 msgstr "اسفل"
 
-#: ui/prefs.ui:1894
+#: ui/prefs.ui:1862
 msgid "Workspace Switcher Size"
 msgstr "حجم مبدل مساحة العمل"
 
-#: ui/prefs.ui:1905
+#: ui/prefs.ui:1873
 msgid "Default"
 msgstr "المبدئي"
-
-#: ui/prefs.ui:1970
-msgid "What Is Done In Love Is Well Done!"
-msgstr "ما تم في الحب تم في شكل جيد!"
-
-#: ui/prefs.ui:1981
-msgid "Vincent van Gogh"
-msgstr "فينسنت فان خوخ"

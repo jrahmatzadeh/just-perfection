@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Changed
+
+- Removed quotes and side bar image from prefs UI.
+
 ### Fixed
 
 - Horizontal scroll in prefs.
