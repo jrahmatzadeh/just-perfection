@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-08 22:01-0800\n"
+"POT-Creation-Date: 2021-03-10 16:21-0300\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -38,154 +38,154 @@ msgstr ""
 "споменато в края на видеоклиповете в моя канал в YouTube като поддръжник на "
 "Patreon."
 
-#: ui/prefs.ui:474
+#: ui/prefs.ui:475
 msgid "Override"
 msgstr "Замяна"
 
-#: ui/prefs.ui:531
+#: ui/prefs.ui:532
 msgid "Shell Theme"
 msgstr "Тема Shell"
 
-#: ui/prefs.ui:542
+#: ui/prefs.ui:543
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr ""
 "Заменя темата на черупката частично, за да създаде минимален работен плот"
 
-#: ui/prefs.ui:592
+#: ui/prefs.ui:593
 msgid "Visibility"
 msgstr "Видимост"
 
-#: ui/prefs.ui:641
+#: ui/prefs.ui:642
 msgid "Panel"
 msgstr "Панел"
 
-#: ui/prefs.ui:690
+#: ui/prefs.ui:691
 msgid "Activities Button"
 msgstr "Бутон за дейности"
 
-#: ui/prefs.ui:739
+#: ui/prefs.ui:740
 msgid "App Menu"
 msgstr "Меню на приложението"
 
-#: ui/prefs.ui:788
+#: ui/prefs.ui:789
 msgid "Clock Menu"
 msgstr "часовник Меню"
 
-#: ui/prefs.ui:837
+#: ui/prefs.ui:838
 msgid "Panel Notification Icon"
 msgstr "Икона за известяване на панела"
 
-#: ui/prefs.ui:886
+#: ui/prefs.ui:887
 msgid "Keyboard Layout"
 msgstr "Клавиатурна подредба"
 
-#: ui/prefs.ui:935
+#: ui/prefs.ui:936
 msgid "Accessibility Menu"
 msgstr "Меню за достъпност"
 
-#: ui/prefs.ui:984
+#: ui/prefs.ui:985
 msgid "System Menu (Aggregate Menu)"
 msgstr "системно меню"
 
-#: ui/prefs.ui:1033
+#: ui/prefs.ui:1034
 msgid "Power Icon"
 msgstr "Икона на захранването"
 
-#: ui/prefs.ui:1082
+#: ui/prefs.ui:1083
 msgid "Panel Arrow"
 msgstr "панелна стрелка"
 
-#: ui/prefs.ui:1131
+#: ui/prefs.ui:1132
 msgid "Hot Corner"
 msgstr "Горещ ъгъл"
 
-#: ui/prefs.ui:1180
+#: ui/prefs.ui:1181
 msgid "Search"
 msgstr "Търсене"
 
-#: ui/prefs.ui:1229
+#: ui/prefs.ui:1230
 msgid "Dash"
 msgstr "Тире"
 
-#: ui/prefs.ui:1278
+#: ui/prefs.ui:1279
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:1327
+#: ui/prefs.ui:1328
 msgid "Workspace Popup"
 msgstr "Изскачащо работно пространство"
 
-#: ui/prefs.ui:1376
+#: ui/prefs.ui:1377
 msgid "Workspace Switcher"
 msgstr "Превключвател на работното пространство"
 
-#: ui/prefs.ui:1425
+#: ui/prefs.ui:1426
 msgid "Background Menu"
 msgstr "Меню на фона"
 
-#: ui/prefs.ui:1474
+#: ui/prefs.ui:1475
 msgid "App Gesture"
 msgstr "App жест"
 
-#: ui/prefs.ui:1523
+#: ui/prefs.ui:1524
 msgid "Window Picker Icon"
 msgstr "Икона за избор на прозорец"
 
-#: ui/prefs.ui:1564
+#: ui/prefs.ui:1565
 msgid "Behavior"
 msgstr "Поведение"
 
-#: ui/prefs.ui:1619
+#: ui/prefs.ui:1620
 msgid "Type to Search"
 msgstr "Въведете за търсене"
 
-#: ui/prefs.ui:1630
+#: ui/prefs.ui:1631
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Можете да започнете търсенето без въвеждане на търсене или дори да се "
 "фокусирате върху него в общ преглед"
 
-#: ui/prefs.ui:1680
+#: ui/prefs.ui:1681
 msgid "Customize"
 msgstr "Персонализирайте"
 
-#: ui/prefs.ui:1729
+#: ui/prefs.ui:1730
 msgid "Panel Corner Size"
 msgstr "Размер на ъгъла на панела"
 
-#: ui/prefs.ui:1740
+#: ui/prefs.ui:1741
 msgid "By Shell Theme"
 msgstr "От Shell Theme"
 
-#: ui/prefs.ui:1741
+#: ui/prefs.ui:1742
 msgid "No Corner"
 msgstr "Без ъгъл"
 
-#: ui/prefs.ui:1841
+#: ui/prefs.ui:1842
 msgid "Panel Position"
 msgstr "Позиция на панела"
 
-#: ui/prefs.ui:1852
+#: ui/prefs.ui:1853
 msgid "Top"
 msgstr "Връх"
 
-#: ui/prefs.ui:1853
+#: ui/prefs.ui:1854
 msgid "Bottom"
 msgstr "Отдолу"
 
-#: ui/prefs.ui:1893
+#: ui/prefs.ui:1894
 msgid "Workspace Switcher Size"
 msgstr "Размер на превключвателя на работното пространство"
 
-#: ui/prefs.ui:1904
+#: ui/prefs.ui:1905
 msgid "Default"
 msgstr "По подразбиране"
 
-#: ui/prefs.ui:1969
+#: ui/prefs.ui:1970
 msgid "What Is Done In Love Is Well Done!"
 msgstr "Какво е направено в любовта е добре направено!"
 
-#: ui/prefs.ui:1980
+#: ui/prefs.ui:1981
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"

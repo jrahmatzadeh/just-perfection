@@ -1,104 +1,106 @@
-# Just Perfection GNOME Shell Extension Translation
-# Copyright (C) 2020
-# This file is distributed under GPL v3
-# Just Perfection <justperfection.channel@gmail.com>, 2020.
+# Portuguese translations for Just Perfection package.
+# Copyright (C) 2021 Just Perfection
+# This file is distributed under the same license as the Just Perfection package.
+# zelling <zelling@zelling-desktop>, 2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 3\n"
+"Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-10 16:21-0300\n"
-"PO-Revision-Date: 2020-12-18 04:05-0800\n"
-"Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
-"Language-Team: Afrikaans\n"
-"Language: af\n"
+"POT-Creation-Date: 2021-03-10 16:23-0300\n"
+"PO-Revision-Date: 2021-03-10 16:11-0300\n"
+"Last-Translator: zelling <zelling@zelling-desktop>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
+"net>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ui/prefs.ui:73
 msgid "Support"
-msgstr "Ondersteuning"
+msgstr "Suporte"
 
 #: ui/prefs.ui:87
 msgid ""
 "Your support helps the development process continue and brings more features "
 "to the extension"
 msgstr ""
-"U ondersteuning help die ontwikkelingsproses om voort te gaan en bring meer "
-"funksies na die uitbreiding"
+"Seu apoio ajuda o processo de desenvolvimento continuar e trás mais "
+"funcionalidadesa extensão"
 
 #: ui/prefs.ui:298
 msgid ""
 "You can support my work via Patreon. Also your name will be mentioned at the "
 "end of videos on my YouTube Channel as Patreon supporter."
 msgstr ""
-"U kan my werk via Patreon ondersteun. U naam sal ook aan die einde van "
-"video's op my YouTube-kanaal genoem word as Patreon-ondersteuner."
+"Você pode ajudar meu  trabalho via Patreon. Seu nome também será mencionado "
+"nofinal dos videos no meu Canal do Youtube como um apoiador Patreon"
 
 #: ui/prefs.ui:475
 msgid "Override"
-msgstr "Ignoreer"
+msgstr "Sobrescrever"
 
 #: ui/prefs.ui:532
 msgid "Shell Theme"
-msgstr "Skulp Tema"
+msgstr "Tema do Shell"
 
 #: ui/prefs.ui:543
 msgid "Overrides the shell theme partially to create a minimal desktop"
-msgstr "Skep die dop-tema gedeeltelik om 'n minimale lessenaar te skep"
+msgstr "Sobrescreve o tema do shell parcialmente para criar um desktop minimal"
 
 #: ui/prefs.ui:593
 msgid "Visibility"
-msgstr "Sigbaarheid"
+msgstr "Visibilidade"
 
 #: ui/prefs.ui:642
 msgid "Panel"
-msgstr "paneel"
+msgstr "Painel"
 
 #: ui/prefs.ui:691
 msgid "Activities Button"
-msgstr "Aktiwiteite-knoppie"
+msgstr "Botão de Atividades"
 
 #: ui/prefs.ui:740
 msgid "App Menu"
-msgstr "app spyskaart"
+msgstr "Menu de Aplicações"
 
 #: ui/prefs.ui:789
 msgid "Clock Menu"
-msgstr "klok Menu"
+msgstr "Menu do Relógio"
 
 #: ui/prefs.ui:838
 msgid "Panel Notification Icon"
-msgstr "Paneelkennisgewing-ikoon"
+msgstr "Ícone de Notificação do Painel"
 
 #: ui/prefs.ui:887
 msgid "Keyboard Layout"
-msgstr "Sleutelborduitleg"
+msgstr "Layout do Teclado"
 
 #: ui/prefs.ui:936
 msgid "Accessibility Menu"
-msgstr "Toeganklikheids-menu"
+msgstr "Menu de Acessibilidade"
 
 #: ui/prefs.ui:985
 msgid "System Menu (Aggregate Menu)"
-msgstr "stelsel menu"
+msgstr "Menu do Sistema (Menu Agregado)"
 
 #: ui/prefs.ui:1034
 msgid "Power Icon"
-msgstr "Krag-ikoon"
+msgstr "Botão de Energia"
 
 #: ui/prefs.ui:1083
 msgid "Panel Arrow"
-msgstr "paneelpyltjie"
+msgstr "Seta do Painel"
 
 #: ui/prefs.ui:1132
 msgid "Hot Corner"
-msgstr "Warm hoekie"
+msgstr "Canto de Atalho"
 
 #: ui/prefs.ui:1181
 msgid "Search"
-msgstr "Soek"
+msgstr "Procurar"
 
 #: ui/prefs.ui:1230
 msgid "Dash"
@@ -106,81 +108,82 @@ msgstr "Dash"
 
 #: ui/prefs.ui:1279
 msgid "On Screen Display (OSD)"
-msgstr "OSD"
+msgstr "On Screen Display (OSD)"
 
 #: ui/prefs.ui:1328
 msgid "Workspace Popup"
-msgstr "Werkruimte pop-up"
+msgstr "Popup de Área de Trabalho"
 
 #: ui/prefs.ui:1377
 msgid "Workspace Switcher"
-msgstr "Werkspasie skakelaar"
+msgstr "Seletor de Área de Trabalho"
 
 #: ui/prefs.ui:1426
 msgid "Background Menu"
-msgstr "Agtergrond menu"
+msgstr "Menu de Fundo"
 
 #: ui/prefs.ui:1475
 msgid "App Gesture"
-msgstr "App gebaar"
+msgstr "Gestos de Aplicativo"
 
 #: ui/prefs.ui:1524
 msgid "Window Picker Icon"
-msgstr "Vensterkeuse-ikoon"
+msgstr "Ícone do Seletor de Janela"
 
 #: ui/prefs.ui:1565
 msgid "Behavior"
-msgstr "Gedrag"
+msgstr "Comportamento"
 
 #: ui/prefs.ui:1620
 msgid "Type to Search"
-msgstr "Tik om te soek"
+msgstr "Digite Para Pesquisar"
 
 #: ui/prefs.ui:1631
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
-"U kan begin soek sonder om in te soek of selfs in oorsig daarop te fokus"
+"Você pode começar pesquisar sem uma entrada de pesquisa ou mesmo focando na "
+"visão geral"
 
 #: ui/prefs.ui:1681
 msgid "Customize"
-msgstr "Pas aan"
+msgstr "Customizar"
 
 #: ui/prefs.ui:1730
 msgid "Panel Corner Size"
-msgstr "Paneelhoekgrootte"
+msgstr "Tamanho do Canto do Painel"
 
 #: ui/prefs.ui:1741
 msgid "By Shell Theme"
-msgstr "Deur Shell-tema"
+msgstr "Pelo Tema Shell"
 
 #: ui/prefs.ui:1742
 msgid "No Corner"
-msgstr "Geen hoekie nie"
+msgstr "Sem Canto"
 
 #: ui/prefs.ui:1842
 msgid "Panel Position"
-msgstr "Paneelposisie"
+msgstr "Posição do Painel"
 
 #: ui/prefs.ui:1853
 msgid "Top"
-msgstr "Top"
+msgstr "Topo"
 
 #: ui/prefs.ui:1854
 msgid "Bottom"
-msgstr "Onder"
+msgstr "Baixo"
 
 #: ui/prefs.ui:1894
 msgid "Workspace Switcher Size"
-msgstr "Grootte van die skakelaar van die werkruimte"
+msgstr "Tamanho do Seletor de Área de Trabalho"
 
 #: ui/prefs.ui:1905
 msgid "Default"
-msgstr "Verstek"
+msgstr "Padrão"
 
 #: ui/prefs.ui:1970
 msgid "What Is Done In Love Is Well Done!"
-msgstr "Wat in liefde gedoen word, is goed gedoen!"
+msgstr "O Que É Feito No Amor É Bem Feito!"
 
 #: ui/prefs.ui:1981
 msgid "Vincent van Gogh"

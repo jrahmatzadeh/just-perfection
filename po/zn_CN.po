@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-08 22:01-0800\n"
+"POT-Creation-Date: 2021-03-10 16:23-0300\n"
 "PO-Revision-Date: 2020-12-18 04:39-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Language cn\n"
@@ -34,151 +34,151 @@ msgstr ""
 "您可以通过Patreon支持我的工作。 另外，您的名字也会在我的YouTube频道上作为"
 "Patreon支持者的视频结尾处提及。"
 
-#: ui/prefs.ui:474
+#: ui/prefs.ui:475
 msgid "Override"
 msgstr "覆写"
 
-#: ui/prefs.ui:531
+#: ui/prefs.ui:532
 msgid "Shell Theme"
 msgstr "贝壳主题"
 
-#: ui/prefs.ui:542
+#: ui/prefs.ui:543
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "部分覆盖Shell主题以创建最小的桌面"
 
-#: ui/prefs.ui:592
+#: ui/prefs.ui:593
 msgid "Visibility"
 msgstr "能见度"
 
-#: ui/prefs.ui:641
+#: ui/prefs.ui:642
 msgid "Panel"
 msgstr "控制板"
 
-#: ui/prefs.ui:690
+#: ui/prefs.ui:691
 msgid "Activities Button"
 msgstr "活动按钮"
 
-#: ui/prefs.ui:739
+#: ui/prefs.ui:740
 msgid "App Menu"
 msgstr "应用菜单"
 
-#: ui/prefs.ui:788
+#: ui/prefs.ui:789
 msgid "Clock Menu"
 msgstr "时钟菜单"
 
-#: ui/prefs.ui:837
+#: ui/prefs.ui:838
 msgid "Panel Notification Icon"
 msgstr "面板通知图标"
 
-#: ui/prefs.ui:886
+#: ui/prefs.ui:887
 msgid "Keyboard Layout"
 msgstr "键盘布局"
 
-#: ui/prefs.ui:935
+#: ui/prefs.ui:936
 msgid "Accessibility Menu"
 msgstr "辅助功能菜单"
 
-#: ui/prefs.ui:984
+#: ui/prefs.ui:985
 msgid "System Menu (Aggregate Menu)"
 msgstr "系统菜单"
 
-#: ui/prefs.ui:1033
+#: ui/prefs.ui:1034
 msgid "Power Icon"
 msgstr "电源图标"
 
-#: ui/prefs.ui:1082
+#: ui/prefs.ui:1083
 msgid "Panel Arrow"
 msgstr "面板艺术"
 
-#: ui/prefs.ui:1131
+#: ui/prefs.ui:1132
 msgid "Hot Corner"
 msgstr "热角"
 
-#: ui/prefs.ui:1180
+#: ui/prefs.ui:1181
 msgid "Search"
 msgstr "搜索"
 
-#: ui/prefs.ui:1229
+#: ui/prefs.ui:1230
 msgid "Dash"
 msgstr "短跑"
 
-#: ui/prefs.ui:1278
+#: ui/prefs.ui:1279
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:1327
+#: ui/prefs.ui:1328
 msgid "Workspace Popup"
 msgstr "工作区弹出"
 
-#: ui/prefs.ui:1376
+#: ui/prefs.ui:1377
 msgid "Workspace Switcher"
 msgstr "工作区切换器"
 
-#: ui/prefs.ui:1425
+#: ui/prefs.ui:1426
 msgid "Background Menu"
 msgstr "后台菜单"
 
-#: ui/prefs.ui:1474
+#: ui/prefs.ui:1475
 msgid "App Gesture"
 msgstr "应用手势"
 
-#: ui/prefs.ui:1523
+#: ui/prefs.ui:1524
 msgid "Window Picker Icon"
 msgstr "窗口选择器图标"
 
-#: ui/prefs.ui:1564
+#: ui/prefs.ui:1565
 msgid "Behavior"
 msgstr "行为"
 
-#: ui/prefs.ui:1619
+#: ui/prefs.ui:1620
 msgid "Type to Search"
 msgstr "输入搜索"
 
-#: ui/prefs.ui:1630
+#: ui/prefs.ui:1631
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr "您可以开始搜索而无需搜索条目，甚至可以将其集中在概述中"
 
-#: ui/prefs.ui:1680
+#: ui/prefs.ui:1681
 msgid "Customize"
 msgstr "定制"
 
-#: ui/prefs.ui:1729
+#: ui/prefs.ui:1730
 msgid "Panel Corner Size"
 msgstr "面板角尺寸"
 
-#: ui/prefs.ui:1740
+#: ui/prefs.ui:1741
 msgid "By Shell Theme"
 msgstr "通过壳主题"
 
-#: ui/prefs.ui:1741
+#: ui/prefs.ui:1742
 msgid "No Corner"
 msgstr "没有角落"
 
-#: ui/prefs.ui:1841
+#: ui/prefs.ui:1842
 msgid "Panel Position"
 msgstr "面板位置"
 
-#: ui/prefs.ui:1852
+#: ui/prefs.ui:1853
 msgid "Top"
 msgstr "最佳"
 
-#: ui/prefs.ui:1853
+#: ui/prefs.ui:1854
 msgid "Bottom"
 msgstr "底部"
 
-#: ui/prefs.ui:1893
+#: ui/prefs.ui:1894
 msgid "Workspace Switcher Size"
 msgstr "工作区切换器大小"
 
-#: ui/prefs.ui:1904
+#: ui/prefs.ui:1905
 msgid "Default"
 msgstr "默认"
 
-#: ui/prefs.ui:1969
+#: ui/prefs.ui:1970
 msgid "What Is Done In Love Is Well Done!"
 msgstr "恋爱中的事情做得很好！"
 
-#: ui/prefs.ui:1980
+#: ui/prefs.ui:1981
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"

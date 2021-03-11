@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-08 22:01-0800\n"
+"POT-Creation-Date: 2021-03-10 16:23-0300\n"
 "PO-Revision-Date: 2020-12-18 04:45-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Swedish\n"
@@ -37,151 +37,151 @@ msgstr ""
 "Du kan stödja mitt arbete via Patreon. Ditt namn kommer också att nämnas i "
 "slutet av videor på min YouTube-kanal som Patreon-supporter."
 
-#: ui/prefs.ui:474
+#: ui/prefs.ui:475
 msgid "Override"
 msgstr "Åsidosätta"
 
-#: ui/prefs.ui:531
+#: ui/prefs.ui:532
 msgid "Shell Theme"
 msgstr "Shell-tema"
 
-#: ui/prefs.ui:542
+#: ui/prefs.ui:543
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "Åsidosätter skaltema delvis för att skapa ett minimalt skrivbord"
 
-#: ui/prefs.ui:592
+#: ui/prefs.ui:593
 msgid "Visibility"
 msgstr "Synlighet"
 
-#: ui/prefs.ui:641
+#: ui/prefs.ui:642
 msgid "Panel"
 msgstr "Panel"
 
-#: ui/prefs.ui:690
+#: ui/prefs.ui:691
 msgid "Activities Button"
 msgstr "Knappen Aktiviteter"
 
-#: ui/prefs.ui:739
+#: ui/prefs.ui:740
 msgid "App Menu"
 msgstr "app-menyn"
 
-#: ui/prefs.ui:788
+#: ui/prefs.ui:789
 msgid "Clock Menu"
 msgstr "klockmeny"
 
-#: ui/prefs.ui:837
+#: ui/prefs.ui:838
 msgid "Panel Notification Icon"
 msgstr "Panellanmälningsikon"
 
-#: ui/prefs.ui:886
+#: ui/prefs.ui:887
 msgid "Keyboard Layout"
 msgstr "Tangentbordslayout"
 
-#: ui/prefs.ui:935
+#: ui/prefs.ui:936
 msgid "Accessibility Menu"
 msgstr "Tillgänglighetsmeny"
 
-#: ui/prefs.ui:984
+#: ui/prefs.ui:985
 msgid "System Menu (Aggregate Menu)"
 msgstr "systemmenyn"
 
-#: ui/prefs.ui:1033
+#: ui/prefs.ui:1034
 msgid "Power Icon"
 msgstr "Значок питания"
 
-#: ui/prefs.ui:1082
+#: ui/prefs.ui:1083
 msgid "Panel Arrow"
 msgstr "panelpil"
 
-#: ui/prefs.ui:1131
+#: ui/prefs.ui:1132
 msgid "Hot Corner"
 msgstr "Hot Corner"
 
-#: ui/prefs.ui:1180
+#: ui/prefs.ui:1181
 msgid "Search"
 msgstr "Sök"
 
-#: ui/prefs.ui:1229
+#: ui/prefs.ui:1230
 msgid "Dash"
 msgstr "Rusa"
 
-#: ui/prefs.ui:1278
+#: ui/prefs.ui:1279
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:1327
+#: ui/prefs.ui:1328
 msgid "Workspace Popup"
 msgstr "Arbetsytan Pop up"
 
-#: ui/prefs.ui:1376
+#: ui/prefs.ui:1377
 msgid "Workspace Switcher"
 msgstr "Arbetsytaswitcher"
 
-#: ui/prefs.ui:1425
+#: ui/prefs.ui:1426
 msgid "Background Menu"
 msgstr "Bakgrundsmeny"
 
-#: ui/prefs.ui:1474
+#: ui/prefs.ui:1475
 msgid "App Gesture"
 msgstr "App gest"
 
-#: ui/prefs.ui:1523
+#: ui/prefs.ui:1524
 msgid "Window Picker Icon"
 msgstr "Ikon för fönsterplockare"
 
-#: ui/prefs.ui:1564
+#: ui/prefs.ui:1565
 msgid "Behavior"
 msgstr "Beteende"
 
-#: ui/prefs.ui:1619
+#: ui/prefs.ui:1620
 msgid "Type to Search"
 msgstr "Skriv för att söka"
 
-#: ui/prefs.ui:1630
+#: ui/prefs.ui:1631
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr "Du kan börja söka utan sökpost eller ens fokusera på den i översikt"
 
-#: ui/prefs.ui:1680
+#: ui/prefs.ui:1681
 msgid "Customize"
 msgstr "Anpassa"
 
-#: ui/prefs.ui:1729
+#: ui/prefs.ui:1730
 msgid "Panel Corner Size"
 msgstr "Panelhörnstorlek"
 
-#: ui/prefs.ui:1740
+#: ui/prefs.ui:1741
 msgid "By Shell Theme"
 msgstr "Av Shell Theme"
 
-#: ui/prefs.ui:1741
+#: ui/prefs.ui:1742
 msgid "No Corner"
 msgstr "Inget hörn"
 
-#: ui/prefs.ui:1841
+#: ui/prefs.ui:1842
 msgid "Panel Position"
 msgstr "Panelposition"
 
-#: ui/prefs.ui:1852
+#: ui/prefs.ui:1853
 msgid "Top"
 msgstr "Topp"
 
-#: ui/prefs.ui:1853
+#: ui/prefs.ui:1854
 msgid "Bottom"
 msgstr "Botten"
 
-#: ui/prefs.ui:1893
+#: ui/prefs.ui:1894
 msgid "Workspace Switcher Size"
 msgstr "Arbetsytans omkopplarstorlek"
 
-#: ui/prefs.ui:1904
+#: ui/prefs.ui:1905
 msgid "Default"
 msgstr "Standard"
 
-#: ui/prefs.ui:1969
+#: ui/prefs.ui:1970
 msgid "What Is Done In Love Is Well Done!"
 msgstr "Vad som görs i kärlek är väl gjort!"
 
-#: ui/prefs.ui:1980
+#: ui/prefs.ui:1981
 msgid "Vincent van Gogh"
 msgstr "Vincent van Gogh"
