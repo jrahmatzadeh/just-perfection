@@ -76,6 +76,12 @@
       <description>App Menu Visibility Status</description>
     </key>
     
+    <key type="b" name="app-menu-icon">
+      <default>true</default>
+      <summary>App Menu Icon</summary>
+      <description>App Menu Icon Visibility Status</description>
+    </key>
+    
     <key type="b" name="clock-menu">
       <default>true</default>
       <summary>Clock Menu</summary>

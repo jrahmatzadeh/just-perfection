@@ -18,6 +18,7 @@ This extension allows you to do the following:
 - Background Menu
 - Activities button
 - App Menu
+- App Menu Icon
 - Clock Menu
 - Keyboard Layout
 - Accessibility Menu
