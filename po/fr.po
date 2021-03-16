@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-16 07:25-0700\n"
+"POT-Creation-Date: 2021-03-16 12:52-0700\n"
 "PO-Revision-Date: 2020-12-13 07:26-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: French\n"
@@ -39,169 +39,173 @@ msgstr ""
 "mentionné à la fin des vidéos sur ma chaîne YouTube en tant que supporter de "
 "Patreon."
 
-#: ui/prefs.ui:443
+#: ui/prefs.ui:457
+msgid "No Results Found"
+msgstr "Aucun résultat trouvé"
+
+#: ui/prefs.ui:479
 msgid "Override"
 msgstr "Passer outre"
 
-#: ui/prefs.ui:500
+#: ui/prefs.ui:536
 msgid "Shell Theme"
 msgstr "Thème Shell"
 
-#: ui/prefs.ui:511
+#: ui/prefs.ui:547
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "Remplace partiellement le thème du shell pour créer un bureau minimal"
 
-#: ui/prefs.ui:561
+#: ui/prefs.ui:597
 msgid "Visibility"
 msgstr "Visibilité"
 
-#: ui/prefs.ui:610
+#: ui/prefs.ui:646
 msgid "Panel"
 msgstr "Panneau"
 
-#: ui/prefs.ui:659
+#: ui/prefs.ui:695
 msgid "Activities Button"
 msgstr "Bouton d'activités"
 
-#: ui/prefs.ui:708
+#: ui/prefs.ui:744
 msgid "App Menu"
 msgstr "menu de l'application"
 
-#: ui/prefs.ui:757
+#: ui/prefs.ui:793
 msgid "App Menu Icon"
 msgstr "Icône de menu de l'application"
 
-#: ui/prefs.ui:806
+#: ui/prefs.ui:842
 msgid "Clock Menu"
 msgstr "Menu horloge"
 
-#: ui/prefs.ui:855
+#: ui/prefs.ui:891
 msgid "Panel Notification Icon"
 msgstr "Icône de notification du panneau"
 
-#: ui/prefs.ui:904
+#: ui/prefs.ui:940
 msgid "Keyboard Layout"
 msgstr "Clavier"
 
-#: ui/prefs.ui:953
+#: ui/prefs.ui:989
 msgid "Accessibility Menu"
 msgstr "Menu d'accessibilité"
 
-#: ui/prefs.ui:1002
+#: ui/prefs.ui:1038
 msgid "System Menu (Aggregate Menu)"
 msgstr "menu système"
 
-#: ui/prefs.ui:1051
+#: ui/prefs.ui:1087
 msgid "Power Icon"
 msgstr "Icône de puissance"
 
-#: ui/prefs.ui:1100
+#: ui/prefs.ui:1136
 msgid "Panel Arrow"
 msgstr "flèche de panneau"
 
-#: ui/prefs.ui:1149
+#: ui/prefs.ui:1185
 msgid "Hot Corner"
 msgstr "Coin chaud"
 
-#: ui/prefs.ui:1198
+#: ui/prefs.ui:1234
 msgid "Search"
 msgstr "Chercher"
 
-#: ui/prefs.ui:1247
+#: ui/prefs.ui:1283
 msgid "Dash"
 msgstr "Tiret"
 
-#: ui/prefs.ui:1296
+#: ui/prefs.ui:1332
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:1345
+#: ui/prefs.ui:1381
 msgid "Workspace Popup"
 msgstr "Fenêtre contextuelle de l'espace de travail"
 
-#: ui/prefs.ui:1394
+#: ui/prefs.ui:1430
 msgid "Workspace Switcher"
 msgstr "Commutateur d'espace de travail"
 
-#: ui/prefs.ui:1443
+#: ui/prefs.ui:1479
 msgid "Background Menu"
 msgstr "Menu d'arrière-plan"
 
-#: ui/prefs.ui:1492
+#: ui/prefs.ui:1528
 msgid "App Gesture"
 msgstr "Geste d'application"
 
-#: ui/prefs.ui:1541
+#: ui/prefs.ui:1577
 msgid "Window Picker Icon"
 msgstr "Icône de sélecteur de fenêtre"
 
-#: ui/prefs.ui:1582
+#: ui/prefs.ui:1618
 msgid "Behavior"
 msgstr "Comportement"
 
-#: ui/prefs.ui:1637
+#: ui/prefs.ui:1673
 msgid "Type to Search"
 msgstr "Tapez pour rechercher"
 
-#: ui/prefs.ui:1648
+#: ui/prefs.ui:1684
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Vous pouvez lancer la recherche sans entrée de recherche ou même vous "
 "concentrer dessus dans l'aperçu"
 
-#: ui/prefs.ui:1698
+#: ui/prefs.ui:1734
 msgid "Customize"
 msgstr "Personnaliser"
 
-#: ui/prefs.ui:1747
+#: ui/prefs.ui:1782
 msgid "Panel Corner Size"
 msgstr "Taille du coin du panneau"
 
-#: ui/prefs.ui:1758
+#: ui/prefs.ui:1793
 msgid "By Shell Theme"
 msgstr "Par thème Shell"
 
-#: ui/prefs.ui:1759
+#: ui/prefs.ui:1794
 msgid "No Corner"
 msgstr "Pas de coin"
 
-#: ui/prefs.ui:1859
+#: ui/prefs.ui:1894
 msgid "Panel Position"
 msgstr "Position du panneau"
 
-#: ui/prefs.ui:1870
+#: ui/prefs.ui:1905
 msgid "Top"
 msgstr "Sommet"
 
-#: ui/prefs.ui:1871
+#: ui/prefs.ui:1906
 msgid "Bottom"
 msgstr "Bas"
 
-#: ui/prefs.ui:1911
+#: ui/prefs.ui:1946
 msgid "Clock Menu Position"
 msgstr "Position du menu de l'horloge"
 
-#: ui/prefs.ui:1922
+#: ui/prefs.ui:1957
 msgid "Center"
 msgstr "Centre"
 
-#: ui/prefs.ui:1923
+#: ui/prefs.ui:1958
 msgid "Right"
 msgstr "Droit"
 
-#: ui/prefs.ui:1924
+#: ui/prefs.ui:1959
 msgid "Left"
 msgstr "Gauche"
 
-#: ui/prefs.ui:1964
+#: ui/prefs.ui:1999
 msgid "Clock Menu Position Offset"
 msgstr "Décalage de la position du menu de l'horloge"
 
-#: ui/prefs.ui:2024
+#: ui/prefs.ui:2059
 msgid "Workspace Switcher Size"
 msgstr "Taille du sélecteur d'espace de travail"
 
-#: ui/prefs.ui:2035
+#: ui/prefs.ui:2070
 msgid "Default"
 msgstr "Défaut"
