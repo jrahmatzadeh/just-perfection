@@ -15,6 +15,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Horizontal scroll in prefs.
 - Primary Monitor Panel Position.
 - Arabic translation by [@karem34](https://gitlab.com/karem34).
+- Russian translation by [@librusekus35790](https://gitlab.com/librusekus35790).
 
 ### Added
 
@@ -22,8 +23,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Disable panel notification icon.
 - Disable app menu icon.
 - Clock menu position.
+- No results found for prefs window.
 - Galician translation by [@frandieguez](https://gitlab.com/frandieguez).
-- Brazilian Portuguese Translation by [@Zelling](https://gitlab.com/Zelling).
+- Brazilian Portuguese translation by [@Zelling](https://gitlab.com/Zelling).
+- Catalan translation by [@juxuanu](https://gitlab.com/juxuanu).
 
 ## [9.0.0] - 2021-03-06
 
