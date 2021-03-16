@@ -1710,7 +1710,6 @@
                       <property name="visible">True</property>
                       <property name="can-focus">False</property>
                       <property name="label-xalign">0</property>
-                      <property name="margin-bottom">36</property>
                       
                       <child>
                         <object class="GtkListBox" id="customize_listbox">
