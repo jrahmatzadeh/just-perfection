@@ -13,7 +13,7 @@ This extension allows you to do the following:
 - Dash
 - Workspace Switcher
 - Workspace Popup
-- Top Panel
+- Panel
 - App gesture
 - Background Menu
 - Activities button
@@ -35,7 +35,7 @@ This extension allows you to do the following:
 ### Customize
 
 - Panel Position
-- Top Panel Round Corner Size
+- Panel Round Corner Size
 - Workspace Switcher Size (Only GNOME 40.0)
 
 ### Override
