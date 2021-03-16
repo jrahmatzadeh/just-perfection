@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-12 08:48-0800\n"
+"POT-Creation-Date: 2021-03-16 07:25-0700\n"
 "PO-Revision-Date: 2020-12-18 04:52-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Italian\n"
@@ -178,9 +178,29 @@ msgid "Bottom"
 msgstr "Parte inferiore"
 
 #: ui/prefs.ui:1911
+msgid "Clock Menu Position"
+msgstr "Posizione menu orologio"
+
+#: ui/prefs.ui:1922
+msgid "Center"
+msgstr "Centro"
+
+#: ui/prefs.ui:1923
+msgid "Right"
+msgstr "Giusto"
+
+#: ui/prefs.ui:1924
+msgid "Left"
+msgstr "Sinistra"
+
+#: ui/prefs.ui:1964
+msgid "Clock Menu Position Offset"
+msgstr "Offset posizione menu orologio"
+
+#: ui/prefs.ui:2024
 msgid "Workspace Switcher Size"
 msgstr "Dimensioni dello switcher dell'area di lavoro"
 
-#: ui/prefs.ui:1922
+#: ui/prefs.ui:2035
 msgid "Default"
 msgstr "Predefinito"

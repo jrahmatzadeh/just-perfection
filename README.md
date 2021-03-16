@@ -36,6 +36,7 @@ This extension allows you to do the following:
 
 - Panel Position
 - Panel Round Corner Size
+- Clock Menu Position
 - Workspace Switcher Size (Only GNOME 40.0)
 
 ### Override

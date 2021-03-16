@@ -156,6 +156,20 @@
       <summary>Top Panel Position</summary>
       <description>Top Panel Position Status</description>
     </key>
+
+    <key type="i" name="clock-menu-position">
+      <default>0</default>
+      <range min="0" max="2"/>
+      <summary>0 means center, 1 means right, 2 means left</summary>
+      <description>Clock Menu Position Status</description>
+    </key>
+    
+    <key type="i" name="clock-menu-position-offset">
+      <default>0</default>
+      <range min="0" max="9"/>
+      <summary>0 means start of the position</summary>
+      <description>Clock Menu Position Offset</description>
+    </key>
     
   </schema>
   

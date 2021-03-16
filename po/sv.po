@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-12 08:48-0800\n"
+"POT-Creation-Date: 2021-03-16 07:25-0700\n"
 "PO-Revision-Date: 2020-12-18 04:45-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Swedish\n"
@@ -175,9 +175,29 @@ msgid "Bottom"
 msgstr "Botten"
 
 #: ui/prefs.ui:1911
+msgid "Clock Menu Position"
+msgstr "Klockmeny Placera"
+
+#: ui/prefs.ui:1922
+msgid "Center"
+msgstr "Centrum"
+
+#: ui/prefs.ui:1923
+msgid "Right"
+msgstr "Rätt"
+
+#: ui/prefs.ui:1924
+msgid "Left"
+msgstr "Vänster"
+
+#: ui/prefs.ui:1964
+msgid "Clock Menu Position Offset"
+msgstr "Klockmeny Placera Offset"
+
+#: ui/prefs.ui:2024
 msgid "Workspace Switcher Size"
 msgstr "Arbetsytans omkopplarstorlek"
 
-#: ui/prefs.ui:1922
+#: ui/prefs.ui:2035
 msgid "Default"
 msgstr "Standard"

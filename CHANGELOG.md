@@ -21,6 +21,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Disable panel arrow in GNOME 3.36 and 3.38.
 - Disable panel notification icon.
 - Disable app menu icon.
+- Clock menu position.
 - Galician translation by [@frandieguez](https://gitlab.com/frandieguez).
 - Brazilian Portuguese Translation by [@Zelling](https://gitlab.com/Zelling).
 

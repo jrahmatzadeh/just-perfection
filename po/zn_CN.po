@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-12 08:48-0800\n"
+"POT-Creation-Date: 2021-03-16 07:25-0700\n"
 "PO-Revision-Date: 2020-12-18 04:39-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Language cn\n"
@@ -172,9 +172,29 @@ msgid "Bottom"
 msgstr "底部"
 
 #: ui/prefs.ui:1911
+msgid "Clock Menu Position"
+msgstr "时钟菜单位置"
+
+#: ui/prefs.ui:1922
+msgid "Center"
+msgstr "中心"
+
+#: ui/prefs.ui:1923
+msgid "Right"
+msgstr "正确的"
+
+#: ui/prefs.ui:1924
+msgid "Left"
+msgstr "剩下"
+
+#: ui/prefs.ui:1964
+msgid "Clock Menu Position Offset"
+msgstr "时钟菜单位置偏移"
+
+#: ui/prefs.ui:2024
 msgid "Workspace Switcher Size"
 msgstr "工作区切换器大小"
 
-#: ui/prefs.ui:1922
+#: ui/prefs.ui:2035
 msgid "Default"
 msgstr "默认"

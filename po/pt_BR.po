@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-12 08:48-0800\n"
+"POT-Creation-Date: 2021-03-16 07:25-0700\n"
 "PO-Revision-Date: 2021-03-10 16:11-0300\n"
 "Last-Translator: zelling <zelling@zelling-desktop>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
@@ -178,9 +178,29 @@ msgid "Bottom"
 msgstr "Baixo"
 
 #: ui/prefs.ui:1911
+msgid "Clock Menu Position"
+msgstr "Posição do Menu do Relógio"
+
+#: ui/prefs.ui:1922
+msgid "Center"
+msgstr "Centro"
+
+#: ui/prefs.ui:1923
+msgid "Right"
+msgstr "Direita"
+
+#: ui/prefs.ui:1924
+msgid "Left"
+msgstr "Deixou"
+
+#: ui/prefs.ui:1964
+msgid "Clock Menu Position Offset"
+msgstr "Ajuste da Posição do Menu do Relógio"
+
+#: ui/prefs.ui:2024
 msgid "Workspace Switcher Size"
 msgstr "Tamanho do Seletor de Área de Trabalho"
 
-#: ui/prefs.ui:1922
+#: ui/prefs.ui:2035
 msgid "Default"
 msgstr "Padrão"
