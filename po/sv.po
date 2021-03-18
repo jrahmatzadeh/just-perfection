@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-16 12:52-0700\n"
+"POT-Creation-Date: 2021-03-18 02:18-0700\n"
 "PO-Revision-Date: 2020-12-18 04:45-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Swedish\n"
@@ -70,138 +70,142 @@ msgid "App Menu"
 msgstr "app-menyn"
 
 #: ui/prefs.ui:793
-msgid "App Menu Icon"
-msgstr "App-menyikonen"
-
-#: ui/prefs.ui:842
 msgid "Clock Menu"
 msgstr "klockmeny"
 
-#: ui/prefs.ui:891
-msgid "Panel Notification Icon"
-msgstr "Panellanmälningsikon"
-
-#: ui/prefs.ui:940
+#: ui/prefs.ui:842
 msgid "Keyboard Layout"
 msgstr "Tangentbordslayout"
 
-#: ui/prefs.ui:989
+#: ui/prefs.ui:891
 msgid "Accessibility Menu"
 msgstr "Tillgänglighetsmeny"
 
-#: ui/prefs.ui:1038
+#: ui/prefs.ui:940
 msgid "System Menu (Aggregate Menu)"
 msgstr "systemmenyn"
 
-#: ui/prefs.ui:1087
-msgid "Power Icon"
-msgstr "Значок питания"
-
-#: ui/prefs.ui:1136
-msgid "Panel Arrow"
-msgstr "panelpil"
-
-#: ui/prefs.ui:1185
-msgid "Hot Corner"
-msgstr "Hot Corner"
-
-#: ui/prefs.ui:1234
+#: ui/prefs.ui:989
 msgid "Search"
 msgstr "Sök"
 
-#: ui/prefs.ui:1283
+#: ui/prefs.ui:1038
 msgid "Dash"
 msgstr "Rusa"
 
-#: ui/prefs.ui:1332
+#: ui/prefs.ui:1087
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:1381
+#: ui/prefs.ui:1136
 msgid "Workspace Popup"
 msgstr "Arbetsytan Pop up"
 
-#: ui/prefs.ui:1430
+#: ui/prefs.ui:1185
 msgid "Workspace Switcher"
 msgstr "Arbetsytaswitcher"
 
-#: ui/prefs.ui:1479
+#: ui/prefs.ui:1234
 msgid "Background Menu"
 msgstr "Bakgrundsmeny"
 
-#: ui/prefs.ui:1528
-msgid "App Gesture"
-msgstr "App gest"
+#: ui/prefs.ui:1275
+msgid "Icons"
+msgstr "ikoner"
 
-#: ui/prefs.ui:1577
+#: ui/prefs.ui:1324
+msgid "App Menu Icon"
+msgstr "App-menyikonen"
+
+#: ui/prefs.ui:1373
+msgid "Panel Notification Icon"
+msgstr "Panellanmälningsikon"
+
+#: ui/prefs.ui:1422
+msgid "Power Icon"
+msgstr "Значок питания"
+
+#: ui/prefs.ui:1471
+msgid "Panel Arrow"
+msgstr "panelpil"
+
+#: ui/prefs.ui:1520
 msgid "Window Picker Icon"
 msgstr "Ikon för fönsterplockare"
 
-#: ui/prefs.ui:1618
+#: ui/prefs.ui:1561
 msgid "Behavior"
 msgstr "Beteende"
 
-#: ui/prefs.ui:1673
+#: ui/prefs.ui:1610
+msgid "Hot Corner"
+msgstr "Hot Corner"
+
+#: ui/prefs.ui:1659
+msgid "App Gesture"
+msgstr "App gest"
+
+#: ui/prefs.ui:1714
 msgid "Type to Search"
 msgstr "Skriv för att söka"
 
-#: ui/prefs.ui:1684
+#: ui/prefs.ui:1725
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr "Du kan börja söka utan sökpost eller ens fokusera på den i översikt"
 
-#: ui/prefs.ui:1734
+#: ui/prefs.ui:1775
 msgid "Customize"
 msgstr "Anpassa"
 
-#: ui/prefs.ui:1782
+#: ui/prefs.ui:1823
 msgid "Panel Corner Size"
 msgstr "Panelhörnstorlek"
 
-#: ui/prefs.ui:1793
+#: ui/prefs.ui:1834
 msgid "By Shell Theme"
 msgstr "Av Shell Theme"
 
-#: ui/prefs.ui:1794
+#: ui/prefs.ui:1835
 msgid "No Corner"
 msgstr "Inget hörn"
 
-#: ui/prefs.ui:1894
+#: ui/prefs.ui:1935
 msgid "Panel Position"
 msgstr "Panelposition"
 
-#: ui/prefs.ui:1905
+#: ui/prefs.ui:1946
 msgid "Top"
 msgstr "Topp"
 
-#: ui/prefs.ui:1906
+#: ui/prefs.ui:1947
 msgid "Bottom"
 msgstr "Botten"
 
-#: ui/prefs.ui:1946
+#: ui/prefs.ui:1987
 msgid "Clock Menu Position"
 msgstr "Klockmeny Placera"
 
-#: ui/prefs.ui:1957
+#: ui/prefs.ui:1998
 msgid "Center"
 msgstr "Centrum"
 
-#: ui/prefs.ui:1958
+#: ui/prefs.ui:1999
 msgid "Right"
 msgstr "Rätt"
 
-#: ui/prefs.ui:1959
+#: ui/prefs.ui:2000
 msgid "Left"
 msgstr "Vänster"
 
-#: ui/prefs.ui:1999
+#: ui/prefs.ui:2040
 msgid "Clock Menu Position Offset"
 msgstr "Klockmeny Placera Offset"
 
-#: ui/prefs.ui:2059
+#: ui/prefs.ui:2100
 msgid "Workspace Switcher Size"
 msgstr "Arbetsytans omkopplarstorlek"
 
-#: ui/prefs.ui:2070
+#: ui/prefs.ui:2111
 msgid "Default"
 msgstr "Standard"

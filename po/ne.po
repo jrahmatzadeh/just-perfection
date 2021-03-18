@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-16 12:52-0700\n"
+"POT-Creation-Date: 2021-03-18 02:18-0700\n"
 "PO-Revision-Date: 2021-02-05 14:43+0545\n"
 "Last-Translator: 1BA4 <nabin7076@protonmail.com>\n"
 "Language-Team: Nepali <>\n"
@@ -70,139 +70,143 @@ msgid "App Menu"
 msgstr "ए्याप मेनु"
 
 #: ui/prefs.ui:793
-msgid "App Menu Icon"
-msgstr "ए्याप मेनु आइकन"
-
-#: ui/prefs.ui:842
 msgid "Clock Menu"
 msgstr "घडी मेनू"
 
-#: ui/prefs.ui:891
-msgid "Panel Notification Icon"
-msgstr "प्यानल सूचना आइकन"
-
-#: ui/prefs.ui:940
+#: ui/prefs.ui:842
 msgid "Keyboard Layout"
 msgstr "कीबोर्ड लेआउट"
 
-#: ui/prefs.ui:989
+#: ui/prefs.ui:891
 msgid "Accessibility Menu"
 msgstr "पहुँच मेनू"
 
-#: ui/prefs.ui:1038
+#: ui/prefs.ui:940
 msgid "System Menu (Aggregate Menu)"
 msgstr "सिस्टम मेनु (समग्र मेनु)"
 
-#: ui/prefs.ui:1087
-msgid "Power Icon"
-msgstr "पावर आइकन"
-
-#: ui/prefs.ui:1136
-msgid "Panel Arrow"
-msgstr "प्यानल एरो"
-
-#: ui/prefs.ui:1185
-msgid "Hot Corner"
-msgstr "हट कर्नर"
-
-#: ui/prefs.ui:1234
+#: ui/prefs.ui:989
 msgid "Search"
 msgstr "खोज"
 
-#: ui/prefs.ui:1283
+#: ui/prefs.ui:1038
 msgid "Dash"
 msgstr "ड्यास"
 
-#: ui/prefs.ui:1332
+#: ui/prefs.ui:1087
 msgid "On Screen Display (OSD)"
 msgstr "अन स्क्रिन डिस्प्ले (ओएसडी)"
 
-#: ui/prefs.ui:1381
+#: ui/prefs.ui:1136
 msgid "Workspace Popup"
 msgstr "वोर्कस्पेस पप अप"
 
-#: ui/prefs.ui:1430
+#: ui/prefs.ui:1185
 msgid "Workspace Switcher"
 msgstr "वोर्कस्पेस स्विचर"
 
-#: ui/prefs.ui:1479
+#: ui/prefs.ui:1234
 msgid "Background Menu"
 msgstr "पृष्ठभूमि मेनू"
 
-#: ui/prefs.ui:1528
-msgid "App Gesture"
-msgstr "ए्याप जेस्चर्स"
+#: ui/prefs.ui:1275
+msgid "Icons"
+msgstr "आइकनहरू"
 
-#: ui/prefs.ui:1577
+#: ui/prefs.ui:1324
+msgid "App Menu Icon"
+msgstr "ए्याप मेनु आइकन"
+
+#: ui/prefs.ui:1373
+msgid "Panel Notification Icon"
+msgstr "प्यानल सूचना आइकन"
+
+#: ui/prefs.ui:1422
+msgid "Power Icon"
+msgstr "पावर आइकन"
+
+#: ui/prefs.ui:1471
+msgid "Panel Arrow"
+msgstr "प्यानल एरो"
+
+#: ui/prefs.ui:1520
 msgid "Window Picker Icon"
 msgstr "विन्डो पिकर आइकन"
 
-#: ui/prefs.ui:1618
+#: ui/prefs.ui:1561
 msgid "Behavior"
 msgstr "व्यवहार"
 
-#: ui/prefs.ui:1673
+#: ui/prefs.ui:1610
+msgid "Hot Corner"
+msgstr "हट कर्नर"
+
+#: ui/prefs.ui:1659
+msgid "App Gesture"
+msgstr "ए्याप जेस्चर्स"
+
+#: ui/prefs.ui:1714
 msgid "Type to Search"
 msgstr "खोजी गर्न टाइप गर्नुहोस्"
 
-#: ui/prefs.ui:1684
+#: ui/prefs.ui:1725
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "तपाईं खोजी प्रविष्टि बिना वा सुरु सिंहावलोकनमा यसमा केन्द्रित नगरी खोजी सुरू गर्न सक्नुहुनेछ"
 
-#: ui/prefs.ui:1734
+#: ui/prefs.ui:1775
 msgid "Customize"
 msgstr "अनुकूलन गर्नुहोस्"
 
-#: ui/prefs.ui:1782
+#: ui/prefs.ui:1823
 msgid "Panel Corner Size"
 msgstr "प्यानल कुना आकार"
 
-#: ui/prefs.ui:1793
+#: ui/prefs.ui:1834
 msgid "By Shell Theme"
 msgstr "शेल थिम द्वारा"
 
-#: ui/prefs.ui:1794
+#: ui/prefs.ui:1835
 msgid "No Corner"
 msgstr "कुनै कर्नर छैन"
 
-#: ui/prefs.ui:1894
+#: ui/prefs.ui:1935
 msgid "Panel Position"
 msgstr "प्यानल स्थिति"
 
-#: ui/prefs.ui:1905
+#: ui/prefs.ui:1946
 msgid "Top"
 msgstr "माथि"
 
-#: ui/prefs.ui:1906
+#: ui/prefs.ui:1947
 msgid "Bottom"
 msgstr "तल"
 
-#: ui/prefs.ui:1946
+#: ui/prefs.ui:1987
 msgid "Clock Menu Position"
 msgstr "घडी मेनू स्थिति"
 
-#: ui/prefs.ui:1957
+#: ui/prefs.ui:1998
 msgid "Center"
 msgstr "केन्द्र"
 
-#: ui/prefs.ui:1958
+#: ui/prefs.ui:1999
 msgid "Right"
 msgstr "सहि"
 
-#: ui/prefs.ui:1959
+#: ui/prefs.ui:2000
 msgid "Left"
 msgstr "बाँया"
 
-#: ui/prefs.ui:1999
+#: ui/prefs.ui:2040
 msgid "Clock Menu Position Offset"
 msgstr "घडी मेनू स्थिति अफसेट"
 
-#: ui/prefs.ui:2059
+#: ui/prefs.ui:2100
 msgid "Workspace Switcher Size"
 msgstr "कार्यक्षेत्र स्विचर आकार"
 
-#: ui/prefs.ui:2070
+#: ui/prefs.ui:2111
 msgid "Default"
 msgstr "पूर्वनिर्धारित"

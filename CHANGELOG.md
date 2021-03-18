@@ -9,6 +9,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Changed
 
 - Removed quotes and side bar image from prefs UI.
+- Organized prefs UI for icons and behavior.
 
 ### Fixed
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-16 12:52-0700\n"
+"POT-Creation-Date: 2021-03-18 02:18-0700\n"
 "PO-Revision-Date: 2020-12-18 04:05-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Afrikaans\n"
@@ -69,139 +69,143 @@ msgid "App Menu"
 msgstr "app spyskaart"
 
 #: ui/prefs.ui:793
-msgid "App Menu Icon"
-msgstr "app spyskaart ikoon"
-
-#: ui/prefs.ui:842
 msgid "Clock Menu"
 msgstr "klok Menu"
 
-#: ui/prefs.ui:891
-msgid "Panel Notification Icon"
-msgstr "Paneelkennisgewing-ikoon"
-
-#: ui/prefs.ui:940
+#: ui/prefs.ui:842
 msgid "Keyboard Layout"
 msgstr "Sleutelborduitleg"
 
-#: ui/prefs.ui:989
+#: ui/prefs.ui:891
 msgid "Accessibility Menu"
 msgstr "Toeganklikheids-menu"
 
-#: ui/prefs.ui:1038
+#: ui/prefs.ui:940
 msgid "System Menu (Aggregate Menu)"
 msgstr "stelsel menu"
 
-#: ui/prefs.ui:1087
-msgid "Power Icon"
-msgstr "Krag-ikoon"
-
-#: ui/prefs.ui:1136
-msgid "Panel Arrow"
-msgstr "paneelpyltjie"
-
-#: ui/prefs.ui:1185
-msgid "Hot Corner"
-msgstr "Warm hoekie"
-
-#: ui/prefs.ui:1234
+#: ui/prefs.ui:989
 msgid "Search"
 msgstr "Soek"
 
-#: ui/prefs.ui:1283
+#: ui/prefs.ui:1038
 msgid "Dash"
 msgstr "Dash"
 
-#: ui/prefs.ui:1332
+#: ui/prefs.ui:1087
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:1381
+#: ui/prefs.ui:1136
 msgid "Workspace Popup"
 msgstr "Werkruimte pop-up"
 
-#: ui/prefs.ui:1430
+#: ui/prefs.ui:1185
 msgid "Workspace Switcher"
 msgstr "Werkspasie skakelaar"
 
-#: ui/prefs.ui:1479
+#: ui/prefs.ui:1234
 msgid "Background Menu"
 msgstr "Agtergrond menu"
 
-#: ui/prefs.ui:1528
-msgid "App Gesture"
-msgstr "App gebaar"
+#: ui/prefs.ui:1275
+msgid "Icons"
+msgstr "ikone"
 
-#: ui/prefs.ui:1577
+#: ui/prefs.ui:1324
+msgid "App Menu Icon"
+msgstr "app spyskaart ikoon"
+
+#: ui/prefs.ui:1373
+msgid "Panel Notification Icon"
+msgstr "Paneelkennisgewing-ikoon"
+
+#: ui/prefs.ui:1422
+msgid "Power Icon"
+msgstr "Krag-ikoon"
+
+#: ui/prefs.ui:1471
+msgid "Panel Arrow"
+msgstr "paneelpyltjie"
+
+#: ui/prefs.ui:1520
 msgid "Window Picker Icon"
 msgstr "Vensterkeuse-ikoon"
 
-#: ui/prefs.ui:1618
+#: ui/prefs.ui:1561
 msgid "Behavior"
 msgstr "Gedrag"
 
-#: ui/prefs.ui:1673
+#: ui/prefs.ui:1610
+msgid "Hot Corner"
+msgstr "Warm hoekie"
+
+#: ui/prefs.ui:1659
+msgid "App Gesture"
+msgstr "App gebaar"
+
+#: ui/prefs.ui:1714
 msgid "Type to Search"
 msgstr "Tik om te soek"
 
-#: ui/prefs.ui:1684
+#: ui/prefs.ui:1725
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "U kan begin soek sonder om in te soek of selfs in oorsig daarop te fokus"
 
-#: ui/prefs.ui:1734
+#: ui/prefs.ui:1775
 msgid "Customize"
 msgstr "Pas aan"
 
-#: ui/prefs.ui:1782
+#: ui/prefs.ui:1823
 msgid "Panel Corner Size"
 msgstr "Paneelhoekgrootte"
 
-#: ui/prefs.ui:1793
+#: ui/prefs.ui:1834
 msgid "By Shell Theme"
 msgstr "Deur Shell-tema"
 
-#: ui/prefs.ui:1794
+#: ui/prefs.ui:1835
 msgid "No Corner"
 msgstr "Geen hoekie nie"
 
-#: ui/prefs.ui:1894
+#: ui/prefs.ui:1935
 msgid "Panel Position"
 msgstr "Paneelposisie"
 
-#: ui/prefs.ui:1905
+#: ui/prefs.ui:1946
 msgid "Top"
 msgstr "Top"
 
-#: ui/prefs.ui:1906
+#: ui/prefs.ui:1947
 msgid "Bottom"
 msgstr "Onder"
 
-#: ui/prefs.ui:1946
+#: ui/prefs.ui:1987
 msgid "Clock Menu Position"
 msgstr "Klok menu posisie"
 
-#: ui/prefs.ui:1957
+#: ui/prefs.ui:1998
 msgid "Center"
 msgstr "Sentrum"
 
-#: ui/prefs.ui:1958
+#: ui/prefs.ui:1999
 msgid "Right"
 msgstr "Reg"
 
-#: ui/prefs.ui:1959
+#: ui/prefs.ui:2000
 msgid "Left"
 msgstr "Links"
 
-#: ui/prefs.ui:1999
+#: ui/prefs.ui:2040
 msgid "Clock Menu Position Offset"
 msgstr "Klok menu posisie verreken"
 
-#: ui/prefs.ui:2059
+#: ui/prefs.ui:2100
 msgid "Workspace Switcher Size"
 msgstr "Grootte van die skakelaar van die werkruimte"
 
-#: ui/prefs.ui:2070
+#: ui/prefs.ui:2111
 msgid "Default"
 msgstr "Verstek"
