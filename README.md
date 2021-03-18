@@ -6,7 +6,7 @@
 
 This extension allows you to do the following:
 
-### Disable
+### Visiblity
 
 - OSD
 - Search
@@ -14,23 +14,27 @@ This extension allows you to do the following:
 - Workspace Switcher
 - Workspace Popup
 - Panel
-- App gesture
 - Background Menu
 - Activities button
 - App Menu
-- App Menu Icon
 - Clock Menu
 - Keyboard Layout
 - Accessibility Menu
 - System Menu (Aggregate Menu)
+
+### Icons Visiblity
+
+- App Menu Icon
 - Power Icon
+- Panel Notification icon
 - Window Picker Icon (Only GNOME 40.0)
 - Panel Arrow (Only GNOME 3.36 and 3.38)
-- Panel Notification icon
 
 ### Behavior
 
 - Disable Type to Search
+- Hot Corner
+- App gesture
 
 ### Customize
 
