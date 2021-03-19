@@ -402,20 +402,3 @@
     height: 0;
     margin: 0;
 }
-
-.just-perfection-api-clock-menu-no-gap.panel-button
-{
-    -natural-hpadding: 0;
-    -minimum-hpadding: 0;
-}
-
-/* commented because clock can get too close to the left side */
-/* .just-perfection-api-clock-menu-no-gap-start.panel-button */
-/* { */
-/*     -natural-hpadding: 0; */
-/* } */
-
-.just-perfection-api-clock-menu-no-gap-end.panel-button
-{
-    -natural-hpadding: 0;
-}
