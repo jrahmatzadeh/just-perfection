@@ -171,6 +171,12 @@
       <description>Clock Menu Position Offset</description>
     </key>
     
+    <key type="b" name="show-apps-button">
+      <default>true</default>
+      <summary>Show Apps Button Visiblity</summary>
+      <description>Show Apps Button Visiblity Status</description>
+    </key>
+    
   </schema>
   
 </schemalist>

@@ -21,6 +21,7 @@ This extension allows you to do the following:
 - Keyboard Layout
 - Accessibility Menu
 - System Menu (Aggregate Menu)
+- Applications Button
 
 ### Icons Visiblity
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-18 02:18-0700\n"
+"POT-Creation-Date: 2021-03-21 07:49-0700\n"
 "PO-Revision-Date: 2020-12-18 04:39-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Language cn\n"
@@ -91,118 +91,122 @@ msgid "Dash"
 msgstr "短跑"
 
 #: ui/prefs.ui:1087
+msgid "Show Applications Button"
+msgstr "显示应用程序按钮"
+
+#: ui/prefs.ui:1136
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:1136
+#: ui/prefs.ui:1185
 msgid "Workspace Popup"
 msgstr "工作区弹出"
 
-#: ui/prefs.ui:1185
+#: ui/prefs.ui:1234
 msgid "Workspace Switcher"
 msgstr "工作区切换器"
 
-#: ui/prefs.ui:1234
+#: ui/prefs.ui:1283
 msgid "Background Menu"
 msgstr "后台菜单"
 
-#: ui/prefs.ui:1275
+#: ui/prefs.ui:1324
 msgid "Icons"
 msgstr "图示"
 
-#: ui/prefs.ui:1324
+#: ui/prefs.ui:1373
 msgid "App Menu Icon"
 msgstr "应用程序菜单图标"
 
-#: ui/prefs.ui:1373
+#: ui/prefs.ui:1422
 msgid "Panel Notification Icon"
 msgstr "面板通知图标"
 
-#: ui/prefs.ui:1422
+#: ui/prefs.ui:1471
 msgid "Power Icon"
 msgstr "电源图标"
 
-#: ui/prefs.ui:1471
+#: ui/prefs.ui:1520
 msgid "Panel Arrow"
 msgstr "面板艺术"
 
-#: ui/prefs.ui:1520
+#: ui/prefs.ui:1569
 msgid "Window Picker Icon"
 msgstr "窗口选择器图标"
 
-#: ui/prefs.ui:1561
+#: ui/prefs.ui:1610
 msgid "Behavior"
 msgstr "行为"
 
-#: ui/prefs.ui:1610
+#: ui/prefs.ui:1659
 msgid "Hot Corner"
 msgstr "热角"
 
-#: ui/prefs.ui:1659
+#: ui/prefs.ui:1708
 msgid "App Gesture"
 msgstr "应用手势"
 
-#: ui/prefs.ui:1714
+#: ui/prefs.ui:1763
 msgid "Type to Search"
 msgstr "输入搜索"
 
-#: ui/prefs.ui:1725
+#: ui/prefs.ui:1774
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr "您可以开始搜索而无需搜索条目，甚至可以将其集中在概述中"
 
-#: ui/prefs.ui:1775
+#: ui/prefs.ui:1824
 msgid "Customize"
 msgstr "定制"
 
-#: ui/prefs.ui:1823
+#: ui/prefs.ui:1872
 msgid "Panel Corner Size"
 msgstr "面板角尺寸"
 
-#: ui/prefs.ui:1834
+#: ui/prefs.ui:1883
 msgid "By Shell Theme"
 msgstr "通过壳主题"
 
-#: ui/prefs.ui:1835
+#: ui/prefs.ui:1884
 msgid "No Corner"
 msgstr "没有角落"
 
-#: ui/prefs.ui:1935
+#: ui/prefs.ui:1984
 msgid "Panel Position"
 msgstr "面板位置"
 
-#: ui/prefs.ui:1946
+#: ui/prefs.ui:1995
 msgid "Top"
 msgstr "最佳"
 
-#: ui/prefs.ui:1947
+#: ui/prefs.ui:1996
 msgid "Bottom"
 msgstr "底部"
 
-#: ui/prefs.ui:1987
+#: ui/prefs.ui:2036
 msgid "Clock Menu Position"
 msgstr "时钟菜单位置"
 
-#: ui/prefs.ui:1998
+#: ui/prefs.ui:2047
 msgid "Center"
 msgstr "中心"
 
-#: ui/prefs.ui:1999
+#: ui/prefs.ui:2048
 msgid "Right"
 msgstr "正确的"
 
-#: ui/prefs.ui:2000
+#: ui/prefs.ui:2049
 msgid "Left"
 msgstr "剩下"
 
-#: ui/prefs.ui:2040
+#: ui/prefs.ui:2089
 msgid "Clock Menu Position Offset"
 msgstr "时钟菜单位置偏移"
 
-#: ui/prefs.ui:2100
+#: ui/prefs.ui:2149
 msgid "Workspace Switcher Size"
 msgstr "工作区切换器大小"
 
-#: ui/prefs.ui:2111
+#: ui/prefs.ui:2160
 msgid "Default"
 msgstr "默认"

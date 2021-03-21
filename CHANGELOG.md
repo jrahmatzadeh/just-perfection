@@ -25,6 +25,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Disable app menu icon.
 - Clock menu position.
 - No results found for prefs window.
+- Disable applications button in dash.
 - Galician translation by [@frandieguez](https://gitlab.com/frandieguez).
 - Brazilian Portuguese translation by [@Zelling](https://gitlab.com/Zelling).
 - Catalan translation by [@juxuanu](https://gitlab.com/juxuanu).

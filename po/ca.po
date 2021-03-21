@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-18 02:18-0700\n"
+"POT-Creation-Date: 2021-03-21 07:49-0700\n"
 "PO-Revision-Date: 2021-03-16 19:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: Catalan \n"
@@ -98,120 +98,124 @@ msgid "Dash"
 msgstr "Dash"
 
 #: ui/prefs.ui:1087
+msgid "Show Applications Button"
+msgstr "Botó Mostra les aplicacions"
+
+#: ui/prefs.ui:1136
 msgid "On Screen Display (OSD)"
 msgstr "Visualització en pantalla (OSD)"
 
-#: ui/prefs.ui:1136
+#: ui/prefs.ui:1185
 msgid "Workspace Popup"
 msgstr "Finestra emergent de l'espai de treball"
 
-#: ui/prefs.ui:1185
+#: ui/prefs.ui:1234
 msgid "Workspace Switcher"
 msgstr "Commutador dels espais de treball"
 
-#: ui/prefs.ui:1234
+#: ui/prefs.ui:1283
 msgid "Background Menu"
 msgstr "Menú del fons de pantalla"
 
-#: ui/prefs.ui:1275
+#: ui/prefs.ui:1324
 msgid "Icons"
 msgstr "icones"
 
-#: ui/prefs.ui:1324
+#: ui/prefs.ui:1373
 msgid "App Menu Icon"
 msgstr "Icona del menú de l'aplicació"
 
-#: ui/prefs.ui:1373
+#: ui/prefs.ui:1422
 msgid "Panel Notification Icon"
 msgstr "Icona del panell de notificacions"
 
-#: ui/prefs.ui:1422
+#: ui/prefs.ui:1471
 msgid "Power Icon"
 msgstr "Icona d'alimentació"
 
-#: ui/prefs.ui:1471
+#: ui/prefs.ui:1520
 msgid "Panel Arrow"
 msgstr "Fletxa del panell"
 
-#: ui/prefs.ui:1520
+#: ui/prefs.ui:1569
 msgid "Window Picker Icon"
 msgstr "Icona del selector de finestres"
 
-#: ui/prefs.ui:1561
+#: ui/prefs.ui:1610
 msgid "Behavior"
 msgstr "Comportament"
 
-#: ui/prefs.ui:1610
+#: ui/prefs.ui:1659
 msgid "Hot Corner"
 msgstr "Cantonada activa"
 
-#: ui/prefs.ui:1659
+#: ui/prefs.ui:1708
 msgid "App Gesture"
 msgstr "Gestos d'aplicació"
 
-#: ui/prefs.ui:1714
+#: ui/prefs.ui:1763
 msgid "Type to Search"
 msgstr "Escriu per cercar"
 
-#: ui/prefs.ui:1725
+#: ui/prefs.ui:1774
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Podeu iniciar la cerca sense l'entrada de cerca o fins i tot centrant-vos-hi "
 "en la vista general"
 
-#: ui/prefs.ui:1775
+#: ui/prefs.ui:1824
 msgid "Customize"
 msgstr "Personalitza"
 
-#: ui/prefs.ui:1823
+#: ui/prefs.ui:1872
 msgid "Panel Corner Size"
 msgstr "Mida de la cantonada del tauler"
 
-#: ui/prefs.ui:1834
+#: ui/prefs.ui:1883
 msgid "By Shell Theme"
 msgstr "Pel tema de l'entorn"
 
-#: ui/prefs.ui:1835
+#: ui/prefs.ui:1884
 msgid "No Corner"
 msgstr "Sense cantonada"
 
-#: ui/prefs.ui:1935
+#: ui/prefs.ui:1984
 msgid "Panel Position"
 msgstr "Posició del panell"
 
-#: ui/prefs.ui:1946
+#: ui/prefs.ui:1995
 msgid "Top"
 msgstr "Superior"
 
-#: ui/prefs.ui:1947
+#: ui/prefs.ui:1996
 msgid "Bottom"
 msgstr "Inferior"
 
-#: ui/prefs.ui:1987
+#: ui/prefs.ui:2036
 msgid "Clock Menu Position"
 msgstr "Posició del menú del rellotge"
 
-#: ui/prefs.ui:1998
+#: ui/prefs.ui:2047
 msgid "Center"
 msgstr "Centre"
 
-#: ui/prefs.ui:1999
+#: ui/prefs.ui:2048
 msgid "Right"
 msgstr "Dreta"
 
-#: ui/prefs.ui:2000
+#: ui/prefs.ui:2049
 msgid "Left"
 msgstr "Esquerra"
 
-#: ui/prefs.ui:2040
+#: ui/prefs.ui:2089
 msgid "Clock Menu Position Offset"
 msgstr "Desplaçament del menú del rellotge"
 
-#: ui/prefs.ui:2100
+#: ui/prefs.ui:2149
 msgid "Workspace Switcher Size"
 msgstr "Mida del commutador d'espais de treball"
 
-#: ui/prefs.ui:2111
+#: ui/prefs.ui:2160
 msgid "Default"
 msgstr "Per defecte"

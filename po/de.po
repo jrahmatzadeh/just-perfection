@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-18 02:18-0700\n"
+"POT-Creation-Date: 2021-03-21 07:49-0700\n"
 "PO-Revision-Date: 2020-12-18 04:55-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: German\n"
@@ -96,120 +96,124 @@ msgid "Dash"
 msgstr "Dash"
 
 #: ui/prefs.ui:1087
+msgid "Show Applications Button"
+msgstr "Schaltfläche Anwendungen anzeigen"
+
+#: ui/prefs.ui:1136
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:1136
+#: ui/prefs.ui:1185
 msgid "Workspace Popup"
 msgstr "Arbeitsflächen-Popup"
 
-#: ui/prefs.ui:1185
+#: ui/prefs.ui:1234
 msgid "Workspace Switcher"
 msgstr "Arbeitsflächenumschalter"
 
-#: ui/prefs.ui:1234
+#: ui/prefs.ui:1283
 msgid "Background Menu"
 msgstr "Hintergrundmenü"
 
-#: ui/prefs.ui:1275
+#: ui/prefs.ui:1324
 msgid "Icons"
 msgstr "Symbole"
 
-#: ui/prefs.ui:1324
+#: ui/prefs.ui:1373
 msgid "App Menu Icon"
 msgstr "Das Anwendungsmenüsymbol"
 
-#: ui/prefs.ui:1373
+#: ui/prefs.ui:1422
 msgid "Panel Notification Icon"
 msgstr "Panel-Benachrichtigungssymbol"
 
-#: ui/prefs.ui:1422
+#: ui/prefs.ui:1471
 msgid "Power Icon"
 msgstr "Power Icon"
 
-#: ui/prefs.ui:1471
+#: ui/prefs.ui:1520
 msgid "Panel Arrow"
 msgstr "Bedienfeldpfeil"
 
-#: ui/prefs.ui:1520
+#: ui/prefs.ui:1569
 msgid "Window Picker Icon"
 msgstr "Fensterauswahl-Symbol"
 
-#: ui/prefs.ui:1561
+#: ui/prefs.ui:1610
 msgid "Behavior"
 msgstr "Verhalten"
 
-#: ui/prefs.ui:1610
+#: ui/prefs.ui:1659
 msgid "Hot Corner"
 msgstr "Funktionale Ecke"
 
-#: ui/prefs.ui:1659
+#: ui/prefs.ui:1708
 msgid "App Gesture"
 msgstr "App-Geste"
 
-#: ui/prefs.ui:1714
+#: ui/prefs.ui:1763
 msgid "Type to Search"
 msgstr "Tippe um zu suchen"
 
-#: ui/prefs.ui:1725
+#: ui/prefs.ui:1774
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Sie können die Suche starten, ohne einen Sucheintrag zu haben oder sich in "
 "der Übersicht darauf zu konzentrieren"
 
-#: ui/prefs.ui:1775
+#: ui/prefs.ui:1824
 msgid "Customize"
 msgstr "Anpassen"
 
-#: ui/prefs.ui:1823
+#: ui/prefs.ui:1872
 msgid "Panel Corner Size"
 msgstr "Panel Corner Größe"
 
-#: ui/prefs.ui:1834
+#: ui/prefs.ui:1883
 msgid "By Shell Theme"
 msgstr "Nach Shell-Thema"
 
-#: ui/prefs.ui:1835
+#: ui/prefs.ui:1884
 msgid "No Corner"
 msgstr "Keine Ecke"
 
-#: ui/prefs.ui:1935
+#: ui/prefs.ui:1984
 msgid "Panel Position"
 msgstr "Panel Position"
 
-#: ui/prefs.ui:1946
+#: ui/prefs.ui:1995
 msgid "Top"
 msgstr "oben"
 
-#: ui/prefs.ui:1947
+#: ui/prefs.ui:1996
 msgid "Bottom"
 msgstr "Unterseite"
 
-#: ui/prefs.ui:1987
+#: ui/prefs.ui:2036
 msgid "Clock Menu Position"
 msgstr "Position des Uhrmenüs"
 
-#: ui/prefs.ui:1998
+#: ui/prefs.ui:2047
 msgid "Center"
 msgstr "Center"
 
-#: ui/prefs.ui:1999
+#: ui/prefs.ui:2048
 msgid "Right"
 msgstr "Richtig"
 
-#: ui/prefs.ui:2000
+#: ui/prefs.ui:2049
 msgid "Left"
 msgstr "Links"
 
-#: ui/prefs.ui:2040
+#: ui/prefs.ui:2089
 msgid "Clock Menu Position Offset"
 msgstr "Positionsversatz des Uhrmenüs"
 
-#: ui/prefs.ui:2100
+#: ui/prefs.ui:2149
 msgid "Workspace Switcher Size"
 msgstr "Größe des Arbeitsbereichsumschalters"
 
-#: ui/prefs.ui:2111
+#: ui/prefs.ui:2160
 msgid "Default"
 msgstr "Standard"
