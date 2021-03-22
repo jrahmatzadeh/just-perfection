@@ -15,6 +15,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - Horizontal scroll in prefs.
 - Primary Monitor Panel Position.
+- Fake hot corner primary monitor position.
 - Arabic translation by [@karem34](https://gitlab.com/karem34).
 - Russian translation by [@librusekus35790](https://gitlab.com/librusekus35790).
 
