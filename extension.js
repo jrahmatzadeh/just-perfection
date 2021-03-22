@@ -36,6 +36,7 @@ function enable()
         'SearchController' : SearchController,
         'ViewSelector' : ViewSelector,
         'WorkspaceThumbnail' : WorkspaceThumbnail,
+        'StSettings' : St.Settings,
     }, ShellVersion);
     
     api.open();
