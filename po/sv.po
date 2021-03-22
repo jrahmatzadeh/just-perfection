@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-21 07:49-0700\n"
+"POT-Creation-Date: 2021-03-22 11:19-0700\n"
 "PO-Revision-Date: 2020-12-18 04:45-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Swedish\n"
@@ -213,3 +213,39 @@ msgstr "Arbetsytans omkopplarstorlek"
 #: ui/prefs.ui:2160
 msgid "Default"
 msgstr "Standard"
+
+#: ui/prefs.ui:2210
+msgid "Animation"
+msgstr "Animation"
+
+#: ui/prefs.ui:2221
+msgid "No Animation"
+msgstr "Ingen animering"
+
+#: ui/prefs.ui:2222
+msgid "Default Speed"
+msgstr "Standardhastighet"
+
+#: ui/prefs.ui:2223
+msgid "Fastest"
+msgstr "Snabbast"
+
+#: ui/prefs.ui:2224
+msgid "Faster"
+msgstr "Snabbare"
+
+#: ui/prefs.ui:2225
+msgid "Fast"
+msgstr "Snabb"
+
+#: ui/prefs.ui:2226
+msgid "Slow"
+msgstr "Långsam"
+
+#: ui/prefs.ui:2227
+msgid "Slower"
+msgstr "Långsammare"
+
+#: ui/prefs.ui:2228
+msgid "Slowest"
+msgstr "Långsammast"

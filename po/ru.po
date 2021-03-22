@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-21 07:49-0700\n"
+"POT-Creation-Date: 2021-03-22 11:19-0700\n"
 "PO-Revision-Date: 2021-03-15 21:00+0700\n"
 "Last-Translator: VBB <librusekus35790@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -217,3 +217,39 @@ msgstr "Размер переключателя рабочих столов"
 #: ui/prefs.ui:2160
 msgid "Default"
 msgstr "По умолчанию"
+
+#: ui/prefs.ui:2210
+msgid "Animation"
+msgstr "Анимация"
+
+#: ui/prefs.ui:2221
+msgid "No Animation"
+msgstr "Без анимации"
+
+#: ui/prefs.ui:2222
+msgid "Default Speed"
+msgstr "Скорость по умолчанию"
+
+#: ui/prefs.ui:2223
+msgid "Fastest"
+msgstr "Самый быстрый"
+
+#: ui/prefs.ui:2224
+msgid "Faster"
+msgstr "Быстрее"
+
+#: ui/prefs.ui:2225
+msgid "Fast"
+msgstr "Быстрый"
+
+#: ui/prefs.ui:2226
+msgid "Slow"
+msgstr "Медленный"
+
+#: ui/prefs.ui:2227
+msgid "Slower"
+msgstr "Помедленнее"
+
+#: ui/prefs.ui:2228
+msgid "Slowest"
+msgstr "Самый медленный"

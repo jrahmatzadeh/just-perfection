@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-21 07:49-0700\n"
+"POT-Creation-Date: 2021-03-22 11:19-0700\n"
 "PO-Revision-Date: 2020-12-18 04:39-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Language cn\n"
@@ -210,3 +210,39 @@ msgstr "工作区切换器大小"
 #: ui/prefs.ui:2160
 msgid "Default"
 msgstr "默认"
+
+#: ui/prefs.ui:2210
+msgid "Animation"
+msgstr "动画片"
+
+#: ui/prefs.ui:2221
+msgid "No Animation"
+msgstr "没有动画"
+
+#: ui/prefs.ui:2222
+msgid "Default Speed"
+msgstr "预设速度"
+
+#: ui/prefs.ui:2223
+msgid "Fastest"
+msgstr "最快的 "
+
+#: ui/prefs.ui:2224
+msgid "Faster"
+msgstr "快点"
+
+#: ui/prefs.ui:2225
+msgid "Fast"
+msgstr "快速地"
+
+#: ui/prefs.ui:2226
+msgid "Slow"
+msgstr "慢"
+
+#: ui/prefs.ui:2227
+msgid "Slower"
+msgstr "慢点"
+
+#: ui/prefs.ui:2228
+msgid "Slowest"
+msgstr "最慢的"

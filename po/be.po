@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-21 07:49-0700\n"
+"POT-Creation-Date: 2021-03-22 11:19-0700\n"
 "PO-Revision-Date: 2020-12-18 04:22-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -217,3 +217,39 @@ msgstr "Памер пераключальніка працоўнай вобла�
 #: ui/prefs.ui:2160
 msgid "Default"
 msgstr "Па змаўчанні"
+
+#: ui/prefs.ui:2210
+msgid "Animation"
+msgstr "Анімацыя"
+
+#: ui/prefs.ui:2221
+msgid "No Animation"
+msgstr "Няма анімацыі"
+
+#: ui/prefs.ui:2222
+msgid "Default Speed"
+msgstr "Хуткасць па змаўчанні"
+
+#: ui/prefs.ui:2223
+msgid "Fastest"
+msgstr "Самы хуткі"
+
+#: ui/prefs.ui:2224
+msgid "Faster"
+msgstr "Хутчэй"
+
+#: ui/prefs.ui:2225
+msgid "Fast"
+msgstr "Хутка"
+
+#: ui/prefs.ui:2226
+msgid "Slow"
+msgstr "Павольна"
+
+#: ui/prefs.ui:2227
+msgid "Slower"
+msgstr "Павольней"
+
+#: ui/prefs.ui:2228
+msgid "Slowest"
+msgstr "Самае павольнае"

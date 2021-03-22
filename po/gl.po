@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-21 07:49-0700\n"
+"POT-Creation-Date: 2021-03-22 11:19-0700\n"
 "PO-Revision-Date: 2021-03-09 01:18+0100\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
@@ -219,3 +219,39 @@ msgstr "Tamaño do trocador de espaczo de traballo"
 #: ui/prefs.ui:2160
 msgid "Default"
 msgstr "Predeterminado"
+
+#: ui/prefs.ui:2210
+msgid "Animation"
+msgstr "Animación"
+
+#: ui/prefs.ui:2221
+msgid "No Animation"
+msgstr "Sen animación"
+
+#: ui/prefs.ui:2222
+msgid "Default Speed"
+msgstr "Velocidade predeterminada"
+
+#: ui/prefs.ui:2223
+msgid "Fastest"
+msgstr "O máis rápido"
+
+#: ui/prefs.ui:2224
+msgid "Faster"
+msgstr "Máis rápido"
+
+#: ui/prefs.ui:2225
+msgid "Fast"
+msgstr "Rápido"
+
+#: ui/prefs.ui:2226
+msgid "Slow"
+msgstr "Lento   "
+
+#: ui/prefs.ui:2227
+msgid "Slower"
+msgstr "Máis lento"
+
+#: ui/prefs.ui:2228
+msgid "Slowest"
+msgstr "O máis lento"

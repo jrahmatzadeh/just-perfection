@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-21 07:49-0700\n"
+"POT-Creation-Date: 2021-03-22 11:19-0700\n"
 "PO-Revision-Date: 2021-03-16 19:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: Catalan \n"
@@ -219,3 +219,39 @@ msgstr "Mida del commutador d'espais de treball"
 #: ui/prefs.ui:2160
 msgid "Default"
 msgstr "Per defecte"
+
+#: ui/prefs.ui:2210
+msgid "Animation"
+msgstr "Animació"
+
+#: ui/prefs.ui:2221
+msgid "No Animation"
+msgstr "Sense animació"
+
+#: ui/prefs.ui:2222
+msgid "Default Speed"
+msgstr "Velocitat per defecte"
+
+#: ui/prefs.ui:2223
+msgid "Fastest"
+msgstr "El més ràpid"
+
+#: ui/prefs.ui:2224
+msgid "Faster"
+msgstr "Més ràpid"
+
+#: ui/prefs.ui:2225
+msgid "Fast"
+msgstr "Ràpid"
+
+#: ui/prefs.ui:2226
+msgid "Slow"
+msgstr "Lent"
+
+#: ui/prefs.ui:2227
+msgid "Slower"
+msgstr "Més lent"
+
+#: ui/prefs.ui:2228
+msgid "Slowest"
+msgstr "El més lent"

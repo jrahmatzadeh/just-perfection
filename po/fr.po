@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-21 07:49-0700\n"
+"POT-Creation-Date: 2021-03-22 11:19-0700\n"
 "PO-Revision-Date: 2020-12-13 07:26-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: French\n"
@@ -217,3 +217,39 @@ msgstr "Taille du sélecteur d'espace de travail"
 #: ui/prefs.ui:2160
 msgid "Default"
 msgstr "Défaut"
+
+#: ui/prefs.ui:2210
+msgid "Animation"
+msgstr "Animation"
+
+#: ui/prefs.ui:2221
+msgid "No Animation"
+msgstr "Pas d'animation"
+
+#: ui/prefs.ui:2222
+msgid "Default Speed"
+msgstr "Vitesse par défaut"
+
+#: ui/prefs.ui:2223
+msgid "Fastest"
+msgstr "Le plus rapide"
+
+#: ui/prefs.ui:2224
+msgid "Faster"
+msgstr "Plus rapide"
+
+#: ui/prefs.ui:2225
+msgid "Fast"
+msgstr "Vite"
+
+#: ui/prefs.ui:2226
+msgid "Slow"
+msgstr "Lent"
+
+#: ui/prefs.ui:2227
+msgid "Slower"
+msgstr "Ralentissez"
+
+#: ui/prefs.ui:2228
+msgid "Slowest"
+msgstr "Le plus lent"

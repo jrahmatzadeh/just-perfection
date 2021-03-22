@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-21 07:49-0700\n"
+"POT-Creation-Date: 2021-03-22 11:19-0700\n"
 "PO-Revision-Date: 2021-02-05 14:43+0545\n"
 "Last-Translator: 1BA4 <nabin7076@protonmail.com>\n"
 "Language-Team: Nepali <>\n"
@@ -214,3 +214,39 @@ msgstr "कार्यक्षेत्र स्विचर आकार"
 #: ui/prefs.ui:2160
 msgid "Default"
 msgstr "पूर्वनिर्धारित"
+
+#: ui/prefs.ui:2210
+msgid "Animation"
+msgstr "एनिमेशन"
+
+#: ui/prefs.ui:2221
+msgid "No Animation"
+msgstr "कुनै एनिमेशन छैन"
+
+#: ui/prefs.ui:2222
+msgid "Default Speed"
+msgstr "पूर्वनिर्धारित गति"
+
+#: ui/prefs.ui:2223
+msgid "Fastest"
+msgstr "सब भन्दा छिटो"
+
+#: ui/prefs.ui:2224
+msgid "Faster"
+msgstr "छिटो"
+
+#: ui/prefs.ui:2225
+msgid "Fast"
+msgstr "छिटो"
+
+#: ui/prefs.ui:2226
+msgid "Slow"
+msgstr "ढिलो"
+
+#: ui/prefs.ui:2227
+msgid "Slower"
+msgstr "ढिलो"
+
+#: ui/prefs.ui:2228
+msgid "Slowest"
+msgstr "सब भन्दा ढिलो"

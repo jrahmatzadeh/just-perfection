@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-21 07:49-0700\n"
+"POT-Creation-Date: 2021-03-22 11:19-0700\n"
 "PO-Revision-Date: 2020-12-18 04:55-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: German\n"
@@ -217,3 +217,39 @@ msgstr "Größe des Arbeitsbereichsumschalters"
 #: ui/prefs.ui:2160
 msgid "Default"
 msgstr "Standard"
+
+#: ui/prefs.ui:2210
+msgid "Animation"
+msgstr "Animation"
+
+#: ui/prefs.ui:2221
+msgid "No Animation"
+msgstr "Keine Animation "
+
+#: ui/prefs.ui:2222
+msgid "Default Speed"
+msgstr "Standardgeschwindigkeit"
+
+#: ui/prefs.ui:2223
+msgid "Fastest"
+msgstr "Am schnellsten"
+
+#: ui/prefs.ui:2224
+msgid "Faster"
+msgstr "Schneller"
+
+#: ui/prefs.ui:2225
+msgid "Fast"
+msgstr "Schnell"
+
+#: ui/prefs.ui:2226
+msgid "Slow"
+msgstr "Schleppend"
+
+#: ui/prefs.ui:2227
+msgid "Slower"
+msgstr "Langsamer"
+
+#: ui/prefs.ui:2228
+msgid "Slowest"
+msgstr "Am langsamsten"

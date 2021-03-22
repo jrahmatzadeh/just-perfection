@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-21 07:49-0700\n"
+"POT-Creation-Date: 2021-03-22 11:19-0700\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -217,3 +217,39 @@ msgstr "Размер на превключвателя на работното �
 #: ui/prefs.ui:2160
 msgid "Default"
 msgstr "По подразбиране"
+
+#: ui/prefs.ui:2210
+msgid "Animation"
+msgstr "Анимация"
+
+#: ui/prefs.ui:2221
+msgid "No Animation"
+msgstr "Без анимация"
+
+#: ui/prefs.ui:2222
+msgid "Default Speed"
+msgstr "Скорост по подразбиране"
+
+#: ui/prefs.ui:2223
+msgid "Fastest"
+msgstr "Най-бързият"
+
+#: ui/prefs.ui:2224
+msgid "Faster"
+msgstr "По-бързо"
+
+#: ui/prefs.ui:2225
+msgid "Fast"
+msgstr "Бърз"
+
+#: ui/prefs.ui:2226
+msgid "Slow"
+msgstr "Бавен"
+
+#: ui/prefs.ui:2227
+msgid "Slower"
+msgstr "По-бавно"
+
+#: ui/prefs.ui:2228
+msgid "Slowest"
+msgstr "Най-бавно"

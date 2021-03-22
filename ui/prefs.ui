@@ -2181,6 +2181,64 @@
                             </object>
                           </child>
                           
+                          <child>
+                            <object class="GtkListBoxRow" id="animation_row">
+                              <property name="visible">True</property>
+                              <property name="can-focus">True</property>
+                              
+                              <child>
+                                <object class="GtkBox" id="animation_box">
+                                  <property name="visible">True</property>
+                                  <property name="can-focus">False</property>
+                                  <property name="margin-start">12</property>
+                                  <property name="margin-end">12</property>
+                                  <property name="margin-top">12</property>
+                                  <property name="margin-bottom">12</property>
+                                  <property name="orientation">vertical</property>
+                                  
+                                  <child>
+                                    <object class="GtkBox" id="animation_box2">
+                                      <property name="visible">True</property>
+                                      <property name="can-focus">False</property>
+                                      <property name="spacing">32</property>
+                                      
+                                      <child>
+                                        <object class="GtkLabel" id="animation_txt">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">False</property>
+                                          <property name="valign">center</property>
+                                          <property name="label" translatable="yes">Animation</property>
+                                          <property name="xalign">0</property>
+                                          <property name="hexpand">1</property>
+                                        </object>
+                                      </child>
+                                      
+                                      <child>
+                                        <object class="GtkComboBoxText" id="animation_comboboxtext">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">True</property>
+                                          <items>
+                                            <item translatable="yes">No Animation</item>
+                                            <item translatable="yes">Default Speed</item>
+                                            <item translatable="yes">Fastest</item>
+                                            <item translatable="yes">Faster</item>
+                                            <item translatable="yes">Fast</item>
+                                            <item translatable="yes">Slow</item>
+                                            <item translatable="yes">Slower</item>
+                                            <item translatable="yes">Slowest</item>
+                                          </items>
+                                        </object>
+                                      </child>
+                                      
+                                    </object>
+                                  </child>
+                                  
+                                </object>
+                              </child>
+                              
+                            </object>
+                          </child>
+                          
                         </object>
                       </child>
                       

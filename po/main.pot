@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-21 07:49-0700\n"
+"POT-Creation-Date: 2021-03-22 11:33-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -208,4 +208,40 @@ msgstr ""
 
 #: ui/prefs.ui:2160
 msgid "Default"
+msgstr ""
+
+#: ui/prefs.ui:2210
+msgid "Animation"
+msgstr ""
+
+#: ui/prefs.ui:2221
+msgid "No Animation"
+msgstr ""
+
+#: ui/prefs.ui:2222
+msgid "Default Speed"
+msgstr ""
+
+#: ui/prefs.ui:2223
+msgid "Fastest"
+msgstr ""
+
+#: ui/prefs.ui:2224
+msgid "Faster"
+msgstr ""
+
+#: ui/prefs.ui:2225
+msgid "Fast"
+msgstr ""
+
+#: ui/prefs.ui:2226
+msgid "Slow"
+msgstr ""
+
+#: ui/prefs.ui:2227
+msgid "Slower"
+msgstr ""
+
+#: ui/prefs.ui:2228
+msgid "Slowest"
 msgstr ""

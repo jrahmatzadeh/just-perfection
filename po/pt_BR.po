@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-21 07:49-0700\n"
+"POT-Creation-Date: 2021-03-22 11:19-0700\n"
 "PO-Revision-Date: 2021-03-10 16:11-0300\n"
 "Last-Translator: zelling <zelling@zelling-desktop>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
@@ -216,3 +216,39 @@ msgstr "Tamanho do Seletor de Área de Trabalho"
 #: ui/prefs.ui:2160
 msgid "Default"
 msgstr "Padrão"
+
+#: ui/prefs.ui:2210
+msgid "Animation"
+msgstr "Animação"
+
+#: ui/prefs.ui:2221
+msgid "No Animation"
+msgstr "Sem Animação"
+
+#: ui/prefs.ui:2222
+msgid "Default Speed"
+msgstr "Velocidade Padrão"
+
+#: ui/prefs.ui:2223
+msgid "Fastest"
+msgstr "O mais rápido"
+
+#: ui/prefs.ui:2224
+msgid "Faster"
+msgstr "Mais rápido"
+
+#: ui/prefs.ui:2225
+msgid "Fast"
+msgstr "Rápido"
+
+#: ui/prefs.ui:2226
+msgid "Slow"
+msgstr "Lento"
+
+#: ui/prefs.ui:2227
+msgid "Slower"
+msgstr "Mais devagar"
+
+#: ui/prefs.ui:2228
+msgid "Slowest"
+msgstr "Mais lento"

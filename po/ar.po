@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-21 07:49-0700\n"
+"POT-Creation-Date: 2021-03-22 11:19-0700\n"
 "PO-Revision-Date: 2020-12-18 04:15-0800\n"
 "Last-Translator: Kareem Abduljaleel <karemjaleel34@gmail.com>\n"
 "Language-Team: Arabic\n"
@@ -211,3 +211,39 @@ msgstr "حجم مبدل مساحة العمل"
 #: ui/prefs.ui:2160
 msgid "Default"
 msgstr "المبدئي"
+
+#: ui/prefs.ui:2210
+msgid "Animation"
+msgstr "حيوية"
+
+#: ui/prefs.ui:2221
+msgid "No Animation"
+msgstr "لا توجد رسوم متحركة "
+
+#: ui/prefs.ui:2222
+msgid "Default Speed"
+msgstr "السرعة الافتراضية"
+
+#: ui/prefs.ui:2223
+msgid "Fastest"
+msgstr "اأسرع"
+
+#: ui/prefs.ui:2224
+msgid "Faster"
+msgstr "بسرعة"
+
+#: ui/prefs.ui:2225
+msgid "Fast"
+msgstr "سريع"
+
+#: ui/prefs.ui:2226
+msgid "Slow"
+msgstr "بطيء"
+
+#: ui/prefs.ui:2227
+msgid "Slower"
+msgstr "أبطأ"
+
+#: ui/prefs.ui:2228
+msgid "Slowest"
+msgstr "أبطأ"
