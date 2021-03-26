@@ -6,7 +6,7 @@
 
 This extension allows you to do the following:
 
-### Visiblity
+### Visibility
 
 - OSD
 - Search
@@ -23,7 +23,7 @@ This extension allows you to do the following:
 - System Menu (Aggregate Menu)
 - Applications Button
 
-### Icons Visiblity
+### Icons Visibility
 
 - App Menu Icon
 - Power Icon
