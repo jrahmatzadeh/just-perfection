@@ -6,6 +6,8 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+## [10.0.0] - 2021-03-26
+
 ### Changed
 
 - Removed quotes and side bar image from prefs UI.
