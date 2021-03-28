@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Fixed
+
+- Gap when panel posision is at the bottom and shell override theme happens.
+
 ## [10.0.0] - 2021-03-26
 
 ### Changed
