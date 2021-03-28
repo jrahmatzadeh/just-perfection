@@ -306,6 +306,11 @@
     margin-bottom: 24px;
 }
 
+.just-perfection-api-bottom-panel .popup-menu.panel-menu
+{
+    margin-bottom: 0;
+}
+
 .just-perfection-api-bottom-panel.just-perfection-api-no-panel #overview
 {
     margin-bottom: 0;
