@@ -59,7 +59,7 @@
     </key>
     
     <key type="b" name="theme">
-      <default>true</default>
+      <default>false</default>
       <summary>Theme</summary>
       <description>Theme Status</description>
     </key>
