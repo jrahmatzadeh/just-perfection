@@ -8,7 +8,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ### Changed
 
-- Shell theme orverride is now disabled by default.
+- Shell theme override is now disabled by default.
 
 ### Fixed
 
