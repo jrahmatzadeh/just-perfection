@@ -1,6 +1,6 @@
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 const {API, Settings, Manager, HotCorner} = Me.imports.lib;
-const {Gio, St} = imports.gi;
+const {Gio, St, Clutter} = imports.gi;
 
 const Config = imports.misc.config;
 const ShellVersion = parseFloat(Config.PACKAGE_VERSION);
@@ -12,6 +12,7 @@ const WorkspaceSwitcherPopup = imports.ui.workspaceSwitcherPopup;
 const ViewSelector = (ShellVersion < 40) ? imports.ui.viewSelector : null;
 const WorkspaceThumbnail = imports.ui.workspaceThumbnail;
 const SearchController = (ShellVersion >= 40) ? imports.ui.searchController : null;
+const Panel = imports.ui.panel;
 
 
 let manager;
@@ -26,7 +27,7 @@ function enable()
     let schemaID = Me.metadata['schema-id'];
 
     let interfaceSettings = new Gio.Settings({schema_id: 'org.gnome.desktop.interface'});
-
+    
     api = new API.API({
         'Main': Main,
         'BackgroundMenu': BackgroundMenu,
@@ -36,7 +37,9 @@ function enable()
         'SearchController' : SearchController,
         'ViewSelector' : ViewSelector,
         'WorkspaceThumbnail' : WorkspaceThumbnail,
-        'StSettings' : St.Settings,
+        'St': St,
+        'Clutter' : Clutter,
+        'Panel' : Panel,
     }, ShellVersion);
     
     api.open();

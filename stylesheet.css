@@ -428,3 +428,11 @@
     padding: 0 100px;
 }
 
+.just-perfection-api-activities-button-icon
+{
+    -st-icon-style: symbolic;
+    -natural-hpadding: 6px;
+    -minimum-hpadding: 6px;
+    padding-right: 6px;
+    padding-left: 0;
+}
