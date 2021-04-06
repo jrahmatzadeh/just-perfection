@@ -3,6 +3,7 @@
 # This file is distributed under GPL v3
 # Just Perfection <justperfection.channel@gmail.com>, 2020.
 # Kareem Abduljaleel <karemjaleel34@gmail.com>, 2021
+#Ali Galal <ali.sameh.galal@gmail.com> , 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
@@ -113,7 +114,7 @@ msgstr "قائمة الخلفية"
 
 #: ui/prefs.ui:1324
 msgid "Icons"
-msgstr "الرموز"
+msgstr "الأيقونات"
 
 #: ui/prefs.ui:1373
 msgid "App Menu Icon"
@@ -121,7 +122,7 @@ msgstr "أيقونة قائمة التطبيقات"
 
 #: ui/prefs.ui:1422
 msgid "Panel Notification Icon"
-msgstr "رمز لوحة الإخطار"
+msgstr "ايقونة لوحة الإشعارات"
 
 #: ui/prefs.ui:1471
 msgid "Power Icon"
@@ -141,7 +142,7 @@ msgstr "تصرف"
 
 #: ui/prefs.ui:1659
 msgid "Hot Corner"
-msgstr "ركن ساخن"
+msgstr "ركن حساس"
 
 #: ui/prefs.ui:1708
 msgid "App Gesture"
@@ -170,7 +171,7 @@ msgstr "بواسطة مظهر الشل"
 
 #: ui/prefs.ui:1884
 msgid "No Corner"
-msgstr "بدون ركن"
+msgstr "بدون زوايا"
 
 #: ui/prefs.ui:1984
 msgid "Panel Position"
@@ -186,15 +187,15 @@ msgstr "اسفل"
 
 #: ui/prefs.ui:2036
 msgid "Clock Menu Position"
-msgstr "موقف قائمة الساعة"
+msgstr "موضع قائمة الساعة"
 
 #: ui/prefs.ui:2047
 msgid "Center"
-msgstr "مركز"
+msgstr "المركز"
 
 #: ui/prefs.ui:2048
 msgid "Right"
-msgstr "حق"
+msgstr "اليمين"
 
 #: ui/prefs.ui:2049
 msgid "Left"
@@ -202,7 +203,7 @@ msgstr "اليسار"
 
 #: ui/prefs.ui:2089
 msgid "Clock Menu Position Offset"
-msgstr "إزاحة موقف قائمة الساعة"
+msgstr "إزاحة موضع قائمة الساعة"
 
 #: ui/prefs.ui:2149
 msgid "Workspace Switcher Size"
@@ -210,15 +211,15 @@ msgstr "حجم مبدل مساحة العمل"
 
 #: ui/prefs.ui:2160
 msgid "Default"
-msgstr "المبدئي"
+msgstr "الإفتراضي"
 
 #: ui/prefs.ui:2210
 msgid "Animation"
-msgstr "حيوية"
+msgstr "تأثيرات"
 
 #: ui/prefs.ui:2221
 msgid "No Animation"
-msgstr "لا توجد رسوم متحركة "
+msgstr "بدون تأثيرات"
 
 #: ui/prefs.ui:2222
 msgid "Default Speed"
@@ -226,11 +227,11 @@ msgstr "السرعة الافتراضية"
 
 #: ui/prefs.ui:2223
 msgid "Fastest"
-msgstr "اأسرع"
+msgstr "سريع جدا"
 
 #: ui/prefs.ui:2224
 msgid "Faster"
-msgstr "بسرعة"
+msgstr "اسرع"
 
 #: ui/prefs.ui:2225
 msgid "Fast"
@@ -246,4 +247,4 @@ msgstr "أبطأ"
 
 #: ui/prefs.ui:2228
 msgid "Slowest"
-msgstr "أبطأ"
+msgstr "بطئ جدا"
