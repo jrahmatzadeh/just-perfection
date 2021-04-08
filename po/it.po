@@ -68,11 +68,11 @@ msgstr "Pulsante attività"
 
 #: ui/prefs.ui:744
 msgid "App Menu"
-msgstr "menu dell'app"
+msgstr "Menu dell'applicazione"
 
 #: ui/prefs.ui:793
 msgid "Clock Menu"
-msgstr "Menu orologio"
+msgstr "Menu dell'orologio"
 
 #: ui/prefs.ui:842
 msgid "Keyboard Layout"
@@ -80,11 +80,11 @@ msgstr "Layout della tastiera"
 
 #: ui/prefs.ui:891
 msgid "Accessibility Menu"
-msgstr "Menu accessibilità"
+msgstr "Menu di accessibilità"
 
 #: ui/prefs.ui:940
 msgid "System Menu (Aggregate Menu)"
-msgstr "menu di sistema"
+msgstr "Menu di sistema"
 
 #: ui/prefs.ui:989
 msgid "Search"
@@ -112,7 +112,7 @@ msgstr "Switcher area di lavoro"
 
 #: ui/prefs.ui:1283
 msgid "Background Menu"
-msgstr "sfondo menù"
+msgstr "Menu dello sfondo"
 
 #: ui/prefs.ui:1324
 msgid "Icons"
@@ -120,7 +120,7 @@ msgstr "icone"
 
 #: ui/prefs.ui:1373
 msgid "App Menu Icon"
-msgstr "Icona di menu dell'app"
+msgstr "Icona menu dell'applicazione"
 
 #: ui/prefs.ui:1422
 msgid "Panel Notification Icon"
@@ -148,7 +148,7 @@ msgstr "Angolo caldo"
 
 #: ui/prefs.ui:1708
 msgid "App Gesture"
-msgstr "Gesto dell'app"
+msgstr "Gesto dell'applicazione"
 
 #: ui/prefs.ui:1763
 msgid "Type to Search"
@@ -171,7 +171,7 @@ msgstr "Dimensione dell'angolo del pannello"
 
 #: ui/prefs.ui:1883
 msgid "By Shell Theme"
-msgstr "Di Shell Theme"
+msgstr "Predefinito"
 
 #: ui/prefs.ui:1884
 msgid "No Corner"
@@ -183,15 +183,15 @@ msgstr "Posizione del pannello"
 
 #: ui/prefs.ui:1995
 msgid "Top"
-msgstr "Superiore"
+msgstr "Sopra"
 
 #: ui/prefs.ui:1996
 msgid "Bottom"
-msgstr "Parte inferiore"
+msgstr "Sotto"
 
 #: ui/prefs.ui:2036
 msgid "Clock Menu Position"
-msgstr "Posizione menu orologio"
+msgstr "Posizione menu dell'orologio"
 
 #: ui/prefs.ui:2047
 msgid "Center"
@@ -199,7 +199,7 @@ msgstr "Centro"
 
 #: ui/prefs.ui:2048
 msgid "Right"
-msgstr "Giusto"
+msgstr "Destra"
 
 #: ui/prefs.ui:2049
 msgid "Left"
@@ -207,7 +207,7 @@ msgstr "Sinistra"
 
 #: ui/prefs.ui:2089
 msgid "Clock Menu Position Offset"
-msgstr "Offset posizione menu orologio"
+msgstr "Offset posizione menu dell'orologio"
 
 #: ui/prefs.ui:2149
 msgid "Workspace Switcher Size"
@@ -223,19 +223,19 @@ msgstr "Animazione"
 
 #: ui/prefs.ui:2221
 msgid "No Animation"
-msgstr "Nessuna animazione"
+msgstr "Nessuna"
 
 #: ui/prefs.ui:2222
 msgid "Default Speed"
-msgstr "Velocità predefinita"
+msgstr "Predefinita"
 
 #: ui/prefs.ui:2223
 msgid "Fastest"
-msgstr "Il più veloce"
+msgstr "Molto veloce"
 
 #: ui/prefs.ui:2224
 msgid "Faster"
-msgstr "Più veloce  "
+msgstr "Più veloce"
 
 #: ui/prefs.ui:2225
 msgid "Fast"
@@ -243,12 +243,12 @@ msgstr "Veloce"
 
 #: ui/prefs.ui:2226
 msgid "Slow"
-msgstr "Lento"
+msgstr "Lenta"
 
 #: ui/prefs.ui:2227
 msgid "Slower"
-msgstr "Più lentamente"
+msgstr "Più lenta"
 
 #: ui/prefs.ui:2228
 msgid "Slowest"
-msgstr "Il più lento"
+msgstr "Molto lenta"
