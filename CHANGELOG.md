@@ -16,6 +16,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Panel menu margin when panel is in bottom.
 - Arabic translation by [@AliGalal](https://gitlab.com/AliGalal).
 - Italian translation by [@l3nn4rt](https://gitlab.com/l3nn4rt).
+- Swedish translation by [@l3nn4rt](https://gitlab.com/MorganAntonsson).
 
 ## [10.0.0] - 2021-03-26
 
