@@ -145,7 +145,7 @@
     
     <key type="i" name="workspace-switcher-size">
       <default>0</default>
-      <range min="0" max="10"/>
+      <range min="0" max="15"/>
       <summary>Workspace Switcher Size in percent, 0 means use default size</summary>
       <description>Workspace Switcher Size</description>
     </key>

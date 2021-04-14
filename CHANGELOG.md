@@ -9,6 +9,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Changed
 
 - Shell theme override is now disabled by default.
+- Workspace switcher size for GNOME Shell 40 is now maxed out to 15%.
 
 ### Fixed
 
