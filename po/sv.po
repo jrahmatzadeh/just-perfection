@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-22 11:19-0700\n"
-"PO-Revision-Date: 2020-12-18 04:45-0800\n"
-"Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
+"PO-Revision-Date: 2021-04-13 22:01+0200\n"
+"Last-Translator: Morgan Antonsson <morgan.antonsson@gmail.com>\n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.1\n"
 
 #: ui/prefs.ui:73
 msgid "Support"
@@ -26,16 +27,16 @@ msgid ""
 "Your support helps the development process continue and brings more features "
 "to the extension"
 msgstr ""
-"Ditt stöd hjälper utvecklingsprocessen att fortsätta och ger fler funktioner "
-"till tillägget"
+"Ditt stöd hjälper fortsatt utveckling av tillägget och ger fler nya "
+"funktioner"
 
 #: ui/prefs.ui:298
 msgid ""
 "You can support my work via Patreon. Also your name will be mentioned at the "
 "end of videos on my YouTube Channel as Patreon supporter."
 msgstr ""
-"Du kan stödja mitt arbete via Patreon. Ditt namn kommer också att nämnas i "
-"slutet av videor på min YouTube-kanal som Patreon-supporter."
+"Du kan stödja mitt arbete via Patreon. Ditt namn kommer också att nämnas som "
+"Patreon-supporter i slutet av videor på min YouTube-kanal."
 
 #: ui/prefs.ui:457
 msgid "No Results Found"
@@ -43,15 +44,15 @@ msgstr "Inga resultat funna"
 
 #: ui/prefs.ui:479
 msgid "Override"
-msgstr "Åsidosätta"
+msgstr "Åsidosätt"
 
 #: ui/prefs.ui:536
 msgid "Shell Theme"
-msgstr "Shell-tema"
+msgstr "Skaltema"
 
 #: ui/prefs.ui:547
 msgid "Overrides the shell theme partially to create a minimal desktop"
-msgstr "Åsidosätter skaltema delvis för att skapa ett minimalt skrivbord"
+msgstr "Åsidosätt skaltemat delvis för att göra skrivbordet kompakt"
 
 #: ui/prefs.ui:597
 msgid "Visibility"
@@ -59,7 +60,7 @@ msgstr "Synlighet"
 
 #: ui/prefs.ui:646
 msgid "Panel"
-msgstr "Panel"
+msgstr "Systemrad"
 
 #: ui/prefs.ui:695
 msgid "Activities Button"
@@ -67,11 +68,11 @@ msgstr "Knappen Aktiviteter"
 
 #: ui/prefs.ui:744
 msgid "App Menu"
-msgstr "app-menyn"
+msgstr "Programmeny"
 
 #: ui/prefs.ui:793
 msgid "Clock Menu"
-msgstr "klockmeny"
+msgstr "Klockmeny"
 
 #: ui/prefs.ui:842
 msgid "Keyboard Layout"
@@ -83,31 +84,31 @@ msgstr "Tillgänglighetsmeny"
 
 #: ui/prefs.ui:940
 msgid "System Menu (Aggregate Menu)"
-msgstr "systemmenyn"
+msgstr "Systemmeny"
 
 #: ui/prefs.ui:989
 msgid "Search"
-msgstr "Sök"
+msgstr "Sökruta"
 
 #: ui/prefs.ui:1038
 msgid "Dash"
-msgstr "Rusa"
+msgstr "Snabbstartspanel"
 
 #: ui/prefs.ui:1087
 msgid "Show Applications Button"
-msgstr "Visa programknappen"
+msgstr "Knapp för att visa programöversiktsvyn"
 
 #: ui/prefs.ui:1136
 msgid "On Screen Display (OSD)"
-msgstr "OSD"
+msgstr "Skärmöverlagring (OSD)"
 
 #: ui/prefs.ui:1185
 msgid "Workspace Popup"
-msgstr "Arbetsytan Pop up"
+msgstr "Arbetsyteväxlar-popup"
 
 #: ui/prefs.ui:1234
 msgid "Workspace Switcher"
-msgstr "Arbetsytaswitcher"
+msgstr "Arbetsyteväxlare"
 
 #: ui/prefs.ui:1283
 msgid "Background Menu"
@@ -115,23 +116,23 @@ msgstr "Bakgrundsmeny"
 
 #: ui/prefs.ui:1324
 msgid "Icons"
-msgstr "ikoner"
+msgstr "Ikoner"
 
 #: ui/prefs.ui:1373
 msgid "App Menu Icon"
-msgstr "App-menyikonen"
+msgstr "Programmenyikon"
 
 #: ui/prefs.ui:1422
 msgid "Panel Notification Icon"
-msgstr "Panellanmälningsikon"
+msgstr "Aviseringsikon"
 
 #: ui/prefs.ui:1471
 msgid "Power Icon"
-msgstr "Значок питания"
+msgstr "Strömikon"
 
 #: ui/prefs.ui:1520
 msgid "Panel Arrow"
-msgstr "panelpil"
+msgstr "Panelpil"
 
 #: ui/prefs.ui:1569
 msgid "Window Picker Icon"
@@ -143,11 +144,11 @@ msgstr "Beteende"
 
 #: ui/prefs.ui:1659
 msgid "Hot Corner"
-msgstr "Hot Corner"
+msgstr "Aktivitetshörn"
 
 #: ui/prefs.ui:1708
 msgid "App Gesture"
-msgstr "App gest"
+msgstr "Programgest"
 
 #: ui/prefs.ui:1763
 msgid "Type to Search"
@@ -156,7 +157,7 @@ msgstr "Skriv för att söka"
 #: ui/prefs.ui:1774
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
-msgstr "Du kan börja söka utan sökpost eller ens fokusera på den i översikt"
+msgstr "Sök utan synlig sökruta eller utan att fokusera den i översiktsvyn"
 
 #: ui/prefs.ui:1824
 msgid "Customize"
@@ -164,11 +165,11 @@ msgstr "Anpassa"
 
 #: ui/prefs.ui:1872
 msgid "Panel Corner Size"
-msgstr "Panelhörnstorlek"
+msgstr "Aktivitetshörnstorlek"
 
 #: ui/prefs.ui:1883
 msgid "By Shell Theme"
-msgstr "Av Shell Theme"
+msgstr "Från skaltema"
 
 #: ui/prefs.ui:1884
 msgid "No Corner"
@@ -176,27 +177,27 @@ msgstr "Inget hörn"
 
 #: ui/prefs.ui:1984
 msgid "Panel Position"
-msgstr "Panelposition"
+msgstr "Systemradsplacering"
 
 #: ui/prefs.ui:1995
 msgid "Top"
-msgstr "Topp"
+msgstr "Överkant"
 
 #: ui/prefs.ui:1996
 msgid "Bottom"
-msgstr "Botten"
+msgstr "Nederkant"
 
 #: ui/prefs.ui:2036
 msgid "Clock Menu Position"
-msgstr "Klockmeny Placera"
+msgstr "Klockmenyplacering"
 
 #: ui/prefs.ui:2047
 msgid "Center"
-msgstr "Centrum"
+msgstr "Mitten"
 
 #: ui/prefs.ui:2048
 msgid "Right"
-msgstr "Rätt"
+msgstr "Höger"
 
 #: ui/prefs.ui:2049
 msgid "Left"
@@ -204,11 +205,11 @@ msgstr "Vänster"
 
 #: ui/prefs.ui:2089
 msgid "Clock Menu Position Offset"
-msgstr "Klockmeny Placera Offset"
+msgstr "Klockmenyoffset"
 
 #: ui/prefs.ui:2149
 msgid "Workspace Switcher Size"
-msgstr "Arbetsytans omkopplarstorlek"
+msgstr "Arbetsyteväxlarens storlek"
 
 #: ui/prefs.ui:2160
 msgid "Default"
@@ -216,7 +217,7 @@ msgstr "Standard"
 
 #: ui/prefs.ui:2210
 msgid "Animation"
-msgstr "Animation"
+msgstr "Animering"
 
 #: ui/prefs.ui:2221
 msgid "No Animation"
