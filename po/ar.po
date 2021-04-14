@@ -3,12 +3,12 @@
 # This file is distributed under GPL v3
 # Just Perfection <justperfection.channel@gmail.com>, 2020.
 # Kareem Abduljaleel <karemjaleel34@gmail.com>, 2021
-#Ali Galal <ali.sameh.galal@gmail.com> , 2021
+# Ali Galal <ali.sameh.galal@gmail.com> , 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-22 11:19-0700\n"
+"POT-Creation-Date: 2021-04-14 13:01-0700\n"
 "PO-Revision-Date: 2020-12-18 04:15-0800\n"
 "Last-Translator: Kareem Abduljaleel <karemjaleel34@gmail.com>\n"
 "Language-Team: Arabic\n"
@@ -36,215 +36,235 @@ msgstr ""
 "يمكنك دعم عملي عبر Patreon. كما سيُذكر اسمك في نهاية مقاطع الفيديو على قناتي "
 "على YouTube كداعم على لـ Patreon."
 
-#: ui/prefs.ui:457
+#: ui/prefs.ui:366
+msgid "Select File"
+msgstr ""
+
+#: ui/prefs.ui:477
 msgid "No Results Found"
 msgstr "لم يتم العثور على نتائج"
 
-#: ui/prefs.ui:479
+#: ui/prefs.ui:499
 msgid "Override"
 msgstr "تجاوز"
 
-#: ui/prefs.ui:536
+#: ui/prefs.ui:556
 msgid "Shell Theme"
 msgstr "مظهر الشل"
 
-#: ui/prefs.ui:547
+#: ui/prefs.ui:567
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "تجاوز مظهر الشل جزئيا لصناعة سطح مكتب ادنى"
 
-#: ui/prefs.ui:597
+#: ui/prefs.ui:617
 msgid "Visibility"
 msgstr "الوضوح"
 
-#: ui/prefs.ui:646
+#: ui/prefs.ui:666
 msgid "Panel"
 msgstr "اللوحة"
 
-#: ui/prefs.ui:695
+#: ui/prefs.ui:715
 msgid "Activities Button"
 msgstr "زر الأنشطة"
 
-#: ui/prefs.ui:744
+#: ui/prefs.ui:764
 msgid "App Menu"
 msgstr "قائمة التطبيقات"
 
-#: ui/prefs.ui:793
+#: ui/prefs.ui:813
 msgid "Clock Menu"
 msgstr "قائمة الساعة"
 
-#: ui/prefs.ui:842
+#: ui/prefs.ui:862
 msgid "Keyboard Layout"
 msgstr "نموذج لوحة المفاتيح"
 
-#: ui/prefs.ui:891
+#: ui/prefs.ui:911
 msgid "Accessibility Menu"
 msgstr "قائمة الوصول"
 
-#: ui/prefs.ui:940
+#: ui/prefs.ui:960
 msgid "System Menu (Aggregate Menu)"
 msgstr "قائمة النظام"
 
-#: ui/prefs.ui:989
+#: ui/prefs.ui:1009
 msgid "Search"
 msgstr "بحث"
 
-#: ui/prefs.ui:1038
+#: ui/prefs.ui:1058
 msgid "Dash"
 msgstr "الشريط"
 
-#: ui/prefs.ui:1087
+#: ui/prefs.ui:1107
 msgid "Show Applications Button"
 msgstr "إظهار زر التطبيقات"
 
-#: ui/prefs.ui:1136
+#: ui/prefs.ui:1156
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:1185
+#: ui/prefs.ui:1205
 msgid "Workspace Popup"
 msgstr "مساحة العمل المنبثقة"
 
-#: ui/prefs.ui:1234
+#: ui/prefs.ui:1254
 msgid "Workspace Switcher"
 msgstr "مبدل مساحة العمل"
 
-#: ui/prefs.ui:1283
+#: ui/prefs.ui:1303
 msgid "Background Menu"
 msgstr "قائمة الخلفية"
 
-#: ui/prefs.ui:1324
+#: ui/prefs.ui:1344
 msgid "Icons"
 msgstr "الأيقونات"
 
-#: ui/prefs.ui:1373
+#: ui/prefs.ui:1393
 msgid "App Menu Icon"
 msgstr "أيقونة قائمة التطبيقات"
 
-#: ui/prefs.ui:1422
+#: ui/prefs.ui:1442
 msgid "Panel Notification Icon"
 msgstr "ايقونة لوحة الإشعارات"
 
-#: ui/prefs.ui:1471
+#: ui/prefs.ui:1491
 msgid "Power Icon"
 msgstr "أيقونة الطاقة"
 
-#: ui/prefs.ui:1520
+#: ui/prefs.ui:1540
 msgid "Panel Arrow"
 msgstr "سهم اللوحة"
 
-#: ui/prefs.ui:1569
+#: ui/prefs.ui:1589
 msgid "Window Picker Icon"
 msgstr "ايقونة منتقي النافذة"
 
-#: ui/prefs.ui:1610
+#: ui/prefs.ui:1638
+msgid "Activities Button Icon"
+msgstr "رمز زر الأنشطة"
+
+#: ui/prefs.ui:1737
+msgid "Activities Button Icon in Monochrome"
+msgstr "رمز زر الأنشطة في أحادية اللون"
+
+#: ui/prefs.ui:1792
+msgid "Activities Button Icon With Label"
+msgstr "رمز زر الأنشطة مع التسمية"
+
+#: ui/prefs.ui:1803
+msgid "Only works when you have selected an icon for activities button"
+msgstr "يعمل فقط عندما تحدد رمزًا لزر الأنشطة"
+
+#: ui/prefs.ui:1853
 msgid "Behavior"
 msgstr "تصرف"
 
-#: ui/prefs.ui:1659
+#: ui/prefs.ui:1902
 msgid "Hot Corner"
 msgstr "ركن حساس"
 
-#: ui/prefs.ui:1708
+#: ui/prefs.ui:1951
 msgid "App Gesture"
 msgstr "إيماءة التطبيق"
 
-#: ui/prefs.ui:1763
+#: ui/prefs.ui:2006
 msgid "Type to Search"
 msgstr "اكتب للبحث"
 
-#: ui/prefs.ui:1774
+#: ui/prefs.ui:2017
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr "يمكنك بدء البحث بدون إدخال بحث أو حتى التركيز عليه في نظرة عامة"
 
-#: ui/prefs.ui:1824
+#: ui/prefs.ui:2067
 msgid "Customize"
 msgstr "طوّع"
 
-#: ui/prefs.ui:1872
+#: ui/prefs.ui:2115
 msgid "Panel Corner Size"
 msgstr "حجم زاوية اللوحة"
 
-#: ui/prefs.ui:1883
+#: ui/prefs.ui:2126
 msgid "By Shell Theme"
 msgstr "بواسطة مظهر الشل"
 
-#: ui/prefs.ui:1884
+#: ui/prefs.ui:2127
 msgid "No Corner"
 msgstr "بدون زوايا"
 
-#: ui/prefs.ui:1984
+#: ui/prefs.ui:2227
 msgid "Panel Position"
 msgstr "موقع اللوحة"
 
-#: ui/prefs.ui:1995
+#: ui/prefs.ui:2238
 msgid "Top"
 msgstr "اعلى"
 
-#: ui/prefs.ui:1996
+#: ui/prefs.ui:2239
 msgid "Bottom"
 msgstr "اسفل"
 
-#: ui/prefs.ui:2036
+#: ui/prefs.ui:2279
 msgid "Clock Menu Position"
 msgstr "موضع قائمة الساعة"
 
-#: ui/prefs.ui:2047
+#: ui/prefs.ui:2290
 msgid "Center"
 msgstr "المركز"
 
-#: ui/prefs.ui:2048
+#: ui/prefs.ui:2291
 msgid "Right"
 msgstr "اليمين"
 
-#: ui/prefs.ui:2049
+#: ui/prefs.ui:2292
 msgid "Left"
 msgstr "اليسار"
 
-#: ui/prefs.ui:2089
+#: ui/prefs.ui:2332
 msgid "Clock Menu Position Offset"
 msgstr "إزاحة موضع قائمة الساعة"
 
-#: ui/prefs.ui:2149
+#: ui/prefs.ui:2392
 msgid "Workspace Switcher Size"
 msgstr "حجم مبدل مساحة العمل"
 
-#: ui/prefs.ui:2160
+#: ui/prefs.ui:2403
 msgid "Default"
 msgstr "الإفتراضي"
 
-#: ui/prefs.ui:2210
+#: ui/prefs.ui:2453
 msgid "Animation"
 msgstr "تأثيرات"
 
-#: ui/prefs.ui:2221
+#: ui/prefs.ui:2464
 msgid "No Animation"
 msgstr "بدون تأثيرات"
 
-#: ui/prefs.ui:2222
+#: ui/prefs.ui:2465
 msgid "Default Speed"
 msgstr "السرعة الافتراضية"
 
-#: ui/prefs.ui:2223
+#: ui/prefs.ui:2466
 msgid "Fastest"
 msgstr "سريع جدا"
 
-#: ui/prefs.ui:2224
+#: ui/prefs.ui:2467
 msgid "Faster"
 msgstr "اسرع"
 
-#: ui/prefs.ui:2225
+#: ui/prefs.ui:2468
 msgid "Fast"
 msgstr "سريع"
 
-#: ui/prefs.ui:2226
+#: ui/prefs.ui:2469
 msgid "Slow"
 msgstr "بطيء"
 
-#: ui/prefs.ui:2227
+#: ui/prefs.ui:2470
 msgid "Slower"
 msgstr "أبطأ"
 
-#: ui/prefs.ui:2228
+#: ui/prefs.ui:2471
 msgid "Slowest"
 msgstr "بطئ جدا"

@@ -38,6 +38,7 @@ function enable()
         'ViewSelector' : ViewSelector,
         'WorkspaceThumbnail' : WorkspaceThumbnail,
         'St': St,
+        'Gio': Gio,
         'Clutter' : Clutter,
         'Panel' : Panel,
     }, ShellVersion);

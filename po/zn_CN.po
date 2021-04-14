@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-22 11:19-0700\n"
+"POT-Creation-Date: 2021-04-14 13:01-0700\n"
 "PO-Revision-Date: 2020-12-18 04:39-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Language cn\n"
@@ -34,215 +34,235 @@ msgstr ""
 "您可以通过Patreon支持我的工作。 另外，您的名字也会在我的YouTube频道上作为"
 "Patreon支持者的视频结尾处提及。"
 
-#: ui/prefs.ui:457
+#: ui/prefs.ui:366
+msgid "Select File"
+msgstr ""
+
+#: ui/prefs.ui:477
 msgid "No Results Found"
 msgstr "未找到结果"
 
-#: ui/prefs.ui:479
+#: ui/prefs.ui:499
 msgid "Override"
 msgstr "覆写"
 
-#: ui/prefs.ui:536
+#: ui/prefs.ui:556
 msgid "Shell Theme"
 msgstr "贝壳主题"
 
-#: ui/prefs.ui:547
+#: ui/prefs.ui:567
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "部分覆盖Shell主题以创建最小的桌面"
 
-#: ui/prefs.ui:597
+#: ui/prefs.ui:617
 msgid "Visibility"
 msgstr "能见度"
 
-#: ui/prefs.ui:646
+#: ui/prefs.ui:666
 msgid "Panel"
 msgstr "控制板"
 
-#: ui/prefs.ui:695
+#: ui/prefs.ui:715
 msgid "Activities Button"
 msgstr "活动按钮"
 
-#: ui/prefs.ui:744
+#: ui/prefs.ui:764
 msgid "App Menu"
 msgstr "应用菜单"
 
-#: ui/prefs.ui:793
+#: ui/prefs.ui:813
 msgid "Clock Menu"
 msgstr "时钟菜单"
 
-#: ui/prefs.ui:842
+#: ui/prefs.ui:862
 msgid "Keyboard Layout"
 msgstr "键盘布局"
 
-#: ui/prefs.ui:891
+#: ui/prefs.ui:911
 msgid "Accessibility Menu"
 msgstr "辅助功能菜单"
 
-#: ui/prefs.ui:940
+#: ui/prefs.ui:960
 msgid "System Menu (Aggregate Menu)"
 msgstr "系统菜单"
 
-#: ui/prefs.ui:989
+#: ui/prefs.ui:1009
 msgid "Search"
 msgstr "搜索"
 
-#: ui/prefs.ui:1038
+#: ui/prefs.ui:1058
 msgid "Dash"
 msgstr "短跑"
 
-#: ui/prefs.ui:1087
+#: ui/prefs.ui:1107
 msgid "Show Applications Button"
 msgstr "显示应用程序按钮"
 
-#: ui/prefs.ui:1136
+#: ui/prefs.ui:1156
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:1185
+#: ui/prefs.ui:1205
 msgid "Workspace Popup"
 msgstr "工作区弹出"
 
-#: ui/prefs.ui:1234
+#: ui/prefs.ui:1254
 msgid "Workspace Switcher"
 msgstr "工作区切换器"
 
-#: ui/prefs.ui:1283
+#: ui/prefs.ui:1303
 msgid "Background Menu"
 msgstr "后台菜单"
 
-#: ui/prefs.ui:1324
+#: ui/prefs.ui:1344
 msgid "Icons"
 msgstr "图示"
 
-#: ui/prefs.ui:1373
+#: ui/prefs.ui:1393
 msgid "App Menu Icon"
 msgstr "应用程序菜单图标"
 
-#: ui/prefs.ui:1422
+#: ui/prefs.ui:1442
 msgid "Panel Notification Icon"
 msgstr "面板通知图标"
 
-#: ui/prefs.ui:1471
+#: ui/prefs.ui:1491
 msgid "Power Icon"
 msgstr "电源图标"
 
-#: ui/prefs.ui:1520
+#: ui/prefs.ui:1540
 msgid "Panel Arrow"
 msgstr "面板艺术"
 
-#: ui/prefs.ui:1569
+#: ui/prefs.ui:1589
 msgid "Window Picker Icon"
 msgstr "窗口选择器图标"
 
-#: ui/prefs.ui:1610
+#: ui/prefs.ui:1638
+msgid "Activities Button Icon"
+msgstr "活动按钮图标"
+
+#: ui/prefs.ui:1737
+msgid "Activities Button Icon in Monochrome"
+msgstr "单色活动按钮图标"
+
+#: ui/prefs.ui:1792
+msgid "Activities Button Icon With Label"
+msgstr "活动按钮图标与标签"
+
+#: ui/prefs.ui:1803
+msgid "Only works when you have selected an icon for activities button"
+msgstr "仅在为活动按钮选择图标时有效"
+
+#: ui/prefs.ui:1853
 msgid "Behavior"
 msgstr "行为"
 
-#: ui/prefs.ui:1659
+#: ui/prefs.ui:1902
 msgid "Hot Corner"
 msgstr "热角"
 
-#: ui/prefs.ui:1708
+#: ui/prefs.ui:1951
 msgid "App Gesture"
 msgstr "应用手势"
 
-#: ui/prefs.ui:1763
+#: ui/prefs.ui:2006
 msgid "Type to Search"
 msgstr "输入搜索"
 
-#: ui/prefs.ui:1774
+#: ui/prefs.ui:2017
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr "您可以开始搜索而无需搜索条目，甚至可以将其集中在概述中"
 
-#: ui/prefs.ui:1824
+#: ui/prefs.ui:2067
 msgid "Customize"
 msgstr "定制"
 
-#: ui/prefs.ui:1872
+#: ui/prefs.ui:2115
 msgid "Panel Corner Size"
 msgstr "面板角尺寸"
 
-#: ui/prefs.ui:1883
+#: ui/prefs.ui:2126
 msgid "By Shell Theme"
 msgstr "通过壳主题"
 
-#: ui/prefs.ui:1884
+#: ui/prefs.ui:2127
 msgid "No Corner"
 msgstr "没有角落"
 
-#: ui/prefs.ui:1984
+#: ui/prefs.ui:2227
 msgid "Panel Position"
 msgstr "面板位置"
 
-#: ui/prefs.ui:1995
+#: ui/prefs.ui:2238
 msgid "Top"
 msgstr "最佳"
 
-#: ui/prefs.ui:1996
+#: ui/prefs.ui:2239
 msgid "Bottom"
 msgstr "底部"
 
-#: ui/prefs.ui:2036
+#: ui/prefs.ui:2279
 msgid "Clock Menu Position"
 msgstr "时钟菜单位置"
 
-#: ui/prefs.ui:2047
+#: ui/prefs.ui:2290
 msgid "Center"
 msgstr "中心"
 
-#: ui/prefs.ui:2048
+#: ui/prefs.ui:2291
 msgid "Right"
 msgstr "正确的"
 
-#: ui/prefs.ui:2049
+#: ui/prefs.ui:2292
 msgid "Left"
 msgstr "剩下"
 
-#: ui/prefs.ui:2089
+#: ui/prefs.ui:2332
 msgid "Clock Menu Position Offset"
 msgstr "时钟菜单位置偏移"
 
-#: ui/prefs.ui:2149
+#: ui/prefs.ui:2392
 msgid "Workspace Switcher Size"
 msgstr "工作区切换器大小"
 
-#: ui/prefs.ui:2160
+#: ui/prefs.ui:2403
 msgid "Default"
 msgstr "默认"
 
-#: ui/prefs.ui:2210
+#: ui/prefs.ui:2453
 msgid "Animation"
 msgstr "动画片"
 
-#: ui/prefs.ui:2221
+#: ui/prefs.ui:2464
 msgid "No Animation"
 msgstr "没有动画"
 
-#: ui/prefs.ui:2222
+#: ui/prefs.ui:2465
 msgid "Default Speed"
 msgstr "预设速度"
 
-#: ui/prefs.ui:2223
+#: ui/prefs.ui:2466
 msgid "Fastest"
 msgstr "最快的 "
 
-#: ui/prefs.ui:2224
+#: ui/prefs.ui:2467
 msgid "Faster"
 msgstr "快点"
 
-#: ui/prefs.ui:2225
+#: ui/prefs.ui:2468
 msgid "Fast"
 msgstr "快速地"
 
-#: ui/prefs.ui:2226
+#: ui/prefs.ui:2469
 msgid "Slow"
 msgstr "慢"
 
-#: ui/prefs.ui:2227
+#: ui/prefs.ui:2470
 msgid "Slower"
 msgstr "慢点"
 
-#: ui/prefs.ui:2228
+#: ui/prefs.ui:2471
 msgid "Slowest"
 msgstr "最慢的"

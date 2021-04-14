@@ -428,11 +428,28 @@
     padding: 0 100px;
 }
 
-.just-perfection-api-activities-button-icon
+.just-perfection-api-activities-button-icon,
+.just-perfection-api-activities-button-icon-monochrome
 {
-    -st-icon-style: symbolic;
-    -natural-hpadding: 6px;
-    -minimum-hpadding: 6px;
+    /* commented because padding would be enough since we are only using */
+    /* one element inside the box */
+    /* -natural-hpadding: 6px; */
+    /* -minimum-hpadding: 6px; */
     padding-right: 6px;
     padding-left: 0;
 }
+
+.just-perfection-api-activities-button-icon-monochrome
+{
+    -st-icon-style: symbolic;
+}
+
+.just-perfection-api-activities-button-no-label .just-perfection-api-activities-button-icon,
+.just-perfection-api-activities-button-no-label .just-perfection-api-activities-button-icon-monochrome
+{
+    -natural-hpadding: 0;
+    -minimum-hpadding: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+

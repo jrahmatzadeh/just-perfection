@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-22 11:19-0700\n"
+"POT-Creation-Date: 2021-04-14 13:01-0700\n"
 "PO-Revision-Date: 2020-12-18 04:22-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -38,218 +38,238 @@ msgstr ""
 "Вы можаце падтрымаць маю працу праз Patreon. Акрамя таго, ваша імя будзе "
 "названа ў канцы відэа на маім канале YouTube у якасці прыхільніка Patreon."
 
-#: ui/prefs.ui:457
+#: ui/prefs.ui:366
+msgid "Select File"
+msgstr ""
+
+#: ui/prefs.ui:477
 msgid "No Results Found"
 msgstr "Нічога не знойдзена"
 
-#: ui/prefs.ui:479
+#: ui/prefs.ui:499
 msgid "Override"
 msgstr "Перавызначыць"
 
-#: ui/prefs.ui:536
+#: ui/prefs.ui:556
 msgid "Shell Theme"
 msgstr "Тэма Shell"
 
-#: ui/prefs.ui:547
+#: ui/prefs.ui:567
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr ""
 "Перакрывае тэму абалонкі часткова, каб стварыць мінімальны працоўны стол"
 
-#: ui/prefs.ui:597
+#: ui/prefs.ui:617
 msgid "Visibility"
 msgstr "Бачнасць"
 
-#: ui/prefs.ui:646
+#: ui/prefs.ui:666
 msgid "Panel"
 msgstr "Панэль"
 
-#: ui/prefs.ui:695
+#: ui/prefs.ui:715
 msgid "Activities Button"
 msgstr "Кнопка дзейнасці"
 
-#: ui/prefs.ui:744
+#: ui/prefs.ui:764
 msgid "App Menu"
 msgstr "Меню прыкладанняў"
 
-#: ui/prefs.ui:793
+#: ui/prefs.ui:813
 msgid "Clock Menu"
 msgstr "Меню гадзін"
 
-#: ui/prefs.ui:842
+#: ui/prefs.ui:862
 msgid "Keyboard Layout"
 msgstr "Раскладка клавіятуры"
 
-#: ui/prefs.ui:891
+#: ui/prefs.ui:911
 msgid "Accessibility Menu"
 msgstr "Меню даступнасці"
 
-#: ui/prefs.ui:940
+#: ui/prefs.ui:960
 msgid "System Menu (Aggregate Menu)"
 msgstr "сістэмнае меню"
 
-#: ui/prefs.ui:989
+#: ui/prefs.ui:1009
 msgid "Search"
 msgstr "Пошук"
 
-#: ui/prefs.ui:1038
+#: ui/prefs.ui:1058
 msgid "Dash"
 msgstr "Працяжнік"
 
-#: ui/prefs.ui:1087
+#: ui/prefs.ui:1107
 msgid "Show Applications Button"
 msgstr "Паказаць кнопку прыкладанняў"
 
-#: ui/prefs.ui:1136
+#: ui/prefs.ui:1156
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: ui/prefs.ui:1185
+#: ui/prefs.ui:1205
 msgid "Workspace Popup"
 msgstr "Усплывальнае працоўнае месца"
 
-#: ui/prefs.ui:1234
+#: ui/prefs.ui:1254
 msgid "Workspace Switcher"
 msgstr "Пераключальнік працоўнай прасторы"
 
-#: ui/prefs.ui:1283
+#: ui/prefs.ui:1303
 msgid "Background Menu"
 msgstr "Фонавае меню"
 
-#: ui/prefs.ui:1324
+#: ui/prefs.ui:1344
 msgid "Icons"
 msgstr "абразкі"
 
-#: ui/prefs.ui:1373
+#: ui/prefs.ui:1393
 msgid "App Menu Icon"
 msgstr "Значок меню прыкладання"
 
-#: ui/prefs.ui:1422
+#: ui/prefs.ui:1442
 msgid "Panel Notification Icon"
 msgstr "Значок апавяшчэння на панэлі"
 
-#: ui/prefs.ui:1471
+#: ui/prefs.ui:1491
 msgid "Power Icon"
 msgstr "Абразок харчавання"
 
-#: ui/prefs.ui:1520
+#: ui/prefs.ui:1540
 msgid "Panel Arrow"
 msgstr "стрэлка панэлі"
 
-#: ui/prefs.ui:1569
+#: ui/prefs.ui:1589
 msgid "Window Picker Icon"
 msgstr "Акно выбару вокнаў"
 
-#: ui/prefs.ui:1610
+#: ui/prefs.ui:1638
+msgid "Activities Button Icon"
+msgstr "Значок кнопкі Дзеянні"
+
+#: ui/prefs.ui:1737
+msgid "Activities Button Icon in Monochrome"
+msgstr "Значок кнопкі Дзеянні ў манахромным рэжыме"
+
+#: ui/prefs.ui:1792
+msgid "Activities Button Icon With Label"
+msgstr "Значок кнопкі Дзеянні з этыкеткай"
+
+#: ui/prefs.ui:1803
+msgid "Only works when you have selected an icon for activities button"
+msgstr "Працуе толькі тады, калі вы выбралі значок для кнопкі дзейнасці"
+
+#: ui/prefs.ui:1853
 msgid "Behavior"
 msgstr "Паводзіны"
 
-#: ui/prefs.ui:1659
+#: ui/prefs.ui:1902
 msgid "Hot Corner"
 msgstr "Гарачы кут"
 
-#: ui/prefs.ui:1708
+#: ui/prefs.ui:1951
 msgid "App Gesture"
 msgstr "Жэст прыкладання"
 
-#: ui/prefs.ui:1763
+#: ui/prefs.ui:2006
 msgid "Type to Search"
 msgstr "Набярыце для пошуку"
 
-#: ui/prefs.ui:1774
+#: ui/prefs.ui:2017
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Вы можаце пачаць пошук без запісу пошуку альбо нават сканцэнтравацца на ім у "
 "аглядзе"
 
-#: ui/prefs.ui:1824
+#: ui/prefs.ui:2067
 msgid "Customize"
 msgstr "Наладзіць"
 
-#: ui/prefs.ui:1872
+#: ui/prefs.ui:2115
 msgid "Panel Corner Size"
 msgstr "Памер кута панэлі"
 
-#: ui/prefs.ui:1883
+#: ui/prefs.ui:2126
 msgid "By Shell Theme"
 msgstr "Тэма Shell"
 
-#: ui/prefs.ui:1884
+#: ui/prefs.ui:2127
 msgid "No Corner"
 msgstr "Няма кутка"
 
-#: ui/prefs.ui:1984
+#: ui/prefs.ui:2227
 msgid "Panel Position"
 msgstr "Палажэнне панэлі"
 
-#: ui/prefs.ui:1995
+#: ui/prefs.ui:2238
 msgid "Top"
 msgstr "Зверху"
 
-#: ui/prefs.ui:1996
+#: ui/prefs.ui:2239
 msgid "Bottom"
 msgstr "Знізу"
 
-#: ui/prefs.ui:2036
+#: ui/prefs.ui:2279
 msgid "Clock Menu Position"
 msgstr "Палажэнне меню гадзінніка"
 
-#: ui/prefs.ui:2047
+#: ui/prefs.ui:2290
 msgid "Center"
 msgstr "Цэнтр"
 
-#: ui/prefs.ui:2048
+#: ui/prefs.ui:2291
 msgid "Right"
 msgstr "Правільна"
 
-#: ui/prefs.ui:2049
+#: ui/prefs.ui:2292
 msgid "Left"
 msgstr "Злева"
 
-#: ui/prefs.ui:2089
+#: ui/prefs.ui:2332
 msgid "Clock Menu Position Offset"
 msgstr "Зрушэнне становішча меню гадзін"
 
-#: ui/prefs.ui:2149
+#: ui/prefs.ui:2392
 msgid "Workspace Switcher Size"
 msgstr "Памер пераключальніка працоўнай вобласці"
 
-#: ui/prefs.ui:2160
+#: ui/prefs.ui:2403
 msgid "Default"
 msgstr "Па змаўчанні"
 
-#: ui/prefs.ui:2210
+#: ui/prefs.ui:2453
 msgid "Animation"
 msgstr "Анімацыя"
 
-#: ui/prefs.ui:2221
+#: ui/prefs.ui:2464
 msgid "No Animation"
 msgstr "Няма анімацыі"
 
-#: ui/prefs.ui:2222
+#: ui/prefs.ui:2465
 msgid "Default Speed"
 msgstr "Хуткасць па змаўчанні"
 
-#: ui/prefs.ui:2223
+#: ui/prefs.ui:2466
 msgid "Fastest"
 msgstr "Самы хуткі"
 
-#: ui/prefs.ui:2224
+#: ui/prefs.ui:2467
 msgid "Faster"
 msgstr "Хутчэй"
 
-#: ui/prefs.ui:2225
+#: ui/prefs.ui:2468
 msgid "Fast"
 msgstr "Хутка"
 
-#: ui/prefs.ui:2226
+#: ui/prefs.ui:2469
 msgid "Slow"
 msgstr "Павольна"
 
-#: ui/prefs.ui:2227
+#: ui/prefs.ui:2470
 msgid "Slower"
 msgstr "Павольней"
 
-#: ui/prefs.ui:2228
+#: ui/prefs.ui:2471
 msgid "Slowest"
 msgstr "Самае павольнае"

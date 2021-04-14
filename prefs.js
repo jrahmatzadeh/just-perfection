@@ -27,6 +27,7 @@ function buildPrefsWidget ()
         'Settings': settings,
         'GObjectBindingFlags' : GObject.BindingFlags,
         'Gtk': Gtk,
+        'Gio': Gio,
     }, ShellVersion);
     
     return prefs.getMainPrefs(UIFilePath, binFolderPath, gettextDomain);

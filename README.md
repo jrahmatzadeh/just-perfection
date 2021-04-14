@@ -44,6 +44,7 @@ This extension allows you to do the following:
 - Clock Menu Position
 - Workspace Switcher Size (Only GNOME 40.0)
 - Animation Speed or Disable it
+- Activities button Icon
 
 ### Override
 

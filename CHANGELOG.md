@@ -18,6 +18,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Italian translation by [@l3nn4rt](https://gitlab.com/l3nn4rt).
 - Swedish translation by [@MorganAntonsson](https://gitlab.com/MorganAntonsson).
 
+### Added
+
+- Activities button icon.
+
 ## [10.0.0] - 2021-03-26
 
 ### Changed

@@ -184,6 +184,24 @@
       <description>Animation Status</description>
     </key>
     
+    <key type="s" name="activities-button-icon-path">
+      <default>''</default>
+      <summary>Activities Button Icon Path</summary>
+      <description>Activities Button Icon Path</description>
+    </key>
+    
+    <key type="b" name="activities-button-icon-monochrome">
+      <default>true</default>
+      <summary>Activities Button Monochrome Icon Style</summary>
+      <description>Activities Button Monochrome Icon Style Status</description>
+    </key>
+    
+    <key type="b" name="activities-button-label">
+      <default>true</default>
+      <summary>Activities Button Label Visiblity</summary>
+      <description>Activities Button Label Visiblity Status</description>
+    </key>
+    
   </schema>
   
 </schemalist>

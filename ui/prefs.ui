@@ -350,6 +350,26 @@
     
   </object>
   
+  <!-- FILE_CHOOSER_FILTER -->
+  
+  <object class="GtkFileFilter" id="file_chooser_image_filter">
+    <mime-types>
+      <mime-type>application/xml</mime-type>
+      <mime-type>image/png</mime-type>
+      <mime-type>image/jpeg</mime-type>
+    </mime-types>
+  </object>
+  
+  <!-- FILE_CHOOSER -->
+  
+  <object class="GtkFileChooserNative" id="file_chooser">
+    <property name="title" translatable="yes">Select File</property>
+    <property name="select-multiple">0</property>
+    <property name="action">open</property>
+    <property name="modal">1</property>
+    <property name="filter">file_chooser_image_filter</property>
+  </object>
+  
   <!-- MAIN_PREFS -->
   
   <object class="GtkBox" id="main_prefs">
@@ -1574,6 +1594,229 @@
                                       
                                       <child>
                                         <object class="GtkSwitch" id="window_picker_icon_switch">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">True</property>
+                                          <property name="valign">center</property>
+                                        </object>
+                                      </child>
+                                      
+                                    </object>
+                                  </child>
+                                  
+                                </object>
+                              </child>
+                              
+                            </object>
+                          </child>
+                          
+                          <child>
+                            <object class="GtkListBoxRow" id="activities_button_icon_path_row">
+                              <property name="visible">True</property>
+                              <property name="can-focus">True</property>
+                              
+                              <child>
+                                <object class="GtkBox" id="activities_button_icon_path_box">
+                                  <property name="visible">True</property>
+                                  <property name="can-focus">False</property>
+                                  <property name="margin-start">12</property>
+                                  <property name="margin-end">12</property>
+                                  <property name="margin-top">12</property>
+                                  <property name="margin-bottom">12</property>
+                                  <property name="orientation">vertical</property>
+                                  
+                                  <child>
+                                    <object class="GtkBox" id="activities_button_icon_path_box2">
+                                      <property name="visible">True</property>
+                                      <property name="can-focus">False</property>
+                                      <property name="spacing">32</property>
+                                      
+                                      <child>
+                                        <object class="GtkLabel" id="activities_button_icon_path_txt">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">False</property>
+                                          <property name="valign">center</property>
+                                          <property name="label" translatable="yes">Activities Button Icon</property>
+                                          <property name="xalign">0</property>
+                                          <property name="hexpand">1</property>
+                                        </object>
+                                      </child>
+                                      
+                                      <child>
+                                        <object class="GtkBox">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">False</property>
+                                          <property name="orientation">horizontal</property>
+                                          
+                                          <child>
+                                            <object class="GtkButton" id="activities_button_icon_path_empty_button">
+                                              <property name="visible">False</property>
+                                              <property name="can-focus">True</property>
+                                              <property name="focus-on-click">True</property>
+                                              <property name="receives-default">True</property>
+                                              
+                                              <child>
+                                                <object class="GtkImage" id="activities_button_icon_path_empty_button_icon">
+                                                  <property name="visible">True</property>
+                                                  <property name="can-focus">False</property>
+                                                  <property name="icon-name">edit-delete-symbolic</property>
+                                                  <property name="icon-size">1</property>
+                                                </object>
+                                              </child>
+                                              
+                                            </object>
+                                          </child>
+                                          
+                                          <child>
+                                            <object class="GtkButton" id="activities_button_icon_path_button">
+                                              <property name="visible">True</property>
+                                              <property name="can-focus">True</property>
+                                              <property name="focus-on-click">True</property>
+                                              <property name="receives-default">True</property>
+                                              
+                                              <child>
+                                                <object class="GtkImage" id="activities_button_icon_path_preview">
+                                                  <property name="visible">True</property>
+                                                  <property name="can-focus">False</property>
+                                                  <property name="icon-name">document-open-symbolic</property>
+                                                  <property name="icon-size">1</property>
+                                                </object>
+                                              </child>
+                                              
+                                            </object>
+                                          </child>
+                                          
+                                          <child>
+                                            <object class="GtkEntry" id="activities_button_icon_path_entry">
+                                              <property name="visible">False</property>
+                                              <property name="can-focus">False</property>
+                                            </object>
+                                          </child>
+                                          
+                                          <style>
+                                            <class name="linked"/>
+                                          </style>
+                                          
+                                        </object>
+                                      </child>
+                                      
+                                    </object>
+                                  </child>
+                                  
+                                </object>
+                              </child>
+                              
+                            </object>
+                          </child>
+                          
+                          <child>
+                            <object class="GtkListBoxRow" id="activities_button_icon_monochrome_row">
+                              <property name="visible">True</property>
+                              <property name="can-focus">True</property>
+                              
+                              <child>
+                                <object class="GtkBox" id="activities_button_icon_monochrome_box">
+                                  <property name="visible">True</property>
+                                  <property name="can-focus">False</property>
+                                  <property name="margin-start">12</property>
+                                  <property name="margin-end">12</property>
+                                  <property name="margin-top">12</property>
+                                  <property name="margin-bottom">12</property>
+                                  <property name="orientation">vertical</property>
+                                  
+                                  <child>
+                                    <object class="GtkBox" id="activities_button_icon_monochrome_box2">
+                                      <property name="visible">True</property>
+                                      <property name="can-focus">False</property>
+                                      <property name="spacing">32</property>
+                                      
+                                      <child>
+                                        <object class="GtkLabel" id="activities_button_icon_monochrome_txt">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">False</property>
+                                          <property name="valign">center</property>
+                                          <property name="label" translatable="yes">Activities Button Icon in Monochrome</property>
+                                          <property name="xalign">0</property>
+                                          <property name="hexpand">1</property>
+                                        </object>
+                                      </child>
+                                      
+                                      <child>
+                                        <object class="GtkSwitch" id="activities_button_icon_monochrome_switch">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">True</property>
+                                          <property name="valign">center</property>
+                                        </object>
+                                      </child>
+                                      
+                                    </object>
+                                  </child>
+                                  
+                                </object>
+                              </child>
+                              
+                            </object>
+                          </child>
+                          
+                          <child>
+                            <object class="GtkListBoxRow" id="activities_button_label_row">
+                              <property name="visible">True</property>
+                              <property name="can-focus">True</property>
+                              
+                              <child>
+                                <object class="GtkBox" id="activities_button_label_box">
+                                  <property name="visible">True</property>
+                                  <property name="can-focus">False</property>
+                                  <property name="margin-start">12</property>
+                                  <property name="margin-end">12</property>
+                                  <property name="margin-top">12</property>
+                                  <property name="margin-bottom">12</property>
+                                  <property name="orientation">vertical</property>
+                                  
+                                  <child>
+                                    <object class="GtkBox" id="activities_button_label_box2">
+                                      <property name="visible">True</property>
+                                      <property name="can-focus">False</property>
+                                      <property name="spacing">32</property>
+                                      
+                                      <child>
+                                        <object class="GtkBox">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">True</property>
+                                          <property name="orientation">vertical</property>
+                                          
+                                          <child>
+                                            <object class="GtkLabel" id="activities_button_label_txt">
+                                              <property name="visible">True</property>
+                                              <property name="can-focus">False</property>
+                                              <property name="valign">center</property>
+                                              <property name="label" translatable="yes">Activities Button Icon With Label</property>
+                                              <property name="xalign">0</property>
+                                              <property name="hexpand">1</property>
+                                            </object>
+                                          </child>
+                                        
+                                          <child>
+                                            <object class="GtkLabel">
+                                              <property name="visible">True</property>
+                                              <property name="can-focus">False</property>
+                                              <property name="valign">center</property>
+                                              <property name="label" translatable="yes">Only works when you have selected an icon for activities button</property>
+                                              <property name="xalign">0</property>
+                                              <property name="wrap">True</property>
+                                              <property name="width-chars">0</property>
+                                              <property name="max-width-chars">0</property>
+                                              <property name="margin-top">12</property>
+                                              <style>
+                                                <class name="dim-label"/>
+                                              </style>
+                                            </object>
+                                          </child>
+                                          
+                                        </object>
+                                      </child>
+                                      
+                                      <child>
+                                        <object class="GtkSwitch" id="activities_button_label_switch">
                                           <property name="visible">True</property>
                                           <property name="can-focus">True</property>
                                           <property name="valign">center</property>
