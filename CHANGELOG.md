@@ -18,6 +18,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Arabic translation by [@AliGalal](https://gitlab.com/AliGalal).
 - Italian translation by [@l3nn4rt](https://gitlab.com/l3nn4rt).
 - Swedish translation by [@MorganAntonsson](https://gitlab.com/MorganAntonsson).
+- Chinese translation by [@wsxy162](https://gitlab.com/wsxy162).
 
 ### Added
 
