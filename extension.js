@@ -13,6 +13,7 @@ const ViewSelector = (ShellVersion < 40) ? imports.ui.viewSelector : null;
 const WorkspaceThumbnail = imports.ui.workspaceThumbnail;
 const SearchController = (ShellVersion >= 40) ? imports.ui.searchController : null;
 const Panel = imports.ui.panel;
+const WorkspacesView = imports.ui.workspacesView;
 
 
 let manager;
@@ -33,14 +34,15 @@ function enable()
         'BackgroundMenu': BackgroundMenu,
         'OverviewControls': OverviewControls,
         'WorkspaceSwitcherPopup': WorkspaceSwitcherPopup,
-        'InterfaceSettings' : interfaceSettings,
-        'SearchController' : SearchController,
-        'ViewSelector' : ViewSelector,
-        'WorkspaceThumbnail' : WorkspaceThumbnail,
+        'InterfaceSettings': interfaceSettings,
+        'SearchController': SearchController,
+        'ViewSelector': ViewSelector,
+        'WorkspaceThumbnail': WorkspaceThumbnail,
+        'WorkspacesView': WorkspacesView,
         'St': St,
         'Gio': Gio,
-        'Clutter' : Clutter,
-        'Panel' : Panel,
+        'Clutter': Clutter,
+        'Panel': Panel,
     }, ShellVersion);
     
     api.open();
