@@ -10,6 +10,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - Shell theme override is now disabled by default.
 - Workspace switcher size for GNOME Shell 40 is now maxed out to 15%.
+- Panel corner size is now accepts 0-30 since GTK4 combobox has scroll bug.
 
 ### Fixed
 
