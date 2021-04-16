@@ -138,8 +138,8 @@
     
     <key type="i" name="panel-corner-size">
       <default>0</default>
-      <range min="0" max="31"/>
-      <summary>0 means use Shell theme, 1 means no border, 2 - 31 means border size</summary>
+      <range min="0" max="61"/>
+      <summary>0 means use Shell theme, 1 means no border, 2 - 61 means border size</summary>
       <description>Panel Corner Size</description>
     </key>
     
