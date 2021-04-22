@@ -39,7 +39,7 @@
           <object class="GtkImage" id="support_icon">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="icon-name">emblem-favorite-symbolic</property>
+            <property name="icon-name">dialog-information-symbolic</property>
             <property name="icon-size">1</property>
           </object>
         </child>
