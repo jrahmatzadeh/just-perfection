@@ -24,6 +24,13 @@ function init() {}
 
 function enable()
 {
+    // <3.36 can crash by enabling the extension
+    // since <3.36 is not supported we simply throw error
+    // to avoid bad experience for <3.36 users. 
+    if (ShellVersion < 3.36) {
+        throw new Error('GNOME Shell is not Supported');
+    }
+    
     let schemasFolderPath = Me.dir.get_child("schemas").get_path();
     let schemaID = Me.metadata['schema-id'];
 
