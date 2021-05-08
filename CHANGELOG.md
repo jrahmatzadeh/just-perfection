@@ -11,6 +11,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Shell theme override is now disabled by default.
 - Workspace switcher size for GNOME Shell 40 is now maxed out to 15%.
 - Donation icon to GTK4 non-compatible icon sets.
+- App gesture now only works on GNOME 3.36 and 3.38.
 
 ### Fixed
 

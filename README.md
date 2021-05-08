@@ -36,7 +36,7 @@ This extension allows you to do the following:
 
 - Disable Type to Search
 - Hot Corner
-- App gesture
+- App gesture (Only GNOME 3.36 and 3.38)
 
 ### Customize
 
