@@ -202,6 +202,12 @@
       <description>Activities Button Label Visiblity Status</description>
     </key>
     
+    <key type="b" name="window-demands-attention-focus">
+      <default>false</default>
+      <summary>Window Demands Attention Focus</summary>
+      <description>Window Demands Attention Focus Status</description>
+    </key>
+    
   </schema>
   
 </schemalist>
