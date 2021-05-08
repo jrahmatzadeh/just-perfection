@@ -26,6 +26,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Added
 
 - Activities button icon.
+- Window Demands Attention Focus.
 
 ## [10.0.0] - 2021-03-26
 
