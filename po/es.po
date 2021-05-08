@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-14 13:01-0700\n"
+"POT-Creation-Date: 2021-05-08 07:11-0700\n"
 "PO-Revision-Date: 2021-02-01 18:27+0100\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish; Castilian <oscfdezdz@tuta.io>\n"
@@ -158,7 +158,8 @@ msgstr "Icono de botón de actividades con etiqueta"
 
 #: ui/prefs.ui:1803
 msgid "Only works when you have selected an icon for activities button"
-msgstr "Solo funciona cuando ha seleccionado un icono para el botón de actividades"
+msgstr ""
+"Solo funciona cuando ha seleccionado un icono para el botón de actividades"
 
 #: ui/prefs.ui:1853
 msgid "Behavior"
@@ -173,104 +174,112 @@ msgid "App Gesture"
 msgstr "Animación de \"Mostrar aplicaciones\""
 
 #: ui/prefs.ui:2006
+msgid "Window Demands Attention Focus"
+msgstr "Ventana exige atención"
+
+#: ui/prefs.ui:2017
+msgid "Removes window is ready notification and focus on the window"
+msgstr "Elimina la notificación de ventana está lista y se centra en la ventana"
+
+#: ui/prefs.ui:2081
 msgid "Type to Search"
 msgstr "Escribe para buscar"
 
-#: ui/prefs.ui:2017
+#: ui/prefs.ui:2092
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Puede iniciar la búsqueda sin una entrada de búsqueda o incluso centrarse en "
 "ella en la descripción general"
 
-#: ui/prefs.ui:2067
+#: ui/prefs.ui:2142
 msgid "Customize"
 msgstr "Personalizar"
 
-#: ui/prefs.ui:2115
+#: ui/prefs.ui:2190
 msgid "Panel Corner Size"
 msgstr "Tamaño de la esquina del panel"
 
-#: ui/prefs.ui:2126
+#: ui/prefs.ui:2201
 msgid "By Shell Theme"
 msgstr "Por tema de Shell"
 
-#: ui/prefs.ui:2127
+#: ui/prefs.ui:2202
 msgid "No Corner"
 msgstr "Sin esquina"
 
-#: ui/prefs.ui:2227
+#: ui/prefs.ui:2302
 msgid "Panel Position"
 msgstr "Posición del panel"
 
-#: ui/prefs.ui:2238
+#: ui/prefs.ui:2313
 msgid "Top"
 msgstr "Cima"
 
-#: ui/prefs.ui:2239
+#: ui/prefs.ui:2314
 msgid "Bottom"
 msgstr "Fondo"
 
-#: ui/prefs.ui:2279
+#: ui/prefs.ui:2354
 msgid "Clock Menu Position"
 msgstr "Posición del menú del reloj"
 
-#: ui/prefs.ui:2290
+#: ui/prefs.ui:2365
 msgid "Center"
 msgstr "Centrar"
 
-#: ui/prefs.ui:2291
+#: ui/prefs.ui:2366
 msgid "Right"
 msgstr "Correcto"
 
-#: ui/prefs.ui:2292
+#: ui/prefs.ui:2367
 msgid "Left"
 msgstr "Izquierda"
 
-#: ui/prefs.ui:2332
+#: ui/prefs.ui:2407
 msgid "Clock Menu Position Offset"
 msgstr "Desplazamiento de la posición del menú del reloj"
 
-#: ui/prefs.ui:2392
+#: ui/prefs.ui:2467
 msgid "Workspace Switcher Size"
 msgstr "Tamaño del conmutador de espacio de trabajo"
 
-#: ui/prefs.ui:2403
+#: ui/prefs.ui:2478
 msgid "Default"
 msgstr "Defecto"
 
-#: ui/prefs.ui:2453
+#: ui/prefs.ui:2533
 msgid "Animation"
 msgstr "Animación"
 
-#: ui/prefs.ui:2464
+#: ui/prefs.ui:2544
 msgid "No Animation"
 msgstr "Sin animación"
 
-#: ui/prefs.ui:2465
+#: ui/prefs.ui:2545
 msgid "Default Speed"
 msgstr "Velocidad predeterminada"
 
-#: ui/prefs.ui:2466
+#: ui/prefs.ui:2546
 msgid "Fastest"
 msgstr "Lo más rápido"
 
-#: ui/prefs.ui:2467
+#: ui/prefs.ui:2547
 msgid "Faster"
 msgstr "Más rápido"
 
-#: ui/prefs.ui:2468
+#: ui/prefs.ui:2548
 msgid "Fast"
 msgstr "Rápido"
 
-#: ui/prefs.ui:2469
+#: ui/prefs.ui:2549
 msgid "Slow"
 msgstr "Lento"
 
-#: ui/prefs.ui:2470
+#: ui/prefs.ui:2550
 msgid "Slower"
 msgstr "Más lento"
 
-#: ui/prefs.ui:2471
+#: ui/prefs.ui:2551
 msgid "Slowest"
 msgstr "El más lento"

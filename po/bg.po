@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-14 13:01-0700\n"
+"POT-Creation-Date: 2021-05-08 07:11-0700\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -172,104 +172,112 @@ msgid "App Gesture"
 msgstr "App жест"
 
 #: ui/prefs.ui:2006
+msgid "Window Demands Attention Focus"
+msgstr "Прозорецът изисква фокус на вниманието"
+
+#: ui/prefs.ui:2017
+msgid "Removes window is ready notification and focus on the window"
+msgstr "Премахва прозорец е готов известие и се фокусира върху прозореца"
+
+#: ui/prefs.ui:2081
 msgid "Type to Search"
 msgstr "Въведете за търсене"
 
-#: ui/prefs.ui:2017
+#: ui/prefs.ui:2092
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Можете да започнете търсенето без въвеждане на търсене или дори да се "
 "фокусирате върху него в общ преглед"
 
-#: ui/prefs.ui:2067
+#: ui/prefs.ui:2142
 msgid "Customize"
 msgstr "Персонализирайте"
 
-#: ui/prefs.ui:2115
+#: ui/prefs.ui:2190
 msgid "Panel Corner Size"
 msgstr "Размер на ъгъла на панела"
 
-#: ui/prefs.ui:2126
+#: ui/prefs.ui:2201
 msgid "By Shell Theme"
 msgstr "От Shell Theme"
 
-#: ui/prefs.ui:2127
+#: ui/prefs.ui:2202
 msgid "No Corner"
 msgstr "Без ъгъл"
 
-#: ui/prefs.ui:2227
+#: ui/prefs.ui:2302
 msgid "Panel Position"
 msgstr "Позиция на панела"
 
-#: ui/prefs.ui:2238
+#: ui/prefs.ui:2313
 msgid "Top"
 msgstr "Връх"
 
-#: ui/prefs.ui:2239
+#: ui/prefs.ui:2314
 msgid "Bottom"
 msgstr "Отдолу"
 
-#: ui/prefs.ui:2279
+#: ui/prefs.ui:2354
 msgid "Clock Menu Position"
 msgstr "Позиция на менюто на часовника"
 
-#: ui/prefs.ui:2290
+#: ui/prefs.ui:2365
 msgid "Center"
 msgstr "Център"
 
-#: ui/prefs.ui:2291
+#: ui/prefs.ui:2366
 msgid "Right"
 msgstr "Нали"
 
-#: ui/prefs.ui:2292
+#: ui/prefs.ui:2367
 msgid "Left"
 msgstr "Наляво"
 
-#: ui/prefs.ui:2332
+#: ui/prefs.ui:2407
 msgid "Clock Menu Position Offset"
 msgstr "Отместване на позицията на менюто на часовника"
 
-#: ui/prefs.ui:2392
+#: ui/prefs.ui:2467
 msgid "Workspace Switcher Size"
 msgstr "Размер на превключвателя на работното пространство"
 
-#: ui/prefs.ui:2403
+#: ui/prefs.ui:2478
 msgid "Default"
 msgstr "По подразбиране"
 
-#: ui/prefs.ui:2453
+#: ui/prefs.ui:2533
 msgid "Animation"
 msgstr "Анимация"
 
-#: ui/prefs.ui:2464
+#: ui/prefs.ui:2544
 msgid "No Animation"
 msgstr "Без анимация"
 
-#: ui/prefs.ui:2465
+#: ui/prefs.ui:2545
 msgid "Default Speed"
 msgstr "Скорост по подразбиране"
 
-#: ui/prefs.ui:2466
+#: ui/prefs.ui:2546
 msgid "Fastest"
 msgstr "Най-бързият"
 
-#: ui/prefs.ui:2467
+#: ui/prefs.ui:2547
 msgid "Faster"
 msgstr "По-бързо"
 
-#: ui/prefs.ui:2468
+#: ui/prefs.ui:2548
 msgid "Fast"
 msgstr "Бърз"
 
-#: ui/prefs.ui:2469
+#: ui/prefs.ui:2549
 msgid "Slow"
 msgstr "Бавен"
 
-#: ui/prefs.ui:2470
+#: ui/prefs.ui:2550
 msgid "Slower"
 msgstr "По-бавно"
 
-#: ui/prefs.ui:2471
+#: ui/prefs.ui:2551
 msgid "Slowest"
 msgstr "Най-бавно"

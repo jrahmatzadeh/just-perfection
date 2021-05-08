@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-14 13:01-0700\n"
+"POT-Creation-Date: 2021-05-08 07:11-0700\n"
 "PO-Revision-Date: 2021-03-09 01:18+0100\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
@@ -174,104 +174,112 @@ msgid "App Gesture"
 msgstr "Xesto de aplicacións"
 
 #: ui/prefs.ui:2006
+msgid "Window Demands Attention Focus"
+msgstr "A xanela esixe o foco de atención"
+
+#: ui/prefs.ui:2017
+msgid "Removes window is ready notification and focus on the window"
+msgstr "Eliminar a xanela está lista a notificación e céntrase na xanela"
+
+#: ui/prefs.ui:2081
 msgid "Type to Search"
 msgstr "Escribir para buscar"
 
-#: ui/prefs.ui:2017
+#: ui/prefs.ui:2092
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Pode iniciar a busca sen unha entrada de busca ou incluso centrarse nel na "
 "descripción xeral"
 
-#: ui/prefs.ui:2067
+#: ui/prefs.ui:2142
 msgid "Customize"
 msgstr "Personalizar"
 
-#: ui/prefs.ui:2115
+#: ui/prefs.ui:2190
 msgid "Panel Corner Size"
 msgstr "Tamaño da esquina do panel"
 
-#: ui/prefs.ui:2126
+#: ui/prefs.ui:2201
 msgid "By Shell Theme"
 msgstr "Polo tema do Shell"
 
-#: ui/prefs.ui:2127
+#: ui/prefs.ui:2202
 msgid "No Corner"
 msgstr "Sen esquina"
 
-#: ui/prefs.ui:2227
+#: ui/prefs.ui:2302
 msgid "Panel Position"
 msgstr "Posición do panel"
 
-#: ui/prefs.ui:2238
+#: ui/prefs.ui:2313
 msgid "Top"
 msgstr "Arriba"
 
-#: ui/prefs.ui:2239
+#: ui/prefs.ui:2314
 msgid "Bottom"
 msgstr "Abaixo"
 
-#: ui/prefs.ui:2279
+#: ui/prefs.ui:2354
 msgid "Clock Menu Position"
 msgstr "Posición do menú do reloxo"
 
-#: ui/prefs.ui:2290
+#: ui/prefs.ui:2365
 msgid "Center"
 msgstr "Centro"
 
-#: ui/prefs.ui:2291
+#: ui/prefs.ui:2366
 msgid "Right"
 msgstr "Certo"
 
-#: ui/prefs.ui:2292
+#: ui/prefs.ui:2367
 msgid "Left"
 msgstr "Á esquerda"
 
-#: ui/prefs.ui:2332
+#: ui/prefs.ui:2407
 msgid "Clock Menu Position Offset"
 msgstr "Desprazamento da posición do menú do reloxo"
 
-#: ui/prefs.ui:2392
+#: ui/prefs.ui:2467
 msgid "Workspace Switcher Size"
 msgstr "Tamaño do trocador de espaczo de traballo"
 
-#: ui/prefs.ui:2403
+#: ui/prefs.ui:2478
 msgid "Default"
 msgstr "Predeterminado"
 
-#: ui/prefs.ui:2453
+#: ui/prefs.ui:2533
 msgid "Animation"
 msgstr "Animación"
 
-#: ui/prefs.ui:2464
+#: ui/prefs.ui:2544
 msgid "No Animation"
 msgstr "Sen animación"
 
-#: ui/prefs.ui:2465
+#: ui/prefs.ui:2545
 msgid "Default Speed"
 msgstr "Velocidade predeterminada"
 
-#: ui/prefs.ui:2466
+#: ui/prefs.ui:2546
 msgid "Fastest"
 msgstr "O máis rápido"
 
-#: ui/prefs.ui:2467
+#: ui/prefs.ui:2547
 msgid "Faster"
 msgstr "Máis rápido"
 
-#: ui/prefs.ui:2468
+#: ui/prefs.ui:2548
 msgid "Fast"
 msgstr "Rápido"
 
-#: ui/prefs.ui:2469
+#: ui/prefs.ui:2549
 msgid "Slow"
 msgstr "Lento   "
 
-#: ui/prefs.ui:2470
+#: ui/prefs.ui:2550
 msgid "Slower"
 msgstr "Máis lento"
 
-#: ui/prefs.ui:2471
+#: ui/prefs.ui:2551
 msgid "Slowest"
 msgstr "O máis lento"

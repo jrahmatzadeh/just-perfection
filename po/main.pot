@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-14 13:14-0700\n"
+"POT-Creation-Date: 2021-05-08 07:11-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -166,102 +166,110 @@ msgid "App Gesture"
 msgstr ""
 
 #: ui/prefs.ui:2006
-msgid "Type to Search"
+msgid "Window Demands Attention Focus"
 msgstr ""
 
 #: ui/prefs.ui:2017
+msgid "Removes window is ready notification and focus on the window"
+msgstr ""
+
+#: ui/prefs.ui:2081
+msgid "Type to Search"
+msgstr ""
+
+#: ui/prefs.ui:2092
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 
-#: ui/prefs.ui:2067
+#: ui/prefs.ui:2142
 msgid "Customize"
 msgstr ""
 
-#: ui/prefs.ui:2115
+#: ui/prefs.ui:2190
 msgid "Panel Corner Size"
 msgstr ""
 
-#: ui/prefs.ui:2126
+#: ui/prefs.ui:2201
 msgid "By Shell Theme"
 msgstr ""
 
-#: ui/prefs.ui:2127
+#: ui/prefs.ui:2202
 msgid "No Corner"
 msgstr ""
 
-#: ui/prefs.ui:2227
+#: ui/prefs.ui:2302
 msgid "Panel Position"
 msgstr ""
 
-#: ui/prefs.ui:2238
+#: ui/prefs.ui:2313
 msgid "Top"
 msgstr ""
 
-#: ui/prefs.ui:2239
+#: ui/prefs.ui:2314
 msgid "Bottom"
 msgstr ""
 
-#: ui/prefs.ui:2279
+#: ui/prefs.ui:2354
 msgid "Clock Menu Position"
 msgstr ""
 
-#: ui/prefs.ui:2290
+#: ui/prefs.ui:2365
 msgid "Center"
 msgstr ""
 
-#: ui/prefs.ui:2291
+#: ui/prefs.ui:2366
 msgid "Right"
 msgstr ""
 
-#: ui/prefs.ui:2292
+#: ui/prefs.ui:2367
 msgid "Left"
 msgstr ""
 
-#: ui/prefs.ui:2332
+#: ui/prefs.ui:2407
 msgid "Clock Menu Position Offset"
 msgstr ""
 
-#: ui/prefs.ui:2392
+#: ui/prefs.ui:2467
 msgid "Workspace Switcher Size"
 msgstr ""
 
-#: ui/prefs.ui:2403
+#: ui/prefs.ui:2478
 msgid "Default"
 msgstr ""
 
-#: ui/prefs.ui:2453
+#: ui/prefs.ui:2533
 msgid "Animation"
 msgstr ""
 
-#: ui/prefs.ui:2464
+#: ui/prefs.ui:2544
 msgid "No Animation"
 msgstr ""
 
-#: ui/prefs.ui:2465
+#: ui/prefs.ui:2545
 msgid "Default Speed"
 msgstr ""
 
-#: ui/prefs.ui:2466
+#: ui/prefs.ui:2546
 msgid "Fastest"
 msgstr ""
 
-#: ui/prefs.ui:2467
+#: ui/prefs.ui:2547
 msgid "Faster"
 msgstr ""
 
-#: ui/prefs.ui:2468
+#: ui/prefs.ui:2548
 msgid "Fast"
 msgstr ""
 
-#: ui/prefs.ui:2469
+#: ui/prefs.ui:2549
 msgid "Slow"
 msgstr ""
 
-#: ui/prefs.ui:2470
+#: ui/prefs.ui:2550
 msgid "Slower"
 msgstr ""
 
-#: ui/prefs.ui:2471
+#: ui/prefs.ui:2551
 msgid "Slowest"
 msgstr ""
