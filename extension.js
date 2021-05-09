@@ -1,6 +1,6 @@
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 const {API, Settings, Manager, HotCorner} = Me.imports.lib;
-const {Gio, St, Clutter} = imports.gi;
+const {GLib, Gio, St, Clutter} = imports.gi;
 
 const Config = imports.misc.config;
 const ShellVersion = parseFloat(Config.PACKAGE_VERSION);
@@ -48,6 +48,7 @@ function enable()
         'WorkspacesView': WorkspacesView,
         'St': St,
         'Gio': Gio,
+        'GLib': GLib,
         'Clutter': Clutter,
         'Panel': Panel,
     }, ShellVersion);
