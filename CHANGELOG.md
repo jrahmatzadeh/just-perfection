@@ -18,6 +18,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Workspace switcher size for multi monitor setup.
 - Gap when panel posision is at the bottom and shell override theme happens.
 - Panel menu margin when panel is in bottom.
+- Window picker drop shadow when panel is in bottom on GNOME 40.
 - Arabic translation by [@AliGalal](https://gitlab.com/AliGalal).
 - Italian translation by [@l3nn4rt](https://gitlab.com/l3nn4rt).
 - Swedish translation by [@MorganAntonsson](https://gitlab.com/MorganAntonsson).
