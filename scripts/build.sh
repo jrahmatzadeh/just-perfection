@@ -3,7 +3,7 @@
 # Script to build the extension zip and install the package
 #
 # This Script is released under GPL v3 license
-# Copyright (C) 2020 Just Perfection
+# Copyright (C) 2020 Javad Rahmatzadeh
 
 set -e
 
