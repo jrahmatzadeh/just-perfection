@@ -447,3 +447,9 @@
     padding-left: 0;
 }
 
+.just-perfection-api-dash-icon-size16 #dash StIcon { height: 16px; width: 16px; }
+.just-perfection-api-dash-icon-size22 #dash StIcon { height: 22px; width: 22px; }
+.just-perfection-api-dash-icon-size24 #dash StIcon { height: 24px; width: 24px; }
+.just-perfection-api-dash-icon-size32 #dash StIcon { height: 32px; width: 32px; }
+.just-perfection-api-dash-icon-size48 #dash StIcon { height: 48px; width: 48px; }
+.just-perfection-api-dash-icon-size64 #dash StIcon { height: 64px; width: 64px; }
