@@ -3,7 +3,7 @@
 # Script to update main.pot and *.po files
 #
 # This Script is released under GPL v3 license
-# Copyright (C) 2020 Javad Rahmatzadeh
+# Copyright (C) 2021 Javad Rahmatzadeh
 
 set -e
 
