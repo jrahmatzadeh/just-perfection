@@ -30,7 +30,7 @@ This extension allows you to do the following:
 - Panel Notification icon
 - Window Picker Icon (Only GNOME 40.0)
 - Panel Arrow (Only GNOME 3.36 and 3.38)
-- Activities Button Icon 
+- Activities Button Icon
 
 ### Behavior
 
@@ -46,6 +46,7 @@ This extension allows you to do the following:
 - Clock Menu Position
 - Workspace Switcher Size (Only GNOME 40.0)
 - Animation Speed or Disable it
+- Dash Icon Size
 
 ### Override
 

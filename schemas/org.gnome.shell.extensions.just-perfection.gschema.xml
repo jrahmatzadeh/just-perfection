@@ -208,6 +208,13 @@
       <description>Window Demands Attention Focus Status</description>
     </key>
     
+    <key type="i" name="dash-icon-size">
+      <default>0</default>
+      <range min="0" max="64"/>
+      <summary>0 means default, 16, 22, 24, 32, 48, 64</summary>
+      <description>Dash Icon Size</description>
+    </key>
+    
   </schema>
   
 </schemalist>

@@ -2562,6 +2562,60 @@
                             </object>
                           </child>
                           
+                          <child>
+                            <object class="GtkListBoxRow" id="dash_icon_size_row">
+                              <property name="visible">True</property>
+                              <property name="can-focus">True</property>
+                              
+                              <child>
+                                <object class="GtkBox" id="dash_icon_size_box">
+                                  <property name="visible">True</property>
+                                  <property name="can-focus">False</property>
+                                  <property name="margin-start">12</property>
+                                  <property name="margin-end">12</property>
+                                  <property name="margin-top">12</property>
+                                  <property name="margin-bottom">12</property>
+                                  <property name="orientation">vertical</property>
+                                  
+                                  <child>
+                                    <object class="GtkBox" id="dash_icon_size_box2">
+                                      <property name="visible">True</property>
+                                      <property name="can-focus">False</property>
+                                      <property name="spacing">32</property>
+                                      
+                                      <child>
+                                        <object class="GtkLabel" id="dash_icon_size_txt">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">False</property>
+                                          <property name="valign">center</property>
+                                          <property name="label" translatable="yes">Dash Icon Size</property>
+                                          <property name="xalign">0</property>
+                                          <property name="hexpand">1</property>
+                                        </object>
+                                      </child>
+                                      
+                                      <child>
+                                        <object class="GtkComboBoxText" id="dash_icon_size_comboboxtext">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">True</property>
+                                          <items>
+                                            <item translatable="yes">Default</item>
+                                            <item>32px</item>
+                                            <item>48px</item>
+                                            <item>64px</item>
+                                          </items>
+                                        </object>
+                                      </child>
+                                      
+                                    </object>
+                                  </child>
+                                  
+                                </object>
+                              </child>
+                              
+                            </object>
+                          </child>
+                          
                         </object>
                       </child>
                       
