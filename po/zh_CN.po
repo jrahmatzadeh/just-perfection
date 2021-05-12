@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-08 07:11-0700\n"
+"POT-Creation-Date: 2021-05-12 12:21-0700\n"
 "PO-Revision-Date: 2021-04-15 06:33+0800\n"
 "Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
 "Language-Team: Chinese - China <i18n-zh@googlegroups.com>\n"
@@ -238,7 +238,7 @@ msgstr "时钟菜单位置偏移"
 msgid "Workspace Switcher Size"
 msgstr "工作区切换器尺寸"
 
-#: ui/prefs.ui:2478
+#: ui/prefs.ui:2478 ui/prefs.ui:2602
 msgid "Default"
 msgstr "默认"
 
@@ -277,3 +277,7 @@ msgstr "更慢"
 #: ui/prefs.ui:2551
 msgid "Slowest"
 msgstr "最慢"
+
+#: ui/prefs.ui:2591
+msgid "Dash Icon Size"
+msgstr "破折号图标大小"

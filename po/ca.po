@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-08 07:11-0700\n"
+"POT-Creation-Date: 2021-05-12 12:21-0700\n"
 "PO-Revision-Date: 2021-03-16 19:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: Catalan \n"
@@ -179,7 +179,8 @@ msgstr "La finestra demana un focus d’atenció"
 
 #: ui/prefs.ui:2017
 msgid "Removes window is ready notification and focus on the window"
-msgstr "Elimina la finestra ja està llesta la notificació i se centra en la finestra"
+msgstr ""
+"Elimina la finestra ja està llesta la notificació i se centra en la finestra"
 
 #: ui/prefs.ui:2081
 msgid "Type to Search"
@@ -244,7 +245,7 @@ msgstr "Desplaçament del menú del rellotge"
 msgid "Workspace Switcher Size"
 msgstr "Mida del commutador d'espais de treball"
 
-#: ui/prefs.ui:2478
+#: ui/prefs.ui:2478 ui/prefs.ui:2602
 msgid "Default"
 msgstr "Per defecte"
 
@@ -283,3 +284,7 @@ msgstr "Més lent"
 #: ui/prefs.ui:2551
 msgid "Slowest"
 msgstr "El més lent"
+
+#: ui/prefs.ui:2591
+msgid "Dash Icon Size"
+msgstr "mida de la icona de guió"

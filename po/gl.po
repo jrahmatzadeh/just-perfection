@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-08 07:11-0700\n"
+"POT-Creation-Date: 2021-05-12 12:21-0700\n"
 "PO-Revision-Date: 2021-03-09 01:18+0100\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
@@ -244,7 +244,7 @@ msgstr "Desprazamento da posición do menú do reloxo"
 msgid "Workspace Switcher Size"
 msgstr "Tamaño do trocador de espaczo de traballo"
 
-#: ui/prefs.ui:2478
+#: ui/prefs.ui:2478 ui/prefs.ui:2602
 msgid "Default"
 msgstr "Predeterminado"
 
@@ -283,3 +283,7 @@ msgstr "Máis lento"
 #: ui/prefs.ui:2551
 msgid "Slowest"
 msgstr "O máis lento"
+
+#: ui/prefs.ui:2591
+msgid "Dash Icon Size"
+msgstr "tamaño da icona de trazo"

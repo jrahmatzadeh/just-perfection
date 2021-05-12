@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-08 07:11-0700\n"
+"POT-Creation-Date: 2021-05-12 12:21-0700\n"
 "PO-Revision-Date: 2021-04-13 22:01+0200\n"
 "Last-Translator: Morgan Antonsson <morgan.antonsson@gmail.com>\n"
 "Language-Team: Swedish\n"
@@ -239,7 +239,7 @@ msgstr "Klockmenyoffset"
 msgid "Workspace Switcher Size"
 msgstr "Arbetsyteväxlarens storlek"
 
-#: ui/prefs.ui:2478
+#: ui/prefs.ui:2478 ui/prefs.ui:2602
 msgid "Default"
 msgstr "Standard"
 
@@ -278,3 +278,7 @@ msgstr "Långsammare"
 #: ui/prefs.ui:2551
 msgid "Slowest"
 msgstr "Långsammast"
+
+#: ui/prefs.ui:2591
+msgid "Dash Icon Size"
+msgstr "streck ikonstorlek"

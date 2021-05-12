@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-08 07:11-0700\n"
+"POT-Creation-Date: 2021-05-12 12:21-0700\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -242,7 +242,7 @@ msgstr "Отместване на позицията на менюто на ча
 msgid "Workspace Switcher Size"
 msgstr "Размер на превключвателя на работното пространство"
 
-#: ui/prefs.ui:2478
+#: ui/prefs.ui:2478 ui/prefs.ui:2602
 msgid "Default"
 msgstr "По подразбиране"
 
@@ -281,3 +281,7 @@ msgstr "По-бавно"
 #: ui/prefs.ui:2551
 msgid "Slowest"
 msgstr "Най-бавно"
+
+#: ui/prefs.ui:2591
+msgid "Dash Icon Size"
+msgstr "размер на иконата на тире"

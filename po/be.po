@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-08 07:11-0700\n"
+"POT-Creation-Date: 2021-05-12 12:21-0700\n"
 "PO-Revision-Date: 2020-12-18 04:22-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -242,7 +242,7 @@ msgstr "Зрушэнне становішча меню гадзін"
 msgid "Workspace Switcher Size"
 msgstr "Памер пераключальніка працоўнай вобласці"
 
-#: ui/prefs.ui:2478
+#: ui/prefs.ui:2478 ui/prefs.ui:2602
 msgid "Default"
 msgstr "Па змаўчанні"
 
@@ -281,3 +281,7 @@ msgstr "Павольней"
 #: ui/prefs.ui:2551
 msgid "Slowest"
 msgstr "Самае павольнае"
+
+#: ui/prefs.ui:2591
+msgid "Dash Icon Size"
+msgstr "памер значка працяжніка"

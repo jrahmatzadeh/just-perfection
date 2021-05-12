@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-08 07:11-0700\n"
+"POT-Creation-Date: 2021-05-12 12:21-0700\n"
 "PO-Revision-Date: 2021-03-10 16:11-0300\n"
 "Last-Translator: zelling <zelling@zelling-desktop>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
@@ -241,7 +241,7 @@ msgstr "Ajuste da Posição do Menu do Relógio"
 msgid "Workspace Switcher Size"
 msgstr "Tamanho do Seletor de Área de Trabalho"
 
-#: ui/prefs.ui:2478
+#: ui/prefs.ui:2478 ui/prefs.ui:2602
 msgid "Default"
 msgstr "Padrão"
 
@@ -280,3 +280,7 @@ msgstr "Mais devagar"
 #: ui/prefs.ui:2551
 msgid "Slowest"
 msgstr "Mais lento"
+
+#: ui/prefs.ui:2591
+msgid "Dash Icon Size"
+msgstr "tamanho do ícone do traço"

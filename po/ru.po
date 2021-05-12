@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-08 07:11-0700\n"
+"POT-Creation-Date: 2021-05-12 12:21-0700\n"
 "PO-Revision-Date: 2021-03-15 21:00+0700\n"
 "Last-Translator: VBB <librusekus35790@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -242,7 +242,7 @@ msgstr "Смещение положения меню часов"
 msgid "Workspace Switcher Size"
 msgstr "Размер переключателя рабочих столов"
 
-#: ui/prefs.ui:2478
+#: ui/prefs.ui:2478 ui/prefs.ui:2602
 msgid "Default"
 msgstr "По умолчанию"
 
@@ -281,3 +281,7 @@ msgstr "Помедленнее"
 #: ui/prefs.ui:2551
 msgid "Slowest"
 msgstr "Самый медленный"
+
+#: ui/prefs.ui:2591
+msgid "Dash Icon Size"
+msgstr "размер значка тире"

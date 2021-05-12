@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-08 07:11-0700\n"
+"POT-Creation-Date: 2021-05-12 12:21-0700\n"
 "PO-Revision-Date: 2021-02-05 14:43+0545\n"
 "Last-Translator: 1BA4 <nabin7076@protonmail.com>\n"
 "Language-Team: Nepali <>\n"
@@ -239,7 +239,7 @@ msgstr "घडी मेनू स्थिति अफसेट"
 msgid "Workspace Switcher Size"
 msgstr "कार्यक्षेत्र स्विचर आकार"
 
-#: ui/prefs.ui:2478
+#: ui/prefs.ui:2478 ui/prefs.ui:2602
 msgid "Default"
 msgstr "पूर्वनिर्धारित"
 
@@ -278,3 +278,7 @@ msgstr "ढिलो"
 #: ui/prefs.ui:2551
 msgid "Slowest"
 msgstr "सब भन्दा ढिलो"
+
+#: ui/prefs.ui:2591
+msgid "Dash Icon Size"
+msgstr "ड्यास आइकन आकार"

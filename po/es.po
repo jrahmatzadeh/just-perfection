@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-08 07:11-0700\n"
+"POT-Creation-Date: 2021-05-12 12:21-0700\n"
 "PO-Revision-Date: 2021-02-01 18:27+0100\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish; Castilian <oscfdezdz@tuta.io>\n"
@@ -179,7 +179,8 @@ msgstr "Ventana exige atención"
 
 #: ui/prefs.ui:2017
 msgid "Removes window is ready notification and focus on the window"
-msgstr "Elimina la notificación de ventana está lista y se centra en la ventana"
+msgstr ""
+"Elimina la notificación de ventana está lista y se centra en la ventana"
 
 #: ui/prefs.ui:2081
 msgid "Type to Search"
@@ -244,7 +245,7 @@ msgstr "Desplazamiento de la posición del menú del reloj"
 msgid "Workspace Switcher Size"
 msgstr "Tamaño del conmutador de espacio de trabajo"
 
-#: ui/prefs.ui:2478
+#: ui/prefs.ui:2478 ui/prefs.ui:2602
 msgid "Default"
 msgstr "Defecto"
 
@@ -283,3 +284,7 @@ msgstr "Más lento"
 #: ui/prefs.ui:2551
 msgid "Slowest"
 msgstr "El más lento"
+
+#: ui/prefs.ui:2591
+msgid "Dash Icon Size"
+msgstr "tamaño del icono del tablero"

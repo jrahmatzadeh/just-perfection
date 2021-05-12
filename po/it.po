@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-08 07:11-0700\n"
+"POT-Creation-Date: 2021-05-12 12:21-0700\n"
 "PO-Revision-Date: 2020-12-18 04:52-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Italian\n"
@@ -177,7 +177,8 @@ msgstr "La finestra richiede attenzione al centro"
 
 #: ui/prefs.ui:2017
 msgid "Removes window is ready notification and focus on the window"
-msgstr "Rimuove la notifica della finestra è pronta e si concentra sulla finestra"
+msgstr ""
+"Rimuove la notifica della finestra è pronta e si concentra sulla finestra"
 
 #: ui/prefs.ui:2081
 msgid "Type to Search"
@@ -242,7 +243,7 @@ msgstr "Offset posizione menu dell'orologio"
 msgid "Workspace Switcher Size"
 msgstr "Dimensioni dello switcher dell'area di lavoro"
 
-#: ui/prefs.ui:2478
+#: ui/prefs.ui:2478 ui/prefs.ui:2602
 msgid "Default"
 msgstr "Predefinito"
 
@@ -281,3 +282,7 @@ msgstr "Più lenta"
 #: ui/prefs.ui:2551
 msgid "Slowest"
 msgstr "Molto lenta"
+
+#: ui/prefs.ui:2591
+msgid "Dash Icon Size"
+msgstr "dimensione dell'icona del trattino"

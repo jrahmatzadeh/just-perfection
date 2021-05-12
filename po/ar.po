@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-08 07:11-0700\n"
+"POT-Creation-Date: 2021-05-12 12:21-0700\n"
 "PO-Revision-Date: 2020-12-18 04:15-0800\n"
 "Last-Translator: Kareem Abduljaleel <karemjaleel34@gmail.com>\n"
 "Language-Team: Arabic\n"
@@ -237,7 +237,7 @@ msgstr "إزاحة موضع قائمة الساعة"
 msgid "Workspace Switcher Size"
 msgstr "حجم مبدل مساحة العمل"
 
-#: ui/prefs.ui:2478
+#: ui/prefs.ui:2478 ui/prefs.ui:2602
 msgid "Default"
 msgstr "الإفتراضي"
 
@@ -276,3 +276,7 @@ msgstr "أبطأ"
 #: ui/prefs.ui:2551
 msgid "Slowest"
 msgstr "بطئ جدا"
+
+#: ui/prefs.ui:2591
+msgid "Dash Icon Size"
+msgstr "حجم رمز الشرطة"

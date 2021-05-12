@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-08 07:11-0700\n"
+"POT-Creation-Date: 2021-05-12 12:21-0700\n"
 "PO-Revision-Date: 2020-12-18 04:55-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: German\n"
@@ -244,7 +244,7 @@ msgstr "Positionsversatz des Uhrmenüs"
 msgid "Workspace Switcher Size"
 msgstr "Größe des Arbeitsbereichsumschalters"
 
-#: ui/prefs.ui:2478
+#: ui/prefs.ui:2478 ui/prefs.ui:2602
 msgid "Default"
 msgstr "Standard"
 
@@ -283,3 +283,7 @@ msgstr "Langsamer"
 #: ui/prefs.ui:2551
 msgid "Slowest"
 msgstr "Am langsamsten"
+
+#: ui/prefs.ui:2591
+msgid "Dash Icon Size"
+msgstr "Strichsymbolgröße"
