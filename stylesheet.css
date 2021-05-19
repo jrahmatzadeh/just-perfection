@@ -271,7 +271,10 @@
     margin-bottom: 10px;
 }
 
-.just-perfection-api-no-window-picker-icon .workspaces-view StIcon
+/* commented because the icon will be shown when the window is getting dragged */
+/* icon-dropshadow isn't specific to the window picker icon but that's a quick fix for now */
+/* .just-perfection-api-no-window-picker-icon .workspaces-view StIcon */
+.just-perfection-api-no-window-picker-icon .icon-dropshadow
 {
     width: 0;
     height: 0;
