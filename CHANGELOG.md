@@ -6,6 +6,8 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+## [11.0.0 Whisper] - 2021-05-20
+
 ### Changed
 
 - Shell theme override is now disabled by default.
