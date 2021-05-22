@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-12 12:21-0700\n"
-"PO-Revision-Date: 2021-03-15 21:00+0700\n"
+"PO-Revision-Date: 2021-05-22 16:10+0700\n"
 "Last-Translator: VBB <librusekus35790@gmail.com>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -36,11 +36,11 @@ msgid ""
 "end of videos on my YouTube Channel as Patreon supporter."
 msgstr ""
 "Вы можете поддержать мою работу через Patreon. Также ваше имя будет "
-"упомянуто в конце видео на моем канале YouTube как подписчик Patreon."
+"упомянуто в конце видео на моем канале YouTube как подписчика Patreon."
 
 #: ui/prefs.ui:366
 msgid "Select File"
-msgstr ""
+msgstr "Выберите файл"
 
 #: ui/prefs.ui:477
 msgid "No Results Found"
@@ -48,7 +48,7 @@ msgstr "Результаты не найдены"
 
 #: ui/prefs.ui:499
 msgid "Override"
-msgstr "Переопределить"
+msgstr "Переопределение"
 
 #: ui/prefs.ui:556
 msgid "Shell Theme"
@@ -94,7 +94,7 @@ msgstr "Системное меню"
 
 #: ui/prefs.ui:1009
 msgid "Search"
-msgstr "Поиск"
+msgstr "Строка поиска"
 
 #: ui/prefs.ui:1058
 msgid "Dash"
@@ -106,11 +106,11 @@ msgstr "Показать кнопку приложений"
 
 #: ui/prefs.ui:1156
 msgid "On Screen Display (OSD)"
-msgstr "OSD"
+msgstr "On Screen Display (OSD)"
 
 #: ui/prefs.ui:1205
 msgid "Workspace Popup"
-msgstr "Всплывающее окно рабочих столов"
+msgstr "Всплывающий индикатор рабочего стола"
 
 #: ui/prefs.ui:1254
 msgid "Workspace Switcher"
@@ -122,7 +122,7 @@ msgstr "Меню рабочего стола"
 
 #: ui/prefs.ui:1344
 msgid "Icons"
-msgstr "иконки"
+msgstr "Иконки"
 
 #: ui/prefs.ui:1393
 msgid "App Menu Icon"
@@ -146,19 +146,19 @@ msgstr "Значок выбора окна"
 
 #: ui/prefs.ui:1638
 msgid "Activities Button Icon"
-msgstr "Значок кнопки действий"
+msgstr "Значок кнопки Обзор"
 
 #: ui/prefs.ui:1737
 msgid "Activities Button Icon in Monochrome"
-msgstr "Значок кнопки действий в монохромном режиме"
+msgstr "Значок кнопки Обзор в монохромном Режиме"
 
 #: ui/prefs.ui:1792
 msgid "Activities Button Icon With Label"
-msgstr "Значок кнопки действий с меткой"
+msgstr "Подпись у кнопки Обзор"
 
 #: ui/prefs.ui:1803
 msgid "Only works when you have selected an icon for activities button"
-msgstr "Работает, только если вы выбрали значок для кнопки действий"
+msgstr "Работает, только если вы выбрали значок для кнопки Обзор"
 
 #: ui/prefs.ui:1853
 msgid "Behavior"
@@ -178,7 +178,7 @@ msgstr "Окно требует внимания"
 
 #: ui/prefs.ui:2017
 msgid "Removes window is ready notification and focus on the window"
-msgstr "Удаляет уведомление о готовности окна и фокус на окне"
+msgstr "Убирает уведомление о готовности окна и фокусирует на окне"
 
 #: ui/prefs.ui:2081
 msgid "Type to Search"
@@ -192,7 +192,7 @@ msgstr ""
 
 #: ui/prefs.ui:2142
 msgid "Customize"
-msgstr "Настроить"
+msgstr "Настройки"
 
 #: ui/prefs.ui:2190
 msgid "Panel Corner Size"
@@ -224,15 +224,15 @@ msgstr "Положение меню часов"
 
 #: ui/prefs.ui:2365
 msgid "Center"
-msgstr "Центр"
+msgstr "По центру"
 
 #: ui/prefs.ui:2366
 msgid "Right"
-msgstr "Правильно"
+msgstr "Справа"
 
 #: ui/prefs.ui:2367
 msgid "Left"
-msgstr "Оставили"
+msgstr "Слева"
 
 #: ui/prefs.ui:2407
 msgid "Clock Menu Position Offset"
@@ -248,11 +248,11 @@ msgstr "По умолчанию"
 
 #: ui/prefs.ui:2533
 msgid "Animation"
-msgstr "Анимация"
+msgstr "Анимации"
 
 #: ui/prefs.ui:2544
 msgid "No Animation"
-msgstr "Без анимации"
+msgstr "Без анимаций"
 
 #: ui/prefs.ui:2545
 msgid "Default Speed"
@@ -260,7 +260,7 @@ msgstr "Скорость по умолчанию"
 
 #: ui/prefs.ui:2546
 msgid "Fastest"
-msgstr "Самый быстрый"
+msgstr "Очень быстро"
 
 #: ui/prefs.ui:2547
 msgid "Faster"
@@ -268,20 +268,20 @@ msgstr "Быстрее"
 
 #: ui/prefs.ui:2548
 msgid "Fast"
-msgstr "Быстрый"
+msgstr "Быстро"
 
 #: ui/prefs.ui:2549
 msgid "Slow"
-msgstr "Медленный"
+msgstr "Медленно"
 
 #: ui/prefs.ui:2550
 msgid "Slower"
-msgstr "Помедленнее"
+msgstr "Медленнее"
 
 #: ui/prefs.ui:2551
 msgid "Slowest"
-msgstr "Самый медленный"
+msgstr "Очень медленно"
 
 #: ui/prefs.ui:2591
 msgid "Dash Icon Size"
-msgstr "размер значка тире"
+msgstr "Размер иконок Dash панели"
