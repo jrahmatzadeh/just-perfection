@@ -6,6 +6,11 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Fixed
+
+- Russian translation by [@librusekus35790](https://gitlab.gnome.org/librusekus35790).
+- French translation by [@GeoffreyCoulaud](https://gitlab.gnome.org/GeoffreyCoulaud).
+
 ## [11.0.0 Whisper] - 2021-05-20
 
 ### Changed
