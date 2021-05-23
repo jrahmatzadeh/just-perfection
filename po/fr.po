@@ -41,7 +41,7 @@ msgstr ""
 
 #: ui/prefs.ui:366
 msgid "Select File"
-msgstr ""
+msgstr "Sélectionner un fichier"
 
 #: ui/prefs.ui:477
 msgid "No Results Found"
@@ -73,7 +73,7 @@ msgstr "Bouton d'activités"
 
 #: ui/prefs.ui:764
 msgid "App Menu"
-msgstr "menu de l'application"
+msgstr "Menu de l'application"
 
 #: ui/prefs.ui:813
 msgid "Clock Menu"
@@ -89,7 +89,7 @@ msgstr "Menu d'accessibilité"
 
 #: ui/prefs.ui:960
 msgid "System Menu (Aggregate Menu)"
-msgstr "menu système"
+msgstr "Menu système"
 
 #: ui/prefs.ui:1009
 msgid "Search"
@@ -97,7 +97,7 @@ msgstr "Chercher"
 
 #: ui/prefs.ui:1058
 msgid "Dash"
-msgstr "Tiret"
+msgstr "Barre de raccourcis"
 
 #: ui/prefs.ui:1107
 msgid "Show Applications Button"
@@ -133,11 +133,11 @@ msgstr "Icône de notification du panneau"
 
 #: ui/prefs.ui:1491
 msgid "Power Icon"
-msgstr "Icône de puissance"
+msgstr "Icône de charge"
 
 #: ui/prefs.ui:1540
 msgid "Panel Arrow"
-msgstr "flèche de panneau"
+msgstr "Flèche de panneau"
 
 #: ui/prefs.ui:1589
 msgid "Window Picker Icon"
@@ -180,7 +180,7 @@ msgstr "La fenêtre demande une attention particulière"
 #: ui/prefs.ui:2017
 msgid "Removes window is ready notification and focus on the window"
 msgstr ""
-"Supprime la fenêtre est la notification prête et se concentre sur la fenêtre"
+"Supprime la notification \"la fenêtre est prête\" et sélectionner la fenêtre"
 
 #: ui/prefs.ui:2081
 msgid "Type to Search"
@@ -215,7 +215,7 @@ msgstr "Position du panneau"
 
 #: ui/prefs.ui:2313
 msgid "Top"
-msgstr "Sommet"
+msgstr "Haut"
 
 #: ui/prefs.ui:2314
 msgid "Bottom"
@@ -231,7 +231,7 @@ msgstr "Centre"
 
 #: ui/prefs.ui:2366
 msgid "Right"
-msgstr "Droit"
+msgstr "Droite"
 
 #: ui/prefs.ui:2367
 msgid "Left"
@@ -271,7 +271,7 @@ msgstr "Plus rapide"
 
 #: ui/prefs.ui:2548
 msgid "Fast"
-msgstr "Vite"
+msgstr "Rapide"
 
 #: ui/prefs.ui:2549
 msgid "Slow"
@@ -279,7 +279,7 @@ msgstr "Lent"
 
 #: ui/prefs.ui:2550
 msgid "Slower"
-msgstr "Ralentissez"
+msgstr "Plus lent"
 
 #: ui/prefs.ui:2551
 msgid "Slowest"
@@ -287,4 +287,4 @@ msgstr "Le plus lent"
 
 #: ui/prefs.ui:2591
 msgid "Dash Icon Size"
-msgstr "taille de l'icône du tiret"
+msgstr "Taille des icônes de la barre de raccourcis"
