@@ -28,7 +28,7 @@ This extension allows you to do the following:
 - App Menu Icon
 - Power Icon
 - Panel Notification icon
-- Window Picker Icon (Only GNOME 40.0)
+- Window Picker Icon (Only GNOME 40)
 - Panel Arrow (Only GNOME 3.36 and 3.38)
 - Activities Button Icon
 
@@ -44,7 +44,7 @@ This extension allows you to do the following:
 - Panel Position
 - Panel Round Corner Size
 - Clock Menu Position
-- Workspace Switcher Size (Only GNOME 40.0)
+- Workspace Switcher Size (Only GNOME 40)
 - Animation Speed or Disable it
 - Dash Icon Size
 
@@ -62,7 +62,7 @@ This extension is also available on [GNOME Shell extensions website](https://ext
 | ------------------- | -------------- |
 | 3.36                | July 2025      |
 | 3.38                | July 2025      |
-| 40.0                | TBA            |
+| 40                  | TBA            |
 
 ## Install Manually
 
