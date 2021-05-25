@@ -8,6 +8,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ### Fixed
 
+- Combobox scroll issue on GTK4.
 - Russian translation by [@librusekus35790](https://gitlab.gnome.org/librusekus35790).
 - French translation by [@GeoffreyCoulaud](https://gitlab.gnome.org/GeoffreyCoulaud).
 
