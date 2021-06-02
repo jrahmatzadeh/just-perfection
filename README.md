@@ -62,7 +62,7 @@ This extension is also available on [GNOME Shell extensions website](https://ext
 | ------------------- | -------------- |
 | 3.36                | July 2025      |
 | 3.38                | July 2025      |
-| 40                  | TBA            |
+| 40                  | September 2021 |
 
 ## Install Manually
 
