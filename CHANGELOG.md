@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Changed
+
+- Workspace switcher max size now maxed out to 30%.
+
 ### Fixed
 
 - Combobox scroll issue on GTK4.
