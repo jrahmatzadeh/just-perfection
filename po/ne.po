@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-12 12:21-0700\n"
+"POT-Creation-Date: 2021-06-06 22:26-0700\n"
 "PO-Revision-Date: 2021-02-05 14:43+0545\n"
 "Last-Translator: 1BA4 <nabin7076@protonmail.com>\n"
 "Language-Team: Nepali <>\n"
@@ -187,98 +187,114 @@ msgid ""
 msgstr ""
 "तपाईं खोजी प्रविष्टि बिना वा सुरु सिंहावलोकनमा यसमा केन्द्रित नगरी खोजी सुरू गर्न सक्नुहुनेछ"
 
-#: ui/prefs.ui:2142
+#: ui/prefs.ui:2156
+msgid "Startup Status"
+msgstr "सुरूवात स्थिति"
+
+#: ui/prefs.ui:2167
+msgid "When GNOME Shell is starting up for the first time"
+msgstr "जब जिनोम शेल पहिलो पटक सुरू हुन्छ"
+
+#: ui/prefs.ui:2187
+msgid "Desktop"
+msgstr "डेस्कटप"
+
+#: ui/prefs.ui:2188
+msgid "Overview"
+msgstr "अवलोकन"
+
+#: ui/prefs.ui:2220
 msgid "Customize"
 msgstr "अनुकूलन गर्नुहोस्"
 
-#: ui/prefs.ui:2190
+#: ui/prefs.ui:2268
 msgid "Panel Corner Size"
 msgstr "प्यानल कुना आकार"
 
-#: ui/prefs.ui:2201
+#: ui/prefs.ui:2279
 msgid "By Shell Theme"
 msgstr "शेल थिम द्वारा"
 
-#: ui/prefs.ui:2202
+#: ui/prefs.ui:2280
 msgid "No Corner"
 msgstr "कुनै कर्नर छैन"
 
-#: ui/prefs.ui:2302
+#: ui/prefs.ui:2380
 msgid "Panel Position"
 msgstr "प्यानल स्थिति"
 
-#: ui/prefs.ui:2313
+#: ui/prefs.ui:2391
 msgid "Top"
 msgstr "माथि"
 
-#: ui/prefs.ui:2314
+#: ui/prefs.ui:2392
 msgid "Bottom"
 msgstr "तल"
 
-#: ui/prefs.ui:2354
+#: ui/prefs.ui:2432
 msgid "Clock Menu Position"
 msgstr "घडी मेनू स्थिति"
 
-#: ui/prefs.ui:2365
+#: ui/prefs.ui:2443
 msgid "Center"
 msgstr "केन्द्र"
 
-#: ui/prefs.ui:2366
+#: ui/prefs.ui:2444
 msgid "Right"
 msgstr "सहि"
 
-#: ui/prefs.ui:2367
+#: ui/prefs.ui:2445
 msgid "Left"
 msgstr "बाँया"
 
-#: ui/prefs.ui:2407
+#: ui/prefs.ui:2485
 msgid "Clock Menu Position Offset"
 msgstr "घडी मेनू स्थिति अफसेट"
 
-#: ui/prefs.ui:2467
+#: ui/prefs.ui:2545
 msgid "Workspace Switcher Size"
 msgstr "कार्यक्षेत्र स्विचर आकार"
 
-#: ui/prefs.ui:2478 ui/prefs.ui:2602
+#: ui/prefs.ui:2556 ui/prefs.ui:2695
 msgid "Default"
 msgstr "पूर्वनिर्धारित"
 
-#: ui/prefs.ui:2533
+#: ui/prefs.ui:2626
 msgid "Animation"
 msgstr "एनिमेशन"
 
-#: ui/prefs.ui:2544
+#: ui/prefs.ui:2637
 msgid "No Animation"
 msgstr "कुनै एनिमेशन छैन"
 
-#: ui/prefs.ui:2545
+#: ui/prefs.ui:2638
 msgid "Default Speed"
 msgstr "पूर्वनिर्धारित गति"
 
-#: ui/prefs.ui:2546
+#: ui/prefs.ui:2639
 msgid "Fastest"
 msgstr "सब भन्दा छिटो"
 
-#: ui/prefs.ui:2547
+#: ui/prefs.ui:2640
 msgid "Faster"
 msgstr "छिटो"
 
-#: ui/prefs.ui:2548
+#: ui/prefs.ui:2641
 msgid "Fast"
 msgstr "छिटो"
 
-#: ui/prefs.ui:2549
+#: ui/prefs.ui:2642
 msgid "Slow"
 msgstr "ढिलो"
 
-#: ui/prefs.ui:2550
+#: ui/prefs.ui:2643
 msgid "Slower"
 msgstr "ढिलो"
 
-#: ui/prefs.ui:2551
+#: ui/prefs.ui:2644
 msgid "Slowest"
 msgstr "सब भन्दा ढिलो"
 
-#: ui/prefs.ui:2591
+#: ui/prefs.ui:2684
 msgid "Dash Icon Size"
 msgstr "ड्यास आइकन आकार"

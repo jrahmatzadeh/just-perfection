@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-12 12:21-0700\n"
+"POT-Creation-Date: 2021-06-06 22:34-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -182,98 +182,114 @@ msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 
-#: ui/prefs.ui:2142
+#: ui/prefs.ui:2156
+msgid "Startup Status"
+msgstr ""
+
+#: ui/prefs.ui:2167
+msgid "When GNOME Shell is starting up for the first time"
+msgstr ""
+
+#: ui/prefs.ui:2187
+msgid "Desktop"
+msgstr ""
+
+#: ui/prefs.ui:2188
+msgid "Overview"
+msgstr ""
+
+#: ui/prefs.ui:2220
 msgid "Customize"
 msgstr ""
 
-#: ui/prefs.ui:2190
+#: ui/prefs.ui:2268
 msgid "Panel Corner Size"
 msgstr ""
 
-#: ui/prefs.ui:2201
+#: ui/prefs.ui:2279
 msgid "By Shell Theme"
 msgstr ""
 
-#: ui/prefs.ui:2202
+#: ui/prefs.ui:2280
 msgid "No Corner"
 msgstr ""
 
-#: ui/prefs.ui:2302
+#: ui/prefs.ui:2380
 msgid "Panel Position"
 msgstr ""
 
-#: ui/prefs.ui:2313
+#: ui/prefs.ui:2391
 msgid "Top"
 msgstr ""
 
-#: ui/prefs.ui:2314
+#: ui/prefs.ui:2392
 msgid "Bottom"
 msgstr ""
 
-#: ui/prefs.ui:2354
+#: ui/prefs.ui:2432
 msgid "Clock Menu Position"
 msgstr ""
 
-#: ui/prefs.ui:2365
+#: ui/prefs.ui:2443
 msgid "Center"
 msgstr ""
 
-#: ui/prefs.ui:2366
+#: ui/prefs.ui:2444
 msgid "Right"
 msgstr ""
 
-#: ui/prefs.ui:2367
+#: ui/prefs.ui:2445
 msgid "Left"
 msgstr ""
 
-#: ui/prefs.ui:2407
+#: ui/prefs.ui:2485
 msgid "Clock Menu Position Offset"
 msgstr ""
 
-#: ui/prefs.ui:2467
+#: ui/prefs.ui:2545
 msgid "Workspace Switcher Size"
 msgstr ""
 
-#: ui/prefs.ui:2478 ui/prefs.ui:2602
+#: ui/prefs.ui:2556 ui/prefs.ui:2695
 msgid "Default"
 msgstr ""
 
-#: ui/prefs.ui:2533
+#: ui/prefs.ui:2626
 msgid "Animation"
 msgstr ""
 
-#: ui/prefs.ui:2544
+#: ui/prefs.ui:2637
 msgid "No Animation"
 msgstr ""
 
-#: ui/prefs.ui:2545
+#: ui/prefs.ui:2638
 msgid "Default Speed"
 msgstr ""
 
-#: ui/prefs.ui:2546
+#: ui/prefs.ui:2639
 msgid "Fastest"
 msgstr ""
 
-#: ui/prefs.ui:2547
+#: ui/prefs.ui:2640
 msgid "Faster"
 msgstr ""
 
-#: ui/prefs.ui:2548
+#: ui/prefs.ui:2641
 msgid "Fast"
 msgstr ""
 
-#: ui/prefs.ui:2549
+#: ui/prefs.ui:2642
 msgid "Slow"
 msgstr ""
 
-#: ui/prefs.ui:2550
+#: ui/prefs.ui:2643
 msgid "Slower"
 msgstr ""
 
-#: ui/prefs.ui:2551
+#: ui/prefs.ui:2644
 msgid "Slowest"
 msgstr ""
 
-#: ui/prefs.ui:2591
+#: ui/prefs.ui:2684
 msgid "Dash Icon Size"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-12 12:21-0700\n"
+"POT-Creation-Date: 2021-06-06 22:26-0700\n"
 "PO-Revision-Date: 2021-03-09 01:18+0100\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
@@ -192,98 +192,114 @@ msgstr ""
 "Pode iniciar a busca sen unha entrada de busca ou incluso centrarse nel na "
 "descripción xeral"
 
-#: ui/prefs.ui:2142
+#: ui/prefs.ui:2156
+msgid "Startup Status"
+msgstr "Estado de inicio"
+
+#: ui/prefs.ui:2167
+msgid "When GNOME Shell is starting up for the first time"
+msgstr "Cando GNOME Shell está a iniciarse por primeira vez"
+
+#: ui/prefs.ui:2187
+msgid "Desktop"
+msgstr "Escritorio"
+
+#: ui/prefs.ui:2188
+msgid "Overview"
+msgstr "Visión xeral"
+
+#: ui/prefs.ui:2220
 msgid "Customize"
 msgstr "Personalizar"
 
-#: ui/prefs.ui:2190
+#: ui/prefs.ui:2268
 msgid "Panel Corner Size"
 msgstr "Tamaño da esquina do panel"
 
-#: ui/prefs.ui:2201
+#: ui/prefs.ui:2279
 msgid "By Shell Theme"
 msgstr "Polo tema do Shell"
 
-#: ui/prefs.ui:2202
+#: ui/prefs.ui:2280
 msgid "No Corner"
 msgstr "Sen esquina"
 
-#: ui/prefs.ui:2302
+#: ui/prefs.ui:2380
 msgid "Panel Position"
 msgstr "Posición do panel"
 
-#: ui/prefs.ui:2313
+#: ui/prefs.ui:2391
 msgid "Top"
 msgstr "Arriba"
 
-#: ui/prefs.ui:2314
+#: ui/prefs.ui:2392
 msgid "Bottom"
 msgstr "Abaixo"
 
-#: ui/prefs.ui:2354
+#: ui/prefs.ui:2432
 msgid "Clock Menu Position"
 msgstr "Posición do menú do reloxo"
 
-#: ui/prefs.ui:2365
+#: ui/prefs.ui:2443
 msgid "Center"
 msgstr "Centro"
 
-#: ui/prefs.ui:2366
+#: ui/prefs.ui:2444
 msgid "Right"
 msgstr "Certo"
 
-#: ui/prefs.ui:2367
+#: ui/prefs.ui:2445
 msgid "Left"
 msgstr "Á esquerda"
 
-#: ui/prefs.ui:2407
+#: ui/prefs.ui:2485
 msgid "Clock Menu Position Offset"
 msgstr "Desprazamento da posición do menú do reloxo"
 
-#: ui/prefs.ui:2467
+#: ui/prefs.ui:2545
 msgid "Workspace Switcher Size"
 msgstr "Tamaño do trocador de espaczo de traballo"
 
-#: ui/prefs.ui:2478 ui/prefs.ui:2602
+#: ui/prefs.ui:2556 ui/prefs.ui:2695
 msgid "Default"
 msgstr "Predeterminado"
 
-#: ui/prefs.ui:2533
+#: ui/prefs.ui:2626
 msgid "Animation"
 msgstr "Animación"
 
-#: ui/prefs.ui:2544
+#: ui/prefs.ui:2637
 msgid "No Animation"
 msgstr "Sen animación"
 
-#: ui/prefs.ui:2545
+#: ui/prefs.ui:2638
 msgid "Default Speed"
 msgstr "Velocidade predeterminada"
 
-#: ui/prefs.ui:2546
+#: ui/prefs.ui:2639
 msgid "Fastest"
 msgstr "O máis rápido"
 
-#: ui/prefs.ui:2547
+#: ui/prefs.ui:2640
 msgid "Faster"
 msgstr "Máis rápido"
 
-#: ui/prefs.ui:2548
+#: ui/prefs.ui:2641
 msgid "Fast"
 msgstr "Rápido"
 
-#: ui/prefs.ui:2549
+#: ui/prefs.ui:2642
 msgid "Slow"
 msgstr "Lento   "
 
-#: ui/prefs.ui:2550
+#: ui/prefs.ui:2643
 msgid "Slower"
 msgstr "Máis lento"
 
-#: ui/prefs.ui:2551
+#: ui/prefs.ui:2644
 msgid "Slowest"
 msgstr "O máis lento"
 
-#: ui/prefs.ui:2591
+#: ui/prefs.ui:2684
 msgid "Dash Icon Size"
 msgstr "tamaño da icona de trazo"

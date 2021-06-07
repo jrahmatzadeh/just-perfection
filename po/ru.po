@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-12 12:21-0700\n"
+"POT-Creation-Date: 2021-06-06 22:26-0700\n"
 "PO-Revision-Date: 2021-05-22 16:10+0700\n"
 "Last-Translator: VBB <librusekus35790@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -190,98 +190,114 @@ msgid ""
 msgstr ""
 "Вы можете начать поиск без строки поиска или даже не нажимая на неё в обзоре"
 
-#: ui/prefs.ui:2142
+#: ui/prefs.ui:2156
+msgid "Startup Status"
+msgstr "Статус запуска"
+
+#: ui/prefs.ui:2167
+msgid "When GNOME Shell is starting up for the first time"
+msgstr "Когда GNOME Shell запускается впервые"
+
+#: ui/prefs.ui:2187
+msgid "Desktop"
+msgstr "Рабочий стол"
+
+#: ui/prefs.ui:2188
+msgid "Overview"
+msgstr "Обзор"
+
+#: ui/prefs.ui:2220
 msgid "Customize"
 msgstr "Настройки"
 
-#: ui/prefs.ui:2190
+#: ui/prefs.ui:2268
 msgid "Panel Corner Size"
 msgstr "Размер угла панели"
 
-#: ui/prefs.ui:2201
+#: ui/prefs.ui:2279
 msgid "By Shell Theme"
 msgstr "Определить темой оболочки"
 
-#: ui/prefs.ui:2202
+#: ui/prefs.ui:2280
 msgid "No Corner"
 msgstr "Убрать угл"
 
-#: ui/prefs.ui:2302
+#: ui/prefs.ui:2380
 msgid "Panel Position"
 msgstr "Расположение панели"
 
-#: ui/prefs.ui:2313
+#: ui/prefs.ui:2391
 msgid "Top"
 msgstr "Вверху"
 
-#: ui/prefs.ui:2314
+#: ui/prefs.ui:2392
 msgid "Bottom"
 msgstr "Внизу"
 
-#: ui/prefs.ui:2354
+#: ui/prefs.ui:2432
 msgid "Clock Menu Position"
 msgstr "Положение меню часов"
 
-#: ui/prefs.ui:2365
+#: ui/prefs.ui:2443
 msgid "Center"
 msgstr "По центру"
 
-#: ui/prefs.ui:2366
+#: ui/prefs.ui:2444
 msgid "Right"
 msgstr "Справа"
 
-#: ui/prefs.ui:2367
+#: ui/prefs.ui:2445
 msgid "Left"
 msgstr "Слева"
 
-#: ui/prefs.ui:2407
+#: ui/prefs.ui:2485
 msgid "Clock Menu Position Offset"
 msgstr "Смещение положения меню часов"
 
-#: ui/prefs.ui:2467
+#: ui/prefs.ui:2545
 msgid "Workspace Switcher Size"
 msgstr "Размер переключателя рабочих столов"
 
-#: ui/prefs.ui:2478 ui/prefs.ui:2602
+#: ui/prefs.ui:2556 ui/prefs.ui:2695
 msgid "Default"
 msgstr "По умолчанию"
 
-#: ui/prefs.ui:2533
+#: ui/prefs.ui:2626
 msgid "Animation"
 msgstr "Анимации"
 
-#: ui/prefs.ui:2544
+#: ui/prefs.ui:2637
 msgid "No Animation"
 msgstr "Без анимаций"
 
-#: ui/prefs.ui:2545
+#: ui/prefs.ui:2638
 msgid "Default Speed"
 msgstr "Скорость по умолчанию"
 
-#: ui/prefs.ui:2546
+#: ui/prefs.ui:2639
 msgid "Fastest"
 msgstr "Очень быстро"
 
-#: ui/prefs.ui:2547
+#: ui/prefs.ui:2640
 msgid "Faster"
 msgstr "Быстрее"
 
-#: ui/prefs.ui:2548
+#: ui/prefs.ui:2641
 msgid "Fast"
 msgstr "Быстро"
 
-#: ui/prefs.ui:2549
+#: ui/prefs.ui:2642
 msgid "Slow"
 msgstr "Медленно"
 
-#: ui/prefs.ui:2550
+#: ui/prefs.ui:2643
 msgid "Slower"
 msgstr "Медленнее"
 
-#: ui/prefs.ui:2551
+#: ui/prefs.ui:2644
 msgid "Slowest"
 msgstr "Очень медленно"
 
-#: ui/prefs.ui:2591
+#: ui/prefs.ui:2684
 msgid "Dash Icon Size"
 msgstr "Размер иконок Dash панели"

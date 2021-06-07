@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-12 12:21-0700\n"
+"POT-Creation-Date: 2021-06-06 22:26-0700\n"
 "PO-Revision-Date: 2021-03-16 19:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: Catalan \n"
@@ -193,98 +193,114 @@ msgstr ""
 "Podeu iniciar la cerca sense l'entrada de cerca o fins i tot centrant-vos-hi "
 "en la vista general"
 
-#: ui/prefs.ui:2142
+#: ui/prefs.ui:2156
+msgid "Startup Status"
+msgstr "Estat d’inici"
+
+#: ui/prefs.ui:2167
+msgid "When GNOME Shell is starting up for the first time"
+msgstr "Quan el GNOME Shell s’inicia per primera vegada"
+
+#: ui/prefs.ui:2187
+msgid "Desktop"
+msgstr "Escriptori"
+
+#: ui/prefs.ui:2188
+msgid "Overview"
+msgstr "Visió general"
+
+#: ui/prefs.ui:2220
 msgid "Customize"
 msgstr "Personalitza"
 
-#: ui/prefs.ui:2190
+#: ui/prefs.ui:2268
 msgid "Panel Corner Size"
 msgstr "Mida de la cantonada del tauler"
 
-#: ui/prefs.ui:2201
+#: ui/prefs.ui:2279
 msgid "By Shell Theme"
 msgstr "Pel tema de l'entorn"
 
-#: ui/prefs.ui:2202
+#: ui/prefs.ui:2280
 msgid "No Corner"
 msgstr "Sense cantonada"
 
-#: ui/prefs.ui:2302
+#: ui/prefs.ui:2380
 msgid "Panel Position"
 msgstr "Posició del panell"
 
-#: ui/prefs.ui:2313
+#: ui/prefs.ui:2391
 msgid "Top"
 msgstr "Superior"
 
-#: ui/prefs.ui:2314
+#: ui/prefs.ui:2392
 msgid "Bottom"
 msgstr "Inferior"
 
-#: ui/prefs.ui:2354
+#: ui/prefs.ui:2432
 msgid "Clock Menu Position"
 msgstr "Posició del menú del rellotge"
 
-#: ui/prefs.ui:2365
+#: ui/prefs.ui:2443
 msgid "Center"
 msgstr "Centre"
 
-#: ui/prefs.ui:2366
+#: ui/prefs.ui:2444
 msgid "Right"
 msgstr "Dreta"
 
-#: ui/prefs.ui:2367
+#: ui/prefs.ui:2445
 msgid "Left"
 msgstr "Esquerra"
 
-#: ui/prefs.ui:2407
+#: ui/prefs.ui:2485
 msgid "Clock Menu Position Offset"
 msgstr "Desplaçament del menú del rellotge"
 
-#: ui/prefs.ui:2467
+#: ui/prefs.ui:2545
 msgid "Workspace Switcher Size"
 msgstr "Mida del commutador d'espais de treball"
 
-#: ui/prefs.ui:2478 ui/prefs.ui:2602
+#: ui/prefs.ui:2556 ui/prefs.ui:2695
 msgid "Default"
 msgstr "Per defecte"
 
-#: ui/prefs.ui:2533
+#: ui/prefs.ui:2626
 msgid "Animation"
 msgstr "Animació"
 
-#: ui/prefs.ui:2544
+#: ui/prefs.ui:2637
 msgid "No Animation"
 msgstr "Sense animació"
 
-#: ui/prefs.ui:2545
+#: ui/prefs.ui:2638
 msgid "Default Speed"
 msgstr "Velocitat per defecte"
 
-#: ui/prefs.ui:2546
+#: ui/prefs.ui:2639
 msgid "Fastest"
 msgstr "El més ràpid"
 
-#: ui/prefs.ui:2547
+#: ui/prefs.ui:2640
 msgid "Faster"
 msgstr "Més ràpid"
 
-#: ui/prefs.ui:2548
+#: ui/prefs.ui:2641
 msgid "Fast"
 msgstr "Ràpid"
 
-#: ui/prefs.ui:2549
+#: ui/prefs.ui:2642
 msgid "Slow"
 msgstr "Lent"
 
-#: ui/prefs.ui:2550
+#: ui/prefs.ui:2643
 msgid "Slower"
 msgstr "Més lent"
 
-#: ui/prefs.ui:2551
+#: ui/prefs.ui:2644
 msgid "Slowest"
 msgstr "El més lent"
 
-#: ui/prefs.ui:2591
+#: ui/prefs.ui:2684
 msgid "Dash Icon Size"
 msgstr "mida de la icona de guió"
