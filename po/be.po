@@ -81,7 +81,7 @@ msgstr "Меню прыкладанняў"
 
 #: ui/prefs.ui:808
 msgid "The menu button in panel with focused window text"
-msgstr ""
+msgstr "Кнопка меню на панэлі з сфакусаваным тэкстам акна"
 
 #: ui/prefs.ui:872
 msgid "Clock Menu"
@@ -89,7 +89,7 @@ msgstr "Меню гадзін"
 
 #: ui/prefs.ui:883
 msgid "Also known as date menu shows date and time in panel"
-msgstr ""
+msgstr "Таксама вядомае як меню даты, паказвае дату і час на панэлі"
 
 #: ui/prefs.ui:947
 msgid "Keyboard Layout"
@@ -97,7 +97,7 @@ msgstr "Раскладка клавіятуры"
 
 #: ui/prefs.ui:958
 msgid "Keyboard Layout indicator button in panel"
-msgstr ""
+msgstr "Кнопка індыкатара раскладкі клавіятуры на панэлі"
 
 #: ui/prefs.ui:1022
 msgid "Accessibility Menu"
@@ -105,7 +105,7 @@ msgstr "Меню даступнасці"
 
 #: ui/prefs.ui:1033
 msgid "Accessibility Menu indicator button in panel"
-msgstr ""
+msgstr "Кнопка індыкатара меню даступнасці на панэлі"
 
 #: ui/prefs.ui:1097
 msgid "System Menu (Aggregate Menu)"
@@ -113,7 +113,7 @@ msgstr "сістэмнае меню"
 
 #: ui/prefs.ui:1108
 msgid "System menu holds power, volume and network icons in panel"
-msgstr ""
+msgstr "Сістэмнае меню змяшчае значкі магутнасці, гучнасці і сеткі на панэлі"
 
 #: ui/prefs.ui:1172
 msgid "Search"
@@ -121,7 +121,7 @@ msgstr "Пошук"
 
 #: ui/prefs.ui:1183
 msgid "Search entry in overview"
-msgstr ""
+msgstr "Запіс пошуку ў аглядзе"
 
 #: ui/prefs.ui:1247
 msgid "Dash"
@@ -129,7 +129,7 @@ msgstr "Працяжнік"
 
 #: ui/prefs.ui:1258
 msgid "Dash holds favorite and opened applications icons"
-msgstr ""
+msgstr "Працяжнік змяшчае абранкі абраных і адкрытых прыкладанняў"
 
 #: ui/prefs.ui:1322
 msgid "Show Applications Button"
@@ -137,7 +137,7 @@ msgstr "Паказаць кнопку прыкладанняў"
 
 #: ui/prefs.ui:1333
 msgid "Button in dash that toggles applications list visibility"
-msgstr ""
+msgstr "Кнопка ў працяжніку, якая перамыкае бачнасць спісу прыкладанняў"
 
 #: ui/prefs.ui:1397
 msgid "On Screen Display (OSD)"
@@ -145,7 +145,7 @@ msgstr "OSD"
 
 #: ui/prefs.ui:1408
 msgid "Volume and brightness on screen display when the change happens"
-msgstr ""
+msgstr "Гучнасць і яркасць на экране пры змене"
 
 #: ui/prefs.ui:1472
 msgid "Workspace Popup"
@@ -153,7 +153,7 @@ msgstr "Усплывальнае працоўнае месца"
 
 #: ui/prefs.ui:1483
 msgid "Popup that appears on the screen when you change the workspace"
-msgstr ""
+msgstr "Усплывальнае акно, якое з'явіцца на экране пры змене працоўнай вобласці"
 
 #: ui/prefs.ui:1547
 msgid "Workspace Switcher"
@@ -163,7 +163,7 @@ msgstr "Пераключальнік працоўнай прасторы"
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
-msgstr ""
+msgstr "Таксама маюцца на ўвазе эскізы працоўнай вобласці, якія вы бачыце ў аглядзе для выбару працоўнай вобласці"
 
 #: ui/prefs.ui:1622
 msgid "Background Menu"
@@ -171,7 +171,7 @@ msgstr "Фонавае меню"
 
 #: ui/prefs.ui:1633
 msgid "When you right click on desktop background"
-msgstr ""
+msgstr "Пры націску правай кнопкай мышы на фоне працоўнага стала"
 
 #: ui/prefs.ui:1683
 msgid "Icons"

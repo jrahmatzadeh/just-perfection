@@ -78,7 +78,7 @@ msgstr "app spyskaart"
 
 #: ui/prefs.ui:808
 msgid "The menu button in panel with focused window text"
-msgstr ""
+msgstr "Die menu-knoppie in die paneel met gefokusde vensterteks"
 
 #: ui/prefs.ui:872
 msgid "Clock Menu"
@@ -86,7 +86,7 @@ msgstr "klok Menu"
 
 #: ui/prefs.ui:883
 msgid "Also known as date menu shows date and time in panel"
-msgstr ""
+msgstr "Ook bekend as die datum-menu, toon die datum en tyd in die paneel"
 
 #: ui/prefs.ui:947
 msgid "Keyboard Layout"
@@ -94,7 +94,7 @@ msgstr "Sleutelborduitleg"
 
 #: ui/prefs.ui:958
 msgid "Keyboard Layout indicator button in panel"
-msgstr ""
+msgstr "Aanwyser-knoppie vir sleutelborduitleg in die paneel"
 
 #: ui/prefs.ui:1022
 msgid "Accessibility Menu"
@@ -102,7 +102,7 @@ msgstr "Toeganklikheids-menu"
 
 #: ui/prefs.ui:1033
 msgid "Accessibility Menu indicator button in panel"
-msgstr ""
+msgstr "Toeganklikheidsmenu-aanwyserknoppie in die paneel"
 
 #: ui/prefs.ui:1097
 msgid "System Menu (Aggregate Menu)"
@@ -110,7 +110,7 @@ msgstr "stelsel menu"
 
 #: ui/prefs.ui:1108
 msgid "System menu holds power, volume and network icons in panel"
-msgstr ""
+msgstr "Stelsel menu hou krag, volume en netwerk ikone in paneel"
 
 #: ui/prefs.ui:1172
 msgid "Search"
@@ -118,7 +118,7 @@ msgstr "Soek"
 
 #: ui/prefs.ui:1183
 msgid "Search entry in overview"
-msgstr ""
+msgstr "Soek inskrywing in oorsig"
 
 #: ui/prefs.ui:1247
 msgid "Dash"
@@ -126,7 +126,7 @@ msgstr "Dash"
 
 #: ui/prefs.ui:1258
 msgid "Dash holds favorite and opened applications icons"
-msgstr ""
+msgstr "Dash bevat gunsteling- en oopgemaakte toepassingsikone"
 
 #: ui/prefs.ui:1322
 msgid "Show Applications Button"
@@ -134,7 +134,7 @@ msgstr "Wys toepassings-knoppie"
 
 #: ui/prefs.ui:1333
 msgid "Button in dash that toggles applications list visibility"
-msgstr ""
+msgstr "Knoppie in streep waarmee die sigbaarheid van die toepassingslys wissel"
 
 #: ui/prefs.ui:1397
 msgid "On Screen Display (OSD)"
@@ -142,7 +142,7 @@ msgstr "OSD"
 
 #: ui/prefs.ui:1408
 msgid "Volume and brightness on screen display when the change happens"
-msgstr ""
+msgstr "Volume en helderheid op die skerm vertoon wanneer die verandering plaasvind"
 
 #: ui/prefs.ui:1472
 msgid "Workspace Popup"
@@ -150,7 +150,7 @@ msgstr "Werkruimte pop-up"
 
 #: ui/prefs.ui:1483
 msgid "Popup that appears on the screen when you change the workspace"
-msgstr ""
+msgstr "Pop-up wat op die skerm verskyn wanneer u die werkruimte verander"
 
 #: ui/prefs.ui:1547
 msgid "Workspace Switcher"
@@ -160,7 +160,7 @@ msgstr "Werkspasie skakelaar"
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
-msgstr ""
+msgstr "Verwys ook na werkruimte-kleinkiekies wat u in die oorsig sien om 'n werkruimte te kies"
 
 #: ui/prefs.ui:1622
 msgid "Background Menu"
@@ -168,7 +168,7 @@ msgstr "Agtergrond menu"
 
 #: ui/prefs.ui:1633
 msgid "When you right click on desktop background"
-msgstr ""
+msgstr "As u regs kliek op die agtergrond van die lessenaar"
 
 #: ui/prefs.ui:1683
 msgid "Icons"

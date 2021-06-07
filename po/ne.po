@@ -79,7 +79,7 @@ msgstr "ए्याप मेनु"
 
 #: ui/prefs.ui:808
 msgid "The menu button in panel with focused window text"
-msgstr ""
+msgstr "फोकस गरिएको विन्डो पाठको साथ प्यानलमा मेनू बटन"
 
 #: ui/prefs.ui:872
 msgid "Clock Menu"
@@ -87,7 +87,7 @@ msgstr "घडी मेनू"
 
 #: ui/prefs.ui:883
 msgid "Also known as date menu shows date and time in panel"
-msgstr ""
+msgstr "मिति मेनूको रूपमा पनि जानिन्छ प्यानलमा मिति र समय देखाउँदछ"
 
 #: ui/prefs.ui:947
 msgid "Keyboard Layout"
@@ -95,7 +95,7 @@ msgstr "कीबोर्ड लेआउट"
 
 #: ui/prefs.ui:958
 msgid "Keyboard Layout indicator button in panel"
-msgstr ""
+msgstr "प्यानलमा कीबोर्ड लेआउट सूचक बटन"
 
 #: ui/prefs.ui:1022
 msgid "Accessibility Menu"
@@ -103,7 +103,7 @@ msgstr "पहुँच मेनू"
 
 #: ui/prefs.ui:1033
 msgid "Accessibility Menu indicator button in panel"
-msgstr ""
+msgstr "प्यानलमा पहुँच मेनू सूचक बटन"
 
 #: ui/prefs.ui:1097
 msgid "System Menu (Aggregate Menu)"
@@ -111,7 +111,7 @@ msgstr "सिस्टम मेनु (समग्र मेनु)"
 
 #: ui/prefs.ui:1108
 msgid "System menu holds power, volume and network icons in panel"
-msgstr ""
+msgstr "प्रणाली मेनूले प्यानलमा शक्ति, भोल्यूम र नेटवर्क आइकन समात्दछ"
 
 #: ui/prefs.ui:1172
 msgid "Search"
@@ -119,7 +119,7 @@ msgstr "खोज"
 
 #: ui/prefs.ui:1183
 msgid "Search entry in overview"
-msgstr ""
+msgstr "सिंहावलोकन मा खोज प्रविष्टि"
 
 #: ui/prefs.ui:1247
 msgid "Dash"
@@ -127,7 +127,7 @@ msgstr "ड्यास"
 
 #: ui/prefs.ui:1258
 msgid "Dash holds favorite and opened applications icons"
-msgstr ""
+msgstr "ड्याससँग मनपर्ने र खोलिएका अनुप्रयोग आइकनहरू छन्"
 
 #: ui/prefs.ui:1322
 msgid "Show Applications Button"
@@ -135,7 +135,7 @@ msgstr "अनुप्रयोग बटन देखाउनुहोस्"
 
 #: ui/prefs.ui:1333
 msgid "Button in dash that toggles applications list visibility"
-msgstr ""
+msgstr "ड्यासमा बटन जुन अनुप्रयोग सूची दृश्यता टगल गर्दछ"
 
 #: ui/prefs.ui:1397
 msgid "On Screen Display (OSD)"
@@ -143,7 +143,7 @@ msgstr "अन स्क्रिन डिस्प्ले (ओएसडी)"
 
 #: ui/prefs.ui:1408
 msgid "Volume and brightness on screen display when the change happens"
-msgstr ""
+msgstr "स्क्रिन डिस्प्लेमा भोल्यूम र चमक जब परिवर्तन हुन्छ"
 
 #: ui/prefs.ui:1472
 msgid "Workspace Popup"
@@ -151,7 +151,7 @@ msgstr "वोर्कस्पेस पप अप"
 
 #: ui/prefs.ui:1483
 msgid "Popup that appears on the screen when you change the workspace"
-msgstr ""
+msgstr "पपअप जुन तपाईं कार्यस्थान परिवर्तन गर्दा स्क्रिनमा देखा पर्दछ"
 
 #: ui/prefs.ui:1547
 msgid "Workspace Switcher"
@@ -161,7 +161,7 @@ msgstr "वोर्कस्पेस स्विचर"
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
-msgstr ""
+msgstr "साथै कार्यक्षेत्र थम्बनेलहरूलाई जनाउँछ जुन तपाईंले कार्यस्थान छनौट गर्नको लागि अवलोकनमा देख्नुहुन्छ"
 
 #: ui/prefs.ui:1622
 msgid "Background Menu"
@@ -169,7 +169,7 @@ msgstr "पृष्ठभूमि मेनू"
 
 #: ui/prefs.ui:1633
 msgid "When you right click on desktop background"
-msgstr ""
+msgstr "जब तपाईं डेस्कटप पृष्ठभूमिमा दायाँ क्लिक गर्नुहुन्छ"
 
 #: ui/prefs.ui:1683
 msgid "Icons"

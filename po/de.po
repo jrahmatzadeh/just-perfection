@@ -81,7 +81,7 @@ msgstr "Das Anwendungsmenü"
 
 #: ui/prefs.ui:808
 msgid "The menu button in panel with focused window text"
-msgstr ""
+msgstr "Die Menüschaltfläche im Panel mit fokussiertem Fenstertext"
 
 #: ui/prefs.ui:872
 msgid "Clock Menu"
@@ -89,7 +89,7 @@ msgstr "Uhr Menü"
 
 #: ui/prefs.ui:883
 msgid "Also known as date menu shows date and time in panel"
-msgstr ""
+msgstr "Auch bekannt als Datumsmenü zeigt Datum und Uhrzeit im Panel an"
 
 #: ui/prefs.ui:947
 msgid "Keyboard Layout"
@@ -97,7 +97,7 @@ msgstr "Tastaturbelegung"
 
 #: ui/prefs.ui:958
 msgid "Keyboard Layout indicator button in panel"
-msgstr ""
+msgstr "Anzeigetaste für Tastaturlayout im Bedienfeld"
 
 #: ui/prefs.ui:1022
 msgid "Accessibility Menu"
@@ -105,7 +105,7 @@ msgstr "Eingabehilfen-Menü"
 
 #: ui/prefs.ui:1033
 msgid "Accessibility Menu indicator button in panel"
-msgstr ""
+msgstr "Anzeigetaste für das Eingabehilfemenü im Bedienfeld"
 
 #: ui/prefs.ui:1097
 msgid "System Menu (Aggregate Menu)"
@@ -113,7 +113,7 @@ msgstr "Das Systemmenü"
 
 #: ui/prefs.ui:1108
 msgid "System menu holds power, volume and network icons in panel"
-msgstr ""
+msgstr "Das Systemmenü enthält Strom-, Lautstärke- und Netzwerksymbole im Bedienfeld"
 
 #: ui/prefs.ui:1172
 msgid "Search"
@@ -121,7 +121,7 @@ msgstr "Suche"
 
 #: ui/prefs.ui:1183
 msgid "Search entry in overview"
-msgstr ""
+msgstr "Sucheintrag in der Übersicht"
 
 #: ui/prefs.ui:1247
 msgid "Dash"
@@ -129,7 +129,7 @@ msgstr "Dash"
 
 #: ui/prefs.ui:1258
 msgid "Dash holds favorite and opened applications icons"
-msgstr ""
+msgstr "Dash enthält Symbole für bevorzugte und geöffnete Anwendungen"
 
 #: ui/prefs.ui:1322
 msgid "Show Applications Button"
@@ -137,7 +137,7 @@ msgstr "Schaltfläche Anwendungen anzeigen"
 
 #: ui/prefs.ui:1333
 msgid "Button in dash that toggles applications list visibility"
-msgstr ""
+msgstr "Schaltfläche im Bindestrich, die die Sichtbarkeit der Anwendungsliste umschaltet"
 
 #: ui/prefs.ui:1397
 msgid "On Screen Display (OSD)"
@@ -145,7 +145,7 @@ msgstr "OSD"
 
 #: ui/prefs.ui:1408
 msgid "Volume and brightness on screen display when the change happens"
-msgstr ""
+msgstr "Lautstärke und Helligkeit auf dem Bildschirm, wenn die Änderung erfolgt"
 
 #: ui/prefs.ui:1472
 msgid "Workspace Popup"
@@ -153,7 +153,7 @@ msgstr "Arbeitsflächen-Popup"
 
 #: ui/prefs.ui:1483
 msgid "Popup that appears on the screen when you change the workspace"
-msgstr ""
+msgstr "Popup, das auf dem Bildschirm angezeigt wird, wenn Sie den Arbeitsbereich ändern"
 
 #: ui/prefs.ui:1547
 msgid "Workspace Switcher"
@@ -163,7 +163,7 @@ msgstr "Arbeitsflächenumschalter"
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
-msgstr ""
+msgstr "Bezieht sich auch auf Arbeitsbereich-Miniaturansichten, die Sie in der Übersicht sehen, um einen Arbeitsbereich auszuwählen"
 
 #: ui/prefs.ui:1622
 msgid "Background Menu"
@@ -171,7 +171,7 @@ msgstr "Hintergrundmenü"
 
 #: ui/prefs.ui:1633
 msgid "When you right click on desktop background"
-msgstr ""
+msgstr "Wenn Sie mit der rechten Maustaste auf den Desktop-Hintergrund klicken"
 
 #: ui/prefs.ui:1683
 msgid "Icons"

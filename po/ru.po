@@ -82,7 +82,7 @@ msgstr "Меню приложения"
 
 #: ui/prefs.ui:808
 msgid "The menu button in panel with focused window text"
-msgstr ""
+msgstr "Кнопка меню на панели с выделенным текстом окна"
 
 #: ui/prefs.ui:872
 msgid "Clock Menu"
@@ -90,7 +90,7 @@ msgstr "Панель уведомлений/Часы"
 
 #: ui/prefs.ui:883
 msgid "Also known as date menu shows date and time in panel"
-msgstr ""
+msgstr "Также известное как меню даты, показывает дату и время на панели"
 
 #: ui/prefs.ui:947
 msgid "Keyboard Layout"
@@ -98,7 +98,7 @@ msgstr "Раскладка клавиатуры"
 
 #: ui/prefs.ui:958
 msgid "Keyboard Layout indicator button in panel"
-msgstr ""
+msgstr "Кнопка индикатора раскладки клавиатуры на панели"
 
 #: ui/prefs.ui:1022
 msgid "Accessibility Menu"
@@ -106,7 +106,7 @@ msgstr "Меню специальных возможностей"
 
 #: ui/prefs.ui:1033
 msgid "Accessibility Menu indicator button in panel"
-msgstr ""
+msgstr "Кнопка индикатора меню специальных возможностей на панели"
 
 #: ui/prefs.ui:1097
 msgid "System Menu (Aggregate Menu)"
@@ -114,7 +114,7 @@ msgstr "Системное меню"
 
 #: ui/prefs.ui:1108
 msgid "System menu holds power, volume and network icons in panel"
-msgstr ""
+msgstr "Системное меню содержит значки питания, громкости и сети на панели"
 
 #: ui/prefs.ui:1172
 msgid "Search"
@@ -122,7 +122,7 @@ msgstr "Строка поиска"
 
 #: ui/prefs.ui:1183
 msgid "Search entry in overview"
-msgstr ""
+msgstr "Искать запись в обзоре"
 
 #: ui/prefs.ui:1247
 msgid "Dash"
@@ -130,7 +130,7 @@ msgstr "Dash панель"
 
 #: ui/prefs.ui:1258
 msgid "Dash holds favorite and opened applications icons"
-msgstr ""
+msgstr "Dash содержит значки избранных и открытых приложений."
 
 #: ui/prefs.ui:1322
 msgid "Show Applications Button"
@@ -138,7 +138,7 @@ msgstr "Показать кнопку приложений"
 
 #: ui/prefs.ui:1333
 msgid "Button in dash that toggles applications list visibility"
-msgstr ""
+msgstr "Кнопка в тире, которая переключает видимость списка приложений"
 
 #: ui/prefs.ui:1397
 msgid "On Screen Display (OSD)"
@@ -146,7 +146,7 @@ msgstr "On Screen Display (OSD)"
 
 #: ui/prefs.ui:1408
 msgid "Volume and brightness on screen display when the change happens"
-msgstr ""
+msgstr "Громкость и яркость отображения на экране при изменении"
 
 #: ui/prefs.ui:1472
 msgid "Workspace Popup"
@@ -154,7 +154,7 @@ msgstr "Всплывающий индикатор рабочего стола"
 
 #: ui/prefs.ui:1483
 msgid "Popup that appears on the screen when you change the workspace"
-msgstr ""
+msgstr "Всплывающее окно, которое появляется на экране при смене рабочего пространства"
 
 #: ui/prefs.ui:1547
 msgid "Workspace Switcher"
@@ -164,7 +164,7 @@ msgstr "Переключатель рабочих столов"
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
-msgstr ""
+msgstr "Также относится к эскизам рабочего пространства, которые вы видите в обзоре для выбора рабочего пространства."
 
 #: ui/prefs.ui:1622
 msgid "Background Menu"
@@ -172,7 +172,7 @@ msgstr "Меню рабочего стола"
 
 #: ui/prefs.ui:1633
 msgid "When you right click on desktop background"
-msgstr ""
+msgstr "Когда вы щелкаете правой кнопкой мыши по фону рабочего стола"
 
 #: ui/prefs.ui:1683
 msgid "Icons"

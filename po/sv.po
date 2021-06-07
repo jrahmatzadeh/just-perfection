@@ -80,7 +80,7 @@ msgstr "Programmeny"
 
 #: ui/prefs.ui:808
 msgid "The menu button in panel with focused window text"
-msgstr ""
+msgstr "Menyknappen i panelen med fokuserad fönstertext"
 
 #: ui/prefs.ui:872
 msgid "Clock Menu"
@@ -88,7 +88,7 @@ msgstr "Klockmeny"
 
 #: ui/prefs.ui:883
 msgid "Also known as date menu shows date and time in panel"
-msgstr ""
+msgstr "Även känd som datummeny visar datum och tid i panelen"
 
 #: ui/prefs.ui:947
 msgid "Keyboard Layout"
@@ -96,7 +96,7 @@ msgstr "Tangentbordslayout"
 
 #: ui/prefs.ui:958
 msgid "Keyboard Layout indicator button in panel"
-msgstr ""
+msgstr "Knapp för tangentbordslayout i panelen"
 
 #: ui/prefs.ui:1022
 msgid "Accessibility Menu"
@@ -104,7 +104,7 @@ msgstr "Tillgänglighetsmeny"
 
 #: ui/prefs.ui:1033
 msgid "Accessibility Menu indicator button in panel"
-msgstr ""
+msgstr "Knapp för tillgänglighetsmeny i panelen"
 
 #: ui/prefs.ui:1097
 msgid "System Menu (Aggregate Menu)"
@@ -112,7 +112,7 @@ msgstr "Systemmeny"
 
 #: ui/prefs.ui:1108
 msgid "System menu holds power, volume and network icons in panel"
-msgstr ""
+msgstr "Systemmenyn håller ikoner för kraft, volym och nätverk i panelen"
 
 #: ui/prefs.ui:1172
 msgid "Search"
@@ -120,7 +120,7 @@ msgstr "Sökruta"
 
 #: ui/prefs.ui:1183
 msgid "Search entry in overview"
-msgstr ""
+msgstr "Sökpost i översikt"
 
 #: ui/prefs.ui:1247
 msgid "Dash"
@@ -128,7 +128,7 @@ msgstr "Snabbstartspanel"
 
 #: ui/prefs.ui:1258
 msgid "Dash holds favorite and opened applications icons"
-msgstr ""
+msgstr "Dash har favorit- och öppnade applikationsikoner"
 
 #: ui/prefs.ui:1322
 msgid "Show Applications Button"
@@ -136,7 +136,7 @@ msgstr "Knapp för att visa programöversiktsvyn"
 
 #: ui/prefs.ui:1333
 msgid "Button in dash that toggles applications list visibility"
-msgstr ""
+msgstr "Knapp i streck som växlar mellan applikationslistans synlighet"
 
 #: ui/prefs.ui:1397
 msgid "On Screen Display (OSD)"
@@ -144,7 +144,7 @@ msgstr "Skärmöverlagring (OSD)"
 
 #: ui/prefs.ui:1408
 msgid "Volume and brightness on screen display when the change happens"
-msgstr ""
+msgstr "Volym och ljusstyrka på skärmen när ändringen sker"
 
 #: ui/prefs.ui:1472
 msgid "Workspace Popup"
@@ -152,7 +152,7 @@ msgstr "Arbetsyteväxlar-popup"
 
 #: ui/prefs.ui:1483
 msgid "Popup that appears on the screen when you change the workspace"
-msgstr ""
+msgstr "Pop-up som visas på skärmen när du ändrar arbetsytan"
 
 #: ui/prefs.ui:1547
 msgid "Workspace Switcher"
@@ -162,7 +162,7 @@ msgstr "Arbetsyteväxlare"
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
-msgstr ""
+msgstr "Hänvisar också till arbetsytans miniatyrer som du ser i översikten för att välja en arbetsyta"
 
 #: ui/prefs.ui:1622
 msgid "Background Menu"
@@ -170,7 +170,7 @@ msgstr "Bakgrundsmeny"
 
 #: ui/prefs.ui:1633
 msgid "When you right click on desktop background"
-msgstr ""
+msgstr "När du högerklickar på skrivbordsbakgrund"
 
 #: ui/prefs.ui:1683
 msgid "Icons"

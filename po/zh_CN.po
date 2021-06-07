@@ -79,7 +79,7 @@ msgstr "应用菜单"
 
 #: ui/prefs.ui:808
 msgid "The menu button in panel with focused window text"
-msgstr ""
+msgstr "面板中带有焦点窗口文本的菜单按钮"
 
 #: ui/prefs.ui:872
 msgid "Clock Menu"
@@ -87,7 +87,7 @@ msgstr "时钟菜单"
 
 #: ui/prefs.ui:883
 msgid "Also known as date menu shows date and time in panel"
-msgstr ""
+msgstr "也称为日期菜单在面板中显示日期和时间"
 
 #: ui/prefs.ui:947
 msgid "Keyboard Layout"
@@ -95,7 +95,7 @@ msgstr "键盘布局（输入法）"
 
 #: ui/prefs.ui:958
 msgid "Keyboard Layout indicator button in panel"
-msgstr ""
+msgstr "面板中的键盘布局指示器按钮"
 
 #: ui/prefs.ui:1022
 msgid "Accessibility Menu"
@@ -103,7 +103,7 @@ msgstr "辅助功能菜单"
 
 #: ui/prefs.ui:1033
 msgid "Accessibility Menu indicator button in panel"
-msgstr ""
+msgstr "面板中的辅助功能菜单指示器按钮"
 
 #: ui/prefs.ui:1097
 msgid "System Menu (Aggregate Menu)"
@@ -111,7 +111,7 @@ msgstr "系统菜单"
 
 #: ui/prefs.ui:1108
 msgid "System menu holds power, volume and network icons in panel"
-msgstr ""
+msgstr "系统菜单在面板中包含电源、音量和网络图标"
 
 #: ui/prefs.ui:1172
 msgid "Search"
@@ -119,7 +119,7 @@ msgstr "搜索"
 
 #: ui/prefs.ui:1183
 msgid "Search entry in overview"
-msgstr ""
+msgstr "概览中的搜索条目"
 
 #: ui/prefs.ui:1247
 msgid "Dash"
@@ -127,7 +127,7 @@ msgstr "Dash"
 
 #: ui/prefs.ui:1258
 msgid "Dash holds favorite and opened applications icons"
-msgstr ""
+msgstr "Dash 包含最喜欢和打开的应用程序图标"
 
 #: ui/prefs.ui:1322
 msgid "Show Applications Button"
@@ -135,7 +135,7 @@ msgstr "显示应用程序按钮"
 
 #: ui/prefs.ui:1333
 msgid "Button in dash that toggles applications list visibility"
-msgstr ""
+msgstr "短划线中用于切换应用程序列表可见性的按钮"
 
 #: ui/prefs.ui:1397
 msgid "On Screen Display (OSD)"
@@ -143,7 +143,7 @@ msgstr "屏幕显示（OSD）"
 
 #: ui/prefs.ui:1408
 msgid "Volume and brightness on screen display when the change happens"
-msgstr ""
+msgstr "发生变化时屏幕显示的音量和亮度"
 
 #: ui/prefs.ui:1472
 msgid "Workspace Popup"
@@ -151,7 +151,7 @@ msgstr "工作区弹窗"
 
 #: ui/prefs.ui:1483
 msgid "Popup that appears on the screen when you change the workspace"
-msgstr ""
+msgstr "更改工作区时出现在屏幕上的弹出窗口"
 
 #: ui/prefs.ui:1547
 msgid "Workspace Switcher"
@@ -161,7 +161,7 @@ msgstr "工作区切换器"
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
-msgstr ""
+msgstr "也指您在概览中看到的用于选择工作区的工作区缩略图"
 
 #: ui/prefs.ui:1622
 msgid "Background Menu"
@@ -169,7 +169,7 @@ msgstr "后台菜单"
 
 #: ui/prefs.ui:1633
 msgid "When you right click on desktop background"
-msgstr ""
+msgstr "当您右键单击桌面背景时"
 
 #: ui/prefs.ui:1683
 msgid "Icons"

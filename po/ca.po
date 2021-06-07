@@ -83,7 +83,7 @@ msgstr "Menú de l'aplicació"
 
 #: ui/prefs.ui:808
 msgid "The menu button in panel with focused window text"
-msgstr ""
+msgstr "El botó de menú del tauler amb text de la finestra enfocat"
 
 #: ui/prefs.ui:872
 msgid "Clock Menu"
@@ -91,7 +91,7 @@ msgstr "Menú del rellotge"
 
 #: ui/prefs.ui:883
 msgid "Also known as date menu shows date and time in panel"
-msgstr ""
+msgstr "També es coneix com a menú de data i mostra la data i l’hora al tauler"
 
 #: ui/prefs.ui:947
 msgid "Keyboard Layout"
@@ -99,7 +99,7 @@ msgstr "Disposició del teclat"
 
 #: ui/prefs.ui:958
 msgid "Keyboard Layout indicator button in panel"
-msgstr ""
+msgstr "Botó indicador del disseny del teclat al tauler"
 
 #: ui/prefs.ui:1022
 msgid "Accessibility Menu"
@@ -107,7 +107,7 @@ msgstr "Menú d'accessibilitat"
 
 #: ui/prefs.ui:1033
 msgid "Accessibility Menu indicator button in panel"
-msgstr ""
+msgstr "Botó indicador del menú d'accessibilitat al tauler"
 
 #: ui/prefs.ui:1097
 msgid "System Menu (Aggregate Menu)"
@@ -115,7 +115,7 @@ msgstr "Menú del sistema (menú d'agregat)"
 
 #: ui/prefs.ui:1108
 msgid "System menu holds power, volume and network icons in panel"
-msgstr ""
+msgstr "El menú del sistema conté icones de potència, volum i xarxa al tauler"
 
 #: ui/prefs.ui:1172
 msgid "Search"
@@ -123,7 +123,7 @@ msgstr "Cerca"
 
 #: ui/prefs.ui:1183
 msgid "Search entry in overview"
-msgstr ""
+msgstr "Cerqueu l'entrada a la vista general"
 
 #: ui/prefs.ui:1247
 msgid "Dash"
@@ -131,7 +131,7 @@ msgstr "Dash"
 
 #: ui/prefs.ui:1258
 msgid "Dash holds favorite and opened applications icons"
-msgstr ""
+msgstr "Dash conté les icones d'aplicacions favorites i obertes"
 
 #: ui/prefs.ui:1322
 msgid "Show Applications Button"
@@ -139,7 +139,7 @@ msgstr "Botó Mostra les aplicacions"
 
 #: ui/prefs.ui:1333
 msgid "Button in dash that toggles applications list visibility"
-msgstr ""
+msgstr "Botó de guió que commuta la visibilitat de la llista d'aplicacions"
 
 #: ui/prefs.ui:1397
 msgid "On Screen Display (OSD)"
@@ -147,7 +147,7 @@ msgstr "Visualització en pantalla (OSD)"
 
 #: ui/prefs.ui:1408
 msgid "Volume and brightness on screen display when the change happens"
-msgstr ""
+msgstr "Volum i brillantor a la pantalla quan es produeix el canvi"
 
 #: ui/prefs.ui:1472
 msgid "Workspace Popup"
@@ -155,7 +155,7 @@ msgstr "Finestra emergent de l'espai de treball"
 
 #: ui/prefs.ui:1483
 msgid "Popup that appears on the screen when you change the workspace"
-msgstr ""
+msgstr "Finestra emergent que apareix a la pantalla quan canvieu l'espai de treball"
 
 #: ui/prefs.ui:1547
 msgid "Workspace Switcher"
@@ -165,7 +165,7 @@ msgstr "Commutador dels espais de treball"
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
-msgstr ""
+msgstr "També fa referència a les miniatures de l’espai de treball que veieu a la vista general per seleccionar un espai de treball"
 
 #: ui/prefs.ui:1622
 msgid "Background Menu"
@@ -173,7 +173,7 @@ msgstr "Menú del fons de pantalla"
 
 #: ui/prefs.ui:1633
 msgid "When you right click on desktop background"
-msgstr ""
+msgstr "Quan feu clic dret sobre el fons de l'escriptori"
 
 #: ui/prefs.ui:1683
 msgid "Icons"

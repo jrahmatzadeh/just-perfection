@@ -78,7 +78,7 @@ msgstr "قائمة التطبيقات"
 
 #: ui/prefs.ui:808
 msgid "The menu button in panel with focused window text"
-msgstr ""
+msgstr "زر القائمة في اللوحة مع نص النافذة المركّز"
 
 #: ui/prefs.ui:872
 msgid "Clock Menu"
@@ -86,7 +86,7 @@ msgstr "قائمة الساعة"
 
 #: ui/prefs.ui:883
 msgid "Also known as date menu shows date and time in panel"
-msgstr ""
+msgstr "تُعرف أيضًا باسم قائمة التاريخ والتي تعرض التاريخ والوقت في اللوحة"
 
 #: ui/prefs.ui:947
 msgid "Keyboard Layout"
@@ -94,7 +94,7 @@ msgstr "نموذج لوحة المفاتيح"
 
 #: ui/prefs.ui:958
 msgid "Keyboard Layout indicator button in panel"
-msgstr ""
+msgstr "زر مؤشر تخطيط لوحة المفاتيح في اللوحة"
 
 #: ui/prefs.ui:1022
 msgid "Accessibility Menu"
@@ -102,7 +102,7 @@ msgstr "قائمة الوصول"
 
 #: ui/prefs.ui:1033
 msgid "Accessibility Menu indicator button in panel"
-msgstr ""
+msgstr "زر مؤشر قائمة إمكانية الوصول في اللوحة"
 
 #: ui/prefs.ui:1097
 msgid "System Menu (Aggregate Menu)"
@@ -110,7 +110,7 @@ msgstr "قائمة النظام"
 
 #: ui/prefs.ui:1108
 msgid "System menu holds power, volume and network icons in panel"
-msgstr ""
+msgstr "تحتوي قائمة النظام على رموز الطاقة والحجم والشبكة في اللوحة"
 
 #: ui/prefs.ui:1172
 msgid "Search"
@@ -118,7 +118,7 @@ msgstr "بحث"
 
 #: ui/prefs.ui:1183
 msgid "Search entry in overview"
-msgstr ""
+msgstr "إدخال البحث في نظرة عامة"
 
 #: ui/prefs.ui:1247
 msgid "Dash"
@@ -126,7 +126,7 @@ msgstr "الشريط"
 
 #: ui/prefs.ui:1258
 msgid "Dash holds favorite and opened applications icons"
-msgstr ""
+msgstr "تحمل Dash أيقونات التطبيقات المفضلة والمفتوحة"
 
 #: ui/prefs.ui:1322
 msgid "Show Applications Button"
@@ -134,7 +134,7 @@ msgstr "إظهار زر التطبيقات"
 
 #: ui/prefs.ui:1333
 msgid "Button in dash that toggles applications list visibility"
-msgstr ""
+msgstr "زر في اندفاعة يبدل رؤية قائمة التطبيقات"
 
 #: ui/prefs.ui:1397
 msgid "On Screen Display (OSD)"
@@ -142,7 +142,7 @@ msgstr "OSD"
 
 #: ui/prefs.ui:1408
 msgid "Volume and brightness on screen display when the change happens"
-msgstr ""
+msgstr "مستوى الصوت والسطوع على شاشة العرض عند حدوث التغيير"
 
 #: ui/prefs.ui:1472
 msgid "Workspace Popup"
@@ -150,7 +150,7 @@ msgstr "مساحة العمل المنبثقة"
 
 #: ui/prefs.ui:1483
 msgid "Popup that appears on the screen when you change the workspace"
-msgstr ""
+msgstr "نافذة منبثقة تظهر على الشاشة عند تغيير مساحة العمل"
 
 #: ui/prefs.ui:1547
 msgid "Workspace Switcher"
@@ -160,7 +160,7 @@ msgstr "مبدل مساحة العمل"
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
-msgstr ""
+msgstr "يشير أيضًا إلى مصغرات مساحة العمل التي تراها في نظرة عامة لتحديد مساحة عمل"
 
 #: ui/prefs.ui:1622
 msgid "Background Menu"
@@ -168,7 +168,7 @@ msgstr "قائمة الخلفية"
 
 #: ui/prefs.ui:1633
 msgid "When you right click on desktop background"
-msgstr ""
+msgstr "عند النقر بزر الماوس الأيمن على خلفية سطح المكتب"
 
 #: ui/prefs.ui:1683
 msgid "Icons"
