@@ -19,6 +19,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Added
 
 - Startup status for GNOME Shell 40.
+- More descriptions to the preferences dialog.
 
 ## [11.0.0 Whisper] - 2021-05-20
 
