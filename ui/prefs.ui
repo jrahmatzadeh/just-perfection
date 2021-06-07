@@ -2164,7 +2164,7 @@
                                               <property name="visible">True</property>
                                               <property name="can-focus">False</property>
                                               <property name="valign">center</property>
-                                              <property name="label" translatable="yes">Status when GNOME Shell is starting up for the first time</property>
+                                              <property name="label" translatable="yes">When GNOME Shell is starting up for the first time</property>
                                               <property name="xalign">0</property>
                                               <property name="wrap">True</property>
                                               <property name="width-chars">0</property>
