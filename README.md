@@ -28,24 +28,24 @@ This extension allows you to do the following:
 - App Menu Icon
 - Power Icon
 - Panel Notification icon
-- Window Picker Icon (Only GNOME 40)
-- Panel Arrow (Only GNOME 3.36 and 3.38)
+- Window Picker Icon (Only GNOME Shell 40)
+- Panel Arrow (Only GNOME Shell 3.36 and 3.38)
 - Activities Button Icon
 
 ### Behavior
 
 - Disable Type to Search
 - Hot Corner
-- App Gesture (Only GNOME 3.36 and 3.38)
+- App Gesture (Only GNOME Shell 3.36 and 3.38)
 - Window Demands Attention Focus
-- Startup status (Only GNOME 40)
+- Startup status (Only GNOME Shell 40)
 
 ### Customize
 
 - Panel Position
 - Panel Round Corner Size
 - Clock Menu Position
-- Workspace Switcher Size (Only GNOME 40)
+- Workspace Switcher Size (Only GNOME Shell 40)
 - Animation Speed or Disable it
 - Dash Icon Size
 
