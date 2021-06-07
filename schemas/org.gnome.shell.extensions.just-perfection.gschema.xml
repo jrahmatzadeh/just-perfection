@@ -215,6 +215,13 @@
       <description>Dash Icon Size</description>
     </key>
     
+    <key type="i" name="startup-status">
+      <default>1</default>
+      <range min="0" max="1"/>
+      <summary>0 means desktop, 1 means overview</summary>
+      <description>Startup Status</description>
+    </key>
+    
   </schema>
   
 </schemalist>

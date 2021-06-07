@@ -2121,6 +2121,84 @@
                             </object>
                           </child>
                           
+                          <child>
+                            <object class="GtkListBoxRow" id="startup_status_row">
+                              <property name="visible">True</property>
+                              <property name="can-focus">True</property>
+                              
+                              <child>
+                                <object class="GtkBox" id="startup_status_box">
+                                  <property name="visible">True</property>
+                                  <property name="can-focus">False</property>
+                                  <property name="margin-start">12</property>
+                                  <property name="margin-end">12</property>
+                                  <property name="margin-top">12</property>
+                                  <property name="margin-bottom">12</property>
+                                  <property name="orientation">vertical</property>
+                                  
+                                  <child>
+                                    <object class="GtkBox" id="startup_status_box2">
+                                      <property name="visible">True</property>
+                                      <property name="can-focus">False</property>
+                                      <property name="spacing">32</property>
+                                      
+                                      <child>
+                                        <object class="GtkBox">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">True</property>
+                                          <property name="orientation">vertical</property>
+                                          
+                                          <child>
+                                            <object class="GtkLabel" id="startup_status_txt">
+                                              <property name="visible">True</property>
+                                              <property name="can-focus">False</property>
+                                              <property name="valign">center</property>
+                                              <property name="label" translatable="yes">Startup Status</property>
+                                              <property name="xalign">0</property>
+                                              <property name="hexpand">1</property>
+                                            </object>
+                                          </child>
+                                        
+                                          <child>
+                                            <object class="GtkLabel">
+                                              <property name="visible">True</property>
+                                              <property name="can-focus">False</property>
+                                              <property name="valign">center</property>
+                                              <property name="label" translatable="yes">Status when GNOME Shell is starting up for the first time</property>
+                                              <property name="xalign">0</property>
+                                              <property name="wrap">True</property>
+                                              <property name="width-chars">0</property>
+                                              <property name="max-width-chars">0</property>
+                                              <property name="margin-top">12</property>
+                                              <style>
+                                                <class name="dim-label"/>
+                                              </style>
+                                            </object>
+                                          </child>
+                                          
+                                        </object>
+                                      </child>
+                                      
+                                      <child>
+                                        <object class="GtkComboBoxText" id="startup_status_comboboxtext">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">True</property>
+                                          <items>
+                                            <item translatable="yes">Desktop</item>
+                                            <item translatable="yes">Overview</item>
+                                          </items>
+                                        </object>
+                                      </child>
+                                      
+                                    </object>
+                                  </child>
+                                  
+                                </object>
+                              </child>
+                              
+                            </object>
+                          </child>
+                          
                         </object>
                       </child>
                       
