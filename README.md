@@ -38,6 +38,7 @@ This extension allows you to do the following:
 - Hot Corner
 - App Gesture (Only GNOME 3.36 and 3.38)
 - Window Demands Attention Focus
+- Startup status (Only GNOME 40)
 
 ### Customize
 
