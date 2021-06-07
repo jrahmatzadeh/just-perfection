@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-06 22:26-0700\n"
+"POT-Creation-Date: 2021-06-07 07:03-0700\n"
 "PO-Revision-Date: 2021-05-22 16:10+0700\n"
 "Last-Translator: VBB <librusekus35790@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -68,236 +68,240 @@ msgstr "Видимость"
 msgid "Panel"
 msgstr "Панель"
 
-#: ui/prefs.ui:715
+#: ui/prefs.ui:722
 msgid "Activities Button"
 msgstr "Кнопка Обзор"
 
-#: ui/prefs.ui:764
+#: ui/prefs.ui:733
+msgid "Button in panel to toggle overview visibility"
+msgstr "Кнопка на панели для переключения видимости обзора"
+
+#: ui/prefs.ui:791
 msgid "App Menu"
 msgstr "Меню приложения"
 
-#: ui/prefs.ui:813
+#: ui/prefs.ui:840
 msgid "Clock Menu"
 msgstr "Панель уведомлений/Часы"
 
-#: ui/prefs.ui:862
+#: ui/prefs.ui:889
 msgid "Keyboard Layout"
 msgstr "Раскладка клавиатуры"
 
-#: ui/prefs.ui:911
+#: ui/prefs.ui:938
 msgid "Accessibility Menu"
 msgstr "Меню специальных возможностей"
 
-#: ui/prefs.ui:960
+#: ui/prefs.ui:987
 msgid "System Menu (Aggregate Menu)"
 msgstr "Системное меню"
 
-#: ui/prefs.ui:1009
+#: ui/prefs.ui:1036
 msgid "Search"
 msgstr "Строка поиска"
 
-#: ui/prefs.ui:1058
+#: ui/prefs.ui:1085
 msgid "Dash"
 msgstr "Dash панель"
 
-#: ui/prefs.ui:1107
+#: ui/prefs.ui:1134
 msgid "Show Applications Button"
 msgstr "Показать кнопку приложений"
 
-#: ui/prefs.ui:1156
+#: ui/prefs.ui:1183
 msgid "On Screen Display (OSD)"
 msgstr "On Screen Display (OSD)"
 
-#: ui/prefs.ui:1205
+#: ui/prefs.ui:1232
 msgid "Workspace Popup"
 msgstr "Всплывающий индикатор рабочего стола"
 
-#: ui/prefs.ui:1254
+#: ui/prefs.ui:1281
 msgid "Workspace Switcher"
 msgstr "Переключатель рабочих столов"
 
-#: ui/prefs.ui:1303
+#: ui/prefs.ui:1330
 msgid "Background Menu"
 msgstr "Меню рабочего стола"
 
-#: ui/prefs.ui:1344
+#: ui/prefs.ui:1371
 msgid "Icons"
 msgstr "Иконки"
 
-#: ui/prefs.ui:1393
+#: ui/prefs.ui:1420
 msgid "App Menu Icon"
 msgstr "Иконка приложения"
 
-#: ui/prefs.ui:1442
+#: ui/prefs.ui:1469
 msgid "Panel Notification Icon"
 msgstr "Индикатор уведомлений"
 
-#: ui/prefs.ui:1491
+#: ui/prefs.ui:1518
 msgid "Power Icon"
 msgstr "Значок питания"
 
-#: ui/prefs.ui:1540
+#: ui/prefs.ui:1567
 msgid "Panel Arrow"
 msgstr "Стрелки на панели"
 
-#: ui/prefs.ui:1589
+#: ui/prefs.ui:1616
 msgid "Window Picker Icon"
 msgstr "Значок выбора окна"
 
-#: ui/prefs.ui:1638
+#: ui/prefs.ui:1665
 msgid "Activities Button Icon"
 msgstr "Значок кнопки Обзор"
 
-#: ui/prefs.ui:1737
+#: ui/prefs.ui:1764
 msgid "Activities Button Icon in Monochrome"
 msgstr "Значок кнопки Обзор в монохромном Режиме"
 
-#: ui/prefs.ui:1792
+#: ui/prefs.ui:1819
 msgid "Activities Button Icon With Label"
 msgstr "Подпись у кнопки Обзор"
 
-#: ui/prefs.ui:1803
+#: ui/prefs.ui:1830
 msgid "Only works when you have selected an icon for activities button"
 msgstr "Работает, только если вы выбрали значок для кнопки Обзор"
 
-#: ui/prefs.ui:1853
+#: ui/prefs.ui:1880
 msgid "Behavior"
 msgstr "Поведение"
 
-#: ui/prefs.ui:1902
+#: ui/prefs.ui:1929
 msgid "Hot Corner"
 msgstr "Горячий угол"
 
-#: ui/prefs.ui:1951
+#: ui/prefs.ui:1978
 msgid "App Gesture"
 msgstr "Жест приложения"
 
-#: ui/prefs.ui:2006
+#: ui/prefs.ui:2033
 msgid "Window Demands Attention Focus"
 msgstr "Окно требует внимания"
 
-#: ui/prefs.ui:2017
+#: ui/prefs.ui:2044
 msgid "Removes window is ready notification and focus on the window"
 msgstr "Убирает уведомление о готовности окна и фокусирует на окне"
 
-#: ui/prefs.ui:2081
+#: ui/prefs.ui:2108
 msgid "Type to Search"
 msgstr "Введите для поиска"
 
-#: ui/prefs.ui:2092
+#: ui/prefs.ui:2119
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Вы можете начать поиск без строки поиска или даже не нажимая на неё в обзоре"
 
-#: ui/prefs.ui:2156
+#: ui/prefs.ui:2183
 msgid "Startup Status"
 msgstr "Статус запуска"
 
-#: ui/prefs.ui:2167
+#: ui/prefs.ui:2194
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "Когда GNOME Shell запускается впервые"
 
-#: ui/prefs.ui:2187
+#: ui/prefs.ui:2214
 msgid "Desktop"
 msgstr "Рабочий стол"
 
-#: ui/prefs.ui:2188
+#: ui/prefs.ui:2215
 msgid "Overview"
 msgstr "Обзор"
 
-#: ui/prefs.ui:2220
+#: ui/prefs.ui:2247
 msgid "Customize"
 msgstr "Настройки"
 
-#: ui/prefs.ui:2268
+#: ui/prefs.ui:2295
 msgid "Panel Corner Size"
 msgstr "Размер угла панели"
 
-#: ui/prefs.ui:2279
+#: ui/prefs.ui:2306
 msgid "By Shell Theme"
 msgstr "Определить темой оболочки"
 
-#: ui/prefs.ui:2280
+#: ui/prefs.ui:2307
 msgid "No Corner"
 msgstr "Убрать угл"
 
-#: ui/prefs.ui:2380
+#: ui/prefs.ui:2407
 msgid "Panel Position"
 msgstr "Расположение панели"
 
-#: ui/prefs.ui:2391
+#: ui/prefs.ui:2418
 msgid "Top"
 msgstr "Вверху"
 
-#: ui/prefs.ui:2392
+#: ui/prefs.ui:2419
 msgid "Bottom"
 msgstr "Внизу"
 
-#: ui/prefs.ui:2432
+#: ui/prefs.ui:2459
 msgid "Clock Menu Position"
 msgstr "Положение меню часов"
 
-#: ui/prefs.ui:2443
+#: ui/prefs.ui:2470
 msgid "Center"
 msgstr "По центру"
 
-#: ui/prefs.ui:2444
+#: ui/prefs.ui:2471
 msgid "Right"
 msgstr "Справа"
 
-#: ui/prefs.ui:2445
+#: ui/prefs.ui:2472
 msgid "Left"
 msgstr "Слева"
 
-#: ui/prefs.ui:2485
+#: ui/prefs.ui:2512
 msgid "Clock Menu Position Offset"
 msgstr "Смещение положения меню часов"
 
-#: ui/prefs.ui:2545
+#: ui/prefs.ui:2572
 msgid "Workspace Switcher Size"
 msgstr "Размер переключателя рабочих столов"
 
-#: ui/prefs.ui:2556 ui/prefs.ui:2695
+#: ui/prefs.ui:2583 ui/prefs.ui:2722
 msgid "Default"
 msgstr "По умолчанию"
 
-#: ui/prefs.ui:2626
+#: ui/prefs.ui:2653
 msgid "Animation"
 msgstr "Анимации"
 
-#: ui/prefs.ui:2637
+#: ui/prefs.ui:2664
 msgid "No Animation"
 msgstr "Без анимаций"
 
-#: ui/prefs.ui:2638
+#: ui/prefs.ui:2665
 msgid "Default Speed"
 msgstr "Скорость по умолчанию"
 
-#: ui/prefs.ui:2639
+#: ui/prefs.ui:2666
 msgid "Fastest"
 msgstr "Очень быстро"
 
-#: ui/prefs.ui:2640
+#: ui/prefs.ui:2667
 msgid "Faster"
 msgstr "Быстрее"
 
-#: ui/prefs.ui:2641
+#: ui/prefs.ui:2668
 msgid "Fast"
 msgstr "Быстро"
 
-#: ui/prefs.ui:2642
+#: ui/prefs.ui:2669
 msgid "Slow"
 msgstr "Медленно"
 
-#: ui/prefs.ui:2643
+#: ui/prefs.ui:2670
 msgid "Slower"
 msgstr "Медленнее"
 
-#: ui/prefs.ui:2644
+#: ui/prefs.ui:2671
 msgid "Slowest"
 msgstr "Очень медленно"
 
-#: ui/prefs.ui:2684
+#: ui/prefs.ui:2711
 msgid "Dash Icon Size"
 msgstr "Размер иконок Dash панели"
