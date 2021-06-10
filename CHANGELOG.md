@@ -9,6 +9,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Changed
 
 - Workspace switcher max size now maxed out to 30%.
+- Lighter background color for switcher list (alt+tab) in override theme.
 
 ### Fixed
 
