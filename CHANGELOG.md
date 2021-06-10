@@ -20,6 +20,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - Startup status for GNOME Shell 40.
 - More descriptions to the preferences dialog.
+- Chinese (Taiwan) translation by [@r0930514](https://gitlab.com/r0930514).
 
 ## [11.0.0 Whisper] - 2021-05-20
 
