@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-07 09:03-0700\n"
+"POT-Creation-Date: 2021-06-10 20:21-0700\n"
 "PO-Revision-Date: 2020-12-18 04:15-0800\n"
 "Last-Translator: Kareem Abduljaleel <karemjaleel34@gmail.com>\n"
 "Language-Team: Arabic\n"
@@ -160,7 +160,8 @@ msgstr "مبدل مساحة العمل"
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
-msgstr "يشير أيضًا إلى مصغرات مساحة العمل التي تراها في نظرة عامة لتحديد مساحة عمل"
+msgstr ""
+"يشير أيضًا إلى مصغرات مساحة العمل التي تراها في نظرة عامة لتحديد مساحة عمل"
 
 #: ui/prefs.ui:1622
 msgid "Background Menu"
@@ -190,163 +191,167 @@ msgstr "أيقونة الطاقة"
 msgid "Panel Arrow"
 msgstr "سهم اللوحة"
 
-#: ui/prefs.ui:1928
+#: ui/prefs.ui:1934
 msgid "Window Picker Icon"
 msgstr "ايقونة منتقي النافذة"
 
-#: ui/prefs.ui:1977
+#: ui/prefs.ui:1945
+msgid "The icon under window preview in overview"
+msgstr "الرمز الموجود أسفل معاينة النافذة في نظرة عامة"
+
+#: ui/prefs.ui:2003
 msgid "Activities Button Icon"
 msgstr "رمز زر الأنشطة"
 
-#: ui/prefs.ui:2076
+#: ui/prefs.ui:2102
 msgid "Activities Button Icon in Monochrome"
 msgstr "رمز زر الأنشطة في أحادية اللون"
 
-#: ui/prefs.ui:2131
+#: ui/prefs.ui:2157
 msgid "Activities Button Icon With Label"
 msgstr "رمز زر الأنشطة مع التسمية"
 
-#: ui/prefs.ui:2142
+#: ui/prefs.ui:2168
 msgid "Only works when you have selected an icon for activities button"
 msgstr "يعمل فقط عندما تحدد رمزًا لزر الأنشطة"
 
-#: ui/prefs.ui:2192
+#: ui/prefs.ui:2218
 msgid "Behavior"
 msgstr "تصرف"
 
-#: ui/prefs.ui:2241
+#: ui/prefs.ui:2267
 msgid "Hot Corner"
 msgstr "ركن حساس"
 
-#: ui/prefs.ui:2290
+#: ui/prefs.ui:2316
 msgid "App Gesture"
 msgstr "إيماءة التطبيق"
 
-#: ui/prefs.ui:2345
+#: ui/prefs.ui:2371
 msgid "Window Demands Attention Focus"
 msgstr "نافذة تتطلب التركيز على الاهتمام"
 
-#: ui/prefs.ui:2356
+#: ui/prefs.ui:2382
 msgid "Removes window is ready notification and focus on the window"
 msgstr "يزيل نافذة إشعار جاهز والتركيز على النافذة"
 
-#: ui/prefs.ui:2420
+#: ui/prefs.ui:2446
 msgid "Type to Search"
 msgstr "اكتب للبحث"
 
-#: ui/prefs.ui:2431
+#: ui/prefs.ui:2457
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr "يمكنك بدء البحث بدون إدخال بحث أو حتى التركيز عليه في نظرة عامة"
 
-#: ui/prefs.ui:2495
+#: ui/prefs.ui:2521
 msgid "Startup Status"
 msgstr "حالة بدء التشغيل"
 
-#: ui/prefs.ui:2506
+#: ui/prefs.ui:2532
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "عندما يبدأ GNOME Shell لأول مرة"
 
-#: ui/prefs.ui:2526
+#: ui/prefs.ui:2552
 msgid "Desktop"
 msgstr "سطح المكتب"
 
-#: ui/prefs.ui:2527
+#: ui/prefs.ui:2553
 msgid "Overview"
 msgstr "ملخص"
 
-#: ui/prefs.ui:2559
+#: ui/prefs.ui:2585
 msgid "Customize"
 msgstr "طوّع"
 
-#: ui/prefs.ui:2607
+#: ui/prefs.ui:2633
 msgid "Panel Corner Size"
 msgstr "حجم زاوية اللوحة"
 
-#: ui/prefs.ui:2618
+#: ui/prefs.ui:2644
 msgid "By Shell Theme"
 msgstr "بواسطة مظهر الشل"
 
-#: ui/prefs.ui:2619
+#: ui/prefs.ui:2645
 msgid "No Corner"
 msgstr "بدون زوايا"
 
-#: ui/prefs.ui:2719
+#: ui/prefs.ui:2745
 msgid "Panel Position"
 msgstr "موقع اللوحة"
 
-#: ui/prefs.ui:2730
+#: ui/prefs.ui:2756
 msgid "Top"
 msgstr "اعلى"
 
-#: ui/prefs.ui:2731
+#: ui/prefs.ui:2757
 msgid "Bottom"
 msgstr "اسفل"
 
-#: ui/prefs.ui:2771
+#: ui/prefs.ui:2797
 msgid "Clock Menu Position"
 msgstr "موضع قائمة الساعة"
 
-#: ui/prefs.ui:2782
+#: ui/prefs.ui:2808
 msgid "Center"
 msgstr "المركز"
 
-#: ui/prefs.ui:2783
+#: ui/prefs.ui:2809
 msgid "Right"
 msgstr "اليمين"
 
-#: ui/prefs.ui:2784
+#: ui/prefs.ui:2810
 msgid "Left"
 msgstr "اليسار"
 
-#: ui/prefs.ui:2824
+#: ui/prefs.ui:2850
 msgid "Clock Menu Position Offset"
 msgstr "إزاحة موضع قائمة الساعة"
 
-#: ui/prefs.ui:2884
+#: ui/prefs.ui:2910
 msgid "Workspace Switcher Size"
 msgstr "حجم مبدل مساحة العمل"
 
-#: ui/prefs.ui:2895 ui/prefs.ui:3034
+#: ui/prefs.ui:2921 ui/prefs.ui:3060
 msgid "Default"
 msgstr "الإفتراضي"
 
-#: ui/prefs.ui:2965
+#: ui/prefs.ui:2991
 msgid "Animation"
 msgstr "تأثيرات"
 
-#: ui/prefs.ui:2976
+#: ui/prefs.ui:3002
 msgid "No Animation"
 msgstr "بدون تأثيرات"
 
-#: ui/prefs.ui:2977
+#: ui/prefs.ui:3003
 msgid "Default Speed"
 msgstr "السرعة الافتراضية"
 
-#: ui/prefs.ui:2978
+#: ui/prefs.ui:3004
 msgid "Fastest"
 msgstr "سريع جدا"
 
-#: ui/prefs.ui:2979
+#: ui/prefs.ui:3005
 msgid "Faster"
 msgstr "اسرع"
 
-#: ui/prefs.ui:2980
+#: ui/prefs.ui:3006
 msgid "Fast"
 msgstr "سريع"
 
-#: ui/prefs.ui:2981
+#: ui/prefs.ui:3007
 msgid "Slow"
 msgstr "بطيء"
 
-#: ui/prefs.ui:2982
+#: ui/prefs.ui:3008
 msgid "Slower"
 msgstr "أبطأ"
 
-#: ui/prefs.ui:2983
+#: ui/prefs.ui:3009
 msgid "Slowest"
 msgstr "بطئ جدا"
 
-#: ui/prefs.ui:3023
+#: ui/prefs.ui:3049
 msgid "Dash Icon Size"
 msgstr "حجم رمز الشرطة"

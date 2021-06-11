@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-07 09:03-0700\n"
+"POT-Creation-Date: 2021-06-10 20:21-0700\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -113,7 +113,8 @@ msgstr "системно меню"
 
 #: ui/prefs.ui:1108
 msgid "System menu holds power, volume and network icons in panel"
-msgstr "Системното меню съдържа икони за мощност, сила на звука и мрежа в панела"
+msgstr ""
+"Системното меню съдържа икони за мощност, сила на звука и мрежа в панела"
 
 #: ui/prefs.ui:1172
 msgid "Search"
@@ -153,7 +154,9 @@ msgstr "Изскачащо работно пространство"
 
 #: ui/prefs.ui:1483
 msgid "Popup that appears on the screen when you change the workspace"
-msgstr "Изскачащ прозорец, който се появява на екрана, когато промените работното пространство"
+msgstr ""
+"Изскачащ прозорец, който се появява на екрана, когато промените работното "
+"пространство"
 
 #: ui/prefs.ui:1547
 msgid "Workspace Switcher"
@@ -163,7 +166,9 @@ msgstr "Превключвател на работното пространст�
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
-msgstr "Също така се отнася до миниатюри на работното пространство, които виждате в преглед за избор на работно пространство"
+msgstr ""
+"Също така се отнася до миниатюри на работното пространство, които виждате в "
+"преглед за избор на работно пространство"
 
 #: ui/prefs.ui:1622
 msgid "Background Menu"
@@ -193,165 +198,169 @@ msgstr "Икона на захранването"
 msgid "Panel Arrow"
 msgstr "панелна стрелка"
 
-#: ui/prefs.ui:1928
+#: ui/prefs.ui:1934
 msgid "Window Picker Icon"
 msgstr "Икона за избор на прозорец"
 
-#: ui/prefs.ui:1977
+#: ui/prefs.ui:1945
+msgid "The icon under window preview in overview"
+msgstr "Иконата под преглед на прозореца в общ преглед"
+
+#: ui/prefs.ui:2003
 msgid "Activities Button Icon"
 msgstr "Икона на бутон за дейности"
 
-#: ui/prefs.ui:2076
+#: ui/prefs.ui:2102
 msgid "Activities Button Icon in Monochrome"
 msgstr "Икона на бутон за дейности в монохромен"
 
-#: ui/prefs.ui:2131
+#: ui/prefs.ui:2157
 msgid "Activities Button Icon With Label"
 msgstr "Икона на бутон за дейности с етикет"
 
-#: ui/prefs.ui:2142
+#: ui/prefs.ui:2168
 msgid "Only works when you have selected an icon for activities button"
 msgstr "Работи само когато сте избрали икона за бутон за дейности"
 
-#: ui/prefs.ui:2192
+#: ui/prefs.ui:2218
 msgid "Behavior"
 msgstr "Поведение"
 
-#: ui/prefs.ui:2241
+#: ui/prefs.ui:2267
 msgid "Hot Corner"
 msgstr "Горещ ъгъл"
 
-#: ui/prefs.ui:2290
+#: ui/prefs.ui:2316
 msgid "App Gesture"
 msgstr "App жест"
 
-#: ui/prefs.ui:2345
+#: ui/prefs.ui:2371
 msgid "Window Demands Attention Focus"
 msgstr "Прозорецът изисква фокус на вниманието"
 
-#: ui/prefs.ui:2356
+#: ui/prefs.ui:2382
 msgid "Removes window is ready notification and focus on the window"
 msgstr "Премахва прозорец е готов известие и се фокусира върху прозореца"
 
-#: ui/prefs.ui:2420
+#: ui/prefs.ui:2446
 msgid "Type to Search"
 msgstr "Въведете за търсене"
 
-#: ui/prefs.ui:2431
+#: ui/prefs.ui:2457
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Можете да започнете търсенето без въвеждане на търсене или дори да се "
 "фокусирате върху него в общ преглед"
 
-#: ui/prefs.ui:2495
+#: ui/prefs.ui:2521
 msgid "Startup Status"
 msgstr "Стартово състояние"
 
-#: ui/prefs.ui:2506
+#: ui/prefs.ui:2532
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "Когато GNOME Shell се стартира за първи път"
 
-#: ui/prefs.ui:2526
+#: ui/prefs.ui:2552
 msgid "Desktop"
 msgstr "работен плот"
 
-#: ui/prefs.ui:2527
+#: ui/prefs.ui:2553
 msgid "Overview"
 msgstr "Общ преглед"
 
-#: ui/prefs.ui:2559
+#: ui/prefs.ui:2585
 msgid "Customize"
 msgstr "Персонализирайте"
 
-#: ui/prefs.ui:2607
+#: ui/prefs.ui:2633
 msgid "Panel Corner Size"
 msgstr "Размер на ъгъла на панела"
 
-#: ui/prefs.ui:2618
+#: ui/prefs.ui:2644
 msgid "By Shell Theme"
 msgstr "От Shell Theme"
 
-#: ui/prefs.ui:2619
+#: ui/prefs.ui:2645
 msgid "No Corner"
 msgstr "Без ъгъл"
 
-#: ui/prefs.ui:2719
+#: ui/prefs.ui:2745
 msgid "Panel Position"
 msgstr "Позиция на панела"
 
-#: ui/prefs.ui:2730
+#: ui/prefs.ui:2756
 msgid "Top"
 msgstr "Връх"
 
-#: ui/prefs.ui:2731
+#: ui/prefs.ui:2757
 msgid "Bottom"
 msgstr "Отдолу"
 
-#: ui/prefs.ui:2771
+#: ui/prefs.ui:2797
 msgid "Clock Menu Position"
 msgstr "Позиция на менюто на часовника"
 
-#: ui/prefs.ui:2782
+#: ui/prefs.ui:2808
 msgid "Center"
 msgstr "Център"
 
-#: ui/prefs.ui:2783
+#: ui/prefs.ui:2809
 msgid "Right"
 msgstr "Нали"
 
-#: ui/prefs.ui:2784
+#: ui/prefs.ui:2810
 msgid "Left"
 msgstr "Наляво"
 
-#: ui/prefs.ui:2824
+#: ui/prefs.ui:2850
 msgid "Clock Menu Position Offset"
 msgstr "Отместване на позицията на менюто на часовника"
 
-#: ui/prefs.ui:2884
+#: ui/prefs.ui:2910
 msgid "Workspace Switcher Size"
 msgstr "Размер на превключвателя на работното пространство"
 
-#: ui/prefs.ui:2895 ui/prefs.ui:3034
+#: ui/prefs.ui:2921 ui/prefs.ui:3060
 msgid "Default"
 msgstr "По подразбиране"
 
-#: ui/prefs.ui:2965
+#: ui/prefs.ui:2991
 msgid "Animation"
 msgstr "Анимация"
 
-#: ui/prefs.ui:2976
+#: ui/prefs.ui:3002
 msgid "No Animation"
 msgstr "Без анимация"
 
-#: ui/prefs.ui:2977
+#: ui/prefs.ui:3003
 msgid "Default Speed"
 msgstr "Скорост по подразбиране"
 
-#: ui/prefs.ui:2978
+#: ui/prefs.ui:3004
 msgid "Fastest"
 msgstr "Най-бързият"
 
-#: ui/prefs.ui:2979
+#: ui/prefs.ui:3005
 msgid "Faster"
 msgstr "По-бързо"
 
-#: ui/prefs.ui:2980
+#: ui/prefs.ui:3006
 msgid "Fast"
 msgstr "Бърз"
 
-#: ui/prefs.ui:2981
+#: ui/prefs.ui:3007
 msgid "Slow"
 msgstr "Бавен"
 
-#: ui/prefs.ui:2982
+#: ui/prefs.ui:3008
 msgid "Slower"
 msgstr "По-бавно"
 
-#: ui/prefs.ui:2983
+#: ui/prefs.ui:3009
 msgid "Slowest"
 msgstr "Най-бавно"
 
-#: ui/prefs.ui:3023
+#: ui/prefs.ui:3049
 msgid "Dash Icon Size"
 msgstr "размер на иконата на тире"

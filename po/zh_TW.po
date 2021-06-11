@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-07 09:03-0700\n"
+"POT-Creation-Date: 2021-06-10 20:21-0700\n"
 "PO-Revision-Date: 2021-06-10 10:43+0800\n"
 "Last-Translator: r0930514 <r0930514@gmail.com>\n"
 "Language-Team: \n"
@@ -190,163 +190,167 @@ msgstr "電源圖示"
 msgid "Panel Arrow"
 msgstr "面板箭頭"
 
-#: ui/prefs.ui:1928
+#: ui/prefs.ui:1934
 msgid "Window Picker Icon"
 msgstr "視窗選擇器圖示"
 
-#: ui/prefs.ui:1977
+#: ui/prefs.ui:1945
+msgid "The icon under window preview in overview"
+msgstr "概覽窗口預覽下的圖標"
+
+#: ui/prefs.ui:2003
 msgid "Activities Button Icon"
 msgstr "活動按鈕圖示"
 
-#: ui/prefs.ui:2076
+#: ui/prefs.ui:2102
 msgid "Activities Button Icon in Monochrome"
 msgstr "單色的活動按鈕圖示"
 
-#: ui/prefs.ui:2131
+#: ui/prefs.ui:2157
 msgid "Activities Button Icon With Label"
 msgstr "帶有標籤的活動按鈕圖示"
 
-#: ui/prefs.ui:2142
+#: ui/prefs.ui:2168
 msgid "Only works when you have selected an icon for activities button"
 msgstr "僅適用於已為活動按鈕選擇了圖示時"
 
-#: ui/prefs.ui:2192
+#: ui/prefs.ui:2218
 msgid "Behavior"
 msgstr "行為"
 
-#: ui/prefs.ui:2241
+#: ui/prefs.ui:2267
 msgid "Hot Corner"
 msgstr "熱角"
 
-#: ui/prefs.ui:2290
+#: ui/prefs.ui:2316
 msgid "App Gesture"
 msgstr "應用程式手勢"
 
-#: ui/prefs.ui:2345
+#: ui/prefs.ui:2371
 msgid "Window Demands Attention Focus"
 msgstr "視窗要求關注焦點"
 
-#: ui/prefs.ui:2356
+#: ui/prefs.ui:2382
 msgid "Removes window is ready notification and focus on the window"
 msgstr "刪除視窗已準備就緒通知，並直接專注於視窗"
 
-#: ui/prefs.ui:2420
+#: ui/prefs.ui:2446
 msgid "Type to Search"
 msgstr "打字直接搜索"
 
-#: ui/prefs.ui:2431
+#: ui/prefs.ui:2457
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr "不需要搜索框甚至不用聚焦到概覽視圖，你就可以開始搜索"
 
-#: ui/prefs.ui:2495
+#: ui/prefs.ui:2521
 msgid "Startup Status"
 msgstr "啟動狀態"
 
-#: ui/prefs.ui:2506
+#: ui/prefs.ui:2532
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "GNOME Shell 首次啟動時"
 
-#: ui/prefs.ui:2526
+#: ui/prefs.ui:2552
 msgid "Desktop"
 msgstr "桌面"
 
-#: ui/prefs.ui:2527
+#: ui/prefs.ui:2553
 msgid "Overview"
 msgstr "概述"
 
-#: ui/prefs.ui:2559
+#: ui/prefs.ui:2585
 msgid "Customize"
 msgstr "自定義"
 
-#: ui/prefs.ui:2607
+#: ui/prefs.ui:2633
 msgid "Panel Corner Size"
 msgstr "面板圓角尺寸"
 
-#: ui/prefs.ui:2618
+#: ui/prefs.ui:2644
 msgid "By Shell Theme"
 msgstr "依照 Shell 主題"
 
-#: ui/prefs.ui:2619
+#: ui/prefs.ui:2645
 msgid "No Corner"
 msgstr "無圓角"
 
-#: ui/prefs.ui:2719
+#: ui/prefs.ui:2745
 msgid "Panel Position"
 msgstr "面板位置"
 
-#: ui/prefs.ui:2730
+#: ui/prefs.ui:2756
 msgid "Top"
 msgstr "頂部"
 
-#: ui/prefs.ui:2731
+#: ui/prefs.ui:2757
 msgid "Bottom"
 msgstr "底部"
 
-#: ui/prefs.ui:2771
+#: ui/prefs.ui:2797
 msgid "Clock Menu Position"
 msgstr "時鐘選單位置"
 
-#: ui/prefs.ui:2782
+#: ui/prefs.ui:2808
 msgid "Center"
 msgstr "中間"
 
-#: ui/prefs.ui:2783
+#: ui/prefs.ui:2809
 msgid "Right"
 msgstr "左側"
 
-#: ui/prefs.ui:2784
+#: ui/prefs.ui:2810
 msgid "Left"
 msgstr "右側"
 
-#: ui/prefs.ui:2824
+#: ui/prefs.ui:2850
 msgid "Clock Menu Position Offset"
 msgstr "時鐘選單位置偏移"
 
-#: ui/prefs.ui:2884
+#: ui/prefs.ui:2910
 msgid "Workspace Switcher Size"
 msgstr "工作區切換器尺寸"
 
-#: ui/prefs.ui:2895 ui/prefs.ui:3034
+#: ui/prefs.ui:2921 ui/prefs.ui:3060
 msgid "Default"
 msgstr "預設"
 
-#: ui/prefs.ui:2965
+#: ui/prefs.ui:2991
 msgid "Animation"
 msgstr "動畫"
 
-#: ui/prefs.ui:2976
+#: ui/prefs.ui:3002
 msgid "No Animation"
 msgstr "無動畫"
 
-#: ui/prefs.ui:2977
+#: ui/prefs.ui:3003
 msgid "Default Speed"
 msgstr "預設速度"
 
-#: ui/prefs.ui:2978
+#: ui/prefs.ui:3004
 msgid "Fastest"
 msgstr "最快"
 
-#: ui/prefs.ui:2979
+#: ui/prefs.ui:3005
 msgid "Faster"
 msgstr "更快"
 
-#: ui/prefs.ui:2980
+#: ui/prefs.ui:3006
 msgid "Fast"
 msgstr "快"
 
-#: ui/prefs.ui:2981
+#: ui/prefs.ui:3007
 msgid "Slow"
 msgstr "慢"
 
-#: ui/prefs.ui:2982
+#: ui/prefs.ui:3008
 msgid "Slower"
 msgstr "更慢"
 
-#: ui/prefs.ui:2983
+#: ui/prefs.ui:3009
 msgid "Slowest"
 msgstr "最慢"
 
-#: ui/prefs.ui:3023
+#: ui/prefs.ui:3049
 msgid "Dash Icon Size"
 msgstr "Dash圖示大小"
