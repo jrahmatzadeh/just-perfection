@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-10 20:21-0700\n"
+"POT-Creation-Date: 2021-06-13 21:36-0700\n"
 "PO-Revision-Date: 2020-12-18 04:55-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: German\n"
@@ -174,198 +174,206 @@ msgstr ""
 "Übersicht sehen, um einen Arbeitsbereich auszuwählen"
 
 #: ui/prefs.ui:1622
+msgid "Workspaces App Grid"
+msgstr "Arbeitsbereiche-App-Raster"
+
+#: ui/prefs.ui:1633
+msgid "Workspace boxes in app grid"
+msgstr "Arbeitsbereichsfelder im App-Raster"
+
+#: ui/prefs.ui:1697
 msgid "Background Menu"
 msgstr "Hintergrundmenü"
 
-#: ui/prefs.ui:1633
+#: ui/prefs.ui:1708
 msgid "When you right click on desktop background"
 msgstr "Wenn Sie mit der rechten Maustaste auf den Desktop-Hintergrund klicken"
 
-#: ui/prefs.ui:1683
+#: ui/prefs.ui:1758
 msgid "Icons"
 msgstr "Symbole"
 
-#: ui/prefs.ui:1732
+#: ui/prefs.ui:1807
 msgid "App Menu Icon"
 msgstr "Das Anwendungsmenüsymbol"
 
-#: ui/prefs.ui:1781
+#: ui/prefs.ui:1856
 msgid "Panel Notification Icon"
 msgstr "Panel-Benachrichtigungssymbol"
 
-#: ui/prefs.ui:1830
+#: ui/prefs.ui:1905
 msgid "Power Icon"
 msgstr "Power Icon"
 
-#: ui/prefs.ui:1879
+#: ui/prefs.ui:1954
 msgid "Panel Arrow"
 msgstr "Bedienfeldpfeil"
 
-#: ui/prefs.ui:1934
+#: ui/prefs.ui:2009
 msgid "Window Picker Icon"
 msgstr "Fensterauswahl-Symbol"
 
-#: ui/prefs.ui:1945
+#: ui/prefs.ui:2020
 msgid "The icon under window preview in overview"
 msgstr "Das Symbol unter der Fenstervorschau in der Übersicht"
 
-#: ui/prefs.ui:2003
+#: ui/prefs.ui:2078
 msgid "Activities Button Icon"
 msgstr "Aktivitätsschaltfläche Symbol"
 
-#: ui/prefs.ui:2102
+#: ui/prefs.ui:2177
 msgid "Activities Button Icon in Monochrome"
 msgstr "Aktivitäten Button Icon in Monochrom"
 
-#: ui/prefs.ui:2157
+#: ui/prefs.ui:2232
 msgid "Activities Button Icon With Label"
 msgstr "Aktivitäten-Schaltflächensymbol mit Beschriftung"
 
-#: ui/prefs.ui:2168
+#: ui/prefs.ui:2243
 msgid "Only works when you have selected an icon for activities button"
 msgstr ""
 "Funktioniert nur, wenn Sie ein Symbol für die Schaltfläche Aktivitäten "
 "ausgewählt haben"
 
-#: ui/prefs.ui:2218
+#: ui/prefs.ui:2293
 msgid "Behavior"
 msgstr "Verhalten"
 
-#: ui/prefs.ui:2267
+#: ui/prefs.ui:2342
 msgid "Hot Corner"
 msgstr "Funktionale Ecke"
 
-#: ui/prefs.ui:2316
+#: ui/prefs.ui:2391
 msgid "App Gesture"
 msgstr "App-Geste"
 
-#: ui/prefs.ui:2371
+#: ui/prefs.ui:2446
 msgid "Window Demands Attention Focus"
 msgstr "Fenster fordert Aufmerksamkeitsfokus"
 
-#: ui/prefs.ui:2382
+#: ui/prefs.ui:2457
 msgid "Removes window is ready notification and focus on the window"
 msgstr "Entfernt Fenster ist bereit Benachrichtigung und Fokus auf das Fenster"
 
-#: ui/prefs.ui:2446
+#: ui/prefs.ui:2521
 msgid "Type to Search"
 msgstr "Tippe um zu suchen"
 
-#: ui/prefs.ui:2457
+#: ui/prefs.ui:2532
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Sie können die Suche starten, ohne einen Sucheintrag zu haben oder sich in "
 "der Übersicht darauf zu konzentrieren"
 
-#: ui/prefs.ui:2521
+#: ui/prefs.ui:2596
 msgid "Startup Status"
 msgstr "Startstatus"
 
-#: ui/prefs.ui:2532
+#: ui/prefs.ui:2607
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "Wenn GNOME Shell zum ersten Mal startet"
 
-#: ui/prefs.ui:2552
+#: ui/prefs.ui:2627
 msgid "Desktop"
 msgstr "Desktop"
 
-#: ui/prefs.ui:2553
+#: ui/prefs.ui:2628
 msgid "Overview"
 msgstr "Überblick"
 
-#: ui/prefs.ui:2585
+#: ui/prefs.ui:2660
 msgid "Customize"
 msgstr "Anpassen"
 
-#: ui/prefs.ui:2633
+#: ui/prefs.ui:2708
 msgid "Panel Corner Size"
 msgstr "Panel Corner Größe"
 
-#: ui/prefs.ui:2644
+#: ui/prefs.ui:2719
 msgid "By Shell Theme"
 msgstr "Nach Shell-Thema"
 
-#: ui/prefs.ui:2645
+#: ui/prefs.ui:2720
 msgid "No Corner"
 msgstr "Keine Ecke"
 
-#: ui/prefs.ui:2745
+#: ui/prefs.ui:2820
 msgid "Panel Position"
 msgstr "Panel Position"
 
-#: ui/prefs.ui:2756
+#: ui/prefs.ui:2831
 msgid "Top"
 msgstr "oben"
 
-#: ui/prefs.ui:2757
+#: ui/prefs.ui:2832
 msgid "Bottom"
 msgstr "Unterseite"
 
-#: ui/prefs.ui:2797
+#: ui/prefs.ui:2872
 msgid "Clock Menu Position"
 msgstr "Position des Uhrmenüs"
 
-#: ui/prefs.ui:2808
+#: ui/prefs.ui:2883
 msgid "Center"
 msgstr "Center"
 
-#: ui/prefs.ui:2809
+#: ui/prefs.ui:2884
 msgid "Right"
 msgstr "Richtig"
 
-#: ui/prefs.ui:2810
+#: ui/prefs.ui:2885
 msgid "Left"
 msgstr "Links"
 
-#: ui/prefs.ui:2850
+#: ui/prefs.ui:2925
 msgid "Clock Menu Position Offset"
 msgstr "Positionsversatz des Uhrmenüs"
 
-#: ui/prefs.ui:2910
+#: ui/prefs.ui:2985
 msgid "Workspace Switcher Size"
 msgstr "Größe des Arbeitsbereichsumschalters"
 
-#: ui/prefs.ui:2921 ui/prefs.ui:3060
+#: ui/prefs.ui:2996 ui/prefs.ui:3135
 msgid "Default"
 msgstr "Standard"
 
-#: ui/prefs.ui:2991
+#: ui/prefs.ui:3066
 msgid "Animation"
 msgstr "Animation"
 
-#: ui/prefs.ui:3002
+#: ui/prefs.ui:3077
 msgid "No Animation"
 msgstr "Keine Animation "
 
-#: ui/prefs.ui:3003
+#: ui/prefs.ui:3078
 msgid "Default Speed"
 msgstr "Standardgeschwindigkeit"
 
-#: ui/prefs.ui:3004
+#: ui/prefs.ui:3079
 msgid "Fastest"
 msgstr "Am schnellsten"
 
-#: ui/prefs.ui:3005
+#: ui/prefs.ui:3080
 msgid "Faster"
 msgstr "Schneller"
 
-#: ui/prefs.ui:3006
+#: ui/prefs.ui:3081
 msgid "Fast"
 msgstr "Schnell"
 
-#: ui/prefs.ui:3007
+#: ui/prefs.ui:3082
 msgid "Slow"
 msgstr "Schleppend"
 
-#: ui/prefs.ui:3008
+#: ui/prefs.ui:3083
 msgid "Slower"
 msgstr "Langsamer"
 
-#: ui/prefs.ui:3009
+#: ui/prefs.ui:3084
 msgid "Slowest"
 msgstr "Am langsamsten"
 
-#: ui/prefs.ui:3049
+#: ui/prefs.ui:3124
 msgid "Dash Icon Size"
 msgstr "Strichsymbolgröße"

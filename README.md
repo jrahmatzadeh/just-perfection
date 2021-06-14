@@ -22,6 +22,7 @@ This extension allows you to do the following:
 - Accessibility Menu
 - System Menu (Aggregate Menu)
 - Applications Button
+- Workspaces in app grid (Only GNOME Shell 40)
 
 ### Icons Visibility
 

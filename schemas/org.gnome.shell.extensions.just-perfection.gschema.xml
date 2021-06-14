@@ -222,6 +222,12 @@
       <description>Startup Status</description>
     </key>
     
+    <key type="b" name="workspaces-in-app-grid">
+      <default>true</default>
+      <summary>Workspaces Visiblity in App Grid</summary>
+      <description>Workspaces Visiblity in App Grid Status</description>
+    </key>
+    
   </schema>
   
 </schemalist>
