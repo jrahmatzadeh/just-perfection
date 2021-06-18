@@ -21,6 +21,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - Startup status for GNOME Shell 40.
 - More descriptions to the preferences dialog.
+- Workspace animation background color for shell theme override.
 - Workspaces visiblity in app grid by [@fmuellner](https://gitlab.gnome.org/fmuellner).
 - Chinese (Taiwan) translation by [@r0930514](https://gitlab.com/r0930514).
 
