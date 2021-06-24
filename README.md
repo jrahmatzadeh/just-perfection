@@ -49,6 +49,7 @@ This extension allows you to do the following:
 - Workspace Switcher Size (Only GNOME Shell 40)
 - Animation Speed or Disable it
 - Dash Icon Size
+- Notification Banner Position
 
 ### Override
 

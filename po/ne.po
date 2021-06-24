@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-13 21:36-0700\n"
+"POT-Creation-Date: 2021-06-24 02:34-0700\n"
 "PO-Revision-Date: 2021-02-05 14:43+0545\n"
 "Last-Translator: 1BA4 <nabin7076@protonmail.com>\n"
 "Language-Team: Nepali <>\n"
@@ -366,3 +366,23 @@ msgstr "सब भन्दा ढिलो"
 #: ui/prefs.ui:3124
 msgid "Dash Icon Size"
 msgstr "ड्यास आइकन आकार"
+
+#: ui/prefs.ui:3184
+msgid "Notification Banner Position"
+msgstr "सूचना ब्यानर स्थिति"
+
+#: ui/prefs.ui:3195
+msgid "Notification popup position when notifications show up on the screen"
+msgstr "सूचना पपअप स्थिति जब सूचनाहरू स्क्रीनमा देखा पर्दछ"
+
+#: ui/prefs.ui:3215
+msgid "Top Start"
+msgstr "शीर्ष सुरू"
+
+#: ui/prefs.ui:3216
+msgid "Top Center"
+msgstr "शीर्ष केन्द्र"
+
+#: ui/prefs.ui:3217
+msgid "Top End"
+msgstr ""

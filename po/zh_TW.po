@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-13 21:36-0700\n"
+"POT-Creation-Date: 2021-06-24 02:26-0700\n"
 "PO-Revision-Date: 2021-06-10 10:43+0800\n"
 "Last-Translator: r0930514 <r0930514@gmail.com>\n"
 "Language-Team: \n"
@@ -362,3 +362,23 @@ msgstr "最慢"
 #: ui/prefs.ui:3124
 msgid "Dash Icon Size"
 msgstr "Dash圖示大小"
+
+#: ui/prefs.ui:3184
+msgid "Notification Banner Position"
+msgstr "通知橫幅位置"
+
+#: ui/prefs.ui:3195
+msgid "Notification popup position when notifications show up on the screen"
+msgstr "通知出現在屏幕上時的通知彈出位置"
+
+#: ui/prefs.ui:3215
+msgid "Top Start"
+msgstr "最開始"
+
+#: ui/prefs.ui:3216
+msgid "Top Center"
+msgstr "頂部中心"
+
+#: ui/prefs.ui:3217
+msgid "Top End"
+msgstr "高端"

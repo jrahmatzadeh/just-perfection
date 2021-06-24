@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-13 21:36-0700\n"
+"POT-Creation-Date: 2021-06-24 02:26-0700\n"
 "PO-Revision-Date: 2021-05-22 16:10+0700\n"
 "Last-Translator: VBB <librusekus35790@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -371,3 +371,23 @@ msgstr "Очень медленно"
 #: ui/prefs.ui:3124
 msgid "Dash Icon Size"
 msgstr "Размер иконок Dash панели"
+
+#: ui/prefs.ui:3184
+msgid "Notification Banner Position"
+msgstr "Позиция баннера уведомления"
+
+#: ui/prefs.ui:3195
+msgid "Notification popup position when notifications show up on the screen"
+msgstr "Положение всплывающего уведомления при отображении уведомлений на экране"
+
+#: ui/prefs.ui:3215
+msgid "Top Start"
+msgstr "Верхний старт"
+
+#: ui/prefs.ui:3216
+msgid "Top Center"
+msgstr "Вверх по центру"
+
+#: ui/prefs.ui:3217
+msgid "Top End"
+msgstr "Верхний конец"

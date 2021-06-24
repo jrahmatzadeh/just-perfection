@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-13 21:36-0700\n"
+"POT-Creation-Date: 2021-06-24 02:26-0700\n"
 "PO-Revision-Date: 2021-02-01 18:27+0100\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish; Castilian <oscfdezdz@tuta.io>\n"
@@ -378,3 +378,23 @@ msgstr "El más lento"
 #: ui/prefs.ui:3124
 msgid "Dash Icon Size"
 msgstr "tamaño del icono del tablero"
+
+#: ui/prefs.ui:3184
+msgid "Notification Banner Position"
+msgstr "Posición del banner de notificación"
+
+#: ui/prefs.ui:3195
+msgid "Notification popup position when notifications show up on the screen"
+msgstr "Posición de la ventana emergente de notificación cuando las notificaciones aparecen en la pantalla"
+
+#: ui/prefs.ui:3215
+msgid "Top Start"
+msgstr "Inicio superior"
+
+#: ui/prefs.ui:3216
+msgid "Top Center"
+msgstr "Centro Superior"
+
+#: ui/prefs.ui:3217
+msgid "Top End"
+msgstr "Extremo superior"

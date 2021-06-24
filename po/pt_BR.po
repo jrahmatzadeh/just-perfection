@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-13 21:36-0700\n"
+"POT-Creation-Date: 2021-06-24 02:26-0700\n"
 "PO-Revision-Date: 2021-03-10 16:11-0300\n"
 "Last-Translator: zelling <zelling@zelling-desktop>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
@@ -368,3 +368,23 @@ msgstr "Mais lento"
 #: ui/prefs.ui:3124
 msgid "Dash Icon Size"
 msgstr "tamanho do ícone do traço"
+
+#: ui/prefs.ui:3184
+msgid "Notification Banner Position"
+msgstr "Posição do banner de notificação"
+
+#: ui/prefs.ui:3195
+msgid "Notification popup position when notifications show up on the screen"
+msgstr "Posição do pop-up de notificação quando as notificações aparecem na tela"
+
+#: ui/prefs.ui:3215
+msgid "Top Start"
+msgstr "Início principal"
+
+#: ui/prefs.ui:3216
+msgid "Top Center"
+msgstr "Centro Superior"
+
+#: ui/prefs.ui:3217
+msgid "Top End"
+msgstr "Extremidade superior"

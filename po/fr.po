@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-13 21:36-0700\n"
+"POT-Creation-Date: 2021-06-24 02:26-0700\n"
 "PO-Revision-Date: 2020-12-13 07:26-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: French\n"
@@ -381,3 +381,23 @@ msgstr "Le plus lent"
 #: ui/prefs.ui:3124
 msgid "Dash Icon Size"
 msgstr "Taille des icônes de la barre de raccourcis"
+
+#: ui/prefs.ui:3184
+msgid "Notification Banner Position"
+msgstr "Position de la bannière de notification"
+
+#: ui/prefs.ui:3195
+msgid "Notification popup position when notifications show up on the screen"
+msgstr "Position de la fenêtre contextuelle de notification lorsque les notifications s'affichent à l'écran"
+
+#: ui/prefs.ui:3215
+msgid "Top Start"
+msgstr "Top départ"
+
+#: ui/prefs.ui:3216
+msgid "Top Center"
+msgstr "Centre supérieur"
+
+#: ui/prefs.ui:3217
+msgid "Top End"
+msgstr "Extrémité supérieure"

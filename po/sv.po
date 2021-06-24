@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-13 21:36-0700\n"
+"POT-Creation-Date: 2021-06-24 02:26-0700\n"
 "PO-Revision-Date: 2021-04-13 22:01+0200\n"
 "Last-Translator: Morgan Antonsson <morgan.antonsson@gmail.com>\n"
 "Language-Team: Swedish\n"
@@ -366,3 +366,23 @@ msgstr "Långsammast"
 #: ui/prefs.ui:3124
 msgid "Dash Icon Size"
 msgstr "streck ikonstorlek"
+
+#: ui/prefs.ui:3184
+msgid "Notification Banner Position"
+msgstr "Meddelande Banner Position"
+
+#: ui/prefs.ui:3195
+msgid "Notification popup position when notifications show up on the screen"
+msgstr "Meddelande popup-position när aviseringar dyker upp på skärmen"
+
+#: ui/prefs.ui:3215
+msgid "Top Start"
+msgstr "Top Start"
+
+#: ui/prefs.ui:3216
+msgid "Top Center"
+msgstr "Top Center"
+
+#: ui/prefs.ui:3217
+msgid "Top End"
+msgstr "Toppänden"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-13 21:36-0700\n"
+"POT-Creation-Date: 2021-06-24 02:26-0700\n"
 "PO-Revision-Date: 2021-03-09 01:18+0100\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
@@ -372,3 +372,23 @@ msgstr "O máis lento"
 #: ui/prefs.ui:3124
 msgid "Dash Icon Size"
 msgstr "tamaño da icona de trazo"
+
+#: ui/prefs.ui:3184
+msgid "Notification Banner Position"
+msgstr "Posición do Banner de notificacións"
+
+#: ui/prefs.ui:3195
+msgid "Notification popup position when notifications show up on the screen"
+msgstr "Posición emerxente de notificacións cando as notificacións aparecen na pantalla"
+
+#: ui/prefs.ui:3215
+msgid "Top Start"
+msgstr "Inicio superior"
+
+#: ui/prefs.ui:3216
+msgid "Top Center"
+msgstr "Centro superior"
+
+#: ui/prefs.ui:3217
+msgid "Top End"
+msgstr "Top End"

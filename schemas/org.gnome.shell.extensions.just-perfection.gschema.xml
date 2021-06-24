@@ -228,6 +228,13 @@
       <description>Workspaces Visiblity in App Grid Status</description>
     </key>
     
+    <key type="i" name="notification-banner-position">
+      <default>1</default>
+      <range min="0" max="2"/>
+      <summary>0: top start, 1: top center, 2: top end</summary>
+      <description>Notification Banner Position</description>
+    </key>
+    
   </schema>
   
 </schemalist>

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-13 21:36-0700\n"
+"POT-Creation-Date: 2021-06-24 02:26-0700\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -372,3 +372,23 @@ msgstr "Най-бавно"
 #: ui/prefs.ui:3124
 msgid "Dash Icon Size"
 msgstr "размер на иконата на тире"
+
+#: ui/prefs.ui:3184
+msgid "Notification Banner Position"
+msgstr "Позиция на банера за известия"
+
+#: ui/prefs.ui:3195
+msgid "Notification popup position when notifications show up on the screen"
+msgstr "Изскачаща позиция за известия, когато известията се показват на екрана"
+
+#: ui/prefs.ui:3215
+msgid "Top Start"
+msgstr "Топ Старт"
+
+#: ui/prefs.ui:3216
+msgid "Top Center"
+msgstr "Топ център"
+
+#: ui/prefs.ui:3217
+msgid "Top End"
+msgstr "Горен край"
