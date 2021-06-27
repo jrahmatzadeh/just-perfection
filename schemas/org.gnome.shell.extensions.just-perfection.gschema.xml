@@ -235,6 +235,12 @@
       <description>Notification Banner Position</description>
     </key>
     
+    <key type="b" name="workspace-switcher-should-show">
+      <default>false</default>
+      <summary>Always Show Workspaces Switcher</summary>
+      <description>Always Show Workspace Switcher Status</description>
+    </key>
+    
   </schema>
   
 </schemalist>

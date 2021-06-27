@@ -20,9 +20,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Added
 
 - Startup status for GNOME Shell 40.
-- More descriptions to the preferences dialog.
+- Always show workspace switcher on dynamic workspaces
 - Notification banner position.
 - Workspace animation background color for shell theme override.
+- More descriptions to the preferences dialog.
 - Workspaces visiblity in app grid by [@fmuellner](https://gitlab.gnome.org/fmuellner).
 - Chinese (Taiwan) translation by [@r0930514](https://gitlab.com/r0930514).
 

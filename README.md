@@ -39,6 +39,7 @@ This extension allows you to do the following:
 - Hot Corner
 - App Gesture (Only GNOME Shell 3.36 and 3.38)
 - Window Demands Attention Focus
+- Always Show Workspace Switcher on Dynamic Workspaces (Only GNOME Shell 40)
 - Startup status (Only GNOME Shell 40)
 
 ### Customize
