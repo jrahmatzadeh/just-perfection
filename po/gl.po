@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-24 02:26-0700\n"
+"POT-Creation-Date: 2021-06-27 00:00-0700\n"
 "PO-Revision-Date: 2021-03-09 01:18+0100\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
@@ -262,133 +262,147 @@ msgstr ""
 "descripción xeral"
 
 #: ui/prefs.ui:2596
+msgid "Always Show Workspace Switcher"
+msgstr "Mostrar sempre o conmutador de espazo de traballo"
+
+#: ui/prefs.ui:2607
+msgid ""
+"Shows workspace switcher even when only one workspace used with dynamic "
+"workspaces"
+msgstr ""
+"Mostra o conmutador de espazo de traballo incluso cando só se usa "
+"un espazo de traballo con espazos de traballo dinámicos"
+
+#: ui/prefs.ui:2671
 msgid "Startup Status"
 msgstr "Estado de inicio"
 
-#: ui/prefs.ui:2607
+#: ui/prefs.ui:2682
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "Cando GNOME Shell está a iniciarse por primeira vez"
 
-#: ui/prefs.ui:2627
+#: ui/prefs.ui:2702
 msgid "Desktop"
 msgstr "Escritorio"
 
-#: ui/prefs.ui:2628
+#: ui/prefs.ui:2703
 msgid "Overview"
 msgstr "Visión xeral"
 
-#: ui/prefs.ui:2660
+#: ui/prefs.ui:2735
 msgid "Customize"
 msgstr "Personalizar"
 
-#: ui/prefs.ui:2708
+#: ui/prefs.ui:2783
 msgid "Panel Corner Size"
 msgstr "Tamaño da esquina do panel"
 
-#: ui/prefs.ui:2719
+#: ui/prefs.ui:2794
 msgid "By Shell Theme"
 msgstr "Polo tema do Shell"
 
-#: ui/prefs.ui:2720
+#: ui/prefs.ui:2795
 msgid "No Corner"
 msgstr "Sen esquina"
 
-#: ui/prefs.ui:2820
+#: ui/prefs.ui:2895
 msgid "Panel Position"
 msgstr "Posición do panel"
 
-#: ui/prefs.ui:2831
+#: ui/prefs.ui:2906
 msgid "Top"
 msgstr "Arriba"
 
-#: ui/prefs.ui:2832
+#: ui/prefs.ui:2907
 msgid "Bottom"
 msgstr "Abaixo"
 
-#: ui/prefs.ui:2872
+#: ui/prefs.ui:2947
 msgid "Clock Menu Position"
 msgstr "Posición do menú do reloxo"
 
-#: ui/prefs.ui:2883
+#: ui/prefs.ui:2958
 msgid "Center"
 msgstr "Centro"
 
-#: ui/prefs.ui:2884
+#: ui/prefs.ui:2959
 msgid "Right"
 msgstr "Certo"
 
-#: ui/prefs.ui:2885
+#: ui/prefs.ui:2960
 msgid "Left"
 msgstr "Á esquerda"
 
-#: ui/prefs.ui:2925
+#: ui/prefs.ui:3000
 msgid "Clock Menu Position Offset"
 msgstr "Desprazamento da posición do menú do reloxo"
 
-#: ui/prefs.ui:2985
+#: ui/prefs.ui:3060
 msgid "Workspace Switcher Size"
 msgstr "Tamaño do trocador de espaczo de traballo"
 
-#: ui/prefs.ui:2996 ui/prefs.ui:3135
+#: ui/prefs.ui:3071 ui/prefs.ui:3210
 msgid "Default"
 msgstr "Predeterminado"
 
-#: ui/prefs.ui:3066
+#: ui/prefs.ui:3141
 msgid "Animation"
 msgstr "Animación"
 
-#: ui/prefs.ui:3077
+#: ui/prefs.ui:3152
 msgid "No Animation"
 msgstr "Sen animación"
 
-#: ui/prefs.ui:3078
+#: ui/prefs.ui:3153
 msgid "Default Speed"
 msgstr "Velocidade predeterminada"
 
-#: ui/prefs.ui:3079
+#: ui/prefs.ui:3154
 msgid "Fastest"
 msgstr "O máis rápido"
 
-#: ui/prefs.ui:3080
+#: ui/prefs.ui:3155
 msgid "Faster"
 msgstr "Máis rápido"
 
-#: ui/prefs.ui:3081
+#: ui/prefs.ui:3156
 msgid "Fast"
 msgstr "Rápido"
 
-#: ui/prefs.ui:3082
+#: ui/prefs.ui:3157
 msgid "Slow"
 msgstr "Lento   "
 
-#: ui/prefs.ui:3083
+#: ui/prefs.ui:3158
 msgid "Slower"
 msgstr "Máis lento"
 
-#: ui/prefs.ui:3084
+#: ui/prefs.ui:3159
 msgid "Slowest"
 msgstr "O máis lento"
 
-#: ui/prefs.ui:3124
+#: ui/prefs.ui:3199
 msgid "Dash Icon Size"
 msgstr "tamaño da icona de trazo"
 
-#: ui/prefs.ui:3184
+#: ui/prefs.ui:3259
 msgid "Notification Banner Position"
 msgstr "Posición do Banner de notificacións"
 
-#: ui/prefs.ui:3195
+#: ui/prefs.ui:3270
 msgid "Notification popup position when notifications show up on the screen"
-msgstr "Posición emerxente de notificacións cando as notificacións aparecen na pantalla"
+msgstr ""
+"Posición emerxente de notificacións cando as notificacións aparecen na "
+"pantalla"
 
-#: ui/prefs.ui:3215
+#: ui/prefs.ui:3290
 msgid "Top Start"
 msgstr "Inicio superior"
 
-#: ui/prefs.ui:3216
+#: ui/prefs.ui:3291
 msgid "Top Center"
 msgstr "Centro superior"
 
-#: ui/prefs.ui:3217
+#: ui/prefs.ui:3292
 msgid "Top End"
 msgstr "Top End"

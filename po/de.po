@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-24 02:26-0700\n"
+"POT-Creation-Date: 2021-06-27 00:00-0700\n"
 "PO-Revision-Date: 2020-12-18 04:55-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: German\n"
@@ -267,133 +267,147 @@ msgstr ""
 "der Übersicht darauf zu konzentrieren"
 
 #: ui/prefs.ui:2596
+msgid "Always Show Workspace Switcher"
+msgstr "Arbeitsbereich-Umschalter immer anzeigen"
+
+#: ui/prefs.ui:2607
+msgid ""
+"Shows workspace switcher even when only one workspace used with dynamic "
+"workspaces"
+msgstr ""
+"Zeigt den Arbeitsbereich-Umschalter an, auch wenn nur ein Arbeitsbereich "
+"mit dynamischen Arbeitsbereichen verwendet wird"
+
+#: ui/prefs.ui:2671
 msgid "Startup Status"
 msgstr "Startstatus"
 
-#: ui/prefs.ui:2607
+#: ui/prefs.ui:2682
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "Wenn GNOME Shell zum ersten Mal startet"
 
-#: ui/prefs.ui:2627
+#: ui/prefs.ui:2702
 msgid "Desktop"
 msgstr "Desktop"
 
-#: ui/prefs.ui:2628
+#: ui/prefs.ui:2703
 msgid "Overview"
 msgstr "Überblick"
 
-#: ui/prefs.ui:2660
+#: ui/prefs.ui:2735
 msgid "Customize"
 msgstr "Anpassen"
 
-#: ui/prefs.ui:2708
+#: ui/prefs.ui:2783
 msgid "Panel Corner Size"
 msgstr "Panel Corner Größe"
 
-#: ui/prefs.ui:2719
+#: ui/prefs.ui:2794
 msgid "By Shell Theme"
 msgstr "Nach Shell-Thema"
 
-#: ui/prefs.ui:2720
+#: ui/prefs.ui:2795
 msgid "No Corner"
 msgstr "Keine Ecke"
 
-#: ui/prefs.ui:2820
+#: ui/prefs.ui:2895
 msgid "Panel Position"
 msgstr "Panel Position"
 
-#: ui/prefs.ui:2831
+#: ui/prefs.ui:2906
 msgid "Top"
 msgstr "oben"
 
-#: ui/prefs.ui:2832
+#: ui/prefs.ui:2907
 msgid "Bottom"
 msgstr "Unterseite"
 
-#: ui/prefs.ui:2872
+#: ui/prefs.ui:2947
 msgid "Clock Menu Position"
 msgstr "Position des Uhrmenüs"
 
-#: ui/prefs.ui:2883
+#: ui/prefs.ui:2958
 msgid "Center"
 msgstr "Center"
 
-#: ui/prefs.ui:2884
+#: ui/prefs.ui:2959
 msgid "Right"
 msgstr "Richtig"
 
-#: ui/prefs.ui:2885
+#: ui/prefs.ui:2960
 msgid "Left"
 msgstr "Links"
 
-#: ui/prefs.ui:2925
+#: ui/prefs.ui:3000
 msgid "Clock Menu Position Offset"
 msgstr "Positionsversatz des Uhrmenüs"
 
-#: ui/prefs.ui:2985
+#: ui/prefs.ui:3060
 msgid "Workspace Switcher Size"
 msgstr "Größe des Arbeitsbereichsumschalters"
 
-#: ui/prefs.ui:2996 ui/prefs.ui:3135
+#: ui/prefs.ui:3071 ui/prefs.ui:3210
 msgid "Default"
 msgstr "Standard"
 
-#: ui/prefs.ui:3066
+#: ui/prefs.ui:3141
 msgid "Animation"
 msgstr "Animation"
 
-#: ui/prefs.ui:3077
+#: ui/prefs.ui:3152
 msgid "No Animation"
 msgstr "Keine Animation "
 
-#: ui/prefs.ui:3078
+#: ui/prefs.ui:3153
 msgid "Default Speed"
 msgstr "Standardgeschwindigkeit"
 
-#: ui/prefs.ui:3079
+#: ui/prefs.ui:3154
 msgid "Fastest"
 msgstr "Am schnellsten"
 
-#: ui/prefs.ui:3080
+#: ui/prefs.ui:3155
 msgid "Faster"
 msgstr "Schneller"
 
-#: ui/prefs.ui:3081
+#: ui/prefs.ui:3156
 msgid "Fast"
 msgstr "Schnell"
 
-#: ui/prefs.ui:3082
+#: ui/prefs.ui:3157
 msgid "Slow"
 msgstr "Schleppend"
 
-#: ui/prefs.ui:3083
+#: ui/prefs.ui:3158
 msgid "Slower"
 msgstr "Langsamer"
 
-#: ui/prefs.ui:3084
+#: ui/prefs.ui:3159
 msgid "Slowest"
 msgstr "Am langsamsten"
 
-#: ui/prefs.ui:3124
+#: ui/prefs.ui:3199
 msgid "Dash Icon Size"
 msgstr "Strichsymbolgröße"
 
-#: ui/prefs.ui:3184
+#: ui/prefs.ui:3259
 msgid "Notification Banner Position"
 msgstr "Position des Benachrichtigungsbanners"
 
-#: ui/prefs.ui:3195
+#: ui/prefs.ui:3270
 msgid "Notification popup position when notifications show up on the screen"
-msgstr "Benachrichtigungs-Popup-Position, wenn Benachrichtigungen auf dem Bildschirm angezeigt werden"
+msgstr ""
+"Benachrichtigungs-Popup-Position, wenn Benachrichtigungen auf dem Bildschirm "
+"angezeigt werden"
 
-#: ui/prefs.ui:3215
+#: ui/prefs.ui:3290
 msgid "Top Start"
 msgstr "Top-Start"
 
-#: ui/prefs.ui:3216
+#: ui/prefs.ui:3291
 msgid "Top Center"
 msgstr "Oben in der Mitte"
 
-#: ui/prefs.ui:3217
+#: ui/prefs.ui:3292
 msgid "Top End"
 msgstr "Das obere Ende"

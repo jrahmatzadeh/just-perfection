@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-24 02:26-0700\n"
+"POT-Creation-Date: 2021-06-27 00:00-0700\n"
 "PO-Revision-Date: 2021-04-15 06:33+0800\n"
 "Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
 "Language-Team: Chinese - China <i18n-zh@googlegroups.com>\n"
@@ -253,133 +253,143 @@ msgid ""
 msgstr "不需要搜索框甚至不用聚焦到概览视图，你就可以开始搜索"
 
 #: ui/prefs.ui:2596
+msgid "Always Show Workspace Switcher"
+msgstr "始终显示工作区切换器"
+
+#: ui/prefs.ui:2607
+msgid ""
+"Shows workspace switcher even when only one workspace used with dynamic "
+"workspaces"
+msgstr "即使只有一个工作区与动态工作区一起使用，也会显示工作区切换器"
+
+#: ui/prefs.ui:2671
 msgid "Startup Status"
 msgstr "启动状态"
 
-#: ui/prefs.ui:2607
+#: ui/prefs.ui:2682
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "GNOME Shell 首次启动时"
 
-#: ui/prefs.ui:2627
+#: ui/prefs.ui:2702
 msgid "Desktop"
 msgstr "桌面"
 
-#: ui/prefs.ui:2628
+#: ui/prefs.ui:2703
 msgid "Overview"
 msgstr "概述"
 
-#: ui/prefs.ui:2660
+#: ui/prefs.ui:2735
 msgid "Customize"
 msgstr "定制"
 
-#: ui/prefs.ui:2708
+#: ui/prefs.ui:2783
 msgid "Panel Corner Size"
 msgstr "面板圆角尺寸"
 
-#: ui/prefs.ui:2719
+#: ui/prefs.ui:2794
 msgid "By Shell Theme"
 msgstr "依照 Shell 主题"
 
-#: ui/prefs.ui:2720
+#: ui/prefs.ui:2795
 msgid "No Corner"
 msgstr "无圆角"
 
-#: ui/prefs.ui:2820
+#: ui/prefs.ui:2895
 msgid "Panel Position"
 msgstr "面板位置"
 
-#: ui/prefs.ui:2831
+#: ui/prefs.ui:2906
 msgid "Top"
 msgstr "顶部"
 
-#: ui/prefs.ui:2832
+#: ui/prefs.ui:2907
 msgid "Bottom"
 msgstr "底部"
 
-#: ui/prefs.ui:2872
+#: ui/prefs.ui:2947
 msgid "Clock Menu Position"
 msgstr "时钟菜单位置"
 
-#: ui/prefs.ui:2883
+#: ui/prefs.ui:2958
 msgid "Center"
 msgstr "中间"
 
-#: ui/prefs.ui:2884
+#: ui/prefs.ui:2959
 msgid "Right"
 msgstr "左边"
 
-#: ui/prefs.ui:2885
+#: ui/prefs.ui:2960
 msgid "Left"
 msgstr "右边"
 
-#: ui/prefs.ui:2925
+#: ui/prefs.ui:3000
 msgid "Clock Menu Position Offset"
 msgstr "时钟菜单位置偏移"
 
-#: ui/prefs.ui:2985
+#: ui/prefs.ui:3060
 msgid "Workspace Switcher Size"
 msgstr "工作区切换器尺寸"
 
-#: ui/prefs.ui:2996 ui/prefs.ui:3135
+#: ui/prefs.ui:3071 ui/prefs.ui:3210
 msgid "Default"
 msgstr "默认"
 
-#: ui/prefs.ui:3066
+#: ui/prefs.ui:3141
 msgid "Animation"
 msgstr "动画"
 
-#: ui/prefs.ui:3077
+#: ui/prefs.ui:3152
 msgid "No Animation"
 msgstr "无动画"
 
-#: ui/prefs.ui:3078
+#: ui/prefs.ui:3153
 msgid "Default Speed"
 msgstr "默认速度"
 
-#: ui/prefs.ui:3079
+#: ui/prefs.ui:3154
 msgid "Fastest"
 msgstr "最快"
 
-#: ui/prefs.ui:3080
+#: ui/prefs.ui:3155
 msgid "Faster"
 msgstr "更快"
 
-#: ui/prefs.ui:3081
+#: ui/prefs.ui:3156
 msgid "Fast"
 msgstr "快"
 
-#: ui/prefs.ui:3082
+#: ui/prefs.ui:3157
 msgid "Slow"
 msgstr "慢"
 
-#: ui/prefs.ui:3083
+#: ui/prefs.ui:3158
 msgid "Slower"
 msgstr "更慢"
 
-#: ui/prefs.ui:3084
+#: ui/prefs.ui:3159
 msgid "Slowest"
 msgstr "最慢"
 
-#: ui/prefs.ui:3124
+#: ui/prefs.ui:3199
 msgid "Dash Icon Size"
 msgstr "破折号图标大小"
 
-#: ui/prefs.ui:3184
+#: ui/prefs.ui:3259
 msgid "Notification Banner Position"
 msgstr "通知横幅位置"
 
-#: ui/prefs.ui:3195
+#: ui/prefs.ui:3270
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "通知出现在屏幕上时的通知弹出位置"
 
-#: ui/prefs.ui:3215
+#: ui/prefs.ui:3290
 msgid "Top Start"
 msgstr "最开始"
 
-#: ui/prefs.ui:3216
+#: ui/prefs.ui:3291
 msgid "Top Center"
 msgstr "顶部中心"
 
-#: ui/prefs.ui:3217
+#: ui/prefs.ui:3292
 msgid "Top End"
 msgstr "高端"
