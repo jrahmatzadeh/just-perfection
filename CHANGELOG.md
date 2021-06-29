@@ -6,6 +6,8 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+## [12.0.0 Queen Red] - 2021-06-29
+
 ### Changed
 
 - Workspace switcher max size now maxed out to 30%.
