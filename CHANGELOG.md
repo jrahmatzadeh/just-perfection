@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Fixed
+
+- Unwanted window demands attention focus.
+
 ## [12.0.0 Queen Red] - 2021-06-29
 
 ### Changed
