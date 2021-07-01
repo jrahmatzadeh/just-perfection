@@ -399,7 +399,7 @@ msgstr "Верхний старт"
 
 #: ui/prefs.ui:3291
 msgid "Top Center"
-msgstr "Вверх по центру"
+msgstr "Сверху по центру"
 
 #: ui/prefs.ui:3292
 msgid "Top End"
