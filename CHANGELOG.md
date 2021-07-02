@@ -10,6 +10,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - Unwanted window demands attention focus.
 - API.monitorGetInfo for "pMonitor is null" error.
+- Russian translation by [@librusekus35790](https://gitlab.gnome.org/librusekus35790).
 
 ## [12.0.0 Queen Red] - 2021-06-29
 
