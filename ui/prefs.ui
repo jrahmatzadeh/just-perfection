@@ -97,6 +97,7 @@
           <object class="GtkComboBoxText" id="support_comboboxtext">
             <property name="visible">True</property>
             <property name="can-focus">True</property>
+            <property name="valign">center</property>
             <property name="hexpand">1</property>
             <property name="margin-bottom">16</property>
             <property name="active">0</property>
@@ -2698,6 +2699,7 @@
                                         <object class="GtkComboBoxText" id="startup_status_comboboxtext">
                                           <property name="visible">True</property>
                                           <property name="can-focus">True</property>
+                                          <property name="valign">center</property>
                                           <items>
                                             <item translatable="yes">Desktop</item>
                                             <item translatable="yes">Overview</item>
@@ -2790,6 +2792,7 @@
                                         <object class="GtkComboBoxText" id="panel_corner_size_comboboxtext">
                                           <property name="visible">True</property>
                                           <property name="can-focus">True</property>
+                                          <property name="valign">center</property>
                                           <items>
                                             <item translatable="yes">By Shell Theme</item>
                                             <item translatable="yes">No Corner</item>
@@ -2902,6 +2905,7 @@
                                         <object class="GtkComboBoxText" id="top_panel_position_comboboxtext">
                                           <property name="visible">True</property>
                                           <property name="can-focus">True</property>
+                                          <property name="valign">center</property>
                                           <items>
                                             <item translatable="yes">Top</item>
                                             <item translatable="yes">Bottom</item>
@@ -2954,6 +2958,7 @@
                                         <object class="GtkComboBoxText" id="clock_menu_position_comboboxtext">
                                           <property name="visible">True</property>
                                           <property name="can-focus">True</property>
+                                          <property name="valign">center</property>
                                           <items>
                                             <item translatable="yes">Center</item>
                                             <item translatable="yes">Right</item>
@@ -3007,6 +3012,7 @@
                                         <object class="GtkComboBoxText" id="clock_menu_position_offset_comboboxtext">
                                           <property name="visible">True</property>
                                           <property name="can-focus">True</property>
+                                          <property name="valign">center</property>
                                           <items>
                                             <item>0</item>
                                             <item>1</item>
@@ -3067,6 +3073,7 @@
                                         <object class="GtkComboBoxText" id="workspace_switcher_size_comboboxtext">
                                           <property name="visible">True</property>
                                           <property name="can-focus">True</property>
+                                          <property name="valign">center</property>
                                           <items>
                                             <item translatable="yes">Default</item>
                                             <item>1%</item>
@@ -3148,6 +3155,7 @@
                                         <object class="GtkComboBoxText" id="animation_comboboxtext">
                                           <property name="visible">True</property>
                                           <property name="can-focus">True</property>
+                                          <property name="valign">center</property>
                                           <items>
                                             <item translatable="yes">No Animation</item>
                                             <item translatable="yes">Default Speed</item>
@@ -3206,6 +3214,7 @@
                                         <object class="GtkComboBoxText" id="dash_icon_size_comboboxtext">
                                           <property name="visible">True</property>
                                           <property name="can-focus">True</property>
+                                          <property name="valign">center</property>
                                           <items>
                                             <item translatable="yes">Default</item>
                                             <item>32px</item>
@@ -3286,6 +3295,7 @@
                                         <object class="GtkComboBoxText" id="notification_banner_position_comboboxtext">
                                           <property name="visible">True</property>
                                           <property name="can-focus">True</property>
+                                          <property name="valign">center</property>
                                           <items>
                                             <item translatable="yes">Top Start</item>
                                             <item translatable="yes">Top Center</item>
