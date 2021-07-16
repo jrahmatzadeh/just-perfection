@@ -241,6 +241,13 @@
       <description>Always Show Workspace Switcher Status</description>
     </key>
     
+    <key type="i" name="panel-size">
+      <default>0</default>
+      <range min="0" max="60"/>
+      <summary>0 means use Shell theme, 1 - 61 means size in pixels</summary>
+      <description>Panel Size</description>
+    </key>
+    
   </schema>
   
 </schemalist>

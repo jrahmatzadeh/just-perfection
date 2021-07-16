@@ -44,6 +44,7 @@ This extension allows you to do the following:
 
 ### Customize
 
+- Panel Height
 - Panel Position
 - Panel Round Corner Size
 - Clock Menu Position

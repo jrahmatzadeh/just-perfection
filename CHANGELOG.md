@@ -15,6 +15,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Accessing dash in case the original dash has been removed by third party extensions.
 - Russian translation by [@librusekus35790](https://gitlab.gnome.org/librusekus35790).
 
+### Added
+
+- Panel height.
+
 ## [12.0.0 Queen Red] - 2021-06-29
 
 ### Changed
