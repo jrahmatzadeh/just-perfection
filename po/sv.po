@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-27 00:00-0700\n"
+"POT-Creation-Date: 2021-07-16 05:27-0700\n"
 "PO-Revision-Date: 2021-04-13 22:01+0200\n"
 "Last-Translator: Morgan Antonsson <morgan.antonsson@gmail.com>\n"
 "Language-Team: Swedish\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Ditt stöd hjälper fortsatt utveckling av tillägget och ger fler nya "
 "funktioner"
 
-#: ui/prefs.ui:298
+#: ui/prefs.ui:299
 msgid ""
 "You can support my work via Patreon. Also your name will be mentioned at the "
 "end of videos on my YouTube Channel as Patreon supporter."
@@ -38,127 +38,127 @@ msgstr ""
 "Du kan stödja mitt arbete via Patreon. Ditt namn kommer också att nämnas som "
 "Patreon-supporter i slutet av videor på min YouTube-kanal."
 
-#: ui/prefs.ui:366
+#: ui/prefs.ui:367
 msgid "Select File"
 msgstr ""
 
-#: ui/prefs.ui:477
+#: ui/prefs.ui:478
 msgid "No Results Found"
 msgstr "Inga resultat funna"
 
-#: ui/prefs.ui:499
+#: ui/prefs.ui:500
 msgid "Override"
 msgstr "Åsidosätt"
 
-#: ui/prefs.ui:556
+#: ui/prefs.ui:557
 msgid "Shell Theme"
 msgstr "Skaltema"
 
-#: ui/prefs.ui:567
+#: ui/prefs.ui:568
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "Åsidosätt skaltemat delvis för att göra skrivbordet kompakt"
 
-#: ui/prefs.ui:617
+#: ui/prefs.ui:618
 msgid "Visibility"
 msgstr "Synlighet"
 
-#: ui/prefs.ui:666
+#: ui/prefs.ui:667
 msgid "Panel"
 msgstr "Systemrad"
 
-#: ui/prefs.ui:722
+#: ui/prefs.ui:723
 msgid "Activities Button"
 msgstr "Knappen Aktiviteter"
 
-#: ui/prefs.ui:733
+#: ui/prefs.ui:734
 msgid "Button in panel to toggle overview visibility"
 msgstr "Knapp i panelen för att växla synlighet"
 
-#: ui/prefs.ui:797
+#: ui/prefs.ui:798
 msgid "App Menu"
 msgstr "Programmeny"
 
-#: ui/prefs.ui:808
+#: ui/prefs.ui:809
 msgid "The menu button in panel with focused window text"
 msgstr "Menyknappen i panelen med fokuserad fönstertext"
 
-#: ui/prefs.ui:872
+#: ui/prefs.ui:873
 msgid "Clock Menu"
 msgstr "Klockmeny"
 
-#: ui/prefs.ui:883
+#: ui/prefs.ui:884
 msgid "Also known as date menu shows date and time in panel"
 msgstr "Även känd som datummeny visar datum och tid i panelen"
 
-#: ui/prefs.ui:947
+#: ui/prefs.ui:948
 msgid "Keyboard Layout"
 msgstr "Tangentbordslayout"
 
-#: ui/prefs.ui:958
+#: ui/prefs.ui:959
 msgid "Keyboard Layout indicator button in panel"
 msgstr "Knapp för tangentbordslayout i panelen"
 
-#: ui/prefs.ui:1022
+#: ui/prefs.ui:1023
 msgid "Accessibility Menu"
 msgstr "Tillgänglighetsmeny"
 
-#: ui/prefs.ui:1033
+#: ui/prefs.ui:1034
 msgid "Accessibility Menu indicator button in panel"
 msgstr "Knapp för tillgänglighetsmeny i panelen"
 
-#: ui/prefs.ui:1097
+#: ui/prefs.ui:1098
 msgid "System Menu (Aggregate Menu)"
 msgstr "Systemmeny"
 
-#: ui/prefs.ui:1108
+#: ui/prefs.ui:1109
 msgid "System menu holds power, volume and network icons in panel"
 msgstr "Systemmenyn håller ikoner för kraft, volym och nätverk i panelen"
 
-#: ui/prefs.ui:1172
+#: ui/prefs.ui:1173
 msgid "Search"
 msgstr "Sökruta"
 
-#: ui/prefs.ui:1183
+#: ui/prefs.ui:1184
 msgid "Search entry in overview"
 msgstr "Sökpost i översikt"
 
-#: ui/prefs.ui:1247
+#: ui/prefs.ui:1248
 msgid "Dash"
 msgstr "Snabbstartspanel"
 
-#: ui/prefs.ui:1258
+#: ui/prefs.ui:1259
 msgid "Dash holds favorite and opened applications icons"
 msgstr "Dash har favorit- och öppnade applikationsikoner"
 
-#: ui/prefs.ui:1322
+#: ui/prefs.ui:1323
 msgid "Show Applications Button"
 msgstr "Knapp för att visa programöversiktsvyn"
 
-#: ui/prefs.ui:1333
+#: ui/prefs.ui:1334
 msgid "Button in dash that toggles applications list visibility"
 msgstr "Knapp i streck som växlar mellan applikationslistans synlighet"
 
-#: ui/prefs.ui:1397
+#: ui/prefs.ui:1398
 msgid "On Screen Display (OSD)"
 msgstr "Skärmöverlagring (OSD)"
 
-#: ui/prefs.ui:1408
+#: ui/prefs.ui:1409
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "Volym och ljusstyrka på skärmen när ändringen sker"
 
-#: ui/prefs.ui:1472
+#: ui/prefs.ui:1473
 msgid "Workspace Popup"
 msgstr "Arbetsyteväxlar-popup"
 
-#: ui/prefs.ui:1483
+#: ui/prefs.ui:1484
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr "Pop-up som visas på skärmen när du ändrar arbetsytan"
 
-#: ui/prefs.ui:1547
+#: ui/prefs.ui:1548
 msgid "Workspace Switcher"
 msgstr "Arbetsyteväxlare"
 
-#: ui/prefs.ui:1558
+#: ui/prefs.ui:1559
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
@@ -166,100 +166,100 @@ msgstr ""
 "Hänvisar också till arbetsytans miniatyrer som du ser i översikten för att "
 "välja en arbetsyta"
 
-#: ui/prefs.ui:1622
+#: ui/prefs.ui:1623
 msgid "Workspaces App Grid"
 msgstr "Arbetsytor App Grid"
 
-#: ui/prefs.ui:1633
+#: ui/prefs.ui:1634
 msgid "Workspace boxes in app grid"
 msgstr "Arbetsytor i app-rutnät"
 
-#: ui/prefs.ui:1697
+#: ui/prefs.ui:1698
 msgid "Background Menu"
 msgstr "Bakgrundsmeny"
 
-#: ui/prefs.ui:1708
+#: ui/prefs.ui:1709
 msgid "When you right click on desktop background"
 msgstr "När du högerklickar på skrivbordsbakgrund"
 
-#: ui/prefs.ui:1758
+#: ui/prefs.ui:1759
 msgid "Icons"
 msgstr "Ikoner"
 
-#: ui/prefs.ui:1807
+#: ui/prefs.ui:1808
 msgid "App Menu Icon"
 msgstr "Programmenyikon"
 
-#: ui/prefs.ui:1856
+#: ui/prefs.ui:1857
 msgid "Panel Notification Icon"
 msgstr "Aviseringsikon"
 
-#: ui/prefs.ui:1905
+#: ui/prefs.ui:1906
 msgid "Power Icon"
 msgstr "Strömikon"
 
-#: ui/prefs.ui:1954
+#: ui/prefs.ui:1955
 msgid "Panel Arrow"
 msgstr "Panelpil"
 
-#: ui/prefs.ui:2009
+#: ui/prefs.ui:2010
 msgid "Window Picker Icon"
 msgstr "Ikon för fönsterplockare"
 
-#: ui/prefs.ui:2020
+#: ui/prefs.ui:2021
 msgid "The icon under window preview in overview"
 msgstr "Ikonen under förhandsgranskning av fönster i översikt"
 
-#: ui/prefs.ui:2078
+#: ui/prefs.ui:2079
 msgid "Activities Button Icon"
 msgstr "Ikon för aktivitetsknappen"
 
-#: ui/prefs.ui:2177
+#: ui/prefs.ui:2178
 msgid "Activities Button Icon in Monochrome"
 msgstr "Knappikonen för aktiviteter i svartvitt"
 
-#: ui/prefs.ui:2232
+#: ui/prefs.ui:2233
 msgid "Activities Button Icon With Label"
 msgstr "Aktiviteter knapp ikon med etikett"
 
-#: ui/prefs.ui:2243
+#: ui/prefs.ui:2244
 msgid "Only works when you have selected an icon for activities button"
 msgstr "Fungerar bara när du har valt en ikon för aktivitetsknappen"
 
-#: ui/prefs.ui:2293
+#: ui/prefs.ui:2294
 msgid "Behavior"
 msgstr "Beteende"
 
-#: ui/prefs.ui:2342
+#: ui/prefs.ui:2343
 msgid "Hot Corner"
 msgstr "Aktivitetshörn"
 
-#: ui/prefs.ui:2391
+#: ui/prefs.ui:2392
 msgid "App Gesture"
 msgstr "Programgest"
 
-#: ui/prefs.ui:2446
+#: ui/prefs.ui:2447
 msgid "Window Demands Attention Focus"
 msgstr "Fönster kräver uppmärksamhetsfokus"
 
-#: ui/prefs.ui:2457
+#: ui/prefs.ui:2458
 msgid "Removes window is ready notification and focus on the window"
 msgstr "Tar bort fönstret är redo anmälan och fokusera på fönstret"
 
-#: ui/prefs.ui:2521
+#: ui/prefs.ui:2522
 msgid "Type to Search"
 msgstr "Skriv för att söka"
 
-#: ui/prefs.ui:2532
+#: ui/prefs.ui:2533
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr "Sök utan synlig sökruta eller utan att fokusera den i översiktsvyn"
 
-#: ui/prefs.ui:2596
+#: ui/prefs.ui:2597
 msgid "Always Show Workspace Switcher"
 msgstr "Visa alltid arbetsytans växlare"
 
-#: ui/prefs.ui:2607
+#: ui/prefs.ui:2608
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
@@ -267,134 +267,138 @@ msgstr ""
 "Visar arbetsytväxlare även när endast en arbetsyta används med dynamiska "
 "arbetsytor"
 
-#: ui/prefs.ui:2671
+#: ui/prefs.ui:2672
 msgid "Startup Status"
 msgstr "Startstatus"
 
-#: ui/prefs.ui:2682
+#: ui/prefs.ui:2683
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "När GNOME Shell startar för första gången"
 
-#: ui/prefs.ui:2702
+#: ui/prefs.ui:2704
 msgid "Desktop"
 msgstr "Skrivbord"
 
-#: ui/prefs.ui:2703
+#: ui/prefs.ui:2705
 msgid "Overview"
 msgstr "Översikt"
 
-#: ui/prefs.ui:2735
+#: ui/prefs.ui:2737
 msgid "Customize"
 msgstr "Anpassa"
 
-#: ui/prefs.ui:2783
-msgid "Panel Corner Size"
-msgstr "Aktivitetshörnstorlek"
+#: ui/prefs.ui:2785
+msgid "Panel Size"
+msgstr "Panelstorlek"
 
-#: ui/prefs.ui:2794
+#: ui/prefs.ui:2797 ui/prefs.ui:2909
 msgid "By Shell Theme"
 msgstr "Från skaltema"
 
-#: ui/prefs.ui:2795
+#: ui/prefs.ui:2897
+msgid "Panel Corner Size"
+msgstr "Aktivitetshörnstorlek"
+
+#: ui/prefs.ui:2910
 msgid "No Corner"
 msgstr "Inget hörn"
 
-#: ui/prefs.ui:2895
+#: ui/prefs.ui:3010
 msgid "Panel Position"
 msgstr "Systemradsplacering"
 
-#: ui/prefs.ui:2906
+#: ui/prefs.ui:3022
 msgid "Top"
 msgstr "Överkant"
 
-#: ui/prefs.ui:2907
+#: ui/prefs.ui:3023
 msgid "Bottom"
 msgstr "Nederkant"
 
-#: ui/prefs.ui:2947
+#: ui/prefs.ui:3063
 msgid "Clock Menu Position"
 msgstr "Klockmenyplacering"
 
-#: ui/prefs.ui:2958
+#: ui/prefs.ui:3075
 msgid "Center"
 msgstr "Mitten"
 
-#: ui/prefs.ui:2959
+#: ui/prefs.ui:3076
 msgid "Right"
 msgstr "Höger"
 
-#: ui/prefs.ui:2960
+#: ui/prefs.ui:3077
 msgid "Left"
 msgstr "Vänster"
 
-#: ui/prefs.ui:3000
+#: ui/prefs.ui:3117
 msgid "Clock Menu Position Offset"
 msgstr "Klockmenyoffset"
 
-#: ui/prefs.ui:3060
+#: ui/prefs.ui:3178
 msgid "Workspace Switcher Size"
 msgstr "Arbetsyteväxlarens storlek"
 
-#: ui/prefs.ui:3071 ui/prefs.ui:3210
+#: ui/prefs.ui:3190 ui/prefs.ui:3331
 msgid "Default"
 msgstr "Standard"
 
-#: ui/prefs.ui:3141
+#: ui/prefs.ui:3260
 msgid "Animation"
 msgstr "Animering"
 
-#: ui/prefs.ui:3152
+#: ui/prefs.ui:3272
 msgid "No Animation"
 msgstr "Ingen animering"
 
-#: ui/prefs.ui:3153
+#: ui/prefs.ui:3273
 msgid "Default Speed"
 msgstr "Standardhastighet"
 
-#: ui/prefs.ui:3154
+#: ui/prefs.ui:3274
 msgid "Fastest"
 msgstr "Snabbast"
 
-#: ui/prefs.ui:3155
+#: ui/prefs.ui:3275
 msgid "Faster"
 msgstr "Snabbare"
 
-#: ui/prefs.ui:3156
+#: ui/prefs.ui:3276
 msgid "Fast"
 msgstr "Snabb"
 
-#: ui/prefs.ui:3157
+#: ui/prefs.ui:3277
 msgid "Slow"
 msgstr "Långsam"
 
-#: ui/prefs.ui:3158
+#: ui/prefs.ui:3278
 msgid "Slower"
 msgstr "Långsammare"
 
-#: ui/prefs.ui:3159
+#: ui/prefs.ui:3279
 msgid "Slowest"
 msgstr "Långsammast"
 
-#: ui/prefs.ui:3199
+#: ui/prefs.ui:3319
 msgid "Dash Icon Size"
 msgstr "streck ikonstorlek"
 
-#: ui/prefs.ui:3259
+#: ui/prefs.ui:3380
 msgid "Notification Banner Position"
 msgstr "Meddelande Banner Position"
 
-#: ui/prefs.ui:3270
+#: ui/prefs.ui:3391
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "Meddelande popup-position när aviseringar dyker upp på skärmen"
 
-#: ui/prefs.ui:3290
+#: ui/prefs.ui:3412
 msgid "Top Start"
 msgstr "Top Start"
 
-#: ui/prefs.ui:3291
+#: ui/prefs.ui:3413
 msgid "Top Center"
 msgstr "Top Center"
 
-#: ui/prefs.ui:3292
+#: ui/prefs.ui:3414
 msgid "Top End"
 msgstr "Toppänden"
