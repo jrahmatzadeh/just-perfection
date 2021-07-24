@@ -10,24 +10,6 @@
     <property name="hexpand">1</property>
     
     <child>
-      <object class="GtkToggleButton" id="search_togglebutton">
-        <property name="visible">True</property>
-        <property name="can-focus">True</property>
-        <property name="receives-default">True</property>
-        
-        <child>
-          <object class="GtkImage" id="search_icon">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="icon-name">system-search-symbolic</property>
-            <property name="icon-size">1</property>
-          </object>
-        </child>
-        
-      </object>
-    </child>
-    
-    <child>
       <object class="GtkMenuButton">
         <property name="visible">True</property>
         <property name="can-focus">True</property>
@@ -40,6 +22,24 @@
             <property name="visible">True</property>
             <property name="can-focus">False</property>
             <property name="icon-name">dialog-information-symbolic</property>
+            <property name="icon-size">1</property>
+          </object>
+        </child>
+        
+      </object>
+    </child>
+    
+    <child type="end">
+      <object class="GtkToggleButton" id="search_togglebutton">
+        <property name="visible">True</property>
+        <property name="can-focus">True</property>
+        <property name="receives-default">True</property>
+        
+        <child>
+          <object class="GtkImage" id="search_icon">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="icon-name">system-search-symbolic</property>
             <property name="icon-size">1</property>
           </object>
         </child>

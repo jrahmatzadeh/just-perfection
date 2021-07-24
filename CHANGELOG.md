@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Changed
+
+- Search button position in prefs window.
+
 ### Fixed
 
 - Unwanted window demands attention focus.
