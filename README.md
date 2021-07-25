@@ -61,6 +61,8 @@ This extension allows you to do the following:
 
 This extension is also available on [GNOME Shell extensions website](https://extensions.gnome.org/extension/3843/just-perfection/).
 
+[![Just Perfection on extensions.gnome.org](bin/ego.svg)](https://extensions.gnome.org/extension/3843/just-perfection/)
+
 ## GNOME Shell Support
 
 | GNOME Shell Version | End Of Support |
