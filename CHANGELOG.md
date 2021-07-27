@@ -19,6 +19,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Accessing dash in case the original dash has been removed by third party extensions.
 - Russian translation by [@librusekus35790](https://gitlab.gnome.org/librusekus35790).
 
+### Removed
+
+- Settings and Translation library and using ExtensionUtils instead.
+
 ### Added
 
 - Panel height.

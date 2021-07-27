@@ -1,5 +1,7 @@
-const Me = imports.misc.extensionUtils.getCurrentExtension();
-const {API, Settings, Manager, HotCorner} = Me.imports.lib;
+const ExtensionUtils = imports.misc.extensionUtils;
+const Me = ExtensionUtils.getCurrentExtension();
+
+const {API, Manager, HotCorner} = Me.imports.lib;
 const {GLib, Gio, St, Clutter} = imports.gi;
 
 const Config = imports.misc.config;
@@ -15,10 +17,8 @@ const SearchController = (ShellVersion >= 40) ? imports.ui.searchController : nu
 const Panel = imports.ui.panel;
 const WorkspacesView = imports.ui.workspacesView;
 
-
 let manager;
 let api;
-
 
 function init() {}
 
@@ -30,9 +30,6 @@ function enable()
     if (ShellVersion < 3.36) {
         throw new Error('GNOME Shell is not Supported');
     }
-    
-    let schemasFolderPath = Me.dir.get_child("schemas").get_path();
-    let schemaID = Me.metadata['schema-id'];
 
     let interfaceSettings = new Gio.Settings({schema_id: 'org.gnome.desktop.interface'});
     
@@ -55,7 +52,7 @@ function enable()
     
     api.open();
     
-    let settings = Settings.getSettings(Gio, schemaID, schemasFolderPath);
+    let settings = ExtensionUtils.getSettings(Me.metadata['settings-schema']);
     let hotCorner = new HotCorner.HotCorner({ 'API': api, 'St': St });
     
     manager = new Manager.Manager({
