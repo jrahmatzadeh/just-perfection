@@ -125,7 +125,7 @@ msgstr "Búsqueda"
 
 #: ui/prefs.ui:1184
 msgid "Search entry in overview"
-msgstr "Buscar entrada en descripción general"
+msgstr "Entrada de búsqueda en la vista general"
 
 #: ui/prefs.ui:1248
 msgid "Dash"
@@ -150,7 +150,7 @@ msgstr "Visualización en pantalla (OSD)"
 
 #: ui/prefs.ui:1409
 msgid "Volume and brightness on screen display when the change happens"
-msgstr "Volumen y brillo en la pantalla cuando ocurre el cambio"
+msgstr "Volumen y brillo en la pantalla cuando ocurre un cambio"
 
 #: ui/prefs.ui:1473
 msgid "Workspace Popup"
@@ -159,7 +159,7 @@ msgstr "Indicador del espacio de trabajo"
 #: ui/prefs.ui:1484
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr ""
-"Ventana emergente que aparece en la pantalla cuando cambia el espacio de "
+"Indicador que aparece en la pantalla cuando se cambia el espacio de "
 "trabajo"
 
 #: ui/prefs.ui:1548
@@ -172,7 +172,7 @@ msgid ""
 "workspace"
 msgstr ""
 "También se refiere a las miniaturas del espacio de trabajo que ve en la "
-"descripción general para seleccionar un espacio de trabajo."
+"vista general para seleccionar un espacio de trabajo."
 
 #: ui/prefs.ui:1623
 msgid "Workspaces App Grid"
@@ -192,7 +192,7 @@ msgstr "Cuando haces clic derecho en el fondo del escritorio"
 
 #: ui/prefs.ui:1759
 msgid "Icons"
-msgstr "iconos"
+msgstr "Iconos"
 
 #: ui/prefs.ui:1808
 msgid "App Menu Icon"
@@ -216,7 +216,7 @@ msgstr "Icono de selector de ventana"
 
 #: ui/prefs.ui:2021
 msgid "The icon under window preview in overview"
-msgstr "El icono debajo de la vista previa de la ventana en resumen"
+msgstr "El icono debajo de la vista previa de la ventana en la vista general"
 
 #: ui/prefs.ui:2079
 msgid "Activities Button Icon"
@@ -224,7 +224,7 @@ msgstr "Icono de botón de actividades"
 
 #: ui/prefs.ui:2178
 msgid "Activities Button Icon in Monochrome"
-msgstr "Icono de botón de actividades en monocromo"
+msgstr "Icono de botón de actividades monocromático"
 
 #: ui/prefs.ui:2233
 msgid "Activities Button Icon With Label"
@@ -258,14 +258,14 @@ msgstr ""
 
 #: ui/prefs.ui:2522
 msgid "Type to Search"
-msgstr "Escribe para buscar"
+msgstr "Escribir para buscar"
 
 #: ui/prefs.ui:2533
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Puede iniciar la búsqueda sin una entrada de búsqueda o incluso centrarse en "
-"ella en la descripción general"
+"ella en la vista general"
 
 #: ui/prefs.ui:2597
 msgid "Always Show Workspace Switcher"
@@ -293,7 +293,7 @@ msgstr "Escritorio"
 
 #: ui/prefs.ui:2705
 msgid "Overview"
-msgstr "Descripción general"
+msgstr "Vista general"
 
 #: ui/prefs.ui:2737
 msgid "Customize"
@@ -337,7 +337,7 @@ msgstr "Centrar"
 
 #: ui/prefs.ui:3076
 msgid "Right"
-msgstr "Correcto"
+msgstr "Derecha"
 
 #: ui/prefs.ui:3077
 msgid "Left"
@@ -393,7 +393,7 @@ msgstr "El más lento"
 
 #: ui/prefs.ui:3319
 msgid "Dash Icon Size"
-msgstr "tamaño del icono del tablero"
+msgstr "Tamaño del icono del tablero"
 
 #: ui/prefs.ui:3380
 msgid "Notification Banner Position"
