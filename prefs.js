@@ -8,15 +8,16 @@ const Config = imports.misc.config;
 const ShellVersion = parseFloat(Config.PACKAGE_VERSION);
 
 
-function init () {}
+function init ()
+{
+    ExtensionUtils.initTranslations(Me.metadata['gettext-domain']);
+}
 
 function buildPrefsWidget ()
 {
     let gettextDomain = Me.metadata['gettext-domain'];
     let UIFilePath = Me.dir.get_child("ui").get_path() + '/prefs.ui';
     let binFolderPath = Me.dir.get_child("bin").get_path();
-    
-    ExtensionUtils.initTranslations(gettextDomain);
 
     let builder = new Gtk.Builder();
     let settings = ExtensionUtils.getSettings(Me.metadata['settings-schema']);
