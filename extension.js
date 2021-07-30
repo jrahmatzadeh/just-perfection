@@ -25,10 +25,10 @@ function init() {}
 function enable()
 {
     // <3.36 can crash by enabling the extension
-    // since <3.36 is not supported we simply throw error
+    // since <3.36 is not supported we simply return
     // to avoid bad experience for <3.36 users. 
     if (ShellVersion < 3.36) {
-        throw new Error('GNOME Shell is not Supported');
+        return;
     }
 
     let interfaceSettings = new Gio.Settings({schema_id: 'org.gnome.desktop.interface'});
@@ -67,8 +67,13 @@ function enable()
 
 function disable()
 {
-    manager.revertAll();
-    manager = null;
-    api.close();
+    if (manager) {
+        manager.revertAll();
+        manager = null;
+    }
+    
+    if (api) {
+        api.close();
+    }
 }
 
