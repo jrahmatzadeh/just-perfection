@@ -67,13 +67,8 @@ function enable()
 
 function disable()
 {
-    if (manager) {
-        manager.revertAll();
-        manager = null;
-    }
-    
-    if (api) {
-        api.close();
-    }
+    (manager) && manager.revertAll();
+    manager = null;
+    (api) && api.close();
 }
 
