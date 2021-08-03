@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-16 05:27-0700\n"
+"POT-Creation-Date: 2021-08-03 13:28-0700\n"
 "PO-Revision-Date: 2020-12-18 04:05-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Afrikaans\n"
@@ -292,114 +292,118 @@ msgstr "Pas aan"
 msgid "Panel Size"
 msgstr "Paneelgrootte"
 
-#: ui/prefs.ui:2797 ui/prefs.ui:2909
+#: ui/prefs.ui:2797 ui/prefs.ui:2909 ui/prefs.ui:3022
 msgid "By Shell Theme"
 msgstr "Deur Shell-tema"
 
 #: ui/prefs.ui:2897
+msgid "Panel Button Padding Size"
+msgstr "Paneelknoppie padding grootte"
+
+#: ui/prefs.ui:3010
 msgid "Panel Corner Size"
 msgstr "Paneelhoekgrootte"
 
-#: ui/prefs.ui:2910
+#: ui/prefs.ui:3023
 msgid "No Corner"
 msgstr "Geen hoekie nie"
 
-#: ui/prefs.ui:3010
+#: ui/prefs.ui:3123
 msgid "Panel Position"
 msgstr "Paneelposisie"
 
-#: ui/prefs.ui:3022
+#: ui/prefs.ui:3135
 msgid "Top"
 msgstr "Top"
 
-#: ui/prefs.ui:3023
+#: ui/prefs.ui:3136
 msgid "Bottom"
 msgstr "Onder"
 
-#: ui/prefs.ui:3063
+#: ui/prefs.ui:3176
 msgid "Clock Menu Position"
 msgstr "Klok menu posisie"
 
-#: ui/prefs.ui:3075
+#: ui/prefs.ui:3188
 msgid "Center"
 msgstr "Sentrum"
 
-#: ui/prefs.ui:3076
+#: ui/prefs.ui:3189
 msgid "Right"
 msgstr "Reg"
 
-#: ui/prefs.ui:3077
+#: ui/prefs.ui:3190
 msgid "Left"
 msgstr "Links"
 
-#: ui/prefs.ui:3117
+#: ui/prefs.ui:3230
 msgid "Clock Menu Position Offset"
 msgstr "Klok menu posisie verreken"
 
-#: ui/prefs.ui:3178
+#: ui/prefs.ui:3291
 msgid "Workspace Switcher Size"
 msgstr "Grootte van die skakelaar van die werkruimte"
 
-#: ui/prefs.ui:3190 ui/prefs.ui:3331
+#: ui/prefs.ui:3303 ui/prefs.ui:3444
 msgid "Default"
 msgstr "Verstek"
 
-#: ui/prefs.ui:3260
+#: ui/prefs.ui:3373
 msgid "Animation"
 msgstr "Animasie"
 
-#: ui/prefs.ui:3272
+#: ui/prefs.ui:3385
 msgid "No Animation"
 msgstr "Geen animasie nie"
 
-#: ui/prefs.ui:3273
+#: ui/prefs.ui:3386
 msgid "Default Speed"
 msgstr "Verstekspoed"
 
-#: ui/prefs.ui:3274
+#: ui/prefs.ui:3387
 msgid "Fastest"
 msgstr "Vinnigste"
 
-#: ui/prefs.ui:3275
+#: ui/prefs.ui:3388
 msgid "Faster"
 msgstr "Vinniger"
 
-#: ui/prefs.ui:3276
+#: ui/prefs.ui:3389
 msgid "Fast"
 msgstr "Vinnig"
 
-#: ui/prefs.ui:3277
+#: ui/prefs.ui:3390
 msgid "Slow"
 msgstr "Stadig"
 
-#: ui/prefs.ui:3278
+#: ui/prefs.ui:3391
 msgid "Slower"
 msgstr "Stadiger"
 
-#: ui/prefs.ui:3279
+#: ui/prefs.ui:3392
 msgid "Slowest"
 msgstr "Stadigste"
 
-#: ui/prefs.ui:3319
+#: ui/prefs.ui:3432
 msgid "Dash Icon Size"
 msgstr "grootte van die streepikoon"
 
-#: ui/prefs.ui:3380
+#: ui/prefs.ui:3493
 msgid "Notification Banner Position"
 msgstr "Kennisgewingbannerposisie"
 
-#: ui/prefs.ui:3391
+#: ui/prefs.ui:3504
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "Kennisgewing pop-up posisie wanneer kennisgewings op die skerm verskyn"
 
-#: ui/prefs.ui:3412
+#: ui/prefs.ui:3525
 msgid "Top Start"
 msgstr "Top begin"
 
-#: ui/prefs.ui:3413
+#: ui/prefs.ui:3526
 msgid "Top Center"
 msgstr "Top sentrum"
 
-#: ui/prefs.ui:3414
+#: ui/prefs.ui:3527
 msgid "Top End"
 msgstr "Bopunt"

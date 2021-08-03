@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-16 05:27-0700\n"
+"POT-Creation-Date: 2021-08-03 13:28-0700\n"
 "PO-Revision-Date: 2021-02-01 18:27+0100\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish; Castilian <oscfdezdz@tuta.io>\n"
@@ -159,8 +159,7 @@ msgstr "Indicador del espacio de trabajo"
 #: ui/prefs.ui:1484
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr ""
-"Indicador que aparece en la pantalla cuando se cambia el espacio de "
-"trabajo"
+"Indicador que aparece en la pantalla cuando se cambia el espacio de trabajo"
 
 #: ui/prefs.ui:1548
 msgid "Workspace Switcher"
@@ -303,116 +302,120 @@ msgstr "Personalizar"
 msgid "Panel Size"
 msgstr "Tamaño del panel"
 
-#: ui/prefs.ui:2797 ui/prefs.ui:2909
+#: ui/prefs.ui:2797 ui/prefs.ui:2909 ui/prefs.ui:3022
 msgid "By Shell Theme"
 msgstr "Por tema de Shell"
 
 #: ui/prefs.ui:2897
+msgid "Panel Button Padding Size"
+msgstr "Tamaño del acolchado del botón del panel"
+
+#: ui/prefs.ui:3010
 msgid "Panel Corner Size"
 msgstr "Tamaño de la esquina del panel"
 
-#: ui/prefs.ui:2910
+#: ui/prefs.ui:3023
 msgid "No Corner"
 msgstr "Sin esquina"
 
-#: ui/prefs.ui:3010
+#: ui/prefs.ui:3123
 msgid "Panel Position"
 msgstr "Posición del panel"
 
-#: ui/prefs.ui:3022
+#: ui/prefs.ui:3135
 msgid "Top"
 msgstr "Cima"
 
-#: ui/prefs.ui:3023
+#: ui/prefs.ui:3136
 msgid "Bottom"
 msgstr "Fondo"
 
-#: ui/prefs.ui:3063
+#: ui/prefs.ui:3176
 msgid "Clock Menu Position"
 msgstr "Posición del menú del reloj"
 
-#: ui/prefs.ui:3075
+#: ui/prefs.ui:3188
 msgid "Center"
 msgstr "Centrar"
 
-#: ui/prefs.ui:3076
+#: ui/prefs.ui:3189
 msgid "Right"
 msgstr "Derecha"
 
-#: ui/prefs.ui:3077
+#: ui/prefs.ui:3190
 msgid "Left"
 msgstr "Izquierda"
 
-#: ui/prefs.ui:3117
+#: ui/prefs.ui:3230
 msgid "Clock Menu Position Offset"
 msgstr "Desplazamiento de la posición del menú del reloj"
 
-#: ui/prefs.ui:3178
+#: ui/prefs.ui:3291
 msgid "Workspace Switcher Size"
 msgstr "Tamaño del conmutador de espacio de trabajo"
 
-#: ui/prefs.ui:3190 ui/prefs.ui:3331
+#: ui/prefs.ui:3303 ui/prefs.ui:3444
 msgid "Default"
 msgstr "Defecto"
 
-#: ui/prefs.ui:3260
+#: ui/prefs.ui:3373
 msgid "Animation"
 msgstr "Animación"
 
-#: ui/prefs.ui:3272
+#: ui/prefs.ui:3385
 msgid "No Animation"
 msgstr "Sin animación"
 
-#: ui/prefs.ui:3273
+#: ui/prefs.ui:3386
 msgid "Default Speed"
 msgstr "Velocidad predeterminada"
 
-#: ui/prefs.ui:3274
+#: ui/prefs.ui:3387
 msgid "Fastest"
 msgstr "Lo más rápido"
 
-#: ui/prefs.ui:3275
+#: ui/prefs.ui:3388
 msgid "Faster"
 msgstr "Más rápido"
 
-#: ui/prefs.ui:3276
+#: ui/prefs.ui:3389
 msgid "Fast"
 msgstr "Rápido"
 
-#: ui/prefs.ui:3277
+#: ui/prefs.ui:3390
 msgid "Slow"
 msgstr "Lento"
 
-#: ui/prefs.ui:3278
+#: ui/prefs.ui:3391
 msgid "Slower"
 msgstr "Más lento"
 
-#: ui/prefs.ui:3279
+#: ui/prefs.ui:3392
 msgid "Slowest"
 msgstr "El más lento"
 
-#: ui/prefs.ui:3319
+#: ui/prefs.ui:3432
 msgid "Dash Icon Size"
 msgstr "Tamaño del icono del tablero"
 
-#: ui/prefs.ui:3380
+#: ui/prefs.ui:3493
 msgid "Notification Banner Position"
 msgstr "Posición del banner de notificación"
 
-#: ui/prefs.ui:3391
+#: ui/prefs.ui:3504
 msgid "Notification popup position when notifications show up on the screen"
 msgstr ""
 "Posición de la ventana emergente de notificación cuando las notificaciones "
 "aparecen en la pantalla"
 
-#: ui/prefs.ui:3412
+#: ui/prefs.ui:3525
 msgid "Top Start"
 msgstr "Inicio superior"
 
-#: ui/prefs.ui:3413
+#: ui/prefs.ui:3526
 msgid "Top Center"
 msgstr "Centro Superior"
 
-#: ui/prefs.ui:3414
+#: ui/prefs.ui:3527
 msgid "Top End"
 msgstr "Extremo superior"
