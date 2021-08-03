@@ -46,6 +46,7 @@ This extension allows you to do the following:
 
 - Panel Height
 - Panel Position
+- Panel Button Padding Size
 - Panel Round Corner Size
 - Clock Menu Position
 - Workspace Switcher Size (Only GNOME Shell 40)
