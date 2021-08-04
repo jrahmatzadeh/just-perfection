@@ -16,6 +16,7 @@ const WorkspaceThumbnail = imports.ui.workspaceThumbnail;
 const SearchController = (ShellVersion >= 40) ? imports.ui.searchController : null;
 const Panel = imports.ui.panel;
 const WorkspacesView = imports.ui.workspacesView;
+const WindowPreview = (ShellVersion >= 40) ? imports.ui.windowPreview : null;
 
 let manager;
 let api;
@@ -48,6 +49,7 @@ function enable()
         'GLib': GLib,
         'Clutter': Clutter,
         'Panel': Panel,
+        'WindowPreview' : WindowPreview,
     }, ShellVersion);
     
     api.open();
