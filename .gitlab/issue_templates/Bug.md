@@ -26,3 +26,8 @@
 
 (Paste any relevant logs - please use code blocks (```) to format console output, logs, and code, as
 it's very hard to read otherwise. For shell log you can use `journalctl -fo cat /usr/bin/gnome-shell`.)
+
+## Settings Values
+
+(Paste the settings values if it is relevant to the issue: 
+`gsettings --schemadir ~/.local/share/gnome-shell/extensions/just-perfection-desktop@just-perfection/schemas list-recursively org.gnome.shell.extensions.just-perfection`.)
