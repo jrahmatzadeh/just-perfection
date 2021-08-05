@@ -23,6 +23,7 @@ This extension allows you to do the following:
 - System Menu (Aggregate Menu)
 - Applications Button
 - Workspaces in app grid (Only GNOME Shell 40)
+- Window Picker Caption (Only GNOME Shell 40)
 
 ### Icons Visibility
 

@@ -1664,6 +1664,81 @@
                           </child>
                           
                           <child>
+                            <object class="GtkListBoxRow" id="window_preview_caption_row">
+                              <property name="visible">True</property>
+                              <property name="can-focus">True</property>
+                              
+                              <child>
+                                <object class="GtkBox" id="window_preview_caption_box">
+                                  <property name="visible">True</property>
+                                  <property name="can-focus">False</property>
+                                  <property name="margin-start">12</property>
+                                  <property name="margin-end">12</property>
+                                  <property name="margin-top">12</property>
+                                  <property name="margin-bottom">12</property>
+                                  <property name="orientation">vertical</property>
+                                  
+                                  <child>
+                                    <object class="GtkBox" id="window_preview_caption_box2">
+                                      <property name="visible">True</property>
+                                      <property name="can-focus">False</property>
+                                      <property name="spacing">32</property>
+                                      
+                                      <child>
+                                        <object class="GtkBox">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">True</property>
+                                          <property name="orientation">vertical</property>
+                                          
+                                          <child>
+                                            <object class="GtkLabel" id="window_preview_caption_txt">
+                                              <property name="visible">True</property>
+                                              <property name="can-focus">False</property>
+                                              <property name="valign">center</property>
+                                              <property name="label" translatable="yes">Window Picker Caption</property>
+                                              <property name="xalign">0</property>
+                                              <property name="hexpand">1</property>
+                                            </object>
+                                          </child>
+                                        
+                                          <child>
+                                            <object class="GtkLabel">
+                                              <property name="visible">True</property>
+                                              <property name="can-focus">False</property>
+                                              <property name="valign">center</property>
+                                              <property name="label" translatable="yes">The text under window preview in overview</property>
+                                              <property name="xalign">0</property>
+                                              <property name="wrap">True</property>
+                                              <property name="width-chars">0</property>
+                                              <property name="max-width-chars">0</property>
+                                              <property name="margin-top">12</property>
+                                              <style>
+                                                <class name="dim-label"/>
+                                              </style>
+                                            </object>
+                                          </child>
+                                          
+                                        </object>
+                                      </child>
+                                      
+                                      <child>
+                                        <object class="GtkSwitch" id="window_preview_caption_switch">
+                                          <property name="visible">True</property>
+                                          <property name="can-focus">True</property>
+                                          <property name="valign">center</property>
+                                        </object>
+                                      </child>
+                                      
+                                    </object>
+                                  </child>
+                                  
+                                </object>
+                              </child>
+                              
+                            </object>
+                          </child>
+                          
+                          <child>
                             <object class="GtkListBoxRow" id="background_menu_row">
                               <property name="visible">True</property>
                               <property name="can-focus">True</property>

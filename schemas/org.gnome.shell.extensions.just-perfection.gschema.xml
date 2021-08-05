@@ -255,6 +255,12 @@
       <description>Panel Button Padding Size</description>
     </key>
     
+    <key type="b" name="window-preview-caption">
+      <default>true</default>
+      <summary>Window Preview Caption</summary>
+      <description>Window Preview Caption Status</description>
+    </key>
+    
   </schema>
   
 </schemalist>
