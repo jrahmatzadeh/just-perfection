@@ -16,7 +16,8 @@ const WorkspaceThumbnail = imports.ui.workspaceThumbnail;
 const SearchController = (ShellVersion >= 40) ? imports.ui.searchController : null;
 const Panel = imports.ui.panel;
 const WorkspacesView = imports.ui.workspacesView;
-const WindowPreview = (ShellVersion >= 40) ? imports.ui.windowPreview : null;
+const WindowPreview = (ShellVersion >= 3.38) ? imports.ui.windowPreview : null;
+const Workspace = (ShellVersion <= 3.36) ? imports.ui.workspace : null;
 
 let manager;
 let api;
@@ -50,6 +51,7 @@ function enable()
         'Clutter': Clutter,
         'Panel': Panel,
         'WindowPreview' : WindowPreview,
+        'Workspace' : Workspace,
     }, ShellVersion);
     
     api.open();
