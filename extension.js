@@ -4,6 +4,7 @@ const Me = ExtensionUtils.getCurrentExtension();
 const {API, Manager, HotCorner} = Me.imports.lib;
 const {GLib, Gio, St, Clutter} = imports.gi;
 
+const Util = imports.misc.util;
 const Config = imports.misc.config;
 const ShellVersion = parseFloat(Config.PACKAGE_VERSION);
 
@@ -17,7 +18,7 @@ const SearchController = (ShellVersion >= 40) ? imports.ui.searchController : nu
 const Panel = imports.ui.panel;
 const WorkspacesView = imports.ui.workspacesView;
 const WindowPreview = (ShellVersion >= 3.38) ? imports.ui.windowPreview : null;
-const Workspace = (ShellVersion <= 3.36) ? imports.ui.workspace : null;
+const Workspace = imports.ui.workspace;
 
 let manager;
 let api;
@@ -52,6 +53,7 @@ function enable()
         'Panel': Panel,
         'WindowPreview' : WindowPreview,
         'Workspace' : Workspace,
+        'Util' : Util,
     }, ShellVersion);
     
     api.open();
