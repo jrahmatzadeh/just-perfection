@@ -29,7 +29,7 @@ function enable()
 {
     // <3.36 can crash by enabling the extension
     // since <3.36 is not supported we simply return
-    // to avoid bad experience for <3.36 users. 
+    // to avoid bad experience for <3.36 users.
     if (ShellVersion < 3.36) {
         return;
     }

@@ -49,6 +49,7 @@ This extension allows you to do the following:
 - Panel Position
 - Panel Button Padding Size
 - Panel Round Corner Size
+- Workspace Background Corner Size in Overview (Only GNOME Shell 40)
 - Clock Menu Position
 - Workspace Switcher Size (Only GNOME Shell 40)
 - Animation Speed or Disable it

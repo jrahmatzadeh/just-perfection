@@ -28,6 +28,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Panel height.
 - Panel button padding size.
 - Window picker caption visiblity.
+- Workspace background corner size in overview.
 
 ## [12.0.0 Queen Red] - 2021-06-29
 
