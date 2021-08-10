@@ -6,6 +6,8 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+## [13.0.0 Ring] - 2021-08-10
+
 ### Changed
 
 - Search button position in prefs window.
