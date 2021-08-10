@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-09 14:28-0700\n"
+"POT-Creation-Date: 2021-08-10 03:56-0700\n"
 "PO-Revision-Date: 2021-03-16 19:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: Catalan \n"
@@ -251,30 +251,44 @@ msgid "App Gesture"
 msgstr "Gestos d'aplicació"
 
 #: ui/prefs.ui:2522
+msgid "Workspace Wraparound"
+msgstr "Espai de treball Wraparound"
+
+#: ui/prefs.ui:2533
+msgid ""
+"Next workspace will be the first workspace when you are in the last "
+"workspace. and previous workspace will be the last workspace when you are in "
+"the first workspace."
+msgstr ""
+"El següent espai de treball serà el primer espai de treball quan estigueu a l’últim "
+"espai de treball. i l’espai de treball anterior serà l’últim espai de treball quan "
+"estigueu al primer espai de treball."
+
+#: ui/prefs.ui:2597
 msgid "Window Demands Attention Focus"
 msgstr "La finestra demana un focus d’atenció"
 
-#: ui/prefs.ui:2533
+#: ui/prefs.ui:2608
 msgid "Removes window is ready notification and focus on the window"
 msgstr ""
 "Elimina la finestra ja està llesta la notificació i se centra en la finestra"
 
-#: ui/prefs.ui:2597
+#: ui/prefs.ui:2672
 msgid "Type to Search"
 msgstr "Escriu per cercar"
 
-#: ui/prefs.ui:2608
+#: ui/prefs.ui:2683
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Podeu iniciar la cerca sense l'entrada de cerca o fins i tot centrant-vos-hi "
 "en la vista general"
 
-#: ui/prefs.ui:2672
+#: ui/prefs.ui:2747
 msgid "Always Show Workspace Switcher"
 msgstr "Mostra sempre el commutador d'espai de treball"
 
-#: ui/prefs.ui:2683
+#: ui/prefs.ui:2758
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
@@ -282,152 +296,152 @@ msgstr ""
 "Mostra el commutador d'espai de treball fins i tot quan només s'utilitza un "
 "espai de treball amb espais de treball dinàmics"
 
-#: ui/prefs.ui:2747
+#: ui/prefs.ui:2822
 msgid "Startup Status"
 msgstr "Estat d’inici"
 
-#: ui/prefs.ui:2758
+#: ui/prefs.ui:2833
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "Quan el GNOME Shell s’inicia per primera vegada"
 
-#: ui/prefs.ui:2779
+#: ui/prefs.ui:2854
 msgid "Desktop"
 msgstr "Escriptori"
 
-#: ui/prefs.ui:2780
+#: ui/prefs.ui:2855
 msgid "Overview"
 msgstr "Visió general"
 
-#: ui/prefs.ui:2812
+#: ui/prefs.ui:2887
 msgid "Customize"
 msgstr "Personalitza"
 
-#: ui/prefs.ui:2866
+#: ui/prefs.ui:2941
 msgid "Workspace Background Corner Size"
 msgstr "Mida de la cantonada de fons de l’espai de treball"
 
-#: ui/prefs.ui:2877
+#: ui/prefs.ui:2952
 msgid "Workspace background corner size in overview"
 msgstr "Cantonada del fons de l’espai de treball Mida a la vista general"
 
-#: ui/prefs.ui:2898 ui/prefs.ui:3011 ui/prefs.ui:3123 ui/prefs.ui:3236
+#: ui/prefs.ui:2973 ui/prefs.ui:3086 ui/prefs.ui:3198 ui/prefs.ui:3311
 msgid "By Shell Theme"
 msgstr "Pel tema de l'entorn"
 
-#: ui/prefs.ui:2999
+#: ui/prefs.ui:3074
 msgid "Panel Size"
 msgstr "Mida del tauler"
 
-#: ui/prefs.ui:3111
+#: ui/prefs.ui:3186
 msgid "Panel Button Padding Size"
 msgstr "Mida del farciment del botó del tauler"
 
-#: ui/prefs.ui:3224
+#: ui/prefs.ui:3299
 msgid "Panel Corner Size"
 msgstr "Mida de la cantonada del tauler"
 
-#: ui/prefs.ui:3237
+#: ui/prefs.ui:3312
 msgid "No Corner"
 msgstr "Sense cantonada"
 
-#: ui/prefs.ui:3337
+#: ui/prefs.ui:3412
 msgid "Panel Position"
 msgstr "Posició del panell"
 
-#: ui/prefs.ui:3349
+#: ui/prefs.ui:3424
 msgid "Top"
 msgstr "Superior"
 
-#: ui/prefs.ui:3350
+#: ui/prefs.ui:3425
 msgid "Bottom"
 msgstr "Inferior"
 
-#: ui/prefs.ui:3390
+#: ui/prefs.ui:3465
 msgid "Clock Menu Position"
 msgstr "Posició del menú del rellotge"
 
-#: ui/prefs.ui:3402
+#: ui/prefs.ui:3477
 msgid "Center"
 msgstr "Centre"
 
-#: ui/prefs.ui:3403
+#: ui/prefs.ui:3478
 msgid "Right"
 msgstr "Dreta"
 
-#: ui/prefs.ui:3404
+#: ui/prefs.ui:3479
 msgid "Left"
 msgstr "Esquerra"
 
-#: ui/prefs.ui:3444
+#: ui/prefs.ui:3519
 msgid "Clock Menu Position Offset"
 msgstr "Desplaçament del menú del rellotge"
 
-#: ui/prefs.ui:3505
+#: ui/prefs.ui:3580
 msgid "Workspace Switcher Size"
 msgstr "Mida del commutador d'espais de treball"
 
-#: ui/prefs.ui:3517 ui/prefs.ui:3658
+#: ui/prefs.ui:3592 ui/prefs.ui:3733
 msgid "Default"
 msgstr "Per defecte"
 
-#: ui/prefs.ui:3587
+#: ui/prefs.ui:3662
 msgid "Animation"
 msgstr "Animació"
 
-#: ui/prefs.ui:3599
+#: ui/prefs.ui:3674
 msgid "No Animation"
 msgstr "Sense animació"
 
-#: ui/prefs.ui:3600
+#: ui/prefs.ui:3675
 msgid "Default Speed"
 msgstr "Velocitat per defecte"
 
-#: ui/prefs.ui:3601
+#: ui/prefs.ui:3676
 msgid "Fastest"
 msgstr "El més ràpid"
 
-#: ui/prefs.ui:3602
+#: ui/prefs.ui:3677
 msgid "Faster"
 msgstr "Més ràpid"
 
-#: ui/prefs.ui:3603
+#: ui/prefs.ui:3678
 msgid "Fast"
 msgstr "Ràpid"
 
-#: ui/prefs.ui:3604
+#: ui/prefs.ui:3679
 msgid "Slow"
 msgstr "Lent"
 
-#: ui/prefs.ui:3605
+#: ui/prefs.ui:3680
 msgid "Slower"
 msgstr "Més lent"
 
-#: ui/prefs.ui:3606
+#: ui/prefs.ui:3681
 msgid "Slowest"
 msgstr "El més lent"
 
-#: ui/prefs.ui:3646
+#: ui/prefs.ui:3721
 msgid "Dash Icon Size"
 msgstr "mida de la icona de guió"
 
-#: ui/prefs.ui:3707
+#: ui/prefs.ui:3782
 msgid "Notification Banner Position"
 msgstr "Posició del bàner de notificacions"
 
-#: ui/prefs.ui:3718
+#: ui/prefs.ui:3793
 msgid "Notification popup position when notifications show up on the screen"
 msgstr ""
 "Posició emergent de les notificacions quan apareixen les notificacions a la "
 "pantalla"
 
-#: ui/prefs.ui:3739
+#: ui/prefs.ui:3814
 msgid "Top Start"
 msgstr "Inici superior"
 
-#: ui/prefs.ui:3740
+#: ui/prefs.ui:3815
 msgid "Top Center"
 msgstr "Centre superior"
 
-#: ui/prefs.ui:3741
+#: ui/prefs.ui:3816
 msgid "Top End"
 msgstr "Extrem superior"

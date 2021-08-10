@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-09 14:28-0700\n"
+"POT-Creation-Date: 2021-08-10 03:56-0700\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -251,29 +251,43 @@ msgid "App Gesture"
 msgstr "App жест"
 
 #: ui/prefs.ui:2522
+msgid "Workspace Wraparound"
+msgstr "Работно пространство Wraparound"
+
+#: ui/prefs.ui:2533
+msgid ""
+"Next workspace will be the first workspace when you are in the last "
+"workspace. and previous workspace will be the last workspace when you are in "
+"the first workspace."
+msgstr ""
+"Следващото работно пространство ще бъде първото работно пространство, "
+"когато сте в последното работно пространство. и предишното работно пространство "
+"ще бъде последното работно пространство, когато сте в първото работно пространство."
+
+#: ui/prefs.ui:2597
 msgid "Window Demands Attention Focus"
 msgstr "Прозорецът изисква фокус на вниманието"
 
-#: ui/prefs.ui:2533
+#: ui/prefs.ui:2608
 msgid "Removes window is ready notification and focus on the window"
 msgstr "Премахва прозорец е готов известие и се фокусира върху прозореца"
 
-#: ui/prefs.ui:2597
+#: ui/prefs.ui:2672
 msgid "Type to Search"
 msgstr "Въведете за търсене"
 
-#: ui/prefs.ui:2608
+#: ui/prefs.ui:2683
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Можете да започнете търсенето без въвеждане на търсене или дори да се "
 "фокусирате върху него в общ преглед"
 
-#: ui/prefs.ui:2672
+#: ui/prefs.ui:2747
 msgid "Always Show Workspace Switcher"
 msgstr "Винаги да се показва превключвател на работното пространство"
 
-#: ui/prefs.ui:2683
+#: ui/prefs.ui:2758
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
@@ -281,150 +295,150 @@ msgstr ""
 "Показва превключвател на работно пространство, дори когато само едно работно "
 "пространство се използва с динамични работни пространства"
 
-#: ui/prefs.ui:2747
+#: ui/prefs.ui:2822
 msgid "Startup Status"
 msgstr "Стартово състояние"
 
-#: ui/prefs.ui:2758
+#: ui/prefs.ui:2833
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "Когато GNOME Shell се стартира за първи път"
 
-#: ui/prefs.ui:2779
+#: ui/prefs.ui:2854
 msgid "Desktop"
 msgstr "работен плот"
 
-#: ui/prefs.ui:2780
+#: ui/prefs.ui:2855
 msgid "Overview"
 msgstr "Общ преглед"
 
-#: ui/prefs.ui:2812
+#: ui/prefs.ui:2887
 msgid "Customize"
 msgstr "Персонализирайте"
 
-#: ui/prefs.ui:2866
+#: ui/prefs.ui:2941
 msgid "Workspace Background Corner Size"
 msgstr "Размер на ъгъла на работното пространство"
 
-#: ui/prefs.ui:2877
+#: ui/prefs.ui:2952
 msgid "Workspace background corner size in overview"
 msgstr "Преглед на размера на ъгъла на работното пространство"
 
-#: ui/prefs.ui:2898 ui/prefs.ui:3011 ui/prefs.ui:3123 ui/prefs.ui:3236
+#: ui/prefs.ui:2973 ui/prefs.ui:3086 ui/prefs.ui:3198 ui/prefs.ui:3311
 msgid "By Shell Theme"
 msgstr "От Shell Theme"
 
-#: ui/prefs.ui:2999
+#: ui/prefs.ui:3074
 msgid "Panel Size"
 msgstr "Размер на панела"
 
-#: ui/prefs.ui:3111
+#: ui/prefs.ui:3186
 msgid "Panel Button Padding Size"
 msgstr "Размер на подложката на бутона на панела"
 
-#: ui/prefs.ui:3224
+#: ui/prefs.ui:3299
 msgid "Panel Corner Size"
 msgstr "Размер на ъгъла на панела"
 
-#: ui/prefs.ui:3237
+#: ui/prefs.ui:3312
 msgid "No Corner"
 msgstr "Без ъгъл"
 
-#: ui/prefs.ui:3337
+#: ui/prefs.ui:3412
 msgid "Panel Position"
 msgstr "Позиция на панела"
 
-#: ui/prefs.ui:3349
+#: ui/prefs.ui:3424
 msgid "Top"
 msgstr "Връх"
 
-#: ui/prefs.ui:3350
+#: ui/prefs.ui:3425
 msgid "Bottom"
 msgstr "Отдолу"
 
-#: ui/prefs.ui:3390
+#: ui/prefs.ui:3465
 msgid "Clock Menu Position"
 msgstr "Позиция на менюто на часовника"
 
-#: ui/prefs.ui:3402
+#: ui/prefs.ui:3477
 msgid "Center"
 msgstr "Център"
 
-#: ui/prefs.ui:3403
+#: ui/prefs.ui:3478
 msgid "Right"
 msgstr "Нали"
 
-#: ui/prefs.ui:3404
+#: ui/prefs.ui:3479
 msgid "Left"
 msgstr "Наляво"
 
-#: ui/prefs.ui:3444
+#: ui/prefs.ui:3519
 msgid "Clock Menu Position Offset"
 msgstr "Отместване на позицията на менюто на часовника"
 
-#: ui/prefs.ui:3505
+#: ui/prefs.ui:3580
 msgid "Workspace Switcher Size"
 msgstr "Размер на превключвателя на работното пространство"
 
-#: ui/prefs.ui:3517 ui/prefs.ui:3658
+#: ui/prefs.ui:3592 ui/prefs.ui:3733
 msgid "Default"
 msgstr "По подразбиране"
 
-#: ui/prefs.ui:3587
+#: ui/prefs.ui:3662
 msgid "Animation"
 msgstr "Анимация"
 
-#: ui/prefs.ui:3599
+#: ui/prefs.ui:3674
 msgid "No Animation"
 msgstr "Без анимация"
 
-#: ui/prefs.ui:3600
+#: ui/prefs.ui:3675
 msgid "Default Speed"
 msgstr "Скорост по подразбиране"
 
-#: ui/prefs.ui:3601
+#: ui/prefs.ui:3676
 msgid "Fastest"
 msgstr "Най-бързият"
 
-#: ui/prefs.ui:3602
+#: ui/prefs.ui:3677
 msgid "Faster"
 msgstr "По-бързо"
 
-#: ui/prefs.ui:3603
+#: ui/prefs.ui:3678
 msgid "Fast"
 msgstr "Бърз"
 
-#: ui/prefs.ui:3604
+#: ui/prefs.ui:3679
 msgid "Slow"
 msgstr "Бавен"
 
-#: ui/prefs.ui:3605
+#: ui/prefs.ui:3680
 msgid "Slower"
 msgstr "По-бавно"
 
-#: ui/prefs.ui:3606
+#: ui/prefs.ui:3681
 msgid "Slowest"
 msgstr "Най-бавно"
 
-#: ui/prefs.ui:3646
+#: ui/prefs.ui:3721
 msgid "Dash Icon Size"
 msgstr "размер на иконата на тире"
 
-#: ui/prefs.ui:3707
+#: ui/prefs.ui:3782
 msgid "Notification Banner Position"
 msgstr "Позиция на банера за известия"
 
-#: ui/prefs.ui:3718
+#: ui/prefs.ui:3793
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "Изскачаща позиция за известия, когато известията се показват на екрана"
 
-#: ui/prefs.ui:3739
+#: ui/prefs.ui:3814
 msgid "Top Start"
 msgstr "Топ Старт"
 
-#: ui/prefs.ui:3740
+#: ui/prefs.ui:3815
 msgid "Top Center"
 msgstr "Топ център"
 
-#: ui/prefs.ui:3741
+#: ui/prefs.ui:3816
 msgid "Top End"
 msgstr "Горен край"

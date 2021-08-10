@@ -2,7 +2,7 @@ const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
 const {API, Manager, HotCorner} = Me.imports.lib;
-const {GLib, Gio, St, Clutter} = imports.gi;
+const {GLib, Gio, St, Clutter, Meta} = imports.gi;
 
 const Util = imports.misc.util;
 const Config = imports.misc.config;
@@ -54,6 +54,7 @@ function enable()
         'WindowPreview' : WindowPreview,
         'Workspace' : Workspace,
         'Util' : Util,
+        'Meta' : Meta,
     }, ShellVersion);
     
     api.open();

@@ -29,6 +29,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Panel button padding size.
 - Window picker caption visiblity.
 - Workspace background corner size in overview.
+- Workspace wraparound (modified version of WorkspaceSwitcherWrapAround by [@war1025](https://github.com/war1025)).
 
 ## [12.0.0 Queen Red] - 2021-06-29
 
