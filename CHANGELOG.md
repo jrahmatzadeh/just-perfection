@@ -29,7 +29,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - Panel height.
 - Panel button padding size.
-- Window picker caption visiblity.
+- Window picker caption visibility.
 - Workspace background corner size in overview.
 - Workspace wraparound (modified version of WorkspaceSwitcherWrapAround by [@war1025](https://github.com/war1025)).
 
