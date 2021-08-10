@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-05 01:28-0700\n"
+"POT-Creation-Date: 2021-08-09 14:28-0700\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -301,122 +301,130 @@ msgstr "Общ преглед"
 msgid "Customize"
 msgstr "Персонализирайте"
 
-#: ui/prefs.ui:2860
-msgid "Panel Size"
-msgstr "Размер на панела"
+#: ui/prefs.ui:2866
+msgid "Workspace Background Corner Size"
+msgstr "Размер на ъгъла на работното пространство"
 
-#: ui/prefs.ui:2872 ui/prefs.ui:2984 ui/prefs.ui:3097
+#: ui/prefs.ui:2877
+msgid "Workspace background corner size in overview"
+msgstr "Преглед на размера на ъгъла на работното пространство"
+
+#: ui/prefs.ui:2898 ui/prefs.ui:3011 ui/prefs.ui:3123 ui/prefs.ui:3236
 msgid "By Shell Theme"
 msgstr "От Shell Theme"
 
-#: ui/prefs.ui:2972
+#: ui/prefs.ui:2999
+msgid "Panel Size"
+msgstr "Размер на панела"
+
+#: ui/prefs.ui:3111
 msgid "Panel Button Padding Size"
 msgstr "Размер на подложката на бутона на панела"
 
-#: ui/prefs.ui:3085
+#: ui/prefs.ui:3224
 msgid "Panel Corner Size"
 msgstr "Размер на ъгъла на панела"
 
-#: ui/prefs.ui:3098
+#: ui/prefs.ui:3237
 msgid "No Corner"
 msgstr "Без ъгъл"
 
-#: ui/prefs.ui:3198
+#: ui/prefs.ui:3337
 msgid "Panel Position"
 msgstr "Позиция на панела"
 
-#: ui/prefs.ui:3210
+#: ui/prefs.ui:3349
 msgid "Top"
 msgstr "Връх"
 
-#: ui/prefs.ui:3211
+#: ui/prefs.ui:3350
 msgid "Bottom"
 msgstr "Отдолу"
 
-#: ui/prefs.ui:3251
+#: ui/prefs.ui:3390
 msgid "Clock Menu Position"
 msgstr "Позиция на менюто на часовника"
 
-#: ui/prefs.ui:3263
+#: ui/prefs.ui:3402
 msgid "Center"
 msgstr "Център"
 
-#: ui/prefs.ui:3264
+#: ui/prefs.ui:3403
 msgid "Right"
 msgstr "Нали"
 
-#: ui/prefs.ui:3265
+#: ui/prefs.ui:3404
 msgid "Left"
 msgstr "Наляво"
 
-#: ui/prefs.ui:3305
+#: ui/prefs.ui:3444
 msgid "Clock Menu Position Offset"
 msgstr "Отместване на позицията на менюто на часовника"
 
-#: ui/prefs.ui:3366
+#: ui/prefs.ui:3505
 msgid "Workspace Switcher Size"
 msgstr "Размер на превключвателя на работното пространство"
 
-#: ui/prefs.ui:3378 ui/prefs.ui:3519
+#: ui/prefs.ui:3517 ui/prefs.ui:3658
 msgid "Default"
 msgstr "По подразбиране"
 
-#: ui/prefs.ui:3448
+#: ui/prefs.ui:3587
 msgid "Animation"
 msgstr "Анимация"
 
-#: ui/prefs.ui:3460
+#: ui/prefs.ui:3599
 msgid "No Animation"
 msgstr "Без анимация"
 
-#: ui/prefs.ui:3461
+#: ui/prefs.ui:3600
 msgid "Default Speed"
 msgstr "Скорост по подразбиране"
 
-#: ui/prefs.ui:3462
+#: ui/prefs.ui:3601
 msgid "Fastest"
 msgstr "Най-бързият"
 
-#: ui/prefs.ui:3463
+#: ui/prefs.ui:3602
 msgid "Faster"
 msgstr "По-бързо"
 
-#: ui/prefs.ui:3464
+#: ui/prefs.ui:3603
 msgid "Fast"
 msgstr "Бърз"
 
-#: ui/prefs.ui:3465
+#: ui/prefs.ui:3604
 msgid "Slow"
 msgstr "Бавен"
 
-#: ui/prefs.ui:3466
+#: ui/prefs.ui:3605
 msgid "Slower"
 msgstr "По-бавно"
 
-#: ui/prefs.ui:3467
+#: ui/prefs.ui:3606
 msgid "Slowest"
 msgstr "Най-бавно"
 
-#: ui/prefs.ui:3507
+#: ui/prefs.ui:3646
 msgid "Dash Icon Size"
 msgstr "размер на иконата на тире"
 
-#: ui/prefs.ui:3568
+#: ui/prefs.ui:3707
 msgid "Notification Banner Position"
 msgstr "Позиция на банера за известия"
 
-#: ui/prefs.ui:3579
+#: ui/prefs.ui:3718
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "Изскачаща позиция за известия, когато известията се показват на екрана"
 
-#: ui/prefs.ui:3600
+#: ui/prefs.ui:3739
 msgid "Top Start"
 msgstr "Топ Старт"
 
-#: ui/prefs.ui:3601
+#: ui/prefs.ui:3740
 msgid "Top Center"
 msgstr "Топ център"
 
-#: ui/prefs.ui:3602
+#: ui/prefs.ui:3741
 msgid "Top End"
 msgstr "Горен край"

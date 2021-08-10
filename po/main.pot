@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-05 01:41-0700\n"
+"POT-Creation-Date: 2021-08-09 14:36-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -286,122 +286,130 @@ msgstr ""
 msgid "Customize"
 msgstr ""
 
-#: ui/prefs.ui:2860
-msgid "Panel Size"
+#: ui/prefs.ui:2866
+msgid "Workspace Background Corner Size"
 msgstr ""
 
-#: ui/prefs.ui:2872 ui/prefs.ui:2984 ui/prefs.ui:3097
+#: ui/prefs.ui:2877
+msgid "Workspace background corner size in overview"
+msgstr ""
+
+#: ui/prefs.ui:2898 ui/prefs.ui:3011 ui/prefs.ui:3123 ui/prefs.ui:3236
 msgid "By Shell Theme"
 msgstr ""
 
-#: ui/prefs.ui:2972
+#: ui/prefs.ui:2999
+msgid "Panel Size"
+msgstr ""
+
+#: ui/prefs.ui:3111
 msgid "Panel Button Padding Size"
 msgstr ""
 
-#: ui/prefs.ui:3085
+#: ui/prefs.ui:3224
 msgid "Panel Corner Size"
 msgstr ""
 
-#: ui/prefs.ui:3098
+#: ui/prefs.ui:3237
 msgid "No Corner"
 msgstr ""
 
-#: ui/prefs.ui:3198
+#: ui/prefs.ui:3337
 msgid "Panel Position"
 msgstr ""
 
-#: ui/prefs.ui:3210
+#: ui/prefs.ui:3349
 msgid "Top"
 msgstr ""
 
-#: ui/prefs.ui:3211
+#: ui/prefs.ui:3350
 msgid "Bottom"
 msgstr ""
 
-#: ui/prefs.ui:3251
+#: ui/prefs.ui:3390
 msgid "Clock Menu Position"
 msgstr ""
 
-#: ui/prefs.ui:3263
+#: ui/prefs.ui:3402
 msgid "Center"
 msgstr ""
 
-#: ui/prefs.ui:3264
+#: ui/prefs.ui:3403
 msgid "Right"
 msgstr ""
 
-#: ui/prefs.ui:3265
+#: ui/prefs.ui:3404
 msgid "Left"
 msgstr ""
 
-#: ui/prefs.ui:3305
+#: ui/prefs.ui:3444
 msgid "Clock Menu Position Offset"
 msgstr ""
 
-#: ui/prefs.ui:3366
+#: ui/prefs.ui:3505
 msgid "Workspace Switcher Size"
 msgstr ""
 
-#: ui/prefs.ui:3378 ui/prefs.ui:3519
+#: ui/prefs.ui:3517 ui/prefs.ui:3658
 msgid "Default"
 msgstr ""
 
-#: ui/prefs.ui:3448
+#: ui/prefs.ui:3587
 msgid "Animation"
 msgstr ""
 
-#: ui/prefs.ui:3460
+#: ui/prefs.ui:3599
 msgid "No Animation"
 msgstr ""
 
-#: ui/prefs.ui:3461
+#: ui/prefs.ui:3600
 msgid "Default Speed"
 msgstr ""
 
-#: ui/prefs.ui:3462
+#: ui/prefs.ui:3601
 msgid "Fastest"
 msgstr ""
 
-#: ui/prefs.ui:3463
+#: ui/prefs.ui:3602
 msgid "Faster"
 msgstr ""
 
-#: ui/prefs.ui:3464
+#: ui/prefs.ui:3603
 msgid "Fast"
 msgstr ""
 
-#: ui/prefs.ui:3465
+#: ui/prefs.ui:3604
 msgid "Slow"
 msgstr ""
 
-#: ui/prefs.ui:3466
+#: ui/prefs.ui:3605
 msgid "Slower"
 msgstr ""
 
-#: ui/prefs.ui:3467
+#: ui/prefs.ui:3606
 msgid "Slowest"
 msgstr ""
 
-#: ui/prefs.ui:3507
+#: ui/prefs.ui:3646
 msgid "Dash Icon Size"
 msgstr ""
 
-#: ui/prefs.ui:3568
+#: ui/prefs.ui:3707
 msgid "Notification Banner Position"
 msgstr ""
 
-#: ui/prefs.ui:3579
+#: ui/prefs.ui:3718
 msgid "Notification popup position when notifications show up on the screen"
 msgstr ""
 
-#: ui/prefs.ui:3600
+#: ui/prefs.ui:3739
 msgid "Top Start"
 msgstr ""
 
-#: ui/prefs.ui:3601
+#: ui/prefs.ui:3740
 msgid "Top Center"
 msgstr ""
 
-#: ui/prefs.ui:3602
+#: ui/prefs.ui:3741
 msgid "Top End"
 msgstr ""
