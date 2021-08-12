@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Added
+
+- Panel indicator padding size.
+
 ## [13.0.0 Ring] - 2021-08-10
 
 ### Changed
