@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-10 03:56-0700\n"
+"POT-Creation-Date: 2021-08-14 00:45-0700\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -260,9 +260,10 @@ msgid ""
 "workspace. and previous workspace will be the last workspace when you are in "
 "the first workspace."
 msgstr ""
-"Следващото работно пространство ще бъде първото работно пространство, "
-"когато сте в последното работно пространство. и предишното работно пространство "
-"ще бъде последното работно пространство, когато сте в първото работно пространство."
+"Следващото работно пространство ще бъде първото работно пространство, когато "
+"сте в последното работно пространство. и предишното работно пространство ще "
+"бъде последното работно пространство, когато сте в първото работно "
+"пространство."
 
 #: ui/prefs.ui:2597
 msgid "Window Demands Attention Focus"
@@ -324,6 +325,7 @@ msgid "Workspace background corner size in overview"
 msgstr "Преглед на размера на ъгъла на работното пространство"
 
 #: ui/prefs.ui:2973 ui/prefs.ui:3086 ui/prefs.ui:3198 ui/prefs.ui:3311
+#: ui/prefs.ui:3424
 msgid "By Shell Theme"
 msgstr "От Shell Theme"
 
@@ -336,109 +338,113 @@ msgid "Panel Button Padding Size"
 msgstr "Размер на подложката на бутона на панела"
 
 #: ui/prefs.ui:3299
+msgid "Panel Indicator Padding Size"
+msgstr "Размер на подложката на индикатора на панела"
+
+#: ui/prefs.ui:3412
 msgid "Panel Corner Size"
 msgstr "Размер на ъгъла на панела"
 
-#: ui/prefs.ui:3312
+#: ui/prefs.ui:3425
 msgid "No Corner"
 msgstr "Без ъгъл"
 
-#: ui/prefs.ui:3412
+#: ui/prefs.ui:3525
 msgid "Panel Position"
 msgstr "Позиция на панела"
 
-#: ui/prefs.ui:3424
+#: ui/prefs.ui:3537
 msgid "Top"
 msgstr "Връх"
 
-#: ui/prefs.ui:3425
+#: ui/prefs.ui:3538
 msgid "Bottom"
 msgstr "Отдолу"
 
-#: ui/prefs.ui:3465
+#: ui/prefs.ui:3578
 msgid "Clock Menu Position"
 msgstr "Позиция на менюто на часовника"
 
-#: ui/prefs.ui:3477
+#: ui/prefs.ui:3590
 msgid "Center"
 msgstr "Център"
 
-#: ui/prefs.ui:3478
+#: ui/prefs.ui:3591
 msgid "Right"
 msgstr "Нали"
 
-#: ui/prefs.ui:3479
+#: ui/prefs.ui:3592
 msgid "Left"
 msgstr "Наляво"
 
-#: ui/prefs.ui:3519
+#: ui/prefs.ui:3632
 msgid "Clock Menu Position Offset"
 msgstr "Отместване на позицията на менюто на часовника"
 
-#: ui/prefs.ui:3580
+#: ui/prefs.ui:3693
 msgid "Workspace Switcher Size"
 msgstr "Размер на превключвателя на работното пространство"
 
-#: ui/prefs.ui:3592 ui/prefs.ui:3733
+#: ui/prefs.ui:3705 ui/prefs.ui:3846
 msgid "Default"
 msgstr "По подразбиране"
 
-#: ui/prefs.ui:3662
+#: ui/prefs.ui:3775
 msgid "Animation"
 msgstr "Анимация"
 
-#: ui/prefs.ui:3674
+#: ui/prefs.ui:3787
 msgid "No Animation"
 msgstr "Без анимация"
 
-#: ui/prefs.ui:3675
+#: ui/prefs.ui:3788
 msgid "Default Speed"
 msgstr "Скорост по подразбиране"
 
-#: ui/prefs.ui:3676
+#: ui/prefs.ui:3789
 msgid "Fastest"
 msgstr "Най-бързият"
 
-#: ui/prefs.ui:3677
+#: ui/prefs.ui:3790
 msgid "Faster"
 msgstr "По-бързо"
 
-#: ui/prefs.ui:3678
+#: ui/prefs.ui:3791
 msgid "Fast"
 msgstr "Бърз"
 
-#: ui/prefs.ui:3679
+#: ui/prefs.ui:3792
 msgid "Slow"
 msgstr "Бавен"
 
-#: ui/prefs.ui:3680
+#: ui/prefs.ui:3793
 msgid "Slower"
 msgstr "По-бавно"
 
-#: ui/prefs.ui:3681
+#: ui/prefs.ui:3794
 msgid "Slowest"
 msgstr "Най-бавно"
 
-#: ui/prefs.ui:3721
+#: ui/prefs.ui:3834
 msgid "Dash Icon Size"
 msgstr "размер на иконата на тире"
 
-#: ui/prefs.ui:3782
+#: ui/prefs.ui:3895
 msgid "Notification Banner Position"
 msgstr "Позиция на банера за известия"
 
-#: ui/prefs.ui:3793
+#: ui/prefs.ui:3906
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "Изскачаща позиция за известия, когато известията се показват на екрана"
 
-#: ui/prefs.ui:3814
+#: ui/prefs.ui:3927
 msgid "Top Start"
 msgstr "Топ Старт"
 
-#: ui/prefs.ui:3815
+#: ui/prefs.ui:3928
 msgid "Top Center"
 msgstr "Топ център"
 
-#: ui/prefs.ui:3816
+#: ui/prefs.ui:3929
 msgid "Top End"
 msgstr "Горен край"

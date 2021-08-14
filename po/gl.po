@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-10 03:56-0700\n"
+"POT-Creation-Date: 2021-08-14 00:45-0700\n"
 "PO-Revision-Date: 2021-03-09 01:18+0100\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
@@ -260,9 +260,9 @@ msgid ""
 "workspace. and previous workspace will be the last workspace when you are in "
 "the first workspace."
 msgstr ""
-"O seguinte espazo de traballo será o primeiro espazo de traballo cando estea no último "
-"espazo de traballo. e o espazo de traballo anterior será o último espazo de traballo "
-"cando estea no primeiro espazo de traballo."
+"O seguinte espazo de traballo será o primeiro espazo de traballo cando estea "
+"no último espazo de traballo. e o espazo de traballo anterior será o último "
+"espazo de traballo cando estea no primeiro espazo de traballo."
 
 #: ui/prefs.ui:2597
 msgid "Window Demands Attention Focus"
@@ -324,6 +324,7 @@ msgid "Workspace background corner size in overview"
 msgstr "Tamaño da esquina de fondo do espazo de traballo na vista xeral"
 
 #: ui/prefs.ui:2973 ui/prefs.ui:3086 ui/prefs.ui:3198 ui/prefs.ui:3311
+#: ui/prefs.ui:3424
 msgid "By Shell Theme"
 msgstr "Polo tema do Shell"
 
@@ -336,111 +337,115 @@ msgid "Panel Button Padding Size"
 msgstr "Tamaño do recheo do botón do panel"
 
 #: ui/prefs.ui:3299
+msgid "Panel Indicator Padding Size"
+msgstr "Tamaño do recheo do indicador do panel"
+
+#: ui/prefs.ui:3412
 msgid "Panel Corner Size"
 msgstr "Tamaño da esquina do panel"
 
-#: ui/prefs.ui:3312
+#: ui/prefs.ui:3425
 msgid "No Corner"
 msgstr "Sen esquina"
 
-#: ui/prefs.ui:3412
+#: ui/prefs.ui:3525
 msgid "Panel Position"
 msgstr "Posición do panel"
 
-#: ui/prefs.ui:3424
+#: ui/prefs.ui:3537
 msgid "Top"
 msgstr "Arriba"
 
-#: ui/prefs.ui:3425
+#: ui/prefs.ui:3538
 msgid "Bottom"
 msgstr "Abaixo"
 
-#: ui/prefs.ui:3465
+#: ui/prefs.ui:3578
 msgid "Clock Menu Position"
 msgstr "Posición do menú do reloxo"
 
-#: ui/prefs.ui:3477
+#: ui/prefs.ui:3590
 msgid "Center"
 msgstr "Centro"
 
-#: ui/prefs.ui:3478
+#: ui/prefs.ui:3591
 msgid "Right"
 msgstr "Certo"
 
-#: ui/prefs.ui:3479
+#: ui/prefs.ui:3592
 msgid "Left"
 msgstr "Á esquerda"
 
-#: ui/prefs.ui:3519
+#: ui/prefs.ui:3632
 msgid "Clock Menu Position Offset"
 msgstr "Desprazamento da posición do menú do reloxo"
 
-#: ui/prefs.ui:3580
+#: ui/prefs.ui:3693
 msgid "Workspace Switcher Size"
 msgstr "Tamaño do trocador de espaczo de traballo"
 
-#: ui/prefs.ui:3592 ui/prefs.ui:3733
+#: ui/prefs.ui:3705 ui/prefs.ui:3846
 msgid "Default"
 msgstr "Predeterminado"
 
-#: ui/prefs.ui:3662
+#: ui/prefs.ui:3775
 msgid "Animation"
 msgstr "Animación"
 
-#: ui/prefs.ui:3674
+#: ui/prefs.ui:3787
 msgid "No Animation"
 msgstr "Sen animación"
 
-#: ui/prefs.ui:3675
+#: ui/prefs.ui:3788
 msgid "Default Speed"
 msgstr "Velocidade predeterminada"
 
-#: ui/prefs.ui:3676
+#: ui/prefs.ui:3789
 msgid "Fastest"
 msgstr "O máis rápido"
 
-#: ui/prefs.ui:3677
+#: ui/prefs.ui:3790
 msgid "Faster"
 msgstr "Máis rápido"
 
-#: ui/prefs.ui:3678
+#: ui/prefs.ui:3791
 msgid "Fast"
 msgstr "Rápido"
 
-#: ui/prefs.ui:3679
+#: ui/prefs.ui:3792
 msgid "Slow"
 msgstr "Lento   "
 
-#: ui/prefs.ui:3680
+#: ui/prefs.ui:3793
 msgid "Slower"
 msgstr "Máis lento"
 
-#: ui/prefs.ui:3681
+#: ui/prefs.ui:3794
 msgid "Slowest"
 msgstr "O máis lento"
 
-#: ui/prefs.ui:3721
+#: ui/prefs.ui:3834
 msgid "Dash Icon Size"
 msgstr "tamaño da icona de trazo"
 
-#: ui/prefs.ui:3782
+#: ui/prefs.ui:3895
 msgid "Notification Banner Position"
 msgstr "Posición do Banner de notificacións"
 
-#: ui/prefs.ui:3793
+#: ui/prefs.ui:3906
 msgid "Notification popup position when notifications show up on the screen"
 msgstr ""
 "Posición emerxente de notificacións cando as notificacións aparecen na "
 "pantalla"
 
-#: ui/prefs.ui:3814
+#: ui/prefs.ui:3927
 msgid "Top Start"
 msgstr "Inicio superior"
 
-#: ui/prefs.ui:3815
+#: ui/prefs.ui:3928
 msgid "Top Center"
 msgstr "Centro superior"
 
-#: ui/prefs.ui:3816
+#: ui/prefs.ui:3929
 msgid "Top End"
 msgstr "Top End"
