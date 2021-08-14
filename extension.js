@@ -19,6 +19,7 @@ const Panel = imports.ui.panel;
 const WorkspacesView = imports.ui.workspacesView;
 const WindowPreview = (ShellVersion >= 3.38) ? imports.ui.windowPreview : null;
 const Workspace = imports.ui.workspace;
+const LookingGlass = imports.ui.lookingGlass;
 
 let manager;
 let api;
@@ -46,13 +47,14 @@ function enable()
         'ViewSelector': ViewSelector,
         'WorkspaceThumbnail': WorkspaceThumbnail,
         'WorkspacesView': WorkspacesView,
+        'Panel': Panel,
+        'WindowPreview' : WindowPreview,
+        'Workspace' : Workspace,
+        'LookingGlass' : LookingGlass,
         'St': St,
         'Gio': Gio,
         'GLib': GLib,
         'Clutter': Clutter,
-        'Panel': Panel,
-        'WindowPreview' : WindowPreview,
-        'Workspace' : Workspace,
         'Util' : Util,
         'Meta' : Meta,
     }, ShellVersion);
