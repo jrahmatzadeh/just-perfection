@@ -9,6 +9,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Fixed
 
 - Looking glass position on bottom panel.
+- Search entry API to avoid conflicting with other extensions.
 
 ### Added
 
