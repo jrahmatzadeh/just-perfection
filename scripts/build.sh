@@ -10,12 +10,10 @@ set -e
 # cd to the repo root
 cd "$( cd "$( dirname "$0" )" && pwd )/.."
 
-echo "Generating translations..."
-scripts/generate-mo.sh
-
 echo "Packing extension..."
 gnome-extensions pack src \
     --force \
+    --podir="../po" \
     --extra-source="bin" \
     --extra-source="lib" \
     --extra-source="ui" \
