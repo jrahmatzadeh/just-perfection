@@ -1,6 +1,6 @@
 # Just Perfection GNOME Shell Extension
 
-![Just Perfection GNOME Shell Extension Logo](src/bin/logo.svg)
+![Just Perfection GNOME Shell Extension Logo](data/imgs/logo.svg)
 
 ## What Can It Do?
 
@@ -66,7 +66,7 @@ This extension allows you to do the following:
 
 This extension is also available on [GNOME Shell extensions website](https://extensions.gnome.org/extension/3843/just-perfection/).
 
-[![Just Perfection on extensions.gnome.org](src/bin/ego.svg)](https://extensions.gnome.org/extension/3843/just-perfection/)
+[![Just Perfection on extensions.gnome.org](data/imgs/ego.svg)](https://extensions.gnome.org/extension/3843/just-perfection/)
 
 ## GNOME Shell Support
 
