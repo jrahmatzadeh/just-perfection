@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Changed
+
+- Repo folder structure to have better organization.
+
 ### Fixed
 
 - Looking glass position on bottom panel.

@@ -1,4 +1,4 @@
-/locale
-/schemas/gschemas.compiled
+/src/locale
+/src/schemas/gschemas.compiled
 *~
 *.zip
