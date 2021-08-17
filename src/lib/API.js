@@ -298,7 +298,7 @@ var API = class
     {
         let classname = this._getAPIClassname('no-panel');
     
-        if (!this.UIstyleClassContain(classname)) {
+        if (!this.UIStyleClassContain(classname)) {
             return;
         }
         
@@ -317,7 +317,7 @@ var API = class
     {
         let classname = this._getAPIClassname('no-panel');
     
-        if (this.UIstyleClassContain(classname)) {
+        if (this.UIStyleClassContain(classname)) {
             return;
         }
         
@@ -449,7 +449,7 @@ var API = class
      *
      * @return bool
      */
-    UIstyleClassContain(classname)
+    UIStyleClassContain(classname)
     {
         return this._main.layoutManager.uiGroup.has_style_class_name(classname);
     }
@@ -496,7 +496,7 @@ var API = class
     {
         let classname = this._getAPIClassname('no-search');
         
-        if (!this.UIstyleClassContain(classname)) {
+        if (!this.UIStyleClassContain(classname)) {
             return;
         }
         
@@ -769,7 +769,7 @@ var API = class
      */
     isWorkspaceSwitcherVisible()
     {
-        return !this.UIstyleClassContain(this._getAPIClassname('no-workspace'));
+        return !this.UIStyleClassContain(this._getAPIClassname('no-workspace'));
     }
     
     /**
