@@ -1205,7 +1205,7 @@ var API = class
         // 'workareas-changed' signal will do the job on next monitor detection
         if (monitorInfo) {
             let BottomX = monitorInfo.x;
-            let BottomY = monitorInfo.height - this.panelGetSize();
+            let BottomY = monitorInfo.y + monitorInfo.height - this.panelGetSize();
             
             panelBox.set_position(BottomX, BottomY);
             this.UIstyleClassAdd(this._getAPIClassname('bottom-panel'));
