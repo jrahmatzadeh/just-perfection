@@ -149,6 +149,7 @@ var API = class
      *  panel-indicator-padding-size
      *  no-window-preview
      *  workspace-background-radius-size
+     *  no-window-close
      *
      * @return string
      */
@@ -178,6 +179,7 @@ var API = class
             'panel-indicator-padding-size',
             'no-window-preview',
             'workspace-background-radius-size',
+            'no-window-close',
         ];
         
         if (!possibleTypes.includes(type)) {
@@ -2121,6 +2123,26 @@ var API = class
         
         let metaWorkspaceProto = this._meta.Workspace.prototype;
         metaWorkspaceProto.get_neighbor = this._originals['metaWorkspaceGetNeighbor'];
+    }
+    
+    /**
+     * enable window preview close button
+     *
+     * @return void
+     */
+    windowPreviewCloseButtonEnable()
+    {
+        this.UIStyleClassRemove(this._getAPIClassname('no-window-close'));
+    }
+    
+    /**
+     * disable window preview close button
+     *
+     * @return void
+     */
+    windowPreviewCloseButtonDisable()
+    {
+        this.UIstyleClassAdd(this._getAPIClassname('no-window-close'));
     }
 }
 

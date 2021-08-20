@@ -657,3 +657,12 @@
 .just-perfection-api-panel-indicator-padding-size59 .panel-status-indicators-box { spacing: 59px; }
 .just-perfection-api-panel-indicator-padding-size60 .panel-status-indicators-box { spacing: 60px; }
 
+.just-perfection-api-no-window-close .window-close
+{
+    height: 0;
+    width: 0;
+    background: transparent;
+    border-radius: 0;
+    border: 0;
+    spacing: 0;
+}
