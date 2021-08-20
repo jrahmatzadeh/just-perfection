@@ -78,6 +78,7 @@ var Prefs = class
         this._setKey('visiblity', 'workspaces-in-app-grid', 'GtkSwitch',
             this._shellVersion >= 40);
         this._setKey('visiblity', 'window-preview-caption', 'GtkSwitch', true);
+        this._setKey('visiblity', 'window-preview-close-button', 'GtkSwitch', true);
             
         // icons
         this._setKey('icons', 'app-menu-icon', 'GtkSwitch', true);

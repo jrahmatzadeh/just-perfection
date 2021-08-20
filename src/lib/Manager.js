@@ -205,6 +205,10 @@ var Manager = class
             this._applyWindowPreviewCaption(false);
         });
         
+        this._settings.connect('changed::window-preview-close-button', () => {
+            this._applyWindowPreviewCloseButton(false);
+        });
+        
         this._settings.connect('changed::workspace-background-corner-size', () => {
             this._applyWorkspaceBackgroundCornerSize(false);
         });
@@ -261,6 +265,7 @@ var Manager = class
         this._applyPanelButtonPaddingSize(false);
         this._applyPanelIndicatorPaddingSize(false);
         this._applyWindowPreviewCaption(false);
+        this._applyWindowPreviewCloseButton(false);
         this._applyWorkspaceBackgroundCornerSize(false);
         this._applyWorkspaceWrapAround(false);
     }
@@ -311,6 +316,7 @@ var Manager = class
         this._applyPanelButtonPaddingSize(true);
         this._applyPanelIndicatorPaddingSize(true);
         this._applyWindowPreviewCaption(true);
+        this._applyWindowPreviewCloseButton(true);
         this._applyWorkspaceBackgroundCornerSize(true);
         this._applyWorkspaceWrapAround(true);
     }
@@ -1007,6 +1013,24 @@ var Manager = class
             this._api.windowPreviewCaptionEnable();
         } else {
             this._api.windowPreviewCaptionDisable();
+        }
+    }
+    
+    /**
+     * apply window preview close button settings
+     *
+     * @param bool forceOriginal
+     *
+     * @return void
+     */
+    _applyWindowPreviewCloseButton(forceOriginal)
+    {
+        let status = this._settings.get_boolean('window-preview-close-button');
+        
+        if (forceOriginal || status) {
+            this._api.windowPreviewCloseButtonEnable();
+        } else {
+            this._api.windowPreviewCloseButtonDisable();
         }
     }
     

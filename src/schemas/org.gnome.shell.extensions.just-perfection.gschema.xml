@@ -268,6 +268,12 @@
       <description>Window Preview Caption Status</description>
     </key>
     
+    <key type="b" name="window-preview-close-button">
+      <default>true</default>
+      <summary>Window Preview Close Button</summary>
+      <description>Window Preview Close Button Status</description>
+    </key>
+    
     <key type="i" name="workspace-background-corner-size">
       <default>0</default>
       <range min="0" max="61"/>

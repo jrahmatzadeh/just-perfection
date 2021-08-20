@@ -24,6 +24,7 @@ This extension allows you to do the following:
 - Applications Button
 - Workspaces in app grid (Only GNOME Shell 40)
 - Window Picker Caption
+- Window Picker Close Button
 
 ### Icons Visibility
 
