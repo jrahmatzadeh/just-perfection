@@ -147,7 +147,7 @@ var API = class
      *  dash-icon-size
      *  panel-button-padding-size
      *  panel-indicator-padding-size
-     *  no-window-preview
+     *  no-window-caption
      *  workspace-background-radius-size
      *  no-window-close
      *
@@ -177,7 +177,7 @@ var API = class
             'dash-icon-size',
             'panel-button-padding-size',
             'panel-indicator-padding-size',
-            'no-window-preview',
+            'no-window-caption',
             'workspace-background-radius-size',
             'no-window-close',
         ];
@@ -1986,7 +1986,7 @@ var API = class
         let windowPreviewProto = this._windowPreviewGetPrototype();
         windowPreviewProto._getCaption = this._originals['windowPreviewGetCaption'];
         
-        this.UIStyleClassRemove(this._getAPIClassname('no-window-preview'));
+        this.UIStyleClassRemove(this._getAPIClassname('no-window-caption'));
     }
     
     /**
@@ -2006,7 +2006,7 @@ var API = class
             return '';
         };
         
-        this.UIstyleClassAdd(this._getAPIClassname('no-window-preview'));
+        this.UIstyleClassAdd(this._getAPIClassname('no-window-caption'));
     }
     
     /**
