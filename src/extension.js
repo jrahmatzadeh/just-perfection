@@ -6,18 +6,18 @@ const {GLib, Gio, St, Clutter, Meta} = imports.gi;
 
 const Util = imports.misc.util;
 const Config = imports.misc.config;
-const ShellVersion = parseFloat(Config.PACKAGE_VERSION);
+const shellVersion = parseFloat(Config.PACKAGE_VERSION);
 
 const Main = imports.ui.main;
 const BackgroundMenu = imports.ui.backgroundMenu;
 const OverviewControls = imports.ui.overviewControls;
 const WorkspaceSwitcherPopup = imports.ui.workspaceSwitcherPopup;
-const ViewSelector = (ShellVersion < 40) ? imports.ui.viewSelector : null;
+const ViewSelector = (shellVersion < 40) ? imports.ui.viewSelector : null;
 const WorkspaceThumbnail = imports.ui.workspaceThumbnail;
-const SearchController = (ShellVersion >= 40) ? imports.ui.searchController : null;
+const SearchController = (shellVersion >= 40) ? imports.ui.searchController : null;
 const Panel = imports.ui.panel;
 const WorkspacesView = imports.ui.workspacesView;
-const WindowPreview = (ShellVersion >= 3.38) ? imports.ui.windowPreview : null;
+const WindowPreview = (shellVersion >= 3.38) ? imports.ui.windowPreview : null;
 const Workspace = imports.ui.workspace;
 const LookingGlass = imports.ui.lookingGlass;
 
@@ -31,7 +31,7 @@ function enable()
     // <3.36 can crash by enabling the extension
     // since <3.36 is not supported we simply return
     // to avoid bad experience for <3.36 users.
-    if (ShellVersion < 3.36) {
+    if (shellVersion < 3.36) {
         return;
     }
 
@@ -57,7 +57,7 @@ function enable()
         'Clutter': Clutter,
         'Util' : Util,
         'Meta' : Meta,
-    }, ShellVersion);
+    }, shellVersion);
     
     api.open();
     
@@ -68,7 +68,7 @@ function enable()
         'API': api,
         'Settings': settings,
         'HotCorner': hotCorner,
-    }, ShellVersion);
+    }, shellVersion);
         
     manager.registerSettingsSignals();
     manager.applyAll();

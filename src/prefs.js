@@ -5,7 +5,7 @@ const {Prefs} = Me.imports.lib;
 const {Gtk, Gio, GObject} = imports.gi;
 
 const Config = imports.misc.config;
-const ShellVersion = parseFloat(Config.PACKAGE_VERSION);
+const shellVersion = parseFloat(Config.PACKAGE_VERSION);
 
 
 function init ()
@@ -27,7 +27,7 @@ function buildPrefsWidget ()
         'GObjectBindingFlags' : GObject.BindingFlags,
         'Gtk': Gtk,
         'Gio': Gio,
-    }, ShellVersion);
+    }, shellVersion);
     
     return prefs.getMainPrefs(UIFilePath, binFolderPath, gettextDomain);
 }
