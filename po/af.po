@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-16 03:19-0700\n"
+"POT-Creation-Date: 2021-08-21 06:38-0700\n"
 "PO-Revision-Date: 2020-12-18 04:05-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Afrikaans\n"
@@ -175,82 +175,90 @@ msgid "Workspace boxes in app grid"
 msgstr "Werkruimtekassies in approoster"
 
 #: src/ui/prefs.ui:1698
+msgid "Window Picker Close Button"
+msgstr "Venster kieser Sluit knoppie"
+
+#: src/ui/prefs.ui:1709
+msgid "The close button on window preview in overview"
+msgstr "Die sluitknoppie op die venstervoorskou in oorsig"
+
+#: src/ui/prefs.ui:1773
 msgid "Window Picker Caption"
 msgstr "Vensterkieser onderskrif"
 
-#: src/ui/prefs.ui:1709
+#: src/ui/prefs.ui:1784
 msgid "The text under window preview in overview"
 msgstr "Die teks onder venstervoorskou in oorsig"
 
-#: src/ui/prefs.ui:1773
+#: src/ui/prefs.ui:1848
 msgid "Background Menu"
 msgstr "Agtergrond menu"
 
-#: src/ui/prefs.ui:1784
+#: src/ui/prefs.ui:1859
 msgid "When you right click on desktop background"
 msgstr "As u regs kliek op die agtergrond van die lessenaar"
 
-#: src/ui/prefs.ui:1834
+#: src/ui/prefs.ui:1909
 msgid "Icons"
 msgstr "ikone"
 
-#: src/ui/prefs.ui:1883
+#: src/ui/prefs.ui:1958
 msgid "App Menu Icon"
 msgstr "app spyskaart ikoon"
 
-#: src/ui/prefs.ui:1932
+#: src/ui/prefs.ui:2007
 msgid "Panel Notification Icon"
 msgstr "Paneelkennisgewing-ikoon"
 
-#: src/ui/prefs.ui:1981
+#: src/ui/prefs.ui:2056
 msgid "Power Icon"
 msgstr "Krag-ikoon"
 
-#: src/ui/prefs.ui:2030
+#: src/ui/prefs.ui:2105
 msgid "Panel Arrow"
 msgstr "paneelpyltjie"
 
-#: src/ui/prefs.ui:2085
+#: src/ui/prefs.ui:2160
 msgid "Window Picker Icon"
 msgstr "Vensterkeuse-ikoon"
 
-#: src/ui/prefs.ui:2096
+#: src/ui/prefs.ui:2171
 msgid "The icon under window preview in overview"
 msgstr "Die ikoon onder die voorskou van die venster in die oorsig"
 
-#: src/ui/prefs.ui:2154
+#: src/ui/prefs.ui:2229
 msgid "Activities Button Icon"
 msgstr "Aktiwiteite-knoppiesikoon"
 
-#: src/ui/prefs.ui:2253
+#: src/ui/prefs.ui:2328
 msgid "Activities Button Icon in Monochrome"
 msgstr "Aktiwiteite-knoppiesikoon in monochroom"
 
-#: src/ui/prefs.ui:2308
+#: src/ui/prefs.ui:2383
 msgid "Activities Button Icon With Label"
 msgstr "Aktiwiteite-knoppiesikoon met etiket"
 
-#: src/ui/prefs.ui:2319
+#: src/ui/prefs.ui:2394
 msgid "Only works when you have selected an icon for activities button"
 msgstr "Werk net as u 'n ikoon vir aktiwiteitsknoppie gekies het"
 
-#: src/ui/prefs.ui:2369
+#: src/ui/prefs.ui:2444
 msgid "Behavior"
 msgstr "Gedrag"
 
-#: src/ui/prefs.ui:2418
+#: src/ui/prefs.ui:2493
 msgid "Hot Corner"
 msgstr "Warm hoekie"
 
-#: src/ui/prefs.ui:2467
+#: src/ui/prefs.ui:2542
 msgid "App Gesture"
 msgstr "App gebaar"
 
-#: src/ui/prefs.ui:2522
+#: src/ui/prefs.ui:2597
 msgid "Workspace Wraparound"
 msgstr "Werkruimte omringend"
 
-#: src/ui/prefs.ui:2533
+#: src/ui/prefs.ui:2608
 msgid ""
 "Next workspace will be the first workspace when you are in the last "
 "workspace. and previous workspace will be the last workspace when you are in "
@@ -260,29 +268,29 @@ msgstr ""
 "werkruimte is. en vorige werkruimte sal die laaste werkruimte wees as u in "
 "die eerste werkruimte is."
 
-#: src/ui/prefs.ui:2597
+#: src/ui/prefs.ui:2672
 msgid "Window Demands Attention Focus"
 msgstr "Venster eis aandag gefokus"
 
-#: src/ui/prefs.ui:2608
+#: src/ui/prefs.ui:2683
 msgid "Removes window is ready notification and focus on the window"
 msgstr "Verwyder venster is gereed kennisgewing en fokus op die venster"
 
-#: src/ui/prefs.ui:2672
+#: src/ui/prefs.ui:2747
 msgid "Type to Search"
 msgstr "Tik om te soek"
 
-#: src/ui/prefs.ui:2683
+#: src/ui/prefs.ui:2758
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "U kan begin soek sonder om in te soek of selfs in oorsig daarop te fokus"
 
-#: src/ui/prefs.ui:2747
+#: src/ui/prefs.ui:2822
 msgid "Always Show Workspace Switcher"
 msgstr "Wys altyd werkruimte-skakelaar"
 
-#: src/ui/prefs.ui:2758
+#: src/ui/prefs.ui:2833
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
@@ -290,155 +298,155 @@ msgstr ""
 "Wys werkruimte-skakelaar, selfs wanneer slegs een werkruimte saam met "
 "dinamiese werkruimtes gebruik word"
 
-#: src/ui/prefs.ui:2822
+#: src/ui/prefs.ui:2897
 msgid "Startup Status"
 msgstr "Opstartstatus"
 
-#: src/ui/prefs.ui:2833
+#: src/ui/prefs.ui:2908
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "Wanneer GNOME Shell die eerste keer begin"
 
-#: src/ui/prefs.ui:2854
+#: src/ui/prefs.ui:2929
 msgid "Desktop"
 msgstr "Desktop"
 
-#: src/ui/prefs.ui:2855
+#: src/ui/prefs.ui:2930
 msgid "Overview"
 msgstr "Oorsig"
 
-#: src/ui/prefs.ui:2887
+#: src/ui/prefs.ui:2962
 msgid "Customize"
 msgstr "Pas aan"
 
-#: src/ui/prefs.ui:2941
+#: src/ui/prefs.ui:3016
 msgid "Workspace Background Corner Size"
 msgstr "Werkruimte agtergrond hoekgrootte"
 
-#: src/ui/prefs.ui:2952
+#: src/ui/prefs.ui:3027
 msgid "Workspace background corner size in overview"
 msgstr "Hoekgrootte van die werkruimte in agtergrond"
 
-#: src/ui/prefs.ui:2973 src/ui/prefs.ui:3086 src/ui/prefs.ui:3198
-#: src/ui/prefs.ui:3311 src/ui/prefs.ui:3424
+#: src/ui/prefs.ui:3048 src/ui/prefs.ui:3161 src/ui/prefs.ui:3273
+#: src/ui/prefs.ui:3386 src/ui/prefs.ui:3499
 msgid "By Shell Theme"
 msgstr "Deur Shell-tema"
 
-#: src/ui/prefs.ui:3074
+#: src/ui/prefs.ui:3149
 msgid "Panel Size"
 msgstr "Paneelgrootte"
 
-#: src/ui/prefs.ui:3186
+#: src/ui/prefs.ui:3261
 msgid "Panel Button Padding Size"
 msgstr "Paneelknoppie padding grootte"
 
-#: src/ui/prefs.ui:3299
+#: src/ui/prefs.ui:3374
 msgid "Panel Indicator Padding Size"
 msgstr "Paneelaanwyser Padding Size"
 
-#: src/ui/prefs.ui:3412
+#: src/ui/prefs.ui:3487
 msgid "Panel Corner Size"
 msgstr "Paneelhoekgrootte"
 
-#: src/ui/prefs.ui:3425
+#: src/ui/prefs.ui:3500
 msgid "No Corner"
 msgstr "Geen hoekie nie"
 
-#: src/ui/prefs.ui:3525
+#: src/ui/prefs.ui:3600
 msgid "Panel Position"
 msgstr "Paneelposisie"
 
-#: src/ui/prefs.ui:3537
+#: src/ui/prefs.ui:3612
 msgid "Top"
 msgstr "Top"
 
-#: src/ui/prefs.ui:3538
+#: src/ui/prefs.ui:3613
 msgid "Bottom"
 msgstr "Onder"
 
-#: src/ui/prefs.ui:3578
+#: src/ui/prefs.ui:3653
 msgid "Clock Menu Position"
 msgstr "Klok menu posisie"
 
-#: src/ui/prefs.ui:3590
+#: src/ui/prefs.ui:3665
 msgid "Center"
 msgstr "Sentrum"
 
-#: src/ui/prefs.ui:3591
+#: src/ui/prefs.ui:3666
 msgid "Right"
 msgstr "Reg"
 
-#: src/ui/prefs.ui:3592
+#: src/ui/prefs.ui:3667
 msgid "Left"
 msgstr "Links"
 
-#: src/ui/prefs.ui:3632
+#: src/ui/prefs.ui:3707
 msgid "Clock Menu Position Offset"
 msgstr "Klok menu posisie verreken"
 
-#: src/ui/prefs.ui:3693
+#: src/ui/prefs.ui:3768
 msgid "Workspace Switcher Size"
 msgstr "Grootte van die skakelaar van die werkruimte"
 
-#: src/ui/prefs.ui:3705 src/ui/prefs.ui:3846
+#: src/ui/prefs.ui:3780 src/ui/prefs.ui:3921
 msgid "Default"
 msgstr "Verstek"
 
-#: src/ui/prefs.ui:3775
+#: src/ui/prefs.ui:3850
 msgid "Animation"
 msgstr "Animasie"
 
-#: src/ui/prefs.ui:3787
+#: src/ui/prefs.ui:3862
 msgid "No Animation"
 msgstr "Geen animasie nie"
 
-#: src/ui/prefs.ui:3788
+#: src/ui/prefs.ui:3863
 msgid "Default Speed"
 msgstr "Verstekspoed"
 
-#: src/ui/prefs.ui:3789
+#: src/ui/prefs.ui:3864
 msgid "Fastest"
 msgstr "Vinnigste"
 
-#: src/ui/prefs.ui:3790
+#: src/ui/prefs.ui:3865
 msgid "Faster"
 msgstr "Vinniger"
 
-#: src/ui/prefs.ui:3791
+#: src/ui/prefs.ui:3866
 msgid "Fast"
 msgstr "Vinnig"
 
-#: src/ui/prefs.ui:3792
+#: src/ui/prefs.ui:3867
 msgid "Slow"
 msgstr "Stadig"
 
-#: src/ui/prefs.ui:3793
+#: src/ui/prefs.ui:3868
 msgid "Slower"
 msgstr "Stadiger"
 
-#: src/ui/prefs.ui:3794
+#: src/ui/prefs.ui:3869
 msgid "Slowest"
 msgstr "Stadigste"
 
-#: src/ui/prefs.ui:3834
+#: src/ui/prefs.ui:3909
 msgid "Dash Icon Size"
 msgstr "grootte van die streepikoon"
 
-#: src/ui/prefs.ui:3895
+#: src/ui/prefs.ui:3970
 msgid "Notification Banner Position"
 msgstr "Kennisgewingbannerposisie"
 
-#: src/ui/prefs.ui:3906
+#: src/ui/prefs.ui:3981
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "Kennisgewing pop-up posisie wanneer kennisgewings op die skerm verskyn"
 
-#: src/ui/prefs.ui:3927
+#: src/ui/prefs.ui:4002
 msgid "Top Start"
 msgstr "Top begin"
 
-#: src/ui/prefs.ui:3928
+#: src/ui/prefs.ui:4003
 msgid "Top Center"
 msgstr "Top sentrum"
 
-#: src/ui/prefs.ui:3929
+#: src/ui/prefs.ui:4004
 msgid "Top End"
 msgstr "Bopunt"

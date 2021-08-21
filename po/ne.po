@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-16 03:19-0700\n"
+"POT-Creation-Date: 2021-08-21 06:38-0700\n"
 "PO-Revision-Date: 2021-02-05 14:43+0545\n"
 "Last-Translator: 1BA4 <nabin7076@protonmail.com>\n"
 "Language-Team: Nepali <>\n"
@@ -174,82 +174,90 @@ msgid "Workspace boxes in app grid"
 msgstr "अनुप्रयोग ग्रिडमा कार्यक्षेत्र बक्सहरू"
 
 #: src/ui/prefs.ui:1698
+msgid "Window Picker Close Button"
+msgstr "विन्डो पिकर बन्द बटन"
+
+#: src/ui/prefs.ui:1709
+msgid "The close button on window preview in overview"
+msgstr "सिंहावलोकन मा विन्डो पूर्वावलोकन मा बन्द बटन"
+
+#: src/ui/prefs.ui:1773
 msgid "Window Picker Caption"
 msgstr "विन्डो पिकर क्याप्शन"
 
-#: src/ui/prefs.ui:1709
+#: src/ui/prefs.ui:1784
 msgid "The text under window preview in overview"
 msgstr "सिंहावलोकन मा विन्डो पूर्वावलोकन अन्तर्गत पाठ"
 
-#: src/ui/prefs.ui:1773
+#: src/ui/prefs.ui:1848
 msgid "Background Menu"
 msgstr "पृष्ठभूमि मेनू"
 
-#: src/ui/prefs.ui:1784
+#: src/ui/prefs.ui:1859
 msgid "When you right click on desktop background"
 msgstr "जब तपाईं डेस्कटप पृष्ठभूमिमा दायाँ क्लिक गर्नुहुन्छ"
 
-#: src/ui/prefs.ui:1834
+#: src/ui/prefs.ui:1909
 msgid "Icons"
 msgstr "आइकनहरू"
 
-#: src/ui/prefs.ui:1883
+#: src/ui/prefs.ui:1958
 msgid "App Menu Icon"
 msgstr "ए्याप मेनु आइकन"
 
-#: src/ui/prefs.ui:1932
+#: src/ui/prefs.ui:2007
 msgid "Panel Notification Icon"
 msgstr "प्यानल सूचना आइकन"
 
-#: src/ui/prefs.ui:1981
+#: src/ui/prefs.ui:2056
 msgid "Power Icon"
 msgstr "पावर आइकन"
 
-#: src/ui/prefs.ui:2030
+#: src/ui/prefs.ui:2105
 msgid "Panel Arrow"
 msgstr "प्यानल एरो"
 
-#: src/ui/prefs.ui:2085
+#: src/ui/prefs.ui:2160
 msgid "Window Picker Icon"
 msgstr "विन्डो पिकर आइकन"
 
-#: src/ui/prefs.ui:2096
+#: src/ui/prefs.ui:2171
 msgid "The icon under window preview in overview"
 msgstr "सिंहावलोकनमा विन्डो पूर्वावलोकन मुनिको प्रतिमा"
 
-#: src/ui/prefs.ui:2154
+#: src/ui/prefs.ui:2229
 msgid "Activities Button Icon"
 msgstr "गतिविधि बटन बटन"
 
-#: src/ui/prefs.ui:2253
+#: src/ui/prefs.ui:2328
 msgid "Activities Button Icon in Monochrome"
 msgstr "मोनोक्रोममा गतिविधि बटन बटन"
 
-#: src/ui/prefs.ui:2308
+#: src/ui/prefs.ui:2383
 msgid "Activities Button Icon With Label"
 msgstr "लेबलको साथ गतिविधि बटन बटन"
 
-#: src/ui/prefs.ui:2319
+#: src/ui/prefs.ui:2394
 msgid "Only works when you have selected an icon for activities button"
 msgstr "केवल तब कार्य गर्दछ जब तपाइँ गतिविधि बटनको लागि आईकन चयन गर्नुहुन्छ"
 
-#: src/ui/prefs.ui:2369
+#: src/ui/prefs.ui:2444
 msgid "Behavior"
 msgstr "व्यवहार"
 
-#: src/ui/prefs.ui:2418
+#: src/ui/prefs.ui:2493
 msgid "Hot Corner"
 msgstr "हट कर्नर"
 
-#: src/ui/prefs.ui:2467
+#: src/ui/prefs.ui:2542
 msgid "App Gesture"
 msgstr "ए्याप जेस्चर्स"
 
-#: src/ui/prefs.ui:2522
+#: src/ui/prefs.ui:2597
 msgid "Workspace Wraparound"
 msgstr "कार्यक्षेत्र वरिपरि लपेट्नुहोस्"
 
-#: src/ui/prefs.ui:2533
+#: src/ui/prefs.ui:2608
 msgid ""
 "Next workspace will be the first workspace when you are in the last "
 "workspace. and previous workspace will be the last workspace when you are in "
@@ -258,184 +266,184 @@ msgstr ""
 "अर्को कार्यक्षेत्र पहिलो कार्यक्षेत्र हुनेछ जब तपाइँ अन्तिम कार्यक्षेत्रमा हुनुहुन्छ। र अघिल्लो "
 "कार्यक्षेत्र अन्तिम कार्यक्षेत्र हुनेछ जब तपाइँ पहिलो कार्यक्षेत्रमा हुनुहुन्छ।"
 
-#: src/ui/prefs.ui:2597
+#: src/ui/prefs.ui:2672
 msgid "Window Demands Attention Focus"
 msgstr "विन्डोले ध्यान फोकसको माग गर्दछ"
 
-#: src/ui/prefs.ui:2608
+#: src/ui/prefs.ui:2683
 msgid "Removes window is ready notification and focus on the window"
 msgstr "विन्डो हटाउछ सूचनाको लागि तयार छ र विन्डोमा फोकस गर्दछ"
 
-#: src/ui/prefs.ui:2672
+#: src/ui/prefs.ui:2747
 msgid "Type to Search"
 msgstr "खोजी गर्न टाइप गर्नुहोस्"
 
-#: src/ui/prefs.ui:2683
+#: src/ui/prefs.ui:2758
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "तपाईं खोजी प्रविष्टि बिना वा सुरु सिंहावलोकनमा यसमा केन्द्रित नगरी खोजी सुरू गर्न सक्नुहुनेछ"
 
-#: src/ui/prefs.ui:2747
+#: src/ui/prefs.ui:2822
 msgid "Always Show Workspace Switcher"
 msgstr "सँधै कार्यक्षेत्र स्विचर देखाउनुहोस्"
 
-#: src/ui/prefs.ui:2758
+#: src/ui/prefs.ui:2833
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
 msgstr ""
 "डायनामिक वर्कस्पेसको साथ केवल एक कार्यक्षेत्र प्रयोग भएको बखत वर्कस्पेस स्विचर देखाउँदछ"
 
-#: src/ui/prefs.ui:2822
+#: src/ui/prefs.ui:2897
 msgid "Startup Status"
 msgstr "सुरूवात स्थिति"
 
-#: src/ui/prefs.ui:2833
+#: src/ui/prefs.ui:2908
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "जब जिनोम शेल पहिलो पटक सुरू हुन्छ"
 
-#: src/ui/prefs.ui:2854
+#: src/ui/prefs.ui:2929
 msgid "Desktop"
 msgstr "डेस्कटप"
 
-#: src/ui/prefs.ui:2855
+#: src/ui/prefs.ui:2930
 msgid "Overview"
 msgstr "अवलोकन"
 
-#: src/ui/prefs.ui:2887
+#: src/ui/prefs.ui:2962
 msgid "Customize"
 msgstr "अनुकूलन गर्नुहोस्"
 
-#: src/ui/prefs.ui:2941
+#: src/ui/prefs.ui:3016
 msgid "Workspace Background Corner Size"
 msgstr "कार्यक्षेत्र पृष्ठभूमि कोने आकार"
 
-#: src/ui/prefs.ui:2952
+#: src/ui/prefs.ui:3027
 msgid "Workspace background corner size in overview"
 msgstr "सिंहावलोकन मा कार्यक्षेत्र पृष्ठभूमि कुना आकार"
 
-#: src/ui/prefs.ui:2973 src/ui/prefs.ui:3086 src/ui/prefs.ui:3198
-#: src/ui/prefs.ui:3311 src/ui/prefs.ui:3424
+#: src/ui/prefs.ui:3048 src/ui/prefs.ui:3161 src/ui/prefs.ui:3273
+#: src/ui/prefs.ui:3386 src/ui/prefs.ui:3499
 msgid "By Shell Theme"
 msgstr "शेल थिम द्वारा"
 
-#: src/ui/prefs.ui:3074
+#: src/ui/prefs.ui:3149
 msgid "Panel Size"
 msgstr "प्यानल आकार"
 
-#: src/ui/prefs.ui:3186
+#: src/ui/prefs.ui:3261
 msgid "Panel Button Padding Size"
 msgstr "प्यानल बटन प्याडिंग आकार"
 
-#: src/ui/prefs.ui:3299
+#: src/ui/prefs.ui:3374
 msgid "Panel Indicator Padding Size"
 msgstr "प्यानल सूचक प्याडिंग आकार"
 
-#: src/ui/prefs.ui:3412
+#: src/ui/prefs.ui:3487
 msgid "Panel Corner Size"
 msgstr "प्यानल कुना आकार"
 
-#: src/ui/prefs.ui:3425
+#: src/ui/prefs.ui:3500
 msgid "No Corner"
 msgstr "कुनै कर्नर छैन"
 
-#: src/ui/prefs.ui:3525
+#: src/ui/prefs.ui:3600
 msgid "Panel Position"
 msgstr "प्यानल स्थिति"
 
-#: src/ui/prefs.ui:3537
+#: src/ui/prefs.ui:3612
 msgid "Top"
 msgstr "माथि"
 
-#: src/ui/prefs.ui:3538
+#: src/ui/prefs.ui:3613
 msgid "Bottom"
 msgstr "तल"
 
-#: src/ui/prefs.ui:3578
+#: src/ui/prefs.ui:3653
 msgid "Clock Menu Position"
 msgstr "घडी मेनू स्थिति"
 
-#: src/ui/prefs.ui:3590
+#: src/ui/prefs.ui:3665
 msgid "Center"
 msgstr "केन्द्र"
 
-#: src/ui/prefs.ui:3591
+#: src/ui/prefs.ui:3666
 msgid "Right"
 msgstr "सहि"
 
-#: src/ui/prefs.ui:3592
+#: src/ui/prefs.ui:3667
 msgid "Left"
 msgstr "बाँया"
 
-#: src/ui/prefs.ui:3632
+#: src/ui/prefs.ui:3707
 msgid "Clock Menu Position Offset"
 msgstr "घडी मेनू स्थिति अफसेट"
 
-#: src/ui/prefs.ui:3693
+#: src/ui/prefs.ui:3768
 msgid "Workspace Switcher Size"
 msgstr "कार्यक्षेत्र स्विचर आकार"
 
-#: src/ui/prefs.ui:3705 src/ui/prefs.ui:3846
+#: src/ui/prefs.ui:3780 src/ui/prefs.ui:3921
 msgid "Default"
 msgstr "पूर्वनिर्धारित"
 
-#: src/ui/prefs.ui:3775
+#: src/ui/prefs.ui:3850
 msgid "Animation"
 msgstr "एनिमेशन"
 
-#: src/ui/prefs.ui:3787
+#: src/ui/prefs.ui:3862
 msgid "No Animation"
 msgstr "कुनै एनिमेशन छैन"
 
-#: src/ui/prefs.ui:3788
+#: src/ui/prefs.ui:3863
 msgid "Default Speed"
 msgstr "पूर्वनिर्धारित गति"
 
-#: src/ui/prefs.ui:3789
+#: src/ui/prefs.ui:3864
 msgid "Fastest"
 msgstr "सब भन्दा छिटो"
 
-#: src/ui/prefs.ui:3790
+#: src/ui/prefs.ui:3865
 msgid "Faster"
 msgstr "छिटो"
 
-#: src/ui/prefs.ui:3791
+#: src/ui/prefs.ui:3866
 msgid "Fast"
 msgstr "छिटो"
 
-#: src/ui/prefs.ui:3792
+#: src/ui/prefs.ui:3867
 msgid "Slow"
 msgstr "ढिलो"
 
-#: src/ui/prefs.ui:3793
+#: src/ui/prefs.ui:3868
 msgid "Slower"
 msgstr "ढिलो"
 
-#: src/ui/prefs.ui:3794
+#: src/ui/prefs.ui:3869
 msgid "Slowest"
 msgstr "सब भन्दा ढिलो"
 
-#: src/ui/prefs.ui:3834
+#: src/ui/prefs.ui:3909
 msgid "Dash Icon Size"
 msgstr "ड्यास आइकन आकार"
 
-#: src/ui/prefs.ui:3895
+#: src/ui/prefs.ui:3970
 msgid "Notification Banner Position"
 msgstr "सूचना ब्यानर स्थिति"
 
-#: src/ui/prefs.ui:3906
+#: src/ui/prefs.ui:3981
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "सूचना पपअप स्थिति जब सूचनाहरू स्क्रीनमा देखा पर्दछ"
 
-#: src/ui/prefs.ui:3927
+#: src/ui/prefs.ui:4002
 msgid "Top Start"
 msgstr "शीर्ष सुरू"
 
-#: src/ui/prefs.ui:3928
+#: src/ui/prefs.ui:4003
 msgid "Top Center"
 msgstr "शीर्ष केन्द्र"
 
-#: src/ui/prefs.ui:3929
+#: src/ui/prefs.ui:4004
 msgid "Top End"
 msgstr ""
