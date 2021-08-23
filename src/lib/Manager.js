@@ -811,7 +811,7 @@ var Manager = class
             // default speed
             this._api.animationSpeedSetDefault();
             this._api.enablenAimationsSet(true);
-        } else if (typeof factors[animation - 2] !== 'undefined') {
+        } else if (factors[animation - 2] !== undefined) {
             // custom speed
             this._api.animationSpeedSet(factors[animation - 2]);
             this._api.enablenAimationsSet(true);

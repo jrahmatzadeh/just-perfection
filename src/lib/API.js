@@ -280,7 +280,7 @@ var API = class
      */
     panelGetSize()
     {
-        if (typeof this._panelSize !== 'undefined') {
+        if (this._panelSize !== undefined) {
             return this._panelSize;
         }
         
@@ -351,7 +351,7 @@ var API = class
      */
     isDashVisible()
     {
-        return typeof this._dashVisiblity === 'undefined' || this._dashVisiblity;
+        return this._dashVisiblity === undefined || this._dashVisiblity;
     }
     
     /**
@@ -785,7 +785,7 @@ var API = class
             return;
         }
         
-        if (typeof this._originals['MAX_THUMBNAIL_SCALE'] === 'undefined') {
+        if (this._originals['MAX_THUMBNAIL_SCALE'] === undefined) {
             return;
         }
         
@@ -795,7 +795,7 @@ var API = class
             this._workspaceThumbnail.MAX_THUMBNAIL_SCALE = size;
         }
             
-        if (typeof this._originals['smd_getThumbnailsHeight'] !== 'undefined') {
+        if (this._originals['smd_getThumbnailsHeight'] !== undefined) {
             let smd = this._workspacesView.SecondaryMonitorDisplay;
             smd._getThumbnailsHeight = this._originals['smd_getThumbnailsHeight'];
         }
@@ -818,7 +818,7 @@ var API = class
             return;
         }
         
-        if (typeof this._originals['MAX_THUMBNAIL_SCALE'] === 'undefined') {
+        if (this._originals['MAX_THUMBNAIL_SCALE'] === undefined) {
             this._originals['MAX_THUMBNAIL_SCALE']
             = this._workspaceThumbnail.MAX_THUMBNAIL_SCALE;
         }
@@ -834,7 +834,7 @@ var API = class
             // we do this because MAX_THUMBNAIL_SCALE is const and cannot be cahnged
             let smd = this._workspacesView.SecondaryMonitorDisplay;
             
-            if (typeof this._originals['smd_getThumbnailsHeight'] === 'undefined') {
+            if (this._originals['smd_getThumbnailsHeight'] === undefined) {
                 this._originals['smd_getThumbnailsHeight'] = smd._getThumbnailsHeight;
             }
             
@@ -1029,7 +1029,7 @@ var API = class
      */
     _setEnableHotCornersOriginal()
     {
-        if (typeof this._originals['enableHotCorners'] !== 'undefined') {
+        if (this._originals['enableHotCorners'] !== undefined) {
             return;
         }
         
@@ -1168,7 +1168,7 @@ var API = class
      */
     panelGetPosition()
     {
-        if (typeof this._panelPosition === 'undefined') {
+        if (this._panelPosition === undefined) {
             return PANEL_POSITION.TOP;
         }
         
@@ -1416,7 +1416,7 @@ var API = class
      */
     animationSpeedSetDefault()
     {
-        if (typeof this._originals['StSlowDownFactor'] === 'undefined') {
+        if (this._originals['StSlowDownFactor'] === undefined) {
             return;
         }
         
@@ -1432,7 +1432,7 @@ var API = class
      */
     animationSpeedSet(factor)
     {
-        if (typeof this._originals['StSlowDownFactor'] === 'undefined') {
+        if (this._originals['StSlowDownFactor'] === undefined) {
             this._originals['StSlowDownFactor']
             = this._st.Settings.get().slow_down_factor;
         }
@@ -1447,7 +1447,7 @@ var API = class
      */
     enablenAimationsSetDefault()
     {
-        if (typeof this._originals['enableAnimations'] === 'undefined') {
+        if (this._originals['enableAnimations'] === undefined) {
             return;
         }
         
@@ -1465,7 +1465,7 @@ var API = class
      */
     enablenAimationsSet(status)
     {
-        if (typeof this._originals['enableAnimations'] === 'undefined') {
+        if (this._originals['enableAnimations'] ===  undefined) {
             this._originals['enableAnimations']
             = this._interfaceSettings.get_boolean('enable-animations');
         }
@@ -1651,7 +1651,7 @@ var API = class
             return;
         }
     
-        if (typeof this._originals['sessionModeHasOverview'] === 'undefined') {
+        if (this._originals['sessionModeHasOverview'] === undefined) {
             this._originals['sessionModeHasOverview']
             = this._main.sessionMode.hasOverview;
         }
@@ -1683,7 +1683,7 @@ var API = class
      */
     startupStatusSetDefault()
     {
-        if (typeof this._originals['sessionModeHasOverview'] === 'undefined') {
+        if (this._originals['sessionModeHasOverview'] === undefined) {
             return;
         }
     
@@ -1787,7 +1787,7 @@ var API = class
     {
         let messageTray = this._main.messageTray;
         
-        if (typeof this._originals['bannerAlignment'] === 'undefined') {
+        if (this._originals['bannerAlignment'] === undefined) {
             this._originals['bannerAlignment'] = messageTray.bannerAlignment;
         }
         
@@ -1814,7 +1814,7 @@ var API = class
      */
     notificationBannerPositionSetDefault()
     {
-        if (typeof this._originals['bannerAlignment'] === 'undefined') {
+        if (this._originals['bannerAlignment'] === undefined) {
             return;
         }
      
@@ -1885,7 +1885,7 @@ var API = class
      */
     panelButtonHpaddingSetDefault()
     {
-        if (typeof this._panelButtonHpaddingSize === 'undefined') {
+        if (this._panelButtonHpaddingSize === undefined) {
             return;
         }
     
@@ -1925,7 +1925,7 @@ var API = class
      */
     panelIndicatorPaddingSetDefault()
     {
-        if (typeof this._panelIndicatorPaddingSize === 'undefined') {
+        if (this._panelIndicatorPaddingSize === undefined) {
             return;
         }
     
@@ -2016,7 +2016,7 @@ var API = class
      */
     workspaceBackgroundRadiusSetDefault()
     {
-        if (typeof this._workspaceBackgroundRadiusSize === 'undefined') {
+        if (this._workspaceBackgroundRadiusSize === undefined) {
             return;
         }
         

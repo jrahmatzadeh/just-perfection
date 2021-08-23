@@ -148,7 +148,7 @@ var Prefs = class
         let id = name.replace(/-/g, "_");
         let widgetId = id + '_' + widgetType.toLowerCase().replace('gtk', '');
         
-        if (typeof maps === 'undefined') {
+        if (maps === undefined) {
             maps = {};
         }
         
@@ -544,7 +544,7 @@ var Prefs = class
     
         for (let [id, key] of Object.entries(this._keys)) {
         
-            if (typeof categories[key.category] === 'undefined') {
+            if (categories[key.category] === undefined) {
                 categories[key.category] = 0;
             }
         
