@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-21 06:38-0700\n"
-"PO-Revision-Date: 2021-03-09 01:18+0100\n"
+"PO-Revision-Date: 2021-08-27 09:43+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 3.38.0\n"
+"X-Generator: Gtranslator 40.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: src/ui/prefs.ui:73
@@ -42,7 +42,7 @@ msgstr ""
 
 #: src/ui/prefs.ui:367
 msgid "Select File"
-msgstr "Seleccione Ficheiro"
+msgstr "Seleccionar un ficheiro"
 
 #: src/ui/prefs.ui:478
 msgid "No Results Found"
@@ -59,7 +59,7 @@ msgstr "Tema de Shell"
 #: src/ui/prefs.ui:568
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr ""
-"Sobrescribe parcialmente o tema de shell para crear un escritorio mínimo."
+"Sobrescribe parcialmente o tema do Shell para crear un escritorio minimalista"
 
 #: src/ui/prefs.ui:618
 msgid "Visibility"
@@ -75,11 +75,11 @@ msgstr "Botón de actividades"
 
 #: src/ui/prefs.ui:734
 msgid "Button in panel to toggle overview visibility"
-msgstr "Botón no panel para alternar a visibilidade da vista xeral"
+msgstr "Botón no panel para trocar a visibilidade da vista xeral"
 
 #: src/ui/prefs.ui:798
 msgid "App Menu"
-msgstr "Menú de aplicacións"
+msgstr "Menú de aplicación"
 
 #: src/ui/prefs.ui:809
 msgid "The menu button in panel with focused window text"
@@ -99,7 +99,7 @@ msgstr "Distribución do teclado"
 
 #: src/ui/prefs.ui:959
 msgid "Keyboard Layout indicator button in panel"
-msgstr "Botón indicador do deseño do teclado no panel"
+msgstr "Botón indicador da distribución do teclado no panel"
 
 #: src/ui/prefs.ui:1023
 msgid "Accessibility Menu"
@@ -119,11 +119,11 @@ msgstr "O menú do sistema contén iconas de enerxía, volume e rede no panel"
 
 #: src/ui/prefs.ui:1173
 msgid "Search"
-msgstr "Buscar"
+msgstr "Busca"
 
 #: src/ui/prefs.ui:1184
 msgid "Search entry in overview"
-msgstr "Buscar entrada na vista xeral"
+msgstr "Caixa de busca na vista xeral"
 
 #: src/ui/prefs.ui:1248
 msgid "Dash"
@@ -131,7 +131,7 @@ msgstr "Dash"
 
 #: src/ui/prefs.ui:1259
 msgid "Dash holds favorite and opened applications icons"
-msgstr "Dash contén as iconas de aplicacións favoritas e abertas"
+msgstr "O Dash contén as iconas de aplicacións favoritas e abertas"
 
 #: src/ui/prefs.ui:1323
 msgid "Show Applications Button"
@@ -139,7 +139,7 @@ msgstr "Botón Mostrar aplicacións"
 
 #: src/ui/prefs.ui:1334
 msgid "Button in dash that toggles applications list visibility"
-msgstr "Botón no guión que alterna a visibilidade da lista de aplicacións"
+msgstr "Botón no guión que troca a visibilidade da lista de aplicacións"
 
 #: src/ui/prefs.ui:1398
 msgid "On Screen Display (OSD)"
@@ -167,16 +167,16 @@ msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
 msgstr ""
-"Tamén se refire ás miniaturas do espazo de traballo que ve na vista xeral "
+"Tamén se refire ás miniaturas do espazo de traballo que ven na vista xeral "
 "para seleccionar un espazo de traballo"
 
 #: src/ui/prefs.ui:1623
 msgid "Workspaces App Grid"
-msgstr "Espazo de traballo App Grid"
+msgstr "Grella de aplicativos dos espazo de traballo"
 
 #: src/ui/prefs.ui:1634
 msgid "Workspace boxes in app grid"
-msgstr "Caixas de espazo de traballo na reixa da aplicación"
+msgstr "Caixas de espazo de traballo na grella de aplicacións"
 
 #: src/ui/prefs.ui:1698
 msgid "Window Picker Close Button"
@@ -188,11 +188,11 @@ msgstr "O botón de peche na vista previa da xanela na vista xeral"
 
 #: src/ui/prefs.ui:1773
 msgid "Window Picker Caption"
-msgstr "Subtítulo de Selector de fiestras"
+msgstr "Lenda do selector de xanelas"
 
 #: src/ui/prefs.ui:1784
 msgid "The text under window preview in overview"
-msgstr "O texto baixo a vista previa da xanela na vista xeral"
+msgstr "O texto debaixo da vista previa da xanela na vista xeral"
 
 #: src/ui/prefs.ui:1848
 msgid "Background Menu"
@@ -204,31 +204,31 @@ msgstr "Cando fas clic dereito sobre o fondo do escritorio"
 
 #: src/ui/prefs.ui:1909
 msgid "Icons"
-msgstr "iconas"
+msgstr "Iconas"
 
 #: src/ui/prefs.ui:1958
 msgid "App Menu Icon"
-msgstr "Icona de Menú de aplicacións"
+msgstr "Icona do menú de aplicacións"
 
 #: src/ui/prefs.ui:2007
 msgid "Panel Notification Icon"
-msgstr "Icona de notificación do panel"
+msgstr "Icona do panel de notificacións"
 
 #: src/ui/prefs.ui:2056
 msgid "Power Icon"
-msgstr "Icono de enerxía"
+msgstr "Icona de enerxía"
 
 #: src/ui/prefs.ui:2105
 msgid "Panel Arrow"
-msgstr "Frechas no panel"
+msgstr "Frecha do panel"
 
 #: src/ui/prefs.ui:2160
 msgid "Window Picker Icon"
-msgstr "Icona de selector de xanela"
+msgstr "Icona do selector de xanela"
 
 #: src/ui/prefs.ui:2171
 msgid "The icon under window preview in overview"
-msgstr "A icona na vista previa da xanela na vista xeral"
+msgstr "A icona debaixo da vista previa da xanela na vista xeral"
 
 #: src/ui/prefs.ui:2229
 msgid "Activities Button Icon"
@@ -260,7 +260,7 @@ msgstr "Xesto de aplicacións"
 
 #: src/ui/prefs.ui:2597
 msgid "Workspace Wraparound"
-msgstr "Wraparound do espazo de traballo"
+msgstr "Envolver espazos de traballo"
 
 #: src/ui/prefs.ui:2608
 msgid ""
@@ -274,11 +274,11 @@ msgstr ""
 
 #: src/ui/prefs.ui:2672
 msgid "Window Demands Attention Focus"
-msgstr "A xanela esixe o foco de atención"
+msgstr "Xanela esixe atención"
 
 #: src/ui/prefs.ui:2683
 msgid "Removes window is ready notification and focus on the window"
-msgstr "Eliminar a xanela está lista a notificación e céntrase na xanela"
+msgstr "Eliminar a notificación de xanela está lista e céntrase na xanela"
 
 #: src/ui/prefs.ui:2747
 msgid "Type to Search"
@@ -288,28 +288,28 @@ msgstr "Escribir para buscar"
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
-"Pode iniciar a busca sen unha entrada de busca ou incluso centrarse nel na "
+"Pode iniciar a busca sen unha entrada de busca ou incluso centrarse nela na "
 "descripción xeral"
 
 #: src/ui/prefs.ui:2822
 msgid "Always Show Workspace Switcher"
-msgstr "Mostrar sempre o conmutador de espazo de traballo"
+msgstr "Mostrar sempre o trocador de espazo de traballo"
 
 #: src/ui/prefs.ui:2833
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
 msgstr ""
-"Mostra o conmutador de espazo de traballo incluso cando só se usa un espazo "
-"de traballo con espazos de traballo dinámicos"
+"Mostra o trocador de espazo de traballo incluso cando só se usa un espazo de "
+"traballo con espazos de traballo dinámicos"
 
 #: src/ui/prefs.ui:2897
 msgid "Startup Status"
-msgstr "Estado de inicio"
+msgstr "Estado ao arrincar"
 
 #: src/ui/prefs.ui:2908
 msgid "When GNOME Shell is starting up for the first time"
-msgstr "Cando GNOME Shell está a iniciarse por primeira vez"
+msgstr "O modo de GNOME Shell cando se inicia por primeira vez"
 
 #: src/ui/prefs.ui:2929
 msgid "Desktop"
@@ -378,11 +378,11 @@ msgstr "Centro"
 
 #: src/ui/prefs.ui:3666
 msgid "Right"
-msgstr "Certo"
+msgstr "Dereita"
 
 #: src/ui/prefs.ui:3667
 msgid "Left"
-msgstr "Á esquerda"
+msgstr "Esquerda"
 
 #: src/ui/prefs.ui:3707
 msgid "Clock Menu Position Offset"
@@ -390,7 +390,7 @@ msgstr "Desprazamento da posición do menú do reloxo"
 
 #: src/ui/prefs.ui:3768
 msgid "Workspace Switcher Size"
-msgstr "Tamaño do trocador de espaczo de traballo"
+msgstr "Tamaño do trocador de espazos de traballo"
 
 #: src/ui/prefs.ui:3780 src/ui/prefs.ui:3921
 msgid "Default"
@@ -422,7 +422,7 @@ msgstr "Rápido"
 
 #: src/ui/prefs.ui:3867
 msgid "Slow"
-msgstr "Lento   "
+msgstr "Lento"
 
 #: src/ui/prefs.ui:3868
 msgid "Slower"
@@ -434,16 +434,16 @@ msgstr "O máis lento"
 
 #: src/ui/prefs.ui:3909
 msgid "Dash Icon Size"
-msgstr "tamaño da icona de trazo"
+msgstr "Tamaño da icona de trazo"
 
 #: src/ui/prefs.ui:3970
 msgid "Notification Banner Position"
-msgstr "Posición do Banner de notificacións"
+msgstr "Posición do anuncio de notificacións"
 
 #: src/ui/prefs.ui:3981
 msgid "Notification popup position when notifications show up on the screen"
 msgstr ""
-"Posición emerxente de notificacións cando as notificacións aparecen na "
+"Posición da notificacións emerxente cando as notificacións aparecen na "
 "pantalla"
 
 #: src/ui/prefs.ui:4002
@@ -452,8 +452,8 @@ msgstr "Inicio superior"
 
 #: src/ui/prefs.ui:4003
 msgid "Top Center"
-msgstr "Centro superior"
+msgstr "Centro arriba"
 
 #: src/ui/prefs.ui:4004
 msgid "Top End"
-msgstr "Top End"
+msgstr "Final arriba"
