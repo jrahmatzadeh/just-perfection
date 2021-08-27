@@ -15,6 +15,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Looking glass position on bottom panel.
 - Search entry API to avoid conflicting with other extensions.
 - Bottom panel position for multi monitors [@harshadgavali](https://gitlab.gnome.org/harshadgavali).
+- Galician translation by [@frandieguez](https://gitlab.gnome.org/frandieguez).
 
 ### Added
 
