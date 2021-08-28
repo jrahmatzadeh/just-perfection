@@ -19,6 +19,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ### Added
 
+- GNOME Shell 41 support.
 - Panel indicator padding size.
 - Window picker close button visibility.
 

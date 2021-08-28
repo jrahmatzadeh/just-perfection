@@ -22,7 +22,7 @@ This extension allows you to do the following:
 - Accessibility Menu
 - System Menu (Aggregate Menu)
 - Applications Button
-- Workspaces in app grid (Only GNOME Shell 40)
+- Workspaces in app grid (Only GNOME Shell 40 and 41)
 - Window Picker Caption
 - Window Picker Close Button
 
@@ -31,7 +31,7 @@ This extension allows you to do the following:
 - App Menu Icon
 - Power Icon
 - Panel Notification icon
-- Window Picker Icon (Only GNOME Shell 40)
+- Window Picker Icon (Only GNOME Shell 40 and 41)
 - Panel Arrow (Only GNOME Shell 3.36 and 3.38)
 - Activities Button Icon
 
@@ -41,8 +41,8 @@ This extension allows you to do the following:
 - Hot Corner
 - App Gesture (Only GNOME Shell 3.36 and 3.38)
 - Window Demands Attention Focus
-- Always Show Workspace Switcher on Dynamic Workspaces (Only GNOME Shell 40)
-- Startup status (Only GNOME Shell 40)
+- Always Show Workspace Switcher on Dynamic Workspaces (Only GNOME Shell 40 and 41)
+- Startup status (Only GNOME Shell 40 and 41)
 - Workspace Wraparound
 
 ### Customize
@@ -52,9 +52,9 @@ This extension allows you to do the following:
 - Panel Button Padding Size
 - Panel Indicator Padding Size
 - Panel Round Corner Size
-- Workspace Background Corner Size in Overview (Only GNOME Shell 40)
+- Workspace Background Corner Size in Overview (Only GNOME Shell 40 and 41)
 - Clock Menu Position
-- Workspace Switcher Size (Only GNOME Shell 40)
+- Workspace Switcher Size (Only GNOME Shell 40 and 41)
 - Animation Speed or Disable it
 - Dash Icon Size
 - Notification Banner Position
@@ -76,6 +76,7 @@ This extension is also available on [GNOME Shell extensions website](https://ext
 | 3.36                | July 2025      |
 | 3.38                | July 2025      |
 | 40                  | September 2021 |
+| 41                  | TBA            |
 
 ## Install Manually
 
