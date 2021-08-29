@@ -1655,11 +1655,15 @@ var API = class
             this._originals['sessionModeHasOverview']
             = this._main.sessionMode.hasOverview;
         }
+        
+        let ControlsState = this._overviewControls.ControlsState;
+        let Controls = this._main.overview._overview.controls;
     
         switch (status) {
         
             case SHELL_STATUS.NONE:
                 this._main.sessionMode.hasOverview = false;
+                Controls._stateAdjustment.value = ControlsState.HIDDEN;
                 break;
                 
             case SHELL_STATUS.OVERVIEW:
