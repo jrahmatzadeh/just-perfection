@@ -573,7 +573,8 @@ var Prefs = class
             frameElm.visible = visible;
         }
         
-        this._builder.get_object("no_results_found").visible = noResultsFoundVisiblity;
+        this._builder.get_object("no_results_found_frame").visible
+        = noResultsFoundVisiblity;
     }
 };
 
