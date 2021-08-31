@@ -16,6 +16,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Search entry API to avoid conflicting with other extensions.
 - Bottom panel position for multi monitors [@harshadgavali](https://gitlab.gnome.org/harshadgavali).
 - First swipe up in desktop startup status.
+- Window picker caption border on disable.
 - Galician translation by [@frandieguez](https://gitlab.gnome.org/frandieguez).
 
 ### Added
