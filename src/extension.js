@@ -61,7 +61,7 @@ function enable()
     
     api.open();
     
-    let settings = ExtensionUtils.getSettings(Me.metadata['settings-schema']);
+    let settings = ExtensionUtils.getSettings();
     let hotCorner = new HotCorner.HotCorner({ 'API': api, 'St': St });
     
     manager = new Manager.Manager({

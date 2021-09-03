@@ -10,7 +10,7 @@ const shellVersion = parseFloat(Config.PACKAGE_VERSION);
 
 function init ()
 {
-    ExtensionUtils.initTranslations(Me.metadata['gettext-domain']);
+    ExtensionUtils.initTranslations();
 }
 
 function buildPrefsWidget ()
@@ -20,7 +20,7 @@ function buildPrefsWidget ()
     let binFolderPath = Me.dir.get_child("bin").get_path();
 
     let builder = new Gtk.Builder();
-    let settings = ExtensionUtils.getSettings(Me.metadata['settings-schema']);
+    let settings = ExtensionUtils.getSettings();
     let prefs = new Prefs.Prefs({
         'Builder': builder,
         'Settings': settings,
