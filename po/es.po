@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the Just Perfection package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # Óscar Fernández Díaz <oscfdezdz@tuta.io>, 2021.
+# Diego Iván <diegoivan.mae@gmail.com>, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-21 06:38-0700\n"
-"PO-Revision-Date: 2021-02-01 18:27+0100\n"
-"Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
-"Language-Team: Spanish; Castilian <oscfdezdz@tuta.io>\n"
+"PO-Revision-Date: 2021-09-04 20:27-0500\n"
+"Last-Translator: Diego Iván <diegoivan.mae@gmail.com>\n"
+"Language-Team: Spanish\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 3.38.0\n"
+"X-Generator: Gtranslator 40.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: src/ui/prefs.ui:73
@@ -82,7 +83,7 @@ msgstr "Menú de aplicaciones"
 
 #: src/ui/prefs.ui:809
 msgid "The menu button in panel with focused window text"
-msgstr "El botón de menú en el panel con el texto de la ventana enfocado"
+msgstr "El botón de menú en el panel con el texto de la ventana enfocada"
 
 #: src/ui/prefs.ui:873
 msgid "Clock Menu"
@@ -223,7 +224,7 @@ msgstr "Icono de energía"
 
 #: src/ui/prefs.ui:2105
 msgid "Panel Arrow"
-msgstr "flecha del panel"
+msgstr "Flecha del Panel"
 
 #: src/ui/prefs.ui:2160
 msgid "Window Picker Icon"
@@ -264,7 +265,7 @@ msgstr "Animación de \"Mostrar aplicaciones\""
 
 #: src/ui/prefs.ui:2597
 msgid "Workspace Wraparound"
-msgstr "Envolvente del espacio de trabajo"
+msgstr "Espacios de trabajo envolventes"
 
 #: src/ui/prefs.ui:2608
 msgid ""
@@ -283,8 +284,7 @@ msgstr "Ventana exige atención"
 
 #: src/ui/prefs.ui:2683
 msgid "Removes window is ready notification and focus on the window"
-msgstr ""
-"Elimina la notificación de ventana está lista y se centra en la ventana"
+msgstr "Elimina la notificación de ventana preparada y se centra en ella"
 
 #: src/ui/prefs.ui:2747
 msgid "Type to Search"
@@ -335,8 +335,7 @@ msgstr "Tamaño de la esquina del fondo del espacio de trabajo"
 
 #: src/ui/prefs.ui:3027
 msgid "Workspace background corner size in overview"
-msgstr ""
-"Descripción general del tamaño de la esquina del fondo del espacio de trabajo"
+msgstr "Tamaño de la esquina de los espacios de trabajo en la vista general"
 
 #: src/ui/prefs.ui:3048 src/ui/prefs.ui:3161 src/ui/prefs.ui:3273
 #: src/ui/prefs.ui:3386 src/ui/prefs.ui:3499
@@ -345,19 +344,19 @@ msgstr "Por tema de Shell"
 
 #: src/ui/prefs.ui:3149
 msgid "Panel Size"
-msgstr "Tamaño del panel"
+msgstr "Tamaño del Panel"
 
 #: src/ui/prefs.ui:3261
 msgid "Panel Button Padding Size"
-msgstr "Tamaño del acolchado del botón del panel"
+msgstr "Tamaño del relleno del botón del panel"
 
 #: src/ui/prefs.ui:3374
 msgid "Panel Indicator Padding Size"
-msgstr "Tamaño del acolchado del indicador del panel"
+msgstr "Tamaño del relleno del indicador del panel"
 
 #: src/ui/prefs.ui:3487
 msgid "Panel Corner Size"
-msgstr "Tamaño de la esquina del panel"
+msgstr "Tamaño de la relleno del panel"
 
 #: src/ui/prefs.ui:3500
 msgid "No Corner"
@@ -449,9 +448,7 @@ msgstr "Posición del banner de notificación"
 
 #: src/ui/prefs.ui:3981
 msgid "Notification popup position when notifications show up on the screen"
-msgstr ""
-"Posición de la ventana emergente de notificación cuando las notificaciones "
-"aparecen en la pantalla"
+msgstr "Posición de las notificaciones en pantalla"
 
 #: src/ui/prefs.ui:4002
 msgid "Top Start"
