@@ -308,6 +308,15 @@ var API = class
         this.panelSetSize(this.panelGetSize(), false);
         
         this.UIStyleClassRemove(classname);
+        
+        if (this._panelHideTimeoutId) {
+            this._glib.source_remove(this._panelHideTimeoutId);
+            delete(this._panelHideTimeoutId);
+        }
+        
+        // setting panel position will fix
+        // the panelBox.set_position(1, 1) hack we did on this.panelHide() 
+        this.panelSetPosition(this.panelGetPosition());
     }
     
     /**
@@ -332,6 +341,26 @@ var API = class
         // but on GNOME 40 we don't need to keep proportion but give it more
         // top margin to keep it less close to top
         this.UIstyleClassAdd(classname);
+        
+        // we have window maximize issue on Wayland
+        // only the focused window will have correct maximized area
+        // the other ones will have panel gap at top
+        // to fix that we need to change panelbox position after a short delay
+        // set_position will emit 'notify::allocation'
+        // and can fix the bad window positioning
+        // since panel is hidden it won't cause any issues for window position
+        if (this._meta.is_wayland_compositor()) {
+		    this._panelHideTimeoutId = this._glib.timeout_add(
+		        this._glib.PRIORITY_DEFAULT, 150, () => {
+                    
+                    let panelBox = this._main.layoutManager.panelBox;
+                    panelBox.set_position(1, 1);
+                    
+                    delete(this._panelHideTimeoutId);
+                    
+                    return this._glib.SOURCE_REMOVE;
+		    });
+        }
     }
     
     /**
