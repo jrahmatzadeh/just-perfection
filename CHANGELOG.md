@@ -17,7 +17,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Bottom panel position for multi monitors [@harshadgavali](https://gitlab.gnome.org/harshadgavali).
 - First swipe up in desktop startup status.
 - Window picker caption border on disable.
-- Maximized windows gap on Wayland.
+- Maximized window gap on Wayland.
 - Galician translation by [@frandieguez](https://gitlab.gnome.org/frandieguez).
 - Spanish translation by [@DiegoIvanME](https://gitlab.gnome.org/DiegoIvanME).
 
