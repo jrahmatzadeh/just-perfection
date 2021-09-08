@@ -38,7 +38,7 @@ This extension allows you to do the following:
 ### Behavior
 
 - Disable Type to Search
-- Hot Corner
+- Hot Corner (Only GNOME Shell 3.36, 3.38 and 40)
 - App Gesture (Only GNOME Shell 3.36 and 3.38)
 - Window Demands Attention Focus
 - Always Show Workspace Switcher on Dynamic Workspaces (Only GNOME Shell 40 and 41)
