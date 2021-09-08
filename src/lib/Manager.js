@@ -477,6 +477,10 @@ var Manager = class
      */
     _applyHotCorner(forceOriginal)
     {
+        if (this._shellVersion >= 41) {
+            return;
+        }
+    
         if (forceOriginal) {
             this._api.hotCornersDefault();
             this._hotCorner.removeOveriewButton();

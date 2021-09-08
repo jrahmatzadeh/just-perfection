@@ -21,6 +21,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Galician translation by [@frandieguez](https://gitlab.gnome.org/frandieguez).
 - Spanish translation by [@DiegoIvanME](https://gitlab.gnome.org/DiegoIvanME).
 
+### Removed
+
+- Hot corner for GNOME Shell 41.
+
 ### Added
 
 - GNOME Shell 41 support.

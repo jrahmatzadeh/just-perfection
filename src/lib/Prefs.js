@@ -95,7 +95,7 @@ var Prefs = class
         
         // behavior
         this._setKey('behavior', 'type-to-search', 'GtkSwitch', true);
-        this._setKey('behavior', 'hot-corner', 'GtkSwitch', true);
+        this._setKey('behavior', 'hot-corner', 'GtkSwitch', this._shellVersion < 41);
         this._setKey('behavior', 'gesture', 'GtkSwitch', this._shellVersion < 40);
         this._setKey('behavior', 'window-demands-attention-focus', 'GtkSwitch', true);
         this._setKey('behavior', 'workspace-switcher-should-show', 'GtkSwitch',
