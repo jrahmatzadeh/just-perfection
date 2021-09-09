@@ -2,6 +2,21 @@
 <interface>
   <requires lib="gtk+" version="3.24"/>
   
+  <!-- MENU -->
+  
+  <menu id="primary_menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Bug Report</attribute>
+        <attribute name="action">prefs.show-bug-report</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Support via Patreon</attribute>
+        <attribute name="action">prefs.show-patreon</attribute>
+      </item>
+    </section>
+  </menu>
+  
   <!-- CSD -->
   
   <object class="GtkHeaderBar" id="header_bar">
@@ -9,19 +24,19 @@
     <property name="can-focus">True</property>
     <property name="hexpand">1</property>
     
-    <child>
+    <child type="end">
       <object class="GtkMenuButton">
         <property name="visible">True</property>
         <property name="can-focus">True</property>
         <property name="focus-on-click">True</property>
         <property name="receives-default">True</property>
-        <property name="popover">support_popover</property>
+        <property name="menu-model">primary_menu</property>
         
         <child>
-          <object class="GtkImage" id="support_icon">
+          <object class="GtkImage" id="menu_icon">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="icon-name">dialog-information-symbolic</property>
+            <property name="icon-name">open-menu-symbolic</property>
             <property name="icon-size">1</property>
           </object>
         </child>
@@ -29,7 +44,7 @@
       </object>
     </child>
     
-    <child type="end">
+    <child>
       <object class="GtkToggleButton" id="search_togglebutton">
         <property name="visible">True</property>
         <property name="can-focus">True</property>
@@ -43,308 +58,6 @@
             <property name="icon-size">1</property>
           </object>
         </child>
-        
-      </object>
-    </child>
-    
-  </object>
-  
-  <!-- SUPPORT -->
-  
-  <object class="GtkPopover" id="support_popover">
-    <property name="can-focus">True</property>
-    <property name="width-request">440</property>
-    <property name="position">right</property>
-    
-    <child>
-      <object class="GtkBox">
-        <property name="visible">True</property>
-        <property name="can-focus">True</property>
-        <property name="orientation">vertical</property>
-        <property name="margin-start">20</property>
-        <property name="margin-end">20</property>
-        <property name="margin-top">20</property>
-        <property name="margin-bottom">20</property>
-        
-        <child>
-          <object class="GtkLabel">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="label" translatable="yes">Support</property>
-            <property name="xalign">0</property>
-            <property name="margin-bottom">16</property>
-            <attributes>
-              <attribute name="weight" value="bold"/>
-            </attributes>
-          </object>
-        </child>
-        
-        <child>
-          <object class="GtkLabel">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="hexpand">1</property>
-            <property name="label" translatable="yes">Your support helps the development process continue and brings more features to the extension</property>
-            <property name="xalign">0</property>
-            <property name="margin-bottom">16</property>
-            <property name="wrap">True</property>
-            <property name="width-chars">0</property>
-            <property name="max-width-chars">0</property>
-          </object>
-        </child>
-
-        <child>
-          <object class="GtkComboBoxText" id="support_comboboxtext">
-            <property name="visible">True</property>
-            <property name="can-focus">True</property>
-            <property name="valign">center</property>
-            <property name="hexpand">1</property>
-            <property name="margin-bottom">16</property>
-            <property name="active">0</property>
-            <items>
-              <item>BitCoin</item>
-              <item>BitCoin Cash</item>
-              <item>Ethereum</item>
-              <item>Dogecoin</item>
-              <item>Patreon</item>
-            </items>
-          </object>
-        </child>
-        
-        <!-- SUPPORT : BITCOIN -->
-        
-        <child>
-          <object class="GtkBox" id="support_bitcoin">
-            <property name="visible">True</property>
-            <property name="can-focus">True</property>
-            <property name="orientation">vertical</property>
-            
-            <child>
-              <object class="GtkEntry">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="hexpand">1</property>
-                <property name="margin-bottom">16</property>
-                <property name="editable">False</property>
-                <property name="text">1MdFyy7AGqf3vL7EtPJr5bfwpBNKctNzWL</property>
-              </object>
-            </child>
-            
-            <child>
-              
-              <!-- FAKE IMAGE WRAPPER -->
-              <object class="GtkBox">
-                  <property name="visible">True</property>
-                  <property name="can-focus">True</property>
-                  <property name="orientation">vertical</property>  
-                  <child>
-              
-                    <object class="GtkImage" id="support_bitcoin_image">
-                      <property name="visible">True</property>
-                      <property name="can-focus">False</property>
-                      <property name="width_request">370</property>
-                      <property name="height_request">370</property>
-                    </object>
-                    
-                  </child>
-                </object>
-              
-            </child>
-          
-          </object>
-        </child>
-        
-        <!-- SUPPORT : BITCOIN CASH -->
-        
-        <child>
-          <object class="GtkBox" id="support_bitcoincash">
-            <property name="visible">False</property>
-            <property name="can-focus">True</property>
-            <property name="orientation">vertical</property>
-            
-            <child>
-              <object class="GtkEntry">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="hexpand">1</property>
-                <property name="margin-bottom">16</property>
-                <property name="editable">False</property>
-                <property name="text">qq4c94e9mh4gp5zzgxjknvvdfcmea73zycptwgl3zp</property>
-              </object>
-            </child>
-            
-            <child>
-              
-              <!-- FAKE IMAGE WRAPPER -->
-              <object class="GtkBox">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="orientation">vertical</property>  
-                <child>
-            
-                  <object class="GtkImage" id="support_bitcoincash_image">
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="width_request">370</property>
-                    <property name="height_request">370</property>
-                  </object>
-                  
-                </child>
-              </object>
-              
-            </child>
-          
-          </object>
-        </child>
-        
-        <!-- SUPPORT : ETHEREUM -->
-        
-        <child>
-          <object class="GtkBox" id="support_ethereum">
-            <property name="visible">False</property>
-            <property name="can-focus">True</property>
-            <property name="orientation">vertical</property>
-            
-            <child>
-              <object class="GtkEntry">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="hexpand">1</property>
-                <property name="margin-bottom">16</property>
-                <property name="editable">False</property>
-                <property name="text">0x170D57ed547c153B21A7BA8aaB9a8fb53C5EAD5f</property>
-              </object>
-            </child>
-            
-            <child>
-              
-              <!-- FAKE IMAGE WRAPPER -->
-              <object class="GtkBox">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="orientation">vertical</property>  
-                <child>
-              
-                  <object class="GtkImage" id="support_ethereum_image">
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="width_request">370</property>
-                    <property name="height_request">370</property>
-                  </object>
-                  
-                </child>
-              </object>
-              
-            </child>
-          
-          </object>
-        </child>
-        
-        
-        <!-- SUPPORT : DOGE -->
-        
-        <child>
-          <object class="GtkBox" id="support_doge">
-            <property name="visible">False</property>
-            <property name="can-focus">True</property>
-            <property name="orientation">vertical</property>
-            
-            <child>
-              <object class="GtkEntry">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="hexpand">1</property>
-                <property name="margin-bottom">16</property>
-                <property name="editable">False</property>
-                <property name="text">DD3pTCxg5BFW2b2er3jsKPprm2hC2Avd5C</property>
-              </object>
-            </child>
-            
-            <child>
-              
-              <!-- FAKE IMAGE WRAPPER -->
-              <object class="GtkBox">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="orientation">vertical</property>  
-                <child>
-              
-                  <object class="GtkImage" id="support_doge_image">
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="width_request">370</property>
-                    <property name="height_request">370</property>
-                  </object>
-                  
-                </child>
-              </object>
-              
-            </child>
-          
-          </object>
-        </child>
-        
-        <!-- SUPPORT : PATREON -->
-        
-        <child>
-          <object class="GtkBox" id="support_patreon">
-            <property name="visible">False</property>
-            <property name="can-focus">True</property>
-            <property name="orientation">vertical</property>
-            
-            <child>
-              <object class="GtkLabel">
-                <property name="visible">True</property>
-                <property name="can-focus">False</property>
-                <property name="label" translatable="yes">You can support my work via Patreon. Also your name will be mentioned at the end of videos on my YouTube Channel as Patreon supporter.</property>
-                <property name="xalign">0</property>
-                <property name="wrap">True</property>
-                <property name="width-chars">0</property>
-                <property name="max-width-chars">0</property>
-                <property name="margin-bottom">16</property>
-              </object>
-            </child>
-          
-            <child>
-              <object class="GtkLinkButton">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="halign">start</property>
-                <property name="valign">start</property>
-                <property name="hexpand">0</property>
-                <property name="vexpand">0</property>
-                <property name="uri">https://www.patreon.com/justperfection</property>
-                
-                <child>
-                  
-                  <!-- FAKE IMAGE WRAPPER -->
-                  <object class="GtkBox">
-                    <property name="visible">True</property>
-                    <property name="can-focus">True</property>
-                    <property name="orientation">vertical</property>  
-                    <child>
-                  
-                      <object class="GtkImage" id="support_patreon_image">
-                        <property name="visible">True</property>
-                        <property name="can-focus">False</property>
-                        <property name="halign">start</property>
-                        <property name="valign">start</property>
-                        <property name="hexpand">0</property>
-                        <property name="vexpand">0</property>
-                        <property name="width_request">95</property>
-                        <property name="height_request">41</property>
-                      </object>
-                      
-                    </child>
-                  </object>
-                      
-                </child>
-                
-              </object>
-            </child>
-            
-          </object>
-        </child>  
         
       </object>
     </child>

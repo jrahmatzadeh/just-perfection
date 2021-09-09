@@ -99,7 +99,7 @@ You can support my work by sending me some crypto:
 
 Or support via [Patreon](https://www.patreon.com/justperfection).
 
-[![Support via Patreon](src/bin/support-patreon.svg)](https://www.patreon.com/justperfection)
+[![Support via Patreon](data/imgs/support-patreon.svg)](https://www.patreon.com/justperfection)
 
 ## Awards
 

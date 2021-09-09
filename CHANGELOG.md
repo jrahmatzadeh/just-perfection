@@ -24,6 +24,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Removed
 
 - Hot corner for GNOME Shell 41.
+- Donation popover in prefs.
 
 ### Added
 

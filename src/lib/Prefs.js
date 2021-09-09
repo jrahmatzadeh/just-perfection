@@ -43,16 +43,11 @@ var Prefs = class
         this._windowWidth = 500;
         this._windowHeight = 750;
         
-        // @var array
-        // key name for supports popover
-        // array index should indicate to 'support_comboboxtext'
-        this._supports = [
-            'bitcoin',
-            'bitcoincash',
-            'ethereum',
-            'doge',
-            'patreon',
-        ];
+        // @var object url
+        this._url = {
+            bug_report: 'https://gitlab.gnome.org/jrahmatzadeh/just-perfection/-/issues',
+            patreon: 'https://www.patreon.com/justperfection',
+        };
         
         // @var object
         // for structure see self::_setKey()
@@ -182,7 +177,6 @@ var Prefs = class
         let obj = this._builder.get_object('main_prefs');
         
         this._convertComboBoxTextToDropDown();
-        this._fixImageObjects(binFolderPath);
         this._fixIconObjects();
         this._setCurrentValues();
         
@@ -216,51 +210,6 @@ var Prefs = class
     }
     
     /**
-     * fixing image widget
-     *
-     * on GTK4 we need Gtk.Picture to have correct aspect ratio
-     * on GTK3 we only need to set the path
-     *
-     * @param Gtk.Widget widget
-     * @param string filePath
-     *
-     * @return void
-     */
-    _fixImageWidget(widget, filePath)
-    {
-        if (this._shellVersion < 40) {
-            widget.set_from_file(filePath);
-            return;
-        }
-        
-        let parent = widget.get_parent();
-        let pic = this._gtk.Picture.new_for_filename(filePath);
-        
-        pic.set_size_request(widget.width_request, widget.height_request);
-        
-        widget.hide();
-        parent.append(pic);
-    }
-    
-    /**
-     * fix properties path for builder objects
-     *
-     * @param string binFolderPath
-     *
-     * @return void
-     */
-    _fixImageObjects(binFolderPath)
-    {
-        // since we are using file property on .ui file we need
-        // the actual path for the gtkImage::file
-        
-        this._supports.forEach( name => {
-            let image = this._builder.get_object(`support_${name}_image`);
-            this._fixImageWidget(image, `${binFolderPath}/support-${name}.svg`);
-        });
-    }
-    
-    /**
      * fix images that holding icons for GTK4
      *
      * @return void
@@ -272,7 +221,7 @@ var Prefs = class
         }
         
         let icons = [
-            'support_icon',
+            'menu_icon',
             'search_icon',
         ];
         
@@ -328,7 +277,6 @@ var Prefs = class
                 
                 widget.hide();
                 parent.append(dropdown);
-                
             }
         }
     }
@@ -351,8 +299,6 @@ var Prefs = class
             entry: this._builder.get_object('activities_button_icon_path_entry'),
             empty: this._builder.get_object('activities_button_icon_path_empty_button'),
         };
-        
-        let supportWindow = this._builder.get_object("support_window");
         
         for (let [id, key] of Object.entries(this._keys)) {
         
@@ -405,15 +351,6 @@ var Prefs = class
         
         searchBar.connect_entry(searchEntry);
         
-        this._builder.get_object('support_comboboxtext').connect("changed", (w) => {
-            let index = w.get_active();
-            for (let i = 0; i < this._supports.length; i++) {
-                let name = this._supports[i];
-                let visible = (index === i);
-                this._builder.get_object(`support_${name}`).visible = visible;
-            }
-        });
-        
         activitiesButtonIconPath['entry'].connect('changed', (w) => {
             this._setFileChooserValue('activities_button_icon_path', w.text);
         });
@@ -445,6 +382,27 @@ var Prefs = class
             let fileURI = w.get_file().get_uri();
             this.currentFileChooserEntry.text = fileURI;
         });
+        
+        let actionGroup = new this._gio.SimpleActionGroup();
+        
+        let action1 = new this._gio.SimpleAction({ name: 'show-bug-report' });
+        action1.connect('activate', () => {
+            this._gio.AppInfo.launch_default_for_uri(
+                this._url.bug_report,
+                window.get_display().get_app_launch_context());
+        });
+        
+        let action2 = new this._gio.SimpleAction({ name: 'show-patreon' });
+        action2.connect('activate', () => {
+            this._gio.AppInfo.launch_default_for_uri(
+                this._url.patreon,
+                window.get_display().get_app_launch_context());
+        });
+        
+        actionGroup.add_action(action1);
+        actionGroup.add_action(action2);
+        
+        window.insert_action_group('prefs', actionGroup);
     }
     
     /**
