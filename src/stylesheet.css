@@ -8,21 +8,6 @@
     background-color: black;
 }
 
-.just-perfection .switcher-list
-{
-    color: #eeeeec;
-    background-color: rgba(0, 0, 0, .99);
-    border: 0 solid rgba(255, 255, 255, .16);
-    border-radius: 15px;
-    padding: 12px;
-    box-shadow: none;
-}
-
-.just-perfection .window-close
-{
-    background-image: url("bin/close-button.svg");
-}
-
 .just-perfection .window-clone-border
 {
     border: 5px solid #004AC7;
@@ -43,6 +28,7 @@
   
 .just-perfection .window-close
 {
+    background-image: url("bin/close-button.svg");
     background-size: 24px;
     height: 24px;
     width: 24px;
@@ -57,6 +43,16 @@
     padding: 8px;
     spacing: 24px;
     font-size: small;
+}
+
+.just-perfection .switcher-list
+{
+    color: #eeeeec;
+    background-color: rgba(0, 0, 0, .99);
+    border: 0 solid rgba(255, 255, 255, .16);
+    border-radius: 15px;
+    padding: 12px;
+    box-shadow: none;
 }
 
 .just-perfection .switcher-list .item-box
