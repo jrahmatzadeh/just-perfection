@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-21 06:38-0700\n"
+"POT-Creation-Date: 2021-09-10 04:58-0700\n"
 "PO-Revision-Date: 2021-03-10 16:11-0300\n"
 "Last-Translator: zelling <zelling@zelling-desktop>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
@@ -18,147 +18,135 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: src/ui/prefs.ui:73
-msgid "Support"
-msgstr "Suporte"
+#: src/ui/prefs.ui:10
+msgid "Bug Report"
+msgstr "Relatório de erro"
 
-#: src/ui/prefs.ui:87
-msgid ""
-"Your support helps the development process continue and brings more features "
-"to the extension"
-msgstr ""
-"Seu apoio ajuda o processo de desenvolvimento continuar e trás mais "
-"funcionalidadesa extensão"
+#: src/ui/prefs.ui:14
+msgid "Support via Patreon"
+msgstr "Suporte via Patreon"
 
-#: src/ui/prefs.ui:299
-msgid ""
-"You can support my work via Patreon. Also your name will be mentioned at the "
-"end of videos on my YouTube Channel as Patreon supporter."
-msgstr ""
-"Você pode ajudar meu  trabalho via Patreon. Seu nome também será mencionado "
-"nofinal dos videos no meu Canal do Youtube como um apoiador Patreon"
-
-#: src/ui/prefs.ui:367
+#: src/ui/prefs.ui:80
 msgid "Select File"
 msgstr "Selecione o arquivo"
 
-#: src/ui/prefs.ui:478
+#: src/ui/prefs.ui:188
 msgid "No Results Found"
 msgstr "Nenhum resultado encontrado"
 
-#: src/ui/prefs.ui:500
+#: src/ui/prefs.ui:210
 msgid "Override"
 msgstr "Sobrescrever"
 
-#: src/ui/prefs.ui:557
+#: src/ui/prefs.ui:267
 msgid "Shell Theme"
 msgstr "Tema do Shell"
 
-#: src/ui/prefs.ui:568
+#: src/ui/prefs.ui:278
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "Sobrescreve o tema do shell parcialmente para criar um desktop minimal"
 
-#: src/ui/prefs.ui:618
+#: src/ui/prefs.ui:328
 msgid "Visibility"
 msgstr "Visibilidade"
 
-#: src/ui/prefs.ui:667
+#: src/ui/prefs.ui:377
 msgid "Panel"
 msgstr "Painel"
 
-#: src/ui/prefs.ui:723
+#: src/ui/prefs.ui:433
 msgid "Activities Button"
 msgstr "Botão de Atividades"
 
-#: src/ui/prefs.ui:734
+#: src/ui/prefs.ui:444
 msgid "Button in panel to toggle overview visibility"
 msgstr "Botão no painel para alternar a visibilidade da visão geral"
 
-#: src/ui/prefs.ui:798
+#: src/ui/prefs.ui:508
 msgid "App Menu"
 msgstr "Menu de Aplicações"
 
-#: src/ui/prefs.ui:809
+#: src/ui/prefs.ui:519
 msgid "The menu button in panel with focused window text"
 msgstr "O botão de menu no painel com o texto da janela em foco"
 
-#: src/ui/prefs.ui:873
+#: src/ui/prefs.ui:583
 msgid "Clock Menu"
 msgstr "Menu do Relógio"
 
-#: src/ui/prefs.ui:884
+#: src/ui/prefs.ui:594
 msgid "Also known as date menu shows date and time in panel"
 msgstr "Também conhecido como menu de data mostra a data e hora no painel"
 
-#: src/ui/prefs.ui:948
+#: src/ui/prefs.ui:658
 msgid "Keyboard Layout"
 msgstr "Layout do Teclado"
 
-#: src/ui/prefs.ui:959
+#: src/ui/prefs.ui:669
 msgid "Keyboard Layout indicator button in panel"
 msgstr "Botão indicador de layout de teclado no painel"
 
-#: src/ui/prefs.ui:1023
+#: src/ui/prefs.ui:733
 msgid "Accessibility Menu"
 msgstr "Menu de Acessibilidade"
 
-#: src/ui/prefs.ui:1034
+#: src/ui/prefs.ui:744
 msgid "Accessibility Menu indicator button in panel"
 msgstr "Botão indicador do Menu de acessibilidade no painel"
 
-#: src/ui/prefs.ui:1098
+#: src/ui/prefs.ui:808
 msgid "System Menu (Aggregate Menu)"
 msgstr "Menu do Sistema (Menu Agregado)"
 
-#: src/ui/prefs.ui:1109
+#: src/ui/prefs.ui:819
 msgid "System menu holds power, volume and network icons in panel"
 msgstr "O menu do sistema contém ícones de energia, volume e rede no painel"
 
-#: src/ui/prefs.ui:1173
+#: src/ui/prefs.ui:883
 msgid "Search"
 msgstr "Procurar"
 
-#: src/ui/prefs.ui:1184
+#: src/ui/prefs.ui:894
 msgid "Search entry in overview"
 msgstr "Visão geral da entrada de pesquisa"
 
-#: src/ui/prefs.ui:1248
+#: src/ui/prefs.ui:958
 msgid "Dash"
 msgstr "Dash"
 
-#: src/ui/prefs.ui:1259
+#: src/ui/prefs.ui:969
 msgid "Dash holds favorite and opened applications icons"
 msgstr "Dash mantém ícones de aplicativos favoritos e abertos"
 
-#: src/ui/prefs.ui:1323
+#: src/ui/prefs.ui:1033
 msgid "Show Applications Button"
 msgstr "Mostrar botão de aplicativos"
 
-#: src/ui/prefs.ui:1334
+#: src/ui/prefs.ui:1044
 msgid "Button in dash that toggles applications list visibility"
 msgstr "Botão no travessão que alterna a visibilidade da lista de aplicativos"
 
-#: src/ui/prefs.ui:1398
+#: src/ui/prefs.ui:1108
 msgid "On Screen Display (OSD)"
 msgstr "On Screen Display (OSD)"
 
-#: src/ui/prefs.ui:1409
+#: src/ui/prefs.ui:1119
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "Volume e brilho na tela quando a mudança acontece"
 
-#: src/ui/prefs.ui:1473
+#: src/ui/prefs.ui:1183
 msgid "Workspace Popup"
 msgstr "Popup de Área de Trabalho"
 
-#: src/ui/prefs.ui:1484
+#: src/ui/prefs.ui:1194
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr "Popup que aparece na tela quando você muda o espaço de trabalho"
 
-#: src/ui/prefs.ui:1548
+#: src/ui/prefs.ui:1258
 msgid "Workspace Switcher"
 msgstr "Seletor de Área de Trabalho"
 
-#: src/ui/prefs.ui:1559
+#: src/ui/prefs.ui:1269
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
@@ -166,99 +154,99 @@ msgstr ""
 "Também se refere às miniaturas da área de trabalho que você vê na visão "
 "geral para selecionar uma área de trabalho"
 
-#: src/ui/prefs.ui:1623
+#: src/ui/prefs.ui:1333
 msgid "Workspaces App Grid"
 msgstr "Grade de aplicativos dos espaços de trabalho"
 
-#: src/ui/prefs.ui:1634
+#: src/ui/prefs.ui:1344
 msgid "Workspace boxes in app grid"
 msgstr "Caixas de espaço de trabalho na grade do aplicativo"
 
-#: src/ui/prefs.ui:1698
+#: src/ui/prefs.ui:1408
 msgid "Window Picker Close Button"
 msgstr "Botão Fechar selecionador de janela"
 
-#: src/ui/prefs.ui:1709
+#: src/ui/prefs.ui:1419
 msgid "The close button on window preview in overview"
 msgstr "O botão Fechar na visualização da janela em visão geral"
 
-#: src/ui/prefs.ui:1773
+#: src/ui/prefs.ui:1483
 msgid "Window Picker Caption"
 msgstr "Legenda do selecionador de janela"
 
-#: src/ui/prefs.ui:1784
+#: src/ui/prefs.ui:1494
 msgid "The text under window preview in overview"
 msgstr "O texto sob a visualização da janela em visão geral"
 
-#: src/ui/prefs.ui:1848
+#: src/ui/prefs.ui:1558
 msgid "Background Menu"
 msgstr "Menu de Fundo"
 
-#: src/ui/prefs.ui:1859
+#: src/ui/prefs.ui:1569
 msgid "When you right click on desktop background"
 msgstr "Quando você clica com o botão direito no fundo da área de trabalho"
 
-#: src/ui/prefs.ui:1909
+#: src/ui/prefs.ui:1619
 msgid "Icons"
 msgstr "ícones"
 
-#: src/ui/prefs.ui:1958
+#: src/ui/prefs.ui:1668
 msgid "App Menu Icon"
 msgstr "Ícone de Menu de Aplicações"
 
-#: src/ui/prefs.ui:2007
+#: src/ui/prefs.ui:1717
 msgid "Panel Notification Icon"
 msgstr "Ícone de Notificação do Painel"
 
-#: src/ui/prefs.ui:2056
+#: src/ui/prefs.ui:1766
 msgid "Power Icon"
 msgstr "Botão de Energia"
 
-#: src/ui/prefs.ui:2105
+#: src/ui/prefs.ui:1815
 msgid "Panel Arrow"
 msgstr "Seta do Painel"
 
-#: src/ui/prefs.ui:2160
+#: src/ui/prefs.ui:1870
 msgid "Window Picker Icon"
 msgstr "Ícone do Seletor de Janela"
 
-#: src/ui/prefs.ui:2171
+#: src/ui/prefs.ui:1881
 msgid "The icon under window preview in overview"
 msgstr "O ícone sob a visualização da janela na visão geral"
 
-#: src/ui/prefs.ui:2229
+#: src/ui/prefs.ui:1939
 msgid "Activities Button Icon"
 msgstr "Ícone do botão de atividades"
 
-#: src/ui/prefs.ui:2328
+#: src/ui/prefs.ui:2038
 msgid "Activities Button Icon in Monochrome"
 msgstr "Ícone do botão de atividades em preto e branco"
 
-#: src/ui/prefs.ui:2383
+#: src/ui/prefs.ui:2093
 msgid "Activities Button Icon With Label"
 msgstr "Ícone do botão de atividades com etiqueta"
 
-#: src/ui/prefs.ui:2394
+#: src/ui/prefs.ui:2104
 msgid "Only works when you have selected an icon for activities button"
 msgstr "Só funciona quando você seleciona um ícone para o botão de atividades"
 
-#: src/ui/prefs.ui:2444
+#: src/ui/prefs.ui:2154
 msgid "Behavior"
 msgstr "Comportamento"
 
-#: src/ui/prefs.ui:2493
+#: src/ui/prefs.ui:2203
 msgid "Hot Corner"
 msgstr "Canto de Atalho"
 
-#: src/ui/prefs.ui:2542
+#: src/ui/prefs.ui:2252
 msgid "App Gesture"
 msgstr "Gestos de Aplicativo"
 
-#: src/ui/prefs.ui:2597
+#: src/ui/prefs.ui:2307
 msgid "Workspace Wraparound"
 msgstr "Wraparound do espaço de trabalho"
 
-#: src/ui/prefs.ui:2608
+#: src/ui/prefs.ui:2318
 msgid ""
 "Next workspace will be the first workspace when you are in the last "
 "workspace. and previous workspace will be the last workspace when you are in "
@@ -268,30 +256,30 @@ msgstr ""
 "estiver na última área de trabalho. e a área de trabalho anterior será a "
 "última quando você estiver na primeira."
 
-#: src/ui/prefs.ui:2672
+#: src/ui/prefs.ui:2382
 msgid "Window Demands Attention Focus"
 msgstr "A janela exige atenção"
 
-#: src/ui/prefs.ui:2683
+#: src/ui/prefs.ui:2393
 msgid "Removes window is ready notification and focus on the window"
 msgstr "Remove a janela está pronta para notificação e foca na janela"
 
-#: src/ui/prefs.ui:2747
+#: src/ui/prefs.ui:2457
 msgid "Type to Search"
 msgstr "Digite Para Pesquisar"
 
-#: src/ui/prefs.ui:2758
+#: src/ui/prefs.ui:2468
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Você pode começar pesquisar sem uma entrada de pesquisa ou mesmo focando na "
 "visão geral"
 
-#: src/ui/prefs.ui:2822
+#: src/ui/prefs.ui:2532
 msgid "Always Show Workspace Switcher"
 msgstr "Sempre mostrar o alternador de espaço de trabalho"
 
-#: src/ui/prefs.ui:2833
+#: src/ui/prefs.ui:2543
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
@@ -299,156 +287,156 @@ msgstr ""
 "Mostra o alternador de espaço de trabalho mesmo quando apenas um espaço de "
 "trabalho é usado com espaços de trabalho dinâmicos"
 
-#: src/ui/prefs.ui:2897
+#: src/ui/prefs.ui:2607
 msgid "Startup Status"
 msgstr "Status de inicialização"
 
-#: src/ui/prefs.ui:2908
+#: src/ui/prefs.ui:2618
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "Quando o GNOME Shell é inicializado pela primeira vez"
 
-#: src/ui/prefs.ui:2929
+#: src/ui/prefs.ui:2639
 msgid "Desktop"
 msgstr "Área de Trabalho"
 
-#: src/ui/prefs.ui:2930
+#: src/ui/prefs.ui:2640
 msgid "Overview"
 msgstr "Visão geral"
 
-#: src/ui/prefs.ui:2962
+#: src/ui/prefs.ui:2672
 msgid "Customize"
 msgstr "Customizar"
 
-#: src/ui/prefs.ui:3016
+#: src/ui/prefs.ui:2726
 msgid "Workspace Background Corner Size"
 msgstr "Tamanho do canto do plano de fundo da área de trabalho"
 
-#: src/ui/prefs.ui:3027
+#: src/ui/prefs.ui:2737
 msgid "Workspace background corner size in overview"
 msgstr "Visão geral do tamanho do canto do plano de fundo da área de trabalho"
 
-#: src/ui/prefs.ui:3048 src/ui/prefs.ui:3161 src/ui/prefs.ui:3273
-#: src/ui/prefs.ui:3386 src/ui/prefs.ui:3499
+#: src/ui/prefs.ui:2758 src/ui/prefs.ui:2871 src/ui/prefs.ui:2983
+#: src/ui/prefs.ui:3096 src/ui/prefs.ui:3209
 msgid "By Shell Theme"
 msgstr "Pelo Tema Shell"
 
-#: src/ui/prefs.ui:3149
+#: src/ui/prefs.ui:2859
 msgid "Panel Size"
 msgstr "Tamanho do painel"
 
-#: src/ui/prefs.ui:3261
+#: src/ui/prefs.ui:2971
 msgid "Panel Button Padding Size"
 msgstr "Tamanho do preenchimento do botão do painel"
 
-#: src/ui/prefs.ui:3374
+#: src/ui/prefs.ui:3084
 msgid "Panel Indicator Padding Size"
 msgstr "Tamanho do enchimento do indicador do painel"
 
-#: src/ui/prefs.ui:3487
+#: src/ui/prefs.ui:3197
 msgid "Panel Corner Size"
 msgstr "Tamanho do Canto do Painel"
 
-#: src/ui/prefs.ui:3500
+#: src/ui/prefs.ui:3210
 msgid "No Corner"
 msgstr "Sem Canto"
 
-#: src/ui/prefs.ui:3600
+#: src/ui/prefs.ui:3310
 msgid "Panel Position"
 msgstr "Posição do Painel"
 
-#: src/ui/prefs.ui:3612
+#: src/ui/prefs.ui:3322
 msgid "Top"
 msgstr "Topo"
 
-#: src/ui/prefs.ui:3613
+#: src/ui/prefs.ui:3323
 msgid "Bottom"
 msgstr "Baixo"
 
-#: src/ui/prefs.ui:3653
+#: src/ui/prefs.ui:3363
 msgid "Clock Menu Position"
 msgstr "Posição do Menu do Relógio"
 
-#: src/ui/prefs.ui:3665
+#: src/ui/prefs.ui:3375
 msgid "Center"
 msgstr "Centro"
 
-#: src/ui/prefs.ui:3666
+#: src/ui/prefs.ui:3376
 msgid "Right"
 msgstr "Direita"
 
-#: src/ui/prefs.ui:3667
+#: src/ui/prefs.ui:3377
 msgid "Left"
 msgstr "Deixou"
 
-#: src/ui/prefs.ui:3707
+#: src/ui/prefs.ui:3417
 msgid "Clock Menu Position Offset"
 msgstr "Ajuste da Posição do Menu do Relógio"
 
-#: src/ui/prefs.ui:3768
+#: src/ui/prefs.ui:3478
 msgid "Workspace Switcher Size"
 msgstr "Tamanho do Seletor de Área de Trabalho"
 
-#: src/ui/prefs.ui:3780 src/ui/prefs.ui:3921
+#: src/ui/prefs.ui:3490 src/ui/prefs.ui:3631
 msgid "Default"
 msgstr "Padrão"
 
-#: src/ui/prefs.ui:3850
+#: src/ui/prefs.ui:3560
 msgid "Animation"
 msgstr "Animação"
 
-#: src/ui/prefs.ui:3862
+#: src/ui/prefs.ui:3572
 msgid "No Animation"
 msgstr "Sem Animação"
 
-#: src/ui/prefs.ui:3863
+#: src/ui/prefs.ui:3573
 msgid "Default Speed"
 msgstr "Velocidade Padrão"
 
-#: src/ui/prefs.ui:3864
+#: src/ui/prefs.ui:3574
 msgid "Fastest"
 msgstr "O mais rápido"
 
-#: src/ui/prefs.ui:3865
+#: src/ui/prefs.ui:3575
 msgid "Faster"
 msgstr "Mais rápido"
 
-#: src/ui/prefs.ui:3866
+#: src/ui/prefs.ui:3576
 msgid "Fast"
 msgstr "Rápido"
 
-#: src/ui/prefs.ui:3867
+#: src/ui/prefs.ui:3577
 msgid "Slow"
 msgstr "Lento"
 
-#: src/ui/prefs.ui:3868
+#: src/ui/prefs.ui:3578
 msgid "Slower"
 msgstr "Mais devagar"
 
-#: src/ui/prefs.ui:3869
+#: src/ui/prefs.ui:3579
 msgid "Slowest"
 msgstr "Mais lento"
 
-#: src/ui/prefs.ui:3909
+#: src/ui/prefs.ui:3619
 msgid "Dash Icon Size"
 msgstr "tamanho do ícone do traço"
 
-#: src/ui/prefs.ui:3970
+#: src/ui/prefs.ui:3680
 msgid "Notification Banner Position"
 msgstr "Posição do banner de notificação"
 
-#: src/ui/prefs.ui:3981
+#: src/ui/prefs.ui:3691
 msgid "Notification popup position when notifications show up on the screen"
 msgstr ""
 "Posição do pop-up de notificação quando as notificações aparecem na tela"
 
-#: src/ui/prefs.ui:4002
+#: src/ui/prefs.ui:3712
 msgid "Top Start"
 msgstr "Início principal"
 
-#: src/ui/prefs.ui:4003
+#: src/ui/prefs.ui:3713
 msgid "Top Center"
 msgstr "Centro Superior"
 
-#: src/ui/prefs.ui:4004
+#: src/ui/prefs.ui:3714
 msgid "Top End"
 msgstr "Extremidade superior"
