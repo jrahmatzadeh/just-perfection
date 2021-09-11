@@ -2,66 +2,54 @@
 
 ![Just Perfection GNOME Shell Extension Logo](data/imgs/logo.svg)
 
-## What Can It Do?
+## Features
 
 This extension allows you to do the following:
 
-### Visibility
-
-- OSD
-- Search
-- Dash
-- Workspace Switcher
-- Workspace Popup
-- Panel
-- Background Menu
-- Activities button
-- App Menu
-- Clock Menu
-- Keyboard Layout
-- Accessibility Menu
-- System Menu (Aggregate Menu)
-- Applications Button
-- Workspaces in app grid (Only GNOME Shell 40 and 41)
-- Window Picker Caption
-- Window Picker Close Button
-
-### Icons Visibility
-
-- App Menu Icon
-- Power Icon
-- Panel Notification icon
-- Window Picker Icon (Only GNOME Shell 40 and 41)
-- Panel Arrow (Only GNOME Shell 3.36 and 3.38)
-- Activities Button Icon
-
-### Behavior
-
-- Disable Type to Search
-- Hot Corner (Only GNOME Shell 3.36, 3.38 and 40)
-- App Gesture (Only GNOME Shell 3.36 and 3.38)
-- Window Demands Attention Focus
-- Always Show Workspace Switcher on Dynamic Workspaces (Only GNOME Shell 40 and 41)
-- Startup status (Only GNOME Shell 40 and 41)
-- Workspace Wraparound
-
-### Customize
-
-- Panel Height
-- Panel Position
-- Panel Button Padding Size
-- Panel Indicator Padding Size
-- Panel Round Corner Size
-- Workspace Background Corner Size in Overview (Only GNOME Shell 40 and 41)
-- Clock Menu Position
-- Workspace Switcher Size (Only GNOME Shell 40 and 41)
-- Animation Speed or Disable it
-- Dash Icon Size
-- Notification Banner Position
-
-### Override
-
-- GNOME shell theme (You don't need to have user-theme-extension)
+| Feature                                              | 3.36 | 3.38 | 40  | 41  |
+| ---------------------------------------------------- | ---- | ---- | --- | --- |
+| Accessibility Menu Visibility                        | Yes  | Yes  | Yes | Yes |
+| Activities Button Icon Visibility                    | Yes  | Yes  | Yes | Yes |
+| Activities button Visibility                         | Yes  | Yes  | Yes | Yes |
+| Always Show Workspace Switcher on Dynamic Workspaces | No   | No   | Yes | Yes |
+| Animation Speed or Disable it                        | Yes  | Yes  | Yes | Yes |
+| App Gesture                                          | Yes  | Yes  | No  | No  |
+| Applications Button Visibility                       | Yes  | Yes  | Yes | Yes |
+| App Menu Icon Visibility                             | Yes  | Yes  | Yes | Yes |
+| App Menu Visibility                                  | Yes  | Yes  | Yes | Yes |
+| Background Menu Visibility                           | Yes  | Yes  | Yes | Yes |
+| Clock Menu Position                                  | Yes  | Yes  | Yes | Yes |
+| Clock Menu Visibility                                | Yes  | Yes  | Yes | Yes |
+| Dash Icon Size                                       | Yes  | Yes  | Yes | Yes |
+| Dash Visibility                                      | Yes  | Yes  | Yes | Yes |
+| Disable Type to Search                               | Yes  | Yes  | Yes | Yes |
+| GNOME Shell Theme Override                           | Yes  | Yes  | Yes | Yes |
+| Hot Corner                                           | Yes  | Yes  | Yes | No  |
+| Keyboard Layout Visibility                           | Yes  | Yes  | Yes | Yes |
+| Notification Banner Position                         | Yes  | Yes  | Yes | Yes |
+| OSD Visibility                                       | Yes  | Yes  | Yes | Yes |
+| Panel Arrow Visibility                               | Yes  | Yes  | No  | No  |
+| Panel Button Padding Size                            | Yes  | Yes  | Yes | Yes |
+| Panel Height                                         | Yes  | Yes  | Yes | Yes |
+| Panel Indicator Padding Size                         | Yes  | Yes  | Yes | Yes |
+| Panel Notification icon Visibility                   | Yes  | Yes  | Yes | Yes |
+| Panel Position                                       | Yes  | Yes  | Yes | Yes |
+| Panel Round Corner Size                              | Yes  | Yes  | Yes | Yes |
+| Panel Visibility                                     | Yes  | Yes  | Yes | Yes |
+| Power Icon Visibility                                | Yes  | Yes  | Yes | Yes |
+| Search Visibility                                    | Yes  | Yes  | Yes | Yes |
+| Startup status                                       | No   | No   | Yes | Yes |
+| System Menu (Aggregate Menu) Visibility              | Yes  | Yes  | Yes | Yes |
+| Window Demands Attention Focus                       | Yes  | Yes  | Yes | Yes |
+| Window Picker Caption Visibility                     | Yes  | Yes  | Yes | Yes |
+| Window Picker Close Button Visibility                | Yes  | Yes  | Yes | Yes |
+| Window Picker Icon                                   | No   | No   | Yes | Yes |
+| Workspace Background Corner Size in Overview         | No   | No   | Yes | Yes |
+| Workspace Popup Visibility                           | Yes  | Yes  | Yes | Yes |
+| Workspaces in app grid Visibility                    | No   | No   | Yes | Yes |
+| Workspace Switcher Size                              | No   | No   | Yes | Yes |
+| Workspace Switcher Visibility                        | Yes  | Yes  | Yes | Yes |
+| Workspace Wraparound                                 | Yes  | Yes  | Yes | Yes |
 
 ## GNOME Shell extensions Website
 
