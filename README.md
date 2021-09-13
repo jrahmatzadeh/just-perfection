@@ -38,7 +38,7 @@ This extension allows you to do the following:
 | Panel Visibility                                     | Yes  | Yes  | Yes | Yes |
 | Power Icon Visibility                                | Yes  | Yes  | Yes | Yes |
 | Search Visibility                                    | Yes  | Yes  | Yes | Yes |
-| Startup status                                       | No   | No   | Yes | Yes |
+| Startup Status                                       | No   | No   | Yes | Yes |
 | System Menu (Aggregate Menu) Visibility              | Yes  | Yes  | Yes | Yes |
 | Window Demands Attention Focus                       | Yes  | Yes  | Yes | Yes |
 | Window Picker Caption Visibility                     | Yes  | Yes  | Yes | Yes |
@@ -51,12 +51,6 @@ This extension allows you to do the following:
 | Workspace Switcher Visibility                        | Yes  | Yes  | Yes | Yes |
 | Workspace Wraparound                                 | Yes  | Yes  | Yes | Yes |
 
-## GNOME Shell extensions Website
-
-This extension is also available on [GNOME Shell extensions website](https://extensions.gnome.org/extension/3843/just-perfection/).
-
-[![Just Perfection on extensions.gnome.org](data/imgs/ego.svg)](https://extensions.gnome.org/extension/3843/just-perfection/)
-
 ## GNOME Shell Support
 
 | GNOME Shell Version | End Of Support |
@@ -66,7 +60,15 @@ This extension is also available on [GNOME Shell extensions website](https://ext
 | 40                  | September 2021 |
 | 41                  | TBA            |
 
-## Install Manually
+## Install
+
+### GNOME Extensions Website
+
+This extension is available on [GNOME Extensions Website](https://extensions.gnome.org/extension/3843/just-perfection/).
+
+[![Just Perfection on extensions.gnome.org](data/imgs/ego.svg)](https://extensions.gnome.org/extension/3843/just-perfection/)
+
+### Manually
 
 You can download this repo and install it manually with the build script:
 
