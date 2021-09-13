@@ -17,11 +17,8 @@
 
 .just-perfection .window-caption
 {
-    spacing: 25px;
     color: #ffffff;
     background-color: #004AC7;
-    border-radius: 9px;
-    padding: 4px 12px;
     font-size: small;
     font-weight: normal;
 }
