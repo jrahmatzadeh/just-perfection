@@ -18,6 +18,8 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - First swipe up in desktop startup status.
 - Window picker caption border on disable.
 - Maximized window gap on Wayland.
+- Window picker disapearing on wayland with shell theme override.
+- Search entry fade in animation for type to search when search entry is disabled.
 - Galician translation by [@frandieguez](https://gitlab.gnome.org/frandieguez).
 - Spanish translation by [@DiegoIvanME](https://gitlab.gnome.org/DiegoIvanME).
 

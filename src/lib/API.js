@@ -533,7 +533,14 @@ var API = class
         
         this.UIStyleClassRemove(classname);
         
-        this._main.overview.searchEntry.show();
+        let searchEntry = this._main.overview.searchEntry; 
+        
+        searchEntry.show();
+        searchEntry.ease({
+            opacity: 255,
+            mode: this._clutter.AnimationMode.EASE,
+            duration: 250,
+        });
         
         if (!fake) {
             this._searchEntryVisible = true;
@@ -552,7 +559,10 @@ var API = class
     {
         this.UIstyleClassAdd(this._getAPIClassname('no-search'));
         
-        this._main.overview.searchEntry.hide();
+        let searchEntry = this._main.overview.searchEntry;
+        
+        searchEntry.opacity = 0;
+        searchEntry.hide();
         
         if (!fake) {
             this._searchEntryVisible = false;
