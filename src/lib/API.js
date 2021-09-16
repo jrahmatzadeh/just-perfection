@@ -533,13 +533,25 @@ var API = class
         
         this.UIStyleClassRemove(classname);
         
-        let searchEntry = this._main.overview.searchEntry; 
+        let searchEntry = this._main.overview.searchEntry;
+        let searchEntryParent = searchEntry.get_parent();
         
-        searchEntry.show();
-        searchEntry.ease({
+        searchEntry.opacity = 0;
+        
+        searchEntryParent.height = 0;
+        searchEntryParent.opacity = 0;
+        searchEntryParent.ease({
+            height: searchEntry.height,
             opacity: 255,
             mode: this._clutter.AnimationMode.EASE,
-            duration: 250,
+            duration: 150,
+            onComplete: () => {
+                searchEntry.ease({
+                    opacity: 255,
+                    mode: this._clutter.AnimationMode.EASE,
+                    duration: 200,
+                });
+            },
         });
         
         if (!fake) {
@@ -560,9 +572,19 @@ var API = class
         this.UIstyleClassAdd(this._getAPIClassname('no-search'));
         
         let searchEntry = this._main.overview.searchEntry;
+        let searchEntryParent = searchEntry.get_parent();
         
-        searchEntry.opacity = 0;
-        searchEntry.hide();
+        searchEntryParent.ease({
+            height: 0,
+            opacity: 0,
+            mode: this._clutter.AnimationMode.EASE,
+            duration: 150,
+        });
+        
+        searchEntry.ease({
+            opacity: 0,
+            duration: 150,
+        });
         
         if (!fake) {
             this._searchEntryVisible = false;
