@@ -6,50 +6,50 @@
 
 This extension allows you to do the following:
 
-| Feature                                              | 3.36 | 3.38 | 40  | 41  |
-| ---------------------------------------------------- | ---- | ---- | --- | --- |
-| Accessibility Menu Visibility                        | Yes  | Yes  | Yes | Yes |
-| Activities Button Icon Visibility                    | Yes  | Yes  | Yes | Yes |
-| Activities button Visibility                         | Yes  | Yes  | Yes | Yes |
-| Always Show Workspace Switcher on Dynamic Workspaces | No   | No   | Yes | Yes |
-| Animation Speed or Disable it                        | Yes  | Yes  | Yes | Yes |
-| App Gesture                                          | Yes  | Yes  | No  | No  |
-| Applications Button Visibility                       | Yes  | Yes  | Yes | Yes |
-| App Menu Icon Visibility                             | Yes  | Yes  | Yes | Yes |
-| App Menu Visibility                                  | Yes  | Yes  | Yes | Yes |
-| Background Menu Visibility                           | Yes  | Yes  | Yes | Yes |
-| Clock Menu Position                                  | Yes  | Yes  | Yes | Yes |
-| Clock Menu Visibility                                | Yes  | Yes  | Yes | Yes |
-| Dash Icon Size                                       | Yes  | Yes  | Yes | Yes |
-| Dash Visibility                                      | Yes  | Yes  | Yes | Yes |
-| Disable Type to Search                               | Yes  | Yes  | Yes | Yes |
-| GNOME Shell Theme Override                           | Yes  | Yes  | Yes | Yes |
-| Hot Corner                                           | Yes  | Yes  | Yes | No  |
-| Keyboard Layout Visibility                           | Yes  | Yes  | Yes | Yes |
-| Notification Banner Position                         | Yes  | Yes  | Yes | Yes |
-| OSD Visibility                                       | Yes  | Yes  | Yes | Yes |
-| Panel Arrow Visibility                               | Yes  | Yes  | No  | No  |
-| Panel Button Padding Size                            | Yes  | Yes  | Yes | Yes |
-| Panel Height                                         | Yes  | Yes  | Yes | Yes |
-| Panel Indicator Padding Size                         | Yes  | Yes  | Yes | Yes |
-| Panel Notification icon Visibility                   | Yes  | Yes  | Yes | Yes |
-| Panel Position                                       | Yes  | Yes  | Yes | Yes |
-| Panel Round Corner Size                              | Yes  | Yes  | Yes | Yes |
-| Panel Visibility                                     | Yes  | Yes  | Yes | Yes |
-| Power Icon Visibility                                | Yes  | Yes  | Yes | Yes |
-| Search Visibility                                    | Yes  | Yes  | Yes | Yes |
-| Startup Status                                       | No   | No   | Yes | Yes |
-| System Menu (Aggregate Menu) Visibility              | Yes  | Yes  | Yes | Yes |
-| Window Demands Attention Focus                       | Yes  | Yes  | Yes | Yes |
-| Window Picker Caption Visibility                     | Yes  | Yes  | Yes | Yes |
-| Window Picker Close Button Visibility                | Yes  | Yes  | Yes | Yes |
-| Window Picker Icon                                   | No   | No   | Yes | Yes |
-| Workspace Background Corner Size in Overview         | No   | No   | Yes | Yes |
-| Workspace Popup Visibility                           | Yes  | Yes  | Yes | Yes |
-| Workspaces in app grid Visibility                    | No   | No   | Yes | Yes |
-| Workspace Switcher Size                              | No   | No   | Yes | Yes |
-| Workspace Switcher Visibility                        | Yes  | Yes  | Yes | Yes |
-| Workspace Wraparound                                 | Yes  | Yes  | Yes | Yes |
+| Feature                                              | 3.36               | 3.38               | 40                 | 41                 |
+| ---------------------------------------------------- | ------------------ | ------------------ | ------------------ | ------------------ |
+| Accessibility Menu Visibility                        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Activities Button Icon Visibility                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Activities button Visibility                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Always Show Workspace Switcher on Dynamic Workspaces | :x:                | :x:                | :white_check_mark: | :white_check_mark: |
+| Animation Speed or Disable it                        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| App Gesture                                          | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
+| Applications Button Visibility                       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| App Menu Icon Visibility                             | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| App Menu Visibility                                  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Background Menu Visibility                           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Clock Menu Position                                  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Clock Menu Visibility                                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Dash Icon Size                                       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Dash Visibility                                      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Disable Type to Search                               | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| GNOME Shell Theme Override                           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Hot Corner                                           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
+| Keyboard Layout Visibility                           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Notification Banner Position                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| OSD Visibility                                       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Panel Arrow Visibility                               | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
+| Panel Button Padding Size                            | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Panel Height                                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Panel Indicator Padding Size                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Panel Notification icon Visibility                   | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Panel Position                                       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Panel Round Corner Size                              | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Panel Visibility                                     | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Power Icon Visibility                                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Search Visibility                                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Startup Status                                       | :x:                | :x:                | :white_check_mark: | :white_check_mark: |
+| System Menu (Aggregate Menu) Visibility              | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Window Demands Attention Focus                       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Window Picker Caption Visibility                     | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Window Picker Close Button Visibility                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Window Picker Icon                                   | :x:                | :x:                | :white_check_mark: | :white_check_mark: |
+| Workspace Background Corner Size in Overview         | :x:                | :x:                | :white_check_mark: | :white_check_mark: |
+| Workspace Popup Visibility                           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Workspaces in app grid Visibility                    | :x:                | :x:                | :white_check_mark: | :white_check_mark: |
+| Workspace Switcher Size                              | :x:                | :x:                | :white_check_mark: | :white_check_mark: |
+| Workspace Switcher Visibility                        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Workspace Wraparound                                 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 ## GNOME Shell Support
 
