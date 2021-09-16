@@ -549,7 +549,7 @@ var API = class
                 searchEntry.ease({
                     opacity: 255,
                     mode: this._clutter.AnimationMode.EASE,
-                    duration: 200,
+                    duration: 150,
                 });
             },
         });
