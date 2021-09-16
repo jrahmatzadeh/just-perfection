@@ -536,10 +536,6 @@ var API = class
         let searchEntry = this._main.overview.searchEntry;
         let searchEntryParent = searchEntry.get_parent();
         
-        searchEntry.opacity = 0;
-        
-        searchEntryParent.height = 0;
-        searchEntryParent.opacity = 0;
         searchEntryParent.ease({
             height: searchEntry.height,
             opacity: 255,
