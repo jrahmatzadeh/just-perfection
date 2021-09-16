@@ -584,7 +584,7 @@ var API = class
         searchEntry.ease({
             opacity: 0,
             mode: this._clutter.AnimationMode.EASE,
-            duration: 150,
+            duration: 70,
         });
         
         if (!fake) {
