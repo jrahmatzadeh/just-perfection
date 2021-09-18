@@ -22,7 +22,7 @@
 
 - All image files should be inside *bin* folder.
 
-- SVG and Image files should be released under CC0 license.
+- SVG and Image files should be released under GPLv3 license.
 
 - Overriding GNOME Shell theme is accepted and your style should be applied when the parent has *just-perfection* class in it (or starts with *just-perfection-*). But avoid styling top panel.
 
