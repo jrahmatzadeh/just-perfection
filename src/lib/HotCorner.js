@@ -6,7 +6,6 @@
  * @license    GNU General Public License v3.0
  */
 
-
 /**
  * Add HotCorner to the GNOME Shell 
  */
@@ -15,7 +14,7 @@ var HotCorner = class
     /**
      * Class Constructor
      *
-     * @param object dependecies
+     * @param {Object} dependecies
      *   'API' reference to lib::API
      *   'St' reference to gi::St
      */
@@ -31,7 +30,7 @@ var HotCorner = class
     /**
      * get overview button
      *
-     * @return St.Bin
+     * @returns {St.Bin}
      */
     _createOveriewButton()
     {
@@ -65,7 +64,7 @@ var HotCorner = class
     /**
      * add overview button to GNOME Shell Stage
      *
-     * @return void
+     * @returns {void}
      */
     addOveriewButton()
     {
@@ -82,7 +81,7 @@ var HotCorner = class
     /**
      * remove overview button from GNOME Shell Stage
      *
-     * @return void
+     * @returns {void}
      */
     removeOveriewButton()
     {

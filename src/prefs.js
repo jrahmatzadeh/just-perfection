@@ -1,3 +1,11 @@
+/**
+ * Prefs Dialog
+ * 
+ * @author     Javad Rahmatzadeh <j.rahmatzadeh@gmail.com>
+ * @copyright  2020-2021
+ * @license    GNU General Public License v3.0
+ */
+ 
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
@@ -8,12 +16,22 @@ const Config = imports.misc.config;
 const shellVersion = parseFloat(Config.PACKAGE_VERSION);
 
 
-function init ()
+/**
+ * prefs initiation
+ *
+ * @returns {void}
+ */
+function init()
 {
     ExtensionUtils.initTranslations();
 }
 
-function buildPrefsWidget ()
+/**
+ * prefs widget
+ *
+ * @returns {Gtk.Widget}
+ */
+function buildPrefsWidget()
 {
     let gettextDomain = Me.metadata['gettext-domain'];
     let UIFilePath = Me.dir.get_child("ui").get_path() + '/prefs.ui';

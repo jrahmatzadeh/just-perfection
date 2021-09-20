@@ -6,7 +6,6 @@
  * @license    GNU General Public License v3.0
  */
 
-
 /**
  * Apply settings to the GNOME Shell 
  */
@@ -15,11 +14,11 @@ var Manager = class
     /**
      * Class Constructor
      *
-     * @param object dependecies
+     * @param {Object} dependecies
      *   'API' instance of lib::API
      *   'HotCorner' instance of lib::HotCorner
      *   'Settings' instance of Gio::Settings
-     * @param float shellVersion
+     * @param {number} shellVersion float in major.minor format
      */
     constructor(dependecies, shellVersion)
     {
@@ -33,7 +32,7 @@ var Manager = class
     /**
      * register all signals for settings
      *
-     * @return void
+     * @returns {void}
      */
     registerSettingsSignals()
     {
@@ -222,7 +221,7 @@ var Manager = class
     /**
      * apply everything to the GNOME Shell
      *
-     * @return void
+     * @returns {void}
      */
     applyAll()
     {
@@ -271,9 +270,9 @@ var Manager = class
     }
     
     /**
-     * revert everything that is done by this class to the GNOME Shell
+     * revert everything done by this class to the GNOME Shell
      *
-     * @return void
+     * @returns {void}
      */
     revertAll()
     {
@@ -324,9 +323,9 @@ var Manager = class
     /**
      * apply panel settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyPanel(forceOriginal)
     {
@@ -343,9 +342,9 @@ var Manager = class
     /**
      * apply search settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applySearch(forceOriginal)
     {
@@ -359,9 +358,9 @@ var Manager = class
     /**
      * apply type to search settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyTypeToSearch(forceOriginal)
     {
@@ -375,9 +374,9 @@ var Manager = class
     /**
      * apply dash settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyDash(forceOriginal)
     {
@@ -391,9 +390,9 @@ var Manager = class
     /**
      * apply osd settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyOSD(forceOriginal)
     {
@@ -407,9 +406,9 @@ var Manager = class
     /**
      * apply workspace popup settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyWorkspacePopup(forceOriginal)
     {
@@ -423,9 +422,9 @@ var Manager = class
     /**
      * apply workspace settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyWorkspace(forceOriginal)
     {
@@ -439,9 +438,9 @@ var Manager = class
     /**
      * apply background menu settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyBackgroundMenu(forceOriginal)
     {
@@ -455,9 +454,9 @@ var Manager = class
     /**
      * apply gesture settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyGesture(forceOriginal)
     {
@@ -471,9 +470,9 @@ var Manager = class
     /**
      * apply hot corner settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyHotCorner(forceOriginal)
     {
@@ -502,9 +501,9 @@ var Manager = class
     /**
      * apply theme settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyTheme(forceOriginal)
     {
@@ -525,9 +524,9 @@ var Manager = class
     /**
      * apply activites button settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyActivitiesButton(forceOriginal)
     {
@@ -541,9 +540,9 @@ var Manager = class
     /**
      * apply app menu settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyAppMenu(forceOriginal)
     {
@@ -557,9 +556,9 @@ var Manager = class
     /**
      * apply clock menu (aka date menu) settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyClockMenu(forceOriginal)
     {
@@ -573,9 +572,9 @@ var Manager = class
     /**
      * apply keyboard layout settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyKeyboardLayout(forceOriginal)
     {
@@ -589,9 +588,9 @@ var Manager = class
     /**
      * apply accessibility menu settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyAccessibilityMenu(forceOriginal)
     {
@@ -605,9 +604,9 @@ var Manager = class
     /**
      * apply aggregate menu settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyAggregateMenu(forceOriginal)
     {
@@ -621,9 +620,9 @@ var Manager = class
     /**
      * apply panel corner size settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyPanelCornerSize(forceOriginal)
     {
@@ -639,9 +638,9 @@ var Manager = class
     /**
      * apply window picker icon settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyWindowPickerIcon(forceOriginal)
     {
@@ -655,9 +654,9 @@ var Manager = class
     /**
      * apply workspace switcher size settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyWorkspaceSwitcherSize(forceOriginal)
     {
@@ -673,9 +672,9 @@ var Manager = class
     /**
      * apply power icon settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyPowerIcon(forceOriginal)
     {
@@ -689,9 +688,9 @@ var Manager = class
     /**
      * apply top panel position settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyTopPanelPosition(forceOriginal)
     {
@@ -705,9 +704,9 @@ var Manager = class
     /**
      * apply panel arrow settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyPanelArrow(forceOriginal)
     {
@@ -721,9 +720,9 @@ var Manager = class
     /**
      * apply panel notification icon settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyPanelNotificationIcon(forceOriginal)
     {
@@ -737,9 +736,9 @@ var Manager = class
     /**
      * apply app menu icon settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyAppMenuIcon(forceOriginal)
     {
@@ -753,9 +752,9 @@ var Manager = class
     /**
      * apply clock menu position settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyClockMenuPosition(forceOriginal)
     {
@@ -771,9 +770,9 @@ var Manager = class
     /**
      * apply show apps button settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyShowAppsButton(forceOriginal)
     {
@@ -787,9 +786,9 @@ var Manager = class
     /**
      * apply animation settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyAnimation(forceOriginal)
     {
@@ -825,9 +824,9 @@ var Manager = class
     /**
      * apply show apps button settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyActivitiesButtonIcon(forceOriginal)
     {
@@ -845,9 +844,9 @@ var Manager = class
     /**
      * apply window demands attention focus settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyWindowDemandsAttentionFocus(forceOriginal)
     {
@@ -861,9 +860,9 @@ var Manager = class
     /**
      * apply dash icon size settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyDashIconSize(forceOriginal)
     {
@@ -879,9 +878,9 @@ var Manager = class
     /**
      * apply startup status settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyStartupStatus(forceOriginal)
     {
@@ -897,9 +896,9 @@ var Manager = class
     /**
      * apply workspaces in app grid status settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyWorkspacesInAppGrid(forceOriginal)
     {
@@ -915,9 +914,9 @@ var Manager = class
     /**
      * apply notification banner position settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyNotificationBannerPosition(forceOriginal)
     {
@@ -933,9 +932,9 @@ var Manager = class
     /**
      * apply workspace switcher should show settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyWorkspaceSwitcherShouldShow(forceOriginal)
     {
@@ -951,9 +950,9 @@ var Manager = class
     /**
      * apply panel size settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyPanelSize(forceOriginal)
     {
@@ -969,9 +968,9 @@ var Manager = class
     /**
      * apply panel button padding size settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyPanelButtonPaddingSize(forceOriginal)
     {
@@ -987,9 +986,9 @@ var Manager = class
     /**
      * apply panel indicator padding size settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyPanelIndicatorPaddingSize(forceOriginal)
     {
@@ -1005,9 +1004,9 @@ var Manager = class
     /**
      * apply window preview caption settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyWindowPreviewCaption(forceOriginal)
     {
@@ -1023,9 +1022,9 @@ var Manager = class
     /**
      * apply window preview close button settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyWindowPreviewCloseButton(forceOriginal)
     {
@@ -1041,9 +1040,9 @@ var Manager = class
     /**
      * apply workspace background corner size settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyWorkspaceBackgroundCornerSize(forceOriginal)
     {
@@ -1059,9 +1058,9 @@ var Manager = class
     /**
      * apply workspace wrap around settings
      *
-     * @param bool forceOriginal
+     * @param {boolean} forceOriginal force original shell setting
      *
-     * @return void
+     * @returns {void}
      */
     _applyWorkspaceWrapAround(forceOriginal)
     {

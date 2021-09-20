@@ -1,3 +1,11 @@
+/**
+ * Extension
+ * 
+ * @author     Javad Rahmatzadeh <j.rahmatzadeh@gmail.com>
+ * @copyright  2020-2021
+ * @license    GNU General Public License v3.0
+ */
+ 
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
@@ -24,8 +32,20 @@ const LookingGlass = imports.ui.lookingGlass;
 let manager;
 let api;
 
-function init() {}
+/**
+ * initiate extension
+ *
+ * @returns {void}
+ */
+function init()
+{
+}
 
+/**
+ * enable extension
+ *
+ * @returns {void}
+ */
 function enable()
 {
     // <3.36 can crash by enabling the extension
@@ -74,6 +94,11 @@ function enable()
     manager.applyAll();
 }
 
+/**
+ * disable extension
+ *
+ * @returns {void}
+ */
 function disable()
 {
     (manager) && manager.revertAll();

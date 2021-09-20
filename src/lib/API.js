@@ -44,7 +44,7 @@ var API = class
     /**
      * Class Constructor
      *
-     * @param object dependecies
+     * @param {Object} dependecies
      *   'Main' reference to ui::main
      *   'BackgroundMenu' reference to ui::backgroundMenu
      *   'OverviewControls' reference to ui::overviewControls
@@ -64,7 +64,7 @@ var API = class
      *   'Clutter' reference to Clutter
      *   'Util' reference to misc::util
      *   'Meta' reference to Meta
-     * @param float shellVersion
+     * @param {number} shellVersion float in major.minor format
      */
     constructor(dependecies, shellVersion)
     {
@@ -91,12 +91,18 @@ var API = class
         this._shellVersion = shellVersion;
         this._originals = {};
         
-        // bool
-        // true means seach entry is visible, false otherwise
+        /**
+         * whether seach entry is visible
+         *
+         * @member {boolean}
+         */
         this._searchEntryVisible = true;
         
-        // float
-        // last workspace switcher size
+        /**
+         * last workspace switcher size in float
+         *
+         * @member {number}
+         */
         this._workspaceSwitcherLastSize
         = (this._workspaceThumbnail && this._shellVersion >= 40)
         ? this._workspaceThumbnail.MAX_THUMBNAIL_SCALE
@@ -106,7 +112,7 @@ var API = class
     /**
      * prepare everything needed for API
      *
-     * @return void
+     * @returns {void}
      */
     open()
     {
@@ -116,7 +122,7 @@ var API = class
     /**
      * remove everything from GNOME Shell been added by this class 
      *
-     * @return void
+     * @returns {void}
      */
     close()
     {
@@ -127,7 +133,7 @@ var API = class
     /**
      * get the css classname for API
      *
-     * @param string type possible types
+     * @param {string} type possible types
      *  shell-version
      *  no-search
      *  no-workspace
@@ -151,7 +157,7 @@ var API = class
      *  workspace-background-radius-size
      *  no-window-close
      *
-     * @return string
+     * @returns {string}
      */
     _getAPIClassname(type)
     {
@@ -195,9 +201,9 @@ var API = class
     }
     
     /**
-     * allow shell theme to do whatever it likes to panel corner
+     * allow shell theme use its own panel corner
      *
-     * @return void
+     * @returns {void}
      */
     panelCornerSetDefault()
     {
@@ -211,9 +217,9 @@ var API = class
     /**
      * change panel corner size
      *
-     * @param int size 0 to 60
+     * @param {number} size 0 to 60
      *
-     * @return void
+     * @returns {void}
      */
     panelCornerSetSize(size)
     {
@@ -231,7 +237,7 @@ var API = class
     /**
      * set panel size to default
      *
-     * @return void
+     * @returns {void}
      */
     panelSetDefaultSize()
     {
@@ -245,11 +251,11 @@ var API = class
     /**
      * change panel size
      *
-     * @param int size 0 to 100
-     * @param fake bool true means it shouldn't change the last size,
+     * @param {number} size 0 to 100
+     * @param {boolean} fake true means it shouldn't change the last size,
      *   false otherwise
      *
-     * @return void
+     * @returns {void}
      */
     panelSetSize(size, fake)
     {
@@ -276,7 +282,7 @@ var API = class
     /**
      * get the last size of the panel
      *
-     * @return int
+     * @returns {number}
      */
     panelGetSize()
     {
@@ -294,7 +300,7 @@ var API = class
     /**
      * show panel
      *
-     * @return void
+     * @returns {void}
      */
     panelShow()
     {
@@ -322,7 +328,7 @@ var API = class
     /**
      * hide panel
      *
-     * @return void
+     * @returns {void}
      */
     panelHide()
     {
@@ -366,7 +372,7 @@ var API = class
     /**
      * check whether panel is visible
      *
-     * @return bool
+     * @returns {boolean}
      */
     isPanelVisible()
     {
@@ -376,7 +382,7 @@ var API = class
     /**
      * check whether dash is visible
      *
-     * @return bool
+     * @returns {boolean}
      */
     isDashVisible()
     {
@@ -386,7 +392,7 @@ var API = class
     /**
      * show dash
      *
-     * @return void
+     * @returns {void}
      */
     dashShow()
     {
@@ -410,7 +416,7 @@ var API = class
     /**
      * hide dash
      *
-     * @return void
+     * @returns {void}
      */
     dashHide()
     {
@@ -432,7 +438,7 @@ var API = class
     /**
      * enable gesture
      *
-     * @return void
+     * @returns {void}
      */
     gestureEnable()
     {
@@ -442,7 +448,7 @@ var API = class
     /**
      * disable gesture
      *
-     * @return void
+     * @returns {void}
      */
     gestureDisable()
     {
@@ -452,9 +458,9 @@ var API = class
     /**
      * add class name to the UI group
      *
-     * @param string classname
+     * @param {string} classname class name
      *
-     * @return void
+     * @returns {void}
      */
     UIstyleClassAdd(classname)
     {
@@ -464,9 +470,9 @@ var API = class
     /**
      * remove class name from UI group
      *
-     * @param string classname
+     * @param {string} classname class name
      *
-     * @return void
+     * @returns {void}
      */
     UIStyleClassRemove(classname)
     {
@@ -476,9 +482,9 @@ var API = class
     /**
      * check whether UI group has class name
      *
-     * @param string classname
+     * @param {string} classname class name
      *
-     * @return bool
+     * @returns {boolean}
      */
     UIStyleClassContain(classname)
     {
@@ -488,7 +494,7 @@ var API = class
     /**
      * enable background menu
      *
-     * @return void
+     * @returns {void}
      */
     backgroundMenuEnable()
     {
@@ -503,7 +509,7 @@ var API = class
     /**
      * disable background menu
      *
-     * @return void
+     * @returns {void}
      */
     backgroundMenuDisable()
     {
@@ -518,10 +524,10 @@ var API = class
     /**
      * show search
      *
-     * @param bool fake true means it just needs to do the job but don't need to
-     *  change the search visiblity status
+     * @param {boolean} fake true means it just needs to do the job but
+     *   don't need to change the search visiblity status
      *
-     * @return void
+     * @returns {void}
      */
     searchEntryShow(fake)
     {
@@ -558,10 +564,10 @@ var API = class
     /**
      * hide search
      *
-     * @param bool fake true means it just needs to do the job but don't need to
-     *  change the search visiblity status
+     * @param {boolean} fake true means it just needs to do the job
+     *   but don't need to change the search visiblity status
      *
-     * @return void
+     * @returns {void}
      */
     searchEntryHide(fake)
     {
@@ -591,7 +597,7 @@ var API = class
     /**
      * enable start search
      *
-     * @return void
+     * @returns {void}
      */
     startSearchEnable()
     {
@@ -615,7 +621,7 @@ var API = class
     /**
      * disable start search
      *
-     * @return void
+     * @returns {void}
      */
     startSearchDisable()
     {
@@ -642,9 +648,10 @@ var API = class
      * add search signals that needs to be show search entry when the
      * search entry is hidden
      *
-     * @param bool add true means add the signal, false means remove the signal
+     * @param {boolean} add true means add the signal, false means remove 
+     *   the signal
      *
-     * @return void
+     * @returns {void}
      */
     _startSearchSignal(add)
     {
@@ -695,7 +702,7 @@ var API = class
     /**
      * enable OSD
      *
-     * @return void
+     * @returns {void}
      */
     OSDEnable()
     {
@@ -709,7 +716,7 @@ var API = class
     /**
      * disable OSD
      *
-     * @return void
+     * @returns {void}
      */
     OSDDisable()
     {
@@ -724,7 +731,7 @@ var API = class
     /**
      * enable workspace popup
      *
-     * @return void
+     * @returns {void}
      */
     workspacePopupEnable()
     {
@@ -739,7 +746,7 @@ var API = class
     /**
      * disable workspace popup
      *
-     * @return void
+     * @returns {void}
      */
     workspacePopupDisable()
     {
@@ -756,7 +763,7 @@ var API = class
     /**
      * show workspace switcher
      *
-     * @return void
+     * @returns {void}
      */
     workspaceSwitcherShow()
     {
@@ -788,7 +795,7 @@ var API = class
     /**
      * hide workspace switcher
      *
-     * @return void
+     * @returns {void}
      */
     workspaceSwitcherHide()
     {
@@ -825,7 +832,7 @@ var API = class
     /**
      * check whether workspace switcher is visible
      *
-     * @return bool
+     * @returns {boolean}
      */
     isWorkspaceSwitcherVisible()
     {
@@ -835,7 +842,7 @@ var API = class
     /**
      * set workspace switcher to its default size
      *
-     * @return void
+     * @returns {void}
      */
     workspaceSwitcherSetDefaultSize()
     {
@@ -864,11 +871,11 @@ var API = class
     /**
      * set workspace switcher size
      *
-     * @param float size
-     * @param bool fake true means don't change this._workspaceSwitcherLastSize,
-     *   false otherwise
+     * @param {number} size in float
+     * @param {boolean} fake true means don't change 
+     *   this._workspaceSwitcherLastSize, false otherwise
      *
-     * @return void
+     * @returns {void}
      */
     workspaceSwitcherSetSize(size, fake)
     {
@@ -919,7 +926,7 @@ var API = class
     /**
      * toggle overview visiblity
      *
-     * @return void
+     * @returns {void}
      */
     overviewToggle()
     {
@@ -929,9 +936,9 @@ var API = class
     /**
      * add element to stage
      *
-     * @param object element
+     * @param {St.Widget} element widget 
      *
-     * @return void
+     * @returns {void}
      */
     chromeAdd(element)
     {
@@ -945,9 +952,9 @@ var API = class
     /**
      * remove element from stage
      *
-     * @param object element
+     * @param {St.Widget} element widget 
      *
-     * @return void
+     * @returns {void}
      */
     chromeRemove(element)
     {
@@ -957,7 +964,7 @@ var API = class
     /**
      * show activities button
      *
-     * @return void
+     * @returns {void}
      */
     activitiesButtonShow()
     {
@@ -969,7 +976,7 @@ var API = class
     /**
      * hide activities button
      *
-     * @return void
+     * @returns {void}
      */
     activitiesButtonHide()
     {
@@ -979,7 +986,7 @@ var API = class
     /**
      * show app menu
      *
-     * @return void
+     * @returns {void}
      */
     appMenuShow()
     {
@@ -991,7 +998,7 @@ var API = class
     /**
      * hide app menu
      *
-     * @return void
+     * @returns {void}
      */
     appMenuHide()
     {
@@ -1001,7 +1008,7 @@ var API = class
     /**
      * show date menu
      *
-     * @return void
+     * @returns {void}
      */
     dateMenuShow()
     {
@@ -1013,7 +1020,7 @@ var API = class
     /**
      * hide date menu
      *
-     * @return void
+     * @returns {void}
      */
     dateMenuHide()
     {
@@ -1023,7 +1030,7 @@ var API = class
     /**
      * show keyboard layout
      *
-     * @return void
+     * @returns {void}
      */
     keyboardLayoutShow()
     {
@@ -1033,7 +1040,7 @@ var API = class
     /**
      * hide keyboard layout
      *
-     * @return void
+     * @returns {void}
      */
     keyboardLayoutHide()
     {
@@ -1043,7 +1050,7 @@ var API = class
     /**
      * show accessibility menu
      *
-     * @return void
+     * @returns {void}
      */
     accessibilityMenuShow()
     {
@@ -1053,7 +1060,7 @@ var API = class
     /**
      * hide accessibility menu
      *
-     * @return void
+     * @returns {void}
      */
     accessibilityMenuHide()
     {
@@ -1063,7 +1070,7 @@ var API = class
     /**
      * show aggregate menu
      *
-     * @return void
+     * @returns {void}
      */
     aggregateMenuShow()
     {
@@ -1073,7 +1080,7 @@ var API = class
     /**
      * hide aggregate menu
      *
-     * @return void
+     * @returns {void}
      */
     aggregateMenuHide()
     {
@@ -1083,7 +1090,7 @@ var API = class
     /**
      * set 'enableHotCorners' original value
      *
-     * @return void
+     * @returns {void}
      */
     _setEnableHotCornersOriginal()
     {
@@ -1098,7 +1105,7 @@ var API = class
     /**
      * enable hot corners
      *
-     * @return void
+     * @returns {void}
      */
     hotCornersEnable()
     {
@@ -1109,7 +1116,7 @@ var API = class
     /**
      * disable hot corners
      *
-     * @return void
+     * @returns {void}
      */
     hotCornersDisable()
     {
@@ -1120,7 +1127,7 @@ var API = class
     /**
      * set the hot corners to default value
      *
-     * @return void
+     * @returns {void}
      */
     hotCornersDefault()
     {
@@ -1133,7 +1140,7 @@ var API = class
     /**
      * check whether lock dialog is currently showing
      *
-     * @return bool;
+     * @returns {boolean}
      */
     isLocked()
     {
@@ -1147,7 +1154,7 @@ var API = class
     /**
      * enable window picker icon
      *
-     * @return void
+     * @returns {void}
      */
     windowPickerIconEnable()
     {
@@ -1161,7 +1168,7 @@ var API = class
     /**
      * disable window picker icon
      *
-     * @return void
+     * @returns {void}
      */
     windowPickerIconDisable()
     {
@@ -1175,7 +1182,7 @@ var API = class
     /**
      * show power icon
      *
-     * @return void
+     * @returns {void}
      */
     powerIconShow()
     {
@@ -1185,7 +1192,7 @@ var API = class
     /**
      * hide power icon
      *
-     * @return void
+     * @returns {void}
      */
     powerIconHide()
     {
@@ -1195,7 +1202,7 @@ var API = class
     /**
      * get primary monitor information
      *
-     * @return false when monitor does not exist | object
+     * @returns {false|Object} false when monitor does not exist | object
      *  x: int
      *  y: int
      *  width: int
@@ -1222,7 +1229,7 @@ var API = class
     /**
      * get panel position
      *
-     * @return int see PANEL_POSITION
+     * @returns {number} see PANEL_POSITION
      */
     panelGetPosition()
     {
@@ -1236,9 +1243,9 @@ var API = class
     /**
      * move panel position
      *
-     * @param int position see PANEL_POSITION
+     * @param {number} position see PANEL_POSITION
      *
-     * @return void
+     * @returns {void}
      */
     panelSetPosition(position)
     {
@@ -1284,7 +1291,7 @@ var API = class
     /**
      * fix looking glass position
      *
-     * @return void
+     * @returns {void}
      */
     _fixLookingGlassPosition()
     {
@@ -1325,7 +1332,7 @@ var API = class
     /**
      * enable panel arrow
      *
-     * @return void
+     * @returns {void}
      */
     panelArrowEnable()
     {
@@ -1339,7 +1346,7 @@ var API = class
     /**
      * disable panel arrow
      *
-     * @return void
+     * @returns {void}
      */
     panelArrowDisable()
     {
@@ -1353,7 +1360,7 @@ var API = class
     /**
      * disable panel notifiction icon
      *
-     * @return void
+     * @returns {void}
      */
     panelNotificationIconEnable()
     {
@@ -1363,7 +1370,7 @@ var API = class
     /**
      * disable panel notifiction icon
      *
-     * @return void
+     * @returns {void}
      */
     panelNotificationIconDisable()
     {
@@ -1373,7 +1380,7 @@ var API = class
     /**
      * disable app menu icon
      *
-     * @return void
+     * @returns {void}
      */
     appMenuIconEnable()
     {
@@ -1383,7 +1390,7 @@ var API = class
     /**
      * disable app menu icon
      *
-     * @return void
+     * @returns {void}
      */
     appMenuIconDisable()
     {
@@ -1393,10 +1400,10 @@ var API = class
     /**
      * set the clock menu position
      *
-     * @param int pos see PANEL_BOX_POSITION
-     * @param int offset starts from 0 
+     * @param {number} pos see PANEL_BOX_POSITION
+     * @param {number} offset starts from 0 
      *
-     * @return void
+     * @returns {void}
      */
     clockMenuPositionSet(pos, offset)
     {
@@ -1440,7 +1447,7 @@ var API = class
     /**
      * enable show apps button
      *
-     * @return void
+     * @returns {void}
      */
     showAppsButtonEnable()
     {
@@ -1455,7 +1462,7 @@ var API = class
     /**
      * disable show apps button
      *
-     * @return void
+     * @returns {void}
      */
     showAppsButtonDisable()
     {
@@ -1470,7 +1477,7 @@ var API = class
     /**
      * set animation speed as default
      *
-     * @return void
+     * @returns {void}
      */
     animationSpeedSetDefault()
     {
@@ -1484,9 +1491,9 @@ var API = class
     /**
      * change animation speed
      *
-     * @param float factor bigger number means slower
+     * @param {number} factor in float. bigger number means slower
      *
-     * @return void
+     * @returns {void}
      */
     animationSpeedSet(factor)
     {
@@ -1501,7 +1508,7 @@ var API = class
     /**
      * set the enable animation as default
      *
-     * @return void
+     * @returns {void}
      */
     enablenAimationsSetDefault()
     {
@@ -1517,9 +1524,9 @@ var API = class
     /**
      * set the enable animation status
      *
-     * @param bool status
+     * @param {boolean} status true to enable, false otherwise
      *
-     * @return void
+     * @returns {void}
      */
     enablenAimationsSet(status)
     {
@@ -1534,12 +1541,12 @@ var API = class
     /**
      * add icon to the activities button
      *
-     * @param int type see ICON_TYPE
-     * @param string icon file URI or icon name 
-     * @param bool monochrome
-     * @param bool holdLabel
+     * @param {number} type see ICON_TYPE
+     * @param {string} icon file URI or icon name 
+     * @param {boolean} monochrome to show icon in monochrome
+     * @param {boolean} holdLabel whether label should be available
      *
-     * @return void
+     * @returns {void}
      */
     ativitiesButtonAddIcon(type, icon, monochrome, holdLabel)
     {
@@ -1617,7 +1624,7 @@ var API = class
     /**
      * remove icon from activities button if it has been added before
      *
-     * @return void
+     * @returns {void}
      */
     ativitiesButtonRemoveIcon()
     {
@@ -1650,7 +1657,7 @@ var API = class
     /**
      * enable focus when window demands attention happens
      *
-     * @return void
+     * @returns {void}
      */
     windowDemandsAttentionFocusEnable()
     {
@@ -1675,7 +1682,7 @@ var API = class
     /**
      * disable focus when window demands attention happens
      *
-     * @return void
+     * @returns {void}
      */
     windowDemandsAttentionFocusDisable()
     {
@@ -1695,9 +1702,9 @@ var API = class
     /**
      * set startup status
      *
-     * @param int status see SHELL_STATUS for available status
+     * @param {number} status see SHELL_STATUS for available status
      *
-     * @return void
+     * @returns {void}
      */
     startupStatusSet(status)
     {
@@ -1741,7 +1748,7 @@ var API = class
     /**
      * set startup status to default
      *
-     * @return void
+     * @returns {void}
      */
     startupStatusSetDefault()
     {
@@ -1757,7 +1764,7 @@ var API = class
     /**
      * set dash icon size to default
      *
-     * @return void
+     * @returns {void}
      */
     dashIconSizeSetDefault()
     {
@@ -1771,10 +1778,10 @@ var API = class
     /**
      * set dash icon size
      *
-     * @param int size in pixels
+     * @param {number} size in pixels
      *   see DASH_ICON_SIZES for available sizes
      *
-     * @return void
+     * @returns {void}
      */
     dashIconSizeSet(size)
     {
@@ -1792,7 +1799,7 @@ var API = class
     /**
      * disable workspaces in app grid
      *
-     * @return void
+     * @returns {void}
      */
     workspacesInAppGridDisable()
     {
@@ -1824,7 +1831,7 @@ var API = class
     /**
      * enable workspaces in app grid
      *
-     * @return void
+     * @returns {void}
      */
     workspacesInAppGridEnable()
     {
@@ -1841,9 +1848,10 @@ var API = class
     /**
      * change notification banner position
      *
-     * @param int pos see NOTIFICATION_BANNER_POSITION for available positions
+     * @param {number} pos
+     *   see NOTIFICATION_BANNER_POSITION for available positions
      *
-     * @return void
+     * @returns {void}
      */
     notificationBannerPositionSet(pos)
     {
@@ -1872,7 +1880,7 @@ var API = class
     /**
      * set notification banner position to default position
      *
-     * @return void
+     * @returns {void}
      */
     notificationBannerPositionSetDefault()
     {
@@ -1887,7 +1895,7 @@ var API = class
     /**
      * always show the workspace switcher
      *
-     * @return void
+     * @returns {void}
      */
     workspaceSwitcherShouldShowSetAlways()
     {
@@ -1913,7 +1921,7 @@ var API = class
     /**
      * set the always show workspace switcher status to default
      *
-     * @return void
+     * @returns {void}
      */
     workspaceSwitcherShouldShowSetDefault()
     {
@@ -1928,7 +1936,7 @@ var API = class
     /**
      * emit panel style changed
      *
-     * @return void
+     * @returns {void}
      */
     _panelEmitStyleChanged()
     {
@@ -1943,7 +1951,7 @@ var API = class
     /**
      * set panel button hpadding to default
      *
-     * @return void
+     * @returns {void}
      */
     panelButtonHpaddingSetDefault()
     {
@@ -1961,9 +1969,9 @@ var API = class
     /**
      * set panel button hpadding size
      *
-     * @param int size in pixels (0 - 60)
+     * @param {number} size in pixels (0 - 60)
      *
-     * @return void
+     * @returns {void}
      */
     panelButtonHpaddingSizeSet(size)
     {
@@ -1983,7 +1991,7 @@ var API = class
     /**
      * set panel indicator padding to default
      *
-     * @return void
+     * @returns {void}
      */
     panelIndicatorPaddingSetDefault()
     {
@@ -2001,9 +2009,9 @@ var API = class
     /**
      * set panel indicator padding size
      *
-     * @param int size in pixels (0 - 60)
+     * @param {number} size in pixels (0 - 60)
      *
-     * @return void
+     * @returns {void}
      */
     panelIndicatorPaddingSizeSet(size)
     {
@@ -2023,7 +2031,7 @@ var API = class
     /**
      * get window preview prototype
      *
-     * @return object
+     * @returns {Object}
      */
     _windowPreviewGetPrototype()
     {
@@ -2037,7 +2045,7 @@ var API = class
     /**
      * enable window preview caption
      *
-     * @return void
+     * @returns {void}
      */
     windowPreviewCaptionEnable()
     {
@@ -2054,7 +2062,7 @@ var API = class
     /**
      * disable window preview caption
      *
-     * @return void
+     * @returns {void}
      */
     windowPreviewCaptionDisable()
     {
@@ -2074,7 +2082,7 @@ var API = class
     /**
      * set workspace background border radius to default size
      *
-     * @return void
+     * @returns {void}
      */
     workspaceBackgroundRadiusSetDefault()
     {
@@ -2097,9 +2105,9 @@ var API = class
     /**
      * set workspace background border radius size
      *
-     * @param int size in pixels (0 - 60)
+     * @param {number} size in pixels (0 - 60)
      *
-     * @return void
+     * @returns {void}
      */
     workspaceBackgroundRadiusSet(size)
     {
@@ -2141,7 +2149,7 @@ var API = class
     /**
      * enable workspace wraparound
      *
-     * @return void
+     * @returns {void}
      */
     workspaceWraparoundEnable()
     {
@@ -2175,7 +2183,7 @@ var API = class
     /**
      * disable workspace wraparound
      *
-     * @return void
+     * @returns {void}
      */
     workspaceWraparoundDisable()
     {
@@ -2190,7 +2198,7 @@ var API = class
     /**
      * enable window preview close button
      *
-     * @return void
+     * @returns {void}
      */
     windowPreviewCloseButtonEnable()
     {
@@ -2200,7 +2208,7 @@ var API = class
     /**
      * disable window preview close button
      *
-     * @return void
+     * @returns {void}
      */
     windowPreviewCloseButtonDisable()
     {
