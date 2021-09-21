@@ -1,11 +1,11 @@
 /**
  * Extension
- * 
+ *
  * @author     Javad Rahmatzadeh <j.rahmatzadeh@gmail.com>
  * @copyright  2020-2021
  * @license    GNU General Public License v3.0
  */
- 
+
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
@@ -55,41 +55,41 @@ function enable()
         return;
     }
 
-    let interfaceSettings = new Gio.Settings({schema_id: 'org.gnome.desktop.interface'});
-    
+    let InterfaceSettings = new Gio.Settings({schema_id: 'org.gnome.desktop.interface'});
+
     api = new API.API({
-        'Main': Main,
-        'BackgroundMenu': BackgroundMenu,
-        'OverviewControls': OverviewControls,
-        'WorkspaceSwitcherPopup': WorkspaceSwitcherPopup,
-        'InterfaceSettings': interfaceSettings,
-        'SearchController': SearchController,
-        'ViewSelector': ViewSelector,
-        'WorkspaceThumbnail': WorkspaceThumbnail,
-        'WorkspacesView': WorkspacesView,
-        'Panel': Panel,
-        'WindowPreview' : WindowPreview,
-        'Workspace' : Workspace,
-        'LookingGlass' : LookingGlass,
-        'St': St,
-        'Gio': Gio,
-        'GLib': GLib,
-        'Clutter': Clutter,
-        'Util' : Util,
-        'Meta' : Meta,
+        Main,
+        BackgroundMenu,
+        OverviewControls,
+        WorkspaceSwitcherPopup,
+        InterfaceSettings,
+        SearchController,
+        ViewSelector,
+        WorkspaceThumbnail,
+        WorkspacesView,
+        Panel,
+        WindowPreview,
+        Workspace,
+        LookingGlass,
+        St,
+        Gio,
+        GLib,
+        Clutter,
+        Util,
+        Meta,
     }, shellVersion);
-    
+
     api.open();
-    
+
     let settings = ExtensionUtils.getSettings();
-    let hotCorner = new HotCorner.HotCorner({ 'API': api, 'St': St });
-    
+    let hotCorner = new HotCorner.HotCorner({API: api, St});
+
     manager = new Manager.Manager({
-        'API': api,
-        'Settings': settings,
-        'HotCorner': hotCorner,
+        API: api,
+        Settings: settings,
+        HotCorner: hotCorner,
     }, shellVersion);
-        
+
     manager.registerSettingsSignals();
     manager.applyAll();
 }
@@ -101,8 +101,13 @@ function enable()
  */
 function disable()
 {
-    (manager) && manager.revertAll();
-    manager = null;
-    (api) && api.close();
+    if (manager) {
+        manager.revertAll();
+        manager = null;
+    }
+
+    if (api) {
+        api.close();
+    }
 }
 

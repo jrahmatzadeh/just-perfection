@@ -1,13 +1,13 @@
 /**
  * Manager Library
- * 
+ *
  * @author     Javad Rahmatzadeh <j.rahmatzadeh@gmail.com>
  * @copyright  2020-2021
  * @license    GNU General Public License v3.0
  */
 
 /**
- * Apply settings to the GNOME Shell 
+ * Apply settings to the GNOME Shell
  */
 var Manager = class
 {
@@ -25,10 +25,10 @@ var Manager = class
         this._api = dependecies['API'] || null;
         this._hotCorner = dependecies['HotCorner'] || null;
         this._settings = dependecies['Settings'] || null;
-        
+
         this._shellVersion = shellVersion;
     }
-    
+
     /**
      * register all signals for settings
      *
@@ -39,185 +39,184 @@ var Manager = class
         this._settings.connect('changed::panel', () => {
             this._applyPanel(false);
         });
-        
+
         this._settings.connect('changed::search', () => {
             this._applySearch(false);
         });
-        
+
         this._settings.connect('changed::dash', () => {
             this._applyDash(false);
         });
-        
+
         this._settings.connect('changed::osd', () => {
             this._applyOSD(false);
         });
-        
+
         this._settings.connect('changed::workspace-popup', () => {
             this._applyWorkspacePopup(false);
         });
-        
+
         this._settings.connect('changed::workspace', () => {
             this._applyWorkspace(false);
         });
-        
+
         this._settings.connect('changed::background-menu', () => {
             this._applyBackgroundMenu(false);
         });
-        
+
         this._settings.connect('changed::gesture', () => {
             this._applyGesture(false);
         });
-        
+
         this._settings.connect('changed::hot-corner', () => {
             this._applyHotCorner(false);
         });
-        
+
         this._settings.connect('changed::theme', () => {
             this._applyTheme(false);
         });
-        
+
         this._settings.connect('changed::activities-button', () => {
             this._applyActivitiesButton(false);
         });
-        
+
         this._settings.connect('changed::app-menu', () => {
             this._applyAppMenu(false);
         });
-        
+
         this._settings.connect('changed::clock-menu', () => {
             this._applyClockMenu(false);
         });
-        
+
         this._settings.connect('changed::keyboard-layout', () => {
             this._applyKeyboardLayout(false);
         });
-        
+
         this._settings.connect('changed::accessibility-menu', () => {
             this._applyAccessibilityMenu(false);
         });
-        
+
         this._settings.connect('changed::aggregate-menu', () => {
             this._applyAggregateMenu(false);
         });
-        
+
         this._settings.connect('changed::panel-corner-size', () => {
             this._applyPanelCornerSize(false);
         });
-        
+
         this._settings.connect('changed::window-picker-icon', () => {
             this._applyWindowPickerIcon(false);
         });
-        
+
         this._settings.connect('changed::type-to-search', () => {
             this._applyTypeToSearch(false);
         });
-        
+
         this._settings.connect('changed::workspace-switcher-size', () => {
             this._applyWorkspaceSwitcherSize(false);
         });
-        
+
         this._settings.connect('changed::power-icon', () => {
             this._applyPowerIcon(false);
         });
-        
+
         this._settings.connect('changed::top-panel-position', () => {
             this._applyTopPanelPosition(false);
         });
-        
+
         this._settings.connect('changed::panel-arrow', () => {
             this._applyPanelArrow(false);
         });
-        
+
         this._settings.connect('changed::panel-notification-icon', () => {
             this._applyPanelNotificationIcon(false);
         });
-        
+
         this._settings.connect('changed::app-menu-icon', () => {
             this._applyAppMenuIcon(false);
         });
-        
+
         this._settings.connect('changed::clock-menu-position', () => {
             this._applyClockMenuPosition(false);
         });
-        
+
         this._settings.connect('changed::clock-menu-position-offset', () => {
             this._applyClockMenuPosition(false);
         });
-        
+
         this._settings.connect('changed::show-apps-button', () => {
             this._applyShowAppsButton(false);
         });
-        
+
         this._settings.connect('changed::animation', () => {
             this._applyAnimation(false);
         });
-        
+
         this._settings.connect('changed::activities-button-icon-path', () => {
             this._applyActivitiesButtonIcon(false);
         });
-        
+
         this._settings.connect('changed::activities-button-icon-monochrome', () => {
             this._applyActivitiesButtonIcon(false);
         });
-        
+
         this._settings.connect('changed::activities-button-label', () => {
             this._applyActivitiesButtonIcon(false);
         });
-        
+
         this._settings.connect('changed::window-demands-attention-focus', () => {
             this._applyWindowDemandsAttentionFocus(false);
         });
-        
+
         this._settings.connect('changed::dash-icon-size', () => {
             this._applyDashIconSize(false);
         });
-        
+
         this._settings.connect('changed::startup-status', () => {
             this._applyStartupStatus(false);
         });
-        
+
         this._settings.connect('changed::workspaces-in-app-grid', () => {
             this._applyWorkspacesInAppGrid(false);
         });
-        
+
         this._settings.connect('changed::notification-banner-position', () => {
             this._applyNotificationBannerPosition(false);
         });
-        
+
         this._settings.connect('changed::workspace-switcher-should-show', () => {
             this._applyWorkspaceSwitcherShouldShow(false);
         });
-        
+
         this._settings.connect('changed::panel-size', () => {
             this._applyPanelSize(false);
         });
-        
+
         this._settings.connect('changed::panel-button-padding-size', () => {
             this._applyPanelButtonPaddingSize(false);
         });
-        
+
         this._settings.connect('changed::panel-indicator-padding-size', () => {
             this._applyPanelIndicatorPaddingSize(false);
         });
-        
+
         this._settings.connect('changed::window-preview-caption', () => {
             this._applyWindowPreviewCaption(false);
         });
-        
+
         this._settings.connect('changed::window-preview-close-button', () => {
             this._applyWindowPreviewCloseButton(false);
         });
-        
+
         this._settings.connect('changed::workspace-background-corner-size', () => {
             this._applyWorkspaceBackgroundCornerSize(false);
         });
-        
+
         this._settings.connect('changed::workspace-wrap-around', () => {
             this._applyWorkspaceWrapAround(false);
         });
     }
-    
-    
+
     /**
      * apply everything to the GNOME Shell
      *
@@ -268,7 +267,7 @@ var Manager = class
         this._applyWorkspaceBackgroundCornerSize(false);
         this._applyWorkspaceWrapAround(false);
     }
-    
+
     /**
      * revert everything done by this class to the GNOME Shell
      *
@@ -319,7 +318,7 @@ var Manager = class
         this._applyWorkspaceBackgroundCornerSize(true);
         this._applyWorkspaceWrapAround(true);
     }
-    
+
     /**
      * apply panel settings
      *
@@ -338,7 +337,7 @@ var Manager = class
         // apply hot corner on each call of this metod
         this._applyHotCorner(false);
     }
-    
+
     /**
      * apply search settings
      *
@@ -354,7 +353,7 @@ var Manager = class
             this._api.searchEntryHide(false);
         }
     }
-    
+
     /**
      * apply type to search settings
      *
@@ -370,7 +369,7 @@ var Manager = class
             this._api.startSearchDisable();
         }
     }
-    
+
     /**
      * apply dash settings
      *
@@ -402,7 +401,7 @@ var Manager = class
             this._api.OSDDisable();
         }
     }
-    
+
     /**
      * apply workspace popup settings
      *
@@ -418,7 +417,7 @@ var Manager = class
             this._api.workspacePopupDisable();
         }
     }
-    
+
     /**
      * apply workspace settings
      *
@@ -434,7 +433,7 @@ var Manager = class
             this._api.workspaceSwitcherHide();
         }
     }
-    
+
     /**
      * apply background menu settings
      *
@@ -450,7 +449,7 @@ var Manager = class
             this._api.backgroundMenuDisable();
         }
     }
-    
+
     /**
      * apply gesture settings
      *
@@ -466,7 +465,7 @@ var Manager = class
             this._api.gestureDisable();
         }
     }
-    
+
     /**
      * apply hot corner settings
      *
@@ -479,7 +478,7 @@ var Manager = class
         if (this._shellVersion >= 41) {
             return;
         }
-    
+
         if (forceOriginal) {
             this._api.hotCornersDefault();
             this._hotCorner.removeOveriewButton();
@@ -497,7 +496,7 @@ var Manager = class
             }
         }
     }
-    
+
     /**
      * apply theme settings
      *
@@ -509,7 +508,7 @@ var Manager = class
     {
         let className = 'just-perfection';
         let fallbackClassName = 'just-perfection-gnome3';
-        
+
         if (forceOriginal || !this._settings.get_boolean('theme')) {
             this._api.UIStyleClassRemove(className);
             this._api.UIStyleClassRemove(fallbackClassName);
@@ -520,7 +519,7 @@ var Manager = class
             }
         }
     }
-    
+
     /**
      * apply activites button settings
      *
@@ -536,7 +535,7 @@ var Manager = class
             this._api.activitiesButtonHide();
         }
     }
-    
+
     /**
      * apply app menu settings
      *
@@ -552,7 +551,7 @@ var Manager = class
             this._api.appMenuHide();
         }
     }
-    
+
     /**
      * apply clock menu (aka date menu) settings
      *
@@ -568,7 +567,7 @@ var Manager = class
             this._api.dateMenuHide();
         }
     }
-    
+
     /**
      * apply keyboard layout settings
      *
@@ -584,7 +583,7 @@ var Manager = class
             this._api.keyboardLayoutHide();
         }
     }
-    
+
     /**
      * apply accessibility menu settings
      *
@@ -600,7 +599,7 @@ var Manager = class
             this._api.accessibilityMenuHide();
         }
     }
-    
+
     /**
      * apply aggregate menu settings
      *
@@ -616,7 +615,7 @@ var Manager = class
             this._api.aggregateMenuHide();
         }
     }
-    
+
     /**
      * apply panel corner size settings
      *
@@ -627,7 +626,7 @@ var Manager = class
     _applyPanelCornerSize(forceOriginal)
     {
         let size = this._settings.get_int('panel-corner-size');
-        
+
         if (forceOriginal || size === 0) {
             this._api.panelCornerSetDefault();
         } else {
@@ -650,7 +649,7 @@ var Manager = class
             this._api.windowPickerIconDisable();
         }
     }
-    
+
     /**
      * apply workspace switcher size settings
      *
@@ -661,14 +660,14 @@ var Manager = class
     _applyWorkspaceSwitcherSize(forceOriginal)
     {
         let size = this._settings.get_int('workspace-switcher-size');
-        
+
         if (forceOriginal || size === 0) {
             this._api.workspaceSwitcherSetDefaultSize();
         } else {
             this._api.workspaceSwitcherSetSize(size / 100, false);
         }
     }
-    
+
     /**
      * apply power icon settings
      *
@@ -684,7 +683,7 @@ var Manager = class
             this._api.powerIconHide();
         }
     }
-    
+
     /**
      * apply top panel position settings
      *
@@ -700,7 +699,7 @@ var Manager = class
             this._api.panelSetPosition(1);
         }
     }
-    
+
     /**
      * apply panel arrow settings
      *
@@ -716,7 +715,7 @@ var Manager = class
             this._api.panelArrowDisable();
         }
     }
-    
+
     /**
      * apply panel notification icon settings
      *
@@ -732,7 +731,7 @@ var Manager = class
             this._api.panelNotificationIconDisable();
         }
     }
-    
+
     /**
      * apply app menu icon settings
      *
@@ -766,7 +765,7 @@ var Manager = class
             this._api.clockMenuPositionSet(pos, offset);
         }
     }
-    
+
     /**
      * apply show apps button settings
      *
@@ -782,7 +781,7 @@ var Manager = class
             this._api.showAppsButtonDisable();
         }
     }
-    
+
     /**
      * apply animation settings
      *
@@ -793,7 +792,7 @@ var Manager = class
     _applyAnimation(forceOriginal)
     {
         let animation = this._settings.get_int('animation');
-        
+
         let factors = [
             0.4, // fastest
             0.6, // faster
@@ -802,7 +801,7 @@ var Manager = class
             1.6, // slower
             2.8, // slowest
         ];
-        
+
         if (forceOriginal) {
             this._api.animationSpeedSetDefault();
             this._api.enablenAimationsSetDefault();
@@ -820,7 +819,7 @@ var Manager = class
             this._api.enablenAimationsSet(true);
         }
     }
-    
+
     /**
      * apply show apps button settings
      *
@@ -833,14 +832,14 @@ var Manager = class
         let iconPath = this._settings.get_string('activities-button-icon-path');
         let monochrome = this._settings.get_boolean('activities-button-icon-monochrome');
         let label = this._settings.get_boolean('activities-button-label');
-        
+
         if (forceOriginal) {
             this._api.ativitiesButtonRemoveIcon();
         } else {
             this._api.ativitiesButtonAddIcon(1, iconPath, monochrome, label);
         }
     }
-    
+
     /**
      * apply window demands attention focus settings
      *
@@ -850,13 +849,15 @@ var Manager = class
      */
     _applyWindowDemandsAttentionFocus(forceOriginal)
     {
-        if (forceOriginal || !this._settings.get_boolean('window-demands-attention-focus')) {
+        let focus = this._settings.get_boolean('window-demands-attention-focus');
+
+        if (forceOriginal || !focus) {
             this._api.windowDemandsAttentionFocusDisable();
         } else {
             this._api.windowDemandsAttentionFocusEnable();
         }
     }
-    
+
     /**
      * apply dash icon size settings
      *
@@ -867,14 +868,14 @@ var Manager = class
     _applyDashIconSize(forceOriginal)
     {
         let size = this._settings.get_int('dash-icon-size');
-        
+
         if (forceOriginal || size === 0) {
             this._api.dashIconSizeSetDefault();
         } else {
             this._api.dashIconSizeSet(size);
         }
     }
-    
+
     /**
      * apply startup status settings
      *
@@ -885,14 +886,14 @@ var Manager = class
     _applyStartupStatus(forceOriginal)
     {
         let status = this._settings.get_int('startup-status');
-        
+
         if (forceOriginal) {
             this._api.startupStatusSetDefault();
         } else {
             this._api.startupStatusSet(status);
         }
     }
-    
+
     /**
      * apply workspaces in app grid status settings
      *
@@ -903,14 +904,14 @@ var Manager = class
     _applyWorkspacesInAppGrid(forceOriginal)
     {
         let status = this._settings.get_boolean('workspaces-in-app-grid');
-        
+
         if (forceOriginal || status) {
             this._api.workspacesInAppGridEnable();
         } else {
             this._api.workspacesInAppGridDisable();
         }
     }
-    
+
     /**
      * apply notification banner position settings
      *
@@ -921,14 +922,14 @@ var Manager = class
     _applyNotificationBannerPosition(forceOriginal)
     {
         let pos = this._settings.get_int('notification-banner-position');
-        
+
         if (forceOriginal) {
             this._api.notificationBannerPositionSetDefault();
         } else {
             this._api.notificationBannerPositionSet(pos);
         }
     }
-    
+
     /**
      * apply workspace switcher should show settings
      *
@@ -939,14 +940,14 @@ var Manager = class
     _applyWorkspaceSwitcherShouldShow(forceOriginal)
     {
         let shouldShow = this._settings.get_boolean('workspace-switcher-should-show');
-        
+
         if (forceOriginal || !shouldShow) {
             this._api.workspaceSwitcherShouldShowSetDefault();
         } else {
             this._api.workspaceSwitcherShouldShowSetAlways();
         }
     }
-    
+
     /**
      * apply panel size settings
      *
@@ -957,14 +958,14 @@ var Manager = class
     _applyPanelSize(forceOriginal)
     {
         let size = this._settings.get_int('panel-size');
-        
+
         if (forceOriginal || size === 0) {
             this._api.panelSetDefaultSize();
         } else {
             this._api.panelSetSize(size, false);
         }
     }
-    
+
     /**
      * apply panel button padding size settings
      *
@@ -975,14 +976,14 @@ var Manager = class
     _applyPanelButtonPaddingSize(forceOriginal)
     {
         let size = this._settings.get_int('panel-button-padding-size');
-        
+
         if (forceOriginal || size === 0) {
             this._api.panelButtonHpaddingSetDefault();
         } else {
             this._api.panelButtonHpaddingSizeSet(size - 1);
         }
     }
-    
+
     /**
      * apply panel indicator padding size settings
      *
@@ -993,14 +994,14 @@ var Manager = class
     _applyPanelIndicatorPaddingSize(forceOriginal)
     {
         let size = this._settings.get_int('panel-indicator-padding-size');
-        
+
         if (forceOriginal || size === 0) {
             this._api.panelIndicatorPaddingSetDefault();
         } else {
             this._api.panelIndicatorPaddingSizeSet(size - 1);
         }
     }
-    
+
     /**
      * apply window preview caption settings
      *
@@ -1011,14 +1012,14 @@ var Manager = class
     _applyWindowPreviewCaption(forceOriginal)
     {
         let status = this._settings.get_boolean('window-preview-caption');
-        
+
         if (forceOriginal || status) {
             this._api.windowPreviewCaptionEnable();
         } else {
             this._api.windowPreviewCaptionDisable();
         }
     }
-    
+
     /**
      * apply window preview close button settings
      *
@@ -1029,14 +1030,14 @@ var Manager = class
     _applyWindowPreviewCloseButton(forceOriginal)
     {
         let status = this._settings.get_boolean('window-preview-close-button');
-        
+
         if (forceOriginal || status) {
             this._api.windowPreviewCloseButtonEnable();
         } else {
             this._api.windowPreviewCloseButtonDisable();
         }
     }
-    
+
     /**
      * apply workspace background corner size settings
      *
@@ -1047,14 +1048,14 @@ var Manager = class
     _applyWorkspaceBackgroundCornerSize(forceOriginal)
     {
         let size = this._settings.get_int('workspace-background-corner-size');
-        
+
         if (forceOriginal || size === 0) {
             this._api.workspaceBackgroundRadiusSetDefault();
         } else {
             this._api.workspaceBackgroundRadiusSet(size - 1);
         }
     }
-    
+
     /**
      * apply workspace wrap around settings
      *
@@ -1065,7 +1066,7 @@ var Manager = class
     _applyWorkspaceWrapAround(forceOriginal)
     {
         let status = this._settings.get_boolean('workspace-wrap-around');
-        
+
         if (forceOriginal || !status) {
             this._api.workspaceWraparoundDisable();
         } else {
