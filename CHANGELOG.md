@@ -6,6 +6,12 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+## [15.0.0 Magnetized] - 2021-09-22
+
+### Fixed
+
+- unlock recursion error.
+
 ## [14.0.0 Magnetized] - 2021-09-22
 
 ### Changed

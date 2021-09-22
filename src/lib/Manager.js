@@ -77,9 +77,10 @@ var Manager = class
         // @TODO this is a small hack for GNOME Shell 41
         // next version should be able to do this in the API
         // also this._interfaceSettings should get removed from here after that 
-        this._interfaceSettings.connect('changed::enable-hot-corners', () => {
-            let value = this._interfaceSettings.get_boolean('enable-hot-corners');
-            this._settings.set_boolean('hot-corner', value);
+        this._enableHotCornersSignal = this._interfaceSettings.connect(
+            'changed::enable-hot-corners', () => {
+                let value = this._interfaceSettings.get_boolean('enable-hot-corners');
+                this._settings.set_boolean('hot-corner', value);
         });
 
         this._settings.connect('changed::theme', () => {
@@ -327,6 +328,8 @@ var Manager = class
         this._applyWindowPreviewCloseButton(true);
         this._applyWorkspaceBackgroundCornerSize(true);
         this._applyWorkspaceWrapAround(true);
+        
+        this._interfaceSettings.disconnect(this._enableHotCornersSignal);
     }
 
     /**
