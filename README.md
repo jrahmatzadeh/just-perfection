@@ -24,7 +24,7 @@ This extension allows you to do the following:
 | Dash Visibility                                      | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Disable Type to Search                               | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | GNOME Shell Theme Override                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Hot Corner                                           | :black_circle: | :black_circle: | :black_circle: | :white_circle: |
+| Hot Corner                                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Keyboard Layout Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Notification Banner Position                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | OSD Visibility                                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: |

@@ -12,6 +12,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - unlock recursion error.
 
+### Added
+
+- Hot corner support for GNOME Shell 41.
+
 ## [14.0.0 Magnetized] - 2021-09-22
 
 ### Changed
