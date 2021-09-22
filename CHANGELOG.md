@@ -6,6 +6,8 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+## [14.0.0 Magnetized] - 2021-11-22
+
 ### Changed
 
 - Repo folder structure to have better organization.
