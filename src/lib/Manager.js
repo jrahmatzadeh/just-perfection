@@ -18,6 +18,7 @@ var Manager = class
      *   'API' instance of lib::API
      *   'HotCorner' instance of lib::HotCorner
      *   'Settings' instance of Gio::Settings
+     *   'InterfaceSettings' reference to Gio::Settings for 'org.gnome.desktop.interface'
      * @param {number} shellVersion float in major.minor format
      */
     constructor(dependecies, shellVersion)
@@ -25,6 +26,7 @@ var Manager = class
         this._api = dependecies['API'] || null;
         this._hotCorner = dependecies['HotCorner'] || null;
         this._settings = dependecies['Settings'] || null;
+        this._interfaceSettings = dependecies['InterfaceSettings'] || null;
 
         this._shellVersion = shellVersion;
     }
@@ -70,6 +72,14 @@ var Manager = class
 
         this._settings.connect('changed::hot-corner', () => {
             this._applyHotCorner(false);
+        });
+
+        // @TODO this is a small hack for GNOME Shell 41
+        // next version should be able to do this in the API
+        // also this._interfaceSettings should get removed from here after that 
+        this._interfaceSettings.connect('changed::enable-hot-corners', () => {
+            let value = this._interfaceSettings.get_boolean('enable-hot-corners');
+            this._settings.set_boolean('hot-corner', value);
         });
 
         this._settings.connect('changed::theme', () => {
@@ -475,10 +485,6 @@ var Manager = class
      */
     _applyHotCorner(forceOriginal)
     {
-        if (this._shellVersion >= 41) {
-            return;
-        }
-
         if (forceOriginal) {
             this._api.hotCornersDefault();
             this._hotCorner.removeOveriewButton();

@@ -88,6 +88,7 @@ function enable()
         API: api,
         Settings: settings,
         HotCorner: hotCorner,
+        InterfaceSettings,
     }, shellVersion);
 
     manager.registerSettingsSignals();
