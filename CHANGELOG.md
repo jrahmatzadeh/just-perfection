@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Added
+
+- Panel corner size when panel is disabled.
+
 ## [15.0.0 Magnetized] - 2021-09-22
 
 ### Fixed

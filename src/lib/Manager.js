@@ -479,19 +479,19 @@ var Manager = class
     {
         if (forceOriginal) {
             this._api.hotCornersDefault();
-            this._hotCorner.removeOveriewButton();
+            // this._hotCorner.removeOveriewButton();
         } else if (!this._settings.get_boolean('hot-corner')) {
             this._api.hotCornersDisable();
-            this._hotCorner.removeOveriewButton();
+            // this._hotCorner.removeOveriewButton();
         } else {
             this._api.hotCornersEnable();
             // gnome hot corner won't work when the panel is hidden
             // so we use lib::HotCorner instead
-            if (!this._api.isPanelVisible()) {
-                this._hotCorner.addOveriewButton();
-            } else {
-                this._hotCorner.removeOveriewButton();
-            }
+            // if (!this._api.isPanelVisible()) {
+            //     this._hotCorner.addOveriewButton();
+            // } else {
+            //     this._hotCorner.removeOveriewButton();
+            // }
         }
     }
 
@@ -511,9 +511,9 @@ var Manager = class
             this._api.UIStyleClassRemove(className);
             this._api.UIStyleClassRemove(fallbackClassName);
         } else {
-            this._api.UIstyleClassAdd(className);
+            this._api.UIStyleClassAdd(className);
             if (this._shellVersion < 40) {
-                this._api.UIstyleClassAdd(fallbackClassName);
+                this._api.UIStyleClassAdd(fallbackClassName);
             }
         }
     }

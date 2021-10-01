@@ -662,3 +662,15 @@
     spacing: 0;
     box-shadow: none;
 }
+
+/**
+ * This can refresh other styles that is not inculding any standard css styles.
+ * values are not important here. Just do something that can change the look
+ */
+.just-perfection-api-refresh-styles .panel-button,
+.just-perfection-api-refresh-styles .panel-status-indicators-box
+{
+    background-color: gold;
+    color: gold;
+    border-radius: 100px;
+}
