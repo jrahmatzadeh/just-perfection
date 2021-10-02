@@ -1347,10 +1347,6 @@ var API = class
      */
     _fixLookingGlassPosition()
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         let lookingGlassProto = this._lookingGlass.LookingGlass.prototype;
         
         if (!this._originals['lookingGlassResize']) {
