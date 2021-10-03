@@ -16,7 +16,6 @@ var Manager = class
      *
      * @param {Object} dependecies
      *   'API' instance of lib::API
-     *   'HotCorner' instance of lib::HotCorner
      *   'Settings' instance of Gio::Settings
      *   'InterfaceSettings' reference to Gio::Settings for 'org.gnome.desktop.interface'
      * @param {number} shellVersion float in major.minor format
@@ -24,7 +23,6 @@ var Manager = class
     constructor(dependecies, shellVersion)
     {
         this._api = dependecies['API'] || null;
-        this._hotCorner = dependecies['HotCorner'] || null;
         this._settings = dependecies['Settings'] || null;
         this._interfaceSettings = dependecies['InterfaceSettings'] || null;
 
@@ -335,9 +333,6 @@ var Manager = class
         } else {
             this._api.panelHide();
         }
-        // since we use lib::HotCorner on hidden panel we need to
-        // apply hot corner on each call of this metod
-        this._applyHotCorner(false);
     }
 
     /**
@@ -477,21 +472,16 @@ var Manager = class
      */
     _applyHotCorner(forceOriginal)
     {
+        if (this._shellVersion >= 41) {
+            return;
+        }
+    
         if (forceOriginal) {
             this._api.hotCornersDefault();
-            // this._hotCorner.removeOveriewButton();
         } else if (!this._settings.get_boolean('hot-corner')) {
             this._api.hotCornersDisable();
-            // this._hotCorner.removeOveriewButton();
         } else {
             this._api.hotCornersEnable();
-            // gnome hot corner won't work when the panel is hidden
-            // so we use lib::HotCorner instead
-            // if (!this._api.isPanelVisible()) {
-            //     this._hotCorner.addOveriewButton();
-            // } else {
-            //     this._hotCorner.removeOveriewButton();
-            // }
         }
     }
 

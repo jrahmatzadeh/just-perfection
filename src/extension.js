@@ -9,7 +9,7 @@
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
-const {API, Manager, HotCorner} = Me.imports.lib;
+const {API, Manager} = Me.imports.lib;
 const {GLib, Gio, St, Clutter, Meta} = imports.gi;
 
 const Util = imports.misc.util;
@@ -82,12 +82,10 @@ function enable()
     api.open();
 
     let settings = ExtensionUtils.getSettings();
-    let hotCorner = new HotCorner.HotCorner({API: api, St});
 
     manager = new Manager.Manager({
         API: api,
         Settings: settings,
-        HotCorner: hotCorner,
         InterfaceSettings,
     }, shellVersion);
 

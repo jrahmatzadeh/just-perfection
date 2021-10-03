@@ -6,6 +6,11 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Removed
+
+- Hot corner for GNOME Shell 41.
+- Hot corner library for all supported Shell versions.
+
 ### Added
 
 - Panel corner size when panel is disabled.
