@@ -215,6 +215,10 @@ var Manager = class
         this._settings.connect('changed::workspace-wrap-around', () => {
             this._applyWorkspaceWrapAround(false);
         });
+
+        this._settings.connect('changed::ripple-box', () => {
+            this._applyRippleBox(false);
+        });
     }
 
     /**
@@ -266,6 +270,7 @@ var Manager = class
         this._applyWindowPreviewCloseButton(false);
         this._applyWorkspaceBackgroundCornerSize(false);
         this._applyWorkspaceWrapAround(false);
+        this._applyRippleBox(false);
     }
 
     /**
@@ -317,6 +322,7 @@ var Manager = class
         this._applyWindowPreviewCloseButton(true);
         this._applyWorkspaceBackgroundCornerSize(true);
         this._applyWorkspaceWrapAround(true);
+        this._applyRippleBox(true);
     }
 
     /**
@@ -1059,6 +1065,24 @@ var Manager = class
             this._api.workspaceWraparoundDisable();
         } else {
             this._api.workspaceWraparoundEnable();
+        }
+    }
+    
+    /**
+     * apply ripple box settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyRippleBox(forceOriginal)
+    {
+        let status = this._settings.get_boolean('ripple-box');
+
+        if (forceOriginal || status) {
+            this._api.rippleBoxEnable();
+        } else {
+            this._api.rippleBoxDisable();
         }
     }
 }

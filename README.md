@@ -37,6 +37,7 @@ This extension allows you to do the following:
 | Panel Round Corner Size                              | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Panel Visibility                                     | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Power Icon Visibility                                | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Ripple Box                                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Search Visibility                                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Startup Status                                       | :white_circle: | :white_circle: | :black_circle: | :black_circle: |
 | System Menu (Aggregate Menu) Visibility              | :black_circle: | :black_circle: | :black_circle: | :black_circle: |

@@ -157,6 +157,7 @@ var API = class
      *  workspace-background-radius-size
      *  no-window-close
      *  refresh-styles
+     *  no-ripple-box
      *
      * @returns {string}
      */
@@ -188,6 +189,7 @@ var API = class
             'workspace-background-radius-size',
             'no-window-close',
             'refresh-styles',
+            'no-ripple-box',
         ];
 
         if (!possibleTypes.includes(type)) {
@@ -1402,7 +1404,7 @@ var API = class
     }
 
     /**
-     * disable panel notifiction icon
+     * enable panel notifiction icon
      *
      * @returns {void}
      */
@@ -2244,6 +2246,26 @@ var API = class
     windowPreviewCloseButtonDisable()
     {
         this.UIStyleClassAdd(this._getAPIClassname('no-window-close'));
+    }
+
+    /**
+     * enable ripple box
+     *
+     * @returns {void}
+     */
+    rippleBoxEnable()
+    {
+        this.UIStyleClassRemove(this._getAPIClassname('no-ripple-box'));
+    }
+
+    /**
+     * disable ripple box
+     *
+     * @returns {void}
+     */
+    rippleBoxDisable()
+    {
+        this.UIStyleClassAdd(this._getAPIClassname('no-ripple-box'));
     }
 }
 

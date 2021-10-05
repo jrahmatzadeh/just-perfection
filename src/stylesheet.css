@@ -663,6 +663,11 @@
     box-shadow: none;
 }
 
+.just-perfection-api-no-ripple-box .ripple-box
+{
+    background-color: transparent;
+}
+
 /**
  * This can refresh other styles that is not inculding any standard css styles.
  * values are not important here. Just do something that can change the look

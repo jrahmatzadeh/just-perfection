@@ -287,6 +287,12 @@
       <description>Workspace Wrap Around Status</description>
     </key>
     
+    <key type="b" name="ripple-box">
+      <default>true</default>
+      <summary>Ripple Box</summary>
+      <description>Ripple Box Status</description>
+    </key>
+    
   </schema>
   
 </schemalist>

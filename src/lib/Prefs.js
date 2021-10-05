@@ -87,6 +87,7 @@ var Prefs = class
             this._shellVersion >= 40);
         this._setKey('visiblity', 'window-preview-caption', 'GtkSwitch', true);
         this._setKey('visiblity', 'window-preview-close-button', 'GtkSwitch', true);
+        this._setKey('visiblity', 'ripple-box', 'GtkSwitch', true);
 
         // icons
         this._setKey('icons', 'app-menu-icon', 'GtkSwitch', true);
