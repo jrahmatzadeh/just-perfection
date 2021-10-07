@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-10 04:58-0700\n"
+"POT-Creation-Date: 2021-10-07 02:00-0700\n"
 "PO-Revision-Date: 2021-07-02 21:30+0700\n"
 "Last-Translator: VBB <librusekus35790@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -189,67 +189,75 @@ msgstr "Меню рабочего стола"
 msgid "When you right click on desktop background"
 msgstr "Когда вы щелкаете правой кнопкой мыши по фону рабочего стола"
 
-#: src/ui/prefs.ui:1619
+#: src/ui/prefs.ui:1633
+msgid "Ripple Box"
+msgstr "Коробка пульсации"
+
+#: src/ui/prefs.ui:1644
+msgid "Hot corner animation effects"
+msgstr "Эффекты анимации горячих углов"
+
+#: src/ui/prefs.ui:1694
 msgid "Icons"
 msgstr "Иконки"
 
-#: src/ui/prefs.ui:1668
+#: src/ui/prefs.ui:1743
 msgid "App Menu Icon"
 msgstr "Иконка приложения"
 
-#: src/ui/prefs.ui:1717
+#: src/ui/prefs.ui:1792
 msgid "Panel Notification Icon"
 msgstr "Индикатор уведомлений"
 
-#: src/ui/prefs.ui:1766
+#: src/ui/prefs.ui:1841
 msgid "Power Icon"
 msgstr "Значок питания"
 
-#: src/ui/prefs.ui:1815
+#: src/ui/prefs.ui:1890
 msgid "Panel Arrow"
 msgstr "Стрелки на панели"
 
-#: src/ui/prefs.ui:1870
+#: src/ui/prefs.ui:1945
 msgid "Window Picker Icon"
 msgstr "Иконки окон в обзоре"
 
-#: src/ui/prefs.ui:1881
+#: src/ui/prefs.ui:1956
 msgid "The icon under window preview in overview"
 msgstr "Иконки под окнами в режиме обзора"
 
-#: src/ui/prefs.ui:1939
+#: src/ui/prefs.ui:2014
 msgid "Activities Button Icon"
 msgstr "Значок кнопки Обзор"
 
-#: src/ui/prefs.ui:2038
+#: src/ui/prefs.ui:2113
 msgid "Activities Button Icon in Monochrome"
 msgstr "Значок кнопки Обзор в чёрно-белом Режиме"
 
-#: src/ui/prefs.ui:2093
+#: src/ui/prefs.ui:2168
 msgid "Activities Button Icon With Label"
 msgstr "Подпись у значка кнопки Обзор"
 
-#: src/ui/prefs.ui:2104
+#: src/ui/prefs.ui:2179
 msgid "Only works when you have selected an icon for activities button"
 msgstr "Работает, только если вы выбрали значок для кнопки Обзор"
 
-#: src/ui/prefs.ui:2154
+#: src/ui/prefs.ui:2229
 msgid "Behavior"
 msgstr "Поведение"
 
-#: src/ui/prefs.ui:2203
+#: src/ui/prefs.ui:2278
 msgid "Hot Corner"
 msgstr "Горячий угол"
 
-#: src/ui/prefs.ui:2252
+#: src/ui/prefs.ui:2327
 msgid "App Gesture"
 msgstr "Жест приложения"
 
-#: src/ui/prefs.ui:2307
+#: src/ui/prefs.ui:2382
 msgid "Workspace Wraparound"
 msgstr "Обтекание рабочей области"
 
-#: src/ui/prefs.ui:2318
+#: src/ui/prefs.ui:2393
 msgid ""
 "Next workspace will be the first workspace when you are in the last "
 "workspace. and previous workspace will be the last workspace when you are in "
@@ -259,29 +267,29 @@ msgstr ""
 "в последней рабочей области. а предыдущая рабочая область будет последней "
 "рабочей областью, когда вы находитесь в первой рабочей области."
 
-#: src/ui/prefs.ui:2382
+#: src/ui/prefs.ui:2457
 msgid "Window Demands Attention Focus"
 msgstr "Окно требует внимания"
 
-#: src/ui/prefs.ui:2393
+#: src/ui/prefs.ui:2468
 msgid "Removes window is ready notification and focus on the window"
 msgstr "Убирает уведомление о готовности окна и фокусирует на окне"
 
-#: src/ui/prefs.ui:2457
+#: src/ui/prefs.ui:2532
 msgid "Type to Search"
 msgstr "Введите для поиска"
 
-#: src/ui/prefs.ui:2468
+#: src/ui/prefs.ui:2543
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Вы можете начать поиск без строки поиска или даже не нажимая на неё в обзоре"
 
-#: src/ui/prefs.ui:2532
+#: src/ui/prefs.ui:2607
 msgid "Always Show Workspace Switcher"
 msgstr "Всегда показывать переключатель рабочих столов"
 
-#: src/ui/prefs.ui:2543
+#: src/ui/prefs.ui:2618
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
@@ -289,155 +297,155 @@ msgstr ""
 "Отображает переключатель, даже если используется только один рабочий стол с "
 "активированным режимом динамических рабочих столов"
 
-#: src/ui/prefs.ui:2607
+#: src/ui/prefs.ui:2682
 msgid "Startup Status"
 msgstr "Место входа"
 
-#: src/ui/prefs.ui:2618
+#: src/ui/prefs.ui:2693
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "Что будет отображаться при запуске GNOME Shell:"
 
-#: src/ui/prefs.ui:2639
+#: src/ui/prefs.ui:2714
 msgid "Desktop"
 msgstr "Рабочий стол"
 
-#: src/ui/prefs.ui:2640
+#: src/ui/prefs.ui:2715
 msgid "Overview"
 msgstr "Обзор"
 
-#: src/ui/prefs.ui:2672
+#: src/ui/prefs.ui:2747
 msgid "Customize"
 msgstr "Настройки"
 
-#: src/ui/prefs.ui:2726
+#: src/ui/prefs.ui:2801
 msgid "Workspace Background Corner Size"
 msgstr "Размер угла фона рабочего пространства"
 
-#: src/ui/prefs.ui:2737
+#: src/ui/prefs.ui:2812
 msgid "Workspace background corner size in overview"
 msgstr "Обзор размера угла фона рабочего пространства"
 
-#: src/ui/prefs.ui:2758 src/ui/prefs.ui:2871 src/ui/prefs.ui:2983
-#: src/ui/prefs.ui:3096 src/ui/prefs.ui:3209
+#: src/ui/prefs.ui:2833 src/ui/prefs.ui:2946 src/ui/prefs.ui:3058
+#: src/ui/prefs.ui:3171 src/ui/prefs.ui:3284
 msgid "By Shell Theme"
 msgstr "Определить темой оболочки"
 
-#: src/ui/prefs.ui:2859
+#: src/ui/prefs.ui:2934
 msgid "Panel Size"
 msgstr "Размер панели"
 
-#: src/ui/prefs.ui:2971
+#: src/ui/prefs.ui:3046
 msgid "Panel Button Padding Size"
 msgstr "Размер заполнения кнопок панели"
 
-#: src/ui/prefs.ui:3084
+#: src/ui/prefs.ui:3159
 msgid "Panel Indicator Padding Size"
 msgstr "Размер заполнения индикатора панели"
 
-#: src/ui/prefs.ui:3197
+#: src/ui/prefs.ui:3272
 msgid "Panel Corner Size"
 msgstr "Размер угла панели"
 
-#: src/ui/prefs.ui:3210
+#: src/ui/prefs.ui:3285
 msgid "No Corner"
 msgstr "Убрать угл"
 
-#: src/ui/prefs.ui:3310
+#: src/ui/prefs.ui:3385
 msgid "Panel Position"
 msgstr "Расположение панели"
 
-#: src/ui/prefs.ui:3322
+#: src/ui/prefs.ui:3397
 msgid "Top"
 msgstr "Вверху"
 
-#: src/ui/prefs.ui:3323
+#: src/ui/prefs.ui:3398
 msgid "Bottom"
 msgstr "Внизу"
 
-#: src/ui/prefs.ui:3363
+#: src/ui/prefs.ui:3438
 msgid "Clock Menu Position"
 msgstr "Положение меню часов"
 
-#: src/ui/prefs.ui:3375
+#: src/ui/prefs.ui:3450
 msgid "Center"
 msgstr "По центру"
 
-#: src/ui/prefs.ui:3376
+#: src/ui/prefs.ui:3451
 msgid "Right"
 msgstr "Справа"
 
-#: src/ui/prefs.ui:3377
+#: src/ui/prefs.ui:3452
 msgid "Left"
 msgstr "Слева"
 
-#: src/ui/prefs.ui:3417
+#: src/ui/prefs.ui:3492
 msgid "Clock Menu Position Offset"
 msgstr "Смещение положения меню часов"
 
-#: src/ui/prefs.ui:3478
+#: src/ui/prefs.ui:3553
 msgid "Workspace Switcher Size"
 msgstr "Размер переключателя рабочих столов"
 
-#: src/ui/prefs.ui:3490 src/ui/prefs.ui:3631
+#: src/ui/prefs.ui:3565 src/ui/prefs.ui:3706
 msgid "Default"
 msgstr "По умолчанию"
 
-#: src/ui/prefs.ui:3560
+#: src/ui/prefs.ui:3635
 msgid "Animation"
 msgstr "Анимации"
 
-#: src/ui/prefs.ui:3572
+#: src/ui/prefs.ui:3647
 msgid "No Animation"
 msgstr "Без анимаций"
 
-#: src/ui/prefs.ui:3573
+#: src/ui/prefs.ui:3648
 msgid "Default Speed"
 msgstr "Скорость по умолчанию"
 
-#: src/ui/prefs.ui:3574
+#: src/ui/prefs.ui:3649
 msgid "Fastest"
 msgstr "Очень быстро"
 
-#: src/ui/prefs.ui:3575
+#: src/ui/prefs.ui:3650
 msgid "Faster"
 msgstr "Быстрее"
 
-#: src/ui/prefs.ui:3576
+#: src/ui/prefs.ui:3651
 msgid "Fast"
 msgstr "Быстро"
 
-#: src/ui/prefs.ui:3577
+#: src/ui/prefs.ui:3652
 msgid "Slow"
 msgstr "Медленно"
 
-#: src/ui/prefs.ui:3578
+#: src/ui/prefs.ui:3653
 msgid "Slower"
 msgstr "Медленнее"
 
-#: src/ui/prefs.ui:3579
+#: src/ui/prefs.ui:3654
 msgid "Slowest"
 msgstr "Очень медленно"
 
-#: src/ui/prefs.ui:3619
+#: src/ui/prefs.ui:3694
 msgid "Dash Icon Size"
 msgstr "Размер иконок Dash панели"
 
-#: src/ui/prefs.ui:3680
+#: src/ui/prefs.ui:3755
 msgid "Notification Banner Position"
 msgstr "Позиция баннера уведомлений"
 
-#: src/ui/prefs.ui:3691
+#: src/ui/prefs.ui:3766
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "Положение всплывающих на экране уведомлений"
 
-#: src/ui/prefs.ui:3712
+#: src/ui/prefs.ui:3787
 msgid "Top Start"
 msgstr "Сверху слева"
 
-#: src/ui/prefs.ui:3713
+#: src/ui/prefs.ui:3788
 msgid "Top Center"
 msgstr "Сверху по центру"
 
-#: src/ui/prefs.ui:3714
+#: src/ui/prefs.ui:3789
 msgid "Top End"
 msgstr "Сверху справа"

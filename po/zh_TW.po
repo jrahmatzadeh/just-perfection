@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-10 04:58-0700\n"
+"POT-Creation-Date: 2021-10-07 02:00-0700\n"
 "PO-Revision-Date: 2021-06-10 10:43+0800\n"
 "Last-Translator: r0930514 <r0930514@gmail.com>\n"
 "Language-Team: \n"
@@ -184,67 +184,75 @@ msgstr "後台選單"
 msgid "When you right click on desktop background"
 msgstr "當你右鍵單擊桌面背景時"
 
-#: src/ui/prefs.ui:1619
+#: src/ui/prefs.ui:1633
+msgid "Ripple Box"
+msgstr "波紋盒"
+
+#: src/ui/prefs.ui:1644
+msgid "Hot corner animation effects"
+msgstr "熱角動畫效果"
+
+#: src/ui/prefs.ui:1694
 msgid "Icons"
 msgstr "圖示"
 
-#: src/ui/prefs.ui:1668
+#: src/ui/prefs.ui:1743
 msgid "App Menu Icon"
 msgstr "應用程式圖示"
 
-#: src/ui/prefs.ui:1717
+#: src/ui/prefs.ui:1792
 msgid "Panel Notification Icon"
 msgstr "面板通知圖示"
 
-#: src/ui/prefs.ui:1766
+#: src/ui/prefs.ui:1841
 msgid "Power Icon"
 msgstr "電源圖示"
 
-#: src/ui/prefs.ui:1815
+#: src/ui/prefs.ui:1890
 msgid "Panel Arrow"
 msgstr "面板箭頭"
 
-#: src/ui/prefs.ui:1870
+#: src/ui/prefs.ui:1945
 msgid "Window Picker Icon"
 msgstr "視窗選擇器圖示"
 
-#: src/ui/prefs.ui:1881
+#: src/ui/prefs.ui:1956
 msgid "The icon under window preview in overview"
 msgstr "概覽窗口預覽下的圖標"
 
-#: src/ui/prefs.ui:1939
+#: src/ui/prefs.ui:2014
 msgid "Activities Button Icon"
 msgstr "活動按鈕圖示"
 
-#: src/ui/prefs.ui:2038
+#: src/ui/prefs.ui:2113
 msgid "Activities Button Icon in Monochrome"
 msgstr "單色的活動按鈕圖示"
 
-#: src/ui/prefs.ui:2093
+#: src/ui/prefs.ui:2168
 msgid "Activities Button Icon With Label"
 msgstr "帶有標籤的活動按鈕圖示"
 
-#: src/ui/prefs.ui:2104
+#: src/ui/prefs.ui:2179
 msgid "Only works when you have selected an icon for activities button"
 msgstr "僅適用於已為活動按鈕選擇了圖示時"
 
-#: src/ui/prefs.ui:2154
+#: src/ui/prefs.ui:2229
 msgid "Behavior"
 msgstr "行為"
 
-#: src/ui/prefs.ui:2203
+#: src/ui/prefs.ui:2278
 msgid "Hot Corner"
 msgstr "熱角"
 
-#: src/ui/prefs.ui:2252
+#: src/ui/prefs.ui:2327
 msgid "App Gesture"
 msgstr "應用程式手勢"
 
-#: src/ui/prefs.ui:2307
+#: src/ui/prefs.ui:2382
 msgid "Workspace Wraparound"
 msgstr "工作區環繞"
 
-#: src/ui/prefs.ui:2318
+#: src/ui/prefs.ui:2393
 msgid ""
 "Next workspace will be the first workspace when you are in the last "
 "workspace. and previous workspace will be the last workspace when you are in "
@@ -253,182 +261,182 @@ msgstr ""
 "當您在最後一個工作區時，下一個工作區將是第一個工作區。 當您在第一個工作區時，"
 "上一個工作區將是最後一個工作區。"
 
-#: src/ui/prefs.ui:2382
+#: src/ui/prefs.ui:2457
 msgid "Window Demands Attention Focus"
 msgstr "視窗要求關注焦點"
 
-#: src/ui/prefs.ui:2393
+#: src/ui/prefs.ui:2468
 msgid "Removes window is ready notification and focus on the window"
 msgstr "刪除視窗已準備就緒通知，並直接專注於視窗"
 
-#: src/ui/prefs.ui:2457
+#: src/ui/prefs.ui:2532
 msgid "Type to Search"
 msgstr "打字直接搜索"
 
-#: src/ui/prefs.ui:2468
+#: src/ui/prefs.ui:2543
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr "不需要搜索框甚至不用聚焦到概覽視圖，你就可以開始搜索"
 
-#: src/ui/prefs.ui:2532
+#: src/ui/prefs.ui:2607
 msgid "Always Show Workspace Switcher"
 msgstr "始終顯示工作區切換器"
 
-#: src/ui/prefs.ui:2543
+#: src/ui/prefs.ui:2618
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
 msgstr "即使只有一個工作區與動態工作區一起使用，也會顯示工作區切換器"
 
-#: src/ui/prefs.ui:2607
+#: src/ui/prefs.ui:2682
 msgid "Startup Status"
 msgstr "啟動狀態"
 
-#: src/ui/prefs.ui:2618
+#: src/ui/prefs.ui:2693
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "GNOME Shell 首次啟動時"
 
-#: src/ui/prefs.ui:2639
+#: src/ui/prefs.ui:2714
 msgid "Desktop"
 msgstr "桌面"
 
-#: src/ui/prefs.ui:2640
+#: src/ui/prefs.ui:2715
 msgid "Overview"
 msgstr "概述"
 
-#: src/ui/prefs.ui:2672
+#: src/ui/prefs.ui:2747
 msgid "Customize"
 msgstr "自定義"
 
-#: src/ui/prefs.ui:2726
+#: src/ui/prefs.ui:2801
 msgid "Workspace Background Corner Size"
 msgstr "工作區背景角大小"
 
-#: src/ui/prefs.ui:2737
+#: src/ui/prefs.ui:2812
 msgid "Workspace background corner size in overview"
 msgstr "工作區背景角尺寸概覽"
 
-#: src/ui/prefs.ui:2758 src/ui/prefs.ui:2871 src/ui/prefs.ui:2983
-#: src/ui/prefs.ui:3096 src/ui/prefs.ui:3209
+#: src/ui/prefs.ui:2833 src/ui/prefs.ui:2946 src/ui/prefs.ui:3058
+#: src/ui/prefs.ui:3171 src/ui/prefs.ui:3284
 msgid "By Shell Theme"
 msgstr "依照 Shell 主題"
 
-#: src/ui/prefs.ui:2859
+#: src/ui/prefs.ui:2934
 msgid "Panel Size"
 msgstr "面板尺寸"
 
-#: src/ui/prefs.ui:2971
+#: src/ui/prefs.ui:3046
 msgid "Panel Button Padding Size"
 msgstr "面板按鈕填充尺寸"
 
-#: src/ui/prefs.ui:3084
+#: src/ui/prefs.ui:3159
 msgid "Panel Indicator Padding Size"
 msgstr "面板指示器填充尺寸"
 
-#: src/ui/prefs.ui:3197
+#: src/ui/prefs.ui:3272
 msgid "Panel Corner Size"
 msgstr "面板圓角尺寸"
 
-#: src/ui/prefs.ui:3210
+#: src/ui/prefs.ui:3285
 msgid "No Corner"
 msgstr "無圓角"
 
-#: src/ui/prefs.ui:3310
+#: src/ui/prefs.ui:3385
 msgid "Panel Position"
 msgstr "面板位置"
 
-#: src/ui/prefs.ui:3322
+#: src/ui/prefs.ui:3397
 msgid "Top"
 msgstr "頂部"
 
-#: src/ui/prefs.ui:3323
+#: src/ui/prefs.ui:3398
 msgid "Bottom"
 msgstr "底部"
 
-#: src/ui/prefs.ui:3363
+#: src/ui/prefs.ui:3438
 msgid "Clock Menu Position"
 msgstr "時鐘選單位置"
 
-#: src/ui/prefs.ui:3375
+#: src/ui/prefs.ui:3450
 msgid "Center"
 msgstr "中間"
 
-#: src/ui/prefs.ui:3376
+#: src/ui/prefs.ui:3451
 msgid "Right"
 msgstr "左側"
 
-#: src/ui/prefs.ui:3377
+#: src/ui/prefs.ui:3452
 msgid "Left"
 msgstr "右側"
 
-#: src/ui/prefs.ui:3417
+#: src/ui/prefs.ui:3492
 msgid "Clock Menu Position Offset"
 msgstr "時鐘選單位置偏移"
 
-#: src/ui/prefs.ui:3478
+#: src/ui/prefs.ui:3553
 msgid "Workspace Switcher Size"
 msgstr "工作區切換器尺寸"
 
-#: src/ui/prefs.ui:3490 src/ui/prefs.ui:3631
+#: src/ui/prefs.ui:3565 src/ui/prefs.ui:3706
 msgid "Default"
 msgstr "預設"
 
-#: src/ui/prefs.ui:3560
+#: src/ui/prefs.ui:3635
 msgid "Animation"
 msgstr "動畫"
 
-#: src/ui/prefs.ui:3572
+#: src/ui/prefs.ui:3647
 msgid "No Animation"
 msgstr "無動畫"
 
-#: src/ui/prefs.ui:3573
+#: src/ui/prefs.ui:3648
 msgid "Default Speed"
 msgstr "預設速度"
 
-#: src/ui/prefs.ui:3574
+#: src/ui/prefs.ui:3649
 msgid "Fastest"
 msgstr "最快"
 
-#: src/ui/prefs.ui:3575
+#: src/ui/prefs.ui:3650
 msgid "Faster"
 msgstr "更快"
 
-#: src/ui/prefs.ui:3576
+#: src/ui/prefs.ui:3651
 msgid "Fast"
 msgstr "快"
 
-#: src/ui/prefs.ui:3577
+#: src/ui/prefs.ui:3652
 msgid "Slow"
 msgstr "慢"
 
-#: src/ui/prefs.ui:3578
+#: src/ui/prefs.ui:3653
 msgid "Slower"
 msgstr "更慢"
 
-#: src/ui/prefs.ui:3579
+#: src/ui/prefs.ui:3654
 msgid "Slowest"
 msgstr "最慢"
 
-#: src/ui/prefs.ui:3619
+#: src/ui/prefs.ui:3694
 msgid "Dash Icon Size"
 msgstr "Dash圖示大小"
 
-#: src/ui/prefs.ui:3680
+#: src/ui/prefs.ui:3755
 msgid "Notification Banner Position"
 msgstr "通知橫幅位置"
 
-#: src/ui/prefs.ui:3691
+#: src/ui/prefs.ui:3766
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "通知出現在屏幕上時的通知彈出位置"
 
-#: src/ui/prefs.ui:3712
+#: src/ui/prefs.ui:3787
 msgid "Top Start"
 msgstr "最開始"
 
-#: src/ui/prefs.ui:3713
+#: src/ui/prefs.ui:3788
 msgid "Top Center"
 msgstr "頂部中心"
 
-#: src/ui/prefs.ui:3714
+#: src/ui/prefs.ui:3789
 msgid "Top End"
 msgstr "高端"
