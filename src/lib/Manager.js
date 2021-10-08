@@ -337,7 +337,7 @@ var Manager = class
         if (forceOriginal || this._settings.get_boolean('panel')) {
             this._api.panelShow();
         } else {
-            this._api.panelHide();
+            this._api.panelHide(0);
         }
     }
 

@@ -23,6 +23,11 @@ const PANEL_BOX_POSITION = {
     LEFT: 2,
 };
 
+const PANEL_HIDE_MODE = {
+    ALL: 0,
+    DESKTOP: 1,
+};
+
 const SHELL_STATUS = {
     NONE: 0,
     OVERVIEW: 1,
@@ -334,7 +339,8 @@ var API = class
         if (this.isPanelVisible()) {
             this.panelShow(true, 0);
         } else {
-            this.panelHide(true, 0);
+            let mode = this._panelHideMode ?? 0;
+            this.panelHide(mode, true, 0);
         }
     }
 
@@ -356,7 +362,15 @@ var API = class
             return;
         }
 
+        let overview = this._main.overview;
+        let searchEntryParent = overview.searchEntry.get_parent();
         let panelBox = this._main.layoutManager.panelBox;
+        
+        this._main.layoutManager.removeChrome(panelBox);
+        this._main.layoutManager.addChrome(panelBox, {
+            affectsStruts: true,
+            trackFullscreen: true,
+        });
 
         panelBox.ease({
             translation_y: 0,
@@ -370,18 +384,31 @@ var API = class
             },
         });
 
+        if (this._overviewShowingSignal) {
+            overview.disconnect(this._overviewShowingSignal);
+            delete(this._overviewShowingSignal);
+        }
+
+        if (this._overviewHidingSignal) {
+            overview.disconnect(this._overviewHidingSignal);
+            delete(this._overviewHidingSignal);
+        }
+        
+        searchEntryParent.set_style(`margin-top: 0;`);
+
         this.UIStyleClassRemove(classname);
     }
 
     /**
      * hide panel
      *
+     * @param {mode} hide mode see PANEL_HIDE_MODE. defaults to hide all
      * @param {boolean} force apply hide even if it is hidden
      * @param {number} animationDuration in miliseconds. defaults to 150
      *
      * @returns {void}
      */
-    panelHide(force = false, animationDuration = 150)
+    panelHide(mode, force = false, animationDuration = 150)
     {
         this._panelVisiblity = false;
 
@@ -390,10 +417,20 @@ var API = class
         if (!force && this.UIStyleClassContain(classname)) {
             return;
         }
+        
+        this._panelHideMode = mode;
 
+        let overview = this._main.overview;
+        let searchEntryParent = overview.searchEntry.get_parent();
         let panelBox = this._main.layoutManager.panelBox;
         let panelHeight = this._main.panel.height;
         let direction = (this.panelGetPosition() === PANEL_POSITION.BOTTOM) ? 1 : -1;
+
+        this._main.layoutManager.removeChrome(panelBox);
+        this._main.layoutManager.addChrome(panelBox, {
+            affectsStruts: false,
+            trackFullscreen: true,
+        });
 
         panelBox.ease({
             translation_y: panelHeight * direction,
@@ -406,6 +443,37 @@ var API = class
                 this._fixLookingGlassPosition();
             },
         });
+        
+        if (this._overviewShowingSignal) {
+            overview.disconnect(this._overviewShowingSignal);
+            delete(this._overviewShowingSignal);
+        }
+        if (this._overviewHidingSignal) {
+            overview.disconnect(this._overviewHidingSignal);
+            delete(this._overviewHidingSignal);
+        }
+
+        if (mode === PANEL_HIDE_MODE.DESKTOP) {
+            if (!this._overviewShowingSignal) {
+                this._overviewShowingSignal = overview.connect('showing', () => {
+                    panelBox.ease({
+                        translation_y: 0,
+                        mode: this._clutter.AnimationMode.EASE,
+                        duration: 250,
+                    });
+                });
+            }
+            if (!this._overviewHidingSignal) {
+                this._overviewHidingSignal = overview.connect('hiding', () => {
+                    panelBox.ease({
+                        translation_y: panelHeight * direction,
+                        mode: this._clutter.AnimationMode.EASE,
+                        duration: 250,
+                    });
+                });
+            }
+            searchEntryParent.set_style(`margin-top: ${panelHeight}px;`);
+        }
 
         // when panel is hidden and search entry is visible,
         // the search entry gets too close to the top, so we fix it with margin
@@ -630,17 +698,18 @@ var API = class
         let searchEntry = this._main.overview.searchEntry;
         let searchEntryParent = searchEntry.get_parent();
 
-        searchEntryParent.ease({
-            height: 0,
-            opacity: 0,
-            mode: this._clutter.AnimationMode.EASE,
-            duration: 150,
-        });
-
         searchEntry.ease({
             opacity: 0,
             mode: this._clutter.AnimationMode.EASE,
-            duration: 70,
+            duration: 50,
+            onComplete: () => {
+                searchEntryParent.ease({
+                    height: 0,
+                    opacity: 0,
+                    mode: this._clutter.AnimationMode.EASE,
+                    duration: 120,
+                });
+            },
         });
 
         if (!fake) {
