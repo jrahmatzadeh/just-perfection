@@ -13,6 +13,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ### Added
 
+- Panel visiblity in overview when panel is disabled.
 - Panel corner size when panel is disabled.
 - Ripple box.
 

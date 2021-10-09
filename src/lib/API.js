@@ -340,7 +340,7 @@ var API = class
             this.panelShow(true, 0);
         } else {
             let mode = this._panelHideMode ?? 0;
-            this.panelHide(mode, true, 0);
+            this.panelHide(mode, 0);
         }
     }
 
@@ -408,16 +408,9 @@ var API = class
      *
      * @returns {void}
      */
-    panelHide(mode, force = false, animationDuration = 150)
+    panelHide(mode, animationDuration = 150)
     {
         this._panelVisiblity = false;
-
-        let classname = this._getAPIClassname('no-panel');
-
-        if (!force && this.UIStyleClassContain(classname)) {
-            return;
-        }
-        
         this._panelHideMode = mode;
 
         let overview = this._main.overview;
@@ -443,7 +436,9 @@ var API = class
                 this._fixLookingGlassPosition();
             },
         });
-        
+
+        searchEntryParent.set_style(`margin-top: 0;`);
+
         if (this._overviewShowingSignal) {
             overview.disconnect(this._overviewShowingSignal);
             delete(this._overviewShowingSignal);
@@ -452,7 +447,7 @@ var API = class
             overview.disconnect(this._overviewHidingSignal);
             delete(this._overviewHidingSignal);
         }
-        
+
         let appMenuOriginalVisiblity;
 
         if (mode === PANEL_HIDE_MODE.DESKTOP) {
@@ -491,6 +486,7 @@ var API = class
         // on GNOME 3 we need to have top and bottom margin for correct proportion
         // but on GNOME 40 we don't need to keep proportion but give it more
         // top margin to keep it less close to top
+        let classname = this._getAPIClassname('no-panel');
         this.UIStyleClassAdd(classname);
     }
 

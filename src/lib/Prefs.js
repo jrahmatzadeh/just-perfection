@@ -70,6 +70,7 @@ var Prefs = class
 
         // visiblity
         this._setKey('visiblity', 'panel', 'GtkSwitch', true);
+        this._setKey('visiblity', 'panel-in-overview', 'GtkSwitch', true);
         this._setKey('visiblity', 'activities-button', 'GtkSwitch', true);
         this._setKey('visiblity', 'app-menu', 'GtkSwitch', true);
         this._setKey('visiblity', 'clock-menu', 'GtkSwitch', true);

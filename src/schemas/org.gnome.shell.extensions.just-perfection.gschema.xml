@@ -10,6 +10,12 @@
       <description>Panel Visibility Status</description>
     </key>
     
+    <key type="b" name="panel-in-overview">
+      <default>false</default>
+      <summary>Panel in Overview</summary>
+      <description>Panel in Overview Visibility Status</description>
+    </key>
+    
     <key type="b" name="background-menu">
       <default>true</default>
       <summary>Background Menu</summary>

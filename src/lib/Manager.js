@@ -40,6 +40,10 @@ var Manager = class
             this._applyPanel(false);
         });
 
+        this._settings.connect('changed::panel-in-overview', () => {
+            this._applyPanel(false);
+        });
+
         this._settings.connect('changed::search', () => {
             this._applySearch(false);
         });
@@ -334,10 +338,14 @@ var Manager = class
      */
     _applyPanel(forceOriginal)
     {
-        if (forceOriginal || this._settings.get_boolean('panel')) {
+        let panel = this._settings.get_boolean('panel');
+        let panelInOverview = this._settings.get_boolean('panel-in-overview');
+
+        if (forceOriginal || panel) {
             this._api.panelShow();
         } else {
-            this._api.panelHide(0);
+            let mode = (panelInOverview) ? 1 : 0;
+            this._api.panelHide(mode);
         }
     }
 
