@@ -452,10 +452,14 @@ var API = class
             overview.disconnect(this._overviewHidingSignal);
             delete(this._overviewHidingSignal);
         }
+        
+        let appMenuOriginalVisiblity;
 
         if (mode === PANEL_HIDE_MODE.DESKTOP) {
             if (!this._overviewShowingSignal) {
                 this._overviewShowingSignal = overview.connect('showing', () => {
+                    appMenuOriginalVisiblity = this.isAppMenuVisible(); 
+                    this.appMenuHide();
                     panelBox.ease({
                         translation_y: 0,
                         mode: this._clutter.AnimationMode.EASE,
@@ -469,6 +473,13 @@ var API = class
                         translation_y: panelHeight * direction,
                         mode: this._clutter.AnimationMode.EASE,
                         duration: 250,
+                        onComplete: () => {
+                            if (appMenuOriginalVisiblity) {
+                                this.appMenuShow();
+                            } else {
+                                this.appMenuHide();
+                            }
+                        },
                     });
                 });
             }
@@ -1126,6 +1137,16 @@ var API = class
     appMenuHide()
     {
         this._main.panel.statusArea['appMenu'].container.hide();
+    }
+    
+    /**
+     * check whether app menu is visible
+     *
+     * @returns {boolean}
+     */
+    isAppMenuVisible()
+    {
+        return this._main.panel.statusArea['appMenu'].container.visible;
     }
 
     /**
