@@ -97,11 +97,6 @@ Or support via [Patreon](https://www.patreon.com/justperfection).
 
 - [Ask Noah Show (Pick of the Week)](https://podcast.asknoahshow.com/212?t=1643).
 
-## Ads
-
-Since version 10 each release has an Ad. You can watch them in 
-[Our Official YouTube Channel](https://www.youtube.com/playlist?list=PLr3kuDAFECjZRWIaXPlmsT7V5YWXnCGMP).
-
 ## License
 
 This Extension has been released under The **GNU General Public License v3.0**.
