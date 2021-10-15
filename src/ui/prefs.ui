@@ -400,6 +400,7 @@
                           <child>
                             <object class="GtkRevealer" id="panel_in_overview_revealer">
                               <property name="visible">True</property>
+                              <property name="can-focus">True</property>
                               <property name="reveal-child" bind-source="panel_switch" bind-property="active" bind-flags="invert-boolean|sync-create"/>
                               <child>
                                 
