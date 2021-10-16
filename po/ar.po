@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-11 08:06-0700\n"
+"POT-Creation-Date: 2021-10-16 11:22-0700\n"
 "PO-Revision-Date: 2020-12-18 04:15-0800\n"
 "Last-Translator: Kareem Abduljaleel <karemjaleel34@gmail.com>\n"
 "Language-Team: Arabic\n"
@@ -16,6 +16,273 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: src/ui/behavior.ui:19
+msgid "Behavior"
+msgstr "تصرف"
+
+#: src/ui/behavior.ui:68
+msgid "Hot Corner"
+msgstr "ركن حساس"
+
+#: src/ui/behavior.ui:117
+msgid "App Gesture"
+msgstr "إيماءة التطبيق"
+
+#: src/ui/behavior.ui:172
+msgid "Workspace Wraparound"
+msgstr "مساحة العمل ملفوفة"
+
+#: src/ui/behavior.ui:183
+msgid ""
+"Next workspace will be the first workspace when you are in the last "
+"workspace. and previous workspace will be the last workspace when you are in "
+"the first workspace."
+msgstr ""
+"ستكون مساحة العمل التالية هي مساحة العمل الأولى عندما تكون في آخر مساحة عمل."
+"ومساحة العمل السابقة ستكون آخر مساحة عمل عندما تكون في مساحة العمل الأولى."
+
+#: src/ui/behavior.ui:247
+msgid "Window Demands Attention Focus"
+msgstr "نافذة تتطلب التركيز على الاهتمام"
+
+#: src/ui/behavior.ui:258
+msgid "Removes window is ready notification and focus on the window"
+msgstr "يزيل نافذة إشعار جاهز والتركيز على النافذة"
+
+#: src/ui/behavior.ui:322
+msgid "Type to Search"
+msgstr "اكتب للبحث"
+
+#: src/ui/behavior.ui:333
+msgid ""
+"You can start search without search entry or even focusing on it in overview"
+msgstr "يمكنك بدء البحث بدون إدخال بحث أو حتى التركيز عليه في نظرة عامة"
+
+#: src/ui/behavior.ui:397
+msgid "Always Show Workspace Switcher"
+msgstr "إظهار أداة تبديل مساحة العمل دائمًا"
+
+#: src/ui/behavior.ui:408
+msgid ""
+"Shows workspace switcher even when only one workspace used with dynamic "
+"workspaces"
+msgstr ""
+"يعرض مبدل مساحة العمل حتى عند استخدام مساحة عمل واحدة فقط مع مساحات العمل "
+"الديناميكية"
+
+#: src/ui/behavior.ui:472
+msgid "Startup Status"
+msgstr "حالة بدء التشغيل"
+
+#: src/ui/behavior.ui:483
+msgid "When GNOME Shell is starting up for the first time"
+msgstr "عندما يبدأ GNOME Shell لأول مرة"
+
+#: src/ui/behavior.ui:504
+msgid "Desktop"
+msgstr "سطح المكتب"
+
+#: src/ui/behavior.ui:505
+msgid "Overview"
+msgstr "ملخص"
+
+#: src/ui/customize.ui:19
+msgid "Customize"
+msgstr "طوّع"
+
+#: src/ui/customize.ui:73
+msgid "Workspace Background Corner Size"
+msgstr "حجم ركن خلفية مساحة العمل"
+
+#: src/ui/customize.ui:84
+msgid "Workspace background corner size in overview"
+msgstr "حجم ركن خلفية مساحة العمل في نظرة عامة"
+
+#: src/ui/customize.ui:105 src/ui/customize.ui:218 src/ui/customize.ui:330
+#: src/ui/customize.ui:443 src/ui/customize.ui:556
+msgid "By Shell Theme"
+msgstr "بواسطة مظهر الشل"
+
+#: src/ui/customize.ui:206
+msgid "Panel Size"
+msgstr "مقاس اللوحه"
+
+#: src/ui/customize.ui:318
+msgid "Panel Button Padding Size"
+msgstr "حجم المساحة المتروكة لزر اللوحة"
+
+#: src/ui/customize.ui:431
+msgid "Panel Indicator Padding Size"
+msgstr "حجم حشوة مؤشر اللوحة"
+
+#: src/ui/customize.ui:544
+msgid "Panel Corner Size"
+msgstr "حجم زاوية اللوحة"
+
+#: src/ui/customize.ui:557
+msgid "No Corner"
+msgstr "بدون زوايا"
+
+#: src/ui/customize.ui:657
+msgid "Panel Position"
+msgstr "موقع اللوحة"
+
+#: src/ui/customize.ui:669
+msgid "Top"
+msgstr "اعلى"
+
+#: src/ui/customize.ui:670
+msgid "Bottom"
+msgstr "اسفل"
+
+#: src/ui/customize.ui:710
+msgid "Clock Menu Position"
+msgstr "موضع قائمة الساعة"
+
+#: src/ui/customize.ui:722
+msgid "Center"
+msgstr "المركز"
+
+#: src/ui/customize.ui:723
+msgid "Right"
+msgstr "اليمين"
+
+#: src/ui/customize.ui:724
+msgid "Left"
+msgstr "اليسار"
+
+#: src/ui/customize.ui:764
+msgid "Clock Menu Position Offset"
+msgstr "إزاحة موضع قائمة الساعة"
+
+#: src/ui/customize.ui:825
+msgid "Workspace Switcher Size"
+msgstr "حجم مبدل مساحة العمل"
+
+#: src/ui/customize.ui:837 src/ui/customize.ui:978
+msgid "Default"
+msgstr "الإفتراضي"
+
+#: src/ui/customize.ui:907
+msgid "Animation"
+msgstr "تأثيرات"
+
+#: src/ui/customize.ui:919
+msgid "No Animation"
+msgstr "بدون تأثيرات"
+
+#: src/ui/customize.ui:920
+msgid "Default Speed"
+msgstr "السرعة الافتراضية"
+
+#: src/ui/customize.ui:921
+msgid "Fastest"
+msgstr "سريع جدا"
+
+#: src/ui/customize.ui:922
+msgid "Faster"
+msgstr "اسرع"
+
+#: src/ui/customize.ui:923
+msgid "Fast"
+msgstr "سريع"
+
+#: src/ui/customize.ui:924
+msgid "Slow"
+msgstr "بطيء"
+
+#: src/ui/customize.ui:925
+msgid "Slower"
+msgstr "أبطأ"
+
+#: src/ui/customize.ui:926
+msgid "Slowest"
+msgstr "بطئ جدا"
+
+#: src/ui/customize.ui:966
+msgid "Dash Icon Size"
+msgstr "حجم رمز الشرطة"
+
+#: src/ui/customize.ui:1027
+msgid "Notification Banner Position"
+msgstr "موقف لافتة الإخطار"
+
+#: src/ui/customize.ui:1038
+msgid "Notification popup position when notifications show up on the screen"
+msgstr "موقف منبثق للإعلام عندما تظهر الإخطارات على الشاشة"
+
+#: src/ui/customize.ui:1059
+msgid "Top Start"
+msgstr "بداية القمة"
+
+#: src/ui/customize.ui:1060
+msgid "Top Center"
+msgstr "مركز أعلى"
+
+#: src/ui/customize.ui:1061
+msgid "Top End"
+msgstr "الطرف العلوي"
+
+#: src/ui/icons.ui:19
+msgid "Icons"
+msgstr "الأيقونات"
+
+#: src/ui/icons.ui:68
+msgid "App Menu Icon"
+msgstr "أيقونة قائمة التطبيقات"
+
+#: src/ui/icons.ui:117
+msgid "Panel Notification Icon"
+msgstr "ايقونة لوحة الإشعارات"
+
+#: src/ui/icons.ui:166
+msgid "Power Icon"
+msgstr "أيقونة الطاقة"
+
+#: src/ui/icons.ui:215
+msgid "Panel Arrow"
+msgstr "سهم اللوحة"
+
+#: src/ui/icons.ui:270
+msgid "Window Picker Icon"
+msgstr "ايقونة منتقي النافذة"
+
+#: src/ui/icons.ui:281
+msgid "The icon under window preview in overview"
+msgstr "الرمز الموجود أسفل معاينة النافذة في نظرة عامة"
+
+#: src/ui/icons.ui:339
+msgid "Activities Button Icon"
+msgstr "رمز زر الأنشطة"
+
+#: src/ui/icons.ui:438
+msgid "Activities Button Icon in Monochrome"
+msgstr "رمز زر الأنشطة في أحادية اللون"
+
+#: src/ui/icons.ui:493
+msgid "Activities Button Icon With Label"
+msgstr "رمز زر الأنشطة مع التسمية"
+
+#: src/ui/icons.ui:504
+msgid "Only works when you have selected an icon for activities button"
+msgstr "يعمل فقط عندما تحدد رمزًا لزر الأنشطة"
+
+#: src/ui/no-results-found.ui:25
+msgid "No Results Found"
+msgstr "لم يتم العثور على نتائج"
+
+#: src/ui/override.ui:19
+msgid "Override"
+msgstr "تجاوز"
+
+#: src/ui/override.ui:76
+msgid "Shell Theme"
+msgstr "مظهر الشل"
+
+#: src/ui/override.ui:87
+msgid "Overrides the shell theme partially to create a minimal desktop"
+msgstr "تجاوز مظهر الشل جزئيا لصناعة سطح مكتب ادنى"
 
 #: src/ui/prefs.ui:10
 msgid "Bug Report"
@@ -29,420 +296,153 @@ msgstr "الدعم عبر Patreon"
 msgid "Select File"
 msgstr "حدد ملف"
 
-#: src/ui/prefs.ui:188
-msgid "No Results Found"
-msgstr "لم يتم العثور على نتائج"
-
-#: src/ui/prefs.ui:210
-msgid "Override"
-msgstr "تجاوز"
-
-#: src/ui/prefs.ui:267
-msgid "Shell Theme"
-msgstr "مظهر الشل"
-
-#: src/ui/prefs.ui:278
-msgid "Overrides the shell theme partially to create a minimal desktop"
-msgstr "تجاوز مظهر الشل جزئيا لصناعة سطح مكتب ادنى"
-
-#: src/ui/prefs.ui:328
+#: src/ui/visibility.ui:19
 msgid "Visibility"
 msgstr "الوضوح"
 
-#: src/ui/prefs.ui:377
+#: src/ui/visibility.ui:68
 msgid "Panel"
 msgstr "اللوحة"
 
-#: src/ui/prefs.ui:431
+#: src/ui/visibility.ui:123
 msgid "Panel in Overview"
 msgstr "لوحة في نظرة عامة"
 
-#: src/ui/prefs.ui:490
+#: src/ui/visibility.ui:182
 msgid "Activities Button"
 msgstr "زر الأنشطة"
 
-#: src/ui/prefs.ui:501
+#: src/ui/visibility.ui:193
 msgid "Button in panel to toggle overview visibility"
 msgstr "زر في اللوحة لتبديل الرؤية العامة"
 
-#: src/ui/prefs.ui:565
+#: src/ui/visibility.ui:257
 msgid "App Menu"
 msgstr "قائمة التطبيقات"
 
-#: src/ui/prefs.ui:576
+#: src/ui/visibility.ui:268
 msgid "The menu button in panel with focused window text"
 msgstr "زر القائمة في اللوحة مع نص النافذة المركّز"
 
-#: src/ui/prefs.ui:640
+#: src/ui/visibility.ui:332
 msgid "Clock Menu"
 msgstr "قائمة الساعة"
 
-#: src/ui/prefs.ui:651
+#: src/ui/visibility.ui:343
 msgid "Also known as date menu shows date and time in panel"
 msgstr "تُعرف أيضًا باسم قائمة التاريخ والتي تعرض التاريخ والوقت في اللوحة"
 
-#: src/ui/prefs.ui:715
+#: src/ui/visibility.ui:407
 msgid "Keyboard Layout"
 msgstr "نموذج لوحة المفاتيح"
 
-#: src/ui/prefs.ui:726
+#: src/ui/visibility.ui:418
 msgid "Keyboard Layout indicator button in panel"
 msgstr "زر مؤشر تخطيط لوحة المفاتيح في اللوحة"
 
-#: src/ui/prefs.ui:790
+#: src/ui/visibility.ui:482
 msgid "Accessibility Menu"
 msgstr "قائمة الوصول"
 
-#: src/ui/prefs.ui:801
+#: src/ui/visibility.ui:493
 msgid "Accessibility Menu indicator button in panel"
 msgstr "زر مؤشر قائمة إمكانية الوصول في اللوحة"
 
-#: src/ui/prefs.ui:865
+#: src/ui/visibility.ui:557
 msgid "System Menu (Aggregate Menu)"
 msgstr "قائمة النظام"
 
-#: src/ui/prefs.ui:876
+#: src/ui/visibility.ui:568
 msgid "System menu holds power, volume and network icons in panel"
 msgstr "تحتوي قائمة النظام على رموز الطاقة والحجم والشبكة في اللوحة"
 
-#: src/ui/prefs.ui:940
+#: src/ui/visibility.ui:632
 msgid "Search"
 msgstr "بحث"
 
-#: src/ui/prefs.ui:951
+#: src/ui/visibility.ui:643
 msgid "Search entry in overview"
 msgstr "إدخال البحث في نظرة عامة"
 
-#: src/ui/prefs.ui:1015
+#: src/ui/visibility.ui:707
 msgid "Dash"
 msgstr "الشريط"
 
-#: src/ui/prefs.ui:1026
+#: src/ui/visibility.ui:718
 msgid "Dash holds favorite and opened applications icons"
 msgstr "تحمل Dash أيقونات التطبيقات المفضلة والمفتوحة"
 
-#: src/ui/prefs.ui:1090
+#: src/ui/visibility.ui:782
 msgid "Show Applications Button"
 msgstr "إظهار زر التطبيقات"
 
-#: src/ui/prefs.ui:1101
+#: src/ui/visibility.ui:793
 msgid "Button in dash that toggles applications list visibility"
 msgstr "زر في اندفاعة يبدل رؤية قائمة التطبيقات"
 
-#: src/ui/prefs.ui:1165
+#: src/ui/visibility.ui:857
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: src/ui/prefs.ui:1176
+#: src/ui/visibility.ui:868
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "مستوى الصوت والسطوع على شاشة العرض عند حدوث التغيير"
 
-#: src/ui/prefs.ui:1240
+#: src/ui/visibility.ui:932
 msgid "Workspace Popup"
 msgstr "مساحة العمل المنبثقة"
 
-#: src/ui/prefs.ui:1251
+#: src/ui/visibility.ui:943
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr "نافذة منبثقة تظهر على الشاشة عند تغيير مساحة العمل"
 
-#: src/ui/prefs.ui:1315
+#: src/ui/visibility.ui:1007
 msgid "Workspace Switcher"
 msgstr "مبدل مساحة العمل"
 
-#: src/ui/prefs.ui:1326
+#: src/ui/visibility.ui:1018
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
 msgstr ""
 "يشير أيضًا إلى مصغرات مساحة العمل التي تراها في نظرة عامة لتحديد مساحة عمل"
 
-#: src/ui/prefs.ui:1390
+#: src/ui/visibility.ui:1082
 msgid "Workspaces App Grid"
 msgstr "شبكة تطبيق مساحات العمل"
 
-#: src/ui/prefs.ui:1401
+#: src/ui/visibility.ui:1093
 msgid "Workspace boxes in app grid"
 msgstr "مربعات مساحة العمل في شبكة التطبيق"
 
-#: src/ui/prefs.ui:1465
+#: src/ui/visibility.ui:1157
 msgid "Window Picker Close Button"
 msgstr "زر إغلاق منتقي النافذة"
 
-#: src/ui/prefs.ui:1476
+#: src/ui/visibility.ui:1168
 msgid "The close button on window preview in overview"
 msgstr "زر الإغلاق في معاينة النافذة في نظرة عامة"
 
-#: src/ui/prefs.ui:1540
+#: src/ui/visibility.ui:1232
 msgid "Window Picker Caption"
 msgstr "نافذة منتقي التسمية التوضيحية"
 
-#: src/ui/prefs.ui:1551
+#: src/ui/visibility.ui:1243
 msgid "The text under window preview in overview"
 msgstr "النص الموجود أسفل معاينة النافذة في نظرة عامة"
 
-#: src/ui/prefs.ui:1615
+#: src/ui/visibility.ui:1307
 msgid "Background Menu"
 msgstr "قائمة الخلفية"
 
-#: src/ui/prefs.ui:1626
+#: src/ui/visibility.ui:1318
 msgid "When you right click on desktop background"
 msgstr "عند النقر بزر الماوس الأيمن على خلفية سطح المكتب"
 
-#: src/ui/prefs.ui:1690
+#: src/ui/visibility.ui:1382
 msgid "Ripple Box"
 msgstr "صندوق تموج"
 
-#: src/ui/prefs.ui:1701
+#: src/ui/visibility.ui:1393
 msgid "Hot corner animation effects"
 msgstr "تأثيرات الرسوم المتحركة في الزاوية الساخنة"
-
-#: src/ui/prefs.ui:1751
-msgid "Icons"
-msgstr "الأيقونات"
-
-#: src/ui/prefs.ui:1800
-msgid "App Menu Icon"
-msgstr "أيقونة قائمة التطبيقات"
-
-#: src/ui/prefs.ui:1849
-msgid "Panel Notification Icon"
-msgstr "ايقونة لوحة الإشعارات"
-
-#: src/ui/prefs.ui:1898
-msgid "Power Icon"
-msgstr "أيقونة الطاقة"
-
-#: src/ui/prefs.ui:1947
-msgid "Panel Arrow"
-msgstr "سهم اللوحة"
-
-#: src/ui/prefs.ui:2002
-msgid "Window Picker Icon"
-msgstr "ايقونة منتقي النافذة"
-
-#: src/ui/prefs.ui:2013
-msgid "The icon under window preview in overview"
-msgstr "الرمز الموجود أسفل معاينة النافذة في نظرة عامة"
-
-#: src/ui/prefs.ui:2071
-msgid "Activities Button Icon"
-msgstr "رمز زر الأنشطة"
-
-#: src/ui/prefs.ui:2170
-msgid "Activities Button Icon in Monochrome"
-msgstr "رمز زر الأنشطة في أحادية اللون"
-
-#: src/ui/prefs.ui:2225
-msgid "Activities Button Icon With Label"
-msgstr "رمز زر الأنشطة مع التسمية"
-
-#: src/ui/prefs.ui:2236
-msgid "Only works when you have selected an icon for activities button"
-msgstr "يعمل فقط عندما تحدد رمزًا لزر الأنشطة"
-
-#: src/ui/prefs.ui:2286
-msgid "Behavior"
-msgstr "تصرف"
-
-#: src/ui/prefs.ui:2335
-msgid "Hot Corner"
-msgstr "ركن حساس"
-
-#: src/ui/prefs.ui:2384
-msgid "App Gesture"
-msgstr "إيماءة التطبيق"
-
-#: src/ui/prefs.ui:2439
-msgid "Workspace Wraparound"
-msgstr "مساحة العمل ملفوفة"
-
-#: src/ui/prefs.ui:2450
-msgid ""
-"Next workspace will be the first workspace when you are in the last "
-"workspace. and previous workspace will be the last workspace when you are in "
-"the first workspace."
-msgstr ""
-"ستكون مساحة العمل التالية هي مساحة العمل الأولى عندما تكون في آخر مساحة عمل."
-"ومساحة العمل السابقة ستكون آخر مساحة عمل عندما تكون في مساحة العمل الأولى."
-
-#: src/ui/prefs.ui:2514
-msgid "Window Demands Attention Focus"
-msgstr "نافذة تتطلب التركيز على الاهتمام"
-
-#: src/ui/prefs.ui:2525
-msgid "Removes window is ready notification and focus on the window"
-msgstr "يزيل نافذة إشعار جاهز والتركيز على النافذة"
-
-#: src/ui/prefs.ui:2589
-msgid "Type to Search"
-msgstr "اكتب للبحث"
-
-#: src/ui/prefs.ui:2600
-msgid ""
-"You can start search without search entry or even focusing on it in overview"
-msgstr "يمكنك بدء البحث بدون إدخال بحث أو حتى التركيز عليه في نظرة عامة"
-
-#: src/ui/prefs.ui:2664
-msgid "Always Show Workspace Switcher"
-msgstr "إظهار أداة تبديل مساحة العمل دائمًا"
-
-#: src/ui/prefs.ui:2675
-msgid ""
-"Shows workspace switcher even when only one workspace used with dynamic "
-"workspaces"
-msgstr ""
-"يعرض مبدل مساحة العمل حتى عند استخدام مساحة عمل واحدة فقط مع مساحات العمل "
-"الديناميكية"
-
-#: src/ui/prefs.ui:2739
-msgid "Startup Status"
-msgstr "حالة بدء التشغيل"
-
-#: src/ui/prefs.ui:2750
-msgid "When GNOME Shell is starting up for the first time"
-msgstr "عندما يبدأ GNOME Shell لأول مرة"
-
-#: src/ui/prefs.ui:2771
-msgid "Desktop"
-msgstr "سطح المكتب"
-
-#: src/ui/prefs.ui:2772
-msgid "Overview"
-msgstr "ملخص"
-
-#: src/ui/prefs.ui:2804
-msgid "Customize"
-msgstr "طوّع"
-
-#: src/ui/prefs.ui:2858
-msgid "Workspace Background Corner Size"
-msgstr "حجم ركن خلفية مساحة العمل"
-
-#: src/ui/prefs.ui:2869
-msgid "Workspace background corner size in overview"
-msgstr "حجم ركن خلفية مساحة العمل في نظرة عامة"
-
-#: src/ui/prefs.ui:2890 src/ui/prefs.ui:3003 src/ui/prefs.ui:3115
-#: src/ui/prefs.ui:3228 src/ui/prefs.ui:3341
-msgid "By Shell Theme"
-msgstr "بواسطة مظهر الشل"
-
-#: src/ui/prefs.ui:2991
-msgid "Panel Size"
-msgstr "مقاس اللوحه"
-
-#: src/ui/prefs.ui:3103
-msgid "Panel Button Padding Size"
-msgstr "حجم المساحة المتروكة لزر اللوحة"
-
-#: src/ui/prefs.ui:3216
-msgid "Panel Indicator Padding Size"
-msgstr "حجم حشوة مؤشر اللوحة"
-
-#: src/ui/prefs.ui:3329
-msgid "Panel Corner Size"
-msgstr "حجم زاوية اللوحة"
-
-#: src/ui/prefs.ui:3342
-msgid "No Corner"
-msgstr "بدون زوايا"
-
-#: src/ui/prefs.ui:3442
-msgid "Panel Position"
-msgstr "موقع اللوحة"
-
-#: src/ui/prefs.ui:3454
-msgid "Top"
-msgstr "اعلى"
-
-#: src/ui/prefs.ui:3455
-msgid "Bottom"
-msgstr "اسفل"
-
-#: src/ui/prefs.ui:3495
-msgid "Clock Menu Position"
-msgstr "موضع قائمة الساعة"
-
-#: src/ui/prefs.ui:3507
-msgid "Center"
-msgstr "المركز"
-
-#: src/ui/prefs.ui:3508
-msgid "Right"
-msgstr "اليمين"
-
-#: src/ui/prefs.ui:3509
-msgid "Left"
-msgstr "اليسار"
-
-#: src/ui/prefs.ui:3549
-msgid "Clock Menu Position Offset"
-msgstr "إزاحة موضع قائمة الساعة"
-
-#: src/ui/prefs.ui:3610
-msgid "Workspace Switcher Size"
-msgstr "حجم مبدل مساحة العمل"
-
-#: src/ui/prefs.ui:3622 src/ui/prefs.ui:3763
-msgid "Default"
-msgstr "الإفتراضي"
-
-#: src/ui/prefs.ui:3692
-msgid "Animation"
-msgstr "تأثيرات"
-
-#: src/ui/prefs.ui:3704
-msgid "No Animation"
-msgstr "بدون تأثيرات"
-
-#: src/ui/prefs.ui:3705
-msgid "Default Speed"
-msgstr "السرعة الافتراضية"
-
-#: src/ui/prefs.ui:3706
-msgid "Fastest"
-msgstr "سريع جدا"
-
-#: src/ui/prefs.ui:3707
-msgid "Faster"
-msgstr "اسرع"
-
-#: src/ui/prefs.ui:3708
-msgid "Fast"
-msgstr "سريع"
-
-#: src/ui/prefs.ui:3709
-msgid "Slow"
-msgstr "بطيء"
-
-#: src/ui/prefs.ui:3710
-msgid "Slower"
-msgstr "أبطأ"
-
-#: src/ui/prefs.ui:3711
-msgid "Slowest"
-msgstr "بطئ جدا"
-
-#: src/ui/prefs.ui:3751
-msgid "Dash Icon Size"
-msgstr "حجم رمز الشرطة"
-
-#: src/ui/prefs.ui:3812
-msgid "Notification Banner Position"
-msgstr "موقف لافتة الإخطار"
-
-#: src/ui/prefs.ui:3823
-msgid "Notification popup position when notifications show up on the screen"
-msgstr "موقف منبثق للإعلام عندما تظهر الإخطارات على الشاشة"
-
-#: src/ui/prefs.ui:3844
-msgid "Top Start"
-msgstr "بداية القمة"
-
-#: src/ui/prefs.ui:3845
-msgid "Top Center"
-msgstr "مركز أعلى"
-
-#: src/ui/prefs.ui:3846
-msgid "Top End"
-msgstr "الطرف العلوي"

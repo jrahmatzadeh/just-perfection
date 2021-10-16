@@ -34,7 +34,7 @@ function init()
 function buildPrefsWidget()
 {
     let gettextDomain = Me.metadata['gettext-domain'];
-    let UIFilePath = Me.dir.get_child('ui/prefs.ui').get_path();
+    let UIFolderPath = Me.dir.get_child('ui').get_path();
     let binFolderPath = Me.dir.get_child('bin').get_path();
 
     let builder = new Gtk.Builder();
@@ -47,6 +47,6 @@ function buildPrefsWidget()
         Gio,
     }, shellVersion);
 
-    return prefs.getMainPrefs(UIFilePath, binFolderPath, gettextDomain);
+    return prefs.getMainPrefs(UIFolderPath, binFolderPath, gettextDomain);
 }
 

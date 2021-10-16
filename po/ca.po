@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-11 08:06-0700\n"
+"POT-Creation-Date: 2021-10-16 11:22-0700\n"
 "PO-Revision-Date: 2021-03-16 19:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: Catalan \n"
@@ -17,6 +17,281 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.4.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/ui/behavior.ui:19
+msgid "Behavior"
+msgstr "Comportament"
+
+#: src/ui/behavior.ui:68
+msgid "Hot Corner"
+msgstr "Cantonada activa"
+
+#: src/ui/behavior.ui:117
+msgid "App Gesture"
+msgstr "Gestos d'aplicació"
+
+#: src/ui/behavior.ui:172
+msgid "Workspace Wraparound"
+msgstr "Espai de treball Wraparound"
+
+#: src/ui/behavior.ui:183
+msgid ""
+"Next workspace will be the first workspace when you are in the last "
+"workspace. and previous workspace will be the last workspace when you are in "
+"the first workspace."
+msgstr ""
+"El següent espai de treball serà el primer espai de treball quan estigueu a "
+"l’últim espai de treball. i l’espai de treball anterior serà l’últim espai "
+"de treball quan estigueu al primer espai de treball."
+
+#: src/ui/behavior.ui:247
+msgid "Window Demands Attention Focus"
+msgstr "La finestra demana un focus d’atenció"
+
+#: src/ui/behavior.ui:258
+msgid "Removes window is ready notification and focus on the window"
+msgstr ""
+"Elimina la finestra ja està llesta la notificació i se centra en la finestra"
+
+#: src/ui/behavior.ui:322
+msgid "Type to Search"
+msgstr "Escriu per cercar"
+
+#: src/ui/behavior.ui:333
+msgid ""
+"You can start search without search entry or even focusing on it in overview"
+msgstr ""
+"Podeu iniciar la cerca sense l'entrada de cerca o fins i tot centrant-vos-hi "
+"en la vista general"
+
+#: src/ui/behavior.ui:397
+msgid "Always Show Workspace Switcher"
+msgstr "Mostra sempre el commutador d'espai de treball"
+
+#: src/ui/behavior.ui:408
+msgid ""
+"Shows workspace switcher even when only one workspace used with dynamic "
+"workspaces"
+msgstr ""
+"Mostra el commutador d'espai de treball fins i tot quan només s'utilitza un "
+"espai de treball amb espais de treball dinàmics"
+
+#: src/ui/behavior.ui:472
+msgid "Startup Status"
+msgstr "Estat d’inici"
+
+#: src/ui/behavior.ui:483
+msgid "When GNOME Shell is starting up for the first time"
+msgstr "Quan el GNOME Shell s’inicia per primera vegada"
+
+#: src/ui/behavior.ui:504
+msgid "Desktop"
+msgstr "Escriptori"
+
+#: src/ui/behavior.ui:505
+msgid "Overview"
+msgstr "Visió general"
+
+#: src/ui/customize.ui:19
+msgid "Customize"
+msgstr "Personalitza"
+
+#: src/ui/customize.ui:73
+msgid "Workspace Background Corner Size"
+msgstr "Mida de la cantonada de fons de l’espai de treball"
+
+#: src/ui/customize.ui:84
+msgid "Workspace background corner size in overview"
+msgstr "Cantonada del fons de l’espai de treball Mida a la vista general"
+
+#: src/ui/customize.ui:105 src/ui/customize.ui:218 src/ui/customize.ui:330
+#: src/ui/customize.ui:443 src/ui/customize.ui:556
+msgid "By Shell Theme"
+msgstr "Pel tema de l'entorn"
+
+#: src/ui/customize.ui:206
+msgid "Panel Size"
+msgstr "Mida del tauler"
+
+#: src/ui/customize.ui:318
+msgid "Panel Button Padding Size"
+msgstr "Mida del farciment del botó del tauler"
+
+#: src/ui/customize.ui:431
+msgid "Panel Indicator Padding Size"
+msgstr "Indicador de panell de mida de farciment"
+
+#: src/ui/customize.ui:544
+msgid "Panel Corner Size"
+msgstr "Mida de la cantonada del tauler"
+
+#: src/ui/customize.ui:557
+msgid "No Corner"
+msgstr "Sense cantonada"
+
+#: src/ui/customize.ui:657
+msgid "Panel Position"
+msgstr "Posició del panell"
+
+#: src/ui/customize.ui:669
+msgid "Top"
+msgstr "Superior"
+
+#: src/ui/customize.ui:670
+msgid "Bottom"
+msgstr "Inferior"
+
+#: src/ui/customize.ui:710
+msgid "Clock Menu Position"
+msgstr "Posició del menú del rellotge"
+
+#: src/ui/customize.ui:722
+msgid "Center"
+msgstr "Centre"
+
+#: src/ui/customize.ui:723
+msgid "Right"
+msgstr "Dreta"
+
+#: src/ui/customize.ui:724
+msgid "Left"
+msgstr "Esquerra"
+
+#: src/ui/customize.ui:764
+msgid "Clock Menu Position Offset"
+msgstr "Desplaçament del menú del rellotge"
+
+#: src/ui/customize.ui:825
+msgid "Workspace Switcher Size"
+msgstr "Mida del commutador d'espais de treball"
+
+#: src/ui/customize.ui:837 src/ui/customize.ui:978
+msgid "Default"
+msgstr "Per defecte"
+
+#: src/ui/customize.ui:907
+msgid "Animation"
+msgstr "Animació"
+
+#: src/ui/customize.ui:919
+msgid "No Animation"
+msgstr "Sense animació"
+
+#: src/ui/customize.ui:920
+msgid "Default Speed"
+msgstr "Velocitat per defecte"
+
+#: src/ui/customize.ui:921
+msgid "Fastest"
+msgstr "El més ràpid"
+
+#: src/ui/customize.ui:922
+msgid "Faster"
+msgstr "Més ràpid"
+
+#: src/ui/customize.ui:923
+msgid "Fast"
+msgstr "Ràpid"
+
+#: src/ui/customize.ui:924
+msgid "Slow"
+msgstr "Lent"
+
+#: src/ui/customize.ui:925
+msgid "Slower"
+msgstr "Més lent"
+
+#: src/ui/customize.ui:926
+msgid "Slowest"
+msgstr "El més lent"
+
+#: src/ui/customize.ui:966
+msgid "Dash Icon Size"
+msgstr "mida de la icona de guió"
+
+#: src/ui/customize.ui:1027
+msgid "Notification Banner Position"
+msgstr "Posició del bàner de notificacions"
+
+#: src/ui/customize.ui:1038
+msgid "Notification popup position when notifications show up on the screen"
+msgstr ""
+"Posició emergent de les notificacions quan apareixen les notificacions a la "
+"pantalla"
+
+#: src/ui/customize.ui:1059
+msgid "Top Start"
+msgstr "Inici superior"
+
+#: src/ui/customize.ui:1060
+msgid "Top Center"
+msgstr "Centre superior"
+
+#: src/ui/customize.ui:1061
+msgid "Top End"
+msgstr "Extrem superior"
+
+#: src/ui/icons.ui:19
+msgid "Icons"
+msgstr "icones"
+
+#: src/ui/icons.ui:68
+msgid "App Menu Icon"
+msgstr "Icona del menú de l'aplicació"
+
+#: src/ui/icons.ui:117
+msgid "Panel Notification Icon"
+msgstr "Icona del panell de notificacions"
+
+#: src/ui/icons.ui:166
+msgid "Power Icon"
+msgstr "Icona d'alimentació"
+
+#: src/ui/icons.ui:215
+msgid "Panel Arrow"
+msgstr "Fletxa del panell"
+
+#: src/ui/icons.ui:270
+msgid "Window Picker Icon"
+msgstr "Icona del selector de finestres"
+
+#: src/ui/icons.ui:281
+msgid "The icon under window preview in overview"
+msgstr "La icona de la vista prèvia de la finestra a la vista general"
+
+#: src/ui/icons.ui:339
+msgid "Activities Button Icon"
+msgstr "Icona del botó d'activitats"
+
+#: src/ui/icons.ui:438
+msgid "Activities Button Icon in Monochrome"
+msgstr "Icona del botó d'activitats en monocrom"
+
+#: src/ui/icons.ui:493
+msgid "Activities Button Icon With Label"
+msgstr "Icona del botó d'activitats amb etiqueta"
+
+#: src/ui/icons.ui:504
+msgid "Only works when you have selected an icon for activities button"
+msgstr "Només funciona quan heu seleccionat una icona per al botó d'activitats"
+
+#: src/ui/no-results-found.ui:25
+msgid "No Results Found"
+msgstr "Sense resultats"
+
+#: src/ui/override.ui:19
+msgid "Override"
+msgstr "Sobreescriu"
+
+#: src/ui/override.ui:76
+msgid "Shell Theme"
+msgstr "Tema del l'entorn"
+
+#: src/ui/override.ui:87
+msgid "Overrides the shell theme partially to create a minimal desktop"
+msgstr ""
+"Sobreescriu parcialment el tema de l'entorn per crear un escriptori "
+"minimalista"
 
 #: src/ui/prefs.ui:10
 msgid "Bug Report"
@@ -30,130 +305,112 @@ msgstr "Suport a través de Patreon"
 msgid "Select File"
 msgstr "Seleccioneu Fitxer"
 
-#: src/ui/prefs.ui:188
-msgid "No Results Found"
-msgstr "Sense resultats"
-
-#: src/ui/prefs.ui:210
-msgid "Override"
-msgstr "Sobreescriu"
-
-#: src/ui/prefs.ui:267
-msgid "Shell Theme"
-msgstr "Tema del l'entorn"
-
-#: src/ui/prefs.ui:278
-msgid "Overrides the shell theme partially to create a minimal desktop"
-msgstr ""
-"Sobreescriu parcialment el tema de l'entorn per crear un escriptori "
-"minimalista"
-
-#: src/ui/prefs.ui:328
+#: src/ui/visibility.ui:19
 msgid "Visibility"
 msgstr "Visibilitat"
 
-#: src/ui/prefs.ui:377
+#: src/ui/visibility.ui:68
 msgid "Panel"
 msgstr "Panell"
 
-#: src/ui/prefs.ui:431
+#: src/ui/visibility.ui:123
 msgid "Panel in Overview"
 msgstr "Tauler a la vista general"
 
-#: src/ui/prefs.ui:490
+#: src/ui/visibility.ui:182
 msgid "Activities Button"
 msgstr "Botó d'activitats"
 
-#: src/ui/prefs.ui:501
+#: src/ui/visibility.ui:193
 msgid "Button in panel to toggle overview visibility"
 msgstr "Botó del tauler per canviar la visibilitat de la visió general"
 
-#: src/ui/prefs.ui:565
+#: src/ui/visibility.ui:257
 msgid "App Menu"
 msgstr "Menú de l'aplicació"
 
-#: src/ui/prefs.ui:576
+#: src/ui/visibility.ui:268
 msgid "The menu button in panel with focused window text"
 msgstr "El botó de menú del tauler amb text de la finestra enfocat"
 
-#: src/ui/prefs.ui:640
+#: src/ui/visibility.ui:332
 msgid "Clock Menu"
 msgstr "Menú del rellotge"
 
-#: src/ui/prefs.ui:651
+#: src/ui/visibility.ui:343
 msgid "Also known as date menu shows date and time in panel"
 msgstr "També es coneix com a menú de data i mostra la data i l’hora al tauler"
 
-#: src/ui/prefs.ui:715
+#: src/ui/visibility.ui:407
 msgid "Keyboard Layout"
 msgstr "Disposició del teclat"
 
-#: src/ui/prefs.ui:726
+#: src/ui/visibility.ui:418
 msgid "Keyboard Layout indicator button in panel"
 msgstr "Botó indicador del disseny del teclat al tauler"
 
-#: src/ui/prefs.ui:790
+#: src/ui/visibility.ui:482
 msgid "Accessibility Menu"
 msgstr "Menú d'accessibilitat"
 
-#: src/ui/prefs.ui:801
+#: src/ui/visibility.ui:493
 msgid "Accessibility Menu indicator button in panel"
 msgstr "Botó indicador del menú d'accessibilitat al tauler"
 
-#: src/ui/prefs.ui:865
+#: src/ui/visibility.ui:557
 msgid "System Menu (Aggregate Menu)"
 msgstr "Menú del sistema (menú d'agregat)"
 
-#: src/ui/prefs.ui:876
+#: src/ui/visibility.ui:568
 msgid "System menu holds power, volume and network icons in panel"
 msgstr "El menú del sistema conté icones de potència, volum i xarxa al tauler"
 
-#: src/ui/prefs.ui:940
+#: src/ui/visibility.ui:632
 msgid "Search"
 msgstr "Cerca"
 
-#: src/ui/prefs.ui:951
+#: src/ui/visibility.ui:643
 msgid "Search entry in overview"
 msgstr "Cerqueu l'entrada a la vista general"
 
-#: src/ui/prefs.ui:1015
+#: src/ui/visibility.ui:707
 msgid "Dash"
 msgstr "Dash"
 
-#: src/ui/prefs.ui:1026
+#: src/ui/visibility.ui:718
 msgid "Dash holds favorite and opened applications icons"
 msgstr "Dash conté les icones d'aplicacions favorites i obertes"
 
-#: src/ui/prefs.ui:1090
+#: src/ui/visibility.ui:782
 msgid "Show Applications Button"
 msgstr "Botó Mostra les aplicacions"
 
-#: src/ui/prefs.ui:1101
+#: src/ui/visibility.ui:793
 msgid "Button in dash that toggles applications list visibility"
 msgstr "Botó de guió que commuta la visibilitat de la llista d'aplicacions"
 
-#: src/ui/prefs.ui:1165
+#: src/ui/visibility.ui:857
 msgid "On Screen Display (OSD)"
 msgstr "Visualització en pantalla (OSD)"
 
-#: src/ui/prefs.ui:1176
+#: src/ui/visibility.ui:868
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "Volum i brillantor a la pantalla quan es produeix el canvi"
 
-#: src/ui/prefs.ui:1240
+#: src/ui/visibility.ui:932
 msgid "Workspace Popup"
 msgstr "Finestra emergent de l'espai de treball"
 
-#: src/ui/prefs.ui:1251
+#: src/ui/visibility.ui:943
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr ""
 "Finestra emergent que apareix a la pantalla quan canvieu l'espai de treball"
 
-#: src/ui/prefs.ui:1315
+#: src/ui/visibility.ui:1007
 msgid "Workspace Switcher"
 msgstr "Commutador dels espais de treball"
 
-#: src/ui/prefs.ui:1326
+#: src/ui/visibility.ui:1018
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
@@ -161,300 +418,43 @@ msgstr ""
 "També fa referència a les miniatures de l’espai de treball que veieu a la "
 "vista general per seleccionar un espai de treball"
 
-#: src/ui/prefs.ui:1390
+#: src/ui/visibility.ui:1082
 msgid "Workspaces App Grid"
 msgstr "Àrea de treball App Grid"
 
-#: src/ui/prefs.ui:1401
+#: src/ui/visibility.ui:1093
 msgid "Workspace boxes in app grid"
 msgstr "Quadres d'espai de treball a la quadrícula de l'aplicació"
 
-#: src/ui/prefs.ui:1465
+#: src/ui/visibility.ui:1157
 msgid "Window Picker Close Button"
 msgstr "Botó de tancament del selector de finestres"
 
-#: src/ui/prefs.ui:1476
+#: src/ui/visibility.ui:1168
 msgid "The close button on window preview in overview"
 msgstr ""
 "El botó de tancament de la vista prèvia de la finestra a la vista general"
 
-#: src/ui/prefs.ui:1540
+#: src/ui/visibility.ui:1232
 msgid "Window Picker Caption"
 msgstr "Subtítol del selector de finestres"
 
-#: src/ui/prefs.ui:1551
+#: src/ui/visibility.ui:1243
 msgid "The text under window preview in overview"
 msgstr "El text a la vista prèvia de la finestra a la vista general"
 
-#: src/ui/prefs.ui:1615
+#: src/ui/visibility.ui:1307
 msgid "Background Menu"
 msgstr "Menú del fons de pantalla"
 
-#: src/ui/prefs.ui:1626
+#: src/ui/visibility.ui:1318
 msgid "When you right click on desktop background"
 msgstr "Quan feu clic dret sobre el fons de l'escriptori"
 
-#: src/ui/prefs.ui:1690
+#: src/ui/visibility.ui:1382
 msgid "Ripple Box"
 msgstr "Ripple Box"
 
-#: src/ui/prefs.ui:1701
+#: src/ui/visibility.ui:1393
 msgid "Hot corner animation effects"
 msgstr "Efectes d'animació de hot corner"
-
-#: src/ui/prefs.ui:1751
-msgid "Icons"
-msgstr "icones"
-
-#: src/ui/prefs.ui:1800
-msgid "App Menu Icon"
-msgstr "Icona del menú de l'aplicació"
-
-#: src/ui/prefs.ui:1849
-msgid "Panel Notification Icon"
-msgstr "Icona del panell de notificacions"
-
-#: src/ui/prefs.ui:1898
-msgid "Power Icon"
-msgstr "Icona d'alimentació"
-
-#: src/ui/prefs.ui:1947
-msgid "Panel Arrow"
-msgstr "Fletxa del panell"
-
-#: src/ui/prefs.ui:2002
-msgid "Window Picker Icon"
-msgstr "Icona del selector de finestres"
-
-#: src/ui/prefs.ui:2013
-msgid "The icon under window preview in overview"
-msgstr "La icona de la vista prèvia de la finestra a la vista general"
-
-#: src/ui/prefs.ui:2071
-msgid "Activities Button Icon"
-msgstr "Icona del botó d'activitats"
-
-#: src/ui/prefs.ui:2170
-msgid "Activities Button Icon in Monochrome"
-msgstr "Icona del botó d'activitats en monocrom"
-
-#: src/ui/prefs.ui:2225
-msgid "Activities Button Icon With Label"
-msgstr "Icona del botó d'activitats amb etiqueta"
-
-#: src/ui/prefs.ui:2236
-msgid "Only works when you have selected an icon for activities button"
-msgstr "Només funciona quan heu seleccionat una icona per al botó d'activitats"
-
-#: src/ui/prefs.ui:2286
-msgid "Behavior"
-msgstr "Comportament"
-
-#: src/ui/prefs.ui:2335
-msgid "Hot Corner"
-msgstr "Cantonada activa"
-
-#: src/ui/prefs.ui:2384
-msgid "App Gesture"
-msgstr "Gestos d'aplicació"
-
-#: src/ui/prefs.ui:2439
-msgid "Workspace Wraparound"
-msgstr "Espai de treball Wraparound"
-
-#: src/ui/prefs.ui:2450
-msgid ""
-"Next workspace will be the first workspace when you are in the last "
-"workspace. and previous workspace will be the last workspace when you are in "
-"the first workspace."
-msgstr ""
-"El següent espai de treball serà el primer espai de treball quan estigueu a "
-"l’últim espai de treball. i l’espai de treball anterior serà l’últim espai "
-"de treball quan estigueu al primer espai de treball."
-
-#: src/ui/prefs.ui:2514
-msgid "Window Demands Attention Focus"
-msgstr "La finestra demana un focus d’atenció"
-
-#: src/ui/prefs.ui:2525
-msgid "Removes window is ready notification and focus on the window"
-msgstr ""
-"Elimina la finestra ja està llesta la notificació i se centra en la finestra"
-
-#: src/ui/prefs.ui:2589
-msgid "Type to Search"
-msgstr "Escriu per cercar"
-
-#: src/ui/prefs.ui:2600
-msgid ""
-"You can start search without search entry or even focusing on it in overview"
-msgstr ""
-"Podeu iniciar la cerca sense l'entrada de cerca o fins i tot centrant-vos-hi "
-"en la vista general"
-
-#: src/ui/prefs.ui:2664
-msgid "Always Show Workspace Switcher"
-msgstr "Mostra sempre el commutador d'espai de treball"
-
-#: src/ui/prefs.ui:2675
-msgid ""
-"Shows workspace switcher even when only one workspace used with dynamic "
-"workspaces"
-msgstr ""
-"Mostra el commutador d'espai de treball fins i tot quan només s'utilitza un "
-"espai de treball amb espais de treball dinàmics"
-
-#: src/ui/prefs.ui:2739
-msgid "Startup Status"
-msgstr "Estat d’inici"
-
-#: src/ui/prefs.ui:2750
-msgid "When GNOME Shell is starting up for the first time"
-msgstr "Quan el GNOME Shell s’inicia per primera vegada"
-
-#: src/ui/prefs.ui:2771
-msgid "Desktop"
-msgstr "Escriptori"
-
-#: src/ui/prefs.ui:2772
-msgid "Overview"
-msgstr "Visió general"
-
-#: src/ui/prefs.ui:2804
-msgid "Customize"
-msgstr "Personalitza"
-
-#: src/ui/prefs.ui:2858
-msgid "Workspace Background Corner Size"
-msgstr "Mida de la cantonada de fons de l’espai de treball"
-
-#: src/ui/prefs.ui:2869
-msgid "Workspace background corner size in overview"
-msgstr "Cantonada del fons de l’espai de treball Mida a la vista general"
-
-#: src/ui/prefs.ui:2890 src/ui/prefs.ui:3003 src/ui/prefs.ui:3115
-#: src/ui/prefs.ui:3228 src/ui/prefs.ui:3341
-msgid "By Shell Theme"
-msgstr "Pel tema de l'entorn"
-
-#: src/ui/prefs.ui:2991
-msgid "Panel Size"
-msgstr "Mida del tauler"
-
-#: src/ui/prefs.ui:3103
-msgid "Panel Button Padding Size"
-msgstr "Mida del farciment del botó del tauler"
-
-#: src/ui/prefs.ui:3216
-msgid "Panel Indicator Padding Size"
-msgstr "Indicador de panell de mida de farciment"
-
-#: src/ui/prefs.ui:3329
-msgid "Panel Corner Size"
-msgstr "Mida de la cantonada del tauler"
-
-#: src/ui/prefs.ui:3342
-msgid "No Corner"
-msgstr "Sense cantonada"
-
-#: src/ui/prefs.ui:3442
-msgid "Panel Position"
-msgstr "Posició del panell"
-
-#: src/ui/prefs.ui:3454
-msgid "Top"
-msgstr "Superior"
-
-#: src/ui/prefs.ui:3455
-msgid "Bottom"
-msgstr "Inferior"
-
-#: src/ui/prefs.ui:3495
-msgid "Clock Menu Position"
-msgstr "Posició del menú del rellotge"
-
-#: src/ui/prefs.ui:3507
-msgid "Center"
-msgstr "Centre"
-
-#: src/ui/prefs.ui:3508
-msgid "Right"
-msgstr "Dreta"
-
-#: src/ui/prefs.ui:3509
-msgid "Left"
-msgstr "Esquerra"
-
-#: src/ui/prefs.ui:3549
-msgid "Clock Menu Position Offset"
-msgstr "Desplaçament del menú del rellotge"
-
-#: src/ui/prefs.ui:3610
-msgid "Workspace Switcher Size"
-msgstr "Mida del commutador d'espais de treball"
-
-#: src/ui/prefs.ui:3622 src/ui/prefs.ui:3763
-msgid "Default"
-msgstr "Per defecte"
-
-#: src/ui/prefs.ui:3692
-msgid "Animation"
-msgstr "Animació"
-
-#: src/ui/prefs.ui:3704
-msgid "No Animation"
-msgstr "Sense animació"
-
-#: src/ui/prefs.ui:3705
-msgid "Default Speed"
-msgstr "Velocitat per defecte"
-
-#: src/ui/prefs.ui:3706
-msgid "Fastest"
-msgstr "El més ràpid"
-
-#: src/ui/prefs.ui:3707
-msgid "Faster"
-msgstr "Més ràpid"
-
-#: src/ui/prefs.ui:3708
-msgid "Fast"
-msgstr "Ràpid"
-
-#: src/ui/prefs.ui:3709
-msgid "Slow"
-msgstr "Lent"
-
-#: src/ui/prefs.ui:3710
-msgid "Slower"
-msgstr "Més lent"
-
-#: src/ui/prefs.ui:3711
-msgid "Slowest"
-msgstr "El més lent"
-
-#: src/ui/prefs.ui:3751
-msgid "Dash Icon Size"
-msgstr "mida de la icona de guió"
-
-#: src/ui/prefs.ui:3812
-msgid "Notification Banner Position"
-msgstr "Posició del bàner de notificacions"
-
-#: src/ui/prefs.ui:3823
-msgid "Notification popup position when notifications show up on the screen"
-msgstr ""
-"Posició emergent de les notificacions quan apareixen les notificacions a la "
-"pantalla"
-
-#: src/ui/prefs.ui:3844
-msgid "Top Start"
-msgstr "Inici superior"
-
-#: src/ui/prefs.ui:3845
-msgid "Top Center"
-msgstr "Centre superior"
-
-#: src/ui/prefs.ui:3846
-msgid "Top End"
-msgstr "Extrem superior"

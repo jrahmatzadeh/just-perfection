@@ -183,18 +183,40 @@ var Prefs = class
     /**
      * register all signals
      *
-     * @param {string} UIFilePath file path to ui file
+     * @param {string} UIFolderPath folder path to ui folder
      * @param {string} binFolderPath bin folder path
      * @param {string} gettextDomain gettext domain
      *
      * @returns {Object}
      */
-    getMainPrefs(UIFilePath, binFolderPath, gettextDomain)
+    getMainPrefs(UIFolderPath, binFolderPath, gettextDomain)
     {
+        // changing the order here can change the elements order in ui 
+        let uiFilenames = [
+            'main',
+            'no-results-found',
+            'override',
+            'visibility',
+            'icons',
+            'behavior',
+            'customize',
+        ];
+
         this._builder.set_translation_domain(gettextDomain);
-        this._builder.add_from_file(UIFilePath);
+        for (let uiFilename of uiFilenames) {
+            this._builder.add_from_file(`${UIFolderPath}/${uiFilename}.ui`);
+        }
 
         let obj = this._builder.get_object('main_prefs');
+        let prefsBox = this._builder.get_object('main_prefs_in_box');
+
+        for (let uiFilename of uiFilenames) {
+            if (uiFilename === 'main') {
+                continue;
+            }
+            let elementId = uiFilename.replace(/-/g, '_');
+            prefsBox.append(this._builder.get_object(elementId));
+        }
 
         this._convertComboBoxTextToDropDown();
         this._fixIconObjects();
@@ -549,8 +571,8 @@ var Prefs = class
             frameElm.visible = visible;
         }
 
-        let notFoundFrame = this._builder.get_object('no_results_found_frame');
-        notFoundFrame.visible = noResultsFoundVisiblity;
+        let notFound = this._builder.get_object('no_results_found');
+        notFound.visible = noResultsFoundVisiblity;
     }
 };
 
