@@ -1574,6 +1574,10 @@ var API = class
 
         panelBoxs[fromPos].remove_actor(dateMenu.container);
         panelBoxs[pos].insert_child_at_index(dateMenu.container, toIndex);
+
+        if (this.isLocked()) {
+            this.dateMenuHide();
+        }
     }
 
     /**
