@@ -68,75 +68,574 @@ var Prefs = class
 
         // setting all the main keys
 
-        // visiblity
-        this._setKey('visiblity', 'panel', 'GtkSwitch', true);
-        this._setKey('visiblity', 'panel-in-overview', 'GtkSwitch', true);
-        this._setKey('visiblity', 'activities-button', 'GtkSwitch', true);
-        this._setKey('visiblity', 'app-menu', 'GtkSwitch', true);
-        this._setKey('visiblity', 'clock-menu', 'GtkSwitch', true);
-        this._setKey('visiblity', 'keyboard-layout', 'GtkSwitch', true);
-        this._setKey('visiblity', 'accessibility-menu', 'GtkSwitch', true);
-        this._setKey('visiblity', 'aggregate-menu', 'GtkSwitch', true);
-        this._setKey('visiblity', 'search', 'GtkSwitch', true);
-        this._setKey('visiblity', 'dash', 'GtkSwitch', true);
-        this._setKey('visiblity', 'osd', 'GtkSwitch', true);
-        this._setKey('visiblity', 'workspace-popup', 'GtkSwitch', true);
-        this._setKey('visiblity', 'workspace', 'GtkSwitch', true);
-        this._setKey('visiblity', 'background-menu', 'GtkSwitch', true);
-        this._setKey('visiblity', 'show-apps-button', 'GtkSwitch', true);
-        this._setKey('visiblity', 'workspaces-in-app-grid', 'GtkSwitch',
-            this._shellVersion >= 40);
-        this._setKey('visiblity', 'window-preview-caption', 'GtkSwitch', true);
-        this._setKey('visiblity', 'window-preview-close-button', 'GtkSwitch', true);
-        this._setKey('visiblity', 'ripple-box', 'GtkSwitch', true);
+        this._setKey(
+            'visiblity',
+            'panel',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: false,
+                superMinimal: false,
+            }
+        );
 
-        // icons
-        this._setKey('icons', 'app-menu-icon', 'GtkSwitch', true);
-        this._setKey('icons', 'panel-notification-icon', 'GtkSwitch', true);
-        this._setKey('icons', 'power-icon', 'GtkSwitch', true);
-        this._setKey('icons', 'window-picker-icon', 'GtkSwitch',
-            this._shellVersion >= 40);
-        this._setKey('icons', 'panel-arrow', 'GtkSwitch',
-            this._shellVersion < 40);
-        this._setKey('icons', 'activities-button-icon-path', 'GtkEntry', true);
-        this._setKey('icons', 'activities-button-icon-monochrome', 'GtkSwitch', true);
-        this._setKey('icons', 'activities-button-label', 'GtkSwitch', true);
+        this._setKey(
+            'visiblity',
+            'panel-in-overview',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: false,
+            }
+        );
 
-        // behavior
-        this._setKey('behavior', 'type-to-search', 'GtkSwitch', true);
-        this._setKey('behavior', 'hot-corner', 'GtkSwitch', this._shellVersion < 41);
-        this._setKey('behavior', 'gesture', 'GtkSwitch', this._shellVersion < 40);
-        this._setKey('behavior', 'window-demands-attention-focus', 'GtkSwitch', true);
-        this._setKey('behavior', 'workspace-switcher-should-show', 'GtkSwitch',
-            this._shellVersion >= 40);
-        this._setKey('behavior', 'startup-status', 'GtkComboBoxText',
-            this._shellVersion >= 40);
-        this._setKey('behavior', 'workspace-wrap-around', 'GtkSwitch', true);
+        this._setKey(
+            'visiblity',
+            'activities-button',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: false,
+            }
+        );
 
-        // customize
-        this._setKey('customize', 'workspace-background-corner-size', 'GtkComboBoxText',
-            this._shellVersion >= 40);
-        this._setKey('customize', 'top-panel-position', 'GtkComboBoxText', true);
-        this._setKey('customize', 'panel-corner-size', 'GtkComboBoxText', true);
-        this._setKey('customize', 'clock-menu-position', 'GtkComboBoxText', true);
-        this._setKey('customize', 'clock-menu-position-offset', 'GtkComboBoxText', true);
-        this._setKey('customize', 'workspace-switcher-size', 'GtkComboBoxText',
-            this._shellVersion >= 40);
-        this._setKey('customize', 'animation', 'GtkComboBoxText', true);
-        this._setKey('customize', 'dash-icon-size', 'GtkComboBoxText', true, {
-            '1': 32,
-            '2': 48,
-            '3': 64,
-        });
-        this._setKey('customize', 'notification-banner-position', 'GtkComboBoxText',
-            true);
-        this._setKey('customize', 'panel-size', 'GtkComboBoxText', true);
-        this._setKey('customize', 'panel-button-padding-size', 'GtkComboBoxText', true);
-        this._setKey('customize', 'panel-indicator-padding-size', 'GtkComboBoxText',
-            true);
+        this._setKey(
+            'visiblity',
+            'app-menu',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: false,
+                superMinimal: false,
+            }
+        );
 
-        // override
-        this._setKey('override', 'theme', 'GtkSwitch', true);
+        this._setKey(
+            'visiblity',
+            'clock-menu',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'visiblity',
+            'keyboard-layout',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'visiblity',
+            'accessibility-menu',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: false,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'visiblity',
+            'aggregate-menu',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'visiblity',
+            'search',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: false,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'visiblity',
+            'dash',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'visiblity',
+            'osd',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'visiblity',
+            'workspace-popup',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'visiblity',
+            'workspace',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: false,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'visiblity',
+            'background-menu',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'visiblity',
+            'show-apps-button',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: false,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'visiblity',
+            'workspaces-in-app-grid',
+            'GtkSwitch',
+            this._shellVersion >= 40,
+            {
+                default: true,
+                minimal: false,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'visiblity',
+            'window-preview-caption',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'visiblity',
+            'window-preview-close-button',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: true,
+            }
+        );
+
+        this._setKey(
+            'visiblity',
+            'ripple-box',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'icons',
+            'app-menu-icon',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: false,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'icons',
+            'panel-notification-icon',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'icons',
+            'power-icon',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: true,
+            }
+        );
+
+        this._setKey(
+            'icons',
+            'window-picker-icon',
+            'GtkSwitch',
+            this._shellVersion >= 40,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'icons',
+            'panel-arrow',
+            'GtkSwitch',
+            this._shellVersion < 40,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'icons',
+            'activities-button-icon-path',
+            'GtkEntry',
+            true,
+            {
+                default: '',
+                minimal: '',
+                superMinimal: '',
+            }
+        );
+
+        this._setKey(
+            'icons',
+            'activities-button-icon-monochrome',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: true,
+            }
+        );
+
+        this._setKey(
+            'icons',
+            'activities-button-label',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: true,
+            }
+        );
+
+        this._setKey(
+            'behavior',
+            'type-to-search',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: true,
+            }
+        );
+
+        this._setKey(
+            'behavior',
+            'hot-corner',
+            'GtkSwitch',
+            this._shellVersion < 41,
+            {
+                default: false,
+                minimal: true,
+                superMinimal: true,
+            }
+        );
+
+        this._setKey(
+            'behavior',
+            'gesture',
+            'GtkSwitch',
+            this._shellVersion < 40,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'behavior',
+            'window-demands-attention-focus',
+            'GtkSwitch',
+            true,
+            {
+                default: false,
+                minimal: true,
+                superMinimal: true,
+            }
+        );
+
+        this._setKey(
+            'behavior',
+            'workspace-switcher-should-show',
+            'GtkSwitch',
+            this._shellVersion >= 40,
+            {
+                default: false,
+                minimal: false,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'behavior',
+            'startup-status',
+            'GtkComboBoxText',
+            this._shellVersion >= 40,
+            {
+                default: 1,
+                minimal: 0,
+                superMinimal: 0,
+            }
+        );
+
+        this._setKey(
+            'behavior',
+            'workspace-wrap-around',
+            'GtkSwitch',
+            true,
+            {
+                default: false,
+                minimal: false,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
+            'customize',
+            'workspace-background-corner-size',
+            'GtkComboBoxText',
+            this._shellVersion >= 40,
+            {
+                default: 0,
+                minimal: 0,
+                superMinimal: 0,
+            }
+        );
+
+        this._setKey(
+            'customize',
+            'top-panel-position',
+            'GtkComboBoxText',
+            true,
+            {
+                default: 0,
+                minimal: 0,
+                superMinimal: 0,
+            }
+        );
+
+        this._setKey(
+            'customize',
+            'panel-corner-size',
+            'GtkComboBoxText',
+            true,
+            {
+                default: 0,
+                minimal: 0,
+                superMinimal: 0,
+            }
+        );
+
+        this._setKey(
+            'customize',
+            'clock-menu-position',
+            'GtkComboBoxText',
+            true,
+            {
+                default: 0,
+                minimal: 0,
+                superMinimal: 0,
+            }
+        );
+
+        this._setKey(
+            'customize',
+            'clock-menu-position-offset',
+            'GtkComboBoxText',
+            true,
+            {
+                default: 0,
+                minimal: 0,
+                superMinimal: 0,
+            }
+        );
+
+        this._setKey(
+            'customize',
+            'workspace-switcher-size',
+            'GtkComboBoxText',
+            this._shellVersion >= 40,
+            {
+                default: 0,
+                minimal: 0,
+                superMinimal: 0,
+            }
+        );
+
+        this._setKey(
+            'customize',
+            'animation',
+            'GtkComboBoxText',
+            true,
+            {
+                default: 1,
+                minimal: 1,
+                superMinimal: 1,
+            }
+        );
+
+        this._setKey(
+            'customize',
+            'dash-icon-size',
+            'GtkComboBoxText',
+            true,
+            {
+                default: 0,
+                minimal: 1,
+                superMinimal: 0,
+            },
+            {
+                '1': 32,
+                '2': 48,
+                '3': 64,
+            }
+        );
+
+        this._setKey(
+            'customize',
+            'notification-banner-position',
+            'GtkComboBoxText',
+            true,
+            {
+                default: 1,
+                minimal: 1,
+                superMinimal: 1,
+            }
+        );
+
+        this._setKey(
+            'customize',
+            'panel-size',
+            'GtkComboBoxText',
+            true,
+            {
+                default: 0,
+                minimal: 0,
+                superMinimal: 0,
+            }
+        );
+
+        this._setKey(
+            'customize',
+            'panel-button-padding-size',
+            'GtkComboBoxText',
+            true,
+            {
+                default: 0,
+                minimal: 0,
+                superMinimal: 0,
+            }
+        );
+
+        this._setKey(
+            'customize',
+            'panel-indicator-padding-size',
+            'GtkComboBoxText',
+            true,
+            {
+                default: 0,
+                minimal: 0,
+                superMinimal: 0,
+            }
+        );
+
+        this._setKey(
+            'override',
+            'theme',
+            'GtkSwitch',
+            true,
+            {
+                default: false,
+                minimal: true,
+                superMinimal: true,
+            }
+        );
     }
 
     /**
@@ -151,13 +650,15 @@ var Prefs = class
      * @param {string} name should be the same as gsettings key name
      * @param {string} widgetType gtk widget type like 'GtkSwitch'.
      * @param {boolean} supported whether supported in the current shell
+     * @param {Object} profiles values for each profile. for example:
+     *   {default: true, minimal: false}
      * @param {Object} [maps] for example for combobox you can specify 
      *  if the index is 1 go use 32 as value:
      *  {1 : 32}
      *
      * @returns {Object} key object that has been set
      */
-    _setKey(category, name, widgetType, supported, maps)
+    _setKey(category, name, widgetType, supported, profiles, maps)
     {
         let id = name.replace(/-/g, '_');
         let widgetName = widgetType.toLowerCase().replace('gtk', '');
@@ -174,6 +675,7 @@ var Prefs = class
             id,
             widgetId,
             supported,
+            profiles,
             maps,
         }
 
@@ -309,7 +811,13 @@ var Prefs = class
                 delete this._keys[id];
 
                 let newKey = this._setKey(
-                    key.category, key.name, 'GtkDropDown', key.supported, key.maps);
+                    key.category,
+                    key.name,
+                    'GtkDropDown',
+                    key.supported,
+                    key.profiles,
+                    key.maps
+                );
 
                 this._dropdowns[newKey.widgetId] = dropdown;
 
