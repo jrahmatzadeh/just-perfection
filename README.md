@@ -59,7 +59,7 @@ This extension allows you to do the following:
 | ------------------- | -------------- |
 | 3.36                | July 2025      |
 | 3.38                | July 2025      |
-| 40                  | September 2021 |
+| 40                  | December 2021  |
 | 41                  | TBA            |
 
 ## Install
