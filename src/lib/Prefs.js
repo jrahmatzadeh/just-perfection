@@ -792,7 +792,7 @@ var Prefs = class
             return;
         }
 
-        for (let [id, key] of Object.entries(this._keys)) {
+        for (let [, key] of Object.entries(this._keys)) {
             if (key.widgetType === 'GtkComboBoxText') {
                 let widget = this._builder.get_object(key.widgetId);
                 let parent = widget.get_parent();
@@ -808,7 +808,7 @@ var Prefs = class
 
                 let dropdown = this._gtk.DropDown.new_from_strings(items);
 
-                delete this._keys[id];
+                delete this._keys[key.id];
 
                 let newKey = this._setKey(
                     key.category,
@@ -848,7 +848,7 @@ var Prefs = class
             empty: this._builder.get_object('activities_button_icon_path_empty_button'),
         };
 
-        for (let [id, key] of Object.entries(this._keys)) {
+        for (let [, key] of Object.entries(this._keys)) {
 
             switch (key.widgetType) {
 
@@ -1001,7 +1001,7 @@ var Prefs = class
      */
     _setCurrentValues()
     {
-        for (let [id, key] of Object.entries(this._keys)) {
+        for (let [, key] of Object.entries(this._keys)) {
 
             let elm
             = (key.widgetType === 'GtkDropDown')
@@ -1050,14 +1050,14 @@ var Prefs = class
         let categories = {};
         let noResultsFoundVisiblity = true;
 
-        for (let [id, key] of Object.entries(this._keys)) {
+        for (let [, key] of Object.entries(this._keys)) {
 
             if (categories[key.category] === undefined) {
                 categories[key.category] = 0;
             }
 
-            let text = this._builder.get_object(`${id}_txt`).get_text();
-            let row = this._builder.get_object(`${id}_row`);
+            let text = this._builder.get_object(`${key.id}_txt`).get_text();
+            let row = this._builder.get_object(`${key.id}_row`);
 
             let visible = key.supported && text.toLowerCase().includes(q);
 
