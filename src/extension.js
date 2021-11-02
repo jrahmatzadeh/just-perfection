@@ -10,7 +10,7 @@ const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
 const {API, Manager} = Me.imports.lib;
-const {GLib, Gio, St, Clutter, Meta} = imports.gi;
+const {GObject, GLib, Gio, St, Clutter, Meta} = imports.gi;
 
 const Util = imports.misc.util;
 const Config = imports.misc.config;
@@ -77,6 +77,7 @@ function enable()
         Clutter,
         Util,
         Meta,
+        GObject,
     }, shellVersion);
 
     api.open();

@@ -69,6 +69,7 @@ var API = class
      *   'Clutter' reference to Clutter
      *   'Util' reference to misc::util
      *   'Meta' reference to Meta
+     *   'GObject' reference to GObject
      * @param {number} shellVersion float in major.minor format
      */
     constructor(dependecies, shellVersion)
@@ -92,6 +93,7 @@ var API = class
         this._clutter = dependecies['Clutter'] || null;
         this._util = dependecies['Util'] || null;
         this._meta = dependecies['Meta'] || null;
+        this._gobject = dependecies['GObject'] || null;
 
         this._shellVersion = shellVersion;
         this._originals = {};
@@ -2356,6 +2358,78 @@ var API = class
     rippleBoxDisable()
     {
         this.UIStyleClassAdd(this._getAPIClassname('no-ripple-box'));
+    }
+
+    /**
+     * enable double super press to toggle app grid
+     *
+     * @returns {void}
+     */
+    doubleSuperToAppGridEnable()
+    {
+        if (this._shellVersion < 40 || this._isDoubleSuperToAppGrid === true) {
+            return;
+        }
+
+        if (!this._overlayKeyNewSignalId) {
+            return;
+        }
+
+        global.display.disconnect(this._overlayKeyNewSignalId);
+
+        this._gobject.signal_handler_unblock(
+            global.display,
+            this._overlayKeyOldSignalId
+        );
+
+        delete(this._overlayKeyNewSignalId);
+        delete(this._overlayKeyOldSignalId);
+
+        this._isDoubleSuperToAppGrid = true;
+    }
+
+    /**
+     * disable double super press to toggle app grid
+     *
+     * @returns {void}
+     */
+    doubleSuperToAppGridDisable()
+    {
+        if (this._shellVersion < 40 || this._isDoubleSuperToAppGrid === false) {
+            return;
+        }
+
+        let [ok, signalId, detail] = this._gobject.signal_parse_name(
+            'overlay-key',
+            global.display,
+            true
+        );
+
+        if (!ok) {
+            return;
+        }
+
+        this._overlayKeyOldSignalId = this._gobject.signal_handler_find(
+            global.display,
+            this._gobject.SignalMatchType.ID,
+            signalId,
+            detail,
+            null,
+            null,
+            null
+        );
+
+        if (!this._overlayKeyOldSignalId) {
+            return;
+        }
+
+        this._gobject.signal_handler_block(global.display, this._overlayKeyOldSignalId);
+
+        this._overlayKeyNewSignalId = global.display.connect('overlay-key', () => {
+            this._main.overview.toggle();
+        });
+
+        this._isDoubleSuperToAppGrid = false;
     }
 }
 
