@@ -246,7 +246,9 @@
 }
 
 .just-perfection-api-gnome40.just-perfection-api-no-workspace .workspace-thumbnails,
-.just-perfection-api-gnome40.just-perfection-api-no-workspace .workspace-thumbnail-indicator
+.just-perfection-api-gnome41.just-perfection-api-no-workspace .workspace-thumbnails,
+.just-perfection-api-gnome40.just-perfection-api-no-workspace .workspace-thumbnail-indicator,
+.just-perfection-api-gnome41.just-perfection-api-no-workspace .workspace-thumbnail-indicator
 {
     /* we use scale=0 which is giving us the same width and height as 0 */
     /* spacing: 0; */
@@ -263,7 +265,8 @@
     margin-bottom: 10px;
 }
 
-.just-perfection-api-gnome40.just-perfection-api-no-panel .search-entry
+.just-perfection-api-gnome40.just-perfection-api-no-panel .search-entry,
+.just-perfection-api-gnome41.just-perfection-api-no-panel .search-entry
 {
     margin-top: 30px;
     margin-bottom: 10px;
