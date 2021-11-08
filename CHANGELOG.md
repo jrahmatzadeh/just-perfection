@@ -21,6 +21,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Panel visiblity in overview when panel is disabled.
 - Panel corner size when panel is disabled.
 - Ripple box.
+- Double supper to app grid for GNOME Shell 40 and 41.
 
 ## [15.0.0 Magnetized] - 2021-09-22
 

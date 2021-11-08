@@ -299,6 +299,12 @@
       <description>Ripple Box Status</description>
     </key>
     
+    <key type="b" name="double-super-to-appgrid">
+      <default>true</default>
+      <summary>Double Supper To App Grid</summary>
+      <description>Double Supper To App Grid Status</description>
+    </key>
+    
   </schema>
   
 </schemalist>

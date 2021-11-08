@@ -23,6 +23,7 @@ This extension allows you to do the following:
 | Dash Icon Size                                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Dash Visibility                                      | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Disable Type to Search                               | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Double Super Key to App Grid                         | :white_circle: | :white_circle: | :black_circle: | :black_circle: |
 | GNOME Shell Theme Override                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Hot Corner                                           | :black_circle: | :black_circle: | :black_circle: | :white_circle: |
 | Keyboard Layout Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: |

@@ -477,6 +477,18 @@ var Prefs = class
         );
 
         this._setKey(
+            'behavior',
+            'double-super-to-appgrid',
+            'GtkSwitch',
+            this._shellVersion >= 40,
+            {
+                default: true,
+                minimal: true,
+                superMinimal: false,
+            }
+        );
+
+        this._setKey(
             'customize',
             'workspace-background-corner-size',
             'GtkComboBoxText',

@@ -223,6 +223,10 @@ var Manager = class
         this._settings.connect('changed::ripple-box', () => {
             this._applyRippleBox(false);
         });
+
+        this._settings.connect('changed::double-super-to-appgrid', () => {
+            this._applyDoubleSuperToAppgrid(false);
+        });
     }
 
     /**
@@ -275,6 +279,7 @@ var Manager = class
         this._applyWorkspaceBackgroundCornerSize(false);
         this._applyWorkspaceWrapAround(false);
         this._applyRippleBox(false);
+        this._applyDoubleSuperToAppgrid(false);
     }
 
     /**
@@ -327,6 +332,7 @@ var Manager = class
         this._applyWorkspaceBackgroundCornerSize(true);
         this._applyWorkspaceWrapAround(true);
         this._applyRippleBox(true);
+        this._applyDoubleSuperToAppgrid(true);
     }
 
     /**
@@ -1091,6 +1097,24 @@ var Manager = class
             this._api.rippleBoxEnable();
         } else {
             this._api.rippleBoxDisable();
+        }
+    }
+
+    /**
+     * apply double super to appgrid settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyDoubleSuperToAppgrid(forceOriginal)
+    {
+        let status = this._settings.get_boolean('double-super-to-appgrid');
+
+        if (forceOriginal || status) {
+            this._api.doubleSuperToAppGridEnable();
+        } else {
+            this._api.doubleSuperToAppGridDisable();
         }
     }
 }
