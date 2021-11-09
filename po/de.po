@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-16 11:22-0700\n"
+"POT-Creation-Date: 2021-11-09 07:42-0800\n"
 "PO-Revision-Date: 2020-12-18 04:55-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: German\n"
@@ -75,18 +75,26 @@ msgstr ""
 "dynamischen Arbeitsbereichen verwendet wird"
 
 #: src/ui/behavior.ui:472
+msgid "Double Super to App Grid"
+msgstr "Doppelter Superschlüssel zum App Grid"
+
+#: src/ui/behavior.ui:483
+msgid "Shows app grid when you double hit super key fast"
+msgstr "Zeigt das App-Raster an, wenn Sie schnell die Supertaste doppelt drücken"
+
+#: src/ui/behavior.ui:547
 msgid "Startup Status"
 msgstr "Startstatus"
 
-#: src/ui/behavior.ui:483
+#: src/ui/behavior.ui:558
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "Wenn GNOME Shell zum ersten Mal startet"
 
-#: src/ui/behavior.ui:504
+#: src/ui/behavior.ui:579
 msgid "Desktop"
 msgstr "Desktop"
 
-#: src/ui/behavior.ui:505
+#: src/ui/behavior.ui:580
 msgid "Overview"
 msgstr "Überblick"
 
@@ -275,6 +283,18 @@ msgstr ""
 "Funktioniert nur, wenn Sie ein Symbol für die Schaltfläche Aktivitäten "
 "ausgewählt haben"
 
+#: src/ui/main.ui:10
+msgid "Bug Report"
+msgstr "Fehlerbericht"
+
+#: src/ui/main.ui:14
+msgid "Support via Patreon"
+msgstr "Support über Patreon"
+
+#: src/ui/main.ui:80
+msgid "Select File"
+msgstr "Datei aussuchen"
+
 #: src/ui/no-results-found.ui:25
 msgid "No Results Found"
 msgstr "Keine Ergebnisse gefunden"
@@ -292,18 +312,6 @@ msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr ""
 "Überschreibt das Shell-Design teilweise, um einen minimalen Desktop zu "
 "erstellen"
-
-#: src/ui/prefs.ui:10
-msgid "Bug Report"
-msgstr "Fehlerbericht"
-
-#: src/ui/prefs.ui:14
-msgid "Support via Patreon"
-msgstr "Support über Patreon"
-
-#: src/ui/prefs.ui:80
-msgid "Select File"
-msgstr "Datei aussuchen"
 
 #: src/ui/visibility.ui:19
 msgid "Visibility"

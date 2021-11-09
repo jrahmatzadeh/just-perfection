@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-16 11:22-0700\n"
+"POT-Creation-Date: 2021-11-09 07:42-0800\n"
 "PO-Revision-Date: 2021-02-05 14:43+0545\n"
 "Last-Translator: 1BA4 <nabin7076@protonmail.com>\n"
 "Language-Team: Nepali <>\n"
@@ -73,18 +73,26 @@ msgstr ""
 "डायनामिक वर्कस्पेसको साथ केवल एक कार्यक्षेत्र प्रयोग भएको बखत वर्कस्पेस स्विचर देखाउँदछ"
 
 #: src/ui/behavior.ui:472
+msgid "Double Super to App Grid"
+msgstr "एप ग्रिडमा डबल सुपर कुञ्जी"
+
+#: src/ui/behavior.ui:483
+msgid "Shows app grid when you double hit super key fast"
+msgstr "तपाईंले सुपर कुञ्जीलाई द्रुत रूपमा डबल हिट गर्दा एप ग्रिड देखाउँछ"
+
+#: src/ui/behavior.ui:547
 msgid "Startup Status"
 msgstr "सुरूवात स्थिति"
 
-#: src/ui/behavior.ui:483
+#: src/ui/behavior.ui:558
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "जब जिनोम शेल पहिलो पटक सुरू हुन्छ"
 
-#: src/ui/behavior.ui:504
+#: src/ui/behavior.ui:579
 msgid "Desktop"
 msgstr "डेस्कटप"
 
-#: src/ui/behavior.ui:505
+#: src/ui/behavior.ui:580
 msgid "Overview"
 msgstr "अवलोकन"
 
@@ -269,6 +277,18 @@ msgstr "लेबलको साथ गतिविधि बटन बटन"
 msgid "Only works when you have selected an icon for activities button"
 msgstr "केवल तब कार्य गर्दछ जब तपाइँ गतिविधि बटनको लागि आईकन चयन गर्नुहुन्छ"
 
+#: src/ui/main.ui:10
+msgid "Bug Report"
+msgstr "बग रिपोर्ट"
+
+#: src/ui/main.ui:14
+msgid "Support via Patreon"
+msgstr "Patreon मार्फत समर्थन"
+
+#: src/ui/main.ui:80
+msgid "Select File"
+msgstr "फाइल चयन गर्नुहोस्"
+
 #: src/ui/no-results-found.ui:25
 msgid "No Results Found"
 msgstr "कुनै परिणाम भेटिएन"
@@ -284,18 +304,6 @@ msgstr "शेल थिम"
 #: src/ui/override.ui:87
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "न्यूनतम डेस्कटप सिर्जना गर्न आंशिक रूपमा शेल विषयवस्तु ओभरराइड गर्दछ"
-
-#: src/ui/prefs.ui:10
-msgid "Bug Report"
-msgstr "बग रिपोर्ट"
-
-#: src/ui/prefs.ui:14
-msgid "Support via Patreon"
-msgstr "Patreon मार्फत समर्थन"
-
-#: src/ui/prefs.ui:80
-msgid "Select File"
-msgstr "फाइल चयन गर्नुहोस्"
 
 #: src/ui/visibility.ui:19
 msgid "Visibility"
