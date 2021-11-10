@@ -10,6 +10,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - Clock menu revealing in lockscreen when the position is left or right.
 - Workspace switcher visiblity in GNOME Shell 41.
+- Startup status for Ubuntu.
 
 ### Removed
 

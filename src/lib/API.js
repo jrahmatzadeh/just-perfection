@@ -1869,11 +1869,13 @@ var API = class
 
             case SHELL_STATUS.NONE:
                 this._main.sessionMode.hasOverview = false;
+                this._main.layoutManager.startInOverview = false;
                 Controls._stateAdjustment.value = ControlsState.HIDDEN;
                 break;
 
             case SHELL_STATUS.OVERVIEW:
                 this._main.sessionMode.hasOverview = true;
+                this._main.layoutManager.startInOverview = true;
                 break;
         }
 
