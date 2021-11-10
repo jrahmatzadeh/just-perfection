@@ -50,6 +50,17 @@ var Prefs = class
         this._windowHeight = 750;
 
         /**
+         * holds all profile names
+         *
+         * @member {string}
+         */
+        this._profiles = [
+            'default',
+            'minimal',
+            'superminimal',
+        ];
+
+        /**
          * holds all required urls
          *
          * @member {Object}
@@ -76,7 +87,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: false,
-                superMinimal: false,
+                superminimal: false,
             }
         );
 
@@ -88,7 +99,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: false,
+                superminimal: false,
             }
         );
 
@@ -100,7 +111,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: false,
+                superminimal: true,
             }
         );
 
@@ -112,7 +123,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: false,
-                superMinimal: false,
+                superminimal: true,
             }
         );
 
@@ -124,7 +135,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: false,
+                superminimal: true,
             }
         );
 
@@ -136,7 +147,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: false,
+                superminimal: true,
             }
         );
 
@@ -148,7 +159,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: false,
-                superMinimal: false,
+                superminimal: true,
             }
         );
 
@@ -160,7 +171,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: false,
+                superminimal: true,
             }
         );
 
@@ -172,7 +183,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: false,
-                superMinimal: false,
+                superminimal: false,
             }
         );
 
@@ -184,7 +195,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: false,
+                superminimal: false,
             }
         );
 
@@ -196,7 +207,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: false,
+                superminimal: false,
             }
         );
 
@@ -208,7 +219,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: false,
+                superminimal: false,
             }
         );
 
@@ -220,7 +231,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: false,
-                superMinimal: false,
+                superminimal: false,
             }
         );
 
@@ -232,7 +243,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: false,
+                superminimal: false,
             }
         );
 
@@ -244,7 +255,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: false,
-                superMinimal: false,
+                superminimal: true,
             }
         );
 
@@ -256,7 +267,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: false,
-                superMinimal: false,
+                superminimal: false,
             }
         );
 
@@ -268,7 +279,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: false,
+                superminimal: false,
             }
         );
 
@@ -280,7 +291,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: true,
+                superminimal: true,
             }
         );
 
@@ -292,7 +303,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: false,
+                superminimal: false,
             }
         );
 
@@ -304,7 +315,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: false,
-                superMinimal: false,
+                superminimal: true,
             }
         );
 
@@ -316,7 +327,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: false,
+                superminimal: true,
             }
         );
 
@@ -328,7 +339,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: true,
+                superminimal: true,
             }
         );
 
@@ -339,8 +350,8 @@ var Prefs = class
             this._shellVersion >= 40,
             {
                 default: true,
-                minimal: true,
-                superMinimal: false,
+                minimal: false,
+                superminimal: false,
             }
         );
 
@@ -351,8 +362,8 @@ var Prefs = class
             this._shellVersion < 40,
             {
                 default: true,
-                minimal: true,
-                superMinimal: false,
+                minimal: false,
+                superminimal: true,
             }
         );
 
@@ -364,7 +375,7 @@ var Prefs = class
             {
                 default: '',
                 minimal: '',
-                superMinimal: '',
+                superminimal: '',
             }
         );
 
@@ -376,7 +387,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: true,
+                superminimal: true,
             }
         );
 
@@ -388,7 +399,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: true,
+                superminimal: true,
             }
         );
 
@@ -400,7 +411,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: true,
+                superminimal: true,
             }
         );
 
@@ -412,7 +423,7 @@ var Prefs = class
             {
                 default: false,
                 minimal: true,
-                superMinimal: true,
+                superminimal: true,
             }
         );
 
@@ -424,7 +435,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: false,
+                superminimal: false,
             }
         );
 
@@ -436,7 +447,7 @@ var Prefs = class
             {
                 default: false,
                 minimal: true,
-                superMinimal: true,
+                superminimal: true,
             }
         );
 
@@ -448,7 +459,7 @@ var Prefs = class
             {
                 default: false,
                 minimal: false,
-                superMinimal: false,
+                superminimal: false,
             }
         );
 
@@ -460,7 +471,7 @@ var Prefs = class
             {
                 default: 1,
                 minimal: 0,
-                superMinimal: 0,
+                superminimal: 0,
             }
         );
 
@@ -472,7 +483,7 @@ var Prefs = class
             {
                 default: false,
                 minimal: false,
-                superMinimal: false,
+                superminimal: false,
             }
         );
 
@@ -484,7 +495,7 @@ var Prefs = class
             {
                 default: true,
                 minimal: true,
-                superMinimal: false,
+                superminimal: false,
             }
         );
 
@@ -496,7 +507,7 @@ var Prefs = class
             {
                 default: 0,
                 minimal: 0,
-                superMinimal: 0,
+                superminimal: 15,
             }
         );
 
@@ -508,7 +519,7 @@ var Prefs = class
             {
                 default: 0,
                 minimal: 0,
-                superMinimal: 0,
+                superminimal: 0,
             }
         );
 
@@ -519,8 +530,8 @@ var Prefs = class
             true,
             {
                 default: 0,
-                minimal: 0,
-                superMinimal: 0,
+                minimal: 1,
+                superminimal: 1,
             }
         );
 
@@ -532,7 +543,7 @@ var Prefs = class
             {
                 default: 0,
                 minimal: 0,
-                superMinimal: 0,
+                superminimal: 0,
             }
         );
 
@@ -544,7 +555,7 @@ var Prefs = class
             {
                 default: 0,
                 minimal: 0,
-                superMinimal: 0,
+                superminimal: 0,
             }
         );
 
@@ -556,7 +567,7 @@ var Prefs = class
             {
                 default: 0,
                 minimal: 0,
-                superMinimal: 0,
+                superminimal: 0,
             }
         );
 
@@ -568,7 +579,7 @@ var Prefs = class
             {
                 default: 1,
                 minimal: 1,
-                superMinimal: 1,
+                superminimal: 1,
             }
         );
 
@@ -580,7 +591,7 @@ var Prefs = class
             {
                 default: 0,
                 minimal: 1,
-                superMinimal: 0,
+                superminimal: 0,
             },
             {
                 '1': 32,
@@ -597,7 +608,7 @@ var Prefs = class
             {
                 default: 1,
                 minimal: 1,
-                superMinimal: 1,
+                superminimal: 1,
             }
         );
 
@@ -609,7 +620,7 @@ var Prefs = class
             {
                 default: 0,
                 minimal: 0,
-                superMinimal: 0,
+                superminimal: 0,
             }
         );
 
@@ -621,7 +632,7 @@ var Prefs = class
             {
                 default: 0,
                 minimal: 0,
-                superMinimal: 0,
+                superminimal: 0,
             }
         );
 
@@ -633,7 +644,7 @@ var Prefs = class
             {
                 default: 0,
                 minimal: 0,
-                superMinimal: 0,
+                superminimal: 0,
             }
         );
 
@@ -645,7 +656,7 @@ var Prefs = class
             {
                 default: false,
                 minimal: true,
-                superMinimal: true,
+                superminimal: true,
             }
         );
     }
@@ -709,6 +720,7 @@ var Prefs = class
         let uiFilenames = [
             'main',
             'no-results-found',
+            'profile',
             'override',
             'visibility',
             'icons',
@@ -734,7 +746,8 @@ var Prefs = class
 
         this._convertComboBoxTextToDropDown();
         this._fixIconObjects();
-        this._setCurrentValues();
+        this._setValues();
+        this._guessProfile();
 
         // applying search here makes all the supported elements by current
         // shell version be visible and other not
@@ -867,6 +880,7 @@ var Prefs = class
                 case 'GtkSwitch':
                     this._builder.get_object(key.widgetId).connect('state-set', (w) => {
                         this._settings.set_boolean(key.name, w.get_active());
+                        this._guessProfile();
                     });
                     break;
 
@@ -875,6 +889,7 @@ var Prefs = class
                         let index = w.get_active();
                         let value = (index in key.maps) ? key.maps[index] : index; 
                         this._settings.set_int(key.name, value);
+                        this._guessProfile();
                     });
                     break;
 
@@ -883,12 +898,14 @@ var Prefs = class
                         let index = w.get_selected();
                         let value = (index in key.maps) ? key.maps[index] : index; 
                         this._settings.set_int(key.name, value);
+                        this._guessProfile();
                     });
                     break;
 
                 case 'GtkEntry':
                     this._builder.get_object(key.widgetId).connect('changed', (w) => {
                         this._settings.set_string(key.name, w.text);
+                        this._guessProfile();
                     });
                     break;
             }
@@ -943,6 +960,13 @@ var Prefs = class
             this.currentFileChooserEntry.text = fileURI;
         });
 
+        for (let profile of this._profiles) {
+            let profileElm = this._builder.get_object(`profile_${profile}`);
+            profileElm.connect('clicked', (w) => {
+                this._setValues(profile);
+            });
+        }
+
         let actionGroup = new this._gio.SimpleActionGroup();
 
         let action1 = new this._gio.SimpleAction({name: 'show-bug-report'});
@@ -963,6 +987,65 @@ var Prefs = class
         actionGroup.add_action(action2);
 
         window.insert_action_group('prefs', actionGroup);
+    }
+
+    /**
+     * can go throw all values and guess the profile based on the values
+     *
+     * @returns {void}
+     */
+    _guessProfile()
+    {
+        let totalCount = 0;
+        let matchCount = {};
+
+        for (let profile of this._profiles) {
+            matchCount[profile] = 0;
+        }
+
+        for (let [, key] of Object.entries(this._keys)) {
+        
+            if (!key.supported) {
+                continue;
+            }
+
+            let value;
+
+            switch (key.widgetType) {
+                case 'GtkSwitch':
+                case 'GtkComboBoxText':
+                    value = this._builder.get_object(key.widgetId).get_active();
+                    break;
+                case 'GtkDropDown':
+                    value = this._dropdowns[key.widgetId].get_selected();
+                    break;
+                case 'GtkEntry':
+                    value = this._builder.get_object(key.widgetId).text;
+                    break;
+                default:
+                    value = '';
+                    continue;
+            }
+            
+            for (let profile of this._profiles) {
+                if (key.profiles[profile] === value) {
+                    matchCount[profile]++;
+                }
+            }
+
+            totalCount++;
+        }
+
+        let currentProfile = 'custom';
+        for (let profile of this._profiles) {
+            if (matchCount[profile] === totalCount) {
+                currentProfile = profile;
+                break;
+            }
+        }
+        
+        let profileElm = this._builder.get_object(`profile_${currentProfile}`);
+        profileElm.set_active(true);
     }
 
     /**
@@ -1007,11 +1090,13 @@ var Prefs = class
     }
 
     /**
-     * set current values for all elements
+     * set values for all elements
+     *
+     * @param {string} profile profile name or null for get it from gsettings
      *
      * @returns {void}
      */
-    _setCurrentValues()
+    _setValues(profile)
     {
         for (let [, key] of Object.entries(this._keys)) {
 
@@ -1023,12 +1108,21 @@ var Prefs = class
             switch (key.widgetType) {
 
                 case 'GtkSwitch':
-                    elm.set_active(this._settings.get_boolean(key.name));
+                    let value
+                    = (profile)
+                    ? key.profiles[profile]
+                    : this._settings.get_boolean(key.name);
+
+                    elm.set_active(value);
                     break;
 
                 case 'GtkComboBoxText':
                 case 'GtkDropDown':
-                    let index = this._settings.get_int(key.name);
+                    let index
+                    = (profile)
+                    ? key.profiles[profile]
+                    : this._settings.get_int(key.name);
+
                     for (let k in key.maps) {
                         if (key.maps[k] === index) {
                             index = k;
@@ -1043,7 +1137,12 @@ var Prefs = class
                     break;
 
                 case 'GtkEntry':
-                    elm.text = this._settings.get_string(key.name);
+                    let text
+                    = (profile)
+                    ? key.profiles[profile]
+                    : this._settings.get_string(key.name);
+
+                    elm.text = text;
                     this._setFileChooserValue(key.id, elm.text);
                     break;
             }
@@ -1061,6 +1160,9 @@ var Prefs = class
     {
         let categories = {};
         let noResultsFoundVisiblity = true;
+
+        let profile = this._builder.get_object('profile');
+        profile.visible = (q === '') ? true : false;
 
         for (let [, key] of Object.entries(this._keys)) {
 
