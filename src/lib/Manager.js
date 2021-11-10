@@ -526,6 +526,15 @@ var Manager = class
                 this._api.UIStyleClassAdd(fallbackClassName);
             }
         }
+
+        // TODO
+        // panel may get into the working area when the theme applies
+        // because the font size can make the panel height larger or smaller
+        // currently API doesn't do it automatically, so we are using
+        // private method form API here (which shouldn't be happening
+        // but this is just a hack. In the future updates API should do
+        // that not Manager).
+        this._api._emitPanelPositionChanged();
     }
 
     /**
