@@ -395,7 +395,12 @@ var API = class
             overview.disconnect(this._overviewHidingSignal);
             delete(this._overviewHidingSignal);
         }
-        
+
+        if (this._hidePanelWorkareasChangedSignal) {
+            global.display.disconnect(this._hidePanelWorkareasChangedSignal);
+            delete(this._hidePanelWorkareasChangedSignal);
+        }
+
         searchEntryParent.set_style(`margin-top: 0;`);
 
         this.UIStyleClassRemove(classname);
@@ -482,6 +487,16 @@ var API = class
             }
             searchEntryParent.set_style(`margin-top: ${panelHeight}px;`);
         }
+
+        if (this._hidePanelWorkareasChangedSignal) {
+            global.display.disconnect(this._hidePanelWorkareasChangedSignal);
+            delete(this._hidePanelWorkareasChangedSignal);
+        }
+
+        this._hidePanelWorkareasChangedSignal
+        = global.display.connect('workareas-changed', () => {
+            this.panelHide(this._panelHideMode, 0);
+        });
 
         // when panel is hidden and search entry is visible,
         // the search entry gets too close to the top, so we fix it with margin
