@@ -10,7 +10,7 @@ const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
 const {Prefs} = Me.imports.lib;
-const {Gtk, Gio, GObject} = imports.gi;
+const {Gtk, Gio, GLib, GObject} = imports.gi;
 
 const Config = imports.misc.config;
 const shellVersion = parseFloat(Config.PACKAGE_VERSION);
@@ -45,6 +45,7 @@ function buildPrefsWidget()
         GObjectBindingFlags: GObject.BindingFlags,
         Gtk,
         Gio,
+        GLib,
     }, shellVersion);
 
     return prefs.getMainPrefs(UIFolderPath, binFolderPath, gettextDomain);

@@ -22,6 +22,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Double supper to app grid for GNOME Shell 40 and 41.
 - Panel corner size when panel is disabled.
 - Panel visiblity in overview when panel is disabled.
+- Prefs window intro.
 - Profile selector to the prefs window.
 - Ripple box.
 

@@ -20,6 +20,7 @@ var Prefs = class
      *   'GObjectBindingFlags' instance of GObject::BindingFlags
      *   'Gtk' reference to Gtk
      *   'Gio' reference to Gio
+     *   'GLib' reference to GLib
      * @param {number} shellVersion float in major.minor format
      */
     constructor(dependecies, shellVersion)
@@ -29,6 +30,7 @@ var Prefs = class
         this._gobjectBindingFlags = dependecies['GObjectBindingFlags'] || null;
         this._gtk = dependecies['Gtk'] || null;
         this._gio = dependecies['Gio'] || null;
+        this._glib = dependecies['GLib'] || null;
 
         this._shellVersion = shellVersion;
 
@@ -1040,6 +1042,7 @@ var Prefs = class
                 this._url.bug_report,
                 window.get_display().get_app_launch_context());
         });
+        actionGroup.add_action(action1);
 
         let action2 = new this._gio.SimpleAction({name: 'show-patreon'});
         action2.connect('activate', () => {
@@ -1047,9 +1050,22 @@ var Prefs = class
                 this._url.patreon,
                 window.get_display().get_app_launch_context());
         });
-
-        actionGroup.add_action(action1);
         actionGroup.add_action(action2);
+
+        if (this._introPrepared) {
+            let showPrefsIntro = this._settings.get_boolean('show-prefs-intro');
+            let action3 = this._gio.SimpleAction.new_stateful(
+                'show-intro',
+                null,
+                this._glib.Variant.new_boolean(showPrefsIntro),
+            );
+            action3.connect('activate', () => {
+                let show = this._settings.get_boolean('show-prefs-intro');
+                this._settings.set_boolean('show-prefs-intro', !show);
+                action3.change_state(this._glib.Variant.new_boolean(!show));
+            });
+            actionGroup.add_action(action3);
+        }
 
         window.insert_action_group('prefs', actionGroup);
     }
