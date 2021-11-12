@@ -47,7 +47,7 @@ var Prefs = class
          * @member {number}
          */
         this._windowWidth = 500;
-        this._windowHeight = 750;
+        this._windowHeight = 900;
 
         /**
          * holds all profile names
@@ -721,6 +721,7 @@ var Prefs = class
             'main',
             'no-results-found',
             'profile',
+            'intro',
             'override',
             'visibility',
             'icons',
@@ -744,6 +745,7 @@ var Prefs = class
             prefsBox.append(this._builder.get_object(elementId));
         }
 
+        this._prepareIntro(binFolderPath);
         this._convertComboBoxTextToDropDown();
         this._fixIconObjects();
         this._setValues();
@@ -776,6 +778,61 @@ var Prefs = class
         });
 
         return obj;
+    }
+
+    /**
+     * prepare intro
+     *
+     * @param string binFolderPath bin folder path
+     *
+     * @returns {void}
+     */
+    _prepareIntro(binFolderPath)
+    {
+        let introImgPath = `${binFolderPath}/intro.png`;
+        
+        let imgFile = this._gio.File.new_for_path(introImgPath);
+        if (!imgFile.query_exists(null)) {
+            this._builder.get_object('intro').visible = false;
+            return;
+        }
+
+        let img;
+        if (this._shellVersion < 40) {
+            img = this._gtk.Image.new_from_file(introImgPath);
+        } else {
+            img = this._gtk.Picture.new_for_filename(introImgPath);
+            img.set_size_request(500, 700);
+        }
+
+        let imageBox = this._builder.get_object('intro_image_box');
+        imageBox.append(img);
+        
+        this._introPrepared = true;
+    }
+
+    /**
+     * show intro
+     *
+     * @returns {void}
+     */
+    _showIntro()
+    {
+        let intro = this._builder.get_object('intro');
+        let show = this._settings.get_boolean('show-prefs-intro');
+
+        intro.visible = (this._introPrepared && show) ? true : false;
+    }
+
+    /**
+     * hide intro
+     *
+     * @returns {void}
+     */
+    _hideIntro()
+    {
+        let intro = this._builder.get_object('intro');
+        intro.visible = false;
     }
 
     /**
@@ -966,6 +1023,14 @@ var Prefs = class
                 this._setValues(profile);
             });
         }
+
+        this._settings.connect('changed::show-prefs-intro', (s) => {
+            if (s.get_boolean('show-prefs-intro')) {
+                this._showIntro();
+            } else {
+                this._hideIntro();
+            }
+        });
 
         let actionGroup = new this._gio.SimpleActionGroup();
 
@@ -1163,6 +1228,12 @@ var Prefs = class
 
         let profile = this._builder.get_object('profile');
         profile.visible = (q === '') ? true : false;
+
+        if (q === '') {
+            this._showIntro();
+        } else {
+            this._hideIntro();
+        }
 
         for (let [, key] of Object.entries(this._keys)) {
 
