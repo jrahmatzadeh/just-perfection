@@ -731,6 +731,11 @@ var Prefs = class
             'customize',
         ];
 
+        // profile is not supported on GNOME Shell 3.x
+        if (this._shellVersion < 40) {
+            uiFilenames.splice(uiFilenames.indexOf('profile'), 1);
+        }
+
         this._builder.set_translation_domain(gettextDomain);
         for (let uiFilename of uiFilenames) {
             this._builder.add_from_file(`${UIFolderPath}/${uiFilename}.ui`);
@@ -740,7 +745,7 @@ var Prefs = class
         let prefsBox = this._builder.get_object('main_prefs_in_box');
 
         for (let uiFilename of uiFilenames) {
-            if (uiFilename === 'main' || (uiFilename === 'profile' && this._shellVersion < 40)) {
+            if (uiFilename === 'main') {
                 continue;
             }
             let elementId = uiFilename.replace(/-/g, '_');
@@ -1027,6 +1032,9 @@ var Prefs = class
 
         for (let profile of this._profiles) {
             let profileElm = this._builder.get_object(`profile_${profile}`);
+            if (!profileElm) {
+                break;
+            }
             profileElm.connect('clicked', (w) => {
                 this._setValues(profile);
             });
@@ -1132,7 +1140,9 @@ var Prefs = class
         }
         
         let profileElm = this._builder.get_object(`profile_${currentProfile}`);
-        profileElm.set_active(true);
+        if (profileElm) {
+            profileElm.set_active(true);
+        }
     }
 
     /**
@@ -1249,7 +1259,9 @@ var Prefs = class
         let noResultsFoundVisiblity = true;
 
         let profile = this._builder.get_object('profile');
-        profile.visible = (q === '') ? true : false;
+        if (profile) {
+            profile.visible = (q === '') ? true : false;
+        }
 
         if (q === '') {
             this._showIntro();
