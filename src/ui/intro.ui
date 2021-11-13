@@ -16,7 +16,6 @@
         <property name="valign">start</property>
         <property name="hexpand">0</property>
         <property name="vexpand">0</property>
-        <property name="has-frame">0</property>
         <property name="uri">https://www.patreon.com/justperfection</property>
 
         <child>
