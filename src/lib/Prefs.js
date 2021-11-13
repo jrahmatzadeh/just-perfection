@@ -780,11 +780,13 @@ var Prefs = class
 
             // csd
             let headerBar = this._builder.get_object('header_bar');
+            let csdMenu = this._builder.get_object('csd_menu');
             window.set_titlebar(headerBar);
             if (this._shellVersion < 40) {
                 headerBar.set_title('Just Perfection');
                 headerBar.set_show_close_button(true);
             }
+            headerBar.pack_end(csdMenu);
 
             this._registerSignals(window);
         });

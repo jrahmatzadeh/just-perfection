@@ -30,26 +30,6 @@
     <property name="can-focus">True</property>
     <property name="hexpand">1</property>
     
-    <child type="end">
-      <object class="GtkMenuButton">
-        <property name="visible">True</property>
-        <property name="can-focus">True</property>
-        <property name="focus-on-click">True</property>
-        <property name="receives-default">True</property>
-        <property name="menu-model">primary_menu</property>
-        
-        <child>
-          <object class="GtkImage" id="menu_icon">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="icon-name">open-menu-symbolic</property>
-            <property name="icon-size">1</property>
-          </object>
-        </child>
-        
-      </object>
-    </child>
-    
     <child>
       <object class="GtkToggleButton" id="search_togglebutton">
         <property name="visible">True</property>
@@ -69,6 +49,24 @@
     </child>
     
   </object>
+  
+  <object class="GtkMenuButton" id="csd_menu">
+      <property name="visible">True</property>
+      <property name="can-focus">True</property>
+      <property name="focus-on-click">True</property>
+      <property name="receives-default">True</property>
+      <property name="menu-model">primary_menu</property>
+      
+      <child>
+        <object class="GtkImage" id="menu_icon">
+          <property name="visible">True</property>
+          <property name="can-focus">False</property>
+          <property name="icon-name">open-menu-symbolic</property>
+          <property name="icon-size">1</property>
+        </object>
+      </child>
+      
+    </object>
   
   <!-- FILE_CHOOSER_FILTER -->
   
