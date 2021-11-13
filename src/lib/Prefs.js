@@ -804,7 +804,7 @@ var Prefs = class
     _prepareIntro(binFolderPath)
     {
         let introImgPath = `${binFolderPath}/intro.png`;
-        
+
         let imgFile = this._gio.File.new_for_path(introImgPath);
         if (!imgFile.query_exists(null)) {
             this._builder.get_object('intro').visible = false;
@@ -824,7 +824,7 @@ var Prefs = class
             img.set_size_request(500, 700);
             imageBox.append(img);
         }
-        
+
         this._introPrepared = true;
     }
 
