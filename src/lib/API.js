@@ -341,7 +341,7 @@ var API = class
         if (this.isPanelVisible()) {
             this.panelShow(true, 0);
         } else {
-            let mode = this._panelHideMode ?? 0;
+            let mode = this._panelHideMode ? this._panelHideMode : 0;
             this.panelHide(mode, 0);
         }
     }

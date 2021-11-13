@@ -740,11 +740,16 @@ var Prefs = class
         let prefsBox = this._builder.get_object('main_prefs_in_box');
 
         for (let uiFilename of uiFilenames) {
-            if (uiFilename === 'main') {
+            if (uiFilename === 'main' || (uiFilename === 'profile' && this._shellVersion < 40)) {
                 continue;
             }
             let elementId = uiFilename.replace(/-/g, '_');
-            prefsBox.append(this._builder.get_object(elementId));
+            let elm = this._builder.get_object(elementId);
+            if (this._shellVersion < 40) {
+                prefsBox.add(elm);
+            } else {
+                prefsBox.append(elm);
+            }
         }
 
         this._prepareIntro(binFolderPath);
@@ -799,16 +804,17 @@ var Prefs = class
             return;
         }
 
+        let imageBox = this._builder.get_object('intro_image_box');
+
         let img;
         if (this._shellVersion < 40) {
             img = this._gtk.Image.new_from_file(introImgPath);
+            imageBox.add(img);
         } else {
             img = this._gtk.Picture.new_for_filename(introImgPath);
             img.set_size_request(500, 700);
+            imageBox.append(img);
         }
-
-        let imageBox = this._builder.get_object('intro_image_box');
-        imageBox.append(img);
         
         this._introPrepared = true;
     }
