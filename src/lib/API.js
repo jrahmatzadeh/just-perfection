@@ -693,7 +693,8 @@ var API = class
             opacity: 255,
             mode: this._clutter.AnimationMode.EASE,
             duration: 150,
-            onComplete: () => {
+            onComplete: () => { 
+                searchEntryParent.height = -1;
                 searchEntry.ease({
                     opacity: 255,
                     mode: this._clutter.AnimationMode.EASE,
