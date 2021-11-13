@@ -8,6 +8,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ### Fixed
 
+- Animation jump when search entry is disabled and entering app grid.
 - Clock menu revealing in lockscreen when the position is left or right.
 - Startup status for Ubuntu.
 - Workspace switcher visiblity in GNOME Shell 41.
