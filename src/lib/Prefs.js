@@ -304,7 +304,7 @@ var Prefs = class
             true,
             {
                 default: true,
-                minimal: true,
+                minimal: false,
                 superminimal: false,
             }
         );
