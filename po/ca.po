@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-09 07:42-0800\n"
+"POT-Creation-Date: 2021-11-14 11:15-0800\n"
 "PO-Revision-Date: 2021-03-16 19:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: Catalan \n"
@@ -82,7 +82,9 @@ msgstr "Doble súper clau per a App Grid"
 
 #: src/ui/behavior.ui:483
 msgid "Shows app grid when you double hit super key fast"
-msgstr "Mostra la graella d'aplicacions quan premeu la tecla super ràpida dues vegades"
+msgstr ""
+"Mostra la graella d'aplicacions quan premeu la tecla super ràpida dues "
+"vegades"
 
 #: src/ui/behavior.ui:547
 msgid "Startup Status"
@@ -173,7 +175,7 @@ msgstr "Desplaçament del menú del rellotge"
 msgid "Workspace Switcher Size"
 msgstr "Mida del commutador d'espais de treball"
 
-#: src/ui/customize.ui:837 src/ui/customize.ui:978
+#: src/ui/customize.ui:837 src/ui/customize.ui:978 src/ui/profile.ui:55
 msgid "Default"
 msgstr "Per defecte"
 
@@ -284,14 +286,18 @@ msgid "Only works when you have selected an icon for activities button"
 msgstr "Només funciona quan heu seleccionat una icona per al botó d'activitats"
 
 #: src/ui/main.ui:10
+msgid "Preferences Intro"
+msgstr "Introducció de preferències"
+
+#: src/ui/main.ui:16
 msgid "Bug Report"
 msgstr "Informe d'error"
 
-#: src/ui/main.ui:14
+#: src/ui/main.ui:20
 msgid "Support via Patreon"
 msgstr "Suport a través de Patreon"
 
-#: src/ui/main.ui:80
+#: src/ui/main.ui:84
 msgid "Select File"
 msgstr "Seleccioneu Fitxer"
 
@@ -312,6 +318,29 @@ msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr ""
 "Sobreescriu parcialment el tema de l'entorn per crear un escriptori "
 "minimalista"
+
+#: src/ui/profile.ui:21
+msgid "Profile"
+msgstr "Perfil"
+
+#: src/ui/profile.ui:34
+msgid ""
+"You can choose between pre-defined profiles or you can simply use your own "
+"customized settings"
+msgstr "Podeu triar entre perfils predefinits o simplement podeu "
+"utilitzar la vostra pròpia configuració personalitzada"
+
+#: src/ui/profile.ui:65
+msgid "Custom"
+msgstr "Personalitzat"
+
+#: src/ui/profile.ui:75
+msgid "Minimal"
+msgstr "Mínim"
+
+#: src/ui/profile.ui:85
+msgid "Super Minimal"
+msgstr "Súper Mínim"
 
 #: src/ui/visibility.ui:19
 msgid "Visibility"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-09 07:42-0800\n"
+"POT-Creation-Date: 2021-11-14 11:15-0800\n"
 "PO-Revision-Date: 2021-02-05 14:43+0545\n"
 "Last-Translator: 1BA4 <nabin7076@protonmail.com>\n"
 "Language-Team: Nepali <>\n"
@@ -169,7 +169,7 @@ msgstr "घडी मेनू स्थिति अफसेट"
 msgid "Workspace Switcher Size"
 msgstr "कार्यक्षेत्र स्विचर आकार"
 
-#: src/ui/customize.ui:837 src/ui/customize.ui:978
+#: src/ui/customize.ui:837 src/ui/customize.ui:978 src/ui/profile.ui:55
 msgid "Default"
 msgstr "पूर्वनिर्धारित"
 
@@ -278,14 +278,18 @@ msgid "Only works when you have selected an icon for activities button"
 msgstr "केवल तब कार्य गर्दछ जब तपाइँ गतिविधि बटनको लागि आईकन चयन गर्नुहुन्छ"
 
 #: src/ui/main.ui:10
+msgid "Preferences Intro"
+msgstr "प्राथमिकता परिचय"
+
+#: src/ui/main.ui:16
 msgid "Bug Report"
 msgstr "बग रिपोर्ट"
 
-#: src/ui/main.ui:14
+#: src/ui/main.ui:20
 msgid "Support via Patreon"
 msgstr "Patreon मार्फत समर्थन"
 
-#: src/ui/main.ui:80
+#: src/ui/main.ui:84
 msgid "Select File"
 msgstr "फाइल चयन गर्नुहोस्"
 
@@ -304,6 +308,30 @@ msgstr "शेल थिम"
 #: src/ui/override.ui:87
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "न्यूनतम डेस्कटप सिर्जना गर्न आंशिक रूपमा शेल विषयवस्तु ओभरराइड गर्दछ"
+
+#: src/ui/profile.ui:21
+msgid "Profile"
+msgstr "प्रोफाइल"
+
+#: src/ui/profile.ui:34
+msgid ""
+"You can choose between pre-defined profiles or you can simply use your own "
+"customized settings"
+msgstr ""
+"तपाइँ पूर्वनिर्धारित प्रोफाइलहरू बीच छनौट गर्न सक्नुहुन्छ वा तपाइँ केवल तपाइँको "
+"आफ्नै अनुकूलित सेटिङहरू प्रयोग गर्न सक्नुहुन्छ"
+
+#: src/ui/profile.ui:65
+msgid "Custom"
+msgstr "अनुकूलन"
+
+#: src/ui/profile.ui:75
+msgid "Minimal"
+msgstr "न्यूनतम"
+
+#: src/ui/profile.ui:85
+msgid "Super Minimal"
+msgstr "सुपर न्यूनतम"
 
 #: src/ui/visibility.ui:19
 msgid "Visibility"

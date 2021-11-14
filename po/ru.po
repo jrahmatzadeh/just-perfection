@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-09 07:42-0800\n"
+"POT-Creation-Date: 2021-11-14 11:15-0800\n"
 "PO-Revision-Date: 2021-07-02 21:30+0700\n"
 "Last-Translator: VBB <librusekus35790@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -80,7 +80,8 @@ msgstr "Двойной супер-ключ к App Grid"
 
 #: src/ui/behavior.ui:483
 msgid "Shows app grid when you double hit super key fast"
-msgstr "Показывает сетку приложения, когда вы дважды быстро нажимаете супер-клавишу"
+msgstr ""
+"Показывает сетку приложения, когда вы дважды быстро нажимаете супер-клавишу"
 
 #: src/ui/behavior.ui:547
 msgid "Startup Status"
@@ -171,7 +172,7 @@ msgstr "Смещение положения меню часов"
 msgid "Workspace Switcher Size"
 msgstr "Размер переключателя рабочих столов"
 
-#: src/ui/customize.ui:837 src/ui/customize.ui:978
+#: src/ui/customize.ui:837 src/ui/customize.ui:978 src/ui/profile.ui:55
 msgid "Default"
 msgstr "По умолчанию"
 
@@ -280,14 +281,18 @@ msgid "Only works when you have selected an icon for activities button"
 msgstr "Работает, только если вы выбрали значок для кнопки Обзор"
 
 #: src/ui/main.ui:10
+msgid "Preferences Intro"
+msgstr "Настройки Введение"
+
+#: src/ui/main.ui:16
 msgid "Bug Report"
 msgstr "Сообщение об ошибке"
 
-#: src/ui/main.ui:14
+#: src/ui/main.ui:20
 msgid "Support via Patreon"
 msgstr "Поддержка через Patreon"
 
-#: src/ui/main.ui:80
+#: src/ui/main.ui:84
 msgid "Select File"
 msgstr "Выберите файл"
 
@@ -308,6 +313,30 @@ msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr ""
 "Частично переопределяет тему оболочки для создания минималистического "
 "рабочего стола"
+
+#: src/ui/profile.ui:21
+msgid "Profile"
+msgstr "Профиль"
+
+#: src/ui/profile.ui:34
+msgid ""
+"You can choose between pre-defined profiles or you can simply use your own "
+"customized settings"
+msgstr ""
+"Вы можете выбирать между предустановленными профилями или просто "
+"использовать свои собственные индивидуальные настройки."
+
+#: src/ui/profile.ui:65
+msgid "Custom"
+msgstr "Обычай"
+
+#: src/ui/profile.ui:75
+msgid "Minimal"
+msgstr "Минимальный"
+
+#: src/ui/profile.ui:85
+msgid "Super Minimal"
+msgstr "Супер минимальный"
 
 #: src/ui/visibility.ui:19
 msgid "Visibility"

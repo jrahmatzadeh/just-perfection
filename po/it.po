@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-09 07:42-0800\n"
+"POT-Creation-Date: 2021-11-14 11:15-0800\n"
 "PO-Revision-Date: 2020-12-18 04:52-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Italian\n"
@@ -81,7 +81,8 @@ msgstr "Doppio tasto Super per App Grid"
 
 #: src/ui/behavior.ui:483
 msgid "Shows app grid when you double hit super key fast"
-msgstr "Mostra la griglia dell'app quando premi due volte velocemente il tasto super"
+msgstr ""
+"Mostra la griglia dell'app quando premi due volte velocemente il tasto super"
 
 #: src/ui/behavior.ui:547
 msgid "Startup Status"
@@ -173,7 +174,7 @@ msgstr "Offset posizione menu dell'orologio"
 msgid "Workspace Switcher Size"
 msgstr "Dimensioni dello switcher dell'area di lavoro"
 
-#: src/ui/customize.ui:837 src/ui/customize.ui:978
+#: src/ui/customize.ui:837 src/ui/customize.ui:978 src/ui/profile.ui:55
 msgid "Default"
 msgstr "Predefinito"
 
@@ -285,14 +286,18 @@ msgstr ""
 "Funziona solo quando hai selezionato un'icona per il pulsante delle attività"
 
 #: src/ui/main.ui:10
+msgid "Preferences Intro"
+msgstr "Preferenze Introduzione"
+
+#: src/ui/main.ui:16
 msgid "Bug Report"
 msgstr "Riportare un errore"
 
-#: src/ui/main.ui:14
+#: src/ui/main.ui:20
 msgid "Support via Patreon"
 msgstr "Supporto tramite Patreon"
 
-#: src/ui/main.ui:80
+#: src/ui/main.ui:84
 msgid "Select File"
 msgstr "Seleziona il file"
 
@@ -311,6 +316,30 @@ msgstr "Tema Shell"
 #: src/ui/override.ui:87
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "Ignora parzialmente il tema della shell per creare un desktop minimale"
+
+#: src/ui/profile.ui:21
+msgid "Profile"
+msgstr "Profilo"
+
+#: src/ui/profile.ui:34
+msgid ""
+"You can choose between pre-defined profiles or you can simply use your own "
+"customized settings"
+msgstr ""
+"Puoi scegliere tra profili predefiniti o puoi semplicemente utilizzare "
+"le tue impostazioni personalizzate"
+
+#: src/ui/profile.ui:65
+msgid "Custom"
+msgstr "Costume"
+
+#: src/ui/profile.ui:75
+msgid "Minimal"
+msgstr "Minimo"
+
+#: src/ui/profile.ui:85
+msgid "Super Minimal"
+msgstr "Super minimale"
 
 #: src/ui/visibility.ui:19
 msgid "Visibility"

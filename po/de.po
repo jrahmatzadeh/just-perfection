@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-09 07:42-0800\n"
+"POT-Creation-Date: 2021-11-14 11:15-0800\n"
 "PO-Revision-Date: 2020-12-18 04:55-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: German\n"
@@ -80,7 +80,8 @@ msgstr "Doppelter Superschlüssel zum App Grid"
 
 #: src/ui/behavior.ui:483
 msgid "Shows app grid when you double hit super key fast"
-msgstr "Zeigt das App-Raster an, wenn Sie schnell die Supertaste doppelt drücken"
+msgstr ""
+"Zeigt das App-Raster an, wenn Sie schnell die Supertaste doppelt drücken"
 
 #: src/ui/behavior.ui:547
 msgid "Startup Status"
@@ -171,7 +172,7 @@ msgstr "Positionsversatz des Uhrmenüs"
 msgid "Workspace Switcher Size"
 msgstr "Größe des Arbeitsbereichsumschalters"
 
-#: src/ui/customize.ui:837 src/ui/customize.ui:978
+#: src/ui/customize.ui:837 src/ui/customize.ui:978 src/ui/profile.ui:55
 msgid "Default"
 msgstr "Standard"
 
@@ -284,14 +285,18 @@ msgstr ""
 "ausgewählt haben"
 
 #: src/ui/main.ui:10
+msgid "Preferences Intro"
+msgstr "Einstellungen Intro"
+
+#: src/ui/main.ui:16
 msgid "Bug Report"
 msgstr "Fehlerbericht"
 
-#: src/ui/main.ui:14
+#: src/ui/main.ui:20
 msgid "Support via Patreon"
 msgstr "Support über Patreon"
 
-#: src/ui/main.ui:80
+#: src/ui/main.ui:84
 msgid "Select File"
 msgstr "Datei aussuchen"
 
@@ -312,6 +317,30 @@ msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr ""
 "Überschreibt das Shell-Design teilweise, um einen minimalen Desktop zu "
 "erstellen"
+
+#: src/ui/profile.ui:21
+msgid "Profile"
+msgstr "Profil"
+
+#: src/ui/profile.ui:34
+msgid ""
+"You can choose between pre-defined profiles or you can simply use your own "
+"customized settings"
+msgstr ""
+"Sie können zwischen vordefinierten Profilen wählen oder einfach Ihre eigenen "
+"benutzerdefinierten Einstellungen verwenden"
+
+#: src/ui/profile.ui:65
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: src/ui/profile.ui:75
+msgid "Minimal"
+msgstr "Minimal"
+
+#: src/ui/profile.ui:85
+msgid "Super Minimal"
+msgstr "Superminimal"
 
 #: src/ui/visibility.ui:19
 msgid "Visibility"

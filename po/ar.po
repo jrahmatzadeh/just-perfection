@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-09 07:42-0800\n"
+"POT-Creation-Date: 2021-11-14 11:15-0800\n"
 "PO-Revision-Date: 2020-12-18 04:15-0800\n"
 "Last-Translator: Kareem Abduljaleel <karemjaleel34@gmail.com>\n"
 "Language-Team: Arabic\n"
@@ -168,7 +168,7 @@ msgstr "إزاحة موضع قائمة الساعة"
 msgid "Workspace Switcher Size"
 msgstr "حجم مبدل مساحة العمل"
 
-#: src/ui/customize.ui:837 src/ui/customize.ui:978
+#: src/ui/customize.ui:837 src/ui/customize.ui:978 src/ui/profile.ui:55
 msgid "Default"
 msgstr "الإفتراضي"
 
@@ -277,14 +277,18 @@ msgid "Only works when you have selected an icon for activities button"
 msgstr "يعمل فقط عندما تحدد رمزًا لزر الأنشطة"
 
 #: src/ui/main.ui:10
+msgid "Preferences Intro"
+msgstr "مقدمة التفضيلات"
+
+#: src/ui/main.ui:16
 msgid "Bug Report"
 msgstr "تقرير الشوائب"
 
-#: src/ui/main.ui:14
+#: src/ui/main.ui:20
 msgid "Support via Patreon"
 msgstr "الدعم عبر Patreon"
 
-#: src/ui/main.ui:80
+#: src/ui/main.ui:84
 msgid "Select File"
 msgstr "حدد ملف"
 
@@ -303,6 +307,29 @@ msgstr "مظهر الشل"
 #: src/ui/override.ui:87
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "تجاوز مظهر الشل جزئيا لصناعة سطح مكتب ادنى"
+
+#: src/ui/profile.ui:21
+msgid "Profile"
+msgstr "الملف الشخصي"
+
+#: src/ui/profile.ui:34
+msgid ""
+"You can choose between pre-defined profiles or you can simply use your own "
+"customized settings"
+msgstr ""
+"يمكنك الاختيار بين ملفات التعريف المحددة مسبقًا أو يمكنك ببساطة استخدام الإعدادات المخصصة الخاصة بك"
+
+#: src/ui/profile.ui:65
+msgid "Custom"
+msgstr "مخصص"
+
+#: src/ui/profile.ui:75
+msgid "Minimal"
+msgstr "الحد الأدنى"
+
+#: src/ui/profile.ui:85
+msgid "Super Minimal"
+msgstr "سوبر مينيمال"
 
 #: src/ui/visibility.ui:19
 msgid "Visibility"

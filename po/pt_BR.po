@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-09 07:42-0800\n"
+"POT-Creation-Date: 2021-11-14 11:15-0800\n"
 "PO-Revision-Date: 2021-03-10 16:11-0300\n"
 "Last-Translator: zelling <zelling@zelling-desktop>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
@@ -81,7 +81,9 @@ msgstr "Superchave dupla para App Grid"
 
 #: src/ui/behavior.ui:483
 msgid "Shows app grid when you double hit super key fast"
-msgstr "Mostra a grade do aplicativo quando você pressiona duas vezes a supertecla rapidamente"
+msgstr ""
+"Mostra a grade do aplicativo quando você pressiona duas vezes a supertecla "
+"rapidamente"
 
 #: src/ui/behavior.ui:547
 msgid "Startup Status"
@@ -172,7 +174,7 @@ msgstr "Ajuste da Posição do Menu do Relógio"
 msgid "Workspace Switcher Size"
 msgstr "Tamanho do Seletor de Área de Trabalho"
 
-#: src/ui/customize.ui:837 src/ui/customize.ui:978
+#: src/ui/customize.ui:837 src/ui/customize.ui:978 src/ui/profile.ui:55
 msgid "Default"
 msgstr "Padrão"
 
@@ -282,14 +284,18 @@ msgid "Only works when you have selected an icon for activities button"
 msgstr "Só funciona quando você seleciona um ícone para o botão de atividades"
 
 #: src/ui/main.ui:10
+msgid "Preferences Intro"
+msgstr "Introdução às preferências"
+
+#: src/ui/main.ui:16
 msgid "Bug Report"
 msgstr "Relatório de erro"
 
-#: src/ui/main.ui:14
+#: src/ui/main.ui:20
 msgid "Support via Patreon"
 msgstr "Suporte via Patreon"
 
-#: src/ui/main.ui:80
+#: src/ui/main.ui:84
 msgid "Select File"
 msgstr "Selecione o arquivo"
 
@@ -308,6 +314,30 @@ msgstr "Tema do Shell"
 #: src/ui/override.ui:87
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "Sobrescreve o tema do shell parcialmente para criar um desktop minimal"
+
+#: src/ui/profile.ui:21
+msgid "Profile"
+msgstr "Perfil"
+
+#: src/ui/profile.ui:34
+msgid ""
+"You can choose between pre-defined profiles or you can simply use your own "
+"customized settings"
+msgstr ""
+"Você pode escolher entre perfis predefinidos ou simplesmente usar suas "
+"próprias configurações personalizadas"
+
+#: src/ui/profile.ui:65
+msgid "Custom"
+msgstr "Personalizado"
+
+#: src/ui/profile.ui:75
+msgid "Minimal"
+msgstr "Mínimo"
+
+#: src/ui/profile.ui:85
+msgid "Super Minimal"
+msgstr "Super Minimal"
 
 #: src/ui/visibility.ui:19
 msgid "Visibility"

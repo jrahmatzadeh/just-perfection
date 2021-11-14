@@ -816,12 +816,12 @@ var Prefs = class
         let img;
         if (this._shellVersion < 40) {
             img = this._gtk.Image.new_from_file(introImgPath);
-            img.set_size_request(500, 700);
             img.visible = true;
+            img.set_size_request(500, 660);
             imageBox.add(img);
         } else {
             img = this._gtk.Picture.new_for_filename(introImgPath);
-            img.set_size_request(500, 700);
+            img.set_size_request(500, 660);
             imageBox.append(img);
         }
 

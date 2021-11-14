@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-09 07:42-0800\n"
+"POT-Creation-Date: 2021-11-14 12:06-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,7 +164,7 @@ msgstr ""
 msgid "Workspace Switcher Size"
 msgstr ""
 
-#: src/ui/customize.ui:837 src/ui/customize.ui:978
+#: src/ui/customize.ui:837 src/ui/customize.ui:978 src/ui/profile.ui:55
 msgid "Default"
 msgstr ""
 
@@ -273,14 +273,18 @@ msgid "Only works when you have selected an icon for activities button"
 msgstr ""
 
 #: src/ui/main.ui:10
+msgid "Preferences Intro"
+msgstr ""
+
+#: src/ui/main.ui:16
 msgid "Bug Report"
 msgstr ""
 
-#: src/ui/main.ui:14
+#: src/ui/main.ui:20
 msgid "Support via Patreon"
 msgstr ""
 
-#: src/ui/main.ui:80
+#: src/ui/main.ui:84
 msgid "Select File"
 msgstr ""
 
@@ -298,6 +302,28 @@ msgstr ""
 
 #: src/ui/override.ui:87
 msgid "Overrides the shell theme partially to create a minimal desktop"
+msgstr ""
+
+#: src/ui/profile.ui:21
+msgid "Profile"
+msgstr ""
+
+#: src/ui/profile.ui:34
+msgid ""
+"You can choose between pre-defined profiles or you can simply use your own "
+"customized settings"
+msgstr ""
+
+#: src/ui/profile.ui:65
+msgid "Custom"
+msgstr ""
+
+#: src/ui/profile.ui:75
+msgid "Minimal"
+msgstr ""
+
+#: src/ui/profile.ui:85
+msgid "Super Minimal"
 msgstr ""
 
 #: src/ui/visibility.ui:19

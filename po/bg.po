@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-09 07:42-0800\n"
+"POT-Creation-Date: 2021-11-14 11:15-0800\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -81,7 +81,8 @@ msgstr "Двоен супер ключ към App Grid"
 
 #: src/ui/behavior.ui:483
 msgid "Shows app grid when you double hit super key fast"
-msgstr "Показва мрежата на приложението, когато натиснете бързо супер клавиш двойно"
+msgstr ""
+"Показва мрежата на приложението, когато натиснете бързо супер клавиш двойно"
 
 #: src/ui/behavior.ui:547
 msgid "Startup Status"
@@ -172,7 +173,7 @@ msgstr "Отместване на позицията на менюто на ча
 msgid "Workspace Switcher Size"
 msgstr "Размер на превключвателя на работното пространство"
 
-#: src/ui/customize.ui:837 src/ui/customize.ui:978
+#: src/ui/customize.ui:837 src/ui/customize.ui:978 src/ui/profile.ui:55
 msgid "Default"
 msgstr "По подразбиране"
 
@@ -281,14 +282,18 @@ msgid "Only works when you have selected an icon for activities button"
 msgstr "Работи само когато сте избрали икона за бутон за дейности"
 
 #: src/ui/main.ui:10
+msgid "Preferences Intro"
+msgstr "Предпочитания Въведение"
+
+#: src/ui/main.ui:16
 msgid "Bug Report"
 msgstr "Доклад за грешки"
 
-#: src/ui/main.ui:14
+#: src/ui/main.ui:20
 msgid "Support via Patreon"
 msgstr "Поддръжка чрез Patreon"
 
-#: src/ui/main.ui:80
+#: src/ui/main.ui:84
 msgid "Select File"
 msgstr "Избери файл"
 
@@ -308,6 +313,30 @@ msgstr "Тема Shell"
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr ""
 "Заменя темата на черупката частично, за да създаде минимален работен плот"
+
+#: src/ui/profile.ui:21
+msgid "Profile"
+msgstr "Профил"
+
+#: src/ui/profile.ui:34
+msgid ""
+"You can choose between pre-defined profiles or you can simply use your own "
+"customized settings"
+msgstr ""
+"Можете да избирате между предварително дефинирани профили или "
+"просто да използвате свои собствени персонализирани настройки"
+
+#: src/ui/profile.ui:65
+msgid "Custom"
+msgstr "Персонализиран"
+
+#: src/ui/profile.ui:75
+msgid "Minimal"
+msgstr "Минимален"
+
+#: src/ui/profile.ui:85
+msgid "Super Minimal"
+msgstr "Супер минимално"
 
 #: src/ui/visibility.ui:19
 msgid "Visibility"

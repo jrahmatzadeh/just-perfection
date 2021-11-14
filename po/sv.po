@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-09 07:42-0800\n"
+"POT-Creation-Date: 2021-11-14 11:15-0800\n"
 "PO-Revision-Date: 2021-04-13 22:01+0200\n"
 "Last-Translator: Morgan Antonsson <morgan.antonsson@gmail.com>\n"
 "Language-Team: Swedish\n"
@@ -170,7 +170,7 @@ msgstr "Klockmenyoffset"
 msgid "Workspace Switcher Size"
 msgstr "Arbetsyteväxlarens storlek"
 
-#: src/ui/customize.ui:837 src/ui/customize.ui:978
+#: src/ui/customize.ui:837 src/ui/customize.ui:978 src/ui/profile.ui:55
 msgid "Default"
 msgstr "Standard"
 
@@ -279,14 +279,18 @@ msgid "Only works when you have selected an icon for activities button"
 msgstr "Fungerar bara när du har valt en ikon för aktivitetsknappen"
 
 #: src/ui/main.ui:10
+msgid "Preferences Intro"
+msgstr "Preferences Intro"
+
+#: src/ui/main.ui:16
 msgid "Bug Report"
 msgstr "Buggrapport"
 
-#: src/ui/main.ui:14
+#: src/ui/main.ui:20
 msgid "Support via Patreon"
 msgstr "Support via Patreon"
 
-#: src/ui/main.ui:80
+#: src/ui/main.ui:84
 msgid "Select File"
 msgstr "Välj fil"
 
@@ -305,6 +309,30 @@ msgstr "Skaltema"
 #: src/ui/override.ui:87
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "Åsidosätt skaltemat delvis för att göra skrivbordet kompakt"
+
+#: src/ui/profile.ui:21
+msgid "Profile"
+msgstr "Profil"
+
+#: src/ui/profile.ui:34
+msgid ""
+"You can choose between pre-defined profiles or you can simply use your own "
+"customized settings"
+msgstr ""
+"Du kan välja mellan fördefinierade profiler eller så kan du helt enkelt använda "
+"dina egna anpassade inställningar"
+
+#: src/ui/profile.ui:65
+msgid "Custom"
+msgstr "Beställnings"
+
+#: src/ui/profile.ui:75
+msgid "Minimal"
+msgstr "Minimal"
+
+#: src/ui/profile.ui:85
+msgid "Super Minimal"
+msgstr "Super Minimal"
 
 #: src/ui/visibility.ui:19
 msgid "Visibility"
