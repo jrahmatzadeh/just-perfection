@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Fixed
+
+- Prefs height going off the screen in small displays.
+
 ## [16.0.0 Rembrandt] - 2021-11-15
 
 ### Fixed

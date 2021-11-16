@@ -10,7 +10,7 @@ const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
 const {Prefs} = Me.imports.lib;
-const {Gtk, Gio, GLib, GObject} = imports.gi;
+const {Gtk, Gdk, Gio, GLib, GObject} = imports.gi;
 
 const Config = imports.misc.config;
 const shellVersion = parseFloat(Config.PACKAGE_VERSION);
@@ -44,6 +44,7 @@ function buildPrefsWidget()
         Settings: settings,
         GObjectBindingFlags: GObject.BindingFlags,
         Gtk,
+        Gdk,
         Gio,
         GLib,
     }, shellVersion);

@@ -19,6 +19,7 @@ var Prefs = class
      *   'Settings' instance of Gio::Settings
      *   'GObjectBindingFlags' instance of GObject::BindingFlags
      *   'Gtk' reference to Gtk
+     *   'Gdk' reference to Gdk
      *   'Gio' reference to Gio
      *   'GLib' reference to GLib
      * @param {number} shellVersion float in major.minor format
@@ -29,6 +30,7 @@ var Prefs = class
         this._builder = dependecies['Builder'] || null;
         this._gobjectBindingFlags = dependecies['GObjectBindingFlags'] || null;
         this._gtk = dependecies['Gtk'] || null;
+        this._gdk = dependecies['Gdk'] || null;
         this._gio = dependecies['Gio'] || null;
         this._glib = dependecies['GLib'] || null;
 
@@ -772,10 +774,16 @@ var Prefs = class
             let window = (this._shellVersion < 40) ? obj.get_toplevel() : obj.get_root();
 
             // default window size
-            window.default_width = this._windowWidth;
-            window.set_size_request(this._windowWidth, this._windowHeight);
-            if (this._shellVersion < 40) {
-                window.resize(this._windowWidth, this._windowHeight);
+            let [pmWidth, pmHeight] = this._getPrimaryMonitorSize();
+            let sizeTolerance = 40;
+            if (pmWidth - sizeTolerance >= this._windowWidth &&
+                pmHeight - sizeTolerance >= this._windowHeight)
+            {
+                window.default_width = this._windowWidth;
+                window.set_size_request(this._windowWidth, this._windowHeight);
+                if (this._shellVersion < 40) {
+                    window.resize(this._windowWidth, this._windowHeight);
+                }
             }
 
             // csd
@@ -792,6 +800,24 @@ var Prefs = class
         });
 
         return obj;
+    }
+
+    /**
+     * get primary monitor size
+     *
+     * @returns {Array} [width, height]
+     */
+    _getPrimaryMonitorSize()
+    {
+        const pm = this._gdk.Display.get_default()?.get_monitors()?.get_item(0);
+
+        if (!pm) {
+            return [800, 600];
+        }
+
+        let geo = pm.get_geometry();
+
+        return [geo.width, geo.height];
     }
 
     /**
