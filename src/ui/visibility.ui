@@ -194,7 +194,6 @@
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
-                                <property name="max-width-chars">0</property>
                                 <property name="margin-top">12</property>
                                 <style>
                                   <class name="dim-label"/>
@@ -269,7 +268,6 @@
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
-                                <property name="max-width-chars">0</property>
                                 <property name="margin-top">12</property>
                                 <style>
                                   <class name="dim-label"/>
@@ -344,7 +342,6 @@
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
-                                <property name="max-width-chars">0</property>
                                 <property name="margin-top">12</property>
                                 <style>
                                   <class name="dim-label"/>
@@ -419,7 +416,6 @@
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
-                                <property name="max-width-chars">0</property>
                                 <property name="margin-top">12</property>
                                 <style>
                                   <class name="dim-label"/>
@@ -494,7 +490,6 @@
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
-                                <property name="max-width-chars">0</property>
                                 <property name="margin-top">12</property>
                                 <style>
                                   <class name="dim-label"/>
@@ -569,7 +564,6 @@
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
-                                <property name="max-width-chars">0</property>
                                 <property name="margin-top">12</property>
                                 <style>
                                   <class name="dim-label"/>
@@ -644,7 +638,6 @@
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
-                                <property name="max-width-chars">0</property>
                                 <property name="margin-top">12</property>
                                 <style>
                                   <class name="dim-label"/>
@@ -719,7 +712,6 @@
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
-                                <property name="max-width-chars">0</property>
                                 <property name="margin-top">12</property>
                                 <style>
                                   <class name="dim-label"/>
@@ -794,7 +786,6 @@
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
-                                <property name="max-width-chars">0</property>
                                 <property name="margin-top">12</property>
                                 <style>
                                   <class name="dim-label"/>
@@ -869,7 +860,6 @@
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
-                                <property name="max-width-chars">0</property>
                                 <property name="margin-top">12</property>
                                 <style>
                                   <class name="dim-label"/>
@@ -944,7 +934,6 @@
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
-                                <property name="max-width-chars">0</property>
                                 <property name="margin-top">12</property>
                                 <style>
                                   <class name="dim-label"/>
@@ -1019,7 +1008,6 @@
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
-                                <property name="max-width-chars">0</property>
                                 <property name="margin-top">12</property>
                                 <style>
                                   <class name="dim-label"/>
@@ -1094,7 +1082,6 @@
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
-                                <property name="max-width-chars">0</property>
                                 <property name="margin-top">12</property>
                                 <style>
                                   <class name="dim-label"/>
@@ -1169,7 +1156,6 @@
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
-                                <property name="max-width-chars">0</property>
                                 <property name="margin-top">12</property>
                                 <style>
                                   <class name="dim-label"/>
@@ -1244,7 +1230,6 @@
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
-                                <property name="max-width-chars">0</property>
                                 <property name="margin-top">12</property>
                                 <style>
                                   <class name="dim-label"/>
@@ -1319,7 +1304,6 @@
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
-                                <property name="max-width-chars">0</property>
                                 <property name="margin-top">12</property>
                                 <style>
                                   <class name="dim-label"/>
@@ -1394,7 +1378,6 @@
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
-                                <property name="max-width-chars">0</property>
                                 <property name="margin-top">12</property>
                                 <style>
                                   <class name="dim-label"/>
