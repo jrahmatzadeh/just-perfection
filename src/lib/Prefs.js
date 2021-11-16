@@ -809,7 +809,12 @@ var Prefs = class
      */
     _getPrimaryMonitorSize()
     {
-        const pm = this._gdk.Display.get_default()?.get_monitors()?.get_item(0);
+        let display = this._gdk.Display.get_default();
+
+        let pm
+        = (this._shellVersion < 40)
+        ? display.get_monitor(0)
+        : display.get_monitors().get_item(0);
 
         if (!pm) {
             return [800, 600];
