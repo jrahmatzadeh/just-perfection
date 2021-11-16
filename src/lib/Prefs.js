@@ -900,7 +900,6 @@ var Prefs = class
             let iconName = elm.get_icon_name();
             let iconSize = elm.get_icon_size();
 
-            elm.hide();
             parent.icon_name = iconName;
             parent.icon_size = iconSize;
         });
