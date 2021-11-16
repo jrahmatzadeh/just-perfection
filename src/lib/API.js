@@ -1439,7 +1439,7 @@ var API = class
         if (!this._workareasChangedSignal) {
             this._workareasChangedSignal
             = global.display.connect('workareas-changed', () => {
-                this.panelSetPosition('bottom');
+                this.panelSetPosition(PANEL_POSITION.BOTTOM);
             });
         }
 
