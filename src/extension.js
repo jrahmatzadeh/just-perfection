@@ -108,6 +108,7 @@ function disable()
 
     if (api) {
         api.close();
+        api = null;
     }
 }
 
