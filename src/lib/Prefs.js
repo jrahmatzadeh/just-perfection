@@ -1086,17 +1086,23 @@ var Prefs = class
 
         let action1 = new this._gio.SimpleAction({name: 'show-bug-report'});
         action1.connect('activate', () => {
-            this._gio.AppInfo.launch_default_for_uri(
+            this._gio.AppInfo.launch_default_for_uri_async(
                 this._url.bug_report,
-                window.get_display().get_app_launch_context());
+                window.get_display().get_app_launch_context(),
+                null,
+                null
+            );
         });
         actionGroup.add_action(action1);
 
         let action2 = new this._gio.SimpleAction({name: 'show-patreon'});
         action2.connect('activate', () => {
-            this._gio.AppInfo.launch_default_for_uri(
+            this._gio.AppInfo.launch_default_for_uri_async(
                 this._url.patreon,
-                window.get_display().get_app_launch_context());
+                window.get_display().get_app_launch_context(),
+                null,
+                null
+            );
         });
         actionGroup.add_action(action2);
 
