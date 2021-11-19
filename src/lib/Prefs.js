@@ -1086,23 +1086,13 @@ var Prefs = class
 
         let action1 = new this._gio.SimpleAction({name: 'show-bug-report'});
         action1.connect('activate', () => {
-            this._gio.AppInfo.launch_default_for_uri_async(
-                this._url.bug_report,
-                window.get_display().get_app_launch_context(),
-                null,
-                null
-            );
+            this._openURI(this._url.bug_report);
         });
         actionGroup.add_action(action1);
 
         let action2 = new this._gio.SimpleAction({name: 'show-patreon'});
         action2.connect('activate', () => {
-            this._gio.AppInfo.launch_default_for_uri_async(
-                this._url.patreon,
-                window.get_display().get_app_launch_context(),
-                null,
-                null
-            );
+            this._openURI(this._url.patreon);
         });
         actionGroup.add_action(action2);
 
@@ -1122,6 +1112,23 @@ var Prefs = class
         }
 
         window.insert_action_group('prefs', actionGroup);
+    }
+
+    /**
+     * show uri
+     *
+     * @param {string} uri uri to open
+     *
+     * @returns {void}
+     */
+    _openURI(uri)
+    {
+        if (this._shellVersion < 40) {
+            this._gtk.show_uri_on_window(null, uri, this._gdk.CURRENT_TIME);
+            return;
+        }
+
+        this._gtk.show_uri(null, uri, this._gdk.CURRENT_TIME);
     }
 
     /**
