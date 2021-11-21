@@ -11,6 +11,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Prefs height going off the screen in small displays.
 - Prefs lunching url freeze.
 - Prefs padding in upcoming GNOME Shell 42.
+- Startup animation for hiding panel when panel is disabled.
 
 ## [16.0.0 Rembrandt] - 2021-11-15
 
