@@ -351,7 +351,7 @@ var Manager = class
             this._api.panelShow();
         } else {
             let mode = (panelInOverview) ? 1 : 0;
-            this._api.panelHide(mode);
+            this._api.panelHide(mode, 0);
         }
     }
 
