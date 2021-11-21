@@ -8,6 +8,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ### Fixed
 
+- Emitting panel show when panel is visible.
 - Prefs height going off the screen in small displays.
 - Prefs lunching url freeze.
 - Prefs padding in upcoming GNOME Shell 42.

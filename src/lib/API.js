@@ -335,12 +335,10 @@ var API = class
     _emitPanelPositionChanged(calledFromChanger = false)
     {
         if (!calledFromChanger) {
-            this.panelSetPosition(this.panelGetPosition());
+            this.panelSetPosition(this.panelGetPosition(), true);
         }
 
-        if (this.isPanelVisible()) {
-            this.panelShow(true, 0);
-        } else {
+        if (!this.isPanelVisible()) {
             let mode = this._panelHideMode ? this._panelHideMode : 0;
             this.panelHide(mode, 0);
         }
@@ -349,18 +347,17 @@ var API = class
     /**
      * show panel
      *
-     * @param {boolean} force apply show even if it is hidden. defaults to false.
      * @param {number} animationDuration in miliseconds. defaults to 150 
      *
      * @returns {void}
      */
-    panelShow(force = false, animationDuration = 150)
+    panelShow(animationDuration = 150)
     {
         this._panelVisiblity = true;
 
         let classname = this._getAPIClassname('no-panel');
 
-        if (!force && !this.UIStyleClassContain(classname)) {
+        if (!this.UIStyleClassContain(classname)) {
             return;
         }
 
@@ -1402,13 +1399,18 @@ var API = class
      * move panel position
      *
      * @param {number} position see PANEL_POSITION
+     * @param {boolean} force
      *
      * @returns {void}
      */
-    panelSetPosition(position)
+    panelSetPosition(position, force = false)
     {
         let monitorInfo = this.monitorGetInfo();
         let panelBox = this._main.layoutManager.panelBox;
+
+        if (!force && position === this.panelGetPosition()) {
+            return;
+        }
 
         if (position === PANEL_POSITION.TOP) {
             this._panelPosition = PANEL_POSITION.TOP;
@@ -1439,7 +1441,7 @@ var API = class
         if (!this._workareasChangedSignal) {
             this._workareasChangedSignal
             = global.display.connect('workareas-changed', () => {
-                this.panelSetPosition(PANEL_POSITION.BOTTOM);
+                this.panelSetPosition(PANEL_POSITION.BOTTOM, true);
             });
         }
 
