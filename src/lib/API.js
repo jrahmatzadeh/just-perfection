@@ -1399,7 +1399,8 @@ var API = class
      * move panel position
      *
      * @param {number} position see PANEL_POSITION
-     * @param {boolean} force
+     * @param {boolean} force allow to set even when the current position
+     *   is the same
      *
      * @returns {void}
      */
