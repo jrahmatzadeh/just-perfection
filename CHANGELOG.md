@@ -13,6 +13,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Prefs lunching url freeze.
 - Prefs padding in upcoming GNOME Shell 42.
 - Startup animation for hiding panel when panel is disabled.
+- Galician translation by [@frandieguez](https://gitlab.gnome.org/frandieguez).
 
 ## [16.0.0 Rembrandt] - 2021-11-15
 
