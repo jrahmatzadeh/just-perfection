@@ -1,6 +1,6 @@
 {
     "name": "Just Perfection",
-    "description": "Tweak Tool to Customize GNOME Shell and Disable UI Elements",
+    "description": "Tweak Tool to Customize GNOME Shell, Change the Behavior and Disable UI Elements",
     "shell-version": ["3.36", "3.38", "40", "41"],
     "settings-schema": "org.gnome.shell.extensions.just-perfection",
     "gettext-domain": "just-perfection",
