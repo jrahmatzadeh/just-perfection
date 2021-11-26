@@ -838,6 +838,7 @@ var Prefs = class
 
         let imgFile = this._gio.File.new_for_path(introImgPath);
         if (!imgFile.query_exists(null)) {
+            this._builder.get_object('primary_menu').remove(0);
             this._builder.get_object('intro').visible = false;
             return;
         }
