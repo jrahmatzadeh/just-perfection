@@ -690,14 +690,15 @@ var API = class
             opacity: 255,
             mode: this._clutter.AnimationMode.EASE,
             duration: 150,
-            onComplete: () => { 
+            onComplete: () => {
                 searchEntryParent.height = -1;
-                searchEntry.ease({
-                    opacity: 255,
-                    mode: this._clutter.AnimationMode.EASE,
-                    duration: 150,
-                });
             },
+        });
+
+        searchEntry.ease({
+            opacity: 255,
+            mode: this._clutter.AnimationMode.EASE,
+            duration: 150,
         });
 
         if (!fake) {
@@ -724,14 +725,13 @@ var API = class
             opacity: 0,
             mode: this._clutter.AnimationMode.EASE,
             duration: 50,
-            onComplete: () => {
-                searchEntryParent.ease({
-                    height: 0,
-                    opacity: 0,
-                    mode: this._clutter.AnimationMode.EASE,
-                    duration: 120,
-                });
-            },
+        });
+
+        searchEntryParent.ease({
+            height: 0,
+            opacity: 0,
+            mode: this._clutter.AnimationMode.EASE,
+            duration: 120,
         });
 
         if (!fake) {
@@ -824,7 +824,6 @@ var API = class
         let signalName = (bySearchController) ? 'notify::search-active' : 'page-changed';
 
         this._searchActiveSignal = controller.connect(signalName, () => {
-
             if (this._searchEntryVisibility) {
                 return;
             }
