@@ -51,7 +51,7 @@ var Prefs = class
          * @member {number}
          */
         this._windowWidth = 500;
-        this._windowHeight = 900;
+        this._windowHeight = 800;
 
         /**
          * holds all profile names
