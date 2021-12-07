@@ -10,6 +10,9 @@ const NOTIFICATION_BANNER_POSITION = {
     TOP_START: 0,
     TOP_CENTER: 1,
     TOP_END: 2,
+    BOTTOM_START: 3,
+    BOTTOM_CENTER: 4,
+    BOTTOM_END: 5,
 };
 
 const PANEL_POSITION = {
@@ -2017,10 +2020,18 @@ var API = class
     notificationBannerPositionSet(pos)
     {
         let messageTray = this._main.messageTray;
+        let bannerBin = messageTray._bannerBin;
 
-        if (this._originals['bannerAlignment'] === undefined) {
-            this._originals['bannerAlignment'] = messageTray.bannerAlignment;
+        if (this._originals['bannerAlignmentX'] === undefined) {
+            this._originals['bannerAlignmentX'] = messageTray.bannerAlignment;
         }
+
+        if (this._originals['bannerAlignmentY'] === undefined) {
+            this._originals['bannerAlignmentY'] = bannerBin.get_y_align();
+        }
+
+        // TOP
+        bannerBin.set_y_align(this._clutter.ActorAlign.START);
 
         if (pos === NOTIFICATION_BANNER_POSITION.TOP_START) {
             messageTray.bannerAlignment = this._clutter.ActorAlign.START;
@@ -2036,6 +2047,24 @@ var API = class
             messageTray.bannerAlignment = this._clutter.ActorAlign.CENTER;
             return;
         }
+
+        // BOTTOM
+        bannerBin.set_y_align(this._clutter.ActorAlign.END);
+
+        if (pos === NOTIFICATION_BANNER_POSITION.BOTTOM_START) {
+            messageTray.bannerAlignment = this._clutter.ActorAlign.START;
+            return;
+        }
+
+        if (pos === NOTIFICATION_BANNER_POSITION.BOTTOM_END) {
+            messageTray.bannerAlignment = this._clutter.ActorAlign.END;
+            return;
+        }
+
+        if (pos === NOTIFICATION_BANNER_POSITION.BOTTOM_CENTER) {
+            messageTray.bannerAlignment = this._clutter.ActorAlign.CENTER;
+            return;
+        }
     }
 
     /**
@@ -2045,12 +2074,18 @@ var API = class
      */
     notificationBannerPositionSetDefault()
     {
-        if (this._originals['bannerAlignment'] === undefined) {
+        if (this._originals['bannerAlignmentX'] === undefined ||
+            this._originals['bannerAlignmentY'] === undefined ||
+            this._originals['hideNotification']
+        ) {
             return;
         }
 
         let messageTray = this._main.messageTray;
-        messageTray.bannerAlignment = this._originals['bannerAlignment'];
+        let bannerBin = messageTray._bannerBin;
+
+        messageTray.bannerAlignment = this._originals['bannerAlignmentX'];
+        bannerBin.set_y_align(this._originals['bannerAlignmentY']);
     }
 
     /**
