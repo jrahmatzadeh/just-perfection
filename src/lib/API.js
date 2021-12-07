@@ -1475,7 +1475,10 @@ var API = class
 
         const Main = this._main;
 
-        lookingGlassProto._oldResize = this._originals['lookingGlassResize'];
+        if (lookingGlassProto._oldResize === undefined) {
+            lookingGlassProto._oldResize = this._originals['lookingGlassResize'];
+        }
+
         lookingGlassProto._resize = function () {
             let panelHeight = Main.layoutManager.panelBox.height;
             this._oldResize();
