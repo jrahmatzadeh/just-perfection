@@ -28,6 +28,7 @@ const WorkspacesView = imports.ui.workspacesView;
 const WindowPreview = (shellVersion >= 3.38) ? imports.ui.windowPreview : null;
 const Workspace = imports.ui.workspace;
 const LookingGlass = imports.ui.lookingGlass;
+const MessageTray = imports.ui.messageTray;
 
 let manager;
 let api;
@@ -71,6 +72,7 @@ function enable()
         WindowPreview,
         Workspace,
         LookingGlass,
+        MessageTray,
         St,
         Gio,
         GLib,

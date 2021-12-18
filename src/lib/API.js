@@ -66,6 +66,7 @@ var API = class
      *   'WindowPreview' reference to ui::windowPreview
      *   'Workspace' reference to ui::workspace
      *   'LookingGlass' reference to ui::lookingGlass
+     *   'MessageTray' reference to ui::messageTray
      *   'St' reference to St
      *   'Gio' reference to Gio
      *   'GLib' reference to GLib
@@ -90,6 +91,7 @@ var API = class
         this._windowPreview = dependecies['WindowPreview'] || null;
         this._workspace = dependecies['Workspace'] || null;
         this._lookingGlass = dependecies['LookingGlass'] || null;
+        this._messageTray = dependecies['MessageTray'] || null;
         this._st = dependecies['St'] || null;
         this._gio = dependecies['Gio'] || null;
         this._glib = dependecies['GLib'] || null;
@@ -2033,7 +2035,13 @@ var API = class
             this._originals['bannerAlignmentY'] = bannerBin.get_y_align();
         }
 
+        if (this._originals['hideNotification'] === undefined) {
+            this._originals['hideNotification'] = messageTray._hideNotification;
+        }
+
         // TOP
+        messageTray._hideNotification = this._originals['hideNotification'];
+
         bannerBin.set_y_align(this._clutter.ActorAlign.START);
 
         if (pos === NOTIFICATION_BANNER_POSITION.TOP_START) {
@@ -2052,6 +2060,60 @@ var API = class
         }
 
         // BOTTOM
+
+        // >>
+        // This block is going to fix the animation when the notification is
+        // in bottom area
+        // this is the same function from (ui.messageTray.messageTray._hideNotification)
+        // with clutter animation mode set to EASE.
+        // because the EASE_OUT_BACK (original code) causes glitch when
+        // the tray is on bottom 
+        const State = this._messageTray.State;
+        const ANIMATION_TIME = this._messageTray.ANIMATION_TIME;
+        const Clutter = this._clutter;
+
+        messageTray._hideNotification = function (animate) {
+            this._notificationFocusGrabber.ungrabFocus();
+
+            if (this._bannerClickedId) {
+                this._banner.disconnect(this._bannerClickedId);
+                this._bannerClickedId = 0;
+            }
+            if (this._bannerUnfocusedId) {
+                this._banner.disconnect(this._bannerUnfocusedId);
+                this._bannerUnfocusedId = 0;
+            }
+
+            this._resetNotificationLeftTimeout();
+            this._bannerBin.remove_all_transitions();
+
+            if (animate) {
+                this._notificationState = State.HIDING;
+                this._bannerBin.ease({
+                    opacity: 0,
+                    duration: ANIMATION_TIME,
+                    mode: Clutter.AnimationMode.EASE,
+                });
+                this._bannerBin.ease({
+                    opacity: 0,
+                    y: this._bannerBin.height,
+                    duration: ANIMATION_TIME,
+                    mode: Clutter.AnimationMode.EASE,
+                    onComplete: () => {
+                        this._notificationState = State.HIDDEN;
+                        this._hideNotificationCompleted();
+                        this._updateState();
+                    },
+                });
+            } else {
+                this._bannerBin.y = this._bannerBin.height;
+                this._bannerBin.opacity = 0;
+                this._notificationState = State.HIDDEN;
+                this._hideNotificationCompleted();
+            }
+        }
+        // <<
+
         bannerBin.set_y_align(this._clutter.ActorAlign.END);
 
         if (pos === NOTIFICATION_BANNER_POSITION.BOTTOM_START) {
@@ -2079,7 +2141,7 @@ var API = class
     {
         if (this._originals['bannerAlignmentX'] === undefined ||
             this._originals['bannerAlignmentY'] === undefined ||
-            this._originals['hideNotification']
+            this._originals['hideNotification'] === undefined
         ) {
             return;
         }
@@ -2089,6 +2151,7 @@ var API = class
 
         messageTray.bannerAlignment = this._originals['bannerAlignmentX'];
         bannerBin.set_y_align(this._originals['bannerAlignmentY']);
+        messageTray._hideNotification = this._originals['hideNotification'];
     }
 
     /**
