@@ -1057,6 +1057,9 @@
                               <item translatable="yes">Top Start</item>
                               <item translatable="yes">Top Center</item>
                               <item translatable="yes">Top End</item>
+                              <item translatable="yes">Bottom Start</item>
+                              <item translatable="yes">Bottom Center</item>
+                              <item translatable="yes">Bottom End</item>
                             </items>
                           </object>
                         </child>

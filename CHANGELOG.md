@@ -17,6 +17,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Type to search when text entry content is replaced with another content.
 - Galician translation by [@frandieguez](https://gitlab.gnome.org/frandieguez).
 
+### Added
+
+- Bottom to notification banner position.
+
 ## [16.0.0 Rembrandt] - 2021-11-15
 
 ### Fixed

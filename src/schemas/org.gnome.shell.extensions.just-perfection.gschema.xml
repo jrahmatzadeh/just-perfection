@@ -242,8 +242,8 @@
     
     <key type="i" name="notification-banner-position">
       <default>1</default>
-      <range min="0" max="2"/>
-      <summary>0: top start, 1: top center, 2: top end</summary>
+      <range min="0" max="5"/>
+      <summary>0: top start, 1: top center, 2: top end, 3: bottom start, 4: bottom center, 5: bottom end</summary>
       <description>Notification Banner Position</description>
     </key>
     
