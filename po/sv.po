@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 11:15-0800\n"
+"POT-Creation-Date: 2021-12-24 12:21-0800\n"
 "PO-Revision-Date: 2021-04-13 22:01+0200\n"
 "Last-Translator: Morgan Antonsson <morgan.antonsson@gmail.com>\n"
 "Language-Team: Swedish\n"
@@ -44,28 +44,28 @@ msgstr ""
 "och tidigare arbetsyta blir den sista arbetsytan när du är i den första "
 "arbetsytan."
 
-#: src/ui/behavior.ui:247
+#: src/ui/behavior.ui:246
 msgid "Window Demands Attention Focus"
 msgstr "Fönster kräver uppmärksamhetsfokus"
 
-#: src/ui/behavior.ui:258
+#: src/ui/behavior.ui:257
 msgid "Removes window is ready notification and focus on the window"
 msgstr "Tar bort fönstret är redo anmälan och fokusera på fönstret"
 
-#: src/ui/behavior.ui:322
+#: src/ui/behavior.ui:320
 msgid "Type to Search"
 msgstr "Skriv för att söka"
 
-#: src/ui/behavior.ui:333
+#: src/ui/behavior.ui:331
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr "Sök utan synlig sökruta eller utan att fokusera den i översiktsvyn"
 
-#: src/ui/behavior.ui:397
+#: src/ui/behavior.ui:394
 msgid "Always Show Workspace Switcher"
 msgstr "Visa alltid arbetsytans växlare"
 
-#: src/ui/behavior.ui:408
+#: src/ui/behavior.ui:405
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
@@ -73,27 +73,27 @@ msgstr ""
 "Visar arbetsytväxlare även när endast en arbetsyta används med dynamiska "
 "arbetsytor"
 
-#: src/ui/behavior.ui:472
+#: src/ui/behavior.ui:468
 msgid "Double Super to App Grid"
 msgstr "Dubbel supernyckel till App Grid"
 
-#: src/ui/behavior.ui:483
+#: src/ui/behavior.ui:479
 msgid "Shows app grid when you double hit super key fast"
 msgstr "Visar apprutnät när du dubbeltrycker supersnabbt"
 
-#: src/ui/behavior.ui:547
+#: src/ui/behavior.ui:542
 msgid "Startup Status"
 msgstr "Startstatus"
 
-#: src/ui/behavior.ui:558
+#: src/ui/behavior.ui:553
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "När GNOME Shell startar för första gången"
 
-#: src/ui/behavior.ui:579
+#: src/ui/behavior.ui:573
 msgid "Desktop"
 msgstr "Skrivbord"
 
-#: src/ui/behavior.ui:580
+#: src/ui/behavior.ui:574
 msgid "Overview"
 msgstr "Översikt"
 
@@ -109,130 +109,142 @@ msgstr "Arbetsyta Bakgrund Hörnstorlek"
 msgid "Workspace background corner size in overview"
 msgstr "Arbetsytans bakgrundshörnstorlek i översikt"
 
-#: src/ui/customize.ui:105 src/ui/customize.ui:218 src/ui/customize.ui:330
-#: src/ui/customize.ui:443 src/ui/customize.ui:556
+#: src/ui/customize.ui:104 src/ui/customize.ui:217 src/ui/customize.ui:329
+#: src/ui/customize.ui:442 src/ui/customize.ui:555
 msgid "By Shell Theme"
 msgstr "Från skaltema"
 
-#: src/ui/customize.ui:206
+#: src/ui/customize.ui:205
 msgid "Panel Size"
 msgstr "Panelstorlek"
 
-#: src/ui/customize.ui:318
+#: src/ui/customize.ui:317
 msgid "Panel Button Padding Size"
 msgstr "Panelknapps vadderingsstorlek"
 
-#: src/ui/customize.ui:431
+#: src/ui/customize.ui:430
 msgid "Panel Indicator Padding Size"
 msgstr "Panelindikator vadderingsstorlek"
 
-#: src/ui/customize.ui:544
+#: src/ui/customize.ui:543
 msgid "Panel Corner Size"
 msgstr "Aktivitetshörnstorlek"
 
-#: src/ui/customize.ui:557
+#: src/ui/customize.ui:556
 msgid "No Corner"
 msgstr "Inget hörn"
 
-#: src/ui/customize.ui:657
+#: src/ui/customize.ui:656
 msgid "Panel Position"
 msgstr "Systemradsplacering"
 
-#: src/ui/customize.ui:669
+#: src/ui/customize.ui:668
 msgid "Top"
 msgstr "Överkant"
 
-#: src/ui/customize.ui:670
+#: src/ui/customize.ui:669
 msgid "Bottom"
 msgstr "Nederkant"
 
-#: src/ui/customize.ui:710
+#: src/ui/customize.ui:709
 msgid "Clock Menu Position"
 msgstr "Klockmenyplacering"
 
-#: src/ui/customize.ui:722
+#: src/ui/customize.ui:721
 msgid "Center"
 msgstr "Mitten"
 
-#: src/ui/customize.ui:723
+#: src/ui/customize.ui:722
 msgid "Right"
 msgstr "Höger"
 
-#: src/ui/customize.ui:724
+#: src/ui/customize.ui:723
 msgid "Left"
 msgstr "Vänster"
 
-#: src/ui/customize.ui:764
+#: src/ui/customize.ui:763
 msgid "Clock Menu Position Offset"
 msgstr "Klockmenyoffset"
 
-#: src/ui/customize.ui:825
+#: src/ui/customize.ui:824
 msgid "Workspace Switcher Size"
 msgstr "Arbetsyteväxlarens storlek"
 
-#: src/ui/customize.ui:837 src/ui/customize.ui:978 src/ui/profile.ui:55
+#: src/ui/customize.ui:836 src/ui/customize.ui:977 src/ui/profile.ui:54
 msgid "Default"
 msgstr "Standard"
 
-#: src/ui/customize.ui:907
+#: src/ui/customize.ui:906
 msgid "Animation"
 msgstr "Animering"
 
-#: src/ui/customize.ui:919
+#: src/ui/customize.ui:918
 msgid "No Animation"
 msgstr "Ingen animering"
 
-#: src/ui/customize.ui:920
+#: src/ui/customize.ui:919
 msgid "Default Speed"
 msgstr "Standardhastighet"
 
-#: src/ui/customize.ui:921
+#: src/ui/customize.ui:920
 msgid "Fastest"
 msgstr "Snabbast"
 
-#: src/ui/customize.ui:922
+#: src/ui/customize.ui:921
 msgid "Faster"
 msgstr "Snabbare"
 
-#: src/ui/customize.ui:923
+#: src/ui/customize.ui:922
 msgid "Fast"
 msgstr "Snabb"
 
-#: src/ui/customize.ui:924
+#: src/ui/customize.ui:923
 msgid "Slow"
 msgstr "Långsam"
 
-#: src/ui/customize.ui:925
+#: src/ui/customize.ui:924
 msgid "Slower"
 msgstr "Långsammare"
 
-#: src/ui/customize.ui:926
+#: src/ui/customize.ui:925
 msgid "Slowest"
 msgstr "Långsammast"
 
-#: src/ui/customize.ui:966
+#: src/ui/customize.ui:965
 msgid "Dash Icon Size"
 msgstr "streck ikonstorlek"
 
-#: src/ui/customize.ui:1027
+#: src/ui/customize.ui:1026
 msgid "Notification Banner Position"
 msgstr "Meddelande Banner Position"
 
-#: src/ui/customize.ui:1038
+#: src/ui/customize.ui:1037
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "Meddelande popup-position när aviseringar dyker upp på skärmen"
 
-#: src/ui/customize.ui:1059
+#: src/ui/customize.ui:1057
 msgid "Top Start"
 msgstr "Top Start"
 
-#: src/ui/customize.ui:1060
+#: src/ui/customize.ui:1058
 msgid "Top Center"
 msgstr "Top Center"
 
-#: src/ui/customize.ui:1061
+#: src/ui/customize.ui:1059
 msgid "Top End"
 msgstr "Toppänden"
+
+#: src/ui/customize.ui:1060
+msgid "Bottom Start"
+msgstr "Nedre start"
+
+#: src/ui/customize.ui:1061
+msgid "Bottom Center"
+msgstr "Nedre mitten"
+
+#: src/ui/customize.ui:1062
+msgid "Bottom End"
+msgstr "Nedre änden"
 
 #: src/ui/icons.ui:19
 msgid "Icons"
@@ -262,19 +274,19 @@ msgstr "Ikon för fönsterplockare"
 msgid "The icon under window preview in overview"
 msgstr "Ikonen under förhandsgranskning av fönster i översikt"
 
-#: src/ui/icons.ui:339
+#: src/ui/icons.ui:338
 msgid "Activities Button Icon"
 msgstr "Ikon för aktivitetsknappen"
 
-#: src/ui/icons.ui:438
+#: src/ui/icons.ui:437
 msgid "Activities Button Icon in Monochrome"
 msgstr "Knappikonen för aktiviteter i svartvitt"
 
-#: src/ui/icons.ui:493
+#: src/ui/icons.ui:492
 msgid "Activities Button Icon With Label"
 msgstr "Aktiviteter knapp ikon med etikett"
 
-#: src/ui/icons.ui:504
+#: src/ui/icons.ui:503
 msgid "Only works when you have selected an icon for activities button"
 msgstr "Fungerar bara när du har valt en ikon för aktivitetsknappen"
 
@@ -319,18 +331,18 @@ msgid ""
 "You can choose between pre-defined profiles or you can simply use your own "
 "customized settings"
 msgstr ""
-"Du kan välja mellan fördefinierade profiler eller så kan du helt enkelt använda "
-"dina egna anpassade inställningar"
+"Du kan välja mellan fördefinierade profiler eller så kan du helt enkelt "
+"använda dina egna anpassade inställningar"
 
-#: src/ui/profile.ui:65
+#: src/ui/profile.ui:64
 msgid "Custom"
 msgstr "Beställnings"
 
-#: src/ui/profile.ui:75
+#: src/ui/profile.ui:74
 msgid "Minimal"
 msgstr "Minimal"
 
-#: src/ui/profile.ui:85
+#: src/ui/profile.ui:84
 msgid "Super Minimal"
 msgstr "Super Minimal"
 
@@ -354,91 +366,91 @@ msgstr "Knappen Aktiviteter"
 msgid "Button in panel to toggle overview visibility"
 msgstr "Knapp i panelen för att växla synlighet"
 
-#: src/ui/visibility.ui:257
+#: src/ui/visibility.ui:256
 msgid "App Menu"
 msgstr "Programmeny"
 
-#: src/ui/visibility.ui:268
+#: src/ui/visibility.ui:267
 msgid "The menu button in panel with focused window text"
 msgstr "Menyknappen i panelen med fokuserad fönstertext"
 
-#: src/ui/visibility.ui:332
+#: src/ui/visibility.ui:330
 msgid "Clock Menu"
 msgstr "Klockmeny"
 
-#: src/ui/visibility.ui:343
+#: src/ui/visibility.ui:341
 msgid "Also known as date menu shows date and time in panel"
 msgstr "Även känd som datummeny visar datum och tid i panelen"
 
-#: src/ui/visibility.ui:407
+#: src/ui/visibility.ui:404
 msgid "Keyboard Layout"
 msgstr "Tangentbordslayout"
 
-#: src/ui/visibility.ui:418
+#: src/ui/visibility.ui:415
 msgid "Keyboard Layout indicator button in panel"
 msgstr "Knapp för tangentbordslayout i panelen"
 
-#: src/ui/visibility.ui:482
+#: src/ui/visibility.ui:478
 msgid "Accessibility Menu"
 msgstr "Tillgänglighetsmeny"
 
-#: src/ui/visibility.ui:493
+#: src/ui/visibility.ui:489
 msgid "Accessibility Menu indicator button in panel"
 msgstr "Knapp för tillgänglighetsmeny i panelen"
 
-#: src/ui/visibility.ui:557
+#: src/ui/visibility.ui:552
 msgid "System Menu (Aggregate Menu)"
 msgstr "Systemmeny"
 
-#: src/ui/visibility.ui:568
+#: src/ui/visibility.ui:563
 msgid "System menu holds power, volume and network icons in panel"
 msgstr "Systemmenyn håller ikoner för kraft, volym och nätverk i panelen"
 
-#: src/ui/visibility.ui:632
+#: src/ui/visibility.ui:626
 msgid "Search"
 msgstr "Sökruta"
 
-#: src/ui/visibility.ui:643
+#: src/ui/visibility.ui:637
 msgid "Search entry in overview"
 msgstr "Sökpost i översikt"
 
-#: src/ui/visibility.ui:707
+#: src/ui/visibility.ui:700
 msgid "Dash"
 msgstr "Snabbstartspanel"
 
-#: src/ui/visibility.ui:718
+#: src/ui/visibility.ui:711
 msgid "Dash holds favorite and opened applications icons"
 msgstr "Dash har favorit- och öppnade applikationsikoner"
 
-#: src/ui/visibility.ui:782
+#: src/ui/visibility.ui:774
 msgid "Show Applications Button"
 msgstr "Knapp för att visa programöversiktsvyn"
 
-#: src/ui/visibility.ui:793
+#: src/ui/visibility.ui:785
 msgid "Button in dash that toggles applications list visibility"
 msgstr "Knapp i streck som växlar mellan applikationslistans synlighet"
 
-#: src/ui/visibility.ui:857
+#: src/ui/visibility.ui:848
 msgid "On Screen Display (OSD)"
 msgstr "Skärmöverlagring (OSD)"
 
-#: src/ui/visibility.ui:868
+#: src/ui/visibility.ui:859
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "Volym och ljusstyrka på skärmen när ändringen sker"
 
-#: src/ui/visibility.ui:932
+#: src/ui/visibility.ui:922
 msgid "Workspace Popup"
 msgstr "Arbetsyteväxlar-popup"
 
-#: src/ui/visibility.ui:943
+#: src/ui/visibility.ui:933
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr "Pop-up som visas på skärmen när du ändrar arbetsytan"
 
-#: src/ui/visibility.ui:1007
+#: src/ui/visibility.ui:996
 msgid "Workspace Switcher"
 msgstr "Arbetsyteväxlare"
 
-#: src/ui/visibility.ui:1018
+#: src/ui/visibility.ui:1007
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
@@ -446,42 +458,42 @@ msgstr ""
 "Hänvisar också till arbetsytans miniatyrer som du ser i översikten för att "
 "välja en arbetsyta"
 
-#: src/ui/visibility.ui:1082
+#: src/ui/visibility.ui:1070
 msgid "Workspaces App Grid"
 msgstr "Arbetsytor App Grid"
 
-#: src/ui/visibility.ui:1093
+#: src/ui/visibility.ui:1081
 msgid "Workspace boxes in app grid"
 msgstr "Arbetsytor i app-rutnät"
 
-#: src/ui/visibility.ui:1157
+#: src/ui/visibility.ui:1144
 msgid "Window Picker Close Button"
 msgstr "Fönsterväljare Stäng -knapp"
 
-#: src/ui/visibility.ui:1168
+#: src/ui/visibility.ui:1155
 msgid "The close button on window preview in overview"
 msgstr "Stängknappen på fönsters förhandsvisning i översikt"
 
-#: src/ui/visibility.ui:1232
+#: src/ui/visibility.ui:1218
 msgid "Window Picker Caption"
 msgstr "Fönsterväljare Bildtext"
 
-#: src/ui/visibility.ui:1243
+#: src/ui/visibility.ui:1229
 msgid "The text under window preview in overview"
 msgstr "Texten under fönsters förhandsvisning i översikt"
 
-#: src/ui/visibility.ui:1307
+#: src/ui/visibility.ui:1292
 msgid "Background Menu"
 msgstr "Bakgrundsmeny"
 
-#: src/ui/visibility.ui:1318
+#: src/ui/visibility.ui:1303
 msgid "When you right click on desktop background"
 msgstr "När du högerklickar på skrivbordsbakgrund"
 
-#: src/ui/visibility.ui:1382
+#: src/ui/visibility.ui:1366
 msgid "Ripple Box"
 msgstr "Rippelbox"
 
-#: src/ui/visibility.ui:1393
+#: src/ui/visibility.ui:1377
 msgid "Hot corner animation effects"
 msgstr "Heta hörn animationseffekter"

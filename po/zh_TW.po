@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 11:15-0800\n"
+"POT-Creation-Date: 2021-12-24 12:21-0800\n"
 "PO-Revision-Date: 2021-06-10 10:43+0800\n"
 "Last-Translator: r0930514 <r0930514@gmail.com>\n"
 "Language-Team: \n"
@@ -43,54 +43,54 @@ msgstr ""
 "當您在最後一個工作區時，下一個工作區將是第一個工作區。 當您在第一個工作區時，"
 "上一個工作區將是最後一個工作區。"
 
-#: src/ui/behavior.ui:247
+#: src/ui/behavior.ui:246
 msgid "Window Demands Attention Focus"
 msgstr "視窗要求關注焦點"
 
-#: src/ui/behavior.ui:258
+#: src/ui/behavior.ui:257
 msgid "Removes window is ready notification and focus on the window"
 msgstr "刪除視窗已準備就緒通知，並直接專注於視窗"
 
-#: src/ui/behavior.ui:322
+#: src/ui/behavior.ui:320
 msgid "Type to Search"
 msgstr "打字直接搜索"
 
-#: src/ui/behavior.ui:333
+#: src/ui/behavior.ui:331
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr "不需要搜索框甚至不用聚焦到概覽視圖，你就可以開始搜索"
 
-#: src/ui/behavior.ui:397
+#: src/ui/behavior.ui:394
 msgid "Always Show Workspace Switcher"
 msgstr "始終顯示工作區切換器"
 
-#: src/ui/behavior.ui:408
+#: src/ui/behavior.ui:405
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
 msgstr "即使只有一個工作區與動態工作區一起使用，也會顯示工作區切換器"
 
-#: src/ui/behavior.ui:472
+#: src/ui/behavior.ui:468
 msgid "Double Super to App Grid"
 msgstr "App Grid 的雙超級鍵"
 
-#: src/ui/behavior.ui:483
+#: src/ui/behavior.ui:479
 msgid "Shows app grid when you double hit super key fast"
 msgstr "當您快速雙擊超級鍵時顯示應用程序網格"
 
-#: src/ui/behavior.ui:547
+#: src/ui/behavior.ui:542
 msgid "Startup Status"
 msgstr "啟動狀態"
 
-#: src/ui/behavior.ui:558
+#: src/ui/behavior.ui:553
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "GNOME Shell 首次啟動時"
 
-#: src/ui/behavior.ui:579
+#: src/ui/behavior.ui:573
 msgid "Desktop"
 msgstr "桌面"
 
-#: src/ui/behavior.ui:580
+#: src/ui/behavior.ui:574
 msgid "Overview"
 msgstr "概述"
 
@@ -106,130 +106,142 @@ msgstr "工作區背景角大小"
 msgid "Workspace background corner size in overview"
 msgstr "工作區背景角尺寸概覽"
 
-#: src/ui/customize.ui:105 src/ui/customize.ui:218 src/ui/customize.ui:330
-#: src/ui/customize.ui:443 src/ui/customize.ui:556
+#: src/ui/customize.ui:104 src/ui/customize.ui:217 src/ui/customize.ui:329
+#: src/ui/customize.ui:442 src/ui/customize.ui:555
 msgid "By Shell Theme"
 msgstr "依照 Shell 主題"
 
-#: src/ui/customize.ui:206
+#: src/ui/customize.ui:205
 msgid "Panel Size"
 msgstr "面板尺寸"
 
-#: src/ui/customize.ui:318
+#: src/ui/customize.ui:317
 msgid "Panel Button Padding Size"
 msgstr "面板按鈕填充尺寸"
 
-#: src/ui/customize.ui:431
+#: src/ui/customize.ui:430
 msgid "Panel Indicator Padding Size"
 msgstr "面板指示器填充尺寸"
 
-#: src/ui/customize.ui:544
+#: src/ui/customize.ui:543
 msgid "Panel Corner Size"
 msgstr "面板圓角尺寸"
 
-#: src/ui/customize.ui:557
+#: src/ui/customize.ui:556
 msgid "No Corner"
 msgstr "無圓角"
 
-#: src/ui/customize.ui:657
+#: src/ui/customize.ui:656
 msgid "Panel Position"
 msgstr "面板位置"
 
-#: src/ui/customize.ui:669
+#: src/ui/customize.ui:668
 msgid "Top"
 msgstr "頂部"
 
-#: src/ui/customize.ui:670
+#: src/ui/customize.ui:669
 msgid "Bottom"
 msgstr "底部"
 
-#: src/ui/customize.ui:710
+#: src/ui/customize.ui:709
 msgid "Clock Menu Position"
 msgstr "時鐘選單位置"
 
-#: src/ui/customize.ui:722
+#: src/ui/customize.ui:721
 msgid "Center"
 msgstr "中間"
 
-#: src/ui/customize.ui:723
+#: src/ui/customize.ui:722
 msgid "Right"
 msgstr "左側"
 
-#: src/ui/customize.ui:724
+#: src/ui/customize.ui:723
 msgid "Left"
 msgstr "右側"
 
-#: src/ui/customize.ui:764
+#: src/ui/customize.ui:763
 msgid "Clock Menu Position Offset"
 msgstr "時鐘選單位置偏移"
 
-#: src/ui/customize.ui:825
+#: src/ui/customize.ui:824
 msgid "Workspace Switcher Size"
 msgstr "工作區切換器尺寸"
 
-#: src/ui/customize.ui:837 src/ui/customize.ui:978 src/ui/profile.ui:55
+#: src/ui/customize.ui:836 src/ui/customize.ui:977 src/ui/profile.ui:54
 msgid "Default"
 msgstr "預設"
 
-#: src/ui/customize.ui:907
+#: src/ui/customize.ui:906
 msgid "Animation"
 msgstr "動畫"
 
-#: src/ui/customize.ui:919
+#: src/ui/customize.ui:918
 msgid "No Animation"
 msgstr "無動畫"
 
-#: src/ui/customize.ui:920
+#: src/ui/customize.ui:919
 msgid "Default Speed"
 msgstr "預設速度"
 
-#: src/ui/customize.ui:921
+#: src/ui/customize.ui:920
 msgid "Fastest"
 msgstr "最快"
 
-#: src/ui/customize.ui:922
+#: src/ui/customize.ui:921
 msgid "Faster"
 msgstr "更快"
 
-#: src/ui/customize.ui:923
+#: src/ui/customize.ui:922
 msgid "Fast"
 msgstr "快"
 
-#: src/ui/customize.ui:924
+#: src/ui/customize.ui:923
 msgid "Slow"
 msgstr "慢"
 
-#: src/ui/customize.ui:925
+#: src/ui/customize.ui:924
 msgid "Slower"
 msgstr "更慢"
 
-#: src/ui/customize.ui:926
+#: src/ui/customize.ui:925
 msgid "Slowest"
 msgstr "最慢"
 
-#: src/ui/customize.ui:966
+#: src/ui/customize.ui:965
 msgid "Dash Icon Size"
 msgstr "Dash圖示大小"
 
-#: src/ui/customize.ui:1027
+#: src/ui/customize.ui:1026
 msgid "Notification Banner Position"
 msgstr "通知橫幅位置"
 
-#: src/ui/customize.ui:1038
+#: src/ui/customize.ui:1037
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "通知出現在屏幕上時的通知彈出位置"
 
-#: src/ui/customize.ui:1059
+#: src/ui/customize.ui:1057
 msgid "Top Start"
 msgstr "最開始"
 
-#: src/ui/customize.ui:1060
+#: src/ui/customize.ui:1058
 msgid "Top Center"
 msgstr "頂部中心"
 
-#: src/ui/customize.ui:1061
+#: src/ui/customize.ui:1059
 msgid "Top End"
 msgstr "高端"
+
+#: src/ui/customize.ui:1060
+msgid "Bottom Start"
+msgstr "底部開始"
+
+#: src/ui/customize.ui:1061
+msgid "Bottom Center"
+msgstr "底部中心"
+
+#: src/ui/customize.ui:1062
+msgid "Bottom End"
+msgstr "底端"
 
 #: src/ui/icons.ui:19
 msgid "Icons"
@@ -259,19 +271,19 @@ msgstr "視窗選擇器圖示"
 msgid "The icon under window preview in overview"
 msgstr "概覽窗口預覽下的圖標"
 
-#: src/ui/icons.ui:339
+#: src/ui/icons.ui:338
 msgid "Activities Button Icon"
 msgstr "活動按鈕圖示"
 
-#: src/ui/icons.ui:438
+#: src/ui/icons.ui:437
 msgid "Activities Button Icon in Monochrome"
 msgstr "單色的活動按鈕圖示"
 
-#: src/ui/icons.ui:493
+#: src/ui/icons.ui:492
 msgid "Activities Button Icon With Label"
 msgstr "帶有標籤的活動按鈕圖示"
 
-#: src/ui/icons.ui:504
+#: src/ui/icons.ui:503
 msgid "Only works when you have selected an icon for activities button"
 msgstr "僅適用於已為活動按鈕選擇了圖示時"
 
@@ -315,19 +327,17 @@ msgstr "輪廓"
 msgid ""
 "You can choose between pre-defined profiles or you can simply use your own "
 "customized settings"
-msgstr ""
-"您可以在預定義的配置文件之間進行選擇，"
-"也可以簡單地使用自己的自定義設置"
+msgstr "您可以在預定義的配置文件之間進行選擇，也可以簡單地使用自己的自定義設置"
 
-#: src/ui/profile.ui:65
+#: src/ui/profile.ui:64
 msgid "Custom"
 msgstr "風俗"
 
-#: src/ui/profile.ui:75
+#: src/ui/profile.ui:74
 msgid "Minimal"
 msgstr "最小"
 
-#: src/ui/profile.ui:85
+#: src/ui/profile.ui:84
 msgid "Super Minimal"
 msgstr "超極小"
 
@@ -351,132 +361,132 @@ msgstr "概覽按鈕"
 msgid "Button in panel to toggle overview visibility"
 msgstr "面板中的按鈕可切換概覽可見性"
 
-#: src/ui/visibility.ui:257
+#: src/ui/visibility.ui:256
 msgid "App Menu"
 msgstr "應用程式選單"
 
-#: src/ui/visibility.ui:268
+#: src/ui/visibility.ui:267
 msgid "The menu button in panel with focused window text"
 msgstr "面板中帶有焦點視窗文件的選單按鈕"
 
-#: src/ui/visibility.ui:332
+#: src/ui/visibility.ui:330
 msgid "Clock Menu"
 msgstr "時鐘選單"
 
-#: src/ui/visibility.ui:343
+#: src/ui/visibility.ui:341
 msgid "Also known as date menu shows date and time in panel"
 msgstr "也稱為日期選單在面板中顯示日期和時間"
 
-#: src/ui/visibility.ui:407
+#: src/ui/visibility.ui:404
 msgid "Keyboard Layout"
 msgstr "鍵盤佈局（輸入法）"
 
-#: src/ui/visibility.ui:418
+#: src/ui/visibility.ui:415
 msgid "Keyboard Layout indicator button in panel"
 msgstr "面板中的鍵盤佈局指示器按鈕"
 
-#: src/ui/visibility.ui:482
+#: src/ui/visibility.ui:478
 msgid "Accessibility Menu"
 msgstr "輔助功能選單"
 
-#: src/ui/visibility.ui:493
+#: src/ui/visibility.ui:489
 msgid "Accessibility Menu indicator button in panel"
 msgstr "面板中的輔助功能選單指示器按鈕"
 
-#: src/ui/visibility.ui:557
+#: src/ui/visibility.ui:552
 msgid "System Menu (Aggregate Menu)"
 msgstr "系統選單"
 
-#: src/ui/visibility.ui:568
+#: src/ui/visibility.ui:563
 msgid "System menu holds power, volume and network icons in panel"
 msgstr "系统選單在面板中包含電源、音量和網路圖示"
 
-#: src/ui/visibility.ui:632
+#: src/ui/visibility.ui:626
 msgid "Search"
 msgstr "搜索"
 
-#: src/ui/visibility.ui:643
+#: src/ui/visibility.ui:637
 msgid "Search entry in overview"
 msgstr "概覽中的搜索項目"
 
-#: src/ui/visibility.ui:707
+#: src/ui/visibility.ui:700
 msgid "Dash"
 msgstr "Dash"
 
-#: src/ui/visibility.ui:718
+#: src/ui/visibility.ui:711
 msgid "Dash holds favorite and opened applications icons"
 msgstr "Dash 包含最喜歡和打開的應用程式圖示"
 
-#: src/ui/visibility.ui:782
+#: src/ui/visibility.ui:774
 msgid "Show Applications Button"
 msgstr "顯示應用程式按鈕"
 
-#: src/ui/visibility.ui:793
+#: src/ui/visibility.ui:785
 msgid "Button in dash that toggles applications list visibility"
 msgstr "短划線中用於切換應用程式列表可見性的按鈕"
 
-#: src/ui/visibility.ui:857
+#: src/ui/visibility.ui:848
 msgid "On Screen Display (OSD)"
 msgstr "螢幕顯示（OSD）"
 
-#: src/ui/visibility.ui:868
+#: src/ui/visibility.ui:859
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "音量和亮度發生變化時顯示在螢幕上"
 
-#: src/ui/visibility.ui:932
+#: src/ui/visibility.ui:922
 msgid "Workspace Popup"
 msgstr "工作區彈出"
 
-#: src/ui/visibility.ui:943
+#: src/ui/visibility.ui:933
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr "更改工作區時出現在螢幕上的彈出視窗"
 
-#: src/ui/visibility.ui:1007
+#: src/ui/visibility.ui:996
 msgid "Workspace Switcher"
 msgstr "工作區切換器"
 
-#: src/ui/visibility.ui:1018
+#: src/ui/visibility.ui:1007
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
 msgstr "也指您在概覽中看到的用於選擇工作區的工作區縮圖"
 
-#: src/ui/visibility.ui:1082
+#: src/ui/visibility.ui:1070
 msgid "Workspaces App Grid"
 msgstr "工作區應用程序網格"
 
-#: src/ui/visibility.ui:1093
+#: src/ui/visibility.ui:1081
 msgid "Workspace boxes in app grid"
 msgstr "應用程序網格中的工作區框"
 
-#: src/ui/visibility.ui:1157
+#: src/ui/visibility.ui:1144
 msgid "Window Picker Close Button"
 msgstr "窗口選擇器關閉按鈕"
 
-#: src/ui/visibility.ui:1168
+#: src/ui/visibility.ui:1155
 msgid "The close button on window preview in overview"
 msgstr "概覽中窗口預覽的關閉按鈕"
 
-#: src/ui/visibility.ui:1232
+#: src/ui/visibility.ui:1218
 msgid "Window Picker Caption"
 msgstr "窗口選擇器標題"
 
-#: src/ui/visibility.ui:1243
+#: src/ui/visibility.ui:1229
 msgid "The text under window preview in overview"
 msgstr "概覽中窗口預覽下的文本"
 
-#: src/ui/visibility.ui:1307
+#: src/ui/visibility.ui:1292
 msgid "Background Menu"
 msgstr "後台選單"
 
-#: src/ui/visibility.ui:1318
+#: src/ui/visibility.ui:1303
 msgid "When you right click on desktop background"
 msgstr "當你右鍵單擊桌面背景時"
 
-#: src/ui/visibility.ui:1382
+#: src/ui/visibility.ui:1366
 msgid "Ripple Box"
 msgstr "波紋盒"
 
-#: src/ui/visibility.ui:1393
+#: src/ui/visibility.ui:1377
 msgid "Hot corner animation effects"
 msgstr "熱角動畫效果"

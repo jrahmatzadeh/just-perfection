@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-22 19:32+0100\n"
+"POT-Creation-Date: 2021-12-24 12:21-0800\n"
 "PO-Revision-Date: 2021-11-22 20:15+0100\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <Proxecto Trasno <proxecto@trasno.gal>>\n"
@@ -237,6 +237,18 @@ msgstr "Arriba centrado"
 #: src/ui/customize.ui:1059
 msgid "Top End"
 msgstr "Arriba ao final"
+
+#: src/ui/customize.ui:1060
+msgid "Bottom Start"
+msgstr "Inicio inferior"
+
+#: src/ui/customize.ui:1061
+msgid "Bottom Center"
+msgstr "Centro inferior"
+
+#: src/ui/customize.ui:1062
+msgid "Bottom End"
+msgstr "Extremo inferior"
 
 #: src/ui/icons.ui:19
 msgid "Icons"
