@@ -188,6 +188,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -262,6 +265,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -336,6 +342,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -410,6 +419,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -484,6 +496,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -558,6 +573,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -584,6 +602,10 @@
                 
               </object>
             </child>
+
+            <style>
+              <class name="content"/>
+            </style>
             
           </object>
         </child>
