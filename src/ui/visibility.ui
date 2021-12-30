@@ -89,51 +89,43 @@
             </child>
             
             <child>
-              <object class="GtkRevealer" id="panel_in_overview_revealer">
+              <object class="GtkListBoxRow" id="panel_in_overview_row">
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
-                <property name="reveal-child" bind-source="panel_switch" bind-property="active" bind-flags="invert-boolean|sync-create"/>
+                <property name="sensitive" bind-source="panel_switch" bind-property="active" bind-flags="invert-boolean|sync-create"/>
+                
                 <child>
-                  
-                  <object class="GtkListBoxRow" id="panel_in_overview_row">
+                  <object class="GtkBox" id="panel_in_overview_box">
                     <property name="visible">True</property>
-                    <property name="can-focus">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="orientation">vertical</property>
                     
                     <child>
-                      <object class="GtkBox" id="panel_in_overview_box">
+                      <object class="GtkBox" id="panel_in_overview_box2">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="margin-start">12</property>
-                        <property name="margin-end">12</property>
-                        <property name="margin-top">12</property>
-                        <property name="margin-bottom">12</property>
-                        <property name="orientation">vertical</property>
+                        <property name="spacing">32</property>
                         
                         <child>
-                          <object class="GtkBox" id="panel_in_overview_box2">
+                          <object class="GtkLabel" id="panel_in_overview_txt">
                             <property name="visible">True</property>
                             <property name="can-focus">False</property>
-                            <property name="spacing">32</property>
-                            
-                            <child>
-                              <object class="GtkLabel" id="panel_in_overview_txt">
-                                <property name="visible">True</property>
-                                <property name="can-focus">False</property>
-                                <property name="valign">center</property>
-                                <property name="label" translatable="yes">Panel in Overview</property>
-                                <property name="xalign">0</property>
-                                <property name="hexpand">1</property>
-                              </object>
-                            </child>
-                            
-                            <child>
-                              <object class="GtkSwitch" id="panel_in_overview_switch">
-                                <property name="visible">True</property>
-                                <property name="can-focus">True</property>
-                                <property name="valign">center</property>
-                              </object>
-                            </child>
-                            
+                            <property name="valign">center</property>
+                            <property name="label" translatable="yes">Panel in Overview</property>
+                            <property name="xalign">0</property>
+                            <property name="hexpand">1</property>
+                          </object>
+                        </child>
+                        
+                        <child>
+                          <object class="GtkSwitch" id="panel_in_overview_switch">
+                            <property name="visible">True</property>
+                            <property name="can-focus">True</property>
+                            <property name="valign">center</property>
                           </object>
                         </child>
                         
@@ -198,6 +190,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -272,6 +267,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -346,6 +344,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -420,6 +421,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -494,6 +498,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -568,6 +575,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -642,6 +652,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -716,6 +729,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -790,6 +806,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -864,6 +883,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -938,6 +960,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -1012,6 +1037,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -1086,6 +1114,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -1160,6 +1191,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -1234,6 +1268,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -1308,6 +1345,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -1382,6 +1422,9 @@
                                 <style>
                                   <class name="dim-label"/>
                                 </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
                               </object>
                             </child>
                             
@@ -1404,6 +1447,10 @@
                 
               </object>
             </child>
+
+            <style>
+              <class name="content"/>
+            </style>
             
           </object>
         </child>

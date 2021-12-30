@@ -5,30 +5,72 @@
     <property name="visible">False</property>
     <property name="can-focus">False</property>
     <property name="label-xalign">0</property>
-    <property name="margin-bottom">36</property>
                           
     <child>
-      <object class="GtkBox">
+      <object class="GtkListBox">
         <property name="visible">True</property>
-        <property name="can-focus">True</property>
-        <property name="halign">center</property>
-        <property name="orientation">vertical</property>
-        <property name="margin-top">12</property>
-        <property name="margin-bottom">12</property>
-        <property name="margin-start">12</property>
-        <property name="margin-end">12</property>
+        <property name="can-focus">False</property>
+        <property name="selection-mode">none</property>
         
         <child>
-          <object class="GtkLabel">
+          <object class="GtkListBoxRow">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="label" translatable="yes">No Results Found</property>
+            
+            <child>
+              <object class="GtkBox">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="margin-start">12</property>
+                <property name="margin-end">12</property>
+                <property name="margin-top">12</property>
+                <property name="margin-bottom">12</property>
+                <property name="orientation">vertical</property>
+                
+                <child>
+                  <object class="GtkBox">
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="spacing">32</property>
+                    
+                    <child>
+                      <object class="GtkBox">
+                        <property name="visible">True</property>
+                        <property name="can-focus">False</property>
+                        <property name="hexpand">1</property>
+                        <property name="vexpand">1</property>
+                        <property name="orientation">vertical</property>
+                      
+                        <child>
+                          <object class="GtkLabel">
+                            <property name="visible">True</property>
+                            <property name="can-focus">False</property>
+                            <property name="valign">center</property>
+                            <property name="halign">center</property>
+                            <property name="label" translatable="yes">No Matches</property>
+                            <property name="hexpand">1</property>
+                          </object>
+                        </child>
+                                                  
+                      </object>
+                    </child>
+                    
+                  </object>
+                </child>
+                
+              </object>
+            </child>
+            
           </object>
         </child>
-                
-    </object>
+
+        <style>
+          <class name="content"/>
+        </style>
+        
+      </object>
     </child>
         
   </object>
-  
+
 </interface>
