@@ -20,6 +20,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Added
 
 - Bottom to notification banner position.
+- Prefs content style by [@muqtxdir](https://gitlab.gnome.org/muqtxdir).
 
 ## [16.0.0 Rembrandt] - 2021-11-15
 
