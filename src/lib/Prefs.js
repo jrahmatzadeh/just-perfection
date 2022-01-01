@@ -2,7 +2,7 @@
  * Prefs Library
  *
  * @author     Javad Rahmatzadeh <j.rahmatzadeh@gmail.com>
- * @copyright  2020-2021
+ * @copyright  2020-2022
  * @license    GNU General Public License v3.0
  */
 
