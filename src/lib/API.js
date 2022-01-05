@@ -855,11 +855,11 @@ var API = class
      */
     OSDEnable()
     {
-        if (!this._originals['osdWindowManager']) {
+        if (!this._originals['osdWindowManagerShow']) {
             return;
         }
 
-        this._main.osdWindowManager.show = this._originals['osdWindowManager'];
+        this._main.osdWindowManager.show = this._originals['osdWindowManagerShow'];
     }
 
     /**
@@ -869,8 +869,8 @@ var API = class
      */
     OSDDisable()
     {
-        if (!this._originals['osdWindowManager']) {
-            this._originals['osdWindowManager']
+        if (!this._originals['osdWindowManagerShow']) {
+            this._originals['osdWindowManagerShow']
             = this._main.osdWindowManager.show;
         }
 
