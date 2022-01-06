@@ -67,6 +67,7 @@ var API = class
      *   'Workspace' reference to ui::workspace
      *   'LookingGlass' reference to ui::lookingGlass
      *   'MessageTray' reference to ui::messageTray
+     *   'OSDWindow' reference to ui::osdTray
      *   'St' reference to St
      *   'Gio' reference to Gio
      *   'GLib' reference to GLib
@@ -92,6 +93,7 @@ var API = class
         this._workspace = dependecies['Workspace'] || null;
         this._lookingGlass = dependecies['LookingGlass'] || null;
         this._messageTray = dependecies['MessageTray'] || null;
+        this._osdWindow = dependecies['OSDWindow'] || null;
         this._st = dependecies['St'] || null;
         this._gio = dependecies['Gio'] || null;
         this._glib = dependecies['GLib'] || null;
@@ -2551,6 +2553,66 @@ var API = class
         });
 
         this._isDoubleSuperToAppGrid = false;
+    }
+
+    /**
+     * set default OSD position
+     *
+     * @returns {void}
+     */
+    osdSetDefaultPosition()
+    {
+        if (!this._originals['osdWindowRelayout']) {
+            return;
+        }
+
+        let osdWindowProto = this._osdWindow.OsdWindow.prototype;
+
+        osdWindowProto._relayout = this._originals['osdWindowRelayout'];
+
+        delete(osdWindowProto._oldRelayout);
+        delete(this._originals['osdWindowRelayout']);
+
+        let osdWindows = this._main.osdWindowManager._osdWindows;
+        osdWindows.forEach(osdWindow => {
+            osdWindow._box.translation_x = 0;
+            osdWindow._relayout();
+        });
+    }
+
+    /**
+     * set OSD position
+     *
+     * TODO x and y will be used for translation but x and y means pixel position
+     *   we need to fix it and that should get x or y as percentage of the screen 
+     *
+     * @param int x
+     * @param int y
+     *
+     * @returns {void}
+     */
+    osdSetPosition(x, y)
+    {
+        let osdWindowProto = this._osdWindow.OsdWindow.prototype;
+
+        if (!this._originals['osdWindowRelayout']) {
+            this._originals['osdWindowRelayout'] = osdWindowProto._relayout;
+        }
+
+        if (osdWindowProto._oldRelayout === undefined) {
+            osdWindowProto._oldRelayout = this._originals['osdWindowRelayout'];
+        }
+
+        osdWindowProto._relayout = function () {
+            this._oldRelayout();
+            this._box.translation_x = x;
+            this._box.translation_y = y;
+        };
+
+        let osdWindows = this._main.osdWindowManager._osdWindows;
+        osdWindows.forEach(osdWindow => {
+            osdWindow._relayout();
+        });
     }
 }
 
