@@ -1116,7 +1116,7 @@ var Prefs = class
     }
 
     /**
-     * show uri
+     * open uri
      *
      * @param {string} uri uri to open
      *
@@ -1133,7 +1133,7 @@ var Prefs = class
     }
 
     /**
-     * can go throw all values and guess the profile based on the values
+     * can check all current values and guess the profile based on the values
      *
      * @returns {void}
      */
