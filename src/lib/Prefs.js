@@ -1087,13 +1087,13 @@ var Prefs = class
 
         let action1 = new this._gio.SimpleAction({name: 'show-bug-report'});
         action1.connect('activate', () => {
-            this._openURI(this._url.bug_report);
+            this._openURI(window, this._url.bug_report);
         });
         actionGroup.add_action(action1);
 
         let action2 = new this._gio.SimpleAction({name: 'show-patreon'});
         action2.connect('activate', () => {
-            this._openURI(this._url.patreon);
+            this._openURI(window, this._url.patreon);
         });
         actionGroup.add_action(action2);
 
@@ -1119,17 +1119,18 @@ var Prefs = class
      * open uri
      *
      * @param {string} uri uri to open
+     * @param {Gtk.Window} window prefs dialog
      *
      * @returns {void}
      */
-    _openURI(uri)
+    _openURI(window, uri)
     {
         if (this._shellVersion < 40) {
-            this._gtk.show_uri_on_window(null, uri, this._gdk.CURRENT_TIME);
+            this._gtk.show_uri_on_window(window, uri, this._gdk.CURRENT_TIME);
             return;
         }
 
-        this._gtk.show_uri(null, uri, this._gdk.CURRENT_TIME);
+        this._gtk.show_uri(window, uri, this._gdk.CURRENT_TIME);
     }
 
     /**
