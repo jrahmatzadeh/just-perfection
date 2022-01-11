@@ -17,14 +17,12 @@ var Manager = class
      * @param {Object} dependecies
      *   'API' instance of lib::API
      *   'Settings' instance of Gio::Settings
-     *   'InterfaceSettings' reference to Gio::Settings for 'org.gnome.desktop.interface'
      * @param {number} shellVersion float in major.minor format
      */
     constructor(dependecies, shellVersion)
     {
         this._api = dependecies['API'] || null;
         this._settings = dependecies['Settings'] || null;
-        this._interfaceSettings = dependecies['InterfaceSettings'] || null;
 
         this._shellVersion = shellVersion;
     }

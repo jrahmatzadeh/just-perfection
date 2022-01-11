@@ -91,7 +91,6 @@ function enable()
     manager = new Manager.Manager({
         API: api,
         Settings: settings,
-        InterfaceSettings,
     }, shellVersion);
 
     manager.registerSettingsSignals();
