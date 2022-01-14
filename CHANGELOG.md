@@ -15,6 +15,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Prefs padding in upcoming GNOME Shell 42.
 - Startup animation for hiding panel when panel is disabled.
 - Type to search when text entry content is replaced with another content.
+- Window picker caption visibility issue on Pop Shell.
 - Galician translation by [@frandieguez](https://gitlab.gnome.org/frandieguez).
 
 ### Added
