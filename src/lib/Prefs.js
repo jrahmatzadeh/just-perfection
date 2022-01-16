@@ -853,7 +853,7 @@ var Prefs = class
             imageBox.add(img);
         } else {
             img = this._gtk.Picture.new_for_filename(introImgPath);
-            img.set_size_request(500, 660);
+            img.set_can_shrink(false);
             imageBox.append(img);
         }
 
