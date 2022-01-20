@@ -372,6 +372,8 @@ var API = class
                 return this._glib.SOURCE_REMOVE;
             });
         }
+
+        this._fixLookingGlassPosition();
     }
 
     /**
@@ -1496,6 +1498,7 @@ var API = class
             lookingGlassProto._resize = this._originals['lookingGlassResize'];
             delete(lookingGlassProto._oldResize);
             delete(this._originals['lookingGlassResize']);
+            this._main.lookingGlass._resize();
 
             return;
         }

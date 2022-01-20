@@ -10,6 +10,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - Emitting panel show when panel is visible.
 - Looking glass not showing up.
+- Looking glass position on startup when panel is hidden.
 - Prefs height going off the screen in small displays.
 - Prefs lunching url freeze on Wayland.
 - Prefs padding in upcoming GNOME Shell 42.
