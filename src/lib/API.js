@@ -104,6 +104,7 @@ var API = class
 
         this._shellVersion = shellVersion;
         this._originals = {};
+        this._timeoutIds = {};
 
         /**
          * whether seach entry is visible
@@ -142,6 +143,11 @@ var API = class
     {
         this.UIStyleClassRemove(this._getAPIClassname('shell-version'));
         this._startSearchSignal(false);
+        
+        for (let [name, id] of Object.entries(this._timeoutIds)) {
+            this._glib.source_remove(id);
+            delete(this._timeoutIds[name]);
+        }
     }
 
     /**
@@ -341,6 +347,11 @@ var API = class
      */
     _emitPanelPositionChanged(calledFromChanger = false)
     {
+        if (this._timeoutIds['emitPanelPositionChanged']) {
+            this._glib.source_remove(this._timeoutIds['emitPanelPositionChanged']);
+            delete(this._timeoutIds['emitPanelPositionChanged']);
+        }
+
         if (!calledFromChanger) {
             this.panelSetPosition(this.panelGetPosition(), true);
         }
@@ -348,6 +359,18 @@ var API = class
         if (!this.isPanelVisible()) {
             let mode = this._panelHideMode ? this._panelHideMode : 0;
             this.panelHide(mode, 0);
+        } else {
+            // hide and show can fix windows going under panel
+            // we may not need it on X11, but it is needed on Wayland
+            // we also need delay because without delay it many not fix the issue
+            this._timeoutIds['emitPanelPositionChanged']
+            = this._glib.timeout_add_seconds(this._glib.PRIORITY_DEFAULT, 150, () => {
+                delete(this._timeoutIds['emitPanelPositionChanged']);
+                let panelBox = this._main.layoutManager.panelBox;
+                panelBox.hide();
+                panelBox.show();
+                return this._glib.SOURCE_REMOVE;
+            });
         }
     }
 
@@ -383,7 +406,7 @@ var API = class
             mode: this._clutter.AnimationMode.EASE,
             duration: animationDuration,
             onComplete: () => {
-                // hide and show can fix windows not going under panel
+                // hide and show can fix windows going under panel
                 panelBox.hide();
                 panelBox.show();
                 this._fixLookingGlassPosition();
@@ -441,7 +464,7 @@ var API = class
             mode: this._clutter.AnimationMode.EASE,
             duration: animationDuration,
             onComplete: () => {
-                // hide and show can fix windows not going under panel
+                // hide and show can fix windows going under panel
                 panelBox.hide();
                 panelBox.show();
                 this._fixLookingGlassPosition();
@@ -1468,7 +1491,7 @@ var API = class
             this._originals['lookingGlassResize'] = lookingGlassProto._resize;
         }
 
-        if (this._panelPosition === PANEL_POSITION.TOP && this.isPanelVisible()) {
+        if (this.panelGetPosition() === PANEL_POSITION.TOP && this.isPanelVisible()) {
 
             lookingGlassProto._resize = this._originals['lookingGlassResize'];
             delete(lookingGlassProto._oldResize);
