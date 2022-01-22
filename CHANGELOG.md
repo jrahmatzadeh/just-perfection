@@ -14,6 +14,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Prefs height going off the screen in small displays.
 - Prefs lunching url freeze on Wayland.
 - Prefs padding in upcoming GNOME Shell 42.
+- Prefs UI Improvement by [@muqtxdir](https://gitlab.gnome.org/muqtxdir).
 - Startup animation for hiding panel when panel is disabled.
 - Type to search when text entry content is replaced with another content.
 - Window picker caption visibility issue on Pop Shell.
@@ -22,7 +23,6 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Added
 
 - Bottom to notification banner position.
-- Prefs content style by [@muqtxdir](https://gitlab.gnome.org/muqtxdir).
 
 ## [16.0.0 Rembrandt] - 2021-11-15
 
