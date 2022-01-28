@@ -321,8 +321,8 @@ var API = class
 
     /**
      * emit refresh styles
-     * this is useful when an style doesn't emit change because doesn't have
-     * standard styles. for example an style with only `-natural-hpadding`
+     * this is useful when changed style doesn't emit change because doesn't have
+     * standard styles. for example, style with only `-natural-hpadding`
      * won't notify any change. so you need to call this function
      * to refresh that
      *
