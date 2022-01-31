@@ -13,7 +13,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Looking glass position on startup when panel is hidden.
 - Prefs height going off the screen in small displays.
 - Prefs lunching url freeze on Wayland.
-- Prefs padding in upcoming GNOME Shell 42.
+- Prefs padding in GNOME Shell 42.
 - Prefs UI Improvement by [@muqtxdir](https://gitlab.gnome.org/muqtxdir).
 - Startup animation for hiding panel when panel is disabled.
 - Type to search when text entry content is replaced with another content.
