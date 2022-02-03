@@ -531,7 +531,7 @@ var Prefs = class
             'customize',
             'panel-corner-size',
             'GtkComboBoxText',
-            true,
+            this._shellVersion < 42,
             {
                 default: 0,
                 minimal: 1,

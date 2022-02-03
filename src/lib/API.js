@@ -231,6 +231,10 @@ var API = class
      */
     panelCornerSetDefault()
     {
+        if (this._shellVersion >= 42) {
+            return;
+        }
+
         let classnameStarter = this._getAPIClassname('panel-corner');
 
         for (let size = 0; size <= 60; size++) {
@@ -247,6 +251,10 @@ var API = class
      */
     panelCornerSetSize(size)
     {
+        if (this._shellVersion >= 42) {
+            return;
+        }
+
         this.panelCornerSetDefault();
 
         if (size > 60 || size < 0) {

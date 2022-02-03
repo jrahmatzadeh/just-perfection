@@ -24,6 +24,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - Bottom to notification banner position.
 
+### Removed
+
+- Panel corner size option for GNOME Shell 42.
+
 ## [16.0.0 Rembrandt] - 2021-11-15
 
 ### Fixed
