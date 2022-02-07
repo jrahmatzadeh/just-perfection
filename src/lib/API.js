@@ -52,7 +52,7 @@ var API = class
     /**
      * Class Constructor
      *
-     * @param {Object} dependecies
+     * @param {Object} dependencies
      *   'Main' reference to ui::main
      *   'BackgroundMenu' reference to ui::backgroundMenu
      *   'OverviewControls' reference to ui::overviewControls
@@ -77,30 +77,30 @@ var API = class
      *   'GObject' reference to GObject
      * @param {number} shellVersion float in major.minor format
      */
-    constructor(dependecies, shellVersion)
+    constructor(dependencies, shellVersion)
     {
-        this._main = dependecies['Main'] || null;
-        this._backgroundMenu = dependecies['BackgroundMenu'] || null;
-        this._overviewControls = dependecies['OverviewControls'] || null;
-        this._workspaceSwitcherPopup = dependecies['WorkspaceSwitcherPopup'] || null;
-        this._interfaceSettings = dependecies['InterfaceSettings'] || null;
-        this._searchController = dependecies['SearchController'] || null;
-        this._viewSelector = dependecies['ViewSelector'] || null;
-        this._workspaceThumbnail = dependecies['WorkspaceThumbnail'] || null;
-        this._workspacesView = dependecies['WorkspacesView'] || null;
-        this._panel = dependecies['Panel'] || null;
-        this._windowPreview = dependecies['WindowPreview'] || null;
-        this._workspace = dependecies['Workspace'] || null;
-        this._lookingGlass = dependecies['LookingGlass'] || null;
-        this._messageTray = dependecies['MessageTray'] || null;
-        this._osdWindow = dependecies['OSDWindow'] || null;
-        this._st = dependecies['St'] || null;
-        this._gio = dependecies['Gio'] || null;
-        this._glib = dependecies['GLib'] || null;
-        this._clutter = dependecies['Clutter'] || null;
-        this._util = dependecies['Util'] || null;
-        this._meta = dependecies['Meta'] || null;
-        this._gobject = dependecies['GObject'] || null;
+        this._main = dependencies['Main'] || null;
+        this._backgroundMenu = dependencies['BackgroundMenu'] || null;
+        this._overviewControls = dependencies['OverviewControls'] || null;
+        this._workspaceSwitcherPopup = dependencies['WorkspaceSwitcherPopup'] || null;
+        this._interfaceSettings = dependencies['InterfaceSettings'] || null;
+        this._searchController = dependencies['SearchController'] || null;
+        this._viewSelector = dependencies['ViewSelector'] || null;
+        this._workspaceThumbnail = dependencies['WorkspaceThumbnail'] || null;
+        this._workspacesView = dependencies['WorkspacesView'] || null;
+        this._panel = dependencies['Panel'] || null;
+        this._windowPreview = dependencies['WindowPreview'] || null;
+        this._workspace = dependencies['Workspace'] || null;
+        this._lookingGlass = dependencies['LookingGlass'] || null;
+        this._messageTray = dependencies['MessageTray'] || null;
+        this._osdWindow = dependencies['OSDWindow'] || null;
+        this._st = dependencies['St'] || null;
+        this._gio = dependencies['Gio'] || null;
+        this._glib = dependencies['GLib'] || null;
+        this._clutter = dependencies['Clutter'] || null;
+        this._util = dependencies['Util'] || null;
+        this._meta = dependencies['Meta'] || null;
+        this._gobject = dependencies['GObject'] || null;
 
         this._shellVersion = shellVersion;
         this._originals = {};

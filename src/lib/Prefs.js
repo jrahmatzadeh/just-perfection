@@ -12,9 +12,9 @@
 var Prefs = class
 {
     /**
-     * class contructor
+     * class constructor
      *
-     * @param {Object} dependecies
+     * @param {Object} dependencies
      *   'Builder' instance of Gtk::Builder
      *   'Settings' instance of Gio::Settings
      *   'GObjectBindingFlags' instance of GObject::BindingFlags
@@ -24,15 +24,15 @@ var Prefs = class
      *   'GLib' reference to GLib
      * @param {number} shellVersion float in major.minor format
      */
-    constructor(dependecies, shellVersion)
+    constructor(dependencies, shellVersion)
     {
-        this._settings = dependecies['Settings'] || null;
-        this._builder = dependecies['Builder'] || null;
-        this._gobjectBindingFlags = dependecies['GObjectBindingFlags'] || null;
-        this._gtk = dependecies['Gtk'] || null;
-        this._gdk = dependecies['Gdk'] || null;
-        this._gio = dependecies['Gio'] || null;
-        this._glib = dependecies['GLib'] || null;
+        this._settings = dependencies['Settings'] || null;
+        this._builder = dependencies['Builder'] || null;
+        this._gobjectBindingFlags = dependencies['GObjectBindingFlags'] || null;
+        this._gtk = dependencies['Gtk'] || null;
+        this._gdk = dependencies['Gdk'] || null;
+        this._gio = dependencies['Gio'] || null;
+        this._glib = dependencies['GLib'] || null;
 
         this._shellVersion = shellVersion;
 

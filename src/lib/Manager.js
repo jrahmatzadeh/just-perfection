@@ -14,15 +14,15 @@ var Manager = class
     /**
      * Class Constructor
      *
-     * @param {Object} dependecies
+     * @param {Object} dependencies
      *   'API' instance of lib::API
      *   'Settings' instance of Gio::Settings
      * @param {number} shellVersion float in major.minor format
      */
-    constructor(dependecies, shellVersion)
+    constructor(dependencies, shellVersion)
     {
-        this._api = dependecies['API'] || null;
-        this._settings = dependecies['Settings'] || null;
+        this._api = dependencies['API'] || null;
+        this._settings = dependencies['Settings'] || null;
 
         this._shellVersion = shellVersion;
     }
