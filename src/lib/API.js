@@ -151,6 +151,20 @@ var API = class
     }
 
     /**
+     * add to animation duration
+     *
+     * @param {number} duration in milliseconds
+     *
+     * @returns {number}
+     */
+    _addToAnimationDuration(duration)
+    {
+        let settings = this._st.Settings.get();
+
+        return (settings.enable_animations) ? settings.slow_down_factor * duration : 1;
+    }
+
+    /**
      * get the css classname for API
      *
      * @param {string} type possible types
@@ -360,6 +374,11 @@ var API = class
             delete(this._timeoutIds['emitPanelPositionChanged']);
         }
 
+        if (this._timeoutIds['emitPanelPositionChanged2']) {
+            this._glib.source_remove(this._timeoutIds['emitPanelPositionChanged2']);
+            delete(this._timeoutIds['emitPanelPositionChanged2']);
+        }
+
         if (!calledFromChanger) {
             this.panelSetPosition(this.panelGetPosition(), true);
         }
@@ -368,15 +387,21 @@ var API = class
             let mode = this._panelHideMode ? this._panelHideMode : 0;
             this.panelHide(mode, 0);
         } else {
-            // hide and show can fix windows going under panel
+            // resize panel can fix windows going under panel
             // we may not need it on X11, but it is needed on Wayland
-            // we also need delay because without delay it many not fix the issue
+            // we also need delay after animation
+            // because without delay it many not fix the issue
+            let duration = this._addToAnimationDuration(180);
             this._timeoutIds['emitPanelPositionChanged']
-            = this._glib.timeout_add_seconds(this._glib.PRIORITY_DEFAULT, 150, () => {
+            = this._glib.timeout_add(this._glib.PRIORITY_IDLE, duration, () => {
                 delete(this._timeoutIds['emitPanelPositionChanged']);
-                let panelBox = this._main.layoutManager.panelBox;
-                panelBox.hide();
-                panelBox.show();
+                this._main.panel.height++;
+                this._timeoutIds['emitPanelPositionChangedIn2']
+                = this._glib.timeout_add(this._glib.PRIORITY_IDLE, 20, () => {
+                    delete(this._timeoutIds['emitPanelPositionChangedIn2']);
+                    this._main.panel.height--;
+                    return this._glib.SOURCE_REMOVE;
+                });
                 return this._glib.SOURCE_REMOVE;
             });
         }

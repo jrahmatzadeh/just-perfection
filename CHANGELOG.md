@@ -17,6 +17,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Prefs UI Improvement by [@muqtxdir](https://gitlab.gnome.org/muqtxdir).
 - Startup animation for hiding panel when panel is disabled.
 - Type to search when text entry content is replaced with another content.
+- Window goes under panel after unlock on Wayland.
 - Window picker caption visibility issue on Pop Shell.
 - Galician translation by [@frandieguez](https://gitlab.gnome.org/frandieguez).
 
