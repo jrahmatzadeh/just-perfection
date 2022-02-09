@@ -2644,11 +2644,8 @@ var API = class
     /**
      * set OSD position
      *
-     * TODO x and y will be used for translation but x and y means pixel position
-     *   we need to fix it and that should get x or y as percentage of the screen 
-     *
-     * @param int x
-     * @param int y
+     * @param int x percentage 0 - 100
+     * @param int y percentage 0 - 100
      *
      * @returns {void}
      */
@@ -2664,10 +2661,25 @@ var API = class
             osdWindowProto._oldRelayout = this._originals['osdWindowRelayout'];
         }
 
+        const Main = this._main;
+
         osdWindowProto._relayout = function () {
             this._oldRelayout();
-            this._box.translation_x = x;
-            this._box.translation_y = y;
+
+            let monitor = Main.layoutManager.monitors[this._monitorIndex];
+            if (!monitor) {
+                return;
+            }
+
+            let negativeX = (x < 50) ? -1 : 1;
+            let negativeY = (y < 50) ? -1 : 1;
+
+            // TODO we need to get actual size of OSD and then subtract to half of that
+            // so we have more accurate translation for both x and y
+            this._box.translation_x
+            = Math.round((monitor.width * x) / 100 - (monitor.width / 2)) * negativeX;
+            this._box.translation_y
+            = Math.round((monitor.height * y) / 100 - (monitor.height / 2)) * negativeY;
         };
 
         let osdWindows = this._main.osdWindowManager._osdWindows;
