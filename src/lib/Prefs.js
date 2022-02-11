@@ -51,7 +51,7 @@ var Prefs = class
          * @member {number}
          */
         this._windowWidth = 500;
-        this._windowHeight = 800;
+        this._windowHeight = 830;
 
         /**
          * holds all profile names
@@ -775,7 +775,7 @@ var Prefs = class
 
             // default window size
             let [pmWidth, pmHeight] = this._getPrimaryMonitorSize();
-            let sizeTolerance = 40;
+            let sizeTolerance = 50;
             if (pmWidth - sizeTolerance >= this._windowWidth &&
                 pmHeight - sizeTolerance >= this._windowHeight)
             {
@@ -849,7 +849,7 @@ var Prefs = class
         if (this._shellVersion < 40) {
             img = this._gtk.Image.new_from_file(introImgPath);
             img.visible = true;
-            img.set_size_request(500, 660);
+            img.set_size_request(500, 600);
             imageBox.add(img);
         } else {
             img = this._gtk.Picture.new_for_filename(introImgPath);
