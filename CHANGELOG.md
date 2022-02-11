@@ -6,6 +6,8 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+## [17.0.0 Roslin] - 2022-02-11
+
 ### Fixed
 
 - Emitting panel show when panel is visible.
