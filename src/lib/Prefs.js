@@ -84,7 +84,7 @@ var Prefs = class
         // setting all the main keys
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'panel',
             'GtkSwitch',
             true,
@@ -96,7 +96,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'panel-in-overview',
             'GtkSwitch',
             true,
@@ -108,7 +108,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'activities-button',
             'GtkSwitch',
             true,
@@ -120,7 +120,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'app-menu',
             'GtkSwitch',
             true,
@@ -132,7 +132,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'clock-menu',
             'GtkSwitch',
             true,
@@ -144,7 +144,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'keyboard-layout',
             'GtkSwitch',
             true,
@@ -156,7 +156,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'accessibility-menu',
             'GtkSwitch',
             true,
@@ -168,7 +168,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'aggregate-menu',
             'GtkSwitch',
             true,
@@ -180,7 +180,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'search',
             'GtkSwitch',
             true,
@@ -192,7 +192,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'dash',
             'GtkSwitch',
             true,
@@ -204,7 +204,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'osd',
             'GtkSwitch',
             true,
@@ -216,7 +216,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'workspace-popup',
             'GtkSwitch',
             true,
@@ -228,7 +228,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'workspace',
             'GtkSwitch',
             true,
@@ -240,7 +240,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'background-menu',
             'GtkSwitch',
             true,
@@ -252,7 +252,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'show-apps-button',
             'GtkSwitch',
             true,
@@ -264,7 +264,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'workspaces-in-app-grid',
             'GtkSwitch',
             this._shellVersion >= 40,
@@ -276,7 +276,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'window-preview-caption',
             'GtkSwitch',
             true,
@@ -288,7 +288,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'window-preview-close-button',
             'GtkSwitch',
             true,
@@ -300,7 +300,7 @@ var Prefs = class
         );
 
         this._setKey(
-            'visiblity',
+            'visibility',
             'ripple-box',
             'GtkSwitch',
             true,
@@ -669,7 +669,7 @@ var Prefs = class
      * set key
      *
      * @param {string} category possible values:
-     *   - visiblity
+     *   - visibility
      *   - icons
      *   - behavior
      *   - customize
@@ -759,6 +759,7 @@ var Prefs = class
             }
         }
 
+        this._setListBoxSeparators();
         this._prepareIntro(binFolderPath);
         this._convertComboBoxTextToDropDown();
         this._fixIconObjects();
@@ -800,6 +801,32 @@ var Prefs = class
         });
 
         return obj;
+    }
+
+    /**
+     * set separators for all list boxes
+     *
+     * @returns {void}
+     */
+    _setListBoxSeparators()
+    {
+        if (this._shellVersion < 40) {
+            return;
+        }
+
+        let listboxes = [
+            'override',
+            'visibility',
+            'icons',
+            'behavior',
+            'customize',
+        ];
+        
+        for (let listbox of listboxes) {
+            let elementId = `${listbox}_listbox`;
+            let elm = this._builder.get_object(elementId);
+            elm.show_separators = true;
+        }
     }
 
     /**
@@ -1305,7 +1332,7 @@ var Prefs = class
     _search(q)
     {
         let categories = {};
-        let noResultsFoundVisiblity = true;
+        let noResultsFoundvisibility = true;
 
         let profile = this._builder.get_object('profile');
         if (profile) {
@@ -1333,7 +1360,7 @@ var Prefs = class
 
             if (visible) {
                 categories[key.category]++;
-                noResultsFoundVisiblity = false;
+                noResultsFoundvisibility = false;
             }
         }
 
@@ -1348,7 +1375,7 @@ var Prefs = class
         }
 
         let notFound = this._builder.get_object('no_results_found');
-        notFound.visible = noResultsFoundVisiblity;
+        notFound.visible = noResultsFoundvisibility;
     }
 };
 

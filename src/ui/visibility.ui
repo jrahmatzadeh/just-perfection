@@ -7,7 +7,7 @@
     <property name="orientation">vertical</property>
                   
     <child>
-      <object class="GtkBox" id="visiblity_title">
+      <object class="GtkBox" id="visibility_title">
         <property name="visible">True</property>
         <property name="can-focus">False</property>
         <property name="margin-bottom">12</property>
@@ -27,14 +27,14 @@
     </child>
     
     <child>
-      <object class="GtkFrame" id="visiblity_frame">
+      <object class="GtkFrame" id="visibility_frame">
         <property name="visible">True</property>
         <property name="can-focus">False</property>
         <property name="label-xalign">0</property>
         <property name="margin-bottom">36</property>
         
         <child>
-          <object class="GtkListBox" id="visiblity_listbox">
+          <object class="GtkListBox" id="visibility_listbox">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
             <property name="selection-mode">none</property>
