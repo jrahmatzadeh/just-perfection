@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Fixed
+
+- GNOME 3.x prefs error.
+
 ## [17.0.0 Roslin] - 2022-02-11
 
 ### Fixed

@@ -37,7 +37,8 @@
             <property name="visible">True</property>
             <property name="can-focus">False</property>
             <property name="selection-mode">none</property>
-            <property name="show-separators">True</property>
+            <!-- supported on gtk4 not 3. uncomment after 3.x EOS -->
+            <!-- <property name="show-separators">True</property> -->
             
             <child>
               <object class="GtkListBoxRow" id="workspace_background_corner_size_row">
