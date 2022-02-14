@@ -754,16 +754,15 @@ var API = class
             height: searchEntry.height,
             opacity: 255,
             mode: this._clutter.AnimationMode.EASE,
-            duration: 150,
+            duration: 110,
             onComplete: () => {
                 searchEntryParent.height = -1;
+                searchEntry.ease({
+                    opacity: 255,
+                    mode: this._clutter.AnimationMode.EASE,
+                    duration: 700,
+                });
             },
-        });
-
-        searchEntry.ease({
-            opacity: 255,
-            mode: this._clutter.AnimationMode.EASE,
-            duration: 800,
         });
 
         if (!fake) {
