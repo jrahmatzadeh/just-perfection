@@ -391,15 +391,16 @@ var API = class
             // we may not need it on X11, but it is needed on Wayland
             // we also need delay after animation
             // because without delay it many not fix the issue
+            let panelBox = this._main.layoutManager.panelBox;
             let duration = this._addToAnimationDuration(180);
             this._timeoutIds['emitPanelPositionChanged']
             = this._glib.timeout_add(this._glib.PRIORITY_IDLE, duration, () => {
                 delete(this._timeoutIds['emitPanelPositionChanged']);
-                this._main.panel.height++;
+                panelBox.hide();
                 this._timeoutIds['emitPanelPositionChangedIn2']
                 = this._glib.timeout_add(this._glib.PRIORITY_IDLE, 20, () => {
                     delete(this._timeoutIds['emitPanelPositionChangedIn2']);
-                    this._main.panel.height--;
+                    panelBox.show();
                     return this._glib.SOURCE_REMOVE;
                 });
                 return this._glib.SOURCE_REMOVE;
