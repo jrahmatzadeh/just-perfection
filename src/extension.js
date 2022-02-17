@@ -3,7 +3,7 @@
  *
  * @author     Javad Rahmatzadeh <j.rahmatzadeh@gmail.com>
  * @copyright  2020-2022
- * @license    GNU General Public License v3.0
+ * @license    GPL-3.0-only
  */
 
 const ExtensionUtils = imports.misc.extensionUtils;
