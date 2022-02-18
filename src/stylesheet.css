@@ -686,7 +686,10 @@
     border-radius: 100px;
 }
 
-.just-perfection-api-no-weather .weather-button
+.just-perfection-api-no-weather .weather-button,
+.just-perfection-api-no-weather .weather-button *,
+.just-perfection-api-no-world-clocks .world-clocks-button,
+.just-perfection-api-no-world-clocks .world-clocks-button *
 {
     padding: 0;
     margin: 0;
@@ -694,3 +697,4 @@
     height: 0;
     width: 0;
 }
+

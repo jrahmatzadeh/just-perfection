@@ -193,6 +193,7 @@ var API = class
      *  refresh-styles
      *  no-ripple-box
      *  no-weather
+     *  no-world-clocks
      *
      * @returns {string}
      */
@@ -226,6 +227,7 @@ var API = class
             'refresh-styles',
             'no-ripple-box',
             'no-weather',
+            'no-world-clocks',
         ];
 
         if (!possibleTypes.includes(type)) {
@@ -2708,6 +2710,26 @@ var API = class
     weatherHide()
     {
         this.UIStyleClassAdd(this._getAPIClassname('no-weather'));
+    }
+
+    /**
+     * show world clocks in date menu
+     *
+     * @returns {void}
+     */
+    worldClocksShow()
+    {
+        this.UIStyleClassRemove(this._getAPIClassname('no-world-clocks'));
+    }
+
+    /**
+     * hide world clocks in date menu
+     *
+     * @returns {void}
+     */
+    worldClocksHide()
+    {
+        this.UIStyleClassAdd(this._getAPIClassname('no-world-clocks'));
     }
 }
 
