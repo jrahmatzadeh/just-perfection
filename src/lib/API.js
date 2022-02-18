@@ -192,6 +192,7 @@ var API = class
      *  no-window-close
      *  refresh-styles
      *  no-ripple-box
+     *  no-weather
      *
      * @returns {string}
      */
@@ -224,6 +225,7 @@ var API = class
             'no-window-close',
             'refresh-styles',
             'no-ripple-box',
+            'no-weather',
         ];
 
         if (!possibleTypes.includes(type)) {
@@ -2686,6 +2688,26 @@ var API = class
         osdWindows.forEach(osdWindow => {
             osdWindow._relayout();
         });
+    }
+
+    /**
+     * show weather in date menu
+     *
+     * @returns {void}
+     */
+    weatherShow()
+    {
+        this.UIStyleClassRemove(this._getAPIClassname('no-weather'));
+    }
+
+    /**
+     * hide weather in date menu
+     *
+     * @returns {void}
+     */
+    weatherHide()
+    {
+        this.UIStyleClassAdd(this._getAPIClassname('no-weather'));
     }
 }
 

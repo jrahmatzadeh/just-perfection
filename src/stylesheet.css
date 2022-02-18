@@ -685,3 +685,12 @@
     color: gold;
     border-radius: 100px;
 }
+
+.just-perfection-api-no-weather .weather-button
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 0;
+    width: 0;
+}
