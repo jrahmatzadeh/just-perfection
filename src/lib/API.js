@@ -107,7 +107,7 @@ var API = class
         this._timeoutIds = {};
 
         /**
-         * whether seach entry is visible
+         * whether search entry is visible
          *
          * @member {boolean}
          */
@@ -417,13 +417,13 @@ var API = class
     /**
      * show panel
      *
-     * @param {number} animationDuration in miliseconds. defaults to 150 
+     * @param {number} animationDuration in milliseconds. defaults to 150 
      *
      * @returns {void}
      */
     panelShow(animationDuration = 150)
     {
-        this._panelVisiblity = true;
+        this._panelVisibility = true;
 
         let classname = this._getAPIClassname('no-panel');
 
@@ -478,13 +478,13 @@ var API = class
      *
      * @param {mode} hide mode see PANEL_HIDE_MODE. defaults to hide all
      * @param {boolean} force apply hide even if it is hidden
-     * @param {number} animationDuration in miliseconds. defaults to 150
+     * @param {number} animationDuration in milliseconds. defaults to 150
      *
      * @returns {void}
      */
     panelHide(mode, animationDuration = 150)
     {
-        this._panelVisiblity = false;
+        this._panelVisibility = false;
         this._panelHideMode = mode;
 
         let overview = this._main.overview;
@@ -522,12 +522,12 @@ var API = class
             delete(this._overviewHidingSignal);
         }
 
-        let appMenuOriginalVisiblity;
+        let appMenuOriginalVisibility;
 
         if (mode === PANEL_HIDE_MODE.DESKTOP) {
             if (!this._overviewShowingSignal) {
                 this._overviewShowingSignal = overview.connect('showing', () => {
-                    appMenuOriginalVisiblity = this.isAppMenuVisible(); 
+                    appMenuOriginalVisibility = this.isAppMenuVisible(); 
                     this.appMenuHide();
                     panelBox.ease({
                         translation_y: 0,
@@ -543,7 +543,7 @@ var API = class
                         mode: this._clutter.AnimationMode.EASE,
                         duration: 250,
                         onComplete: () => {
-                            if (appMenuOriginalVisiblity) {
+                            if (appMenuOriginalVisibility) {
                                 this.appMenuShow();
                             } else {
                                 this.appMenuHide();
@@ -581,11 +581,11 @@ var API = class
      */
     isPanelVisible()
     {
-        if (this._panelVisiblity === undefined) {
+        if (this._panelVisibility === undefined) {
             return true;
         }
 
-        return this._panelVisiblity;
+        return this._panelVisibility;
     }
 
     /**
@@ -595,7 +595,7 @@ var API = class
      */
     isDashVisible()
     {
-        return this._dashVisiblity === undefined || this._dashVisiblity;
+        return this._dashVisibility === undefined || this._dashVisibility;
     }
 
     /**
@@ -609,7 +609,7 @@ var API = class
             return;
         }
 
-        this._dashVisiblity = true;
+        this._dashVisibility = true;
 
         this._main.overview.dash.show();
 
@@ -633,7 +633,7 @@ var API = class
             return;
         }
 
-        this._dashVisiblity = false;
+        this._dashVisibility = false;
 
         this._main.overview.dash.hide();
 
@@ -738,7 +738,7 @@ var API = class
      * show search
      *
      * @param {boolean} fake true means it just needs to do the job but
-     *   don't need to change the search visiblity status
+     *   don't need to change the search visibility status
      *
      * @returns {void}
      */
@@ -779,7 +779,7 @@ var API = class
      * hide search
      *
      * @param {boolean} fake true means it just needs to do the job
-     *   but don't need to change the search visiblity status
+     *   but don't need to change the search visibility status
      *
      * @returns {void}
      */
@@ -1109,7 +1109,7 @@ var API = class
             // we are overriding the _getThumbnailsHeight() here with the same
             // function as original but we change the MAX_THUMBNAIL_SCALE to our
             // custom size.
-            // we do this because MAX_THUMBNAIL_SCALE is const and cannot be cahnged
+            // we do this because MAX_THUMBNAIL_SCALE is const and cannot be changed
             let smd = this._workspacesView.SecondaryMonitorDisplay;
 
             if (this._originals['smd_getThumbnailsHeight'] === undefined) {
@@ -1137,7 +1137,7 @@ var API = class
     }
 
     /**
-     * toggle overview visiblity
+     * toggle overview visibility
      *
      * @returns {void}
      */
@@ -1585,7 +1585,7 @@ var API = class
     }
 
     /**
-     * enable panel notifiction icon
+     * enable panel notification icon
      *
      * @returns {void}
      */
@@ -1595,7 +1595,7 @@ var API = class
     }
 
     /**
-     * disable panel notifiction icon
+     * disable panel notification icon
      *
      * @returns {void}
      */
@@ -1741,7 +1741,7 @@ var API = class
      *
      * @returns {void}
      */
-    enablenAimationsSetDefault()
+    enableAnimationsSetDefault()
     {
         if (this._originals['enableAnimations'] === undefined) {
             return;
@@ -1759,7 +1759,7 @@ var API = class
      *
      * @returns {void}
      */
-    enablenAimationsSet(status)
+    enableAnimationsSet(status)
     {
         if (this._originals['enableAnimations'] ===  undefined) {
             this._originals['enableAnimations']
@@ -1779,12 +1779,12 @@ var API = class
      *
      * @returns {void}
      */
-    ativitiesButtonAddIcon(type, icon, monochrome, holdLabel)
+    activitiesButtonAddIcon(type, icon, monochrome, holdLabel)
     {
         let iconSize = this._panel.PANEL_ICON_SIZE - this._panel.APP_MENU_ICON_MARGIN;
         let activities = this._main.panel.statusArea['activities'];
 
-        this.ativitiesButtonRemoveIcon();
+        this.activitiesButtonRemoveIcon();
 
         if (!this._activitiesBtn) { 
             this._activitiesBtn = {};
@@ -1857,7 +1857,7 @@ var API = class
      *
      * @returns {void}
      */
-    ativitiesButtonRemoveIcon()
+    activitiesButtonRemoveIcon()
     {
         let activities = this._main.panel.statusArea['activities'];
 

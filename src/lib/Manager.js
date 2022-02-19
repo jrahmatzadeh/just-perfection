@@ -822,19 +822,19 @@ var Manager = class
 
         if (forceOriginal) {
             this._api.animationSpeedSetDefault();
-            this._api.enablenAimationsSetDefault();
+            this._api.enableAnimationsSetDefault();
         } else if (animation === 0) {
             // disabled
             this._api.animationSpeedSetDefault();
-            this._api.enablenAimationsSet(false);
+            this._api.enableAnimationsSet(false);
         } else if (animation === 1) {
             // default speed
             this._api.animationSpeedSetDefault();
-            this._api.enablenAimationsSet(true);
+            this._api.enableAnimationsSet(true);
         } else if (factors[animation - 2] !== undefined) {
             // custom speed
             this._api.animationSpeedSet(factors[animation - 2]);
-            this._api.enablenAimationsSet(true);
+            this._api.enableAnimationsSet(true);
         }
     }
 
@@ -852,9 +852,9 @@ var Manager = class
         let label = this._settings.get_boolean('activities-button-label');
 
         if (forceOriginal) {
-            this._api.ativitiesButtonRemoveIcon();
+            this._api.activitiesButtonRemoveIcon();
         } else {
-            this._api.ativitiesButtonAddIcon(1, iconPath, monochrome, label);
+            this._api.activitiesButtonAddIcon(1, iconPath, monochrome, label);
         }
     }
 
