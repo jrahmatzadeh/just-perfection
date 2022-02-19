@@ -229,6 +229,10 @@ var Manager = class
         this._settings.connect('changed::world-clock', () => {
             this._applyWorldClock(false);
         });
+
+        this._settings.connect('changed::weather', () => {
+            this._applyWeather(false);
+        });
     }
 
     /**
@@ -283,6 +287,7 @@ var Manager = class
         this._applyRippleBox(false);
         this._applyDoubleSuperToAppgrid(false);
         this._applyWorldClock(false);
+        this._applyWeather(false);
     }
 
     /**
@@ -337,6 +342,7 @@ var Manager = class
         this._applyRippleBox(true);
         this._applyDoubleSuperToAppgrid(true);
         this._applyWorldClock(true);
+        this._applyWeather(true);
     }
 
     /**
@@ -1137,6 +1143,24 @@ var Manager = class
             this._api.worldClocksShow();
         } else {
             this._api.worldClocksHide();
+        }
+    }
+
+    /**
+     * apply weather settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyWeather(forceOriginal)
+    {
+        let status = this._settings.get_boolean('weather');
+
+        if (forceOriginal || status) {
+            this._api.weatherShow();
+        } else {
+            this._api.weatherHide();
         }
     }
 }

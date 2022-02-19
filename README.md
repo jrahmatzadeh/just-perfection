@@ -43,6 +43,7 @@ This extension allows you to do the following:
 | Search Visibility                                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Startup Status                                       | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: |
 | System Menu (Aggregate Menu) Visibility              | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Weather Visibility                                   | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Window Demands Attention Focus                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Window Picker Caption Visibility                     | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Window Picker Close Button Visibility                | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |

@@ -13,6 +13,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Added
 
 - Panel world clock visiblity.
+- Weather visiblity.
 
 ## [18.0.0 Roslin] - 2022-02-12
 

@@ -313,8 +313,14 @@
 
     <key type="b" name="world-clock">
       <default>true</default>
-      <summary>World Clock Visibility in Panel</summary>
+      <summary>World Clock Visibility in Clock Menu</summary>
       <description>World Clock Visibility Status</description>
+    </key>
+
+    <key type="b" name="weather">
+      <default>true</default>
+      <summary>Weather Visibility in Clock Menu</summary>
+      <description>Weather Visibility Status</description>
     </key>
     
   </schema>
