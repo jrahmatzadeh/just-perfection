@@ -1075,7 +1075,7 @@ var API = class
 
         if (this._originals['smd_getThumbnailsHeight'] !== undefined) {
             let smd = this._workspacesView.SecondaryMonitorDisplay;
-            smd._getThumbnailsHeight = this._originals['smd_getThumbnailsHeight'];
+            smd.prototype._getThumbnailsHeight = this._originals['smd_getThumbnailsHeight'];
         }
 
         this._workspaceSwitcherLastSize = size;
@@ -1113,7 +1113,7 @@ var API = class
             let smd = this._workspacesView.SecondaryMonitorDisplay;
 
             if (this._originals['smd_getThumbnailsHeight'] === undefined) {
-                this._originals['smd_getThumbnailsHeight'] = smd._getThumbnailsHeight;
+                this._originals['smd_getThumbnailsHeight'] = smd.prototype._getThumbnailsHeight;
             }
 
             smd.prototype._getThumbnailsHeight = function(box) {
