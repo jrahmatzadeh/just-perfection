@@ -429,7 +429,7 @@ var Prefs = class
         searchBar.connect_entry(searchEntry);
 
         activitiesButtonIconPath['entry'].connect('changed', (w) => {
-            this._setFileChooserValue('activities_button_icon_path', w.text);
+            this._setFileChooserValue('activities_button_icon_path', w.text, true);
         });
 
         activitiesButtonIconPath['empty'].connect('clicked', () => {
@@ -594,10 +594,11 @@ var Prefs = class
      *
      * @param {string} id element starter id
      * @param {string} uri file address
+     * @param {bool} entrySetBefore whether file chooser entry value has been set before
      *
      * @returns {void}
      */
-    _setFileChooserValue(id, uri)
+    _setFileChooserValue(id, uri, entrySetBefore = false)
     {
         let preview = this._builder.get_object(`${id}_preview`);
         let emptyButton = this._builder.get_object(`${id}_empty_button`);
@@ -613,7 +614,9 @@ var Prefs = class
 
         let visible = uriPrepared !== '';
 
-        entry.text = uriPrepared;
+        if (!entrySetBefore) {
+            entry.text = uriPrepared;
+        }
         emptyButton.visible = visible;
 
         preview.clear();
