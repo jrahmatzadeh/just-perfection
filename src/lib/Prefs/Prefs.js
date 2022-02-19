@@ -700,7 +700,7 @@ var Prefs = class
     _search(q)
     {
         let categories = {};
-        let noResultsFoundvisibility = true;
+        let noResultsFoundVisibility = true;
 
         let profile = this._builder.get_object('profile');
         if (profile) {
@@ -728,7 +728,7 @@ var Prefs = class
 
             if (visible) {
                 categories[key.category]++;
-                noResultsFoundvisibility = false;
+                noResultsFoundVisibility = false;
             }
         }
 
@@ -743,7 +743,7 @@ var Prefs = class
         }
 
         let notFound = this._builder.get_object('no_results_found');
-        notFound.visible = noResultsFoundvisibility;
+        notFound.visible = noResultsFoundVisibility;
     }
 };
 
