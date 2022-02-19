@@ -9,7 +9,7 @@
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
-const {Prefs} = Me.imports.lib;
+const {Prefs, PrefsKeys} = Me.imports.lib.Prefs;
 const {Gtk, Gdk, Gio, GLib, GObject} = imports.gi;
 
 const Config = imports.misc.config;
@@ -39,15 +39,21 @@ function buildPrefsWidget()
 
     let builder = new Gtk.Builder();
     let settings = ExtensionUtils.getSettings();
-    let prefs = new Prefs.Prefs({
-        Builder: builder,
-        Settings: settings,
-        GObjectBindingFlags: GObject.BindingFlags,
-        Gtk,
-        Gdk,
-        Gio,
-        GLib,
-    }, shellVersion);
+
+    let prefsKeys = new PrefsKeys.PrefsKeys(shellVersion);
+    let prefs = new Prefs.Prefs(
+        {
+            Builder: builder,
+            Settings: settings,
+            GObjectBindingFlags: GObject.BindingFlags,
+            Gtk,
+            Gdk,
+            Gio,
+            GLib,
+        },
+        prefsKeys,
+        shellVersion
+    );
 
     return prefs.getMainPrefs(UIFolderPath, binFolderPath, gettextDomain);
 }
