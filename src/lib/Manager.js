@@ -225,6 +225,10 @@ var Manager = class
         this._settings.connect('changed::double-super-to-appgrid', () => {
             this._applyDoubleSuperToAppgrid(false);
         });
+
+        this._settings.connect('changed::world-clock', () => {
+            this._applyWorldClock(false);
+        });
     }
 
     /**
@@ -278,6 +282,7 @@ var Manager = class
         this._applyWorkspaceWrapAround(false);
         this._applyRippleBox(false);
         this._applyDoubleSuperToAppgrid(false);
+        this._applyWorldClock(false);
     }
 
     /**
@@ -331,6 +336,7 @@ var Manager = class
         this._applyWorkspaceWrapAround(true);
         this._applyRippleBox(true);
         this._applyDoubleSuperToAppgrid(true);
+        this._applyWorldClock(true);
     }
 
     /**
@@ -1113,6 +1119,24 @@ var Manager = class
             this._api.doubleSuperToAppGridEnable();
         } else {
             this._api.doubleSuperToAppGridDisable();
+        }
+    }
+
+    /**
+     * apply world clock settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyWorldClock(forceOriginal)
+    {
+        let status = this._settings.get_boolean('world-clock');
+
+        if (forceOriginal || status) {
+            this._api.worldClocksShow();
+        } else {
+            this._api.worldClocksHide();
         }
     }
 }

@@ -53,6 +53,7 @@ This extension allows you to do the following:
 | Workspace Switcher Size                              | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Workspace Switcher Visibility                        | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Workspace Wraparound                                 | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| World Clock Visibility                               | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 
 ## GNOME Shell Support
 

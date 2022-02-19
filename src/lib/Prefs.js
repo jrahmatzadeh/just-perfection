@@ -312,6 +312,18 @@ var Prefs = class
         );
 
         this._setKey(
+            'visibility',
+            'world-clock',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superminimal: true,
+            }
+        );
+
+        this._setKey(
             'icons',
             'app-menu-icon',
             'GtkSwitch',

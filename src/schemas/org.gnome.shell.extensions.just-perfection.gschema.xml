@@ -310,6 +310,12 @@
       <summary>Double Supper To App Grid</summary>
       <description>Double Supper To App Grid Status</description>
     </key>
+
+    <key type="b" name="world-clock">
+      <default>true</default>
+      <summary>World Clock Visibility in Panel</summary>
+      <description>World Clock Visibility Status</description>
+    </key>
     
   </schema>
   
