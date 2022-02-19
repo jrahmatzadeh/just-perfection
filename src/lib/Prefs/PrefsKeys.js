@@ -25,7 +25,7 @@ var PrefsKeys = class
          *
          * @member {Object}
          */
-        this._keys = {};
+        this.keys = {};
 
         this._setDefaults();
     }
@@ -673,7 +673,7 @@ var PrefsKeys = class
             maps = {};
         }
 
-        this._keys[id] = {
+        this.keys[id] = {
             category,
             widgetType,
             name,
@@ -684,7 +684,7 @@ var PrefsKeys = class
             maps,
         }
 
-        return this._keys[id];
+        return this.keys[id];
     }
 
     /**
@@ -696,7 +696,7 @@ var PrefsKeys = class
      */
     deleteKey(id)
     {
-        delete(this._keys[id]);
+        delete(this.keys[id]);
     }
 };
 

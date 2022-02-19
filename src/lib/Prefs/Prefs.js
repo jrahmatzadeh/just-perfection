@@ -317,7 +317,7 @@ var Prefs = class
             return;
         }
 
-        for (let [, key] of Object.entries(this._prefsKeys._keys)) {
+        for (let [, key] of Object.entries(this._prefsKeys.keys)) {
             if (key.widgetType === 'GtkComboBoxText') {
                 let widget = this._builder.get_object(key.widgetId);
                 let parent = widget.get_parent();
@@ -373,7 +373,7 @@ var Prefs = class
             empty: this._builder.get_object('activities_button_icon_path_empty_button'),
         };
 
-        for (let [, key] of Object.entries(this._prefsKeys._keys)) {
+        for (let [, key] of Object.entries(this._prefsKeys.keys)) {
 
             switch (key.widgetType) {
 
@@ -542,7 +542,7 @@ var Prefs = class
             matchCount[profile] = 0;
         }
 
-        for (let [, key] of Object.entries(this._prefsKeys._keys)) {
+        for (let [, key] of Object.entries(this._prefsKeys.keys)) {
         
             if (!key.supported) {
                 continue;
@@ -639,7 +639,7 @@ var Prefs = class
      */
     _setValues(profile)
     {
-        for (let [, key] of Object.entries(this._prefsKeys._keys)) {
+        for (let [, key] of Object.entries(this._prefsKeys.keys)) {
 
             let elm
             = (key.widgetType === 'GtkDropDown')
@@ -713,7 +713,7 @@ var Prefs = class
             this._hideIntro();
         }
 
-        for (let [, key] of Object.entries(this._prefsKeys._keys)) {
+        for (let [, key] of Object.entries(this._prefsKeys.keys)) {
 
             if (categories[key.category] === undefined) {
                 categories[key.category] = 0;
