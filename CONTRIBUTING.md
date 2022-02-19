@@ -1,6 +1,6 @@
 # Rules for Contribution
 
-- Respect 90 characters margin.
+- Respect 100 characters margin.
 
 - The indentation is 4 characters. Don't use tab for indentation.
 
@@ -14,7 +14,7 @@
 
 - Class name, function, method names and variables should be camel cased.
 
-- Only main files are allowed in the root folder (such as extension.js, prefs.js, stylesheet.css, metadata.json).
+- Only main files are allowed in the src folder (such as extension.js, prefs.js, stylesheet.css, metadata.json).
 
 - Singleton is not allowed for any files inside *lib* folder.
 
@@ -35,7 +35,5 @@
 - You can find main translation file (pot file) in *po/main.pot*. That's the translation reference file.
 
 - Initial language translation for current languages has been translated via online services. Feel free to edit that.
-
-- Only the extension package on GNOME Shell extensions website can have locale folder and that should be generated with *scripts/generate-mo.sh*. Avoid adding locale folder to the repository.
 
 *This file may be updated in the future. Any change should be applied to all files in this repository.*
