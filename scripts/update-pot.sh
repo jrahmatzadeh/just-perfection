@@ -16,7 +16,8 @@ xgettext \
     --package-name="Just Perfection" \
     --package-version="3" \
     --output="po/main.pot" \
-    src/ui/*.ui
+    src/ui/*.ui \
+    src/ui/adw/*.ui
 
 for file in po/*.po
 do
