@@ -665,9 +665,13 @@ var PrefsKeys = class
      */
     setKey(category, name, widgetType, supported, profiles, maps)
     {
+        if (this._shellVersion >= 42 && widgetType === 'GtkComboBoxText') {
+            widgetType = 'AdwActionRow';
+        }
+
         let id = name.replace(/-/g, '_');
         let widgetName = widgetType.toLowerCase().replace('gtk', '');
-        let widgetId = `${id}_${widgetName}`;
+        let widgetId = (widgetType === 'AdwActionRow') ?  `${id}_row` : `${id}_${widgetName}`;
 
         if (maps === undefined) {
             maps = {};
