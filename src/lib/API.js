@@ -1053,6 +1053,24 @@ var API = class
     }
 
     /**
+     * get Secondary Monitor Display
+     *
+     * @returns {ui.WorkspacesView.SecondaryMonitorDisplay}
+     */
+    _getSecondaryMonitorDisplay()
+    {
+        if (this._shellVersion < 40) {
+            return null;
+        }
+
+        // for some reason the first time we get the value it returns null in 42
+        // but it returns the correct value in second get
+        this._workspacesView.SecondaryMonitorDisplay;
+
+        return this._workspacesView.SecondaryMonitorDisplay;
+    }
+
+    /**
      * set workspace switcher to its default size
      *
      * @returns {void}
@@ -1074,7 +1092,7 @@ var API = class
         }
 
         if (this._originals['smd_getThumbnailsHeight'] !== undefined) {
-            let smd = this._workspacesView.SecondaryMonitorDisplay;
+            let smd = this._getSecondaryMonitorDisplay();
             smd.prototype._getThumbnailsHeight = this._originals['smd_getThumbnailsHeight'];
         }
 
@@ -1110,7 +1128,7 @@ var API = class
             // function as original but we change the MAX_THUMBNAIL_SCALE to our
             // custom size.
             // we do this because MAX_THUMBNAIL_SCALE is const and cannot be changed
-            let smd = this._workspacesView.SecondaryMonitorDisplay;
+            let smd = this._getSecondaryMonitorDisplay();
 
             if (this._originals['smd_getThumbnailsHeight'] === undefined) {
                 this._originals['smd_getThumbnailsHeight'] = smd.prototype._getThumbnailsHeight;
