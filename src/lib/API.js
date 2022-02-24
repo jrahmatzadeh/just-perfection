@@ -948,12 +948,12 @@ var API = class
      */
     workspacePopupEnable()
     {
-        if (!this._originals['workspaceSwitcherPopup']) {
+        if (!this._originals['workspaceSwitcherPopupShow']) {
             return;
         }
 
         this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype._show
-        = this._originals['workspaceSwitcherPopup'];
+        = this._originals['workspaceSwitcherPopupShow'];
     }
 
     /**
@@ -963,8 +963,8 @@ var API = class
      */
     workspacePopupDisable()
     {
-        if (!this._originals['workspaceSwitcherPopup']) {
-            this._originals['workspaceSwitcherPopup']
+        if (!this._originals['workspaceSwitcherPopupShow']) {
+            this._originals['workspaceSwitcherPopupShow']
             = this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype._show;
         }
 
