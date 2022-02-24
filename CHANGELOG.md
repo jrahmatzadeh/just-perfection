@@ -9,9 +9,15 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Fixed
 
 - Blurry search entry on GNOME Shell themes with box-shadow.
+- Prefs file chooser recursion.
+- SecondaryMonitorDisplay error on GNOME Shell 42.
+- Shell theme override OSD for GNOME Shell 42.
+- Shell theme override workspace switcher for GNOME Shell 42.
+- Workspace popup visiblity in GNOME Shell 42.
 
 ### Added
 
+- Libadwaita for GNOME Shell 42 prefs.
 - Panel world clock visiblity.
 - Weather visiblity.
 
