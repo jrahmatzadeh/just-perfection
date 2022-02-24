@@ -848,7 +848,7 @@ var Prefs = class
      _onlyShowSupportedRows()
      {
          if (this._shellVersion < 42) {
-            this._search(q);
+            this._search('');
             return;
          }
 
