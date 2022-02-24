@@ -22,7 +22,7 @@
   </object>
 
   <object class="AdwPreferencesPage" id="profile">
-    <property name="name">Profile</property>
+    <property name="name">profile</property>
     <property name="title" translatable="yes">Profile</property>
     <property name="icon-name">view-list-symbolic</property>
 

@@ -2,7 +2,7 @@
 <interface>
   
   <object class="AdwPreferencesPage" id="customize">
-    <property name="name">Customize</property>
+    <property name="name">customize</property>
     <property name="title" translatable="yes">Customize</property>
     <property name="icon-name">applications-utilities-symbolic</property>
 

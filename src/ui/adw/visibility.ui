@@ -2,7 +2,7 @@
 <interface>
   
   <object class="AdwPreferencesPage" id="visibility">
-    <property name="name">Visibility</property>
+    <property name="name">visibility</property>
     <property name="title" translatable="yes">Visibility</property>
     <property name="icon-name">weather-clear-symbolic</property>
 

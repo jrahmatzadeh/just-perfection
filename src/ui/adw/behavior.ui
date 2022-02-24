@@ -2,7 +2,7 @@
 <interface>
   
   <object class="AdwPreferencesPage" id="behavior">
-    <property name="name">Behavior</property>
+    <property name="name">behavior</property>
     <property name="title" translatable="yes">Behavior</property>
     <property name="icon-name">applications-engineering-symbolic</property>
 
