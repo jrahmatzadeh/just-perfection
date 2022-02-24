@@ -526,14 +526,19 @@ var Manager = class
     {
         let className = 'just-perfection';
         let fallbackClassName = 'just-perfection-gnome3';
+        let fourtySecondGenClassName = 'just-perfection-gnome4x-2nd-gen';
 
         if (forceOriginal || !this._settings.get_boolean('theme')) {
             this._api.UIStyleClassRemove(className);
             this._api.UIStyleClassRemove(fallbackClassName);
+            this._api.UIStyleClassRemove(fourtySecondGenClassName);
         } else {
             this._api.UIStyleClassAdd(className);
             if (this._shellVersion < 40) {
                 this._api.UIStyleClassAdd(fallbackClassName);
+            }
+            if (this._shellVersion >= 42) {
+                this._api.UIStyleClassAdd(fourtySecondGenClassName);
             }
         }
     }
