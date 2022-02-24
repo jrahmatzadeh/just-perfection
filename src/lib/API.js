@@ -948,12 +948,20 @@ var API = class
      */
     workspacePopupEnable()
     {
-        if (!this._originals['workspaceSwitcherPopupShow']) {
+        if (this._shellVersion < 42) {
+            if (!this._originals['workspaceSwitcherPopupShow']) {
+                return;
+            }
+            this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype._show
+            = this._originals['workspaceSwitcherPopupShow'];
+        }
+
+        if (!this._originals['workspaceSwitcherPopupDisplay']) {
             return;
         }
 
-        this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype._show
-        = this._originals['workspaceSwitcherPopupShow'];
+        this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype.display
+        = this._originals['workspaceSwitcherPopupDisplay']
     }
 
     /**
@@ -963,12 +971,22 @@ var API = class
      */
     workspacePopupDisable()
     {
-        if (!this._originals['workspaceSwitcherPopupShow']) {
-            this._originals['workspaceSwitcherPopupShow']
-            = this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype._show;
+        if (this._shellVersion < 42) {
+            if (!this._originals['workspaceSwitcherPopupShow']) {
+                this._originals['workspaceSwitcherPopupShow']
+                = this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype._show;
+            }
+            this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype._show = () => {
+               return false;
+            };
         }
 
-        this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype._show = () => {
+        if (!this._originals['workspaceSwitcherPopupDisplay']) {
+            this._originals['workspaceSwitcherPopupDisplay']
+            = this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype.display;
+        }
+
+        this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype.display = (index) => {
            return false;
         };
     }
