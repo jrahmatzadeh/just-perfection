@@ -170,6 +170,11 @@
     box-shadow: none;
 }
 
+.just-perfection.just-perfection-gnome4x-2nd-gen .osd-window StIcon
+{
+    width: 22px;
+    height: 22px;
+}
 
 .just-perfection .search-entry
 {
