@@ -322,6 +322,13 @@
       <summary>Weather Visibility in Clock Menu</summary>
       <description>Weather Visibility Status</description>
     </key>
+
+    <key type="i" name="panel-icon-size">
+      <default>0</default>
+      <range min="0" max="60"/>
+      <summary>0 means use Shell theme, 1 - 60 means panel icon size</summary>
+      <description>Panel Icon Size</description>
+    </key>
     
   </schema>
   

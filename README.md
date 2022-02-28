@@ -32,6 +32,7 @@ This extension allows you to do the following:
 | Panel Arrow Visibility                               | :black_circle: | :black_circle: | :white_circle: | :white_circle: | :white_circle: |
 | Panel Button Padding Size                            | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Panel Height                                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Panel icon size                                      | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Panel Indicator Padding Size                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Panel Notification icon Visibility                   | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Panel Position                                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |

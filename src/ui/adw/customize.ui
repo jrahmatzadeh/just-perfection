@@ -26,6 +26,13 @@
         </child>
 
         <child>
+          <object class="AdwComboRow" id="panel_icon_size_row">
+            <property name="title" translatable="yes">Panel Icon Size</property>
+            <property name="model">panel_icon_size_model</property>
+          </object>
+        </child>
+
+        <child>
           <object class="AdwComboRow" id="panel_button_padding_size_row">
             <property name="title" translatable="yes">Panel Button Padding Size</property>
             <property name="model">panel_button_padding_size_model</property>
@@ -235,6 +242,72 @@
     </items>
   </object>
 
+  <object class="GtkStringList" id="panel_icon_size_model">
+    <items>
+      <item translatable="yes">By Shell Theme</item>
+      <item>1px</item>
+      <item>2px</item>
+      <item>3px</item>
+      <item>4px</item>
+      <item>5px</item>
+      <item>6px</item>
+      <item>7px</item>
+      <item>8px</item>
+      <item>9px</item>
+      <item>10px</item>
+      <item>11px</item>
+      <item>12px</item>
+      <item>13px</item>
+      <item>14px</item>
+      <item>15px</item>
+      <item>16px</item>
+      <item>17px</item>
+      <item>18px</item>
+      <item>19px</item>
+      <item>20px</item>
+      <item>21px</item>
+      <item>22px</item>
+      <item>23px</item>
+      <item>24px</item>
+      <item>25px</item>
+      <item>26px</item>
+      <item>27px</item>
+      <item>28px</item>
+      <item>29px</item>
+      <item>30px</item>
+      <item>31px</item>
+      <item>32px</item>
+      <item>33px</item>
+      <item>34px</item>
+      <item>35px</item>
+      <item>36px</item>
+      <item>37px</item>
+      <item>38px</item>
+      <item>39px</item>
+      <item>40px</item>
+      <item>41px</item>
+      <item>42px</item>
+      <item>43px</item>
+      <item>44px</item>
+      <item>45px</item>
+      <item>46px</item>
+      <item>47px</item>
+      <item>48px</item>
+      <item>49px</item>
+      <item>50px</item>
+      <item>51px</item>
+      <item>52px</item>
+      <item>53px</item>
+      <item>54px</item>
+      <item>55px</item>
+      <item>56px</item>
+      <item>57px</item>
+      <item>58px</item>
+      <item>59px</item>
+      <item>60px</item>
+    </items>
+  </object>
+  
   <object class="GtkStringList" id="panel_button_padding_size_model">
     <items>
       <item translatable="yes">By Shell Theme</item>

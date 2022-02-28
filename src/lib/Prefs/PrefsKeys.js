@@ -631,6 +631,18 @@ var PrefsKeys = class
         );
 
         this.setKey(
+            'customize',
+            'panel-icon-size',
+            'GtkComboBoxText',
+            true,
+            {
+                default: 0,
+                minimal: 0,
+                superminimal: 0,
+            }
+        );
+
+        this.setKey(
             'override',
             'theme',
             'GtkSwitch',

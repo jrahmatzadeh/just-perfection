@@ -18,6 +18,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Added
 
 - Libadwaita for GNOME Shell 42 prefs.
+- Panel icon size.
 - Panel world clock visiblity.
 - Weather visiblity.
 
@@ -347,4 +348,5 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Hide top panel.
 - Hide workspace switcher.
 - Hot corner to toggle overview visibility.
+
 

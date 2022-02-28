@@ -2805,10 +2805,15 @@ var API = class
 
         let classnameStarter = this._getAPIClassname('panel-icon-size');
         this.UIStyleClassRemove(classnameStarter + this._panelIconSize);
+        this._emitRefreshStyles();
 
         let defaultSize = this._originals['panelIconSize'];
         this._panel.PANEL_ICON_SIZE = defaultSize;
-        this._main.panel.statusArea['dateMenu']._indicator.icon_size = defaultSize;
+        this._main.panel.statusArea['dateMenu']._indicator.set_icon_size(defaultSize);
+        this._main.panel.statusArea['appMenu']._onIconThemeChanged();
+        this._activitiesButtonIconSetSize(defaultSize);
+
+        delete(this._panelIconSize);
     }
 
     /**
@@ -2828,14 +2833,17 @@ var API = class
             this._originals['panelIconSize'] = this._panel.PANEL_ICON_SIZE;
         }
 
-        this._panelIconSize = size;
-
         let classnameStarter = this._getAPIClassname('panel-icon-size');
+        this.UIStyleClassRemove(classnameStarter + this.panelIconGetSize());
         this.UIStyleClassAdd(classnameStarter + size);
+        this._emitRefreshStyles();
 
         this._panel.PANEL_ICON_SIZE = size;
-        this._main.panel.statusArea['dateMenu']._indicator.icon_size = size;
+        this._main.panel.statusArea['dateMenu']._indicator.set_icon_size(size);
+        this._main.panel.statusArea['appMenu']._onIconThemeChanged();
         this._activitiesButtonIconSetSize(size);
+
+        this._panelIconSize = size;
     }
 
     /**

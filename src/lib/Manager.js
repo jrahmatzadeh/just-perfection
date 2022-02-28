@@ -233,6 +233,10 @@ var Manager = class
         this._settings.connect('changed::weather', () => {
             this._applyWeather(false);
         });
+
+        this._settings.connect('changed::panel-icon-size', () => {
+            this._applyPanelIconSize(false);
+        });
     }
 
     /**
@@ -288,6 +292,7 @@ var Manager = class
         this._applyDoubleSuperToAppgrid(false);
         this._applyWorldClock(false);
         this._applyWeather(false);
+        this._applyPanelIconSize(false);
     }
 
     /**
@@ -343,6 +348,7 @@ var Manager = class
         this._applyDoubleSuperToAppgrid(true);
         this._applyWorldClock(true);
         this._applyWeather(true);
+        this._applyPanelIconSize(true);
     }
 
     /**
@@ -1166,6 +1172,24 @@ var Manager = class
             this._api.weatherShow();
         } else {
             this._api.weatherHide();
+        }
+    }
+
+    /**
+     * apply panel icon size settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyPanelIconSize(forceOriginal)
+    {
+        let size = this._settings.get_int('panel-icon-size');
+
+        if (forceOriginal || size === 0) {
+            this._api.panelIconSetDefaultSize();
+        } else {
+            this._api.panelIconSetSize(size);
         }
     }
 }
