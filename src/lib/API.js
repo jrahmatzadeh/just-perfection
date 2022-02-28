@@ -194,6 +194,7 @@ var API = class
      *  no-ripple-box
      *  no-weather
      *  no-world-clocks
+     *  panel-icon-size
      *
      * @returns {string}
      */
@@ -228,6 +229,7 @@ var API = class
             'no-ripple-box',
             'no-weather',
             'no-world-clocks',
+            'panel-icon-size',
         ];
 
         if (!possibleTypes.includes(type)) {
@@ -1817,7 +1819,7 @@ var API = class
      */
     activitiesButtonAddIcon(type, icon, monochrome, holdLabel)
     {
-        let iconSize = this._panel.PANEL_ICON_SIZE - this._panel.APP_MENU_ICON_MARGIN;
+        let iconSize = this.panelIconGetSize() - this._panel.APP_MENU_ICON_MARGIN;
         let activities = this._main.panel.statusArea['activities'];
 
         this.activitiesButtonRemoveIcon();
@@ -1919,6 +1921,28 @@ var API = class
         }
 
         this.UIStyleClassRemove(this._getAPIClassname('activities-button-no-label'));
+    }
+
+    /**
+     * set activities button icon size
+     *
+     * @param {number} size 1-60
+     *
+     * @returns {void}
+     */
+    _activitiesButtonIconSetSize(size)
+    {
+        if (size < 1 || size > 60) {
+            return;
+        }
+
+        let activities = this._main.panel.statusArea['activities'];
+
+        if (!this._activitiesBtn || !this._activitiesBtn.icon) {
+            return;
+        }
+        
+        this._activitiesBtn.icon.icon_size = size - this._panel.APP_MENU_ICON_MARGIN;
     }
 
     /**
@@ -2766,6 +2790,66 @@ var API = class
     worldClocksHide()
     {
         this.UIStyleClassAdd(this._getAPIClassname('no-world-clocks'));
+    }
+
+    /**
+     * set default panel icon size
+     *
+     * @returns {void}
+     */
+    panelIconSetDefaultSize()
+    {
+        if (this._panelIconSize === undefined || !this._originals['panelIconSize']) {
+            return;
+        }
+
+        let classnameStarter = this._getAPIClassname('panel-icon-size');
+        this.UIStyleClassRemove(classnameStarter + this._panelIconSize);
+
+        let defaultSize = this._originals['panelIconSize'];
+        this._panel.PANEL_ICON_SIZE = defaultSize;
+        this._main.panel.statusArea['dateMenu']._indicator.icon_size = defaultSize;
+    }
+
+    /**
+     * set panel icon size
+     *
+     * @param {number} size 1-60
+     *
+     * @returns {void}
+     */
+    panelIconSetSize(size)
+    {
+        if (size < 1 || size > 60) {
+            return;
+        }
+
+        if (!this._originals['panelIconSize']) {
+            this._originals['panelIconSize'] = this._panel.PANEL_ICON_SIZE;
+        }
+
+        this._panelIconSize = size;
+
+        let classnameStarter = this._getAPIClassname('panel-icon-size');
+        this.UIStyleClassAdd(classnameStarter + size);
+
+        this._panel.PANEL_ICON_SIZE = size;
+        this._main.panel.statusArea['dateMenu']._indicator.icon_size = size;
+        this._activitiesButtonIconSetSize(size);
+    }
+
+    /**
+     * get panel icon size
+     *
+     * @returns {void}
+     */
+    panelIconGetSize()
+    {
+        if (this._panelIconSize !== undefined) {
+            return this._panelIconSize;
+        }
+
+        return this._panel.PANEL_ICON_SIZE;
     }
 }
 
