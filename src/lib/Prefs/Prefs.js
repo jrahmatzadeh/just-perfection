@@ -294,7 +294,7 @@ var Prefs = class
         if (this._shellVersion < 40) {
             img = this._gtk.Image.new_from_file(introImgPath);
             img.visible = true;
-            img.set_size_request(500, 460);
+            img.set_size_request(570, 364);
             imageBox.add(img);
         } else {
             img = this._gtk.Picture.new_for_filename(introImgPath);
