@@ -6,6 +6,8 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+## [19.0.0 Ancher] - 2022-03-02
+
 ### Fixed
 
 - Blurry search entry on GNOME Shell themes with box-shadow.
