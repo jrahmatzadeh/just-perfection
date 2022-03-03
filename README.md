@@ -64,7 +64,7 @@ This extension allows you to do the following:
 | 3.36                | July 2025      |
 | 3.38                | July 2025      |
 | 40                  | December 2021  |
-| 41                  | TBA            |
+| 41                  | May 2022       |
 | 42                  | TBA            |
 
 ## Install
