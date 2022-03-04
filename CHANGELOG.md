@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Added
+
+- Dutch translation by [@Vistaus](https://gitlab.gnome.org/Vistaus).
+
 ## [19.0.0 Ancher] - 2022-03-02
 
 ### Fixed
