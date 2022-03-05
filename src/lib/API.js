@@ -402,11 +402,11 @@ var API = class
             this._timeoutIds['emitPanelPositionChanged']
             = this._glib.timeout_add(this._glib.PRIORITY_IDLE, duration, () => {
                 delete(this._timeoutIds['emitPanelPositionChanged']);
-                panelBox.hide();
+                this._main.panel.height++;
                 this._timeoutIds['emitPanelPositionChangedIn2']
                 = this._glib.timeout_add(this._glib.PRIORITY_IDLE, 20, () => {
+                    this._main.panel.height--;
                     delete(this._timeoutIds['emitPanelPositionChangedIn2']);
-                    panelBox.show();
                     return this._glib.SOURCE_REMOVE;
                 });
                 return this._glib.SOURCE_REMOVE;

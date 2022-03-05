@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Fixed
+
+- Flickering panel after Unlock.
+
 ### Added
 
 - Dutch translation by [@Vistaus](https://gitlab.gnome.org/Vistaus).
