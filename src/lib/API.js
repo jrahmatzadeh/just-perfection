@@ -174,7 +174,7 @@ var API = class
      */
     _getSignalId(widget, signalName)
     {
-        return this._gbject.signal_handler_find(widget, { signalId: signalName });
+        return this._gobject.signal_handler_find(widget, { signalId: signalName });
     }
 
     /**
@@ -1982,7 +1982,7 @@ var API = class
         // since removing '_windowDemandsAttentionId' doesn't have any effect
         // we remove the original signal and re-connect it on disable
         let signalId
-        = (this._shellVersion < 42)
+        = (this._shellVersion < 43)
         ? this._main.windowAttentionHandler._windowDemandsAttentionId
         : this._getSignalId(global.display, 'window-demands-attention');
 
@@ -2220,7 +2220,7 @@ var API = class
         messageTray._hideNotification = function (animate) {
             this._notificationFocusGrabber.ungrabFocus();
 
-            if (SHELL_VERSION >= 42) {
+            if (SHELL_VERSION >= 43) {
                 this._banner.disconnectObject(this);
             } else {
                 if (this._bannerClickedId) {
@@ -2669,25 +2669,7 @@ var API = class
             return;
         }
 
-        let [ok, signalId, detail] = this._gobject.signal_parse_name(
-            'overlay-key',
-            global.display,
-            true
-        );
-
-        if (!ok) {
-            return;
-        }
-
-        this._overlayKeyOldSignalId = this._gobject.signal_handler_find(
-            global.display,
-            this._gobject.SignalMatchType.ID,
-            signalId,
-            detail,
-            null,
-            null,
-            null
-        );
+        this._overlayKeyOldSignalId = this._getSignalId(global.display, 'overlay-key');
 
         if (!this._overlayKeyOldSignalId) {
             return;
