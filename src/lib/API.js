@@ -165,6 +165,19 @@ var API = class
     }
 
     /**
+     * get signal id of the event
+     *
+     * @param {Gtk.Widget} widget to find signal in
+     * @param {string} signalName signal name
+     *
+     * @returns {number}
+     */
+    _getSignalId(widget, signalName)
+    {
+        return this._gbject.signal_handler_find(widget, { signalId: signalName });
+    }
+
+    /**
      * get the css classname for API
      *
      * @param {string} type possible types
@@ -1968,8 +1981,12 @@ var API = class
 
         // since removing '_windowDemandsAttentionId' doesn't have any effect
         // we remove the original signal and re-connect it on disable
-        display.disconnect(
-            this._main.windowAttentionHandler._windowDemandsAttentionId);
+        let signalId
+        = (this._shellVersion < 42)
+        ? this._main.windowAttentionHandler._windowDemandsAttentionId
+        : this._getSignalId(global.display, 'window-demands-attention');
+
+        display.disconnect(signalId);
     }
 
     /**
