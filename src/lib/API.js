@@ -2215,17 +2215,22 @@ var API = class
         const State = this._messageTray.State;
         const ANIMATION_TIME = this._messageTray.ANIMATION_TIME;
         const Clutter = this._clutter;
+        const SHELL_VERSION = this._shellVersion;
 
         messageTray._hideNotification = function (animate) {
             this._notificationFocusGrabber.ungrabFocus();
 
-            if (this._bannerClickedId) {
-                this._banner.disconnect(this._bannerClickedId);
-                this._bannerClickedId = 0;
-            }
-            if (this._bannerUnfocusedId) {
-                this._banner.disconnect(this._bannerUnfocusedId);
-                this._bannerUnfocusedId = 0;
+            if (SHELL_VERSION >= 42) {
+                this._banner.disconnectObject(this);
+            } else {
+                if (this._bannerClickedId) {
+                    this._banner.disconnect(this._bannerClickedId);
+                    this._bannerClickedId = 0;
+                }
+                if (this._bannerUnfocusedId) {
+                    this._banner.disconnect(this._bannerUnfocusedId);
+                    this._bannerUnfocusedId = 0;
+                }
             }
 
             this._resetNotificationLeftTimeout();

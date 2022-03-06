@@ -9,6 +9,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Fixed
 
 - Flickering panel after Unlock.
+- Notification banner position on GNOME Shell 42.
 - Window demands attention focus on GNOME Shell 42.
 
 ### Added
