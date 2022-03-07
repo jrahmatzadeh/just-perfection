@@ -9,6 +9,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Fixed
 
 - Flickering panel after Unlock.
+- French translation by [@GeoffreyCoulaud](https://gitlab.gnome.org/GeoffreyCoulaud).
 
 ### Added
 
