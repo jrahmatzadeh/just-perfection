@@ -1982,7 +1982,7 @@ var API = class
         // since removing '_windowDemandsAttentionId' doesn't have any effect
         // we remove the original signal and re-connect it on disable
         let signalId
-        = (this._shellVersion < 43)
+        = (this._shellVersion < 42)
         ? this._main.windowAttentionHandler._windowDemandsAttentionId
         : this._getSignalId(global.display, 'window-demands-attention');
 
@@ -2220,7 +2220,7 @@ var API = class
         messageTray._hideNotification = function (animate) {
             this._notificationFocusGrabber.ungrabFocus();
 
-            if (SHELL_VERSION >= 43) {
+            if (SHELL_VERSION >= 42) {
                 this._banner.disconnectObject(this);
             } else {
                 if (this._bannerClickedId) {
