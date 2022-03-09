@@ -969,6 +969,8 @@ var API = class
             }
             this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype._show
             = this._originals['workspaceSwitcherPopupShow'];
+
+            return;
         }
 
         if (!this._originals['workspaceSwitcherPopupDisplay']) {
@@ -994,6 +996,8 @@ var API = class
             this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype._show = () => {
                return false;
             };
+
+            return;
         }
 
         if (!this._originals['workspaceSwitcherPopupDisplay']) {
