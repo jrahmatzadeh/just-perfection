@@ -121,7 +121,7 @@ var Prefs = class
          this._onlyShowSupportedRows();
          this._registerAllSignals(window);
 
-         window.set_size_request(this._windowWidthAwd, this._windowHeightAdw);
+         window.set_default_size(this._windowWidthAwd, this._windowHeightAdw);
          window.search_enabled = true;
      }
 
