@@ -724,7 +724,9 @@
 .just-perfection-api-no-weather .weather-button,
 .just-perfection-api-no-weather .weather-button *,
 .just-perfection-api-no-world-clocks .world-clocks-button,
-.just-perfection-api-no-world-clocks .world-clocks-button *
+.just-perfection-api-no-world-clocks .world-clocks-button *,
+.just-perfection-api-no-events-button .events-button,
+.just-perfection-api-no-events-button .events-button *
 {
     padding: 0;
     margin: 0;
@@ -793,6 +795,4 @@
 .just-perfection-api-panel-icon-size58 .system-status-icon, .just-perfection-api-panel-icon-size58 .panel-button StIcon { icon-size: 58px; }
 .just-perfection-api-panel-icon-size59 .system-status-icon, .just-perfection-api-panel-icon-size59 .panel-button StIcon { icon-size: 59px; }
 .just-perfection-api-panel-icon-size60 .system-status-icon, .just-perfection-api-panel-icon-size60 .panel-button StIcon { icon-size: 60px; }
-
-
 

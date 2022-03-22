@@ -208,6 +208,7 @@ var API = class
      *  no-weather
      *  no-world-clocks
      *  panel-icon-size
+     *  no-events-button
      *
      * @returns {string}
      */
@@ -243,6 +244,7 @@ var API = class
             'no-weather',
             'no-world-clocks',
             'panel-icon-size',
+            'no-events-button',
         ];
 
         if (!possibleTypes.includes(type)) {
@@ -2798,6 +2800,26 @@ var API = class
     worldClocksHide()
     {
         this.UIStyleClassAdd(this._getAPIClassname('no-world-clocks'));
+    }
+
+    /**
+     * show events button in date menu
+     *
+     * @returns {void}
+     */
+    eventsButtonShow()
+    {
+        this.UIStyleClassRemove(this._getAPIClassname('no-events-button'));
+    }
+
+    /**
+     * hide events button in date menu
+     *
+     * @returns {void}
+     */
+    eventsButtonHide()
+    {
+        this.UIStyleClassAdd(this._getAPIClassname('no-events-button'));
     }
 
     /**
