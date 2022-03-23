@@ -234,6 +234,10 @@ var Manager = class
             this._applyWeather(false);
         });
 
+        this._settings.connect('changed::events-button', () => {
+            this._applyEventsButton(false);
+        });
+
         this._settings.connect('changed::panel-icon-size', () => {
             this._applyPanelIconSize(false);
         });
@@ -293,6 +297,7 @@ var Manager = class
         this._applyWorldClock(false);
         this._applyWeather(false);
         this._applyPanelIconSize(false);
+        this._applyEventsButton(false);
     }
 
     /**
@@ -349,6 +354,7 @@ var Manager = class
         this._applyWorldClock(true);
         this._applyWeather(true);
         this._applyPanelIconSize(true);
+        this._applyEventsButton(true);
     }
 
     /**
@@ -1172,6 +1178,24 @@ var Manager = class
             this._api.weatherShow();
         } else {
             this._api.weatherHide();
+        }
+    }
+
+    /**
+     * apply events button settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyEventsButton(forceOriginal)
+    {
+        let status = this._settings.get_boolean('events-button');
+
+        if (forceOriginal || status) {
+            this._api.eventsButtonShow();
+        } else {
+            this._api.eventsButtonHide();
         }
     }
 

@@ -24,6 +24,7 @@ This extension allows you to do the following:
 | Dash Visibility                                      | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Disable Type to Search                               | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Double Super Key to App Grid                         | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Events in Clock Menu Visibility                      | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | GNOME Shell Theme Override                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Hot Corner                                           | :black_circle: | :black_circle: | :black_circle: | :white_circle: | :white_circle: |
 | Keyboard Layout Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
