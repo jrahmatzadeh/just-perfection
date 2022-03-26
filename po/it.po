@@ -2,20 +2,22 @@
 # Copyright (C) 2020
 # This file is distributed under GPL v3
 # Just Perfection <justperfection.channel@gmail.com>, 2020.
+# Andrea Brandi <git@andreabrandi.com>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 07:23-0800\n"
-"PO-Revision-Date: 2020-12-18 04:52-0800\n"
-"Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
-"Language-Team: Italian\n"
+"PO-Revision-Date: 2022-03-25 20:52+0100\n"
+"Last-Translator: Andrea Brandi <git@andreabrandi.com>\n"
+"Language-Team: Italian <git@andreabrandi.com>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Gtranslator 40.0\n"
 
 #: src/ui/behavior.ui:19 src/ui/adw/behavior.ui:6 src/ui/adw/behavior.ui:11
 msgid "Behavior"
@@ -23,15 +25,15 @@ msgstr "Comportamento"
 
 #: src/ui/behavior.ui:70 src/ui/adw/behavior.ui:15
 msgid "Hot Corner"
-msgstr "Angolo caldo"
+msgstr "Angolo attivo"
 
 #: src/ui/behavior.ui:119 src/ui/adw/behavior.ui:27
 msgid "App Gesture"
-msgstr "Gesto dell'applicazione"
+msgstr "Movimento con le dita"
 
 #: src/ui/behavior.ui:174 src/ui/adw/behavior.ui:40
 msgid "Workspace Wraparound"
-msgstr "Avvolgimento dell'area di lavoro"
+msgstr "Aree di lavoro collegate"
 
 #: src/ui/behavior.ui:185 src/ui/adw/behavior.ui:41
 msgid ""
@@ -39,18 +41,17 @@ msgid ""
 "workspace. and previous workspace will be the last workspace when you are in "
 "the first workspace."
 msgstr ""
-"L'area di lavoro successiva sarà la prima area di lavoro quando ti trovi "
-"nell'ultima area di lavoro. e l'area di lavoro precedente sarà l'ultima area "
-"di lavoro quando ti trovi nella prima area di lavoro."
+"Quando ci si trova nell'ultima area di lavoro, l'area successiva sarà la "
+"prima. Quando ci si trova nella prima area di lavoro, l'area precedente sarà "
+"l'ultima."
 
 #: src/ui/behavior.ui:251 src/ui/adw/behavior.ui:53
 msgid "Window Demands Attention Focus"
-msgstr "La finestra richiede attenzione al centro"
+msgstr "La finestra richiede attenzione"
 
 #: src/ui/behavior.ui:262 src/ui/adw/behavior.ui:54
 msgid "Removes window is ready notification and focus on the window"
-msgstr ""
-"Rimuove la notifica della finestra è pronta e si concentra sulla finestra"
+msgstr "Rimuove la notifica della finestra pronta e la rende subito attiva"
 
 #: src/ui/behavior.ui:328 src/ui/adw/behavior.ui:66
 msgid "Type to Search"
@@ -60,29 +61,30 @@ msgstr "Digita per cercare"
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
-"Puoi iniziare la ricerca senza voce di ricerca o concentrarti su di essa in "
-"panoramica"
+"Nella panoramica, effettua la ricerca senza selezionare il riquadro della "
+"ricerca."
 
 #: src/ui/behavior.ui:405 src/ui/adw/behavior.ui:79
 msgid "Always Show Workspace Switcher"
-msgstr "Mostra sempre il commutatore dell'area di lavoro"
+msgstr "Mostra sempre il selettore dell'area di lavoro"
 
 #: src/ui/behavior.ui:416 src/ui/adw/behavior.ui:80
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
 msgstr ""
-"Mostra lo switcher dell'area di lavoro anche quando viene utilizzata una "
+"Mostra il selettore dell'area di lavoro anche quando viene utilizzata una "
 "sola area di lavoro con aree di lavoro dinamiche"
 
 #: src/ui/behavior.ui:482 src/ui/adw/behavior.ui:92
 msgid "Double Super to App Grid"
-msgstr "Doppio tasto Super per App Grid"
+msgstr "Doppio tasto Super per griglia applicazioni"
 
 #: src/ui/behavior.ui:493 src/ui/adw/behavior.ui:93
 msgid "Shows app grid when you double hit super key fast"
 msgstr ""
-"Mostra la griglia dell'app quando premi due volte velocemente il tasto super"
+"Mostra griglia delle applicazioni premendo due volte consecutive il tasto "
+"Super"
 
 #: src/ui/behavior.ui:559 src/ui/adw/behavior.ui:105
 msgid "Startup Status"
@@ -102,16 +104,16 @@ msgstr "Panoramica"
 
 #: src/ui/customize.ui:19 src/ui/adw/customize.ui:6 src/ui/adw/customize.ui:11
 msgid "Customize"
-msgstr "personalizzare"
+msgstr "Personalizza"
 
 #: src/ui/customize.ui:75 src/ui/adw/customize.ui:15
 msgid "Workspace Background Corner Size"
-msgstr "Dimensione dell'angolo dello sfondo dell'area di lavoro"
+msgstr "Angolo arrotondato dello sfondo dell'area di lavoro"
 
 #: src/ui/customize.ui:86 src/ui/adw/customize.ui:16
 msgid "Workspace background corner size in overview"
 msgstr ""
-"Panoramica delle dimensioni dell'angolo dello sfondo dell'area di lavoro"
+"Dimensione dell'angolo dell'area di lavoro nella panoramica delle attività"
 
 #: src/ui/customize.ui:109 src/ui/customize.ui:222 src/ui/customize.ui:334
 #: src/ui/customize.ui:446 src/ui/customize.ui:559 src/ui/customize.ui:672
@@ -123,23 +125,23 @@ msgstr "Predefinito"
 
 #: src/ui/customize.ui:210 src/ui/adw/customize.ui:23
 msgid "Panel Size"
-msgstr "Dimensioni del pannello"
+msgstr "Dimensione del pannello"
 
 #: src/ui/customize.ui:322 src/ui/adw/customize.ui:30
 msgid "Panel Icon Size"
-msgstr "Dimensione icona pannello"
+msgstr "Dimensione icone del pannello"
 
 #: src/ui/customize.ui:434 src/ui/adw/customize.ui:37
 msgid "Panel Button Padding Size"
-msgstr "Dimensione dell'imbottitura dei pulsanti del pannello"
+msgstr "Spaziatura tra i pulsanti del pannello"
 
 #: src/ui/customize.ui:547 src/ui/adw/customize.ui:44
 msgid "Panel Indicator Padding Size"
-msgstr "Dimensione dell'imbottitura dell'indicatore del pannello"
+msgstr "Spaziatura tra gli indicatori del pannello"
 
 #: src/ui/customize.ui:660 src/ui/adw/customize.ui:51
 msgid "Panel Corner Size"
-msgstr "Dimensione dell'angolo del pannello"
+msgstr "Dimensione angoli del pannello"
 
 #: src/ui/customize.ui:673 src/ui/adw/customize.ui:448
 msgid "No Corner"
@@ -175,11 +177,11 @@ msgstr "Sinistra"
 
 #: src/ui/customize.ui:880 src/ui/adw/customize.ui:72
 msgid "Clock Menu Position Offset"
-msgstr "Offset posizione menu dell'orologio"
+msgstr "Spostamento posizione del menu dell'orologio"
 
 #: src/ui/customize.ui:941 src/ui/adw/customize.ui:79
 msgid "Workspace Switcher Size"
-msgstr "Dimensioni dello switcher dell'area di lavoro"
+msgstr "Dimensione selettore dell'area di lavoro"
 
 #: src/ui/customize.ui:953 src/ui/customize.ui:1094 src/ui/profile.ui:57
 #: src/ui/adw/customize.ui:544 src/ui/adw/customize.ui:593
@@ -225,21 +227,21 @@ msgstr "Molto lenta"
 
 #: src/ui/customize.ui:1082 src/ui/adw/customize.ui:93
 msgid "Dash Icon Size"
-msgstr "dimensione dell'icona del trattino"
+msgstr "Dimensione barra delle applicazioni"
 
 #: src/ui/customize.ui:1143 src/ui/adw/customize.ui:100
 msgid "Notification Banner Position"
-msgstr "Posizione banner di notifica Notification"
+msgstr "Posizione banner delle notifiche"
 
 #: src/ui/customize.ui:1154 src/ui/adw/customize.ui:101
 msgid "Notification popup position when notifications show up on the screen"
 msgstr ""
-"Posizione popup di notifica quando le notifiche vengono visualizzate sullo "
-"schermo"
+"Posizione del popup di notifica quando le notifiche vengono visualizzate "
+"sullo schermo"
 
 #: src/ui/customize.ui:1177 src/ui/adw/customize.ui:602
 msgid "Top Start"
-msgstr "Inizio in alto"
+msgstr "In alto a sinistra"
 
 #: src/ui/customize.ui:1178 src/ui/adw/customize.ui:603
 msgid "Top Center"
@@ -247,11 +249,11 @@ msgstr "In alto al centro"
 
 #: src/ui/customize.ui:1179 src/ui/adw/customize.ui:604
 msgid "Top End"
-msgstr "Fine superiore"
+msgstr "In alto a destra"
 
 #: src/ui/customize.ui:1180 src/ui/adw/customize.ui:605
 msgid "Bottom Start"
-msgstr "Inizio in basso"
+msgstr "In basso a sinistra"
 
 #: src/ui/customize.ui:1181 src/ui/adw/customize.ui:606
 msgid "Bottom Center"
@@ -259,11 +261,11 @@ msgstr "In basso al centro"
 
 #: src/ui/customize.ui:1182 src/ui/adw/customize.ui:607
 msgid "Bottom End"
-msgstr "Estremità inferiore"
+msgstr "In basso a destra"
 
 #: src/ui/icons.ui:19 src/ui/adw/icons.ui:6 src/ui/adw/icons.ui:11
 msgid "Icons"
-msgstr "icone"
+msgstr "Icone"
 
 #: src/ui/icons.ui:70 src/ui/adw/icons.ui:15
 msgid "App Menu Icon"
@@ -279,7 +281,7 @@ msgstr "Icona di alimentazione"
 
 #: src/ui/icons.ui:217 src/ui/adw/icons.ui:51
 msgid "Panel Arrow"
-msgstr "freccia del pannello"
+msgstr "Freccia del pannello"
 
 #: src/ui/icons.ui:272 src/ui/adw/icons.ui:63
 msgid "Window Picker Icon"
@@ -287,7 +289,7 @@ msgstr "Icona di selezione della finestra"
 
 #: src/ui/icons.ui:283 src/ui/adw/icons.ui:64 src/ui/adw/icons.ui:77
 msgid "The icon under window preview in overview"
-msgstr "L'icona sotto l'anteprima della finestra nella panoramica"
+msgstr "Mostra l'icona sotto l'anteprima della finestra nella panoramica"
 
 #: src/ui/icons.ui:343 src/ui/adw/icons.ui:76
 msgid "Activities Button Icon"
@@ -304,23 +306,23 @@ msgstr "Icona del pulsante attività con etichetta"
 #: src/ui/icons.ui:508 src/ui/adw/icons.ui:154
 msgid "Only works when you have selected an icon for activities button"
 msgstr ""
-"Funziona solo quando hai selezionato un'icona per il pulsante delle attività"
+"Funziona solo quando è stata selezionata un'icona per il pulsante attività"
 
 #: src/ui/main.ui:10 src/ui/adw/profile.ui:166 src/ui/adw/profile.ui:170
 msgid "Preferences Intro"
-msgstr "Preferenze Introduzione"
+msgstr "Mostra Introduzione"
 
 #: src/ui/main.ui:16 src/ui/adw/profile.ui:189
 msgid "Bug Report"
-msgstr "Riportare un errore"
+msgstr "Segnala un errore"
 
 #: src/ui/main.ui:20 src/ui/adw/profile.ui:201
 msgid "Support via Patreon"
-msgstr "Supporto tramite Patreon"
+msgstr "Supporta su Patreon"
 
 #: src/ui/main.ui:84 src/ui/adw/profile.ui:17
 msgid "Select File"
-msgstr "Seleziona il file"
+msgstr "Seleziona file"
 
 #: src/ui/no-results-found.ui:25
 msgid "No Matches"
@@ -328,7 +330,7 @@ msgstr "Nessun risultato trovato"
 
 #: src/ui/override.ui:19 src/ui/adw/profile.ui:146
 msgid "Override"
-msgstr "Oltrepassare"
+msgstr "Sostituzione"
 
 #: src/ui/override.ui:78 src/ui/adw/profile.ui:150
 msgid "Shell Theme"
@@ -347,16 +349,15 @@ msgid ""
 "You can choose between pre-defined profiles or you can simply use your own "
 "customized settings"
 msgstr ""
-"Puoi scegliere tra profili predefiniti o puoi semplicemente utilizzare le "
-"tue impostazioni personalizzate"
+"Scegliere uno dei profili predefiniti o utilizzare un profilo personalizzato"
 
 #: src/ui/profile.ui:67 src/ui/adw/profile.ui:73
 msgid "Custom"
-msgstr "Costume"
+msgstr "Personalizzato"
 
 #: src/ui/profile.ui:77 src/ui/adw/profile.ui:83
 msgid "Minimal"
-msgstr "Minimo"
+msgstr "Minimale"
 
 #: src/ui/profile.ui:87 src/ui/adw/profile.ui:93
 msgid "Super Minimal"
@@ -373,16 +374,15 @@ msgstr "Pannello"
 
 #: src/ui/visibility.ui:120 src/ui/adw/visibility.ui:27
 msgid "Panel in Overview"
-msgstr "Pannello in Panoramica"
+msgstr "Pannello nella Panoramica"
 
 #: src/ui/visibility.ui:176 src/ui/adw/visibility.ui:40
 msgid "Activities Button"
-msgstr "Pulsante attività"
+msgstr "Pulsante Attività"
 
 #: src/ui/visibility.ui:187 src/ui/adw/visibility.ui:41
 msgid "Button in panel to toggle overview visibility"
-msgstr ""
-"Pulsante nel pannello per attivare/disattivare la visibilità della panoramica"
+msgstr "Attiva/disattiva il pulsante Attività"
 
 #: src/ui/visibility.ui:253 src/ui/adw/visibility.ui:53
 msgid "App Menu"
@@ -391,7 +391,8 @@ msgstr "Menu dell'applicazione"
 #: src/ui/visibility.ui:264 src/ui/adw/visibility.ui:54
 msgid "The menu button in panel with focused window text"
 msgstr ""
-"Il pulsante del menu nel pannello con il testo della finestra focalizzato"
+"Pulsante sul pannello per aprire il menu dell'applicazione quando la "
+"finestra è attiva"
 
 #: src/ui/visibility.ui:330 src/ui/adw/visibility.ui:66
 msgid "Clock Menu"
@@ -399,23 +400,23 @@ msgstr "Menu dell'orologio"
 
 #: src/ui/visibility.ui:341 src/ui/adw/visibility.ui:67
 msgid "Also known as date menu shows date and time in panel"
-msgstr "Conosciuto anche come menu data, mostra la data e l'ora nel pannello"
+msgstr "Mostra la data e l'ora sul pannello"
 
 #: src/ui/visibility.ui:407 src/ui/adw/visibility.ui:79
 msgid "Keyboard Layout"
-msgstr "Layout della tastiera"
+msgstr "Disposizione tastiera"
 
 #: src/ui/visibility.ui:418 src/ui/adw/visibility.ui:80
 msgid "Keyboard Layout indicator button in panel"
-msgstr "Pulsante indicatore del layout della tastiera nel pannello"
+msgstr "Indicatore che mostra disposizione dei tasti sulla tastiera"
 
 #: src/ui/visibility.ui:484 src/ui/adw/visibility.ui:92
 msgid "Accessibility Menu"
-msgstr "Menu di accessibilità"
+msgstr "Menu accessibilità"
 
 #: src/ui/visibility.ui:495 src/ui/adw/visibility.ui:93
 msgid "Accessibility Menu indicator button in panel"
-msgstr "Pulsante indicatore del menu Accessibilità nel pannello"
+msgstr "Indicatore del menu accessibilità sul pannello"
 
 #: src/ui/visibility.ui:561 src/ui/adw/visibility.ui:105
 msgid "System Menu (Aggregate Menu)"
@@ -429,15 +430,15 @@ msgstr ""
 
 #: src/ui/visibility.ui:638 src/ui/adw/visibility.ui:118
 msgid "World Clock"
-msgstr "Orologio mondiale"
+msgstr "Orologi mondiali"
 
 #: src/ui/visibility.ui:649 src/ui/adw/visibility.ui:119
 msgid "World clock in clock menu"
-msgstr "Orologio mondiale nel menu dell'orologio"
+msgstr "Orologi mondiali nel menu dell'orologio"
 
 #: src/ui/visibility.ui:715 src/ui/adw/visibility.ui:131
 msgid "Weather"
-msgstr "Tempo metereologico"
+msgstr "Meteo"
 
 #: src/ui/visibility.ui:726 src/ui/adw/visibility.ui:132
 msgid "Weather in clock menu"
@@ -449,77 +450,76 @@ msgstr "Ricerca"
 
 #: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
 msgid "Search entry in overview"
-msgstr "Voce di ricerca nella panoramica"
+msgstr "Barra di ricerca nella panoramica"
 
 #: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
 msgid "Dash"
-msgstr "Dash"
+msgstr "Barra delle applicazioni"
 
 #: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
 msgid "Dash holds favorite and opened applications icons"
-msgstr "Dash contiene le icone delle applicazioni preferite e aperte"
+msgstr ""
+"Contiene le icone delle applicazioni preferite e delle applicazioni aperte"
 
 #: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
 msgid "Show Applications Button"
-msgstr "Mostra pulsante Applicazioni"
+msgstr "Pulsante mostra applicazioni"
 
 #: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
 msgid "Button in dash that toggles applications list visibility"
-msgstr ""
-"Pulsante nel trattino che alterna la visibilità dell'elenco delle "
-"applicazioni"
+msgstr "Pulsante sulla barra per aprire la griglia delle applicazioni"
 
 #: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
 msgid "On Screen Display (OSD)"
-msgstr "OSD"
+msgstr "Visualizzazione su schermo (OSD)"
 
 #: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
 msgid "Volume and brightness on screen display when the change happens"
-msgstr "Volume e luminosità sullo schermo quando si verifica la modifica"
+msgstr "Notifica volume e luminosità sullo schermo quando vengono modificati"
 
 #: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
 msgid "Workspace Popup"
-msgstr "Pop up dell'area di lavoro"
+msgstr "Notifica quando si cambia l'area di lavoro"
 
 #: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
 msgid "Popup that appears on the screen when you change the workspace"
-msgstr "Popup che appare sullo schermo quando cambi l'area di lavoro"
+msgstr "Popup che appare sullo schermo quando si cambia l'area di lavoro"
 
 #: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
 msgid "Workspace Switcher"
-msgstr "Switcher area di lavoro"
+msgstr "Selettore dell'area di lavoro"
 
 #: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
-msgstr ""
-"Si riferisce anche alle miniature dell'area di lavoro che vedi nella "
-"panoramica per la selezione di un'area di lavoro"
+msgstr "Miniature delle aree di lavoro nella panoramica delle attività"
 
 #: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
 msgid "Workspaces App Grid"
-msgstr "Griglia dell'app delle aree di lavoro"
+msgstr "Selettore dell'area di lavoro nella griglia delle applicazioni"
 
 #: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
 msgid "Workspace boxes in app grid"
-msgstr "Caselle dell'area di lavoro nella griglia dell'app"
+msgstr "Miniature delle aree di lavoro nella griglia delle applicazioni"
 
 #: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
 msgid "Window Picker Close Button"
-msgstr "Pulsante Chiudi selettore finestra"
+msgstr "Pulsante per chiudere le finestre nella panoramica"
 
 #: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
 msgid "The close button on window preview in overview"
-msgstr "Il pulsante di chiusura nell'anteprima della finestra nella panoramica"
+msgstr "Pulsante per chiudere le finestre nella panoramica delle attività"
 
 #: src/ui/visibility.ui:1408 src/ui/adw/visibility.ui:248
 msgid "Window Picker Caption"
-msgstr "Didascalia selezione finestra"
+msgstr "Descrizione delle finestre nella panoramica"
 
 #: src/ui/visibility.ui:1419 src/ui/adw/visibility.ui:249
 msgid "The text under window preview in overview"
-msgstr "Il testo sotto l'anteprima della finestra in panoramica"
+msgstr ""
+"Testo mostrato sotto l'anteprima durante la selezione della finestra nella "
+"panoramica"
 
 #: src/ui/visibility.ui:1485 src/ui/adw/visibility.ui:261
 msgid "Background Menu"
@@ -528,15 +528,15 @@ msgstr "Menu dello sfondo"
 #: src/ui/visibility.ui:1496 src/ui/adw/visibility.ui:262
 msgid "When you right click on desktop background"
 msgstr ""
-"Quando fai clic con il pulsante destro del mouse sullo sfondo del desktop"
+"Menu attivabile facendo clic con il tasto destro sull'immagine di sfondo"
 
 #: src/ui/visibility.ui:1562 src/ui/adw/visibility.ui:274
 msgid "Ripple Box"
-msgstr "Scatola ondulata"
+msgstr "Animazione ondulata"
 
 #: src/ui/visibility.ui:1573 src/ui/adw/visibility.ui:275
 msgid "Hot corner animation effects"
-msgstr "Effetti di animazione dell'angolo caldo"
+msgstr "Animazione dell'angolo attivo"
 
 #: src/ui/adw/profile.ui:185
 msgid "Links"
