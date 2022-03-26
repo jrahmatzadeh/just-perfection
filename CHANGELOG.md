@@ -13,6 +13,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Notification banner position on GNOME Shell 42.
 - Window demands attention focus on GNOME Shell 42.
 - French translation by [@GeoffreyCoulaud](https://gitlab.gnome.org/GeoffreyCoulaud).
+- Italian translation by [@svityboy](https://gitlab.gnome.org/svityboy).
 
 ### Added
 
