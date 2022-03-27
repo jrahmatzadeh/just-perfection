@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-28 07:23-0800\n"
+"POT-Creation-Date: 2022-03-27 00:46-0700\n"
 "PO-Revision-Date: 2021-04-15 06:33+0800\n"
 "Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
 "Language-Team: Chinese - China <i18n-zh@googlegroups.com>\n"
@@ -429,92 +429,100 @@ msgid "Weather in clock menu"
 msgstr "时钟菜单中的天气"
 
 #: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
+msgid "Events"
+msgstr "活动"
+
+#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+msgid "Events button in clock menu"
+msgstr "时钟菜单中的事件按钮"
+
+#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
 msgid "Search"
 msgstr "搜索"
 
-#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
 msgid "Search entry in overview"
 msgstr "概览中的搜索条目"
 
-#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
+#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
 msgid "Dash"
 msgstr "Dash"
 
-#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
+#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
 msgid "Dash holds favorite and opened applications icons"
 msgstr "Dash 包含最喜欢和打开的应用程序图标"
 
-#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
+#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
 msgid "Show Applications Button"
 msgstr "显示应用程序按钮"
 
-#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
+#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
 msgid "Button in dash that toggles applications list visibility"
 msgstr "短划线中用于切换应用程序列表可见性的按钮"
 
-#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
+#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
 msgid "On Screen Display (OSD)"
 msgstr "屏幕显示（OSD）"
 
-#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
+#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "发生变化时屏幕显示的音量和亮度"
 
-#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
+#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
 msgid "Workspace Popup"
 msgstr "工作区弹窗"
 
-#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
+#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr "更改工作区时出现在屏幕上的弹出窗口"
 
-#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
+#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
 msgid "Workspace Switcher"
 msgstr "工作区切换器"
 
-#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
+#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
 msgstr "也指您在概览中看到的用于选择工作区的工作区缩略图"
 
-#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
+#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
 msgid "Workspaces App Grid"
 msgstr "工作区应用程序网格"
 
-#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
+#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
 msgid "Workspace boxes in app grid"
 msgstr "应用程序网格中的工作区框"
 
-#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
+#: src/ui/visibility.ui:1408 src/ui/adw/visibility.ui:248
 msgid "Window Picker Close Button"
 msgstr "窗口选择器关闭按钮"
 
-#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
+#: src/ui/visibility.ui:1419 src/ui/adw/visibility.ui:249
 msgid "The close button on window preview in overview"
 msgstr "概览中窗口预览的关闭按钮"
 
-#: src/ui/visibility.ui:1408 src/ui/adw/visibility.ui:248
+#: src/ui/visibility.ui:1485 src/ui/adw/visibility.ui:261
 msgid "Window Picker Caption"
 msgstr "窗口选择器标题"
 
-#: src/ui/visibility.ui:1419 src/ui/adw/visibility.ui:249
+#: src/ui/visibility.ui:1496 src/ui/adw/visibility.ui:262
 msgid "The text under window preview in overview"
 msgstr "概览中窗口预览下的文本"
 
-#: src/ui/visibility.ui:1485 src/ui/adw/visibility.ui:261
+#: src/ui/visibility.ui:1562 src/ui/adw/visibility.ui:274
 msgid "Background Menu"
 msgstr "后台菜单"
 
-#: src/ui/visibility.ui:1496 src/ui/adw/visibility.ui:262
+#: src/ui/visibility.ui:1573 src/ui/adw/visibility.ui:275
 msgid "When you right click on desktop background"
 msgstr "当您右键单击桌面背景时"
 
-#: src/ui/visibility.ui:1562 src/ui/adw/visibility.ui:274
+#: src/ui/visibility.ui:1639 src/ui/adw/visibility.ui:287
 msgid "Ripple Box"
 msgstr "波纹盒"
 
-#: src/ui/visibility.ui:1573 src/ui/adw/visibility.ui:275
+#: src/ui/visibility.ui:1650 src/ui/adw/visibility.ui:288
 msgid "Hot corner animation effects"
 msgstr "热角动画效果"
 

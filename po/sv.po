@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-28 07:23-0800\n"
+"POT-Creation-Date: 2022-03-27 00:46-0700\n"
 "PO-Revision-Date: 2021-04-13 22:01+0200\n"
 "Last-Translator: Morgan Antonsson <morgan.antonsson@gmail.com>\n"
 "Language-Team: Swedish\n"
@@ -433,50 +433,58 @@ msgid "Weather in clock menu"
 msgstr "Väder i klockmeny"
 
 #: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
+msgid "Events"
+msgstr "evenemang"
+
+#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+msgid "Events button in clock menu"
+msgstr "Händelseknapp i klockmenyn"
+
+#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
 msgid "Search"
 msgstr "Sökruta"
 
-#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
 msgid "Search entry in overview"
 msgstr "Sökpost i översikt"
 
-#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
+#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
 msgid "Dash"
 msgstr "Snabbstartspanel"
 
-#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
+#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
 msgid "Dash holds favorite and opened applications icons"
 msgstr "Dash har favorit- och öppnade applikationsikoner"
 
-#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
+#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
 msgid "Show Applications Button"
 msgstr "Knapp för att visa programöversiktsvyn"
 
-#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
+#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
 msgid "Button in dash that toggles applications list visibility"
 msgstr "Knapp i streck som växlar mellan applikationslistans synlighet"
 
-#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
+#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
 msgid "On Screen Display (OSD)"
 msgstr "Skärmöverlagring (OSD)"
 
-#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
+#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "Volym och ljusstyrka på skärmen när ändringen sker"
 
-#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
+#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
 msgid "Workspace Popup"
 msgstr "Arbetsyteväxlar-popup"
 
-#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
+#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr "Pop-up som visas på skärmen när du ändrar arbetsytan"
 
-#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
+#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
 msgid "Workspace Switcher"
 msgstr "Arbetsyteväxlare"
 
-#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
+#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
@@ -484,43 +492,43 @@ msgstr ""
 "Hänvisar också till arbetsytans miniatyrer som du ser i översikten för att "
 "välja en arbetsyta"
 
-#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
+#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
 msgid "Workspaces App Grid"
 msgstr "Arbetsytor App Grid"
 
-#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
+#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
 msgid "Workspace boxes in app grid"
 msgstr "Arbetsytor i app-rutnät"
 
-#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
+#: src/ui/visibility.ui:1408 src/ui/adw/visibility.ui:248
 msgid "Window Picker Close Button"
 msgstr "Fönsterväljare Stäng -knapp"
 
-#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
+#: src/ui/visibility.ui:1419 src/ui/adw/visibility.ui:249
 msgid "The close button on window preview in overview"
 msgstr "Stängknappen på fönsters förhandsvisning i översikt"
 
-#: src/ui/visibility.ui:1408 src/ui/adw/visibility.ui:248
+#: src/ui/visibility.ui:1485 src/ui/adw/visibility.ui:261
 msgid "Window Picker Caption"
 msgstr "Fönsterväljare Bildtext"
 
-#: src/ui/visibility.ui:1419 src/ui/adw/visibility.ui:249
+#: src/ui/visibility.ui:1496 src/ui/adw/visibility.ui:262
 msgid "The text under window preview in overview"
 msgstr "Texten under fönsters förhandsvisning i översikt"
 
-#: src/ui/visibility.ui:1485 src/ui/adw/visibility.ui:261
+#: src/ui/visibility.ui:1562 src/ui/adw/visibility.ui:274
 msgid "Background Menu"
 msgstr "Bakgrundsmeny"
 
-#: src/ui/visibility.ui:1496 src/ui/adw/visibility.ui:262
+#: src/ui/visibility.ui:1573 src/ui/adw/visibility.ui:275
 msgid "When you right click on desktop background"
 msgstr "När du högerklickar på skrivbordsbakgrund"
 
-#: src/ui/visibility.ui:1562 src/ui/adw/visibility.ui:274
+#: src/ui/visibility.ui:1639 src/ui/adw/visibility.ui:287
 msgid "Ripple Box"
 msgstr "Rippelbox"
 
-#: src/ui/visibility.ui:1573 src/ui/adw/visibility.ui:275
+#: src/ui/visibility.ui:1650 src/ui/adw/visibility.ui:288
 msgid "Hot corner animation effects"
 msgstr "Heta hörn animationseffekter"
 

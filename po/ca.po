@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-28 07:23-0800\n"
+"POT-Creation-Date: 2022-03-27 00:46-0700\n"
 "PO-Revision-Date: 2021-03-16 19:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: Catalan \n"
@@ -442,51 +442,59 @@ msgid "Weather in clock menu"
 msgstr "El temps al menú del rellotge"
 
 #: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
+msgid "Events"
+msgstr "Esdeveniments"
+
+#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+msgid "Events button in clock menu"
+msgstr "Botó d'esdeveniments al menú del rellotge"
+
+#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
 msgid "Search"
 msgstr "Cerca"
 
-#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
 msgid "Search entry in overview"
 msgstr "Cerqueu l'entrada a la vista general"
 
-#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
+#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
 msgid "Dash"
 msgstr "Dash"
 
-#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
+#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
 msgid "Dash holds favorite and opened applications icons"
 msgstr "Dash conté les icones d'aplicacions favorites i obertes"
 
-#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
+#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
 msgid "Show Applications Button"
 msgstr "Botó Mostra les aplicacions"
 
-#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
+#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
 msgid "Button in dash that toggles applications list visibility"
 msgstr "Botó de guió que commuta la visibilitat de la llista d'aplicacions"
 
-#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
+#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
 msgid "On Screen Display (OSD)"
 msgstr "Visualització en pantalla (OSD)"
 
-#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
+#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "Volum i brillantor a la pantalla quan es produeix el canvi"
 
-#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
+#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
 msgid "Workspace Popup"
 msgstr "Finestra emergent de l'espai de treball"
 
-#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
+#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr ""
 "Finestra emergent que apareix a la pantalla quan canvieu l'espai de treball"
 
-#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
+#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
 msgid "Workspace Switcher"
 msgstr "Commutador dels espais de treball"
 
-#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
+#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
@@ -494,44 +502,44 @@ msgstr ""
 "També fa referència a les miniatures de l’espai de treball que veieu a la "
 "vista general per seleccionar un espai de treball"
 
-#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
+#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
 msgid "Workspaces App Grid"
 msgstr "Àrea de treball App Grid"
 
-#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
+#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
 msgid "Workspace boxes in app grid"
 msgstr "Quadres d'espai de treball a la quadrícula de l'aplicació"
 
-#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
+#: src/ui/visibility.ui:1408 src/ui/adw/visibility.ui:248
 msgid "Window Picker Close Button"
 msgstr "Botó de tancament del selector de finestres"
 
-#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
+#: src/ui/visibility.ui:1419 src/ui/adw/visibility.ui:249
 msgid "The close button on window preview in overview"
 msgstr ""
 "El botó de tancament de la vista prèvia de la finestra a la vista general"
 
-#: src/ui/visibility.ui:1408 src/ui/adw/visibility.ui:248
+#: src/ui/visibility.ui:1485 src/ui/adw/visibility.ui:261
 msgid "Window Picker Caption"
 msgstr "Subtítol del selector de finestres"
 
-#: src/ui/visibility.ui:1419 src/ui/adw/visibility.ui:249
+#: src/ui/visibility.ui:1496 src/ui/adw/visibility.ui:262
 msgid "The text under window preview in overview"
 msgstr "El text a la vista prèvia de la finestra a la vista general"
 
-#: src/ui/visibility.ui:1485 src/ui/adw/visibility.ui:261
+#: src/ui/visibility.ui:1562 src/ui/adw/visibility.ui:274
 msgid "Background Menu"
 msgstr "Menú del fons de pantalla"
 
-#: src/ui/visibility.ui:1496 src/ui/adw/visibility.ui:262
+#: src/ui/visibility.ui:1573 src/ui/adw/visibility.ui:275
 msgid "When you right click on desktop background"
 msgstr "Quan feu clic dret sobre el fons de l'escriptori"
 
-#: src/ui/visibility.ui:1562 src/ui/adw/visibility.ui:274
+#: src/ui/visibility.ui:1639 src/ui/adw/visibility.ui:287
 msgid "Ripple Box"
 msgstr "Ripple Box"
 
-#: src/ui/visibility.ui:1573 src/ui/adw/visibility.ui:275
+#: src/ui/visibility.ui:1650 src/ui/adw/visibility.ui:288
 msgid "Hot corner animation effects"
 msgstr "Efectes d'animació de hot corner"
 
