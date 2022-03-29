@@ -2823,6 +2823,26 @@ var API = class
     }
 
     /**
+     * show calendar in date menu
+     *
+     * @returns {void}
+     */
+    calendarShow()
+    {
+        this._main.panel.statusArea.dateMenu._calendar.show();
+    }
+
+    /**
+     * hide calendar in date menu
+     *
+     * @returns {void}
+     */
+    calendarHide()
+    {
+        this._main.panel.statusArea.dateMenu._calendar.hide();
+    }
+
+    /**
      * set default panel icon size
      *
      * @returns {void}
