@@ -138,6 +138,19 @@
             </child>
           </object>
         </child>
+        
+        <child>
+          <object class="AdwActionRow" id="calendar_row">
+            <property name="title" translatable="yes">Calendar</property>
+            <property name="subtitle" translatable="yes">Calendar in clock menu</property>
+            <property name="activatable-widget">calendar_switch</property>
+            <child>
+              <object class="GtkSwitch" id="calendar_switch">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
 
         <child>
           <object class="AdwActionRow" id="events_button_row">

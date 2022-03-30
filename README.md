@@ -18,6 +18,7 @@ This extension allows you to do the following:
 | App Menu Icon Visibility                             | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | App Menu Visibility                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Background Menu Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Calendar Visibility                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Clock Menu Position                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Clock Menu Visibility                                | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Dash Icon Size                                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |

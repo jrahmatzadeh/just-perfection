@@ -234,6 +234,10 @@ var Manager = class
             this._applyWeather(false);
         });
 
+        this._settings.connect('changed::calendar', () => {
+            this._applyCalendar(false);
+        });
+
         this._settings.connect('changed::events-button', () => {
             this._applyEventsButton(false);
         });
@@ -298,6 +302,7 @@ var Manager = class
         this._applyWeather(false);
         this._applyPanelIconSize(false);
         this._applyEventsButton(false);
+        this._applyCalendar(false);
     }
 
     /**
@@ -355,6 +360,7 @@ var Manager = class
         this._applyWeather(true);
         this._applyPanelIconSize(true);
         this._applyEventsButton(true);
+        this._applyCalendar(true);
     }
 
     /**
@@ -1178,6 +1184,24 @@ var Manager = class
             this._api.weatherShow();
         } else {
             this._api.weatherHide();
+        }
+    }
+
+    /**
+     * apply calendar settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyCalendar(forceOriginal)
+    {
+        let status = this._settings.get_boolean('calendar');
+
+        if (forceOriginal || status) {
+            this._api.calendarShow();
+        } else {
+            this._api.calendarHide();
         }
     }
 
