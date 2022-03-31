@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-27 00:46-0700\n"
+"POT-Creation-Date: 2022-03-31 13:45-0700\n"
 "PO-Revision-Date: 2022-03-25 20:52+0100\n"
 "Last-Translator: Andrea Brandi <git@andreabrandi.com>\n"
 "Language-Team: Italian <git@andreabrandi.com>\n"
@@ -445,104 +445,112 @@ msgid "Weather in clock menu"
 msgstr "Meteo nel menu dell'orologio"
 
 #: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
+msgid "Calendar"
+msgstr "Calendario"
+
+#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+msgid "Calendar in clock menu"
+msgstr "Calendario nel menu dell'orologio"
+
+#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
 msgid "Events"
 msgstr "Eventi"
 
-#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
 msgid "Events button in clock menu"
 msgstr "Pulsante Eventi nel menu dell'orologio"
 
-#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
+#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
 msgid "Search"
 msgstr "Ricerca"
 
-#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
+#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
 msgid "Search entry in overview"
 msgstr "Barra di ricerca nella panoramica"
 
-#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
+#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
 msgid "Dash"
 msgstr "Barra delle applicazioni"
 
-#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
+#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
 msgid "Dash holds favorite and opened applications icons"
 msgstr ""
 "Contiene le icone delle applicazioni preferite e delle applicazioni aperte"
 
-#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
+#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
 msgid "Show Applications Button"
 msgstr "Pulsante mostra applicazioni"
 
-#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
+#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
 msgid "Button in dash that toggles applications list visibility"
 msgstr "Pulsante sulla barra per aprire la griglia delle applicazioni"
 
-#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
+#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
 msgid "On Screen Display (OSD)"
 msgstr "Visualizzazione su schermo (OSD)"
 
-#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
+#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "Notifica volume e luminosità sullo schermo quando vengono modificati"
 
-#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
+#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
 msgid "Workspace Popup"
 msgstr "Notifica quando si cambia l'area di lavoro"
 
-#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
+#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr "Popup che appare sullo schermo quando si cambia l'area di lavoro"
 
-#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
+#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
 msgid "Workspace Switcher"
 msgstr "Selettore dell'area di lavoro"
 
-#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
+#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
 msgstr "Miniature delle aree di lavoro nella panoramica delle attività"
 
-#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
+#: src/ui/visibility.ui:1408 src/ui/adw/visibility.ui:248
 msgid "Workspaces App Grid"
 msgstr "Selettore dell'area di lavoro nella griglia delle applicazioni"
 
-#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
+#: src/ui/visibility.ui:1419 src/ui/adw/visibility.ui:249
 msgid "Workspace boxes in app grid"
 msgstr "Miniature delle aree di lavoro nella griglia delle applicazioni"
 
-#: src/ui/visibility.ui:1408 src/ui/adw/visibility.ui:248
+#: src/ui/visibility.ui:1485 src/ui/adw/visibility.ui:261
 msgid "Window Picker Close Button"
 msgstr "Pulsante per chiudere le finestre nella panoramica"
 
-#: src/ui/visibility.ui:1419 src/ui/adw/visibility.ui:249
+#: src/ui/visibility.ui:1496 src/ui/adw/visibility.ui:262
 msgid "The close button on window preview in overview"
 msgstr "Pulsante per chiudere le finestre nella panoramica delle attività"
 
-#: src/ui/visibility.ui:1485 src/ui/adw/visibility.ui:261
+#: src/ui/visibility.ui:1562 src/ui/adw/visibility.ui:274
 msgid "Window Picker Caption"
 msgstr "Descrizione delle finestre nella panoramica"
 
-#: src/ui/visibility.ui:1496 src/ui/adw/visibility.ui:262
+#: src/ui/visibility.ui:1573 src/ui/adw/visibility.ui:275
 msgid "The text under window preview in overview"
 msgstr ""
 "Testo mostrato sotto l'anteprima durante la selezione della finestra nella "
 "panoramica"
 
-#: src/ui/visibility.ui:1562 src/ui/adw/visibility.ui:274
+#: src/ui/visibility.ui:1639 src/ui/adw/visibility.ui:287
 msgid "Background Menu"
 msgstr "Menu dello sfondo"
 
-#: src/ui/visibility.ui:1573 src/ui/adw/visibility.ui:275
+#: src/ui/visibility.ui:1650 src/ui/adw/visibility.ui:288
 msgid "When you right click on desktop background"
 msgstr ""
 "Menu attivabile facendo clic con il tasto destro sull'immagine di sfondo"
 
-#: src/ui/visibility.ui:1639 src/ui/adw/visibility.ui:287
+#: src/ui/visibility.ui:1716 src/ui/adw/visibility.ui:300
 msgid "Ripple Box"
 msgstr "Animazione ondulata"
 
-#: src/ui/visibility.ui:1650 src/ui/adw/visibility.ui:288
+#: src/ui/visibility.ui:1727 src/ui/adw/visibility.ui:301
 msgid "Hot corner animation effects"
 msgstr "Animazione dell'angolo attivo"
 

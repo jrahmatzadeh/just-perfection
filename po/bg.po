@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-27 00:46-0700\n"
+"POT-Creation-Date: 2022-03-31 13:45-0700\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -438,60 +438,68 @@ msgid "Weather in clock menu"
 msgstr "Времето в менюто на часовника"
 
 #: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
+msgid "Calendar"
+msgstr "Календар"
+
+#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+msgid "Calendar in clock menu"
+msgstr "Календар в менюто на часовника"
+
+#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
 msgid "Events"
 msgstr "Събития"
 
-#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
 msgid "Events button in clock menu"
 msgstr "Бутон за събития в менюто на часовника"
 
-#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
+#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
 msgid "Search"
 msgstr "Търсене"
 
-#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
+#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
 msgid "Search entry in overview"
 msgstr "Търсене на запис в общ преглед"
 
-#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
+#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
 msgid "Dash"
 msgstr "Тире"
 
-#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
+#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
 msgid "Dash holds favorite and opened applications icons"
 msgstr "Dash съдържа икони на любими и отворени приложения"
 
-#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
+#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
 msgid "Show Applications Button"
 msgstr "Бутон за показване на приложения"
 
-#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
+#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
 msgid "Button in dash that toggles applications list visibility"
 msgstr "Бутон в тире, който превключва видимостта на списъка с приложения"
 
-#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
+#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
+#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "Сила на звука и яркост на дисплея на екрана, когато се случи промяната"
 
-#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
+#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
 msgid "Workspace Popup"
 msgstr "Изскачащо работно пространство"
 
-#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
+#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr ""
 "Изскачащ прозорец, който се появява на екрана, когато промените работното "
 "пространство"
 
-#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
+#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
 msgid "Workspace Switcher"
 msgstr "Превключвател на работното пространство"
 
-#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
+#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
@@ -499,43 +507,43 @@ msgstr ""
 "Също така се отнася до миниатюри на работното пространство, които виждате в "
 "преглед за избор на работно пространство"
 
-#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
+#: src/ui/visibility.ui:1408 src/ui/adw/visibility.ui:248
 msgid "Workspaces App Grid"
 msgstr "Решетка за приложения на работни пространства"
 
-#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
+#: src/ui/visibility.ui:1419 src/ui/adw/visibility.ui:249
 msgid "Workspace boxes in app grid"
 msgstr "Кутии за работно пространство в мрежата на приложенията"
 
-#: src/ui/visibility.ui:1408 src/ui/adw/visibility.ui:248
+#: src/ui/visibility.ui:1485 src/ui/adw/visibility.ui:261
 msgid "Window Picker Close Button"
 msgstr "Бутон за затваряне на прозореца за избор"
 
-#: src/ui/visibility.ui:1419 src/ui/adw/visibility.ui:249
+#: src/ui/visibility.ui:1496 src/ui/adw/visibility.ui:262
 msgid "The close button on window preview in overview"
 msgstr "Бутонът за затваряне в прегледа на прозореца в преглед"
 
-#: src/ui/visibility.ui:1485 src/ui/adw/visibility.ui:261
+#: src/ui/visibility.ui:1562 src/ui/adw/visibility.ui:274
 msgid "Window Picker Caption"
 msgstr "Надпис за избор на прозорец"
 
-#: src/ui/visibility.ui:1496 src/ui/adw/visibility.ui:262
+#: src/ui/visibility.ui:1573 src/ui/adw/visibility.ui:275
 msgid "The text under window preview in overview"
 msgstr "Текстът под визуализация на прозореца в преглед"
 
-#: src/ui/visibility.ui:1562 src/ui/adw/visibility.ui:274
+#: src/ui/visibility.ui:1639 src/ui/adw/visibility.ui:287
 msgid "Background Menu"
 msgstr "Меню на фона"
 
-#: src/ui/visibility.ui:1573 src/ui/adw/visibility.ui:275
+#: src/ui/visibility.ui:1650 src/ui/adw/visibility.ui:288
 msgid "When you right click on desktop background"
 msgstr "Когато щракнете с десния бутон върху фона на работния плот"
 
-#: src/ui/visibility.ui:1639 src/ui/adw/visibility.ui:287
+#: src/ui/visibility.ui:1716 src/ui/adw/visibility.ui:300
 msgid "Ripple Box"
 msgstr "Кутия за пулсации"
 
-#: src/ui/visibility.ui:1650 src/ui/adw/visibility.ui:288
+#: src/ui/visibility.ui:1727 src/ui/adw/visibility.ui:301
 msgid "Hot corner animation effects"
 msgstr "Горещи ъгли анимационни ефекти"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-27 00:46-0700\n"
+"POT-Creation-Date: 2022-03-31 13:45-0700\n"
 "PO-Revision-Date: 2020-12-18 04:55-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: German\n"
@@ -442,63 +442,71 @@ msgid "Weather in clock menu"
 msgstr "Wetter im Uhrmenü"
 
 #: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
+msgid "Calendar"
+msgstr "Kalender"
+
+#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+msgid "Calendar in clock menu"
+msgstr "Kalender im Uhrmenü"
+
+#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
 msgid "Events"
 msgstr "Veranstaltungen"
 
-#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
 msgid "Events button in clock menu"
 msgstr "Schaltfläche „Ereignisse“ im Menü „Uhr“."
 
-#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
+#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
 msgid "Search"
 msgstr "Suche"
 
-#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
+#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
 msgid "Search entry in overview"
 msgstr "Sucheintrag in der Übersicht"
 
-#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
+#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
 msgid "Dash"
 msgstr "Dash"
 
-#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
+#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
 msgid "Dash holds favorite and opened applications icons"
 msgstr "Dash enthält Symbole für bevorzugte und geöffnete Anwendungen"
 
-#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
+#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
 msgid "Show Applications Button"
 msgstr "Schaltfläche Anwendungen anzeigen"
 
-#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
+#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
 msgid "Button in dash that toggles applications list visibility"
 msgstr ""
 "Schaltfläche im Bindestrich, die die Sichtbarkeit der Anwendungsliste "
 "umschaltet"
 
-#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
+#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
+#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
 msgid "Volume and brightness on screen display when the change happens"
 msgstr ""
 "Lautstärke und Helligkeit auf dem Bildschirm, wenn die Änderung erfolgt"
 
-#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
+#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
 msgid "Workspace Popup"
 msgstr "Arbeitsflächen-Popup"
 
-#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
+#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr ""
 "Popup, das auf dem Bildschirm angezeigt wird, wenn Sie den Arbeitsbereich "
 "ändern"
 
-#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
+#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
 msgid "Workspace Switcher"
 msgstr "Arbeitsflächenumschalter"
 
-#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
+#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
@@ -506,43 +514,43 @@ msgstr ""
 "Bezieht sich auch auf Arbeitsbereich-Miniaturansichten, die Sie in der "
 "Übersicht sehen, um einen Arbeitsbereich auszuwählen"
 
-#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
+#: src/ui/visibility.ui:1408 src/ui/adw/visibility.ui:248
 msgid "Workspaces App Grid"
 msgstr "Arbeitsbereiche-App-Raster"
 
-#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
+#: src/ui/visibility.ui:1419 src/ui/adw/visibility.ui:249
 msgid "Workspace boxes in app grid"
 msgstr "Arbeitsbereichsfelder im App-Raster"
 
-#: src/ui/visibility.ui:1408 src/ui/adw/visibility.ui:248
+#: src/ui/visibility.ui:1485 src/ui/adw/visibility.ui:261
 msgid "Window Picker Close Button"
 msgstr "Schaltfläche zum Schließen der Fensterauswahl"
 
-#: src/ui/visibility.ui:1419 src/ui/adw/visibility.ui:249
+#: src/ui/visibility.ui:1496 src/ui/adw/visibility.ui:262
 msgid "The close button on window preview in overview"
 msgstr "Der Schließen-Button in der Fenstervorschau in der Übersicht"
 
-#: src/ui/visibility.ui:1485 src/ui/adw/visibility.ui:261
+#: src/ui/visibility.ui:1562 src/ui/adw/visibility.ui:274
 msgid "Window Picker Caption"
 msgstr "Fensterauswahl-Beschriftung"
 
-#: src/ui/visibility.ui:1496 src/ui/adw/visibility.ui:262
+#: src/ui/visibility.ui:1573 src/ui/adw/visibility.ui:275
 msgid "The text under window preview in overview"
 msgstr "Der Text unter Fenstervorschau im Überblick"
 
-#: src/ui/visibility.ui:1562 src/ui/adw/visibility.ui:274
+#: src/ui/visibility.ui:1639 src/ui/adw/visibility.ui:287
 msgid "Background Menu"
 msgstr "Hintergrundmenü"
 
-#: src/ui/visibility.ui:1573 src/ui/adw/visibility.ui:275
+#: src/ui/visibility.ui:1650 src/ui/adw/visibility.ui:288
 msgid "When you right click on desktop background"
 msgstr "Wenn Sie mit der rechten Maustaste auf den Desktop-Hintergrund klicken"
 
-#: src/ui/visibility.ui:1639 src/ui/adw/visibility.ui:287
+#: src/ui/visibility.ui:1716 src/ui/adw/visibility.ui:300
 msgid "Ripple Box"
 msgstr "Ripple-Box"
 
-#: src/ui/visibility.ui:1650 src/ui/adw/visibility.ui:288
+#: src/ui/visibility.ui:1727 src/ui/adw/visibility.ui:301
 msgid "Hot corner animation effects"
 msgstr "Animationseffekte für heiße Ecken"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-27 00:46-0700\n"
+"POT-Creation-Date: 2022-03-31 13:45-0700\n"
 "PO-Revision-Date: 2021-11-22 20:15+0100\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <Proxecto Trasno <proxecto@trasno.gal>>\n"
@@ -443,65 +443,73 @@ msgid "Weather in clock menu"
 msgstr "Tempo no menú do reloxo"
 
 #: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
+msgid "Calendar"
+msgstr "Calendario"
+
+#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+msgid "Calendar in clock menu"
+msgstr "Calendario no menú do reloxo"
+
+#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
 msgid "Events"
 msgstr "Eventos"
 
-#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
 msgid "Events button in clock menu"
 msgstr "Botón de eventos no menú do reloxo"
 
-#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
+#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
 msgid "Search"
 msgstr "Caixa de busca"
 
-#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
+#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
 msgid "Search entry in overview"
 msgstr "Indica se mostrar a caixa de busca na vista xeral"
 
-#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
+#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
 msgid "Dash"
 msgstr "Dash"
 
-#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
+#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
 msgid "Dash holds favorite and opened applications icons"
 msgstr ""
 "Indica se mostrar o Dash que contén as iconas de aplicacións favoritas e "
 "abertas"
 
-#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
+#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
 msgid "Show Applications Button"
 msgstr "Botón de Aplicacións"
 
-#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
+#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
 msgid "Button in dash that toggles applications list visibility"
 msgstr ""
 "Indica se mostrar o botón no Dash que troca a visibilidade da lista de "
 "aplicacións"
 
-#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
+#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
 msgid "On Screen Display (OSD)"
 msgstr "Visualización en pantalla (OSD)"
 
-#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
+#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
 msgid "Volume and brightness on screen display when the change happens"
 msgstr ""
 "Indica se mostrar o indicador de  volume e brillo en pantalla cando se cambia"
 
-#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
+#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
 msgid "Workspace Popup"
 msgstr "Indicador do espazo de traballo"
 
-#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
+#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr ""
 "Indica se mostrar a xanela emerxente que aparece na pantalla cando cambia o "
 "espazo de traballo"
 
-#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
+#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
 msgid "Workspace Switcher"
 msgstr "Trocador do espazo de traballo"
 
-#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
+#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
@@ -509,45 +517,45 @@ msgstr ""
 "Tamén se refire ás miniaturas do espazo de traballo que pode ver na vista "
 "xeral para seleccionar un espazo de traballo"
 
-#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
+#: src/ui/visibility.ui:1408 src/ui/adw/visibility.ui:248
 msgid "Workspaces App Grid"
 msgstr "Grella de aplicacións dos espazo de traballo"
 
-#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
+#: src/ui/visibility.ui:1419 src/ui/adw/visibility.ui:249
 msgid "Workspace boxes in app grid"
 msgstr "Caixas de espazo de traballo na grella de aplicacións"
 
-#: src/ui/visibility.ui:1408 src/ui/adw/visibility.ui:248
+#: src/ui/visibility.ui:1485 src/ui/adw/visibility.ui:261
 msgid "Window Picker Close Button"
 msgstr "Botón de peche no selector de xanelas"
 
-#: src/ui/visibility.ui:1419 src/ui/adw/visibility.ui:249
+#: src/ui/visibility.ui:1496 src/ui/adw/visibility.ui:262
 msgid "The close button on window preview in overview"
 msgstr "Indica se mostrar o botón de peche de xanela na vista xeral"
 
-#: src/ui/visibility.ui:1485 src/ui/adw/visibility.ui:261
+#: src/ui/visibility.ui:1562 src/ui/adw/visibility.ui:274
 msgid "Window Picker Caption"
 msgstr "Lenda do selector de xanelas"
 
-#: src/ui/visibility.ui:1496 src/ui/adw/visibility.ui:262
+#: src/ui/visibility.ui:1573 src/ui/adw/visibility.ui:275
 msgid "The text under window preview in overview"
 msgstr ""
 "Indica se mostrar o texto debaixo da vista previa da xanela na vista xeral"
 
-#: src/ui/visibility.ui:1562 src/ui/adw/visibility.ui:274
+#: src/ui/visibility.ui:1639 src/ui/adw/visibility.ui:287
 msgid "Background Menu"
 msgstr "Menú de fondo de pantalla"
 
-#: src/ui/visibility.ui:1573 src/ui/adw/visibility.ui:275
+#: src/ui/visibility.ui:1650 src/ui/adw/visibility.ui:288
 msgid "When you right click on desktop background"
 msgstr ""
 "Indica se mostrar o menú cando fas clic dereito sobre o fondo do escritorio"
 
-#: src/ui/visibility.ui:1639 src/ui/adw/visibility.ui:287
+#: src/ui/visibility.ui:1716 src/ui/adw/visibility.ui:300
 msgid "Ripple Box"
 msgstr "Efecto de ondulación na esquina activa"
 
-#: src/ui/visibility.ui:1650 src/ui/adw/visibility.ui:288
+#: src/ui/visibility.ui:1727 src/ui/adw/visibility.ui:301
 msgid "Hot corner animation effects"
 msgstr "Indica se mostrar un efecto de ondulación na esquina activa"
 
