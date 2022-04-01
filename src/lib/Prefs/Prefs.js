@@ -53,15 +53,15 @@ var Prefs = class
          * @member {number}
          */
         this._windowWidth = 500;
-        this._windowHeight = 830;
+        this._windowHeight = 880;
 
         /**
          * initial window size for adw
          *
          * @member {number}
          */
-         this._windowWidthAdw = 600;
-         this._windowHeightAdw = 610;
+         this._windowWidthAdw = 550;
+         this._windowHeightAdw = 920;
 
         /**
          * holds all profile names
@@ -294,7 +294,7 @@ var Prefs = class
         if (this._shellVersion < 40) {
             img = this._gtk.Image.new_from_file(introImgPath);
             img.visible = true;
-            img.set_size_request(570, 364);
+            img.set_size_request(530, 680);
             imageBox.add(img);
         } else {
             img = this._gtk.Picture.new_for_filename(introImgPath);
