@@ -121,7 +121,8 @@ var Prefs = class
          this._onlyShowSupportedRows();
          this._registerAllSignals(window);
 
-         window.set_size_request(this._windowWidthAwd, this._windowHeightAdw);
+         this._setWindowSize(window);
+
          window.search_enabled = true;
      }
 
@@ -188,18 +189,7 @@ var Prefs = class
 
             let window = (this._shellVersion < 40) ? obj.get_toplevel() : obj.get_root();
 
-            // default window size
-            let [pmWidth, pmHeight] = this._getPrimaryMonitorSize();
-            let sizeTolerance = 50;
-            if (pmWidth - sizeTolerance >= this._windowWidth &&
-                pmHeight - sizeTolerance >= this._windowHeight)
-            {
-                window.default_width = this._windowWidth;
-                window.set_size_request(this._windowWidth, this._windowHeight);
-                if (this._shellVersion < 40) {
-                    window.resize(this._windowWidth, this._windowHeight);
-                }
-            }
+            this._setWindowSize(window);
 
             // csd
             let headerBar = this._builder.get_object('header_bar');
@@ -215,6 +205,31 @@ var Prefs = class
         });
 
         return obj;
+    }
+
+    /**
+     * set window size
+     *
+     * @param {Gtk.Window|Adw.PreferencesWindow} window prefs window
+     *
+     * @returns {void}
+     */
+    _setWindowSize(window)
+    {
+        let [pmWidth, pmHeight] = this._getPrimaryMonitorSize();
+        let sizeTolerance = 50;
+        let width = (this._shellVersion >= 42) ? this._windowWidthAdw : this._windowWidth;
+        let height = (this._shellVersion >= 42) ? this._windowHeightAdw : this._windowHeight;
+
+        if (pmWidth - sizeTolerance >= width && pmHeight - sizeTolerance >= height) {
+            if (this._shellVersion < 42) {
+                window.default_width = width;
+            }
+            window.set_size_request(width, height);
+            if (this._shellVersion < 40) {
+                window.resize(width, height);
+            }
+        }
     }
 
     /**
