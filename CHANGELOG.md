@@ -6,6 +6,8 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+## [20.0.0 Hayez] - 2022-04-01
+
 ### Fixed
 
 - Dynamic workspaces getting disabled by workspace popup.
