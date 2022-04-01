@@ -8,6 +8,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ### Fixed
 
+- Prefs window size for scaled displays.
 - Prefs window size for small displays in GNOME Shell 42.
 
 ## [20.0.0 Hayez] - 2022-04-01

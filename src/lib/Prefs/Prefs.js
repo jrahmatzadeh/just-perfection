@@ -216,12 +216,15 @@ var Prefs = class
      */
     _setWindowSize(window)
     {
-        let [pmWidth, pmHeight] = this._getPrimaryMonitorSize();
+        let [pmWidth, pmHeight, pmScale] = this._getPrimaryMonitorInfo();
         let sizeTolerance = 50;
         let width = (this._shellVersion >= 42) ? this._windowWidthAdw : this._windowWidth;
         let height = (this._shellVersion >= 42) ? this._windowHeightAdw : this._windowHeight;
 
-        if (pmWidth - sizeTolerance >= width && pmHeight - sizeTolerance >= height) {
+        if (
+            (pmWidth/pmScale) - sizeTolerance >= width &&
+            (pmHeight/pmScale) - sizeTolerance >= height
+        ) {
             if (this._shellVersion < 42) {
                 window.default_width = width;
             }
@@ -259,11 +262,11 @@ var Prefs = class
     }
 
     /**
-     * get primary monitor size
+     * get primary monitor info
      *
-     * @returns {Array} [width, height]
+     * @returns {Array} [width, height, scale]
      */
-    _getPrimaryMonitorSize()
+    _getPrimaryMonitorInfo()
     {
         let display = this._gdk.Display.get_default();
 
@@ -273,12 +276,13 @@ var Prefs = class
         : display.get_monitors().get_item(0);
 
         if (!pm) {
-            return [800, 600];
+            return [700, 500, 1];
         }
 
         let geo = pm.get_geometry();
+        let scale = pm.get_scale_factor();
 
-        return [geo.width, geo.height];
+        return [geo.width, geo.height, scale];
     }
 
     /**
