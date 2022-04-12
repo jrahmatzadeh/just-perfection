@@ -37,6 +37,14 @@ var Prefs = class
 
         this._prefsKeys = prefsKeys;
         this._shellVersion = shellVersion;
+        this._gtkVersion = (this._gtk) ? this._gtk.get_major_version() : 3;
+        
+        /**
+         * whether it is called for adwaita window 
+         *
+         * @member {boolean}
+         */
+        this._isAdw = false;
 
         /**
          * holds Gtk.DropDown items that are
@@ -96,6 +104,8 @@ var Prefs = class
      */
      fillPrefsWindow(window, UIFolderPath, binFolderPath, gettextDomain)
      {
+        this._isAdw = true;
+        
          // changing the order here can change the elements order in ui 
          let uiFilenames = [
              'profile',
@@ -137,6 +147,8 @@ var Prefs = class
      */
     getMainPrefs(UIFolderPath, binFolderPath, gettextDomain)
     {
+        this._isAdw = false;
+
         // changing the order here can change the elements order in ui 
         let uiFilenames = [
             'main',
@@ -169,7 +181,7 @@ var Prefs = class
             }
             let elementId = uiFilename.replace(/-/g, '_');
             let elm = this._builder.get_object(elementId);
-            if (this._shellVersion < 40) {
+            if (this._gtkVersion === 3) {
                 prefsBox.add(elm);
             } else {
                 prefsBox.append(elm);
@@ -187,7 +199,7 @@ var Prefs = class
 
         obj.connect('realize', () => {
 
-            let window = (this._shellVersion < 40) ? obj.get_toplevel() : obj.get_root();
+            let window = (this._gtkVersion === 3) ? obj.get_toplevel() : obj.get_root();
 
             this._setWindowSize(window);
 
@@ -195,7 +207,7 @@ var Prefs = class
             let headerBar = this._builder.get_object('header_bar');
             let csdMenu = this._builder.get_object('csd_menu');
             window.set_titlebar(headerBar);
-            if (this._shellVersion < 40) {
+            if (this._gtkVersion === 3) {
                 headerBar.set_title('Just Perfection');
                 headerBar.set_show_close_button(true);
             }
@@ -218,18 +230,18 @@ var Prefs = class
     {
         let [pmWidth, pmHeight, pmScale] = this._getPrimaryMonitorInfo();
         let sizeTolerance = 50;
-        let width = (this._shellVersion >= 42) ? this._windowWidthAdw : this._windowWidth;
-        let height = (this._shellVersion >= 42) ? this._windowHeightAdw : this._windowHeight;
+        let width = (this._isAdw) ? this._windowWidthAdw : this._windowWidth;
+        let height = (this._isAdw) ? this._windowHeightAdw : this._windowHeight;
 
         if (
             (pmWidth/pmScale) - sizeTolerance >= width &&
             (pmHeight/pmScale) - sizeTolerance >= height
         ) {
-            if (this._shellVersion < 42) {
+            if (!this._isAdw) {
                 window.default_width = width;
             }
             window.set_size_request(width, height);
-            if (this._shellVersion < 40) {
+            if (this._gtkVersion === 3) {
                 window.resize(width, height);
             }
         }
@@ -242,7 +254,7 @@ var Prefs = class
      */
     _setListBoxSeparators()
     {
-        if (this._shellVersion < 40 || this._shellVersion >= 42) {
+        if (this._gtkVersion === 3 || this._isAdw) {
             return;
         }
 
@@ -271,7 +283,7 @@ var Prefs = class
         let display = this._gdk.Display.get_default();
 
         let pm
-        = (this._shellVersion < 40)
+        = (this._gtkVersion === 3)
         ? display.get_monitor(0)
         : display.get_monitors().get_item(0);
 
@@ -299,9 +311,9 @@ var Prefs = class
 
         let imgFile = this._gio.File.new_for_path(introImgPath);
         if (!imgFile.query_exists(null)) {
-            (this._shellVersion < 42) && this._builder.get_object('primary_menu').remove(0);
+            (!this._isAdw) && this._builder.get_object('primary_menu').remove(0);
             intro.visible = false;
-            if (this._shellVersion >= 42) {
+            if (this._isAdw) {
                 this._builder.get_object('prefs_group').visible = false;
             }
             return;
@@ -310,7 +322,7 @@ var Prefs = class
         let imageBox = this._builder.get_object('intro_image_box');
 
         let img;
-        if (this._shellVersion < 40) {
+        if (this._gtkVersion === 3) {
             img = this._gtk.Image.new_from_file(introImgPath);
             img.visible = true;
             img.set_size_request(530, 680);
@@ -321,7 +333,7 @@ var Prefs = class
             imageBox.append(img);
         }
 
-        if (this._shellVersion >= 42) {
+        if (this._isAdw) {
             let elm = this._builder.get_object('prefs_intro_switch');
             let show = this._settings.get_boolean('show-prefs-intro');
             elm.set_active(show);
@@ -362,7 +374,7 @@ var Prefs = class
      */
     _fixIconObjects()
     {
-        if (this._shellVersion < 40) {
+        if (this._gtkVersion === 3 || this._isAdw) {
             return;
         }
 
@@ -389,7 +401,7 @@ var Prefs = class
      */
     _convertComboBoxTextToDropDown()
     {
-        if (this._shellVersion < 40) {
+        if (this._gtkVersion === 3 || this._isAdw) {
             return;
         }
 
@@ -512,7 +524,7 @@ var Prefs = class
      */
     _registerSearchSignals(window)
     {
-        if (this._shellVersion >= 42) {
+        if (this._isAdw) {
             return;
         }
     
@@ -522,7 +534,7 @@ var Prefs = class
         });
 
         let searchBar = this._builder.get_object('searchbar');
-        if (this._shellVersion < 40) {
+        if (this._gtkVersion === 3) {
             window.connect('key-press-event', (w, e) => {
                 return searchBar.handle_event(e);
             });
@@ -570,7 +582,8 @@ var Prefs = class
              if (fileExists) {
                  let fileParent = file.get_parent();
                  fileChooser.set_current_folder(
-                     (this._shellVersion >= 40) ? fileParent : fileParent.get_path());
+                     (this._gtkVersion === 3) ? fileParent.get_path() : fileParent
+                 );
              }
  
              fileChooser.set_transient_for(window);
@@ -619,7 +632,7 @@ var Prefs = class
              }
          });
  
-         if (this._shellVersion >= 42) {
+         if (this._isAdw) {
              let prefsSwitch = this._builder.get_object('prefs_intro_switch');
              prefsSwitch.connect('state-set', (w) => {
                  this._settings.set_boolean('show-prefs-intro', w.get_active());
@@ -636,7 +649,7 @@ var Prefs = class
      */
      _registerActionSignals(window)
      {
-        if (this._shellVersion >= 42) {
+        if (this._isAdw) {
             return
         }
 
@@ -682,7 +695,7 @@ var Prefs = class
      */
     _openURI(window, uri)
     {
-        if (this._shellVersion < 40) {
+        if (this._gtkVersion === 3) {
             this._gtk.show_uri_on_window(window, uri, this._gdk.CURRENT_TIME);
             return;
         }
@@ -788,7 +801,7 @@ var Prefs = class
 
         if (fileExists) {
             let gicon = this._gio.icon_new_for_string(file.get_path());
-            if (this._shellVersion < 40) {
+            if (this._gtkVersion === 3) {
                 preview.set_from_gicon(gicon, 1);
             } else {
                 preview.set_from_gicon(gicon);
@@ -866,7 +879,7 @@ var Prefs = class
      */
      _onlyShowSupportedRows()
      {
-         if (this._shellVersion < 42) {
+         if (!this._isAdw) {
             this._search('');
             return;
          }

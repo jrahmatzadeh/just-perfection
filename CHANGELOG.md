@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Changed
+
+- Prefs compatibility layer checking to GTK and Adw instead of GNOME Shell version.
+
 ### Fixed
 
 - Prefs window size for scaled displays.
