@@ -668,6 +668,10 @@ var API = class
      */
     gestureEnable()
     {
+        if (this._shellVersion >= 40) {
+            return;
+        }
+
         global.stage.get_actions().forEach(a => {
             a.enabled = true;
         });
@@ -680,6 +684,10 @@ var API = class
      */
     gestureDisable()
     {
+        if (this._shellVersion >= 40) {
+            return;
+        }
+
         global.stage.get_actions().forEach(a => {
             a.enabled = false;
         });
