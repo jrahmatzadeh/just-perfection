@@ -6,13 +6,16 @@
  * @license    GPL-3.0-only
  */
 
-const NOTIFICATION_BANNER_POSITION = {
+const XY_POSITION = {
     TOP_START: 0,
     TOP_CENTER: 1,
     TOP_END: 2,
     BOTTOM_START: 3,
     BOTTOM_CENTER: 4,
     BOTTOM_END: 5,
+    CENTER_START: 6,
+    CENTER_CENTER: 7,
+    CENTER_END: 8,
 };
 
 const PANEL_POSITION = {
@@ -147,6 +150,55 @@ var API = class
         for (let [name, id] of Object.entries(this._timeoutIds)) {
             this._glib.source_remove(id);
             delete(this._timeoutIds[name]);
+        }
+    }
+
+    /**
+     * get x and y align for position
+     *
+     * @param int pos position
+     *   see XY_POSITION
+     *
+     * @returns {array}
+     *  - 0 Clutter.ActorAlign
+     *  - 1 Clutter.ActorAlign
+     */
+    _xyAlignGet(pos)
+    {
+        if (XY_POSITION.TOP_START === pos) {
+            return [this._clutter.ActorAlign.START, this._clutter.ActorAlign.START];
+        }
+
+        if (XY_POSITION.TOP_CENTER === pos) {
+            return [this._clutter.ActorAlign.CENTER, this._clutter.ActorAlign.START];
+        }
+
+        if (XY_POSITION.TOP_END === pos) {
+            return [this._clutter.ActorAlign.END, this._clutter.ActorAlign.START];
+        }
+
+        if (XY_POSITION.CENTER_START === pos) {
+            return [this._clutter.ActorAlign.START, this._clutter.ActorAlign.CENTER];
+        }
+
+        if (XY_POSITION.CENTER_CENTER === pos) {
+            return [this._clutter.ActorAlign.CENTER, this._clutter.ActorAlign.CENTER];
+        }
+
+        if (XY_POSITION.CENTER_END === pos) {
+            return [this._clutter.ActorAlign.END, this._clutter.ActorAlign.CENTER];
+        }
+
+        if (XY_POSITION.BOTTOM_START === pos) {
+            return [this._clutter.ActorAlign.START, this._clutter.ActorAlign.END];
+        }
+
+        if (XY_POSITION.BOTTOM_CENTER === pos) {
+            return [this._clutter.ActorAlign.CENTER, this._clutter.ActorAlign.END];
+        }
+
+        if (XY_POSITION.BOTTOM_END === pos) {
+            return [this._clutter.ActorAlign.END, this._clutter.ActorAlign.END];
         }
     }
 
@@ -2176,7 +2228,7 @@ var API = class
      * change notification banner position
      *
      * @param {number} pos
-     *   see NOTIFICATION_BANNER_POSITION for available positions
+     *   see XY_POSITION for available positions
      *
      * @returns {void}
      */
@@ -2202,17 +2254,17 @@ var API = class
 
         bannerBin.set_y_align(this._clutter.ActorAlign.START);
 
-        if (pos === NOTIFICATION_BANNER_POSITION.TOP_START) {
+        if (pos === XY_POSITION.TOP_START) {
             messageTray.bannerAlignment = this._clutter.ActorAlign.START;
             return;
         }
 
-        if (pos === NOTIFICATION_BANNER_POSITION.TOP_END) {
+        if (pos === XY_POSITION.TOP_END) {
             messageTray.bannerAlignment = this._clutter.ActorAlign.END;
             return;
         }
 
-        if (pos === NOTIFICATION_BANNER_POSITION.TOP_CENTER) {
+        if (pos === XY_POSITION.TOP_CENTER) {
             messageTray.bannerAlignment = this._clutter.ActorAlign.CENTER;
             return;
         }
@@ -2279,17 +2331,17 @@ var API = class
 
         bannerBin.set_y_align(this._clutter.ActorAlign.END);
 
-        if (pos === NOTIFICATION_BANNER_POSITION.BOTTOM_START) {
+        if (pos === XY_POSITION.BOTTOM_START) {
             messageTray.bannerAlignment = this._clutter.ActorAlign.START;
             return;
         }
 
-        if (pos === NOTIFICATION_BANNER_POSITION.BOTTOM_END) {
+        if (pos === XY_POSITION.BOTTOM_END) {
             messageTray.bannerAlignment = this._clutter.ActorAlign.END;
             return;
         }
 
-        if (pos === NOTIFICATION_BANNER_POSITION.BOTTOM_CENTER) {
+        if (pos === XY_POSITION.BOTTOM_CENTER) {
             messageTray.bannerAlignment = this._clutter.ActorAlign.CENTER;
             return;
         }
@@ -2705,69 +2757,75 @@ var API = class
      */
     osdSetDefaultPosition()
     {
-        if (!this._originals['osdWindowRelayout']) {
+        if (this._shellVersion < 42) {
+            return;
+        }
+
+        if (!this._originals['osdWindowShow']) {
             return;
         }
 
         let osdWindowProto = this._osdWindow.OsdWindow.prototype;
 
-        osdWindowProto._relayout = this._originals['osdWindowRelayout'];
+        osdWindowProto.show = this._originals['osdWindowShow'];
 
-        delete(osdWindowProto._oldRelayout);
-        delete(this._originals['osdWindowRelayout']);
-
-        let osdWindows = this._main.osdWindowManager._osdWindows;
-        osdWindows.forEach(osdWindow => {
-            osdWindow._box.translation_x = 0;
-            osdWindow._relayout();
-        });
+        delete(osdWindowProto._oldShow);
+        delete(this._originals['osdWindowShow']);
+        
+        if (
+            this._originals['osdWindowXAlign'] !== undefined && 
+            this._originals['osdWindowYAlign'] !== undefined
+        ) {
+            let osdWindows = this._main.osdWindowManager._osdWindows;
+            osdWindows.forEach(osdWindow => {
+                osdWindow.x_align = this._originals['osdWindowXAlign'];
+                osdWindow.y_align = this._originals['osdWindowYAlign'];
+            });
+            delete(this._originals['osdWindowXAlign']);
+            delete(this._originals['osdWindowYAlign']);
+        }
     }
 
     /**
      * set OSD position
      *
-     * @param int x percentage 0 - 100
-     * @param int y percentage 0 - 100
+     * @param int pos position
      *
      * @returns {void}
      */
-    osdSetPosition(x, y)
+    osdSetPosition(pos)
     {
+        if (this._shellVersion < 42) {
+            return;
+        }
+
         let osdWindowProto = this._osdWindow.OsdWindow.prototype;
 
-        if (!this._originals['osdWindowRelayout']) {
-            this._originals['osdWindowRelayout'] = osdWindowProto._relayout;
+        if (!this._originals['osdWindowShow']) {
+            this._originals['osdWindowShow'] = osdWindowProto.show;
         }
 
-        if (osdWindowProto._oldRelayout === undefined) {
-            osdWindowProto._oldRelayout = this._originals['osdWindowRelayout'];
+        if (
+            this._originals['osdWindowXAlign'] === undefined || 
+            this._originals['osdWindowYAlign'] === undefined
+        ) {
+            let osdWindows = this._main.osdWindowManager._osdWindows;
+            this._originals['osdWindowXAlign'] = osdWindows[0].x_align;
+            this._originals['osdWindowYAlign'] = osdWindows[0].y_align;
         }
 
-        const Main = this._main;
+        if (osdWindowProto._oldShow === undefined) {
+            osdWindowProto._oldShow = this._originals['osdWindowShow'];
+        }
 
-        osdWindowProto._relayout = function () {
-            this._oldRelayout();
-
-            let monitor = Main.layoutManager.monitors[this._monitorIndex];
-            if (!monitor) {
-                return;
-            }
-
-            let negativeX = (x < 50) ? -1 : 1;
-            let negativeY = (y < 50) ? -1 : 1;
-
-            // TODO we need to get actual size of OSD and then subtract to half of that
-            // so we have more accurate translation for both x and y
-            this._box.translation_x
-            = Math.round((monitor.width * x) / 100 - (monitor.width / 2)) * negativeX;
-            this._box.translation_y
-            = Math.round((monitor.height * y) / 100 - (monitor.height / 2)) * negativeY;
+        // TODO needs to calculate the spacing and margin too (.osd-window)
+        // currently it's getting too close to the sides
+        let [xAlign, yAlign] = this._xyAlignGet(pos);
+        osdWindowProto.show = function () {
+            this.x_align = xAlign;
+            this.y_align = yAlign;
+            this._oldShow();
         };
-
-        let osdWindows = this._main.osdWindowManager._osdWindows;
-        osdWindows.forEach(osdWindow => {
-            osdWindow._relayout();
-        });
     }
 
     /**
