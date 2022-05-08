@@ -261,6 +261,9 @@ var API = class
      *  no-world-clocks
      *  panel-icon-size
      *  no-events-button
+     *  osd-position-top
+     *  osd-position-bottom
+     *  osd-position-center
      *
      * @returns {string}
      */
@@ -297,6 +300,9 @@ var API = class
             'no-world-clocks',
             'panel-icon-size',
             'no-events-button',
+            'osd-position-top',
+            'osd-position-bottom',
+            'osd-position-center',
         ];
 
         if (!possibleTypes.includes(type)) {
@@ -2784,12 +2790,16 @@ var API = class
             delete(this._originals['osdWindowXAlign']);
             delete(this._originals['osdWindowYAlign']);
         }
+
+        this.UIStyleClassRemove(this._getAPIClassname('osd-position-top'));
+        this.UIStyleClassRemove(this._getAPIClassname('osd-position-bottom'));
+        this.UIStyleClassRemove(this._getAPIClassname('osd-position-center'));
     }
 
     /**
      * set OSD position
      *
-     * @param int pos position
+     * @param int pos position XY_POSITION
      *
      * @returns {void}
      */
@@ -2818,14 +2828,36 @@ var API = class
             osdWindowProto._oldShow = this._originals['osdWindowShow'];
         }
 
-        // TODO needs to calculate the spacing and margin too (.osd-window)
-        // currently it's getting too close to the sides
         let [xAlign, yAlign] = this._xyAlignGet(pos);
         osdWindowProto.show = function () {
             this.x_align = xAlign;
             this.y_align = yAlign;
             this._oldShow();
         };
+
+        if (
+            pos === XY_POSITION.TOP_START ||
+            pos === XY_POSITION.TOP_CENTER ||
+            pos === XY_POSITION.TOP_END
+        ) {
+            this.UIStyleClassAdd(this._getAPIClassname('osd-position-top'));
+        }
+        
+        if (
+            pos === XY_POSITION.BOTTOM_START ||
+            pos === XY_POSITION.BOTTOM_CENTER ||
+            pos === XY_POSITION.BOTTOM_END
+        ) {
+            this.UIStyleClassAdd(this._getAPIClassname('osd-position-bottom'));
+        }
+        
+        if (
+            pos === XY_POSITION.CENTER_START ||
+            pos === XY_POSITION.CENTER_CENTER ||
+            pos === XY_POSITION.CENTER_END
+        ) {
+            this.UIStyleClassAdd(this._getAPIClassname('osd-position-center'));
+        }
     }
 
     /**
