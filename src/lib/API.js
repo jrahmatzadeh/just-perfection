@@ -264,6 +264,7 @@ var API = class
      *  osd-position-top
      *  osd-position-bottom
      *  osd-position-center
+     *  no-dash-separator
      *
      * @returns {string}
      */
@@ -303,6 +304,7 @@ var API = class
             'osd-position-top',
             'osd-position-bottom',
             'osd-position-center',
+            'no-dash-separator',
         ];
 
         if (!possibleTypes.includes(type)) {
@@ -3006,6 +3008,26 @@ var API = class
         }
 
         return this._panel.PANEL_ICON_SIZE;
+    }
+
+    /**
+     * show dash separator
+     *
+     * @returns {void}
+     */
+    dashSeparatorShow()
+    {
+        this.UIStyleClassRemove(this._getAPIClassname('no-dash-separator'));
+    }
+
+    /**
+     * hide dash separator
+     *
+     * @returns {void}
+     */
+    dashSeparatorHide()
+    {
+        this.UIStyleClassAdd(this._getAPIClassname('no-dash-separator'));
     }
 }
 

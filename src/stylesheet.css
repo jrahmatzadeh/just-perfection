@@ -800,3 +800,12 @@
 .just-perfection-api-osd-position-top .osd-window { margin: 4em 2.5em; }
 .just-perfection-api-osd-position-center .osd-window { margin: 4em 3.5em; }
 .just-perfection-api-osd-position-bottom .osd-window { margin: 4em 3em; }
+
+.just-perfection-api-no-dash-separator .dash-separator
+{
+    width: 0;
+    height: 0;
+    spacing: 0;
+    padding: 0;
+    margin: 0;
+}
