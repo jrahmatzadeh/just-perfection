@@ -3017,6 +3017,10 @@ var API = class
      */
     dashSeparatorShow()
     {
+        if (this._shellVersion < 40) {
+            return;
+        }
+
         this.UIStyleClassRemove(this._getAPIClassname('no-dash-separator'));
     }
 
@@ -3027,6 +3031,10 @@ var API = class
      */
     dashSeparatorHide()
     {
+        if (this._shellVersion < 40) {
+            return;
+        }
+
         this.UIStyleClassAdd(this._getAPIClassname('no-dash-separator'));
     }
 }

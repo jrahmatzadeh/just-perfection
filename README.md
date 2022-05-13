@@ -22,6 +22,7 @@ This extension allows you to do the following:
 | Clock Menu Position                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Clock Menu Visibility                                | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Dash Icon Size                                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Dash Separator Visibility                            | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Dash Visibility                                      | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Disable Type to Search                               | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Double Super Key to App Grid                         | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: |

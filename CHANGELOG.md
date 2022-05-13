@@ -15,6 +15,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Prefs window size for scaled displays.
 - Prefs window size for small displays in GNOME Shell 42.
 
+### Added
+
+- Dash separator visibility.
+
 ### Removed
 
 - Gesture API for GNOME Shell 40 and higher.

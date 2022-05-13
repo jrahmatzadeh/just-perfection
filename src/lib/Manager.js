@@ -245,6 +245,10 @@ var Manager = class
         this._settings.connect('changed::panel-icon-size', () => {
             this._applyPanelIconSize(false);
         });
+
+        this._settings.connect('changed::dash-separator', () => {
+            this._applyDashSeparator(false);
+        });
     }
 
     /**
@@ -303,6 +307,7 @@ var Manager = class
         this._applyPanelIconSize(false);
         this._applyEventsButton(false);
         this._applyCalendar(false);
+        this._applyDashSeparator(false);
     }
 
     /**
@@ -361,6 +366,7 @@ var Manager = class
         this._applyPanelIconSize(true);
         this._applyEventsButton(true);
         this._applyCalendar(true);
+        this._applyDashSeparator(true);
     }
 
     /**
@@ -1238,6 +1244,24 @@ var Manager = class
             this._api.panelIconSetDefaultSize();
         } else {
             this._api.panelIconSetSize(size);
+        }
+    }
+
+    /**
+     * apply dash separator settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyDashSeparator(forceOriginal)
+    {
+        let status = this._settings.get_boolean('dash-separator');
+
+        if (forceOriginal || status) {
+            this._api.dashSeparatorShow();
+        } else {
+            this._api.dashSeparatorHide();
         }
     }
 }

@@ -192,6 +192,19 @@
         </child>
 
         <child>
+          <object class="AdwActionRow" id="dash_separator_row">
+            <property name="title" translatable="yes">Dash Separator</property>
+            <property name="subtitle" translatable="yes">Dash separator line that separates pin apps from unpin apps</property>
+            <property name="activatable-widget">dash_separator_switch</property>
+            <child>
+              <object class="GtkSwitch" id="dash_separator_switch">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        
+        <child>
           <object class="AdwActionRow" id="show_apps_button_row">
             <property name="title" translatable="yes">Show Applications Button</property>
             <property name="subtitle" translatable="yes">Button in dash that toggles applications list visibility</property>

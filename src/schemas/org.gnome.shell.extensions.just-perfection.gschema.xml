@@ -342,6 +342,12 @@
       <description>Panel Icon Size</description>
     </key>
     
+    <key type="b" name="dash-separator">
+      <default>true</default>
+      <summary>Dash Separator Visibility</summary>
+      <description>Dash Separator Visibility Status</description>
+    </key>
+    
   </schema>
   
 </schemalist>

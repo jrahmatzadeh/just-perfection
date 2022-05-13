@@ -161,6 +161,18 @@ var PrefsKeys = class
 
         this.setKey(
             'visibility',
+            'dash-separator',
+            'GtkSwitch',
+            this._shellVersion >= 40,
+            {
+                default: true,
+                minimal: true,
+                superminimal: true,
+            }
+        );
+
+        this.setKey(
+            'visibility',
             'osd',
             'GtkSwitch',
             true,
