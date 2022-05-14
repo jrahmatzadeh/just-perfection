@@ -7,12 +7,6 @@
   <menu id="primary_menu">
     <section>
       <item>
-        <attribute name="label" translatable="yes">Preferences Intro</attribute>
-        <attribute name="action">prefs.show-intro</attribute>
-      </item>
-    </section>
-    <section>
-      <item>
         <attribute name="label" translatable="yes">Bug Report</attribute>
         <attribute name="action">prefs.show-bug-report</attribute>
       </item>

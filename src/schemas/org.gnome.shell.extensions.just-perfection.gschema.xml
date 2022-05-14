@@ -4,12 +4,6 @@
   <schema id="org.gnome.shell.extensions.just-perfection"
     path="/org/gnome/shell/extensions/just-perfection/">
     
-    <key type="b" name="show-prefs-intro">
-      <default>true</default>
-      <summary>Show Prefs Intro</summary>
-      <description>Show Prefs Intro Status</description>
-    </key>
-    
     <key type="b" name="panel">
       <default>true</default>
       <summary>Panel</summary>

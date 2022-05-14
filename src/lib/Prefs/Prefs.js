@@ -61,15 +61,15 @@ var Prefs = class
          * @member {number}
          */
         this._windowWidth = 500;
-        this._windowHeight = 880;
+        this._windowHeight = 500;
 
         /**
          * initial window size for adw
          *
          * @member {number}
          */
-         this._windowWidthAdw = 550;
-         this._windowHeightAdw = 920;
+         this._windowWidthAdw = 500;
+         this._windowHeightAdw = 500;
 
         /**
          * holds all profile names
@@ -125,7 +125,6 @@ var Prefs = class
              window.add(page);
          }
  
-         this._prepareIntro(binFolderPath);
          this._setValues();
          this._guessProfile();
          this._onlyShowSupportedRows();
@@ -154,7 +153,6 @@ var Prefs = class
             'main',
             'no-results-found',
             'profile',
-            'intro',
             'override',
             'visibility',
             'icons',
@@ -189,7 +187,6 @@ var Prefs = class
         }
 
         this._setListBoxSeparators();
-        this._prepareIntro(binFolderPath);
         this._convertComboBoxTextToDropDown();
         this._fixIconObjects();
         this._setValues();
@@ -298,76 +295,6 @@ var Prefs = class
     }
 
     /**
-     * prepare intro
-     *
-     * @param string binFolderPath bin folder path
-     *
-     * @returns {void}
-     */
-    _prepareIntro(binFolderPath)
-    {
-        let introImgPath = `${binFolderPath}/intro.png`;
-        let intro = this._builder.get_object('intro');
-
-        let imgFile = this._gio.File.new_for_path(introImgPath);
-        if (!imgFile.query_exists(null)) {
-            (!this._isAdw) && this._builder.get_object('primary_menu').remove(0);
-            intro.visible = false;
-            if (this._isAdw) {
-                this._builder.get_object('prefs_group').visible = false;
-            }
-            return;
-        }
-
-        let imageBox = this._builder.get_object('intro_image_box');
-
-        let img;
-        if (this._gtkVersion === 3) {
-            img = this._gtk.Image.new_from_file(introImgPath);
-            img.visible = true;
-            img.set_size_request(530, 680);
-            imageBox.add(img);
-        } else {
-            img = this._gtk.Picture.new_for_filename(introImgPath);
-            img.set_can_shrink(false);
-            imageBox.append(img);
-        }
-
-        if (this._isAdw) {
-            let elm = this._builder.get_object('prefs_intro_switch');
-            let show = this._settings.get_boolean('show-prefs-intro');
-            elm.set_active(show);
-            intro.visible = show;
-        }
-
-        this._introPrepared = true;
-    }
-
-    /**
-     * show intro
-     *
-     * @returns {void}
-     */
-    _showIntro()
-    {
-        let intro = this._builder.get_object('intro');
-        let show = this._settings.get_boolean('show-prefs-intro');
-
-        intro.visible = (this._introPrepared && show) ? true : false;
-    }
-
-    /**
-     * hide intro
-     *
-     * @returns {void}
-     */
-    _hideIntro()
-    {
-        let intro = this._builder.get_object('intro');
-        intro.visible = false;
-    }
-
-    /**
      * fix images that holding icons for GTK4
      *
      * @returns {void}
@@ -455,7 +382,6 @@ var Prefs = class
         this._registerSearchSignals(window);
         this._registerFileChooserSignals(window);
         this._registerProfileSignals();
-        this._registerPrefsIntroSignals();
         this._registerActionSignals(window);
     }
 
@@ -618,29 +544,6 @@ var Prefs = class
     }
 
     /**
-     * register prefs intro signals
-     *
-     * @returns {void}
-     */
-     _registerPrefsIntroSignals()
-     {
-         this._settings.connect('changed::show-prefs-intro', (s) => {
-             if (s.get_boolean('show-prefs-intro')) {
-                 this._showIntro();
-             } else {
-                 this._hideIntro();
-             }
-         });
- 
-         if (this._isAdw) {
-             let prefsSwitch = this._builder.get_object('prefs_intro_switch');
-             prefsSwitch.connect('state-set', (w) => {
-                 this._settings.set_boolean('show-prefs-intro', w.get_active());
-             });
-         }
-    }
-
-    /**
      * register action signals
      *
      * @param {Gtk.Window} window prefs dialog
@@ -666,21 +569,6 @@ var Prefs = class
             this._openURI(window, this._url.patreon);
         });
         actionGroup.add_action(action2);
-
-        if (this._introPrepared) {
-            let showPrefsIntro = this._settings.get_boolean('show-prefs-intro');
-            let action3 = this._gio.SimpleAction.new_stateful(
-                'show-intro',
-                null,
-                this._glib.Variant.new_boolean(showPrefsIntro),
-            );
-            action3.connect('activate', () => {
-                let show = this._settings.get_boolean('show-prefs-intro');
-                this._settings.set_boolean('show-prefs-intro', !show);
-                action3.change_state(this._glib.Variant.new_boolean(!show));
-            });
-            actionGroup.add_action(action3);
-        }
 
         window.insert_action_group('prefs', actionGroup);
      }
@@ -908,12 +796,6 @@ var Prefs = class
             profile.visible = (q === '') ? true : false;
         }
 
-        if (q === '') {
-            this._showIntro();
-        } else {
-            this._hideIntro();
-        }
-
         for (let [, key] of Object.entries(this._prefsKeys.keys)) {
 
             if (categories[key.category] === undefined) {
@@ -947,3 +829,4 @@ var Prefs = class
         notFound.visible = noResultsFoundVisibility;
     }
 };
+

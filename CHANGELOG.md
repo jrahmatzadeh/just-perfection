@@ -22,6 +22,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Removed
 
 - Gesture API for GNOME Shell 40 and higher.
+- Prefs intro.
 
 ## [20.0.0 Hayez] - 2022-04-01
 
