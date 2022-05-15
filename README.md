@@ -62,13 +62,13 @@ This extension allows you to do the following:
 
 ## GNOME Shell Support
 
-| GNOME Shell Version | End Of Support |
-| ------------------- | -------------- |
-| 3.36                | July 2025      |
-| 3.38                | July 2025      |
-| 40                  | December 2021  |
-| 41                  | May 2022       |
-| 42                  | TBA            |
+| GNOME Shell Version | End Of Support | Active         |
+| ------------------- | -------------- | -------------- |
+| 42                  | July 2026      | :black_circle: |
+| 41                  | May 2022       | :white_circle: |
+| 40                  | December 2021  | :white_circle: |
+| 3.38                | July 2025      | :black_circle: |
+| 3.36                | July 2025      | :black_circle: |
 
 ## Install
 
