@@ -1807,12 +1807,7 @@ var API = class
      */
     showAppsButtonEnable()
     {
-        if (!this._main.overview.dash) {
-            return;
-        }
-
-        let container = this._main.overview.dash.showAppsButton.get_parent();
-        container.remove_style_class_name(this._getAPIClassname('no-show-apps-button'));
+        this.UIStyleClassRemove(this._getAPIClassname('no-show-apps-button'));
     }
 
     /**
@@ -1822,12 +1817,7 @@ var API = class
      */
     showAppsButtonDisable()
     {
-        if (!this._main.overview.dash) {
-            return;
-        }
-
-        let container = this._main.overview.dash.showAppsButton.get_parent();
-        container.add_style_class_name(this._getAPIClassname('no-show-apps-button'));
+        this.UIStyleClassAdd(this._getAPIClassname('no-show-apps-button'));
     }
 
     /**

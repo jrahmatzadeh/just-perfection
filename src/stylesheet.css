@@ -441,24 +441,13 @@
     margin: 0;
 }
 
-.just-perfection-api-no-show-apps-button
+.just-perfection-api-no-show-apps-button .show-apps,
+.just-perfection-api-no-show-apps-button .show-apps StIcon
 {
     width: 0;
     height: 0;
     margin: 0;
     spacing: 0;
-}
-
-/**
- * GNOME 40 shows some part of the icon when the container has
- * no width and height. To fix that we need to push the icon a litte bit to the
- * side.
- * This particular icon shouldn't have 0 as width and height. It can affect the
- * height and width of dash background.
- */
-.just-perfection-api-no-show-apps-button StIcon
-{
-    padding: 0 100px;
 }
 
 .just-perfection-api-activities-button-icon,
