@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-31 13:45-0700\n"
-"PO-Revision-Date: 2021-07-02 21:30+0700\n"
+"PO-Revision-Date: 2022-05-18 18:02+0700\n"
 "Last-Translator: VBB <librusekus35790@gmail.com>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: src/ui/behavior.ui:19 src/ui/adw/behavior.ui:6 src/ui/adw/behavior.ui:11
 msgid "Behavior"
@@ -32,7 +33,7 @@ msgstr "Жест приложения"
 
 #: src/ui/behavior.ui:174 src/ui/adw/behavior.ui:40
 msgid "Workspace Wraparound"
-msgstr "Обтекание рабочей области"
+msgstr "Зацикливание рабочих столов"
 
 #: src/ui/behavior.ui:185 src/ui/adw/behavior.ui:41
 msgid ""
@@ -40,9 +41,8 @@ msgid ""
 "workspace. and previous workspace will be the last workspace when you are in "
 "the first workspace."
 msgstr ""
-"Следующая рабочая область будет первой рабочей областью, когда вы находитесь "
-"в последней рабочей области. а предыдущая рабочая область будет последней "
-"рабочей областью, когда вы находитесь в первой рабочей области."
+"За последним рабочим столом будет следовать первый. А перед первым рабочим "
+"столом будет располагаться последний."
 
 #: src/ui/behavior.ui:251 src/ui/adw/behavior.ui:53
 msgid "Window Demands Attention Focus"
@@ -50,7 +50,7 @@ msgstr "Окно требует внимания"
 
 #: src/ui/behavior.ui:262 src/ui/adw/behavior.ui:54
 msgid "Removes window is ready notification and focus on the window"
-msgstr "Убирает уведомление о готовности окна и фокусирует на окне"
+msgstr "Убрать уведомление о готовности окна и сразу фокусироваться на нём"
 
 #: src/ui/behavior.ui:328 src/ui/adw/behavior.ui:66
 msgid "Type to Search"
@@ -60,7 +60,8 @@ msgstr "Введите для поиска"
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
-"Вы можете начать поиск без строки поиска или даже не нажимая на неё в обзоре"
+"Вы можете начать поиск в Обзоре, если строки поиска нету, либо если она "
+"есть, не нажимая на неё"
 
 #: src/ui/behavior.ui:405 src/ui/adw/behavior.ui:79
 msgid "Always Show Workspace Switcher"
@@ -71,17 +72,16 @@ msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
 msgstr ""
-"Отображает переключатель, даже если используется только один рабочий стол с "
+"Отображать переключатель, даже если используется только один рабочий стол с "
 "активированным режимом динамических рабочих столов"
 
 #: src/ui/behavior.ui:482 src/ui/adw/behavior.ui:92
 msgid "Double Super to App Grid"
-msgstr "Двойной супер-ключ к App Grid"
+msgstr "Двойной Super для перехода к списку приложений"
 
 #: src/ui/behavior.ui:493 src/ui/adw/behavior.ui:93
 msgid "Shows app grid when you double hit super key fast"
-msgstr ""
-"Показывает сетку приложения, когда вы дважды быстро нажимаете супер-клавишу"
+msgstr "Открывать список приложений при быстром двойном нажатии Super"
 
 #: src/ui/behavior.ui:559 src/ui/adw/behavior.ui:105
 msgid "Startup Status"
@@ -89,7 +89,7 @@ msgstr "Место входа"
 
 #: src/ui/behavior.ui:570 src/ui/adw/behavior.ui:106
 msgid "When GNOME Shell is starting up for the first time"
-msgstr "Что будет отображаться при запуске GNOME Shell:"
+msgstr "Что будет отображаться при запуске GNOME Shell"
 
 #: src/ui/behavior.ui:593 src/ui/adw/behavior.ui:118
 msgid "Desktop"
@@ -105,11 +105,11 @@ msgstr "Настройки"
 
 #: src/ui/customize.ui:75 src/ui/adw/customize.ui:15
 msgid "Workspace Background Corner Size"
-msgstr "Размер угла фона рабочего пространства"
+msgstr "Размер угла рабочего стола"
 
 #: src/ui/customize.ui:86 src/ui/adw/customize.ui:16
 msgid "Workspace background corner size in overview"
-msgstr "Обзор размера угла фона рабочего пространства"
+msgstr "Размер угла рабочего стола в Обзоре"
 
 #: src/ui/customize.ui:109 src/ui/customize.ui:222 src/ui/customize.ui:334
 #: src/ui/customize.ui:446 src/ui/customize.ui:559 src/ui/customize.ui:672
@@ -117,7 +117,7 @@ msgstr "Обзор размера угла фона рабочего прост�
 #: src/ui/adw/customize.ui:247 src/ui/adw/customize.ui:313
 #: src/ui/adw/customize.ui:380 src/ui/adw/customize.ui:447
 msgid "By Shell Theme"
-msgstr "Определить темой оболочки"
+msgstr "Следовать теме"
 
 #: src/ui/customize.ui:210 src/ui/adw/customize.ui:23
 msgid "Panel Size"
@@ -129,11 +129,11 @@ msgstr "Размер значка панели"
 
 #: src/ui/customize.ui:434 src/ui/adw/customize.ui:37
 msgid "Panel Button Padding Size"
-msgstr "Размер заполнения кнопок панели"
+msgstr "Отступ между кнопками панели"
 
 #: src/ui/customize.ui:547 src/ui/adw/customize.ui:44
 msgid "Panel Indicator Padding Size"
-msgstr "Размер заполнения индикатора панели"
+msgstr "Отступ между индикаторами на панели"
 
 #: src/ui/customize.ui:660 src/ui/adw/customize.ui:51
 msgid "Panel Corner Size"
@@ -157,7 +157,7 @@ msgstr "Внизу"
 
 #: src/ui/customize.ui:826 src/ui/adw/customize.ui:65
 msgid "Clock Menu Position"
-msgstr "Положение меню часов"
+msgstr "Расположение центра уведомлений"
 
 #: src/ui/customize.ui:838 src/ui/adw/customize.ui:521
 msgid "Center"
@@ -173,7 +173,7 @@ msgstr "Слева"
 
 #: src/ui/customize.ui:880 src/ui/adw/customize.ui:72
 msgid "Clock Menu Position Offset"
-msgstr "Смещение положения меню часов"
+msgstr "Смещение центра уведомлений"
 
 #: src/ui/customize.ui:941 src/ui/adw/customize.ui:79
 msgid "Workspace Switcher Size"
@@ -195,7 +195,7 @@ msgstr "Без анимаций"
 
 #: src/ui/customize.ui:1036 src/ui/adw/customize.ui:581
 msgid "Default Speed"
-msgstr "Скорость по умолчанию"
+msgstr "По умолчанию"
 
 #: src/ui/customize.ui:1037 src/ui/adw/customize.ui:582
 msgid "Fastest"
@@ -227,11 +227,11 @@ msgstr "Размер иконок Dash панели"
 
 #: src/ui/customize.ui:1143 src/ui/adw/customize.ui:100
 msgid "Notification Banner Position"
-msgstr "Позиция баннера уведомлений"
+msgstr "Расположение уведомлений"
 
 #: src/ui/customize.ui:1154 src/ui/adw/customize.ui:101
 msgid "Notification popup position when notifications show up on the screen"
-msgstr "Положение всплывающих на экране уведомлений"
+msgstr "Расположение всплывающих уведомлений на экране"
 
 #: src/ui/customize.ui:1177 src/ui/adw/customize.ui:602
 msgid "Top Start"
@@ -283,7 +283,7 @@ msgstr "Иконки окон в обзоре"
 
 #: src/ui/icons.ui:283 src/ui/adw/icons.ui:64 src/ui/adw/icons.ui:77
 msgid "The icon under window preview in overview"
-msgstr "Иконки под окнами в режиме обзора"
+msgstr "Иконки под окнами в Обзоре"
 
 #: src/ui/icons.ui:343 src/ui/adw/icons.ui:76
 msgid "Activities Button Icon"
@@ -303,15 +303,15 @@ msgstr "Работает, только если вы выбрали значок
 
 #: src/ui/main.ui:10 src/ui/adw/profile.ui:166 src/ui/adw/profile.ui:170
 msgid "Preferences Intro"
-msgstr "Настройки Введение"
+msgstr "Заставка"
 
 #: src/ui/main.ui:16 src/ui/adw/profile.ui:189
 msgid "Bug Report"
-msgstr "Сообщение об ошибке"
+msgstr "Сообщить об ошибке"
 
 #: src/ui/main.ui:20 src/ui/adw/profile.ui:201
 msgid "Support via Patreon"
-msgstr "Поддержка через Patreon"
+msgstr "Поддержать через Patreon"
 
 #: src/ui/main.ui:84 src/ui/adw/profile.ui:17
 msgid "Select File"
@@ -332,8 +332,8 @@ msgstr "Тема оболочки"
 #: src/ui/override.ui:89 src/ui/adw/profile.ui:151
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr ""
-"Частично переопределяет тему оболочки для создания минималистического "
-"рабочего стола"
+"Частично переопределяет тему оболочки для создания минималистичного рабочего "
+"стола"
 
 #: src/ui/profile.ui:21 src/ui/adw/profile.ui:26 src/ui/adw/profile.ui:31
 msgid "Profile"
@@ -344,12 +344,12 @@ msgid ""
 "You can choose between pre-defined profiles or you can simply use your own "
 "customized settings"
 msgstr ""
-"Вы можете выбирать между предустановленными профилями или просто "
-"использовать свои собственные индивидуальные настройки."
+"Вы можете выбрать предустановленный профиль или использовать собственные "
+"настройки"
 
 #: src/ui/profile.ui:67 src/ui/adw/profile.ui:73
 msgid "Custom"
-msgstr "Обычай"
+msgstr "Пользовательский"
 
 #: src/ui/profile.ui:77 src/ui/adw/profile.ui:83
 msgid "Minimal"
@@ -357,7 +357,7 @@ msgstr "Минимальный"
 
 #: src/ui/profile.ui:87 src/ui/adw/profile.ui:93
 msgid "Super Minimal"
-msgstr "Супер минимальный"
+msgstr "Очень минимальный"
 
 #: src/ui/visibility.ui:19 src/ui/adw/visibility.ui:6
 #: src/ui/adw/visibility.ui:11
@@ -370,7 +370,7 @@ msgstr "Панель"
 
 #: src/ui/visibility.ui:120 src/ui/adw/visibility.ui:27
 msgid "Panel in Overview"
-msgstr "Панель в обзоре"
+msgstr "Панель в режиме Обзора"
 
 #: src/ui/visibility.ui:176 src/ui/adw/visibility.ui:40
 msgid "Activities Button"
@@ -378,7 +378,7 @@ msgstr "Кнопка Обзор"
 
 #: src/ui/visibility.ui:187 src/ui/adw/visibility.ui:41
 msgid "Button in panel to toggle overview visibility"
-msgstr "Кнопка на панели для активации режима обзора"
+msgstr "Кнопка на панели для перехода в режим Обзора"
 
 #: src/ui/visibility.ui:253 src/ui/adw/visibility.ui:53
 msgid "App Menu"
@@ -394,7 +394,7 @@ msgstr "Центр уведомлений/Часы"
 
 #: src/ui/visibility.ui:341 src/ui/adw/visibility.ui:67
 msgid "Also known as date menu shows date and time in panel"
-msgstr "Меню, появляющееся при нажатии на индикатор даты и времени"
+msgstr "Показывает дату и время на панели"
 
 #: src/ui/visibility.ui:407 src/ui/adw/visibility.ui:79
 msgid "Keyboard Layout"
@@ -426,7 +426,7 @@ msgstr "Мировые часы"
 
 #: src/ui/visibility.ui:649 src/ui/adw/visibility.ui:119
 msgid "World clock in clock menu"
-msgstr "Мировые часы в меню часов"
+msgstr "Мировые часы в центре уведомлений"
 
 #: src/ui/visibility.ui:715 src/ui/adw/visibility.ui:131
 msgid "Weather"
@@ -434,7 +434,7 @@ msgstr "Погода"
 
 #: src/ui/visibility.ui:726 src/ui/adw/visibility.ui:132
 msgid "Weather in clock menu"
-msgstr "Погода в меню часов"
+msgstr "Погода в центре уведомлений"
 
 #: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
 msgid "Calendar"
@@ -442,7 +442,7 @@ msgstr "Календарь"
 
 #: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
 msgid "Calendar in clock menu"
-msgstr "Календарь в меню часов"
+msgstr "Календарь в центре уведомлений"
 
 #: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
 msgid "Events"
@@ -450,7 +450,7 @@ msgstr "События"
 
 #: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
 msgid "Events button in clock menu"
-msgstr "Кнопка событий в меню часов"
+msgstr "События в центре уведомлений"
 
 #: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
 msgid "Search"
@@ -458,7 +458,7 @@ msgstr "Строка поиска"
 
 #: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
 msgid "Search entry in overview"
-msgstr "Строка поиска в обзоре"
+msgstr "Строка поиска в Обзоре"
 
 #: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
 msgid "Dash"
@@ -466,7 +466,7 @@ msgstr "Dash панель"
 
 #: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
 msgid "Dash holds favorite and opened applications icons"
-msgstr "Dash содержит иконки избранных и открытых приложений."
+msgstr "Dash содержит иконки избранных и открытых приложений"
 
 #: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
 msgid "Show Applications Button"
@@ -478,7 +478,7 @@ msgstr "Кнопка на Dash панели, которая выводит сп�
 
 #: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
 msgid "On Screen Display (OSD)"
-msgstr "On Screen Display (OSD)"
+msgstr "Экранная индикация"
 
 #: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
 msgid "Volume and brightness on screen display when the change happens"
@@ -490,8 +490,7 @@ msgstr "Всплывающий индикатор рабочих столов"
 
 #: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
 msgid "Popup that appears on the screen when you change the workspace"
-msgstr ""
-"Всплывающее окно, которое появляется на экране при смене рабочего стола"
+msgstr "Индикатор, который появляется на экране при смене рабочего стола"
 
 #: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
 msgid "Workspace Switcher"
@@ -501,9 +500,7 @@ msgstr "Переключатель рабочих столов"
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
-msgstr ""
-"Также относится к эскизам рабочих столов, которые вы видите в обзоре при "
-"выборе рабочего стола."
+msgstr "Эскизы рабочих столов, которые вы видите в Обзоре."
 
 #: src/ui/visibility.ui:1408 src/ui/adw/visibility.ui:248
 msgid "Workspaces App Grid"
@@ -511,23 +508,23 @@ msgstr "Рабочие столы в списке приложений"
 
 #: src/ui/visibility.ui:1419 src/ui/adw/visibility.ui:249
 msgid "Workspace boxes in app grid"
-msgstr "Показ эскизов рабочих столов при открытии списка приложений"
+msgstr "Эскизы рабочих столов в списке приложений"
 
 #: src/ui/visibility.ui:1485 src/ui/adw/visibility.ui:261
 msgid "Window Picker Close Button"
-msgstr "Кнопка закрытия окна выбора"
+msgstr "Кнопки закрытия окон в Обзоре"
 
 #: src/ui/visibility.ui:1496 src/ui/adw/visibility.ui:262
 msgid "The close button on window preview in overview"
-msgstr "Кнопка закрытия при предварительном просмотре окна в обзоре"
+msgstr "Кнопки закрытия, появляющиеся на эскизах окон в Обзоре"
 
 #: src/ui/visibility.ui:1562 src/ui/adw/visibility.ui:274
 msgid "Window Picker Caption"
-msgstr "Заголовок средства выбора окна"
+msgstr "Заголовки окон в Обзоре"
 
 #: src/ui/visibility.ui:1573 src/ui/adw/visibility.ui:275
 msgid "The text under window preview in overview"
-msgstr "Текст под окном предварительного просмотра в обзоре"
+msgstr "Текст под эскизами окон в Обзоре"
 
 #: src/ui/visibility.ui:1639 src/ui/adw/visibility.ui:287
 msgid "Background Menu"
@@ -535,15 +532,15 @@ msgstr "Меню рабочего стола"
 
 #: src/ui/visibility.ui:1650 src/ui/adw/visibility.ui:288
 msgid "When you right click on desktop background"
-msgstr "Когда вы щелкаете правой кнопкой мыши по фону рабочего стола"
+msgstr "Когда вы щелкаете правой кнопкой мыши по рабочему столу"
 
 #: src/ui/visibility.ui:1716 src/ui/adw/visibility.ui:300
 msgid "Ripple Box"
-msgstr "Коробка пульсации"
+msgstr "Пульсация"
 
 #: src/ui/visibility.ui:1727 src/ui/adw/visibility.ui:301
 msgid "Hot corner animation effects"
-msgstr "Эффекты анимации горячих углов"
+msgstr "Анимация горячего угла"
 
 #: src/ui/adw/profile.ui:185
 msgid "Links"
