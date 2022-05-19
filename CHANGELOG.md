@@ -19,6 +19,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Added
 
 - Dash separator visibility.
+- Looking glass size by [@AdvendraDeswanta](https://gitlab.gnome.org/AdvendraDeswanta).
 
 ### Removed
 

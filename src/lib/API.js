@@ -3027,5 +3027,95 @@ var API = class
 
         this.UIStyleClassAdd(this._getAPIClassname('no-dash-separator'));
     }
+
+    /**
+     * get looking glass size
+     *
+     * @returns {array}
+     *  width: int
+     *  height: int
+     */
+    _lookingGlassGetSize()
+    {
+        let lookingGlass = this._main.createLookingGlass();
+
+        return [ lookingGlass.width, lookingGlass.height ];
+    }
+
+    /**
+     * set default looking glass size
+     *
+     * @returns {void}
+     */
+    lookingGlassSetDefaultSize()
+    {
+        if (!this._lookingGlassShowSignal) {
+            return;
+        }
+
+        this._main.lookingGlass.disconnect(this._lookingGlassShowSignal);
+        this._main.lookingGlass._resize();
+
+        delete(this._lookingGlassShowSignal);
+        delete(this._lookingGlassOriginalSize);
+        delete(this._monitorsChangedSignal);
+    }
+
+    /**
+     * set looking glass size
+     *
+     * @param {number} width in float
+     * @param {number} height in float
+     *
+     * @returns {void}
+     */
+    lookingGlassSetSize(width, height)
+    {
+        let lookingGlass = this._main.createLookingGlass();
+
+        if (!this._lookingGlassOriginalSize) {
+            this._lookingGlassOriginalSize = this._lookingGlassGetSize();
+        }
+
+        if (this._lookingGlassShowSignal) {
+            lookingGlass.disconnect(this._lookingGlassShowSignal);
+            delete(this._lookingGlassShowSignal);
+        }
+
+        this._lookingGlassShowSignal = lookingGlass.connect('show', () => {
+            let [, currentHeight] = this._lookingGlassGetSize();
+            let [originalWidth, originalHeight] = this._lookingGlassOriginalSize;
+
+            let monitorInfo = this.monitorGetInfo();
+
+            let dialogWidth
+            =   (width !== null)
+            ?   monitorInfo.width * width
+            :   originalWidth;
+
+            let x = monitorInfo.x + (monitorInfo.width - dialogWidth) / 2;
+            lookingGlass.set_x(x);
+
+            let keyboardHeight = this._main.layoutManager.keyboardBox.height;
+            let availableHeight = monitorInfo.height - keyboardHeight;
+            let dialogHeight
+            =   (height !== null)
+            ?   Math.min(monitorInfo.height * height, availableHeight * 0.9)
+            :   originalHeight;
+
+            let hiddenY = lookingGlass._hiddenY + currentHeight - dialogHeight;
+            lookingGlass.set_y(hiddenY);
+            lookingGlass._hiddenY = hiddenY;
+
+            lookingGlass.set_size(dialogWidth, dialogHeight);
+        });
+
+        if (!this._monitorsChangedSignal) {
+            this._monitorsChangedSignal = this._main.layoutManager.connect('monitors-changed',
+            () => {
+                    this.lookingGlassSetSize(width, height);
+            });
+        }
+    }
 }
 

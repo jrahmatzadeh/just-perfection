@@ -30,6 +30,7 @@ This extension allows you to do the following:
 | GNOME Shell Theme Override                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Hot Corner                                           | :black_circle: | :black_circle: | :black_circle: | :white_circle: | :white_circle: |
 | Keyboard Layout Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Looking Glass Size                                   | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Notification Banner Position                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | OSD Visibility                                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Panel Arrow Visibility                               | :black_circle: | :black_circle: | :white_circle: | :white_circle: | :white_circle: |

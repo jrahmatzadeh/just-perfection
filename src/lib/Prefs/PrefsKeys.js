@@ -681,6 +681,31 @@ var PrefsKeys = class
         );
 
         this.setKey(
+            'customize',
+            'looking-glass-width',
+            'GtkComboBoxText',
+            true,
+            {
+                default: 0,
+                minimal: 0,
+                superminimal: 0,
+            }
+        );
+
+        this.setKey(
+            'customize',
+            'looking-glass-height',
+            'GtkComboBoxText',
+            true,
+            {
+                default: 0,
+                minimal: 0,
+                superminimal: 0,
+            }
+        );
+
+
+        this.setKey(
             'override',
             'theme',
             'GtkSwitch',
