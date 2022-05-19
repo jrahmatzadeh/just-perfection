@@ -249,6 +249,14 @@ var Manager = class
         this._settings.connect('changed::dash-separator', () => {
             this._applyDashSeparator(false);
         });
+
+        this._settings.connect('changed::looking-glass-width', () => {
+            this._applyLookingGlassSize(false);
+        });
+
+        this._settings.connect('changed::looking-glass-height', () => {
+            this._applyLookingGlassSize(false);
+        });
     }
 
     /**
@@ -308,6 +316,7 @@ var Manager = class
         this._applyEventsButton(false);
         this._applyCalendar(false);
         this._applyDashSeparator(false);
+        this._applyLookingGlassSize(false);
     }
 
     /**
@@ -367,6 +376,7 @@ var Manager = class
         this._applyEventsButton(true);
         this._applyCalendar(true);
         this._applyDashSeparator(true);
+        this._applyLookingGlassSize(true);
     }
 
     /**
@@ -1262,6 +1272,27 @@ var Manager = class
             this._api.dashSeparatorShow();
         } else {
             this._api.dashSeparatorHide();
+        }
+    }
+
+    /**
+     * apply looking glass size settings
+     * 
+     * @param {boolean} forceOriginal force original shell setting
+     * 
+     * @returns {void}
+     */
+    _applyLookingGlassSize(forceOriginal)
+    {
+        let widthSize = this._settings.get_int('looking-glass-width');
+        let heightSize = this._settings.get_int('looking-glass-height');
+
+        if (forceOriginal) {
+            this._api.lookingGlassSetDefaultSize();
+        } else {
+            let width = (widthSize !== 0) ? widthSize / 10 : null;
+            let height = (heightSize !== 0) ? heightSize / 10 : null;
+            this._api.lookingGlassSetSize(width, height);
         }
     }
 }

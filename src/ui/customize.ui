@@ -1192,6 +1192,128 @@
                 
               </object>
             </child>
+
+            <child>
+              <object class="GtkListBoxRow" id="looking_glass_width_row">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                
+                <child>
+                  <object class="GtkBox" id="looking_glass_width_box">
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="orientation">vertical</property>
+                    
+                    <child>
+                      <object class="GtkBox" id="looking_glass_width_box2">
+                        <property name="visible">True</property>
+                        <property name="can-focus">False</property>
+                        <property name="spacing">32</property>
+                        
+                        <child>
+                          <object class="GtkLabel" id="looking_glass_width_txt">
+                            <property name="visible">True</property>
+                            <property name="can-focus">False</property>
+                            <property name="valign">center</property>
+                            <property name="label" translatable="yes">Looking Glass Width</property>
+                            <property name="xalign">0</property>
+                            <property name="hexpand">1</property>
+                          </object>
+                        </child>
+                        
+                        <child>
+                          <object class="GtkComboBoxText" id="looking_glass_width_comboboxtext">
+                            <property name="visible">True</property>
+                            <property name="can-focus">True</property>
+                            <property name="valign">center</property>
+                            <items>
+                              <item translatable="yes">Default</item>
+                              <item>10%</item>
+                              <item>20%</item>
+                              <item>30%</item>
+                              <item>40%</item>
+                              <item>50%</item>
+                              <item>60%</item>
+                              <item>70%</item>
+                              <item>80%</item>
+                              <item>90%</item>
+                            </items>
+                          </object>
+                        </child>
+                        
+                      </object>
+                    </child>
+                    
+                  </object>
+                </child>
+                
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkListBoxRow" id="looking_glass_height_row">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                
+                <child>
+                  <object class="GtkBox" id="looking_glass_height_box">
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="orientation">vertical</property>
+                    
+                    <child>
+                      <object class="GtkBox" id="looking_glass_height_box2">
+                        <property name="visible">True</property>
+                        <property name="can-focus">False</property>
+                        <property name="spacing">32</property>
+                        
+                        <child>
+                          <object class="GtkLabel" id="looking_glass_height_txt">
+                            <property name="visible">True</property>
+                            <property name="can-focus">False</property>
+                            <property name="valign">center</property>
+                            <property name="label" translatable="yes">Looking Glass Height</property>
+                            <property name="xalign">0</property>
+                            <property name="hexpand">1</property>
+                          </object>
+                        </child>
+                        
+                        <child>
+                          <object class="GtkComboBoxText" id="looking_glass_height_comboboxtext">
+                            <property name="visible">True</property>
+                            <property name="can-focus">True</property>
+                            <property name="valign">center</property>
+                            <items>
+                              <item translatable="yes">Default</item>
+                              <item>10%</item>
+                              <item>20%</item>
+                              <item>30%</item>
+                              <item>40%</item>
+                              <item>50%</item>
+                              <item>60%</item>
+                              <item>70%</item>
+                              <item>80%</item>
+                              <item>90%</item>
+                            </items>
+                          </object>
+                        </child>
+                        
+                      </object>
+                    </child>
+                    
+                  </object>
+                </child>
+                
+              </object>
+            </child>
             
           </object>
         </child>

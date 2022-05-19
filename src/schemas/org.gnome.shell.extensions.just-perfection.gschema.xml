@@ -341,8 +341,21 @@
       <summary>Dash Separator Visibility</summary>
       <description>Dash Separator Visibility Status</description>
     </key>
+
+    <key type="i" name="looking-glass-width">
+      <default>0</default>
+      <range min="0" max="9"/>
+      <summary>Width Size in percent, 0 means use default size</summary>
+      <description>Looking Glass Width size</description>
+    </key>
+
+    <key type="i" name="looking-glass-height">
+      <default>0</default>
+      <range min="0" max="9"/>
+      <summary>Height Size in percent, 0 means use default size</summary>
+      <description>Looking Glass Height size</description>
+    </key>
     
   </schema>
   
 </schemalist>
-
