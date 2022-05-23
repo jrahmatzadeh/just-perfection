@@ -74,6 +74,6 @@ function fillPreferencesWindow(window)
  */
 function buildPrefsWidget()
 {
-    return getPrefs(false).getMainPrefs(UIFolderPath, binFolderPath, gettextDomain);
+    return getPrefs(false).getPrefsWidget(UIFolderPath, binFolderPath, gettextDomain);
 }
 

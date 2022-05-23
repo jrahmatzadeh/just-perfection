@@ -136,7 +136,7 @@ var Prefs = class
      }
 
     /**
-     * get main prefs widget
+     * get prefs widget
      *
      * @param {string} UIFolderPath folder path to ui folder
      * @param {string} binFolderPath bin folder path
@@ -144,7 +144,7 @@ var Prefs = class
      *
      * @returns {Object}
      */
-    getMainPrefs(UIFolderPath, binFolderPath, gettextDomain)
+    getPrefsWidget(UIFolderPath, binFolderPath, gettextDomain)
     {
         this._isAdw = false;
 
