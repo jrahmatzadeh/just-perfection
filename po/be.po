@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-31 13:45-0700\n"
+"POT-Creation-Date: 2022-05-26 11:20-0700\n"
 "PO-Revision-Date: 2020-12-18 04:22-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -15,8 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: src/ui/behavior.ui:19 src/ui/adw/behavior.ui:6 src/ui/adw/behavior.ui:11
 msgid "Behavior"
@@ -113,9 +113,9 @@ msgstr "Агляд памеру кута фону працоўнай праст�
 
 #: src/ui/customize.ui:109 src/ui/customize.ui:222 src/ui/customize.ui:334
 #: src/ui/customize.ui:446 src/ui/customize.ui:559 src/ui/customize.ui:672
-#: src/ui/adw/customize.ui:113 src/ui/adw/customize.ui:181
-#: src/ui/adw/customize.ui:247 src/ui/adw/customize.ui:313
-#: src/ui/adw/customize.ui:380 src/ui/adw/customize.ui:447
+#: src/ui/adw/customize.ui:127 src/ui/adw/customize.ui:195
+#: src/ui/adw/customize.ui:261 src/ui/adw/customize.ui:327
+#: src/ui/adw/customize.ui:394 src/ui/adw/customize.ui:461
 msgid "By Shell Theme"
 msgstr "Тэма Shell"
 
@@ -139,7 +139,7 @@ msgstr "Памер індыкатара панэлі"
 msgid "Panel Corner Size"
 msgstr "Памер кута панэлі"
 
-#: src/ui/customize.ui:673 src/ui/adw/customize.ui:448
+#: src/ui/customize.ui:673 src/ui/adw/customize.ui:462
 msgid "No Corner"
 msgstr "Няма кутка"
 
@@ -147,11 +147,11 @@ msgstr "Няма кутка"
 msgid "Panel Position"
 msgstr "Палажэнне панэлі"
 
-#: src/ui/customize.ui:785 src/ui/adw/customize.ui:514
+#: src/ui/customize.ui:785 src/ui/adw/customize.ui:528
 msgid "Top"
 msgstr "Зверху"
 
-#: src/ui/customize.ui:786 src/ui/adw/customize.ui:515
+#: src/ui/customize.ui:786 src/ui/adw/customize.ui:529
 msgid "Bottom"
 msgstr "Знізу"
 
@@ -159,15 +159,15 @@ msgstr "Знізу"
 msgid "Clock Menu Position"
 msgstr "Палажэнне меню гадзінніка"
 
-#: src/ui/customize.ui:838 src/ui/adw/customize.ui:521
+#: src/ui/customize.ui:838 src/ui/adw/customize.ui:535
 msgid "Center"
 msgstr "Цэнтр"
 
-#: src/ui/customize.ui:839 src/ui/adw/customize.ui:522
+#: src/ui/customize.ui:839 src/ui/adw/customize.ui:536
 msgid "Right"
 msgstr "Правільна"
 
-#: src/ui/customize.ui:840 src/ui/adw/customize.ui:523
+#: src/ui/customize.ui:840 src/ui/adw/customize.ui:537
 msgid "Left"
 msgstr "Злева"
 
@@ -179,9 +179,10 @@ msgstr "Зрушэнне становішча меню гадзін"
 msgid "Workspace Switcher Size"
 msgstr "Памер пераключальніка працоўнай вобласці"
 
-#: src/ui/customize.ui:953 src/ui/customize.ui:1094 src/ui/profile.ui:57
-#: src/ui/adw/customize.ui:544 src/ui/adw/customize.ui:593
-#: src/ui/adw/profile.ui:63
+#: src/ui/customize.ui:953 src/ui/customize.ui:1094 src/ui/customize.ui:1234
+#: src/ui/customize.ui:1295 src/ui/profile.ui:57 src/ui/adw/customize.ui:558
+#: src/ui/adw/customize.ui:607 src/ui/adw/customize.ui:627
+#: src/ui/adw/customize.ui:642 src/ui/adw/profile.ui:63
 msgid "Default"
 msgstr "Па змаўчанні"
 
@@ -189,35 +190,35 @@ msgstr "Па змаўчанні"
 msgid "Animation"
 msgstr "Анімацыя"
 
-#: src/ui/customize.ui:1035 src/ui/adw/customize.ui:580
+#: src/ui/customize.ui:1035 src/ui/adw/customize.ui:594
 msgid "No Animation"
 msgstr "Няма анімацыі"
 
-#: src/ui/customize.ui:1036 src/ui/adw/customize.ui:581
+#: src/ui/customize.ui:1036 src/ui/adw/customize.ui:595
 msgid "Default Speed"
 msgstr "Хуткасць па змаўчанні"
 
-#: src/ui/customize.ui:1037 src/ui/adw/customize.ui:582
+#: src/ui/customize.ui:1037 src/ui/adw/customize.ui:596
 msgid "Fastest"
 msgstr "Самы хуткі"
 
-#: src/ui/customize.ui:1038 src/ui/adw/customize.ui:583
+#: src/ui/customize.ui:1038 src/ui/adw/customize.ui:597
 msgid "Faster"
 msgstr "Хутчэй"
 
-#: src/ui/customize.ui:1039 src/ui/adw/customize.ui:584
+#: src/ui/customize.ui:1039 src/ui/adw/customize.ui:598
 msgid "Fast"
 msgstr "Хутка"
 
-#: src/ui/customize.ui:1040 src/ui/adw/customize.ui:585
+#: src/ui/customize.ui:1040 src/ui/adw/customize.ui:599
 msgid "Slow"
 msgstr "Павольна"
 
-#: src/ui/customize.ui:1041 src/ui/adw/customize.ui:586
+#: src/ui/customize.ui:1041 src/ui/adw/customize.ui:600
 msgid "Slower"
 msgstr "Павольней"
 
-#: src/ui/customize.ui:1042 src/ui/adw/customize.ui:587
+#: src/ui/customize.ui:1042 src/ui/adw/customize.ui:601
 msgid "Slowest"
 msgstr "Самае павольнае"
 
@@ -234,29 +235,37 @@ msgid "Notification popup position when notifications show up on the screen"
 msgstr ""
 "Усплывальнае становішча апавяшчэнняў пры з'яўленні апавяшчэнняў на экране"
 
-#: src/ui/customize.ui:1177 src/ui/adw/customize.ui:602
+#: src/ui/customize.ui:1177 src/ui/adw/customize.ui:616
 msgid "Top Start"
 msgstr "З пачатку"
 
-#: src/ui/customize.ui:1178 src/ui/adw/customize.ui:603
+#: src/ui/customize.ui:1178 src/ui/adw/customize.ui:617
 msgid "Top Center"
 msgstr "Верхні цэнтр"
 
-#: src/ui/customize.ui:1179 src/ui/adw/customize.ui:604
+#: src/ui/customize.ui:1179 src/ui/adw/customize.ui:618
 msgid "Top End"
 msgstr "Верхні канец"
 
-#: src/ui/customize.ui:1180 src/ui/adw/customize.ui:605
+#: src/ui/customize.ui:1180 src/ui/adw/customize.ui:619
 msgid "Bottom Start"
 msgstr "Ніжні пачатак"
 
-#: src/ui/customize.ui:1181 src/ui/adw/customize.ui:606
+#: src/ui/customize.ui:1181 src/ui/adw/customize.ui:620
 msgid "Bottom Center"
 msgstr "Ніжні цэнтр"
 
-#: src/ui/customize.ui:1182 src/ui/adw/customize.ui:607
+#: src/ui/customize.ui:1182 src/ui/adw/customize.ui:621
 msgid "Bottom End"
 msgstr "Ніжняя частка"
+
+#: src/ui/customize.ui:1222 src/ui/adw/customize.ui:108
+msgid "Looking Glass Width"
+msgstr "Шырыня люстэрка"
+
+#: src/ui/customize.ui:1283 src/ui/adw/customize.ui:115
+msgid "Looking Glass Height"
+msgstr "Вышыня люстэрка"
 
 #: src/ui/icons.ui:19 src/ui/adw/icons.ui:6 src/ui/adw/icons.ui:11
 msgid "Icons"
@@ -302,19 +311,15 @@ msgstr "Значок кнопкі Дзеянні з этыкеткай"
 msgid "Only works when you have selected an icon for activities button"
 msgstr "Працуе толькі тады, калі вы выбралі значок для кнопкі дзейнасці"
 
-#: src/ui/main.ui:10 src/ui/adw/profile.ui:166 src/ui/adw/profile.ui:170
-msgid "Preferences Intro"
-msgstr "Уводныя параметры"
-
-#: src/ui/main.ui:16 src/ui/adw/profile.ui:189
+#: src/ui/main.ui:10 src/ui/adw/profile.ui:134
 msgid "Bug Report"
 msgstr "Справаздача пра памылкі"
 
-#: src/ui/main.ui:20 src/ui/adw/profile.ui:201
+#: src/ui/main.ui:14 src/ui/adw/profile.ui:146
 msgid "Support via Patreon"
 msgstr "Падтрымка праз Patreon"
 
-#: src/ui/main.ui:84 src/ui/adw/profile.ui:17
+#: src/ui/main.ui:78 src/ui/adw/profile.ui:17
 msgid "Select File"
 msgstr "Выберыце Файл"
 
@@ -322,15 +327,15 @@ msgstr "Выберыце Файл"
 msgid "No Matches"
 msgstr "Нічога не знойдзена"
 
-#: src/ui/override.ui:19 src/ui/adw/profile.ui:146
+#: src/ui/override.ui:19 src/ui/adw/profile.ui:110
 msgid "Override"
 msgstr "Перавызначыць"
 
-#: src/ui/override.ui:78 src/ui/adw/profile.ui:150
+#: src/ui/override.ui:78 src/ui/adw/profile.ui:114
 msgid "Shell Theme"
 msgstr "Тэма Shell"
 
-#: src/ui/override.ui:89 src/ui/adw/profile.ui:151
+#: src/ui/override.ui:89 src/ui/adw/profile.ui:115
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr ""
 "Перакрывае тэму абалонкі часткова, каб стварыць мінімальны працоўны стол"
@@ -468,36 +473,46 @@ msgstr "Працяжнік"
 msgid "Dash holds favorite and opened applications icons"
 msgstr "Працяжнік змяшчае абранкі абраных і адкрытых прыкладанняў"
 
-#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
+#: src/ui/visibility.ui:1101 src/ui/adw/visibility.ui:196
+msgid "Dash Separator"
+msgstr "Раздзяляльнік працяжніка"
+
+#: src/ui/visibility.ui:1112 src/ui/adw/visibility.ui:197
+msgid "Dash separator line that separates pin apps from unpin apps"
+msgstr ""
+"Раздзяляльная лінія працяжніка, якая аддзяляе прымацаваныя "
+"праграмы ад прымацаванняў"
+
+#: src/ui/visibility.ui:1178 src/ui/adw/visibility.ui:209
 msgid "Show Applications Button"
 msgstr "Паказаць кнопку прыкладанняў"
 
-#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
+#: src/ui/visibility.ui:1189 src/ui/adw/visibility.ui:210
 msgid "Button in dash that toggles applications list visibility"
 msgstr "Кнопка ў працяжніку, якая перамыкае бачнасць спісу прыкладанняў"
 
-#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
+#: src/ui/visibility.ui:1255 src/ui/adw/visibility.ui:222
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
+#: src/ui/visibility.ui:1266 src/ui/adw/visibility.ui:223
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "Гучнасць і яркасць на экране пры змене"
 
-#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
+#: src/ui/visibility.ui:1332 src/ui/adw/visibility.ui:235
 msgid "Workspace Popup"
 msgstr "Усплывальнае працоўнае месца"
 
-#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
+#: src/ui/visibility.ui:1343 src/ui/adw/visibility.ui:236
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr ""
 "Усплывальнае акно, якое з'явіцца на экране пры змене працоўнай вобласці"
 
-#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
+#: src/ui/visibility.ui:1409 src/ui/adw/visibility.ui:248
 msgid "Workspace Switcher"
 msgstr "Пераключальнік працоўнай прасторы"
 
-#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
+#: src/ui/visibility.ui:1420 src/ui/adw/visibility.ui:249
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
@@ -505,46 +520,49 @@ msgstr ""
 "Таксама маюцца на ўвазе эскізы працоўнай вобласці, якія вы бачыце ў аглядзе "
 "для выбару працоўнай вобласці"
 
-#: src/ui/visibility.ui:1408 src/ui/adw/visibility.ui:248
+#: src/ui/visibility.ui:1486 src/ui/adw/visibility.ui:261
 msgid "Workspaces App Grid"
 msgstr "Сетка прыкладанняў працоўных прастор"
 
-#: src/ui/visibility.ui:1419 src/ui/adw/visibility.ui:249
+#: src/ui/visibility.ui:1497 src/ui/adw/visibility.ui:262
 msgid "Workspace boxes in app grid"
 msgstr "Скрынкі працоўнай вобласці ў сетцы прыкладанняў"
 
-#: src/ui/visibility.ui:1485 src/ui/adw/visibility.ui:261
+#: src/ui/visibility.ui:1563 src/ui/adw/visibility.ui:274
 msgid "Window Picker Close Button"
 msgstr "Кнопка закрыцця выбару вокнаў"
 
-#: src/ui/visibility.ui:1496 src/ui/adw/visibility.ui:262
+#: src/ui/visibility.ui:1574 src/ui/adw/visibility.ui:275
 msgid "The close button on window preview in overview"
 msgstr "Кнопка закрыцця на папярэднім праглядзе акна"
 
-#: src/ui/visibility.ui:1562 src/ui/adw/visibility.ui:274
+#: src/ui/visibility.ui:1640 src/ui/adw/visibility.ui:287
 msgid "Window Picker Caption"
 msgstr "Подпіс да выбару вокнаў"
 
-#: src/ui/visibility.ui:1573 src/ui/adw/visibility.ui:275
+#: src/ui/visibility.ui:1651 src/ui/adw/visibility.ui:288
 msgid "The text under window preview in overview"
 msgstr "Агляд тэксту пад папярэднім праглядам акна"
 
-#: src/ui/visibility.ui:1639 src/ui/adw/visibility.ui:287
+#: src/ui/visibility.ui:1717 src/ui/adw/visibility.ui:300
 msgid "Background Menu"
 msgstr "Фонавае меню"
 
-#: src/ui/visibility.ui:1650 src/ui/adw/visibility.ui:288
+#: src/ui/visibility.ui:1728 src/ui/adw/visibility.ui:301
 msgid "When you right click on desktop background"
 msgstr "Пры націску правай кнопкай мышы на фоне працоўнага стала"
 
-#: src/ui/visibility.ui:1716 src/ui/adw/visibility.ui:300
+#: src/ui/visibility.ui:1794 src/ui/adw/visibility.ui:313
 msgid "Ripple Box"
 msgstr "Пульсацыйная скрынка"
 
-#: src/ui/visibility.ui:1727 src/ui/adw/visibility.ui:301
+#: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
 msgid "Hot corner animation effects"
 msgstr "Анімацыйныя эфекты гарачага кутка"
 
-#: src/ui/adw/profile.ui:185
+#: src/ui/adw/profile.ui:130
 msgid "Links"
 msgstr "Спасылкі"
+
+#~ msgid "Preferences Intro"
+#~ msgstr "Уводныя параметры"
