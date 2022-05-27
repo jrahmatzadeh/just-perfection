@@ -186,7 +186,6 @@ var Prefs = class
             }
         }
 
-        this._setListBoxSeparators();
         this._convertComboBoxTextToDropDown();
         this._fixIconObjects();
         this._setValues();
@@ -241,32 +240,6 @@ var Prefs = class
             if (this._gtkVersion === 3) {
                 window.resize(width, height);
             }
-        }
-    }
-
-    /**
-     * set separators for all list boxes
-     *
-     * @returns {void}
-     */
-    _setListBoxSeparators()
-    {
-        if (this._gtkVersion === 3 || this._isAdw) {
-            return;
-        }
-
-        let listboxes = [
-            'override',
-            'visibility',
-            'icons',
-            'behavior',
-            'customize',
-        ];
-        
-        for (let listbox of listboxes) {
-            let elementId = `${listbox}_listbox`;
-            let elm = this._builder.get_object(elementId);
-            elm.show_separators = true;
         }
     }
 

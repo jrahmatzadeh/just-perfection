@@ -25,6 +25,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Removed
 
 - Gesture API for GNOME Shell 40 and higher.
+- List box separators for GNOME Shell 40 and 41 (EOS).
 - Prefs intro.
 
 ## [20.0.0 Hayez] - 2022-04-01
