@@ -1,7 +1,6 @@
-# Just Perfection GNOME Shell Extension Simplfied Chinese Translation
-# Copyright (C) 2020-2021 just-perfection's COPYRIGHT HOLDER
-# This file is distributed under the same license as the Just Perfection package.
-# Just Perfection <justperfection.channel@gmail.com>, 2020.
+# Just Perfection GNOME Shell Extension Translation
+# Copyright (C) 2020-2022 Javad Rahmatzadeh
+# This file is distributed under GPL v3
 # Dingzhong Chen <wsxy162@gmail.com>, 2021.
 #
 msgid ""

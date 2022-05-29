@@ -1,6 +1,6 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Just Perfection
-# This file is distributed under the same license as the Just Perfection package.
+# Just Perfection GNOME Shell Extension Translation
+# Copyright (C) 2020-2022 Javad Rahmatzadeh
+# This file is distributed under GPL v3
 # Ícar Nin Solana <icar.nin@pm.me>, 2021.
 #
 msgid ""

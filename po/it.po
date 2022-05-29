@@ -1,7 +1,6 @@
 # Just Perfection GNOME Shell Extension Translation
-# Copyright (C) 2020
+# Copyright (C) 2020-2022 Javad Rahmatzadeh
 # This file is distributed under GPL v3
-# Just Perfection <justperfection.channel@gmail.com>, 2020.
 # Andrea Brandi <git@andreabrandi.com>, 2022.
 #
 msgid ""
