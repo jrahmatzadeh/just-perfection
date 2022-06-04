@@ -390,4 +390,3 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Hide workspace switcher.
 - Hot corner to toggle overview visibility.
 
-

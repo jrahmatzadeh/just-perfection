@@ -3039,7 +3039,7 @@ var API = class
     {
         let lookingGlass = this._main.createLookingGlass();
 
-        return [ lookingGlass.width, lookingGlass.height ];
+        return [lookingGlass.width, lookingGlass.height];
     }
 
     /**
@@ -3099,9 +3099,9 @@ var API = class
             let keyboardHeight = this._main.layoutManager.keyboardBox.height;
             let availableHeight = monitorInfo.height - keyboardHeight;
             let dialogHeight
-            =   (height !== null)
-            ?   Math.min(monitorInfo.height * height, availableHeight * 0.9)
-            :   originalHeight;
+            = (height !== null)
+            ? Math.min(monitorInfo.height * height, availableHeight * 0.9)
+            : originalHeight;
 
             let hiddenY = lookingGlass._hiddenY + currentHeight - dialogHeight;
             lookingGlass.set_y(hiddenY);

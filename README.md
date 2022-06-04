@@ -109,3 +109,4 @@ Or support via [Patreon](https://www.patreon.com/justperfection).
 ## License
 
 This Extension has been released under The **GNU General Public License v3.0**.
+
