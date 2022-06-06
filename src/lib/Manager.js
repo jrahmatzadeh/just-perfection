@@ -257,6 +257,10 @@ var Manager = class
         this._settings.connect('changed::looking-glass-height', () => {
             this._applyLookingGlassSize(false);
         });
+
+        this._settings.connect('changed::osd-position', () => {
+            this._applyOSDPosition(false);
+        });
     }
 
     /**
@@ -317,6 +321,7 @@ var Manager = class
         this._applyCalendar(false);
         this._applyDashSeparator(false);
         this._applyLookingGlassSize(false);
+        this._applyOSDPosition(false);
     }
 
     /**
@@ -377,6 +382,7 @@ var Manager = class
         this._applyCalendar(true);
         this._applyDashSeparator(true);
         this._applyLookingGlassSize(true);
+        this._applyOSDPosition(true);
     }
 
     /**
@@ -1293,6 +1299,24 @@ var Manager = class
             let width = (widthSize !== 0) ? widthSize / 10 : null;
             let height = (heightSize !== 0) ? heightSize / 10 : null;
             this._api.lookingGlassSetSize(width, height);
+        }
+    }
+
+    /**
+     * apply osd position settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyOSDPosition(forceOriginal)
+    {
+        let pos = this._settings.get_int('osd-position');
+
+        if (forceOriginal || pos === 0) {
+            this._api.osdPositionSetDefault();
+        } else {
+            this._api.osdPositionSet(pos - 1);
         }
     }
 }

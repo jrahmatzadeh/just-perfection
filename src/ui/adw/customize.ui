@@ -104,6 +104,14 @@
         </child>
 
         <child>
+          <object class="AdwComboRow" id="osd_position_row">
+            <property name="title" translatable="yes">OSD Position</property>
+            <property name="subtitle" translatable="yes">OSD position when on screen display shows up on the screen</property>
+            <property name="model">osd_position_model</property>
+          </object>
+        </child>
+
+        <child>
           <object class="AdwComboRow" id="looking_glass_width_row">
             <property name="title" translatable="yes">Looking Glass Width</property>
             <property name="model">looking_glass_width_model</property>
@@ -619,6 +627,21 @@
       <item translatable="yes">Bottom Start</item>
       <item translatable="yes">Bottom Center</item>
       <item translatable="yes">Bottom End</item>
+    </items>
+  </object>
+
+  <object class="GtkStringList" id="osd_position_model">
+    <items>
+      <item translatable="yes">Default</item>
+      <item translatable="yes">Top Start</item>
+      <item translatable="yes">Top Center</item>
+      <item translatable="yes">Top End</item>
+      <item translatable="yes">Bottom Start</item>
+      <item translatable="yes">Bottom Center</item>
+      <item translatable="yes">Bottom End</item>
+      <item translatable="yes">Center Start</item>
+      <item translatable="yes">Center</item>
+      <item translatable="yes">Center End</item>
     </items>
   </object>
 

@@ -32,6 +32,7 @@ This extension allows you to do the following:
 | Keyboard Layout Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Looking Glass Size                                   | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Notification Banner Position                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| OSD Position                                         | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: |
 | OSD Visibility                                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Panel Arrow Visibility                               | :black_circle: | :black_circle: | :white_circle: | :white_circle: | :white_circle: |
 | Panel Button Padding Size                            | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |

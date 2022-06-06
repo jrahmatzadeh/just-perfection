@@ -2753,7 +2753,7 @@ var API = class
      *
      * @returns {void}
      */
-    osdSetDefaultPosition()
+    osdPositionSetDefault()
     {
         if (this._shellVersion < 42) {
             return;
@@ -2795,7 +2795,7 @@ var API = class
      *
      * @returns {void}
      */
-    osdSetPosition(pos)
+    osdPositionSet(pos)
     {
         if (this._shellVersion < 42) {
             return;

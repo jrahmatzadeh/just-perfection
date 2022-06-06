@@ -1192,6 +1192,95 @@
                 
               </object>
             </child>
+            
+            <child>
+              <object class="GtkListBoxRow" id="osd_position_row">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                
+                <child>
+                  <object class="GtkBox" id="osd_position_box">
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="orientation">vertical</property>
+                    
+                    <child>
+                      <object class="GtkBox" id="osd_position_box2">
+                        <property name="visible">True</property>
+                        <property name="can-focus">False</property>
+                        <property name="spacing">32</property>
+                        
+                        <child>
+                          <object class="GtkBox">
+                            <property name="visible">True</property>
+                            <property name="can-focus">True</property>
+                            <property name="orientation">vertical</property>
+                            
+                            <child>
+                              <object class="GtkLabel" id="osd_position_txt">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="valign">center</property>
+                                <property name="label" translatable="yes">OSD Position</property>
+                                <property name="xalign">0</property>
+                                <property name="hexpand">1</property>
+                              </object>
+                            </child>
+                          
+                            <child>
+                              <object class="GtkLabel">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="valign">center</property>
+                                <property name="label" translatable="yes">OSD position when on screen display shows up on the screen</property>
+                                <property name="xalign">0</property>
+                                <property name="wrap">True</property>
+                                <property name="width-chars">0</property>
+                                <property name="margin-top">12</property>
+                                <style>
+                                  <class name="dim-label"/>
+                                </style>
+                                <attributes>
+                                  <attribute name="scale" value="0.9"/>
+                                </attributes>
+                              </object>
+                            </child>
+                            
+                          </object>
+                        </child>
+                        
+                        <child>
+                          <object class="GtkComboBoxText" id="osd_position_comboboxtext">
+                            <property name="visible">True</property>
+                            <property name="can-focus">True</property>
+                            <property name="valign">center</property>
+                            <items>
+                              <item translatable="yes">Default</item>
+                              <item translatable="yes">Top Start</item>
+                              <item translatable="yes">Top Center</item>
+                              <item translatable="yes">Top End</item>
+                              <item translatable="yes">Bottom Start</item>
+                              <item translatable="yes">Bottom Center</item>
+                              <item translatable="yes">Bottom End</item>
+                              <item translatable="yes">Center Start</item>
+                              <item translatable="yes">Center</item>
+                              <item translatable="yes">Center End</item>
+                            </items>
+                          </object>
+                        </child>
+                        
+                      </object>
+                    </child>
+                    
+                  </object>
+                </child>
+                
+              </object>
+            </child>
 
             <child>
               <object class="GtkListBoxRow" id="looking_glass_width_row">
