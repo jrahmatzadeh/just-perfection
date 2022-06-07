@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-26 11:20-0700\n"
+"POT-Creation-Date: 2022-06-07 06:53-0700\n"
 "PO-Revision-Date: 2022-03-25 20:52+0100\n"
 "Last-Translator: Andrea Brandi <git@andreabrandi.com>\n"
 "Language-Team: Italian <git@andreabrandi.com>\n"
@@ -116,9 +116,9 @@ msgstr ""
 
 #: src/ui/customize.ui:109 src/ui/customize.ui:222 src/ui/customize.ui:334
 #: src/ui/customize.ui:446 src/ui/customize.ui:559 src/ui/customize.ui:672
-#: src/ui/adw/customize.ui:127 src/ui/adw/customize.ui:195
-#: src/ui/adw/customize.ui:261 src/ui/adw/customize.ui:327
-#: src/ui/adw/customize.ui:394 src/ui/adw/customize.ui:461
+#: src/ui/adw/customize.ui:135 src/ui/adw/customize.ui:203
+#: src/ui/adw/customize.ui:269 src/ui/adw/customize.ui:335
+#: src/ui/adw/customize.ui:402 src/ui/adw/customize.ui:469
 msgid "By Shell Theme"
 msgstr "Predefinito"
 
@@ -142,7 +142,7 @@ msgstr "Spaziatura tra gli indicatori del pannello"
 msgid "Panel Corner Size"
 msgstr "Dimensione angoli del pannello"
 
-#: src/ui/customize.ui:673 src/ui/adw/customize.ui:462
+#: src/ui/customize.ui:673 src/ui/adw/customize.ui:470
 msgid "No Corner"
 msgstr "Nessun angolo"
 
@@ -150,11 +150,11 @@ msgstr "Nessun angolo"
 msgid "Panel Position"
 msgstr "Posizione del pannello"
 
-#: src/ui/customize.ui:785 src/ui/adw/customize.ui:528
+#: src/ui/customize.ui:785 src/ui/adw/customize.ui:536
 msgid "Top"
 msgstr "Sopra"
 
-#: src/ui/customize.ui:786 src/ui/adw/customize.ui:529
+#: src/ui/customize.ui:786 src/ui/adw/customize.ui:537
 msgid "Bottom"
 msgstr "Sotto"
 
@@ -162,15 +162,16 @@ msgstr "Sotto"
 msgid "Clock Menu Position"
 msgstr "Posizione menu dell'orologio"
 
-#: src/ui/customize.ui:838 src/ui/adw/customize.ui:535
+#: src/ui/customize.ui:838 src/ui/customize.ui:1270 src/ui/adw/customize.ui:543
+#: src/ui/adw/customize.ui:643
 msgid "Center"
 msgstr "Centro"
 
-#: src/ui/customize.ui:839 src/ui/adw/customize.ui:536
+#: src/ui/customize.ui:839 src/ui/adw/customize.ui:544
 msgid "Right"
 msgstr "Destra"
 
-#: src/ui/customize.ui:840 src/ui/adw/customize.ui:537
+#: src/ui/customize.ui:840 src/ui/adw/customize.ui:545
 msgid "Left"
 msgstr "Sinistra"
 
@@ -182,10 +183,11 @@ msgstr "Spostamento posizione del menu dell'orologio"
 msgid "Workspace Switcher Size"
 msgstr "Dimensione selettore dell'area di lavoro"
 
-#: src/ui/customize.ui:953 src/ui/customize.ui:1094 src/ui/customize.ui:1234
-#: src/ui/customize.ui:1295 src/ui/profile.ui:57 src/ui/adw/customize.ui:558
-#: src/ui/adw/customize.ui:607 src/ui/adw/customize.ui:627
-#: src/ui/adw/customize.ui:642 src/ui/adw/profile.ui:63
+#: src/ui/customize.ui:953 src/ui/customize.ui:1094 src/ui/customize.ui:1262
+#: src/ui/customize.ui:1323 src/ui/customize.ui:1384 src/ui/profile.ui:57
+#: src/ui/adw/customize.ui:566 src/ui/adw/customize.ui:615
+#: src/ui/adw/customize.ui:635 src/ui/adw/customize.ui:650
+#: src/ui/adw/customize.ui:665 src/ui/adw/profile.ui:63
 msgid "Default"
 msgstr "Predefinito"
 
@@ -193,35 +195,35 @@ msgstr "Predefinito"
 msgid "Animation"
 msgstr "Animazione"
 
-#: src/ui/customize.ui:1035 src/ui/adw/customize.ui:594
+#: src/ui/customize.ui:1035 src/ui/adw/customize.ui:602
 msgid "No Animation"
 msgstr "Nessuna"
 
-#: src/ui/customize.ui:1036 src/ui/adw/customize.ui:595
+#: src/ui/customize.ui:1036 src/ui/adw/customize.ui:603
 msgid "Default Speed"
 msgstr "Predefinita"
 
-#: src/ui/customize.ui:1037 src/ui/adw/customize.ui:596
+#: src/ui/customize.ui:1037 src/ui/adw/customize.ui:604
 msgid "Fastest"
 msgstr "Molto veloce"
 
-#: src/ui/customize.ui:1038 src/ui/adw/customize.ui:597
+#: src/ui/customize.ui:1038 src/ui/adw/customize.ui:605
 msgid "Faster"
 msgstr "Più veloce"
 
-#: src/ui/customize.ui:1039 src/ui/adw/customize.ui:598
+#: src/ui/customize.ui:1039 src/ui/adw/customize.ui:606
 msgid "Fast"
 msgstr "Veloce"
 
-#: src/ui/customize.ui:1040 src/ui/adw/customize.ui:599
+#: src/ui/customize.ui:1040 src/ui/adw/customize.ui:607
 msgid "Slow"
 msgstr "Lenta"
 
-#: src/ui/customize.ui:1041 src/ui/adw/customize.ui:600
+#: src/ui/customize.ui:1041 src/ui/adw/customize.ui:608
 msgid "Slower"
 msgstr "Più lenta"
 
-#: src/ui/customize.ui:1042 src/ui/adw/customize.ui:601
+#: src/ui/customize.ui:1042 src/ui/adw/customize.ui:609
 msgid "Slowest"
 msgstr "Molto lenta"
 
@@ -239,35 +241,59 @@ msgstr ""
 "Posizione del popup di notifica quando le notifiche vengono visualizzate "
 "sullo schermo"
 
-#: src/ui/customize.ui:1177 src/ui/adw/customize.ui:616
+#: src/ui/customize.ui:1177 src/ui/customize.ui:1263
+#: src/ui/adw/customize.ui:624 src/ui/adw/customize.ui:636
 msgid "Top Start"
 msgstr "In alto a sinistra"
 
-#: src/ui/customize.ui:1178 src/ui/adw/customize.ui:617
+#: src/ui/customize.ui:1178 src/ui/customize.ui:1264
+#: src/ui/adw/customize.ui:625 src/ui/adw/customize.ui:637
 msgid "Top Center"
 msgstr "In alto al centro"
 
-#: src/ui/customize.ui:1179 src/ui/adw/customize.ui:618
+#: src/ui/customize.ui:1179 src/ui/customize.ui:1265
+#: src/ui/adw/customize.ui:626 src/ui/adw/customize.ui:638
 msgid "Top End"
 msgstr "In alto a destra"
 
-#: src/ui/customize.ui:1180 src/ui/adw/customize.ui:619
+#: src/ui/customize.ui:1180 src/ui/customize.ui:1266
+#: src/ui/adw/customize.ui:627 src/ui/adw/customize.ui:639
 msgid "Bottom Start"
 msgstr "In basso a sinistra"
 
-#: src/ui/customize.ui:1181 src/ui/adw/customize.ui:620
+#: src/ui/customize.ui:1181 src/ui/customize.ui:1267
+#: src/ui/adw/customize.ui:628 src/ui/adw/customize.ui:640
 msgid "Bottom Center"
 msgstr "In basso al centro"
 
-#: src/ui/customize.ui:1182 src/ui/adw/customize.ui:621
+#: src/ui/customize.ui:1182 src/ui/customize.ui:1268
+#: src/ui/adw/customize.ui:629 src/ui/adw/customize.ui:641
 msgid "Bottom End"
 msgstr "In basso a destra"
 
-#: src/ui/customize.ui:1222 src/ui/adw/customize.ui:108
+#: src/ui/customize.ui:1228 src/ui/adw/customize.ui:108
+msgid "OSD Position"
+msgstr "Posizione OSD"
+
+#: src/ui/customize.ui:1239 src/ui/adw/customize.ui:109
+msgid "OSD position when on screen display shows up on the screen"
+msgstr ""
+"Posizione dell'OSD quando la visualizzazione sullo schermo "
+"viene visualizzata sullo schermo"
+
+#: src/ui/customize.ui:1269 src/ui/adw/customize.ui:642
+msgid "Center Start"
+msgstr "Inizio centro"
+
+#: src/ui/customize.ui:1271 src/ui/adw/customize.ui:644
+msgid "Center End"
+msgstr "Centro Fine"
+
+#: src/ui/customize.ui:1311 src/ui/adw/customize.ui:116
 msgid "Looking Glass Width"
 msgstr "Larghezza dello specchio"
 
-#: src/ui/customize.ui:1283 src/ui/adw/customize.ui:115
+#: src/ui/customize.ui:1372 src/ui/adw/customize.ui:123
 msgid "Looking Glass Height"
 msgstr "Altezza dello specchio"
 
@@ -488,8 +514,8 @@ msgstr "Separatore di trattino"
 #: src/ui/visibility.ui:1112 src/ui/adw/visibility.ui:197
 msgid "Dash separator line that separates pin apps from unpin apps"
 msgstr ""
-"Linea di separazione del trattino che separa le app di blocco "
-"dalle app di sblocco"
+"Linea di separazione del trattino che separa le app di blocco dalle app di "
+"sblocco"
 
 #: src/ui/visibility.ui:1178 src/ui/adw/visibility.ui:209
 msgid "Show Applications Button"
