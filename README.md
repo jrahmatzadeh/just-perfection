@@ -1,6 +1,6 @@
 # Just Perfection GNOME Shell Extension
 
-![Just Perfection GNOME Shell Extension Logo](data/imgs/logo.svg)
+![Just Perfection GNOME Shell Extension](data/imgs/intro.svg)
 
 ## Features
 
