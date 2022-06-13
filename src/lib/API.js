@@ -71,6 +71,7 @@ var API = class
      *   'LookingGlass' reference to ui::lookingGlass
      *   'MessageTray' reference to ui::messageTray
      *   'OSDWindow' reference to ui::osdTray
+     *   'WindowMenu' reference to ui::windowMenu
      *   'St' reference to St
      *   'Gio' reference to Gio
      *   'GLib' reference to GLib
@@ -97,6 +98,7 @@ var API = class
         this._lookingGlass = dependencies['LookingGlass'] || null;
         this._messageTray = dependencies['MessageTray'] || null;
         this._osdWindow = dependencies['OSDWindow'] || null;
+        this._windowMenu = dependencies['WindowMenu'] || null;
         this._st = dependencies['St'] || null;
         this._gio = dependencies['Gio'] || null;
         this._glib = dependencies['GLib'] || null;
@@ -3116,6 +3118,55 @@ var API = class
                     this.lookingGlassSetSize(width, height);
             });
         }
+    }
+
+    /**
+     * show screenshot in window menu
+     *
+     * @returns {void}
+     */
+    screenshotInWindowMenuShow()
+    {
+        if (this._shellVersion < 42) {
+            return;
+        }
+
+        let windowMenuProto = this._windowMenu.WindowMenu.prototype;
+
+        if (windowMenuProto._oldBuildMenu === undefined) {
+            return;
+        }
+
+        windowMenuProto._buildMenu = this._originals['WindowMenubuildMenu'];
+
+        delete(windowMenuProto._oldBuildMenu);
+    }
+
+    /**
+     * hide screenshot in window menu
+     *
+     * @returns {void}
+     */
+    screenshotInWindowMenuHide()
+    {
+        if (this._shellVersion < 42) {
+            return;
+        }
+
+        let windowMenuProto = this._windowMenu.WindowMenu.prototype;
+
+        if (!this._originals['WindowMenubuildMenu']) {
+            this._originals['WindowMenubuildMenu'] = windowMenuProto._buildMenu;
+        }
+
+        if (windowMenuProto._oldBuildMenu === undefined) {
+            windowMenuProto._oldBuildMenu = this._originals['WindowMenubuildMenu'];
+        }
+
+        windowMenuProto._buildMenu = function (window) {
+            this._oldBuildMenu(window);
+            this.firstMenuItem.hide();
+        };
     }
 }
 
