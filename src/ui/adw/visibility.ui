@@ -320,6 +320,19 @@
             </child>
           </object>
         </child>
+        
+        <child>
+          <object class="AdwActionRow" id="window_menu_take_screenshot_button_row">
+            <property name="title" translatable="yes">Take Screenshot button in Window Menu</property>
+            <property name="subtitle" translatable="yes">Take screenshot button in title bar right click menu</property>
+            <property name="activatable-widget">window_menu_take_screenshot_button_switch</property>
+            <child>
+              <object class="GtkSwitch" id="window_menu_take_screenshot_button_switch">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
 
       </object>
     </child>

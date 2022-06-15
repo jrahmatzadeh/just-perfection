@@ -22,6 +22,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Dash separator visibility.
 - Looking glass size by [@AdvendraDeswanta](https://gitlab.gnome.org/AdvendraDeswanta).
 - OSD position.
+- Take screenshot button in window menu visibility.
 
 ### Removed
 

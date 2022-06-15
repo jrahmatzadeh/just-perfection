@@ -261,6 +261,10 @@ var Manager = class
         this._settings.connect('changed::osd-position', () => {
             this._applyOSDPosition(false);
         });
+
+        this._settings.connect('changed::window-menu-take-screenshot-button', () => {
+            this._applyWindowMenuTakeScreenshotButton(false);
+        });
     }
 
     /**
@@ -322,6 +326,7 @@ var Manager = class
         this._applyDashSeparator(false);
         this._applyLookingGlassSize(false);
         this._applyOSDPosition(false);
+        this._applyWindowMenuTakeScreenshotButton(false);
     }
 
     /**
@@ -383,6 +388,7 @@ var Manager = class
         this._applyDashSeparator(true);
         this._applyLookingGlassSize(true);
         this._applyOSDPosition(true);
+        this._applyWindowMenuTakeScreenshotButton(true);
     }
 
     /**
@@ -1317,6 +1323,24 @@ var Manager = class
             this._api.osdPositionSetDefault();
         } else {
             this._api.osdPositionSet(pos - 1);
+        }
+    }
+    
+    /**
+     * apply window menu take screenshot button settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyWindowMenuTakeScreenshotButton(forceOriginal)
+    {
+        let status = this._settings.get_boolean('window-menu-take-screenshot-button');
+
+        if (forceOriginal || status) {
+            this._api.screenshotInWindowMenuShow();
+        } else {
+            this._api.screenshotInWindowMenuHide();
         }
     }
 }

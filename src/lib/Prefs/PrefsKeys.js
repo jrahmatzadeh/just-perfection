@@ -328,6 +328,18 @@ var PrefsKeys = class
         );
 
         this.setKey(
+            'visibility',
+            'window-menu-take-screenshot-button',
+            'GtkSwitch',
+            this._shellVersion >= 42,
+            {
+                default: true,
+                minimal: true,
+                superminimal: true,
+            }
+        );
+
+        this.setKey(
             'icons',
             'app-menu-icon',
             'GtkSwitch',

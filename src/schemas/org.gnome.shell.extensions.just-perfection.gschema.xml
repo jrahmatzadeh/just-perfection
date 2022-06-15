@@ -363,6 +363,12 @@
       <description>OSD Position Status</description>
     </key>
     
+    <key type="b" name="window-menu-take-screenshot-button">
+      <default>true</default>
+      <summary>Window Menu Take Screenshot Button Visibility</summary>
+      <description>Window Menu Take Screenshot Button Visibility Status</description>
+    </key>
+    
   </schema>
   
 </schemalist>
