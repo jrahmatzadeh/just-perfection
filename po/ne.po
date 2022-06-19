@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-07 06:53-0700\n"
+"POT-Creation-Date: 2022-06-19 03:29-0700\n"
 "PO-Revision-Date: 2021-02-05 14:43+0545\n"
 "Last-Translator: 1BA4 <nabin7076@protonmail.com>\n"
 "Language-Team: Nepali <>\n"
@@ -575,6 +575,14 @@ msgstr "लहर बक्स"
 #: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
 msgid "Hot corner animation effects"
 msgstr "तातो कुना एनीमेशन प्रभाव"
+
+#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
+msgid "Take Screenshot button in Window Menu"
+msgstr "विन्डो मेनुमा स्क्रिनसट बटन लिनुहोस्"
+
+#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
+msgid "Take screenshot button in title bar right click menu"
+msgstr "शीर्षक पट्टीमा स्क्रिनसट बटन लिनुहोस् राइट क्लिक मेनु"
 
 #: src/ui/adw/profile.ui:130
 msgid "Links"

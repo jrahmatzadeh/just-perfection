@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-07 06:53-0700\n"
+"POT-Creation-Date: 2022-06-19 03:29-0700\n"
 "PO-Revision-Date: 2021-09-04 20:27-0500\n"
 "Last-Translator: Diego Iván <diegoivan.mae@gmail.com>\n"
 "Language-Team: Spanish\n"
@@ -591,6 +591,15 @@ msgstr "Caja de ondulación"
 #: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
 msgid "Hot corner animation effects"
 msgstr "Efectos de animación de esquina caliente"
+
+#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
+msgid "Take Screenshot button in Window Menu"
+msgstr "Botón Tomar captura de pantalla en el menú Ventana"
+
+#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
+msgid "Take screenshot button in title bar right click menu"
+msgstr ""
+"Botón de captura de pantalla en el menú contextual de la barra de título"
 
 #: src/ui/adw/profile.ui:130
 msgid "Links"

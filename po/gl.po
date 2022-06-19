@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-07 06:53-0700\n"
+"POT-Creation-Date: 2022-06-19 03:29-0700\n"
 "PO-Revision-Date: 2021-11-22 20:15+0100\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <Proxecto Trasno <proxecto@trasno.gal>>\n"
@@ -596,6 +596,16 @@ msgstr "Efecto de ondulación na esquina activa"
 #: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
 msgid "Hot corner animation effects"
 msgstr "Indica se mostrar un efecto de ondulación na esquina activa"
+
+#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
+msgid "Take Screenshot button in Window Menu"
+msgstr "Botón Facer captura de pantalla no menú Ventá"
+
+#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
+msgid "Take screenshot button in title bar right click menu"
+msgstr ""
+"Botón de captura de pantalla na barra de título do menú "
+"do botón dereito do rato"
 
 #: src/ui/adw/profile.ui:130
 msgid "Links"

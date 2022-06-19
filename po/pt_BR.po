@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-07 06:53-0700\n"
+"POT-Creation-Date: 2022-06-19 03:29-0700\n"
 "PO-Revision-Date: 2021-03-10 16:11-0300\n"
 "Last-Translator: zelling <zelling@zelling-desktop>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
@@ -583,6 +583,14 @@ msgstr "Ripple Box"
 #: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
 msgid "Hot corner animation effects"
 msgstr "Efeitos de animação de canto quente"
+
+#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
+msgid "Take Screenshot button in Window Menu"
+msgstr "Botão Tirar captura de tela no menu da janela"
+
+#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
+msgid "Take screenshot button in title bar right click menu"
+msgstr "Botão de captura de tela no menu do botão direito da barra de título"
 
 #: src/ui/adw/profile.ui:130
 msgid "Links"

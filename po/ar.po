@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-07 06:53-0700\n"
+"POT-Creation-Date: 2022-06-19 03:29-0700\n"
 "PO-Revision-Date: 2020-12-18 04:15-0800\n"
 "Last-Translator: Kareem Abduljaleel <karemjaleel34@gmail.com>\n"
 "Language-Team: Arabic\n"
@@ -572,6 +572,14 @@ msgstr "صندوق تموج"
 #: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
 msgid "Hot corner animation effects"
 msgstr "تأثيرات الرسوم المتحركة في الزاوية الساخنة"
+
+#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
+msgid "Take Screenshot button in Window Menu"
+msgstr "أخذ زر لقطة الشاشة في قائمة النافذة"
+
+#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
+msgid "Take screenshot button in title bar right click menu"
+msgstr "التقط زر لقطة شاشة في شريط العنوان ، انقر بزر الماوس الأيمن فوق القائمة"
 
 #: src/ui/adw/profile.ui:130
 msgid "Links"

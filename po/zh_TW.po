@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-07 06:53-0700\n"
+"POT-Creation-Date: 2022-06-19 03:29-0700\n"
 "PO-Revision-Date: 2021-06-10 10:43+0800\n"
 "Last-Translator: r0930514 <r0930514@gmail.com>\n"
 "Language-Team: \n"
@@ -568,6 +568,14 @@ msgstr "波紋盒"
 #: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
 msgid "Hot corner animation effects"
 msgstr "熱角動畫效果"
+
+#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
+msgid "Take Screenshot button in Window Menu"
+msgstr "窗口菜單中的“截屏”按鈕"
+
+#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
+msgid "Take screenshot button in title bar right click menu"
+msgstr "標題欄右鍵菜單中的截圖按鈕"
 
 #: src/ui/adw/profile.ui:130
 msgid "Links"

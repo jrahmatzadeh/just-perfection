@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-07 06:53-0700\n"
+"POT-Creation-Date: 2022-06-19 03:29-0700\n"
 "PO-Revision-Date: 2020-12-18 04:55-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: German\n"
@@ -273,8 +273,7 @@ msgstr "OSD-Position"
 
 #: src/ui/customize.ui:1239 src/ui/adw/customize.ui:109
 msgid "OSD position when on screen display shows up on the screen"
-msgstr ""
-"OSD-Position, wenn die Bildschirmanzeige auf dem Bildschirm erscheint"
+msgstr "OSD-Position, wenn die Bildschirmanzeige auf dem Bildschirm erscheint"
 
 #: src/ui/customize.ui:1269 src/ui/adw/customize.ui:642
 msgid "Center Start"
@@ -590,6 +589,15 @@ msgstr "Ripple-Box"
 #: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
 msgid "Hot corner animation effects"
 msgstr "Animationseffekte für heiße Ecken"
+
+#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
+msgid "Take Screenshot button in Window Menu"
+msgstr "Screenshot machen im Fenstermenü"
+
+#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
+msgid "Take screenshot button in title bar right click menu"
+msgstr ""
+"Schaltfläche „Screenshot erstellen“ im Rechtsklickmenü der Titelleiste"
 
 #: src/ui/adw/profile.ui:130
 msgid "Links"
