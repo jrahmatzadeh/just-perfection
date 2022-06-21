@@ -1494,11 +1494,7 @@ var API = class
      */
     isLocked()
     {
-        if (this._main.sessionMode.currentMode === 'unlock-dialog') {
-            return true;
-        }
-
-        return false;
+        return this._main.sessionMode.isLocked;
     }
 
     /**
