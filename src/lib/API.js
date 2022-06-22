@@ -72,6 +72,7 @@ var API = class
      *   'MessageTray' reference to ui::messageTray
      *   'OSDWindow' reference to ui::osdTray
      *   'WindowMenu' reference to ui::windowMenu
+     *   'AltTab' reference to ui::altTab
      *   'St' reference to St
      *   'Gio' reference to Gio
      *   'GLib' reference to GLib
@@ -99,6 +100,7 @@ var API = class
         this._messageTray = dependencies['MessageTray'] || null;
         this._osdWindow = dependencies['OSDWindow'] || null;
         this._windowMenu = dependencies['WindowMenu'] || null;
+        this._altTab = dependencies['AltTab'] || null;
         this._st = dependencies['St'] || null;
         this._gio = dependencies['Gio'] || null;
         this._glib = dependencies['GLib'] || null;
@@ -3163,6 +3165,40 @@ var API = class
             this._oldBuildMenu(window);
             this.firstMenuItem.hide();
         };
+    }
+
+    /**
+     * set default alt tab preview window size
+     *
+     * @returns {void}
+     */
+    altTabWindowPreviewSetDefaultSize()
+    {
+        if (!this._originals['altTabWindowPreviewSize']) {
+            return;
+        }
+
+        this._altTab.WINDOW_PREVIEW_SIZE = this._originals['altTabWindowPreviewSize'];
+    }
+
+    /**
+     * set alt tab preview window size
+     *
+     * @param {number} size 1-512
+     *
+     * @returns {void}
+     */
+    altTabWindowPreviewSetSize(size)
+    {
+        if (size < 1 || size > 512) {
+            return;
+        }
+
+        if (!this._originals['altTabWindowPreviewSize']) {
+            this._originals['altTabWindowPreviewSize'] = this._altTab.WINDOW_PREVIEW_SIZE;
+        }
+
+        this._altTab.WINDOW_PREVIEW_SIZE = size;
     }
 }
 
