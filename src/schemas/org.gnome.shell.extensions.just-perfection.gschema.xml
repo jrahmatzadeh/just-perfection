@@ -368,6 +368,13 @@
       <summary>Window Menu Take Screenshot Button Visibility</summary>
       <description>Window Menu Take Screenshot Button Visibility Status</description>
     </key>
+
+    <key type="i" name="alt-tab-window-preview-size">
+      <default>0</default>
+      <range min="0" max="512"/>
+      <summary>0 means default size</summary>
+      <description>Alt Tab Window Preview Size</description>
+    </key>
     
   </schema>
   

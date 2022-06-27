@@ -265,6 +265,10 @@ var Manager = class
         this._settings.connect('changed::window-menu-take-screenshot-button', () => {
             this._applyWindowMenuTakeScreenshotButton(false);
         });
+
+        this._settings.connect('changed::alt-tab-window-preview-size', () => {
+            this._applyAltTabWindowPreviewSize(false);
+        });
     }
 
     /**
@@ -327,6 +331,7 @@ var Manager = class
         this._applyLookingGlassSize(false);
         this._applyOSDPosition(false);
         this._applyWindowMenuTakeScreenshotButton(false);
+        this._applyAltTabWindowPreviewSize(false);
     }
 
     /**
@@ -389,6 +394,7 @@ var Manager = class
         this._applyLookingGlassSize(true);
         this._applyOSDPosition(true);
         this._applyWindowMenuTakeScreenshotButton(true);
+        this._applyAltTabWindowPreviewSize(true);
     }
 
     /**
@@ -1341,6 +1347,24 @@ var Manager = class
             this._api.screenshotInWindowMenuShow();
         } else {
             this._api.screenshotInWindowMenuHide();
+        }
+    }
+
+    /**
+     * apply alt tab window preview size settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyAltTabWindowPreviewSize(forceOriginal)
+    {
+        let size = this._settings.get_int('alt-tab-window-preview-size');
+
+        if (forceOriginal || size === 0) {
+            this._api.altTabWindowPreviewSetDefaultSize();
+        } else {
+            this._api.altTabWindowPreviewSetSize(size);
         }
     }
 }

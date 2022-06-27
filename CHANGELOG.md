@@ -20,6 +20,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ### Added
 
+- Alt Tab window preview size.
 - Dash separator visibility.
 - Looking glass size by [@AdvendraDeswanta](https://gitlab.gnome.org/AdvendraDeswanta).
 - OSD position.

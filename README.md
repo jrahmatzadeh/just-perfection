@@ -11,6 +11,7 @@ This extension allows you to do the following:
 | Accessibility Menu Visibility                        | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Activities Button Icon Visibility                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Activities button Visibility                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Alt Tab Window Preview Size                          | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Always Show Workspace Switcher on Dynamic Workspaces | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Animation Speed or Disable it                        | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | App Gesture                                          | :black_circle: | :black_circle: | :white_circle: | :white_circle: | :white_circle: |

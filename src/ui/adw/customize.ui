@@ -112,6 +112,13 @@
         </child>
 
         <child>
+          <object class="AdwComboRow" id="alt_tab_window_preview_size_row">
+            <property name="title" translatable="yes">Alt Tab Window Preview Size</property>
+            <property name="model">alt_tab_window_preview_size_model</property>
+          </object>
+        </child>
+
+        <child>
           <object class="AdwComboRow" id="looking_glass_width_row">
             <property name="title" translatable="yes">Looking Glass Width</property>
             <property name="model">looking_glass_width_model</property>
@@ -642,6 +649,17 @@
       <item translatable="yes">Center Start</item>
       <item translatable="yes">Center</item>
       <item translatable="yes">Center End</item>
+    </items>
+  </object>
+
+  <object class="GtkStringList" id="alt_tab_window_preview_size_model">
+    <items>
+      <item translatable="yes">Default</item>
+      <item>32</item>
+      <item>64</item>
+      <item>128</item>
+      <item>256</item>
+      <item>512</item>
     </items>
   </object>
 

@@ -728,6 +728,25 @@ var PrefsKeys = class
             }
         );
 
+        this.setKey(
+            'customize',
+            'alt-tab-window-preview-size',
+            'GtkComboBoxText',
+            true,
+            {
+                default: 0,
+                minimal: 0,
+                superminimal: 0,
+            },
+            {
+                '0': 0,
+                '1': 32,
+                '2': 64,
+                '3': 128,
+                '4': 256,
+                '5': 512,
+            }
+        );
 
         this.setKey(
             'override',
