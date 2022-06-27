@@ -16,6 +16,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Prefs window size for scaled displays.
 - Prefs window size for small displays in GNOME Shell 42.
 - Russian translation by [@librusekus35790](https://gitlab.gnome.org/librusekus35790).
+- Spanish translation by [@Luci](https://gitlab.gnome.org/Luci).
 
 ### Added
 
