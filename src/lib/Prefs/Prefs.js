@@ -68,8 +68,8 @@ var Prefs = class
          *
          * @member {number}
          */
-         this._windowWidthAdw = 500;
-         this._windowHeightAdw = 500;
+         this._windowWidthAdw = 600;
+         this._windowHeightAdw = 650;
 
         /**
          * holds all profile names
@@ -236,7 +236,7 @@ var Prefs = class
             if (!this._isAdw) {
                 window.default_width = width;
             }
-            window.set_size_request(width, height);
+            window.set_default_size(width, height);
             if (this._gtkVersion === 3) {
                 window.resize(width, height);
             }

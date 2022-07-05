@@ -15,6 +15,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Application button visibility in Ubuntu 22.04.
 - Prefs window size for scaled displays.
 - Prefs window size for small displays in GNOME Shell 42.
+- Racy prefs window size.
 - Russian translation by [@librusekus35790](https://gitlab.gnome.org/librusekus35790).
 - Spanish translation by [@Luci](https://gitlab.gnome.org/Luci).
 
@@ -394,3 +395,4 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Hide workspace switcher.
 - Hot corner to toggle overview visibility.
 
+.
