@@ -3200,5 +3200,39 @@ var API = class
 
         this._altTab.WINDOW_PREVIEW_SIZE = size;
     }
+
+    /**
+     * set default alt tab icon size
+     *
+     * @returns {void}
+     */
+    altTabIconSetDefaultSize()
+    {
+        if (!this._originals['altTabAppIconSize']) {
+            return;
+        }
+
+        this._altTab.APP_ICON_SIZE = this._originals['altTabAppIconSize'];
+    }
+
+    /**
+     * set alt tab icon size
+     *
+     * @param {number} size 1-512
+     *
+     * @returns {void}
+     */
+    altTabIconSetSize(size)
+    {
+        if (size < 1 || size > 512) {
+            return;
+        }
+
+        if (!this._originals['altTabAppIconSize']) {
+            this._originals['altTabAppIconSize'] = this._altTab.APP_ICON_SIZE;
+        }
+
+        this._altTab.APP_ICON_SIZE = size;
+    }
 }
 
