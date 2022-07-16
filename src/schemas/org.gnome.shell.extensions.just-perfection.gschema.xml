@@ -376,6 +376,13 @@
       <description>Alt Tab Window Preview Size</description>
     </key>
     
+    <key type="i" name="alt-tab-icon-size">
+      <default>0</default>
+      <range min="0" max="512"/>
+      <summary>0 means default size</summary>
+      <description>Alt Tab Icon Size</description>
+    </key>
+    
   </schema>
   
 </schemalist>
