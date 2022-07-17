@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-19 03:29-0700\n"
+"POT-Creation-Date: 2022-07-17 09:13-0700\n"
 "PO-Revision-Date: 2020-12-18 04:05-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Afrikaans\n"
@@ -109,9 +109,9 @@ msgstr "Hoekgrootte van die werkruimte in agtergrond"
 
 #: src/ui/customize.ui:109 src/ui/customize.ui:222 src/ui/customize.ui:334
 #: src/ui/customize.ui:446 src/ui/customize.ui:559 src/ui/customize.ui:672
-#: src/ui/adw/customize.ui:135 src/ui/adw/customize.ui:203
-#: src/ui/adw/customize.ui:269 src/ui/adw/customize.ui:335
-#: src/ui/adw/customize.ui:402 src/ui/adw/customize.ui:469
+#: src/ui/adw/customize.ui:149 src/ui/adw/customize.ui:217
+#: src/ui/adw/customize.ui:283 src/ui/adw/customize.ui:349
+#: src/ui/adw/customize.ui:416 src/ui/adw/customize.ui:483
 msgid "By Shell Theme"
 msgstr "Deur Shell-tema"
 
@@ -135,7 +135,7 @@ msgstr "Paneelaanwyser Padding Size"
 msgid "Panel Corner Size"
 msgstr "Paneelhoekgrootte"
 
-#: src/ui/customize.ui:673 src/ui/adw/customize.ui:470
+#: src/ui/customize.ui:673 src/ui/adw/customize.ui:484
 msgid "No Corner"
 msgstr "Geen hoekie nie"
 
@@ -143,11 +143,11 @@ msgstr "Geen hoekie nie"
 msgid "Panel Position"
 msgstr "Paneelposisie"
 
-#: src/ui/customize.ui:785 src/ui/adw/customize.ui:536
+#: src/ui/customize.ui:785 src/ui/adw/customize.ui:550
 msgid "Top"
 msgstr "Top"
 
-#: src/ui/customize.ui:786 src/ui/adw/customize.ui:537
+#: src/ui/customize.ui:786 src/ui/adw/customize.ui:551
 msgid "Bottom"
 msgstr "Onder"
 
@@ -155,16 +155,16 @@ msgstr "Onder"
 msgid "Clock Menu Position"
 msgstr "Klok menu posisie"
 
-#: src/ui/customize.ui:838 src/ui/customize.ui:1270 src/ui/adw/customize.ui:543
-#: src/ui/adw/customize.ui:643
+#: src/ui/customize.ui:838 src/ui/customize.ui:1270 src/ui/adw/customize.ui:557
+#: src/ui/adw/customize.ui:657
 msgid "Center"
 msgstr "Sentrum"
 
-#: src/ui/customize.ui:839 src/ui/adw/customize.ui:544
+#: src/ui/customize.ui:839 src/ui/adw/customize.ui:558
 msgid "Right"
 msgstr "Reg"
 
-#: src/ui/customize.ui:840 src/ui/adw/customize.ui:545
+#: src/ui/customize.ui:840 src/ui/adw/customize.ui:559
 msgid "Left"
 msgstr "Links"
 
@@ -177,10 +177,12 @@ msgid "Workspace Switcher Size"
 msgstr "Grootte van die skakelaar van die werkruimte"
 
 #: src/ui/customize.ui:953 src/ui/customize.ui:1094 src/ui/customize.ui:1262
-#: src/ui/customize.ui:1323 src/ui/customize.ui:1384 src/ui/profile.ui:57
-#: src/ui/adw/customize.ui:566 src/ui/adw/customize.ui:615
-#: src/ui/adw/customize.ui:635 src/ui/adw/customize.ui:650
-#: src/ui/adw/customize.ui:665 src/ui/adw/profile.ui:63
+#: src/ui/customize.ui:1323 src/ui/customize.ui:1380 src/ui/customize.ui:1437
+#: src/ui/customize.ui:1498 src/ui/profile.ui:57 src/ui/adw/customize.ui:580
+#: src/ui/adw/customize.ui:629 src/ui/adw/customize.ui:649
+#: src/ui/adw/customize.ui:664 src/ui/adw/customize.ui:675
+#: src/ui/adw/customize.ui:686 src/ui/adw/customize.ui:701
+#: src/ui/adw/profile.ui:63
 msgid "Default"
 msgstr "Verstek"
 
@@ -188,35 +190,35 @@ msgstr "Verstek"
 msgid "Animation"
 msgstr "Animasie"
 
-#: src/ui/customize.ui:1035 src/ui/adw/customize.ui:602
+#: src/ui/customize.ui:1035 src/ui/adw/customize.ui:616
 msgid "No Animation"
 msgstr "Geen animasie nie"
 
-#: src/ui/customize.ui:1036 src/ui/adw/customize.ui:603
+#: src/ui/customize.ui:1036 src/ui/adw/customize.ui:617
 msgid "Default Speed"
 msgstr "Verstekspoed"
 
-#: src/ui/customize.ui:1037 src/ui/adw/customize.ui:604
+#: src/ui/customize.ui:1037 src/ui/adw/customize.ui:618
 msgid "Fastest"
 msgstr "Vinnigste"
 
-#: src/ui/customize.ui:1038 src/ui/adw/customize.ui:605
+#: src/ui/customize.ui:1038 src/ui/adw/customize.ui:619
 msgid "Faster"
 msgstr "Vinniger"
 
-#: src/ui/customize.ui:1039 src/ui/adw/customize.ui:606
+#: src/ui/customize.ui:1039 src/ui/adw/customize.ui:620
 msgid "Fast"
 msgstr "Vinnig"
 
-#: src/ui/customize.ui:1040 src/ui/adw/customize.ui:607
+#: src/ui/customize.ui:1040 src/ui/adw/customize.ui:621
 msgid "Slow"
 msgstr "Stadig"
 
-#: src/ui/customize.ui:1041 src/ui/adw/customize.ui:608
+#: src/ui/customize.ui:1041 src/ui/adw/customize.ui:622
 msgid "Slower"
 msgstr "Stadiger"
 
-#: src/ui/customize.ui:1042 src/ui/adw/customize.ui:609
+#: src/ui/customize.ui:1042 src/ui/adw/customize.ui:623
 msgid "Slowest"
 msgstr "Stadigste"
 
@@ -233,32 +235,32 @@ msgid "Notification popup position when notifications show up on the screen"
 msgstr "Kennisgewing pop-up posisie wanneer kennisgewings op die skerm verskyn"
 
 #: src/ui/customize.ui:1177 src/ui/customize.ui:1263
-#: src/ui/adw/customize.ui:624 src/ui/adw/customize.ui:636
+#: src/ui/adw/customize.ui:638 src/ui/adw/customize.ui:650
 msgid "Top Start"
 msgstr "Top begin"
 
 #: src/ui/customize.ui:1178 src/ui/customize.ui:1264
-#: src/ui/adw/customize.ui:625 src/ui/adw/customize.ui:637
+#: src/ui/adw/customize.ui:639 src/ui/adw/customize.ui:651
 msgid "Top Center"
 msgstr "Top sentrum"
 
 #: src/ui/customize.ui:1179 src/ui/customize.ui:1265
-#: src/ui/adw/customize.ui:626 src/ui/adw/customize.ui:638
+#: src/ui/adw/customize.ui:640 src/ui/adw/customize.ui:652
 msgid "Top End"
 msgstr "Bopunt"
 
 #: src/ui/customize.ui:1180 src/ui/customize.ui:1266
-#: src/ui/adw/customize.ui:627 src/ui/adw/customize.ui:639
+#: src/ui/adw/customize.ui:641 src/ui/adw/customize.ui:653
 msgid "Bottom Start"
 msgstr "Onderste begin"
 
 #: src/ui/customize.ui:1181 src/ui/customize.ui:1267
-#: src/ui/adw/customize.ui:628 src/ui/adw/customize.ui:640
+#: src/ui/adw/customize.ui:642 src/ui/adw/customize.ui:654
 msgid "Bottom Center"
 msgstr "Onderste middel"
 
 #: src/ui/customize.ui:1182 src/ui/customize.ui:1268
-#: src/ui/adw/customize.ui:629 src/ui/adw/customize.ui:641
+#: src/ui/adw/customize.ui:643 src/ui/adw/customize.ui:655
 msgid "Bottom End"
 msgstr "Onderste einde"
 
@@ -270,19 +272,27 @@ msgstr "OSD posisie"
 msgid "OSD position when on screen display shows up on the screen"
 msgstr "OSD-posisie wanneer op die skerm vertoon word op die skerm"
 
-#: src/ui/customize.ui:1269 src/ui/adw/customize.ui:642
+#: src/ui/customize.ui:1269 src/ui/adw/customize.ui:656
 msgid "Center Start"
 msgstr "Sentrum begin"
 
-#: src/ui/customize.ui:1271 src/ui/adw/customize.ui:644
+#: src/ui/customize.ui:1271 src/ui/adw/customize.ui:658
 msgid "Center End"
 msgstr "Sentrum einde"
 
 #: src/ui/customize.ui:1311 src/ui/adw/customize.ui:116
+msgid "Alt Tab Window Preview Size"
+msgstr "Alt Tab Venster Voorskou Grootte"
+
+#: src/ui/customize.ui:1368 src/ui/adw/customize.ui:123
+msgid "Alt Tab Icon Size"
+msgstr "Alt Tab-ikoongrootte"
+
+#: src/ui/customize.ui:1425 src/ui/adw/customize.ui:130
 msgid "Looking Glass Width"
 msgstr "Kykglasbreedte"
 
-#: src/ui/customize.ui:1372 src/ui/adw/customize.ui:123
+#: src/ui/customize.ui:1486 src/ui/adw/customize.ui:137
 msgid "Looking Glass Height"
 msgstr "Kykglashoogte"
 
