@@ -3202,6 +3202,40 @@ var API = class
     }
 
     /**
+     * set default alt tab window preview icon size
+     *
+     * @returns {void}
+     */
+    altTabWindowPreviewIconSetDefaultSize()
+    {
+        if (!this._originals['altTabAppIconSizeSmall']) {
+            return;
+        }
+
+        this._altTab.APP_ICON_SIZE_SMALL = this._originals['altTabAppIconSizeSmall'];
+    }
+
+    /**
+     * set alt tab window preview icon size
+     *
+     * @param {number} size 1-512
+     *
+     * @returns {void}
+     */
+    altTabWindowPreviewIconSetSize(size)
+    {
+        if (size < 1 || size > 512) {
+            return;
+        }
+
+        if (!this._originals['altTabAppIconSizeSmall']) {
+            this._originals['altTabAppIconSizeSmall'] = this._altTab.APP_ICON_SIZE_SMALL;
+        }
+
+        this._altTab.APP_ICON_SIZE_SMALL = size;
+    }
+
+    /**
      * set default alt tab icon size
      *
      * @returns {void}
