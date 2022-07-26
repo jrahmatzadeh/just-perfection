@@ -1266,16 +1266,6 @@ var API = class
     }
 
     /**
-     * toggle overview visibility
-     *
-     * @returns {void}
-     */
-    overviewToggle()
-    {
-        this._main.overview.toggle();
-    }
-
-    /**
      * add element to stage
      *
      * @param {St.Widget} element widget 
