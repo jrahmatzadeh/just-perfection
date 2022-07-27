@@ -3158,7 +3158,7 @@ var API = class
     }
 
     /**
-     * set default alt tab preview window size
+     * set default alt tab window preview size
      *
      * @returns {void}
      */
@@ -3172,7 +3172,7 @@ var API = class
     }
 
     /**
-     * set alt tab preview window size
+     * set alt tab window preview size
      *
      * @param {number} size 1-512
      *
