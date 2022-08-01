@@ -117,7 +117,14 @@
             <property name="model">alt_tab_window_preview_size_model</property>
           </object>
         </child>
-        
+
+        <child>
+          <object class="AdwComboRow" id="alt_tab_small_icon_size_row">
+            <property name="title" translatable="yes">Alt Tab Window Preview Icon Size</property>
+            <property name="model">alt_tab_small_icon_size_model</property>
+          </object>
+        </child>
+
         <child>
           <object class="AdwComboRow" id="alt_tab_icon_size_row">
             <property name="title" translatable="yes">Alt Tab Icon Size</property>
@@ -660,6 +667,17 @@
   </object>
 
   <object class="GtkStringList" id="alt_tab_window_preview_size_model">
+    <items>
+      <item translatable="yes">Default</item>
+      <item>32</item>
+      <item>64</item>
+      <item>128</item>
+      <item>256</item>
+      <item>512</item>
+    </items>
+  </object>
+
+  <object class="GtkStringList" id="alt_tab_small_icon_size_model">
     <items>
       <item translatable="yes">Default</item>
       <item>32</item>

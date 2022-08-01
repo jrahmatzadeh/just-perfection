@@ -3192,11 +3192,11 @@ var API = class
     }
 
     /**
-     * set default alt tab window preview icon size
+     * set default alt tab small icon size
      *
      * @returns {void}
      */
-    altTabWindowPreviewIconSetDefaultSize()
+    altTabSmallIconSetDefaultSize()
     {
         if (!this._originals['altTabAppIconSizeSmall']) {
             return;
@@ -3206,13 +3206,13 @@ var API = class
     }
 
     /**
-     * set alt tab window preview icon size
+     * set alt tab small icon size
      *
      * @param {number} size 1-512
      *
      * @returns {void}
      */
-    altTabWindowPreviewIconSetSize(size)
+    altTabSmallIconSetSize(size)
     {
         if (size < 1 || size > 512) {
             return;

@@ -21,6 +21,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ### Added
 
+- Alt Tab window preview icon size.
 - Alt Tab window preview size.
 - Alt Tab icon size.
 - Dash separator visibility.

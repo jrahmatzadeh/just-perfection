@@ -270,6 +270,10 @@ var Manager = class
             this._applyAltTabWindowPreviewSize(false);
         });
 
+        this._settings.connect('changed::alt-tab-small-icon-size', () => {
+            this._applyAltTabSmallIconSize(false);
+        });
+
         this._settings.connect('changed::alt-tab-icon-size', () => {
             this._applyAltTabIconSize(false);
         });
@@ -336,6 +340,7 @@ var Manager = class
         this._applyOSDPosition(false);
         this._applyWindowMenuTakeScreenshotButton(false);
         this._applyAltTabWindowPreviewSize(false);
+        this._applyAltTabSmallIconSize(false);
         this._applyAltTabIconSize(false);
     }
 
@@ -400,6 +405,7 @@ var Manager = class
         this._applyOSDPosition(true);
         this._applyWindowMenuTakeScreenshotButton(true);
         this._applyAltTabWindowPreviewSize(true);
+        this._applyAltTabSmallIconSize(true);
         this._applyAltTabIconSize(true);
     }
 
@@ -1371,6 +1377,24 @@ var Manager = class
             this._api.altTabWindowPreviewSetDefaultSize();
         } else {
             this._api.altTabWindowPreviewSetSize(size);
+        }
+    }
+
+    /**
+     * apply alt tab small icon size settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyAltTabSmallIconSize(forceOriginal)
+    {
+        let size = this._settings.get_int('alt-tab-small-icon-size');
+
+        if (forceOriginal || size === 0) {
+            this._api.altTabSmallIconSetDefaultSize();
+        } else {
+            this._api.altTabSmallIconSetSize(size);
         }
     }
 
