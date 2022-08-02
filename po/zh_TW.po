@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-17 09:13-0700\n"
+"POT-Creation-Date: 2022-08-02 06:08-0700\n"
 "PO-Revision-Date: 2021-06-10 10:43+0800\n"
 "Last-Translator: r0930514 <r0930514@gmail.com>\n"
 "Language-Team: \n"
@@ -107,9 +107,9 @@ msgstr "工作區背景角尺寸概覽"
 
 #: src/ui/customize.ui:109 src/ui/customize.ui:222 src/ui/customize.ui:334
 #: src/ui/customize.ui:446 src/ui/customize.ui:559 src/ui/customize.ui:672
-#: src/ui/adw/customize.ui:149 src/ui/adw/customize.ui:217
-#: src/ui/adw/customize.ui:283 src/ui/adw/customize.ui:349
-#: src/ui/adw/customize.ui:416 src/ui/adw/customize.ui:483
+#: src/ui/adw/customize.ui:156 src/ui/adw/customize.ui:224
+#: src/ui/adw/customize.ui:290 src/ui/adw/customize.ui:356
+#: src/ui/adw/customize.ui:423 src/ui/adw/customize.ui:490
 msgid "By Shell Theme"
 msgstr "依照 Shell 主題"
 
@@ -133,7 +133,7 @@ msgstr "面板指示器填充尺寸"
 msgid "Panel Corner Size"
 msgstr "面板圓角尺寸"
 
-#: src/ui/customize.ui:673 src/ui/adw/customize.ui:484
+#: src/ui/customize.ui:673 src/ui/adw/customize.ui:491
 msgid "No Corner"
 msgstr "無圓角"
 
@@ -141,11 +141,11 @@ msgstr "無圓角"
 msgid "Panel Position"
 msgstr "面板位置"
 
-#: src/ui/customize.ui:785 src/ui/adw/customize.ui:550
+#: src/ui/customize.ui:785 src/ui/adw/customize.ui:557
 msgid "Top"
 msgstr "頂部"
 
-#: src/ui/customize.ui:786 src/ui/adw/customize.ui:551
+#: src/ui/customize.ui:786 src/ui/adw/customize.ui:558
 msgid "Bottom"
 msgstr "底部"
 
@@ -153,16 +153,16 @@ msgstr "底部"
 msgid "Clock Menu Position"
 msgstr "時鐘選單位置"
 
-#: src/ui/customize.ui:838 src/ui/customize.ui:1270 src/ui/adw/customize.ui:557
-#: src/ui/adw/customize.ui:657
+#: src/ui/customize.ui:838 src/ui/customize.ui:1270 src/ui/adw/customize.ui:564
+#: src/ui/adw/customize.ui:664
 msgid "Center"
 msgstr "中間"
 
-#: src/ui/customize.ui:839 src/ui/adw/customize.ui:558
+#: src/ui/customize.ui:839 src/ui/adw/customize.ui:565
 msgid "Right"
 msgstr "左側"
 
-#: src/ui/customize.ui:840 src/ui/adw/customize.ui:559
+#: src/ui/customize.ui:840 src/ui/adw/customize.ui:566
 msgid "Left"
 msgstr "右側"
 
@@ -176,10 +176,11 @@ msgstr "工作區切換器尺寸"
 
 #: src/ui/customize.ui:953 src/ui/customize.ui:1094 src/ui/customize.ui:1262
 #: src/ui/customize.ui:1323 src/ui/customize.ui:1380 src/ui/customize.ui:1437
-#: src/ui/customize.ui:1498 src/ui/profile.ui:57 src/ui/adw/customize.ui:580
-#: src/ui/adw/customize.ui:629 src/ui/adw/customize.ui:649
-#: src/ui/adw/customize.ui:664 src/ui/adw/customize.ui:675
-#: src/ui/adw/customize.ui:686 src/ui/adw/customize.ui:701
+#: src/ui/customize.ui:1494 src/ui/customize.ui:1555 src/ui/profile.ui:57
+#: src/ui/adw/customize.ui:587 src/ui/adw/customize.ui:636
+#: src/ui/adw/customize.ui:656 src/ui/adw/customize.ui:671
+#: src/ui/adw/customize.ui:682 src/ui/adw/customize.ui:693
+#: src/ui/adw/customize.ui:704 src/ui/adw/customize.ui:719
 #: src/ui/adw/profile.ui:63
 msgid "Default"
 msgstr "預設"
@@ -188,35 +189,35 @@ msgstr "預設"
 msgid "Animation"
 msgstr "動畫"
 
-#: src/ui/customize.ui:1035 src/ui/adw/customize.ui:616
+#: src/ui/customize.ui:1035 src/ui/adw/customize.ui:623
 msgid "No Animation"
 msgstr "無動畫"
 
-#: src/ui/customize.ui:1036 src/ui/adw/customize.ui:617
+#: src/ui/customize.ui:1036 src/ui/adw/customize.ui:624
 msgid "Default Speed"
 msgstr "預設速度"
 
-#: src/ui/customize.ui:1037 src/ui/adw/customize.ui:618
+#: src/ui/customize.ui:1037 src/ui/adw/customize.ui:625
 msgid "Fastest"
 msgstr "最快"
 
-#: src/ui/customize.ui:1038 src/ui/adw/customize.ui:619
+#: src/ui/customize.ui:1038 src/ui/adw/customize.ui:626
 msgid "Faster"
 msgstr "更快"
 
-#: src/ui/customize.ui:1039 src/ui/adw/customize.ui:620
+#: src/ui/customize.ui:1039 src/ui/adw/customize.ui:627
 msgid "Fast"
 msgstr "快"
 
-#: src/ui/customize.ui:1040 src/ui/adw/customize.ui:621
+#: src/ui/customize.ui:1040 src/ui/adw/customize.ui:628
 msgid "Slow"
 msgstr "慢"
 
-#: src/ui/customize.ui:1041 src/ui/adw/customize.ui:622
+#: src/ui/customize.ui:1041 src/ui/adw/customize.ui:629
 msgid "Slower"
 msgstr "更慢"
 
-#: src/ui/customize.ui:1042 src/ui/adw/customize.ui:623
+#: src/ui/customize.ui:1042 src/ui/adw/customize.ui:630
 msgid "Slowest"
 msgstr "最慢"
 
@@ -233,32 +234,32 @@ msgid "Notification popup position when notifications show up on the screen"
 msgstr "通知出現在屏幕上時的通知彈出位置"
 
 #: src/ui/customize.ui:1177 src/ui/customize.ui:1263
-#: src/ui/adw/customize.ui:638 src/ui/adw/customize.ui:650
+#: src/ui/adw/customize.ui:645 src/ui/adw/customize.ui:657
 msgid "Top Start"
 msgstr "最開始"
 
 #: src/ui/customize.ui:1178 src/ui/customize.ui:1264
-#: src/ui/adw/customize.ui:639 src/ui/adw/customize.ui:651
+#: src/ui/adw/customize.ui:646 src/ui/adw/customize.ui:658
 msgid "Top Center"
 msgstr "頂部中心"
 
 #: src/ui/customize.ui:1179 src/ui/customize.ui:1265
-#: src/ui/adw/customize.ui:640 src/ui/adw/customize.ui:652
+#: src/ui/adw/customize.ui:647 src/ui/adw/customize.ui:659
 msgid "Top End"
 msgstr "高端"
 
 #: src/ui/customize.ui:1180 src/ui/customize.ui:1266
-#: src/ui/adw/customize.ui:641 src/ui/adw/customize.ui:653
+#: src/ui/adw/customize.ui:648 src/ui/adw/customize.ui:660
 msgid "Bottom Start"
 msgstr "底部開始"
 
 #: src/ui/customize.ui:1181 src/ui/customize.ui:1267
-#: src/ui/adw/customize.ui:642 src/ui/adw/customize.ui:654
+#: src/ui/adw/customize.ui:649 src/ui/adw/customize.ui:661
 msgid "Bottom Center"
 msgstr "底部中心"
 
 #: src/ui/customize.ui:1182 src/ui/customize.ui:1268
-#: src/ui/adw/customize.ui:643 src/ui/adw/customize.ui:655
+#: src/ui/adw/customize.ui:650 src/ui/adw/customize.ui:662
 msgid "Bottom End"
 msgstr "底端"
 
@@ -270,11 +271,11 @@ msgstr "屏顯位置"
 msgid "OSD position when on screen display shows up on the screen"
 msgstr "屏幕顯示時的 OSD 位置顯示在屏幕上"
 
-#: src/ui/customize.ui:1269 src/ui/adw/customize.ui:656
+#: src/ui/customize.ui:1269 src/ui/adw/customize.ui:663
 msgid "Center Start"
 msgstr "中心開始"
 
-#: src/ui/customize.ui:1271 src/ui/adw/customize.ui:658
+#: src/ui/customize.ui:1271 src/ui/adw/customize.ui:665
 msgid "Center End"
 msgstr "中心端"
 
@@ -283,14 +284,18 @@ msgid "Alt Tab Window Preview Size"
 msgstr "Alt-Tab 窗口預覽大小"
 
 #: src/ui/customize.ui:1368 src/ui/adw/customize.ui:123
+msgid "Alt Tab Window Preview Icon Size"
+msgstr "Alt-Tab 窗口預覽圖標大小"
+
+#: src/ui/customize.ui:1425 src/ui/adw/customize.ui:130
 msgid "Alt Tab Icon Size"
 msgstr "Alt-Tab 圖標大小"
 
-#: src/ui/customize.ui:1425 src/ui/adw/customize.ui:130
+#: src/ui/customize.ui:1482 src/ui/adw/customize.ui:137
 msgid "Looking Glass Width"
 msgstr "鏡子寬度"
 
-#: src/ui/customize.ui:1486 src/ui/adw/customize.ui:137
+#: src/ui/customize.ui:1543 src/ui/adw/customize.ui:144
 msgid "Looking Glass Height"
 msgstr "鏡子高度"
 

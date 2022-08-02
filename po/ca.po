@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-17 09:13-0700\n"
+"POT-Creation-Date: 2022-08-02 06:08-0700\n"
 "PO-Revision-Date: 2021-03-16 19:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: Catalan \n"
@@ -116,9 +116,9 @@ msgstr "Cantonada del fons de l’espai de treball Mida a la vista general"
 
 #: src/ui/customize.ui:109 src/ui/customize.ui:222 src/ui/customize.ui:334
 #: src/ui/customize.ui:446 src/ui/customize.ui:559 src/ui/customize.ui:672
-#: src/ui/adw/customize.ui:149 src/ui/adw/customize.ui:217
-#: src/ui/adw/customize.ui:283 src/ui/adw/customize.ui:349
-#: src/ui/adw/customize.ui:416 src/ui/adw/customize.ui:483
+#: src/ui/adw/customize.ui:156 src/ui/adw/customize.ui:224
+#: src/ui/adw/customize.ui:290 src/ui/adw/customize.ui:356
+#: src/ui/adw/customize.ui:423 src/ui/adw/customize.ui:490
 msgid "By Shell Theme"
 msgstr "Pel tema de l'entorn"
 
@@ -142,7 +142,7 @@ msgstr "Indicador de panell de mida de farciment"
 msgid "Panel Corner Size"
 msgstr "Mida de la cantonada del tauler"
 
-#: src/ui/customize.ui:673 src/ui/adw/customize.ui:484
+#: src/ui/customize.ui:673 src/ui/adw/customize.ui:491
 msgid "No Corner"
 msgstr "Sense cantonada"
 
@@ -150,11 +150,11 @@ msgstr "Sense cantonada"
 msgid "Panel Position"
 msgstr "Posició del panell"
 
-#: src/ui/customize.ui:785 src/ui/adw/customize.ui:550
+#: src/ui/customize.ui:785 src/ui/adw/customize.ui:557
 msgid "Top"
 msgstr "Superior"
 
-#: src/ui/customize.ui:786 src/ui/adw/customize.ui:551
+#: src/ui/customize.ui:786 src/ui/adw/customize.ui:558
 msgid "Bottom"
 msgstr "Inferior"
 
@@ -162,16 +162,16 @@ msgstr "Inferior"
 msgid "Clock Menu Position"
 msgstr "Posició del menú del rellotge"
 
-#: src/ui/customize.ui:838 src/ui/customize.ui:1270 src/ui/adw/customize.ui:557
-#: src/ui/adw/customize.ui:657
+#: src/ui/customize.ui:838 src/ui/customize.ui:1270 src/ui/adw/customize.ui:564
+#: src/ui/adw/customize.ui:664
 msgid "Center"
 msgstr "Centre"
 
-#: src/ui/customize.ui:839 src/ui/adw/customize.ui:558
+#: src/ui/customize.ui:839 src/ui/adw/customize.ui:565
 msgid "Right"
 msgstr "Dreta"
 
-#: src/ui/customize.ui:840 src/ui/adw/customize.ui:559
+#: src/ui/customize.ui:840 src/ui/adw/customize.ui:566
 msgid "Left"
 msgstr "Esquerra"
 
@@ -185,10 +185,11 @@ msgstr "Mida del commutador d'espais de treball"
 
 #: src/ui/customize.ui:953 src/ui/customize.ui:1094 src/ui/customize.ui:1262
 #: src/ui/customize.ui:1323 src/ui/customize.ui:1380 src/ui/customize.ui:1437
-#: src/ui/customize.ui:1498 src/ui/profile.ui:57 src/ui/adw/customize.ui:580
-#: src/ui/adw/customize.ui:629 src/ui/adw/customize.ui:649
-#: src/ui/adw/customize.ui:664 src/ui/adw/customize.ui:675
-#: src/ui/adw/customize.ui:686 src/ui/adw/customize.ui:701
+#: src/ui/customize.ui:1494 src/ui/customize.ui:1555 src/ui/profile.ui:57
+#: src/ui/adw/customize.ui:587 src/ui/adw/customize.ui:636
+#: src/ui/adw/customize.ui:656 src/ui/adw/customize.ui:671
+#: src/ui/adw/customize.ui:682 src/ui/adw/customize.ui:693
+#: src/ui/adw/customize.ui:704 src/ui/adw/customize.ui:719
 #: src/ui/adw/profile.ui:63
 msgid "Default"
 msgstr "Per defecte"
@@ -197,35 +198,35 @@ msgstr "Per defecte"
 msgid "Animation"
 msgstr "Animació"
 
-#: src/ui/customize.ui:1035 src/ui/adw/customize.ui:616
+#: src/ui/customize.ui:1035 src/ui/adw/customize.ui:623
 msgid "No Animation"
 msgstr "Sense animació"
 
-#: src/ui/customize.ui:1036 src/ui/adw/customize.ui:617
+#: src/ui/customize.ui:1036 src/ui/adw/customize.ui:624
 msgid "Default Speed"
 msgstr "Velocitat per defecte"
 
-#: src/ui/customize.ui:1037 src/ui/adw/customize.ui:618
+#: src/ui/customize.ui:1037 src/ui/adw/customize.ui:625
 msgid "Fastest"
 msgstr "El més ràpid"
 
-#: src/ui/customize.ui:1038 src/ui/adw/customize.ui:619
+#: src/ui/customize.ui:1038 src/ui/adw/customize.ui:626
 msgid "Faster"
 msgstr "Més ràpid"
 
-#: src/ui/customize.ui:1039 src/ui/adw/customize.ui:620
+#: src/ui/customize.ui:1039 src/ui/adw/customize.ui:627
 msgid "Fast"
 msgstr "Ràpid"
 
-#: src/ui/customize.ui:1040 src/ui/adw/customize.ui:621
+#: src/ui/customize.ui:1040 src/ui/adw/customize.ui:628
 msgid "Slow"
 msgstr "Lent"
 
-#: src/ui/customize.ui:1041 src/ui/adw/customize.ui:622
+#: src/ui/customize.ui:1041 src/ui/adw/customize.ui:629
 msgid "Slower"
 msgstr "Més lent"
 
-#: src/ui/customize.ui:1042 src/ui/adw/customize.ui:623
+#: src/ui/customize.ui:1042 src/ui/adw/customize.ui:630
 msgid "Slowest"
 msgstr "El més lent"
 
@@ -244,32 +245,32 @@ msgstr ""
 "pantalla"
 
 #: src/ui/customize.ui:1177 src/ui/customize.ui:1263
-#: src/ui/adw/customize.ui:638 src/ui/adw/customize.ui:650
+#: src/ui/adw/customize.ui:645 src/ui/adw/customize.ui:657
 msgid "Top Start"
 msgstr "Inici superior"
 
 #: src/ui/customize.ui:1178 src/ui/customize.ui:1264
-#: src/ui/adw/customize.ui:639 src/ui/adw/customize.ui:651
+#: src/ui/adw/customize.ui:646 src/ui/adw/customize.ui:658
 msgid "Top Center"
 msgstr "Centre superior"
 
 #: src/ui/customize.ui:1179 src/ui/customize.ui:1265
-#: src/ui/adw/customize.ui:640 src/ui/adw/customize.ui:652
+#: src/ui/adw/customize.ui:647 src/ui/adw/customize.ui:659
 msgid "Top End"
 msgstr "Extrem superior"
 
 #: src/ui/customize.ui:1180 src/ui/customize.ui:1266
-#: src/ui/adw/customize.ui:641 src/ui/adw/customize.ui:653
+#: src/ui/adw/customize.ui:648 src/ui/adw/customize.ui:660
 msgid "Bottom Start"
 msgstr "Inici inferior"
 
 #: src/ui/customize.ui:1181 src/ui/customize.ui:1267
-#: src/ui/adw/customize.ui:642 src/ui/adw/customize.ui:654
+#: src/ui/adw/customize.ui:649 src/ui/adw/customize.ui:661
 msgid "Bottom Center"
 msgstr "Centre inferior"
 
 #: src/ui/customize.ui:1182 src/ui/customize.ui:1268
-#: src/ui/adw/customize.ui:643 src/ui/adw/customize.ui:655
+#: src/ui/adw/customize.ui:650 src/ui/adw/customize.ui:662
 msgid "Bottom End"
 msgstr "Extrem inferior"
 
@@ -281,11 +282,11 @@ msgstr "Posició OSD"
 msgid "OSD position when on screen display shows up on the screen"
 msgstr "La posició OSD quan es mostra a la pantalla es mostra a la pantalla"
 
-#: src/ui/customize.ui:1269 src/ui/adw/customize.ui:656
+#: src/ui/customize.ui:1269 src/ui/adw/customize.ui:663
 msgid "Center Start"
 msgstr "Inici del centre"
 
-#: src/ui/customize.ui:1271 src/ui/adw/customize.ui:658
+#: src/ui/customize.ui:1271 src/ui/adw/customize.ui:665
 msgid "Center End"
 msgstr "Centre final"
 
@@ -294,14 +295,18 @@ msgid "Alt Tab Window Preview Size"
 msgstr "Alt-Tab Mida de vista prèvia de la finestra"
 
 #: src/ui/customize.ui:1368 src/ui/adw/customize.ui:123
+msgid "Alt Tab Window Preview Icon Size"
+msgstr "alt-tab Mida de la icona de vista prèvia de la finestra"
+
+#: src/ui/customize.ui:1425 src/ui/adw/customize.ui:130
 msgid "Alt Tab Icon Size"
 msgstr "Alt-Tab Mida de la icona"
 
-#: src/ui/customize.ui:1425 src/ui/adw/customize.ui:130
+#: src/ui/customize.ui:1482 src/ui/adw/customize.ui:137
 msgid "Looking Glass Width"
 msgstr "Amplada del mirall"
 
-#: src/ui/customize.ui:1486 src/ui/adw/customize.ui:137
+#: src/ui/customize.ui:1543 src/ui/adw/customize.ui:144
 msgid "Looking Glass Height"
 msgstr "Alçada del mirall"
 
