@@ -701,6 +701,8 @@ var API = class
             this._main.overview.dash.width = -1;
             this._main.overview.dash._maxHeight = -1;
         }
+
+        this._updateWindowPreviewOverlap();
     }
 
     /**
@@ -722,6 +724,36 @@ var API = class
             this._main.overview.dash.height = 0;
         } else {
             this._main.overview.dash.width = 0;
+        }
+
+        this._updateWindowPreviewOverlap();
+    }
+
+    /**
+     * update window preview overlap
+     *
+     * @returns {void}
+     */
+    _updateWindowPreviewOverlap()
+    {
+        if (this._shellVersion < 40) {
+            return;
+        }
+        
+        let wpp = this._windowPreview.WindowPreview.prototype;
+        
+        if (this.isDashVisible() && wpp.overlapHeightsOld) {
+            wpp.overlapHeights = wpp.overlapHeightsOld;
+            delete(wpp.overlapHeightsOld);
+            return;
+        }
+        
+        if (!this.isDashVisible()) {
+            wpp.overlapHeightsOld = wpp.overlapHeights;
+            wpp.overlapHeights = function () {
+                let [top, bottom] = this.overlapHeightsOld();
+                return [top + 24, bottom + 24];
+            };
         }
     }
 
