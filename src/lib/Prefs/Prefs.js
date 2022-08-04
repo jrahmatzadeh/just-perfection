@@ -60,8 +60,8 @@ var Prefs = class
          *
          * @member {number}
          */
-        this._windowWidth = 500;
-        this._windowHeight = 500;
+        this._windowWidth = 600;
+        this._windowHeight = 750;
 
         /**
          * initial window size for adw
