@@ -6,6 +6,8 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+## [21.0.0 Reynolds] - 2022-08-06
+
 ### Changed
 
 - Prefs compatibility layer checking to GTK and Adw instead of GNOME Shell version.
