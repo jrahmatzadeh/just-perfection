@@ -445,9 +445,14 @@
 .just-perfection-api-no-show-apps-button .show-apps StIcon
 {
     width: 0;
-    height: 0;
     margin: 0;
     spacing: 0;
+}
+
+.just-perfection-gnome3.just-perfection-api-no-show-apps-button .show-apps,
+.just-perfection-gnome3.just-perfection-api-no-show-apps-button .show-apps StIcon
+{
+    height: 0;
 }
 
 .just-perfection-api-activities-button-icon,
