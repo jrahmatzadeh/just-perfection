@@ -9,6 +9,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Fixed
 
 - Dash app button visibility height.
+- Looking glass recursion.
 
 ## [21.0.0 Reynolds] - 2022-08-06
 

@@ -1672,8 +1672,8 @@ var API = class
     _fixLookingGlassPosition()
     {
         let lookingGlassProto = this._lookingGlass.LookingGlass.prototype;
-        
-        if (!this._originals['lookingGlassResize']) {
+
+        if (this._originals['lookingGlassResize'] === undefined) {
             this._originals['lookingGlassResize'] = lookingGlassProto._resize;
         }
 
@@ -1689,18 +1689,18 @@ var API = class
             return;
         }
 
-        const Main = this._main;
-
         if (lookingGlassProto._oldResize === undefined) {
             lookingGlassProto._oldResize = this._originals['lookingGlassResize'];
-        }
 
-        lookingGlassProto._resize = function () {
-            let panelHeight = Main.layoutManager.panelBox.height;
-            this._oldResize();
-            this._targetY -= panelHeight;
-            this._hiddenY -= panelHeight;
-        };
+            const Main = this._main;
+
+            lookingGlassProto._resize = function () {
+                let panelHeight = Main.layoutManager.panelBox.height;
+                this._oldResize();
+                this._targetY -= panelHeight;
+                this._hiddenY -= panelHeight;
+            };
+        }
     }
 
     /**
