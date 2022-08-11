@@ -249,6 +249,7 @@ var API = class
      *  no-panel-arrow
      *  no-panel-notification-icon
      *  no-app-menu-icon
+     *  no-app-menu-label
      *  no-show-apps-button
      *  activities-button-icon
      *  activities-button-icon-monochrome
@@ -289,6 +290,7 @@ var API = class
             'no-panel-arrow',
             'no-panel-notification-icon',
             'no-app-menu-icon',
+            'no-app-menu-label',
             'no-show-apps-button',
             'activities-button-icon',
             'activities-button-icon-monochrome',
@@ -1770,6 +1772,26 @@ var API = class
     {
         this.UIStyleClassAdd(this._getAPIClassname('no-app-menu-icon'));
     }
+
+    /**
+     * disable app menu label
+     *
+     * @returns {void}
+     */
+     appMenuLabelEnable()
+     {
+         this.UIStyleClassRemove(this._getAPIClassname('no-app-menu-label'));
+     }
+ 
+     /**
+      * disable app menu label
+      *
+      * @returns {void}
+      */
+     appMenuLabelDisable()
+     {
+         this.UIStyleClassAdd(this._getAPIClassname('no-app-menu-label'));
+     }
 
     /**
      * set the clock menu position
