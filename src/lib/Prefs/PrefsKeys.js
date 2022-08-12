@@ -89,6 +89,18 @@ var PrefsKeys = class
 
         this.setKey(
             'visibility',
+            'app-menu-label',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superminimal: true,
+            }
+        );
+
+        this.setKey(
+            'visibility',
             'clock-menu',
             'GtkSwitch',
             true,

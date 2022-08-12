@@ -19,6 +19,7 @@ This extension allows you to do the following:
 | App Gesture                                          | :black_circle: | :black_circle: | :white_circle: | :white_circle: | :white_circle: |
 | Applications Button Visibility                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | App Menu Icon Visibility                             | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| App Menu Label Visibility                            | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | App Menu Visibility                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Background Menu Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Calendar Visibility                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |

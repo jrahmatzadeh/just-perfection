@@ -138,6 +138,10 @@ var Manager = class
             this._applyAppMenuIcon(false);
         });
 
+        this._settings.connect('changed::app-menu-label', () => {
+            this._applyAppMenuLabel(false);
+        });
+
         this._settings.connect('changed::clock-menu-position', () => {
             this._applyClockMenuPosition(false);
         });
@@ -311,6 +315,7 @@ var Manager = class
         this._applyPanelArrow(false);
         this._applyPanelNotificationIcon(false);
         this._applyAppMenuIcon(false);
+        this._applyAppMenuLabel(false);
         this._applyClockMenuPosition(false);
         this._applyShowAppsButton(false);
         this._applyAnimation(false);
@@ -376,6 +381,7 @@ var Manager = class
         this._applyPanelArrow(true);
         this._applyPanelNotificationIcon(true);
         this._applyAppMenuIcon(true);
+        this._applyAppMenuLabel(true);
         this._applyClockMenuPosition(true);
         this._applyShowAppsButton(true);
         this._applyAnimation(true);
@@ -832,6 +838,22 @@ var Manager = class
             this._api.appMenuIconEnable();
         } else {
             this._api.appMenuIconDisable();
+        }
+    }
+
+    /**
+     * apply app menu label settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyAppMenuLabel(forceOriginal)
+    {
+        if (forceOriginal || this._settings.get_boolean('app-menu-label')) {
+            this._api.appMenuLabelEnable();
+        } else {
+            this._api.appMenuLabelDisable();
         }
     }
 
