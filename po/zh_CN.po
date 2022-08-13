@@ -224,7 +224,7 @@ msgstr "最慢"
 
 #: src/ui/customize.ui:1082 src/ui/adw/customize.ui:93
 msgid "Dash Icon Size"
-msgstr "破折号图标大小"
+msgstr "Dash 图标大小"
 
 #: src/ui/customize.ui:1143 src/ui/adw/customize.ui:100
 msgid "Notification Banner Position"
@@ -429,7 +429,7 @@ msgstr "时钟菜单"
 
 #: src/ui/visibility.ui:341 src/ui/adw/visibility.ui:67
 msgid "Also known as date menu shows date and time in panel"
-msgstr "也称为日期菜单在面板中显示日期和时间"
+msgstr "在面板中显示日期和时间的日期菜单"
 
 #: src/ui/visibility.ui:407 src/ui/adw/visibility.ui:79
 msgid "Keyboard Layout"
@@ -453,7 +453,7 @@ msgstr "系统菜单"
 
 #: src/ui/visibility.ui:572 src/ui/adw/visibility.ui:106
 msgid "System menu holds power, volume and network icons in panel"
-msgstr "系统菜单在面板中包含电源、音量和网络图标"
+msgstr "在面板中显示电源、音量和网络图标的系统菜单"
 
 #: src/ui/visibility.ui:638 src/ui/adw/visibility.ui:118
 msgid "World Clock"
@@ -505,11 +505,11 @@ msgstr "Dash 包含最喜欢和打开的应用程序图标"
 
 #: src/ui/visibility.ui:1101 src/ui/adw/visibility.ui:196
 msgid "Dash Separator"
-msgstr "破折号分隔符"
+msgstr "Dash 分隔符"
 
 #: src/ui/visibility.ui:1112 src/ui/adw/visibility.ui:197
 msgid "Dash separator line that separates pin apps from unpin apps"
-msgstr "将固定应用程序与取消固定应用程序分开的破折号分隔线"
+msgstr "将固定应用程序与未固定应用程序分开的 Dash 分隔线"
 
 #: src/ui/visibility.ui:1178 src/ui/adw/visibility.ui:209
 msgid "Show Applications Button"
@@ -517,7 +517,7 @@ msgstr "显示应用程序按钮"
 
 #: src/ui/visibility.ui:1189 src/ui/adw/visibility.ui:210
 msgid "Button in dash that toggles applications list visibility"
-msgstr "短划线中用于切换应用程序列表可见性的按钮"
+msgstr "Dash 中用于切换应用程序列表可见性的按钮"
 
 #: src/ui/visibility.ui:1255 src/ui/adw/visibility.ui:222
 msgid "On Screen Display (OSD)"
@@ -551,7 +551,7 @@ msgstr "工作区应用程序网格"
 
 #: src/ui/visibility.ui:1497 src/ui/adw/visibility.ui:262
 msgid "Workspace boxes in app grid"
-msgstr "应用程序网格中的工作区框"
+msgstr "应用程序网格中的工作区缩略图"
 
 #: src/ui/visibility.ui:1563 src/ui/adw/visibility.ui:274
 msgid "Window Picker Close Button"
