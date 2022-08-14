@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-02 06:14-0700\n"
+"POT-Creation-Date: 2022-08-14 05:04-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -421,172 +421,180 @@ msgid "The menu button in panel with focused window text"
 msgstr ""
 
 #: src/ui/visibility.ui:330 src/ui/adw/visibility.ui:66
-msgid "Clock Menu"
+msgid "App Menu Label"
 msgstr ""
 
 #: src/ui/visibility.ui:341 src/ui/adw/visibility.ui:67
-msgid "Also known as date menu shows date and time in panel"
+msgid "The text label in app menu button"
 msgstr ""
 
 #: src/ui/visibility.ui:407 src/ui/adw/visibility.ui:79
-msgid "Keyboard Layout"
+msgid "Clock Menu"
 msgstr ""
 
 #: src/ui/visibility.ui:418 src/ui/adw/visibility.ui:80
-msgid "Keyboard Layout indicator button in panel"
+msgid "Also known as date menu shows date and time in panel"
 msgstr ""
 
 #: src/ui/visibility.ui:484 src/ui/adw/visibility.ui:92
-msgid "Accessibility Menu"
+msgid "Keyboard Layout"
 msgstr ""
 
 #: src/ui/visibility.ui:495 src/ui/adw/visibility.ui:93
-msgid "Accessibility Menu indicator button in panel"
+msgid "Keyboard Layout indicator button in panel"
 msgstr ""
 
 #: src/ui/visibility.ui:561 src/ui/adw/visibility.ui:105
-msgid "System Menu (Aggregate Menu)"
+msgid "Accessibility Menu"
 msgstr ""
 
 #: src/ui/visibility.ui:572 src/ui/adw/visibility.ui:106
-msgid "System menu holds power, volume and network icons in panel"
+msgid "Accessibility Menu indicator button in panel"
 msgstr ""
 
 #: src/ui/visibility.ui:638 src/ui/adw/visibility.ui:118
-msgid "World Clock"
+msgid "System Menu (Aggregate Menu)"
 msgstr ""
 
 #: src/ui/visibility.ui:649 src/ui/adw/visibility.ui:119
-msgid "World clock in clock menu"
+msgid "System menu holds power, volume and network icons in panel"
 msgstr ""
 
 #: src/ui/visibility.ui:715 src/ui/adw/visibility.ui:131
-msgid "Weather"
+msgid "World Clock"
 msgstr ""
 
 #: src/ui/visibility.ui:726 src/ui/adw/visibility.ui:132
-msgid "Weather in clock menu"
+msgid "World clock in clock menu"
 msgstr ""
 
 #: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
-msgid "Calendar"
+msgid "Weather"
 msgstr ""
 
 #: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
-msgid "Calendar in clock menu"
+msgid "Weather in clock menu"
 msgstr ""
 
 #: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
-msgid "Events"
+msgid "Calendar"
 msgstr ""
 
 #: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
-msgid "Events button in clock menu"
+msgid "Calendar in clock menu"
 msgstr ""
 
 #: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
-msgid "Search"
+msgid "Events"
 msgstr ""
 
 #: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
-msgid "Search entry in overview"
+msgid "Events button in clock menu"
 msgstr ""
 
 #: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
-msgid "Dash"
+msgid "Search"
 msgstr ""
 
 #: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
+msgid "Search entry in overview"
+msgstr ""
+
+#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
+msgid "Dash"
+msgstr ""
+
+#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
 msgid "Dash holds favorite and opened applications icons"
 msgstr ""
 
-#: src/ui/visibility.ui:1101 src/ui/adw/visibility.ui:196
+#: src/ui/visibility.ui:1178 src/ui/adw/visibility.ui:209
 msgid "Dash Separator"
 msgstr ""
 
-#: src/ui/visibility.ui:1112 src/ui/adw/visibility.ui:197
+#: src/ui/visibility.ui:1189 src/ui/adw/visibility.ui:210
 msgid "Dash separator line that separates pin apps from unpin apps"
 msgstr ""
 
-#: src/ui/visibility.ui:1178 src/ui/adw/visibility.ui:209
+#: src/ui/visibility.ui:1255 src/ui/adw/visibility.ui:222
 msgid "Show Applications Button"
 msgstr ""
 
-#: src/ui/visibility.ui:1189 src/ui/adw/visibility.ui:210
+#: src/ui/visibility.ui:1266 src/ui/adw/visibility.ui:223
 msgid "Button in dash that toggles applications list visibility"
 msgstr ""
 
-#: src/ui/visibility.ui:1255 src/ui/adw/visibility.ui:222
+#: src/ui/visibility.ui:1332 src/ui/adw/visibility.ui:235
 msgid "On Screen Display (OSD)"
 msgstr ""
 
-#: src/ui/visibility.ui:1266 src/ui/adw/visibility.ui:223
+#: src/ui/visibility.ui:1343 src/ui/adw/visibility.ui:236
 msgid "Volume and brightness on screen display when the change happens"
 msgstr ""
 
-#: src/ui/visibility.ui:1332 src/ui/adw/visibility.ui:235
+#: src/ui/visibility.ui:1409 src/ui/adw/visibility.ui:248
 msgid "Workspace Popup"
 msgstr ""
 
-#: src/ui/visibility.ui:1343 src/ui/adw/visibility.ui:236
+#: src/ui/visibility.ui:1420 src/ui/adw/visibility.ui:249
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr ""
 
-#: src/ui/visibility.ui:1409 src/ui/adw/visibility.ui:248
+#: src/ui/visibility.ui:1486 src/ui/adw/visibility.ui:261
 msgid "Workspace Switcher"
 msgstr ""
 
-#: src/ui/visibility.ui:1420 src/ui/adw/visibility.ui:249
+#: src/ui/visibility.ui:1497 src/ui/adw/visibility.ui:262
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
 msgstr ""
 
-#: src/ui/visibility.ui:1486 src/ui/adw/visibility.ui:261
+#: src/ui/visibility.ui:1563 src/ui/adw/visibility.ui:274
 msgid "Workspaces App Grid"
 msgstr ""
 
-#: src/ui/visibility.ui:1497 src/ui/adw/visibility.ui:262
+#: src/ui/visibility.ui:1574 src/ui/adw/visibility.ui:275
 msgid "Workspace boxes in app grid"
 msgstr ""
 
-#: src/ui/visibility.ui:1563 src/ui/adw/visibility.ui:274
+#: src/ui/visibility.ui:1640 src/ui/adw/visibility.ui:287
 msgid "Window Picker Close Button"
 msgstr ""
 
-#: src/ui/visibility.ui:1574 src/ui/adw/visibility.ui:275
+#: src/ui/visibility.ui:1651 src/ui/adw/visibility.ui:288
 msgid "The close button on window preview in overview"
 msgstr ""
 
-#: src/ui/visibility.ui:1640 src/ui/adw/visibility.ui:287
+#: src/ui/visibility.ui:1717 src/ui/adw/visibility.ui:300
 msgid "Window Picker Caption"
 msgstr ""
 
-#: src/ui/visibility.ui:1651 src/ui/adw/visibility.ui:288
+#: src/ui/visibility.ui:1728 src/ui/adw/visibility.ui:301
 msgid "The text under window preview in overview"
 msgstr ""
 
-#: src/ui/visibility.ui:1717 src/ui/adw/visibility.ui:300
+#: src/ui/visibility.ui:1794 src/ui/adw/visibility.ui:313
 msgid "Background Menu"
 msgstr ""
 
-#: src/ui/visibility.ui:1728 src/ui/adw/visibility.ui:301
+#: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
 msgid "When you right click on desktop background"
 msgstr ""
 
-#: src/ui/visibility.ui:1794 src/ui/adw/visibility.ui:313
+#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
 msgid "Ripple Box"
 msgstr ""
 
-#: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
+#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
 msgid "Hot corner animation effects"
 msgstr ""
 
-#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
+#: src/ui/visibility.ui:1948 src/ui/adw/visibility.ui:339
 msgid "Take Screenshot button in Window Menu"
 msgstr ""
 
-#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
+#: src/ui/visibility.ui:1959 src/ui/adw/visibility.ui:340
 msgid "Take screenshot button in title bar right click menu"
 msgstr ""
 

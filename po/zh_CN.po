@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-02 06:08-0700\n"
+"POT-Creation-Date: 2022-08-14 04:58-0700\n"
 "PO-Revision-Date: 2021-04-15 06:33+0800\n"
 "Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
 "Language-Team: Chinese - China <i18n-zh@googlegroups.com>\n"
@@ -424,172 +424,180 @@ msgid "The menu button in panel with focused window text"
 msgstr "面板中带有焦点窗口文本的菜单按钮"
 
 #: src/ui/visibility.ui:330 src/ui/adw/visibility.ui:66
+msgid "App Menu Label"
+msgstr "应用菜单标签"
+
+#: src/ui/visibility.ui:341 src/ui/adw/visibility.ui:67
+msgid "The text label in app menu button"
+msgstr "应用程序菜单按钮中的文本标签"
+
+#: src/ui/visibility.ui:407 src/ui/adw/visibility.ui:79
 msgid "Clock Menu"
 msgstr "时钟菜单"
 
-#: src/ui/visibility.ui:341 src/ui/adw/visibility.ui:67
+#: src/ui/visibility.ui:418 src/ui/adw/visibility.ui:80
 msgid "Also known as date menu shows date and time in panel"
 msgstr "在面板中显示日期和时间的日期菜单"
 
-#: src/ui/visibility.ui:407 src/ui/adw/visibility.ui:79
+#: src/ui/visibility.ui:484 src/ui/adw/visibility.ui:92
 msgid "Keyboard Layout"
 msgstr "键盘布局（输入法）"
 
-#: src/ui/visibility.ui:418 src/ui/adw/visibility.ui:80
+#: src/ui/visibility.ui:495 src/ui/adw/visibility.ui:93
 msgid "Keyboard Layout indicator button in panel"
 msgstr "面板中的键盘布局指示器按钮"
 
-#: src/ui/visibility.ui:484 src/ui/adw/visibility.ui:92
+#: src/ui/visibility.ui:561 src/ui/adw/visibility.ui:105
 msgid "Accessibility Menu"
 msgstr "辅助功能菜单"
 
-#: src/ui/visibility.ui:495 src/ui/adw/visibility.ui:93
+#: src/ui/visibility.ui:572 src/ui/adw/visibility.ui:106
 msgid "Accessibility Menu indicator button in panel"
 msgstr "面板中的辅助功能菜单指示器按钮"
 
-#: src/ui/visibility.ui:561 src/ui/adw/visibility.ui:105
+#: src/ui/visibility.ui:638 src/ui/adw/visibility.ui:118
 msgid "System Menu (Aggregate Menu)"
 msgstr "系统菜单"
 
-#: src/ui/visibility.ui:572 src/ui/adw/visibility.ui:106
+#: src/ui/visibility.ui:649 src/ui/adw/visibility.ui:119
 msgid "System menu holds power, volume and network icons in panel"
 msgstr "在面板中显示电源、音量和网络图标的系统菜单"
 
-#: src/ui/visibility.ui:638 src/ui/adw/visibility.ui:118
+#: src/ui/visibility.ui:715 src/ui/adw/visibility.ui:131
 msgid "World Clock"
 msgstr "世界时钟"
 
-#: src/ui/visibility.ui:649 src/ui/adw/visibility.ui:119
+#: src/ui/visibility.ui:726 src/ui/adw/visibility.ui:132
 msgid "World clock in clock menu"
 msgstr "时钟菜单中的世界时钟"
 
-#: src/ui/visibility.ui:715 src/ui/adw/visibility.ui:131
+#: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
 msgid "Weather"
 msgstr "天气"
 
-#: src/ui/visibility.ui:726 src/ui/adw/visibility.ui:132
+#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
 msgid "Weather in clock menu"
 msgstr "时钟菜单中的天气"
 
-#: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
+#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
 msgid "Calendar"
 msgstr "日历"
 
-#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
 msgid "Calendar in clock menu"
 msgstr "时钟菜单中的日历"
 
-#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
+#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
 msgid "Events"
 msgstr "活动"
 
-#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
+#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
 msgid "Events button in clock menu"
 msgstr "时钟菜单中的事件按钮"
 
-#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
+#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
 msgid "Search"
 msgstr "搜索"
 
-#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
+#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
 msgid "Search entry in overview"
 msgstr "概览中的搜索条目"
 
-#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
+#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
 msgid "Dash"
 msgstr "Dash"
 
-#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
+#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
 msgid "Dash holds favorite and opened applications icons"
 msgstr "Dash 包含最喜欢和打开的应用程序图标"
 
-#: src/ui/visibility.ui:1101 src/ui/adw/visibility.ui:196
+#: src/ui/visibility.ui:1178 src/ui/adw/visibility.ui:209
 msgid "Dash Separator"
 msgstr "Dash 分隔符"
 
-#: src/ui/visibility.ui:1112 src/ui/adw/visibility.ui:197
+#: src/ui/visibility.ui:1189 src/ui/adw/visibility.ui:210
 msgid "Dash separator line that separates pin apps from unpin apps"
 msgstr "将固定应用程序与未固定应用程序分开的 Dash 分隔线"
 
-#: src/ui/visibility.ui:1178 src/ui/adw/visibility.ui:209
+#: src/ui/visibility.ui:1255 src/ui/adw/visibility.ui:222
 msgid "Show Applications Button"
 msgstr "显示应用程序按钮"
 
-#: src/ui/visibility.ui:1189 src/ui/adw/visibility.ui:210
+#: src/ui/visibility.ui:1266 src/ui/adw/visibility.ui:223
 msgid "Button in dash that toggles applications list visibility"
 msgstr "Dash 中用于切换应用程序列表可见性的按钮"
 
-#: src/ui/visibility.ui:1255 src/ui/adw/visibility.ui:222
+#: src/ui/visibility.ui:1332 src/ui/adw/visibility.ui:235
 msgid "On Screen Display (OSD)"
 msgstr "屏幕显示（OSD）"
 
-#: src/ui/visibility.ui:1266 src/ui/adw/visibility.ui:223
+#: src/ui/visibility.ui:1343 src/ui/adw/visibility.ui:236
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "发生变化时屏幕显示的音量和亮度"
 
-#: src/ui/visibility.ui:1332 src/ui/adw/visibility.ui:235
+#: src/ui/visibility.ui:1409 src/ui/adw/visibility.ui:248
 msgid "Workspace Popup"
 msgstr "工作区弹窗"
 
-#: src/ui/visibility.ui:1343 src/ui/adw/visibility.ui:236
+#: src/ui/visibility.ui:1420 src/ui/adw/visibility.ui:249
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr "更改工作区时出现在屏幕上的弹出窗口"
 
-#: src/ui/visibility.ui:1409 src/ui/adw/visibility.ui:248
+#: src/ui/visibility.ui:1486 src/ui/adw/visibility.ui:261
 msgid "Workspace Switcher"
 msgstr "工作区切换器"
 
-#: src/ui/visibility.ui:1420 src/ui/adw/visibility.ui:249
+#: src/ui/visibility.ui:1497 src/ui/adw/visibility.ui:262
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
 msgstr "也指您在概览中看到的用于选择工作区的工作区缩略图"
 
-#: src/ui/visibility.ui:1486 src/ui/adw/visibility.ui:261
+#: src/ui/visibility.ui:1563 src/ui/adw/visibility.ui:274
 msgid "Workspaces App Grid"
 msgstr "工作区应用程序网格"
 
-#: src/ui/visibility.ui:1497 src/ui/adw/visibility.ui:262
+#: src/ui/visibility.ui:1574 src/ui/adw/visibility.ui:275
 msgid "Workspace boxes in app grid"
 msgstr "应用程序网格中的工作区缩略图"
 
-#: src/ui/visibility.ui:1563 src/ui/adw/visibility.ui:274
+#: src/ui/visibility.ui:1640 src/ui/adw/visibility.ui:287
 msgid "Window Picker Close Button"
 msgstr "窗口选择器关闭按钮"
 
-#: src/ui/visibility.ui:1574 src/ui/adw/visibility.ui:275
+#: src/ui/visibility.ui:1651 src/ui/adw/visibility.ui:288
 msgid "The close button on window preview in overview"
 msgstr "概览中窗口预览的关闭按钮"
 
-#: src/ui/visibility.ui:1640 src/ui/adw/visibility.ui:287
+#: src/ui/visibility.ui:1717 src/ui/adw/visibility.ui:300
 msgid "Window Picker Caption"
 msgstr "窗口选择器标题"
 
-#: src/ui/visibility.ui:1651 src/ui/adw/visibility.ui:288
+#: src/ui/visibility.ui:1728 src/ui/adw/visibility.ui:301
 msgid "The text under window preview in overview"
 msgstr "概览中窗口预览下的文本"
 
-#: src/ui/visibility.ui:1717 src/ui/adw/visibility.ui:300
+#: src/ui/visibility.ui:1794 src/ui/adw/visibility.ui:313
 msgid "Background Menu"
 msgstr "后台菜单"
 
-#: src/ui/visibility.ui:1728 src/ui/adw/visibility.ui:301
+#: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
 msgid "When you right click on desktop background"
 msgstr "当您右键单击桌面背景时"
 
-#: src/ui/visibility.ui:1794 src/ui/adw/visibility.ui:313
+#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
 msgid "Ripple Box"
 msgstr "波纹盒"
 
-#: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
+#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
 msgid "Hot corner animation effects"
 msgstr "热角动画效果"
 
-#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
+#: src/ui/visibility.ui:1948 src/ui/adw/visibility.ui:339
 msgid "Take Screenshot button in Window Menu"
 msgstr "窗口菜单中的“截屏”按钮"
 
-#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
+#: src/ui/visibility.ui:1959 src/ui/adw/visibility.ui:340
 msgid "Take screenshot button in title bar right click menu"
 msgstr "标题栏右键菜单中的截图按钮"
 

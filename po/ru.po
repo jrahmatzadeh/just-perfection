@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-02 06:08-0700\n"
+"POT-Creation-Date: 2022-08-14 04:58-0700\n"
 "PO-Revision-Date: 2022-05-18 18:02+0700\n"
 "Last-Translator: VBB <librusekus35790@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -433,174 +433,182 @@ msgid "The menu button in panel with focused window text"
 msgstr "Меню активного окна, находится на панели"
 
 #: src/ui/visibility.ui:330 src/ui/adw/visibility.ui:66
+msgid "App Menu Label"
+msgstr "Ярлык меню приложения"
+
+#: src/ui/visibility.ui:341 src/ui/adw/visibility.ui:67
+msgid "The text label in app menu button"
+msgstr "Текстовая метка в кнопке меню приложения"
+
+#: src/ui/visibility.ui:407 src/ui/adw/visibility.ui:79
 msgid "Clock Menu"
 msgstr "Центр уведомлений/Часы"
 
-#: src/ui/visibility.ui:341 src/ui/adw/visibility.ui:67
+#: src/ui/visibility.ui:418 src/ui/adw/visibility.ui:80
 msgid "Also known as date menu shows date and time in panel"
 msgstr "Показывает дату и время на панели"
 
-#: src/ui/visibility.ui:407 src/ui/adw/visibility.ui:79
+#: src/ui/visibility.ui:484 src/ui/adw/visibility.ui:92
 msgid "Keyboard Layout"
 msgstr "Раскладка клавиатуры"
 
-#: src/ui/visibility.ui:418 src/ui/adw/visibility.ui:80
+#: src/ui/visibility.ui:495 src/ui/adw/visibility.ui:93
 msgid "Keyboard Layout indicator button in panel"
 msgstr "Индикатор раскладки клавиатуры на панели"
 
-#: src/ui/visibility.ui:484 src/ui/adw/visibility.ui:92
+#: src/ui/visibility.ui:561 src/ui/adw/visibility.ui:105
 msgid "Accessibility Menu"
 msgstr "Меню специальных возможностей"
 
-#: src/ui/visibility.ui:495 src/ui/adw/visibility.ui:93
+#: src/ui/visibility.ui:572 src/ui/adw/visibility.ui:106
 msgid "Accessibility Menu indicator button in panel"
 msgstr "Меню специальных возможностей на панели"
 
-#: src/ui/visibility.ui:561 src/ui/adw/visibility.ui:105
+#: src/ui/visibility.ui:638 src/ui/adw/visibility.ui:118
 msgid "System Menu (Aggregate Menu)"
 msgstr "Системное меню"
 
-#: src/ui/visibility.ui:572 src/ui/adw/visibility.ui:106
+#: src/ui/visibility.ui:649 src/ui/adw/visibility.ui:119
 msgid "System menu holds power, volume and network icons in panel"
 msgstr "Системное меню содержит значки питания, громкости и сети"
 
-#: src/ui/visibility.ui:638 src/ui/adw/visibility.ui:118
+#: src/ui/visibility.ui:715 src/ui/adw/visibility.ui:131
 msgid "World Clock"
 msgstr "Мировые часы"
 
-#: src/ui/visibility.ui:649 src/ui/adw/visibility.ui:119
+#: src/ui/visibility.ui:726 src/ui/adw/visibility.ui:132
 msgid "World clock in clock menu"
 msgstr "Мировые часы в центре уведомлений"
 
-#: src/ui/visibility.ui:715 src/ui/adw/visibility.ui:131
+#: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
 msgid "Weather"
 msgstr "Погода"
 
-#: src/ui/visibility.ui:726 src/ui/adw/visibility.ui:132
+#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
 msgid "Weather in clock menu"
 msgstr "Погода в центре уведомлений"
 
-#: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
+#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
 msgid "Calendar"
 msgstr "Календарь"
 
-#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
 msgid "Calendar in clock menu"
 msgstr "Календарь в центре уведомлений"
 
-#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
+#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
 msgid "Events"
 msgstr "События"
 
-#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
+#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
 msgid "Events button in clock menu"
 msgstr "События в центре уведомлений"
 
-#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
+#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
 msgid "Search"
 msgstr "Строка поиска"
 
-#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
+#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
 msgid "Search entry in overview"
 msgstr "Строка поиска в Обзоре"
 
-#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
+#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
 msgid "Dash"
 msgstr "Dash панель"
 
-#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
+#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
 msgid "Dash holds favorite and opened applications icons"
 msgstr "Dash содержит иконки избранных и открытых приложений"
 
-#: src/ui/visibility.ui:1101 src/ui/adw/visibility.ui:196
+#: src/ui/visibility.ui:1178 src/ui/adw/visibility.ui:209
 msgid "Dash Separator"
 msgstr "Разделитель тире"
 
-#: src/ui/visibility.ui:1112 src/ui/adw/visibility.ui:197
+#: src/ui/visibility.ui:1189 src/ui/adw/visibility.ui:210
 msgid "Dash separator line that separates pin apps from unpin apps"
 msgstr ""
 "Линия-разделитель тире, которая отделяет закрепленные приложения от "
 "открепляемых приложений"
 
-#: src/ui/visibility.ui:1178 src/ui/adw/visibility.ui:209
+#: src/ui/visibility.ui:1255 src/ui/adw/visibility.ui:222
 msgid "Show Applications Button"
 msgstr "Показать кнопку приложений"
 
-#: src/ui/visibility.ui:1189 src/ui/adw/visibility.ui:210
+#: src/ui/visibility.ui:1266 src/ui/adw/visibility.ui:223
 msgid "Button in dash that toggles applications list visibility"
 msgstr "Кнопка на Dash панели, которая выводит список приложений"
 
-#: src/ui/visibility.ui:1255 src/ui/adw/visibility.ui:222
+#: src/ui/visibility.ui:1332 src/ui/adw/visibility.ui:235
 msgid "On Screen Display (OSD)"
 msgstr "Экранная индикация"
 
-#: src/ui/visibility.ui:1266 src/ui/adw/visibility.ui:223
+#: src/ui/visibility.ui:1343 src/ui/adw/visibility.ui:236
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "Появляется на экране при изменении громкости или яркости"
 
-#: src/ui/visibility.ui:1332 src/ui/adw/visibility.ui:235
+#: src/ui/visibility.ui:1409 src/ui/adw/visibility.ui:248
 msgid "Workspace Popup"
 msgstr "Всплывающий индикатор рабочих столов"
 
-#: src/ui/visibility.ui:1343 src/ui/adw/visibility.ui:236
+#: src/ui/visibility.ui:1420 src/ui/adw/visibility.ui:249
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr "Индикатор, который появляется на экране при смене рабочего стола"
 
-#: src/ui/visibility.ui:1409 src/ui/adw/visibility.ui:248
+#: src/ui/visibility.ui:1486 src/ui/adw/visibility.ui:261
 msgid "Workspace Switcher"
 msgstr "Переключатель рабочих столов"
 
-#: src/ui/visibility.ui:1420 src/ui/adw/visibility.ui:249
+#: src/ui/visibility.ui:1497 src/ui/adw/visibility.ui:262
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
 msgstr "Эскизы рабочих столов, которые вы видите в Обзоре."
 
-#: src/ui/visibility.ui:1486 src/ui/adw/visibility.ui:261
+#: src/ui/visibility.ui:1563 src/ui/adw/visibility.ui:274
 msgid "Workspaces App Grid"
 msgstr "Рабочие столы в списке приложений"
 
-#: src/ui/visibility.ui:1497 src/ui/adw/visibility.ui:262
+#: src/ui/visibility.ui:1574 src/ui/adw/visibility.ui:275
 msgid "Workspace boxes in app grid"
 msgstr "Эскизы рабочих столов в списке приложений"
 
-#: src/ui/visibility.ui:1563 src/ui/adw/visibility.ui:274
+#: src/ui/visibility.ui:1640 src/ui/adw/visibility.ui:287
 msgid "Window Picker Close Button"
 msgstr "Кнопки закрытия окон в Обзоре"
 
-#: src/ui/visibility.ui:1574 src/ui/adw/visibility.ui:275
+#: src/ui/visibility.ui:1651 src/ui/adw/visibility.ui:288
 msgid "The close button on window preview in overview"
 msgstr "Кнопки закрытия, появляющиеся на эскизах окон в Обзоре"
 
-#: src/ui/visibility.ui:1640 src/ui/adw/visibility.ui:287
+#: src/ui/visibility.ui:1717 src/ui/adw/visibility.ui:300
 msgid "Window Picker Caption"
 msgstr "Заголовки окон в Обзоре"
 
-#: src/ui/visibility.ui:1651 src/ui/adw/visibility.ui:288
+#: src/ui/visibility.ui:1728 src/ui/adw/visibility.ui:301
 msgid "The text under window preview in overview"
 msgstr "Текст под эскизами окон в Обзоре"
 
-#: src/ui/visibility.ui:1717 src/ui/adw/visibility.ui:300
+#: src/ui/visibility.ui:1794 src/ui/adw/visibility.ui:313
 msgid "Background Menu"
 msgstr "Меню рабочего стола"
 
-#: src/ui/visibility.ui:1728 src/ui/adw/visibility.ui:301
+#: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
 msgid "When you right click on desktop background"
 msgstr "Когда вы щелкаете правой кнопкой мыши по рабочему столу"
 
-#: src/ui/visibility.ui:1794 src/ui/adw/visibility.ui:313
+#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
 msgid "Ripple Box"
 msgstr "Пульсация"
 
-#: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
+#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
 msgid "Hot corner animation effects"
 msgstr "Анимация горячего угла"
 
-#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
+#: src/ui/visibility.ui:1948 src/ui/adw/visibility.ui:339
 msgid "Take Screenshot button in Window Menu"
 msgstr "Кнопка «Сделать снимок экрана» в меню «Окно»"
 
-#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
+#: src/ui/visibility.ui:1959 src/ui/adw/visibility.ui:340
 msgid "Take screenshot button in title bar right click menu"
 msgstr ""
 "Кнопка «Сделать снимок экрана» в меню правой кнопки мыши в строке заголовка"

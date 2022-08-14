@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-02 06:08-0700\n"
+"POT-Creation-Date: 2022-08-14 04:58-0700\n"
 "PO-Revision-Date: 2022-03-04 14:07+0100\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: \n"
@@ -432,126 +432,134 @@ msgstr ""
 "De menuknop op de bovenbalk met daarop de naam van het gefocuste venster."
 
 #: src/ui/visibility.ui:330 src/ui/adw/visibility.ui:66
+msgid "App Menu Label"
+msgstr "App-menulabel"
+
+#: src/ui/visibility.ui:341 src/ui/adw/visibility.ui:67
+msgid "The text label in app menu button"
+msgstr "Het tekstlabel in de app-menuknop"
+
+#: src/ui/visibility.ui:407 src/ui/adw/visibility.ui:79
 msgid "Clock Menu"
 msgstr "Klokmenu"
 
-#: src/ui/visibility.ui:341 src/ui/adw/visibility.ui:67
+#: src/ui/visibility.ui:418 src/ui/adw/visibility.ui:80
 msgid "Also known as date menu shows date and time in panel"
 msgstr "Het menu op de bovenbalk met de datum en tijd."
 
-#: src/ui/visibility.ui:407 src/ui/adw/visibility.ui:79
+#: src/ui/visibility.ui:484 src/ui/adw/visibility.ui:92
 msgid "Keyboard Layout"
 msgstr "Toetsenbordindeling"
 
-#: src/ui/visibility.ui:418 src/ui/adw/visibility.ui:80
+#: src/ui/visibility.ui:495 src/ui/adw/visibility.ui:93
 msgid "Keyboard Layout indicator button in panel"
 msgstr "De toetsenbordindelingindicator op de bovenbalk."
 
-#: src/ui/visibility.ui:484 src/ui/adw/visibility.ui:92
+#: src/ui/visibility.ui:561 src/ui/adw/visibility.ui:105
 msgid "Accessibility Menu"
 msgstr "Toegankelijkheidsmenu"
 
-#: src/ui/visibility.ui:495 src/ui/adw/visibility.ui:93
+#: src/ui/visibility.ui:572 src/ui/adw/visibility.ui:106
 msgid "Accessibility Menu indicator button in panel"
 msgstr "De toegankelijkheidsmenu-indicator op de bovenbalk."
 
-#: src/ui/visibility.ui:561 src/ui/adw/visibility.ui:105
+#: src/ui/visibility.ui:638 src/ui/adw/visibility.ui:118
 msgid "System Menu (Aggregate Menu)"
 msgstr "Systeemmenu"
 
-#: src/ui/visibility.ui:572 src/ui/adw/visibility.ui:106
+#: src/ui/visibility.ui:649 src/ui/adw/visibility.ui:119
 msgid "System menu holds power, volume and network icons in panel"
 msgstr ""
 "Het systeemmenu op de bovenbalk met daarin de energie,- volume- en "
 "netwerkopties."
 
-#: src/ui/visibility.ui:638 src/ui/adw/visibility.ui:118
+#: src/ui/visibility.ui:715 src/ui/adw/visibility.ui:131
 msgid "World Clock"
 msgstr "Wereldklok"
 
-#: src/ui/visibility.ui:649 src/ui/adw/visibility.ui:119
+#: src/ui/visibility.ui:726 src/ui/adw/visibility.ui:132
 msgid "World clock in clock menu"
 msgstr "De wereldklok in het klokmenu."
 
-#: src/ui/visibility.ui:715 src/ui/adw/visibility.ui:131
+#: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
 msgid "Weather"
 msgstr "Weer"
 
-#: src/ui/visibility.ui:726 src/ui/adw/visibility.ui:132
+#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
 msgid "Weather in clock menu"
 msgstr "Het weerbericht in het klokmenu."
 
-#: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
+#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
 msgid "Calendar"
 msgstr "Kalender"
 
-#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
 msgid "Calendar in clock menu"
 msgstr "Kalender in klokmenu"
 
-#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
+#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
 msgid "Events"
 msgstr "Evenementen"
 
-#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
+#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
 msgid "Events button in clock menu"
 msgstr "Evenementenknop in klokmenu"
 
-#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
+#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
 msgid "Search"
 msgstr "Zoeken"
 
-#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
+#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
 msgid "Search entry in overview"
 msgstr "Het zoekvak op het overzicht."
 
-#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
+#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
 msgid "Dash"
 msgstr "Vensteroverzicht"
 
-#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
+#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
 msgid "Dash holds favorite and opened applications icons"
 msgstr "Het overzicht met favoriete en geopende vensters."
 
-#: src/ui/visibility.ui:1101 src/ui/adw/visibility.ui:196
+#: src/ui/visibility.ui:1178 src/ui/adw/visibility.ui:209
 msgid "Dash Separator"
 msgstr "streepjesscheidingsteken"
 
-#: src/ui/visibility.ui:1112 src/ui/adw/visibility.ui:197
+#: src/ui/visibility.ui:1189 src/ui/adw/visibility.ui:210
 msgid "Dash separator line that separates pin apps from unpin apps"
 msgstr "Scheidingslijn streepjescode die apps scheidt van apps losmaken"
 
-#: src/ui/visibility.ui:1178 src/ui/adw/visibility.ui:209
+#: src/ui/visibility.ui:1255 src/ui/adw/visibility.ui:222
 msgid "Show Applications Button"
 msgstr "Toepassingenknop tonen"
 
-#: src/ui/visibility.ui:1189 src/ui/adw/visibility.ui:210
+#: src/ui/visibility.ui:1266 src/ui/adw/visibility.ui:223
 msgid "Button in dash that toggles applications list visibility"
 msgstr ""
 "De knop op het overzicht waarmee u de toepassingenlijst kunt tonen of "
 "verbergen."
 
-#: src/ui/visibility.ui:1255 src/ui/adw/visibility.ui:222
+#: src/ui/visibility.ui:1332 src/ui/adw/visibility.ui:235
 msgid "On Screen Display (OSD)"
 msgstr "Meldingen"
 
-#: src/ui/visibility.ui:1266 src/ui/adw/visibility.ui:223
+#: src/ui/visibility.ui:1343 src/ui/adw/visibility.ui:236
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "Toon volume- en helderheidsmeldingen bij het aanpassen ervan."
 
-#: src/ui/visibility.ui:1332 src/ui/adw/visibility.ui:235
+#: src/ui/visibility.ui:1409 src/ui/adw/visibility.ui:248
 msgid "Workspace Popup"
 msgstr "Werkbladmeldingen"
 
-#: src/ui/visibility.ui:1343 src/ui/adw/visibility.ui:236
+#: src/ui/visibility.ui:1420 src/ui/adw/visibility.ui:249
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr "De melding die wordt getoond na het wisselen van werkblad."
 
-#: src/ui/visibility.ui:1409 src/ui/adw/visibility.ui:248
+#: src/ui/visibility.ui:1486 src/ui/adw/visibility.ui:261
 msgid "Workspace Switcher"
 msgstr "Werkbladwisselaar"
 
-#: src/ui/visibility.ui:1420 src/ui/adw/visibility.ui:249
+#: src/ui/visibility.ui:1497 src/ui/adw/visibility.ui:262
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
@@ -559,51 +567,51 @@ msgstr ""
 "Ook van toepassing op de werkbladminiaturen die op het overzicht worden "
 "getoond."
 
-#: src/ui/visibility.ui:1486 src/ui/adw/visibility.ui:261
+#: src/ui/visibility.ui:1563 src/ui/adw/visibility.ui:274
 msgid "Workspaces App Grid"
 msgstr "Werkbladoverzicht"
 
-#: src/ui/visibility.ui:1497 src/ui/adw/visibility.ui:262
+#: src/ui/visibility.ui:1574 src/ui/adw/visibility.ui:275
 msgid "Workspace boxes in app grid"
 msgstr "Het werkbladoverzicht op het toepassingenrooster."
 
-#: src/ui/visibility.ui:1563 src/ui/adw/visibility.ui:274
+#: src/ui/visibility.ui:1640 src/ui/adw/visibility.ui:287
 msgid "Window Picker Close Button"
 msgstr "Sluitknop op vensteroverzicht"
 
-#: src/ui/visibility.ui:1574 src/ui/adw/visibility.ui:275
+#: src/ui/visibility.ui:1651 src/ui/adw/visibility.ui:288
 msgid "The close button on window preview in overview"
 msgstr "De sluitknop op venstervoorvertoningen op het overzicht."
 
-#: src/ui/visibility.ui:1640 src/ui/adw/visibility.ui:287
+#: src/ui/visibility.ui:1717 src/ui/adw/visibility.ui:300
 msgid "Window Picker Caption"
 msgstr "Vensternamen"
 
-#: src/ui/visibility.ui:1651 src/ui/adw/visibility.ui:288
+#: src/ui/visibility.ui:1728 src/ui/adw/visibility.ui:301
 msgid "The text under window preview in overview"
 msgstr "De tekst onder venstervoorvertoningen op het overzicht."
 
-#: src/ui/visibility.ui:1717 src/ui/adw/visibility.ui:300
+#: src/ui/visibility.ui:1794 src/ui/adw/visibility.ui:313
 msgid "Background Menu"
 msgstr "Achtergrondmenu"
 
-#: src/ui/visibility.ui:1728 src/ui/adw/visibility.ui:301
+#: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
 msgid "When you right click on desktop background"
 msgstr "Het rechtermuisknopmenu van het bureaublad."
 
-#: src/ui/visibility.ui:1794 src/ui/adw/visibility.ui:313
+#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
 msgid "Ripple Box"
 msgstr "Rimpeling"
 
-#: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
+#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
 msgid "Hot corner animation effects"
 msgstr "Animaties van de snelhoek"
 
-#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
+#: src/ui/visibility.ui:1948 src/ui/adw/visibility.ui:339
 msgid "Take Screenshot button in Window Menu"
 msgstr "Knop Screenshot maken in venstermenu"
 
-#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
+#: src/ui/visibility.ui:1959 src/ui/adw/visibility.ui:340
 msgid "Take screenshot button in title bar right click menu"
 msgstr "Maak een screenshot-knop in de titelbalk rechtsklikmenu"
 
