@@ -1450,6 +1450,10 @@ var API = class
      */
     aggregateMenuShow()
     {
+        if (this._shellVersion >= 43) {
+            return;
+        }
+
         this._main.panel.statusArea['aggregateMenu'].container.show();
     }
 
@@ -1460,6 +1464,10 @@ var API = class
      */
     aggregateMenuHide()
     {
+        if (this._shellVersion >= 43) {
+            return;
+        }
+
         this._main.panel.statusArea['aggregateMenu'].container.hide();
     }
 
