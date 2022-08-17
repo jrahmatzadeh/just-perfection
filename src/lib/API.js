@@ -1444,6 +1444,34 @@ var API = class
     }
 
     /**
+     * show quick settings menu
+     *
+     * @returns {void}
+     */
+    quickSettingsMenuShow()
+    {
+        if (this._shellVersion < 43) {
+            return;
+        }
+
+        this._main.panel.statusArea['quickSettings'].container.show();
+    }
+
+    /**
+     * hide quick settings menu
+     *
+     * @returns {void}
+     */
+    quickSettingsMenuHide()
+    {
+        if (this._shellVersion < 43) {
+            return;
+        }
+
+        this._main.panel.statusArea['quickSettings'].container.hide();
+    }
+
+    /**
      * show aggregate menu
      *
      * @returns {void}
