@@ -139,7 +139,7 @@ var PrefsKeys = class
             'visibility',
             'aggregate-menu',
             'GtkSwitch',
-            true,
+            this._shellVersion <= 42,
             {
                 default: true,
                 minimal: true,

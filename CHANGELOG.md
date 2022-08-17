@@ -15,6 +15,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - App menu label visibility.
 
+### Removed
+
+- Aggregate menu for GNOME Shell 43 and higher.
+
 ## [21.0.0 Reynolds] - 2022-08-06
 
 ### Changed
