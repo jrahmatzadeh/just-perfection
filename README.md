@@ -6,71 +6,72 @@
 
 This extension allows you to do the following:
 
-| Feature                                              | 3.36           | 3.38           | 40             | 41             | 42             |
-| ---------------------------------------------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
-| Accessibility Menu Visibility                        | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Activities Button Icon Visibility                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Activities button Visibility                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Alt Tab Icon Size                                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Alt Tab Window Preview Icon Size                     | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Alt Tab Window Preview Size                          | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Always Show Workspace Switcher on Dynamic Workspaces | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Animation Speed or Disable it                        | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| App Gesture                                          | :black_circle: | :black_circle: | :white_circle: | :white_circle: | :white_circle: |
-| Applications Button Visibility                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| App Menu Icon Visibility                             | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| App Menu Label Visibility                            | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| App Menu Visibility                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Background Menu Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Calendar Visibility                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Clock Menu Position                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Clock Menu Visibility                                | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Dash Icon Size                                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Dash Separator Visibility                            | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Dash Visibility                                      | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Disable Type to Search                               | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Double Super Key to App Grid                         | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Events in Clock Menu Visibility                      | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| GNOME Shell Theme Override                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Hot Corner                                           | :black_circle: | :black_circle: | :black_circle: | :white_circle: | :white_circle: |
-| Keyboard Layout Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Looking Glass Size                                   | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Notification Banner Position                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| OSD Position                                         | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: |
-| OSD Visibility                                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Panel Arrow Visibility                               | :black_circle: | :black_circle: | :white_circle: | :white_circle: | :white_circle: |
-| Panel Button Padding Size                            | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Panel Height                                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Panel icon size                                      | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Panel Indicator Padding Size                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Panel Notification icon Visibility                   | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Panel Position                                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Panel Round Corner Size                              | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :white_circle: |
-| Panel Visibility                                     | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Panel Visibility in Overview                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Power Icon Visibility                                | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Ripple Box                                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Search Visibility                                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Startup Status                                       | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: |
-| System Menu (Aggregate Menu) Visibility              | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Take Screenshot Button in Window Menu Visibility     | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: |
-| Weather Visibility                                   | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Window Demands Attention Focus                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Window Picker Caption Visibility                     | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Window Picker Close Button Visibility                | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Window Picker Icon                                   | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Workspace Background Corner Size in Overview         | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Workspace Popup Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Workspaces in app grid Visibility                    | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Workspace Switcher Size                              | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Workspace Switcher Visibility                        | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Workspace Wraparound                                 | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| World Clock Visibility                               | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Feature                                              | 3.36           | 3.38           | 40             | 41             | 42             | 43             |
+| ---------------------------------------------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
+| Accessibility Menu Visibility                        | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Activities Button Icon Visibility                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Activities button Visibility                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Alt Tab Icon Size                                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Alt Tab Window Preview Icon Size                     | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Alt Tab Window Preview Size                          | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Always Show Workspace Switcher on Dynamic Workspaces | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Animation Speed or Disable it                        | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| App Gesture                                          | :black_circle: | :black_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: |
+| Applications Button Visibility                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| App Menu Icon Visibility                             | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| App Menu Label Visibility                            | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| App Menu Visibility                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Background Menu Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Calendar Visibility                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Clock Menu Position                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Clock Menu Visibility                                | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Dash Icon Size                                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Dash Separator Visibility                            | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Dash Visibility                                      | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Disable Type to Search                               | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Double Super Key to App Grid                         | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Events in Clock Menu Visibility                      | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| GNOME Shell Theme Override                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Hot Corner                                           | :black_circle: | :black_circle: | :black_circle: | :white_circle: | :white_circle: | :white_circle: |
+| Keyboard Layout Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Looking Glass Size                                   | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Notification Banner Position                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| OSD Position                                         | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: | :black_circle: |
+| OSD Visibility                                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Panel Arrow Visibility                               | :black_circle: | :black_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: |
+| Panel Button Padding Size                            | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Panel Height                                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Panel icon size                                      | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Panel Indicator Padding Size                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Panel Notification icon Visibility                   | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Panel Position                                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Panel Round Corner Size                              | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :white_circle: | :white_circle: |
+| Panel Visibility                                     | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Panel Visibility in Overview                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Power Icon Visibility                                | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Ripple Box                                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Search Visibility                                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Startup Status                                       | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| System Menu (Aggregate Menu) Visibility              | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :white_circle: |
+| Take Screenshot Button in Window Menu Visibility     | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: | :black_circle: |
+| Weather Visibility                                   | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Window Demands Attention Focus                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Window Picker Caption Visibility                     | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Window Picker Close Button Visibility                | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Window Picker Icon                                   | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Workspace Background Corner Size in Overview         | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Workspace Popup Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Workspaces in app grid Visibility                    | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Workspace Switcher Size                              | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Workspace Switcher Visibility                        | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Workspace Wraparound                                 | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| World Clock Visibility                               | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 
 ## GNOME Shell Support
 
 | GNOME Shell Version | End Of Support | Active         |
 | ------------------- | -------------- | -------------- |
+| 43                  | TBA            | :black_circle: |
 | 42                  | July 2026      | :black_circle: |
 | 41                  | May 2022       | :white_circle: |
 | 40                  | December 2021  | :white_circle: |
