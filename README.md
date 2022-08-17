@@ -49,6 +49,7 @@ This extension allows you to do the following:
 | Panel Visibility                                     | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Panel Visibility in Overview                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Power Icon Visibility                                | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Quick Settings Menu Visibility                       | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: |
 | Ripple Box                                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Search Visibility                                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Startup Status                                       | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |

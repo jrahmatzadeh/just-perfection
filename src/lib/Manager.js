@@ -102,6 +102,10 @@ var Manager = class
             this._applyAggregateMenu(false);
         });
 
+        this._settings.connect('changed::quick-settings', () => {
+            this._applyQuickSettings(false);
+        });
+
         this._settings.connect('changed::panel-corner-size', () => {
             this._applyPanelCornerSize(false);
         });
@@ -306,6 +310,7 @@ var Manager = class
         this._applyKeyboardLayout(false);
         this._applyAccessibilityMenu(false);
         this._applyAggregateMenu(false);
+        this._applyQuickSettings(false);
         this._applyPanelCornerSize(false);
         this._applyWindowPickerIcon(false);
         this._applyTypeToSearch(false);
@@ -372,6 +377,7 @@ var Manager = class
         this._applyKeyboardLayout(true);
         this._applyAccessibilityMenu(true);
         this._applyAggregateMenu(true);
+        this._applyQuickSettings(true);
         this._applyPanelCornerSize(true);
         this._applyWindowPickerIcon(true);
         this._applyTypeToSearch(true);
@@ -706,6 +712,22 @@ var Manager = class
             this._api.aggregateMenuShow();
         } else {
             this._api.aggregateMenuHide();
+        }
+    }
+
+    /**
+     * apply quick settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyQuickSettings(forceOriginal)
+    {
+        if (forceOriginal || this._settings.get_boolean('quick-settings')) {
+            this._api.quickSettingsMenuShow();
+        } else {
+            this._api.quickSettingsMenuHide();
         }
     }
 

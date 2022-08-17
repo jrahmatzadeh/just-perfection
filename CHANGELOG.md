@@ -14,6 +14,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Added
 
 - App menu label visibility.
+- Quick settings menu visibility.
 
 ### Removed
 

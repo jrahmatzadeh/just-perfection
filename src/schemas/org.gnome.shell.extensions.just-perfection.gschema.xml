@@ -123,6 +123,12 @@
       <summary>Aggregate Menu</summary>
       <description>Aggregate Menu Visibility Status</description>
     </key>
+    
+    <key type="b" name="quick-settings">
+      <default>true</default>
+      <summary>Quick Settings Menu</summary>
+      <description>Quick Settings Visibility Status</description>
+    </key>
       
     <key type="b" name="power-icon">
       <default>true</default>

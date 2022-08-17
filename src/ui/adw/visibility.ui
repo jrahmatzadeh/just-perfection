@@ -127,6 +127,19 @@
         </child>
 
         <child>
+          <object class="AdwActionRow" id="quick_settings_row">
+            <property name="title" translatable="yes">Quick Settings</property>
+            <property name="subtitle" translatable="yes">Quick settings menu in panel</property>
+            <property name="activatable-widget">quick_settings_switch</property>
+            <child>
+              <object class="GtkSwitch" id="quick_settings_switch">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+
+        <child>
           <object class="AdwActionRow" id="world_clock_row">
             <property name="title" translatable="yes">World Clock</property>
             <property name="subtitle" translatable="yes">World clock in clock menu</property>
