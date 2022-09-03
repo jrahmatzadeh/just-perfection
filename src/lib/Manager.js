@@ -1075,7 +1075,7 @@ var Manager = class
         if (forceOriginal || !shouldShow) {
             this._api.workspaceSwitcherShouldShowSetDefault();
         } else {
-            this._api.workspaceSwitcherShouldShowSetAlways();
+            this._api.workspaceSwitcherShouldShow(true);
         }
     }
 

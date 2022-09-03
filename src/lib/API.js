@@ -2448,11 +2448,13 @@ var API = class
     }
 
     /**
-     * always show the workspace switcher
+     * set the workspace switcher to always/never show
+     *
+     * @param {boolean} show true for always show, false for never show
      *
      * @returns {void}
      */
-    workspaceSwitcherShouldShowSetAlways()
+    workspaceSwitcherShouldShow(shouldShow = true)
     {
         if (this._shellVersion < 40) {
             return;
@@ -2465,10 +2467,10 @@ var API = class
         }
 
         ThumbnailsBoxProto._updateShouldShow = function () {
-            if (this._shouldShow === true) {
+            if (this._shouldShow === shouldShow) {
                 return;
             }
-            this._shouldShow = true;
+            this._shouldShow = shouldShow;
             this.notify('should-show');
         };
     }
