@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-14 04:58-0700\n"
-"PO-Revision-Date: 2022-03-25 20:52+0100\n"
+"PO-Revision-Date: 2022-09-11 00:10+0200\n"
 "Last-Translator: Andrea Brandi <git@andreabrandi.com>\n"
 "Language-Team: Italian <git@andreabrandi.com>\n"
 "Language: it\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Gtranslator 40.0\n"
+"X-Generator: Gtranslator 42.0\n"
 
 #: src/ui/behavior.ui:19 src/ui/adw/behavior.ui:6 src/ui/adw/behavior.ui:11
 msgid "Behavior"
@@ -165,15 +165,15 @@ msgstr "Posizione menu dell'orologio"
 #: src/ui/customize.ui:838 src/ui/customize.ui:1270 src/ui/adw/customize.ui:564
 #: src/ui/adw/customize.ui:664
 msgid "Center"
-msgstr "Centro"
+msgstr "Al centro"
 
 #: src/ui/customize.ui:839 src/ui/adw/customize.ui:565
 msgid "Right"
-msgstr "Destra"
+msgstr "A destra"
 
 #: src/ui/customize.ui:840 src/ui/adw/customize.ui:566
 msgid "Left"
-msgstr "Sinistra"
+msgstr "A sinistra"
 
 #: src/ui/customize.ui:880 src/ui/adw/customize.ui:72
 msgid "Clock Menu Position Offset"
@@ -276,41 +276,39 @@ msgstr "In basso a destra"
 
 #: src/ui/customize.ui:1228 src/ui/adw/customize.ui:108
 msgid "OSD Position"
-msgstr "Posizione OSD"
+msgstr "Posizione notifiche OSD"
 
 #: src/ui/customize.ui:1239 src/ui/adw/customize.ui:109
 msgid "OSD position when on screen display shows up on the screen"
-msgstr ""
-"Posizione dell'OSD quando la visualizzazione sullo schermo viene "
-"visualizzata sullo schermo"
+msgstr "Posizione delle notifiche OSD quando vengono mostrate sullo schermo"
 
 #: src/ui/customize.ui:1269 src/ui/adw/customize.ui:663
 msgid "Center Start"
-msgstr "Inizio centro"
+msgstr "Al centro a sinistra"
 
 #: src/ui/customize.ui:1271 src/ui/adw/customize.ui:665
 msgid "Center End"
-msgstr "Centro Fine"
+msgstr "Al centro a destra"
 
 #: src/ui/customize.ui:1311 src/ui/adw/customize.ui:116
 msgid "Alt Tab Window Preview Size"
-msgstr "Dimensioni anteprima finestra Alt-Tab"
+msgstr "Dimensione dell'anteprima Alt-Tab"
 
 #: src/ui/customize.ui:1368 src/ui/adw/customize.ui:123
 msgid "Alt Tab Window Preview Icon Size"
-msgstr "alt-tab Dimensione icona anteprima finestra"
+msgstr "Dimensione icona dell'anteprima Alt-Tab"
 
 #: src/ui/customize.ui:1425 src/ui/adw/customize.ui:130
 msgid "Alt Tab Icon Size"
-msgstr "Dimensione icona scheda Alt"
+msgstr "Dimensione icona Alt-Tab"
 
 #: src/ui/customize.ui:1482 src/ui/adw/customize.ui:137
 msgid "Looking Glass Width"
-msgstr "Larghezza dello specchio"
+msgstr "Larghezza Looking Glass"
 
 #: src/ui/customize.ui:1543 src/ui/adw/customize.ui:144
 msgid "Looking Glass Height"
-msgstr "Altezza dello specchio"
+msgstr "Altezza Looking Glass"
 
 #: src/ui/icons.ui:19 src/ui/adw/icons.ui:6 src/ui/adw/icons.ui:11
 msgid "Icons"
@@ -334,11 +332,11 @@ msgstr "Freccia del pannello"
 
 #: src/ui/icons.ui:272 src/ui/adw/icons.ui:63
 msgid "Window Picker Icon"
-msgstr "Icona di selezione della finestra"
+msgstr "Icona finestre nella panoramica"
 
 #: src/ui/icons.ui:283 src/ui/adw/icons.ui:64 src/ui/adw/icons.ui:77
 msgid "The icon under window preview in overview"
-msgstr "Mostra l'icona sotto l'anteprima della finestra nella panoramica"
+msgstr "Mostra un'icona sotto l'anteprima delle finestre nella panoramica"
 
 #: src/ui/icons.ui:343 src/ui/adw/icons.ui:76
 msgid "Activities Button Icon"
@@ -532,13 +530,11 @@ msgstr ""
 
 #: src/ui/visibility.ui:1178 src/ui/adw/visibility.ui:209
 msgid "Dash Separator"
-msgstr "Separatore di trattino"
+msgstr "Separatore sulla barra delle applicazioni"
 
 #: src/ui/visibility.ui:1189 src/ui/adw/visibility.ui:210
 msgid "Dash separator line that separates pin apps from unpin apps"
-msgstr ""
-"Linea di separazione del trattino che separa le app di blocco dalle app di "
-"sblocco"
+msgstr "Trattino per separare le app bloccate da quelle sbloccate sulla barra"
 
 #: src/ui/visibility.ui:1255 src/ui/adw/visibility.ui:222
 msgid "Show Applications Button"
@@ -550,7 +546,7 @@ msgstr "Pulsante sulla barra per aprire la griglia delle applicazioni"
 
 #: src/ui/visibility.ui:1332 src/ui/adw/visibility.ui:235
 msgid "On Screen Display (OSD)"
-msgstr "Visualizzazione su schermo (OSD)"
+msgstr "Notifiche in sovrimpressione (OSD)"
 
 #: src/ui/visibility.ui:1343 src/ui/adw/visibility.ui:236
 msgid "Volume and brightness on screen display when the change happens"
