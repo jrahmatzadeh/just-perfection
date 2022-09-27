@@ -799,7 +799,7 @@
 .just-perfection-api-osd-position-bottom .osd-window { margin: 4em 3em; }
 
 .just-perfection-api-no-dash-separator .dash-separator,
-.just-perfection-api-no-app-menu-label .panel-status-menu-box StLabel
+.just-perfection-api-no-app-menu-label #appMenu StLabel
 {
     width: 0;
     height: 0;
