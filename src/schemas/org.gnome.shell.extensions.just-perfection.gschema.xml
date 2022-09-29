@@ -184,7 +184,7 @@
     
     <key type="i" name="clock-menu-position-offset">
       <default>0</default>
-      <range min="0" max="9"/>
+      <range min="0" max="20"/>
       <summary>0 means start of the position</summary>
       <description>Clock Menu Position Offset</description>
     </key>

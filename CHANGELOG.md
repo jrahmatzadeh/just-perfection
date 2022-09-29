@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Changed
+
+- Clock menu offset maximum to 20.
+
 ### Fixed
 
 - App menu label visibility compatibility issue with open whether extension.
