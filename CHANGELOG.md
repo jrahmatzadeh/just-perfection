@@ -13,6 +13,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Fixed
 
 - App menu label visibility compatibility issue with open whether extension.
+- Looking glass API conflict with Dash to Panel extension.
 - Italian translation by [@svityboy](https://gitlab.gnome.org/svityboy).
 
 ## [22.0.0 Millet] - 2022-09-10

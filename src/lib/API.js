@@ -1718,7 +1718,7 @@ var API = class
         if (this.panelGetPosition() === PANEL_POSITION.TOP && this.isPanelVisible()) {
 
             lookingGlassProto._resize = this._originals['lookingGlassResize'];
-            delete(lookingGlassProto._oldResize);
+            delete(lookingGlassProto._oldResizeMethod);
             delete(this._originals['lookingGlassResize']);
             if (this._main.lookingGlass) {
                 this._main.lookingGlass._resize();
@@ -1727,14 +1727,14 @@ var API = class
             return;
         }
 
-        if (lookingGlassProto._oldResize === undefined) {
-            lookingGlassProto._oldResize = this._originals['lookingGlassResize'];
+        if (lookingGlassProto._oldResizeMethod === undefined) {
+            lookingGlassProto._oldResizeMethod = this._originals['lookingGlassResize'];
 
             const Main = this._main;
 
             lookingGlassProto._resize = function () {
                 let panelHeight = Main.layoutManager.panelBox.height;
-                this._oldResize();
+                this._oldResizeMethod();
                 this._targetY -= panelHeight;
                 this._hiddenY -= panelHeight;
             };
