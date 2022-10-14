@@ -1720,9 +1720,6 @@ var API = class
             lookingGlassProto._resize = this._originals['lookingGlassResize'];
             delete(lookingGlassProto._oldResizeMethod);
             delete(this._originals['lookingGlassResize']);
-            if (this._main.lookingGlass) {
-                this._main.lookingGlass._resize();
-            }
 
             return;
         }
@@ -3136,7 +3133,6 @@ var API = class
         }
 
         this._main.lookingGlass.disconnect(this._lookingGlassShowSignal);
-        this._main.lookingGlass._resize();
 
         delete(this._lookingGlassShowSignal);
         delete(this._lookingGlassOriginalSize);
