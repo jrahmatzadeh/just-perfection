@@ -2164,13 +2164,15 @@ var API = class
             return;
         }
 
-        if (!this._main.layoutManager._startingUp) {
+        let sessionMode = this._main.sessionMode;
+        let layoutManager = this._main.layoutManager;
+
+        if (!layoutManager._startingUp) {
             return;
         }
 
         if (this._originals['sessionModeHasOverview'] === undefined) {
-            this._originals['sessionModeHasOverview']
-            = this._main.sessionMode.hasOverview;
+            this._originals['sessionModeHasOverview'] = sessionMode.hasOverview;
         }
 
         let ControlsState = this._overviewControls.ControlsState;
@@ -2179,22 +2181,22 @@ var API = class
         switch (status) {
 
             case SHELL_STATUS.NONE:
-                this._main.sessionMode.hasOverview = false;
-                this._main.layoutManager.startInOverview = false;
+                sessionMode.hasOverview = false;
+                layoutManager.startInOverview = false;
                 Controls._stateAdjustment.value = ControlsState.HIDDEN;
                 break;
 
             case SHELL_STATUS.OVERVIEW:
-                this._main.sessionMode.hasOverview = true;
-                this._main.layoutManager.startInOverview = true;
+            default:
+                sessionMode.hasOverview = true;
+                layoutManager.startInOverview = true;
                 break;
         }
 
         if (!this._startupCompleteSignal) {
             this._startupCompleteSignal
-            = this._main.layoutManager.connect('startup-complete', () => {
-                this._main.sessionMode.hasOverview
-                = this._originals['sessionModeHasOverview'];
+            = layoutManager.connect('startup-complete', () => {
+                sessionMode.hasOverview = this._originals['sessionModeHasOverview'];
             });
         }
     }
