@@ -889,7 +889,7 @@ var Manager = class
     _applyClockMenuPosition(forceOriginal)
     {
         if (forceOriginal) {
-            this._api.clockMenuPositionSet(0, 0);
+            this._api.clockMenuPositionSetDefault();
         } else {
             let pos = this._settings.get_int('clock-menu-position');
             let offset = this._settings.get_int('clock-menu-position-offset');

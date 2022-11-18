@@ -13,6 +13,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Fixed
 
 - App menu label visibility compatibility issue with open whether extension.
+- Keep clock menu position when another widget adds to the panel.
 - Looking glass API conflict with Dash to Panel extension.
 - Looking glass error when primary monitor doesn't exist.
 - Italian translation by [@svityboy](https://gitlab.gnome.org/svityboy).

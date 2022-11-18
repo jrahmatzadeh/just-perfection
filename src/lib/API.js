@@ -1827,6 +1827,38 @@ var API = class
      }
 
     /**
+     * disconnect all clock menu position signals 
+     *
+     * @returns {void}
+     */
+    _disconnectClockMenuPositionSignals()
+    {
+        let panelBoxs = [
+            this._main.panel._centerBox,
+            this._main.panel._rightBox,
+            this._main.panel._leftBox,
+        ];
+
+        if (this._clockMenuPositionSignals) {
+            for (let i = 0; i <= 2; i++) {
+                panelBoxs[i].disconnect(this._clockMenuPositionSignals[i]);
+            }
+            delete(this._clockMenuPositionSignals);
+        }
+    }
+     
+    /**
+     * set the clock menu position to default 
+     *
+     * @returns {void}
+     */
+    clockMenuPositionSetDefault()
+    {
+        this.clockMenuPositionSet(0, 0);
+        this._disconnectClockMenuPositionSignals();
+    }
+
+    /**
      * set the clock menu position
      *
      * @param {number} pos see PANEL_BOX_POSITION
@@ -1843,6 +1875,8 @@ var API = class
             this._main.panel._rightBox,
             this._main.panel._leftBox,
         ];
+        
+        this._disconnectClockMenuPositionSignals();
 
         let fromPos = -1;
         let fromIndex = -1;
@@ -1874,6 +1908,18 @@ var API = class
 
         if (this.isLocked()) {
             this.dateMenuHide();
+        }
+        
+        if (!this._clockMenuPositionSignals) {
+            this._clockMenuPositionSignals = [null, null, null];
+            for (let i = 0; i <= 2; i++) {
+                this._clockMenuPositionSignals[i] = panelBoxs[i].connect(
+                    'actor-added',
+                    () => {
+                        this.clockMenuPositionSet(pos, offset);
+                    }
+                );
+            }
         }
     }
 
