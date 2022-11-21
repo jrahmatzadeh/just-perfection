@@ -270,6 +270,7 @@ var API = class
      *  osd-position-bottom
      *  osd-position-center
      *  no-dash-separator
+     *  no-screen-sharing-indicator
      *
      * @returns {string}
      */
@@ -311,6 +312,7 @@ var API = class
             'osd-position-bottom',
             'osd-position-center',
             'no-dash-separator',
+            'no-screen-sharing-indicator',
         ];
 
         if (!possibleTypes.includes(type)) {
@@ -3393,6 +3395,34 @@ var API = class
         }
 
         this._altTab.APP_ICON_SIZE = size;
+    }
+
+    /**
+     * enable screen sharing indicator
+     *
+     * @returns {void}
+     */
+    screenSharingIndicatorEnable()
+    {
+        if (this._shellVersion < 43) {
+            return;
+        }
+
+        this.UIStyleClassRemove(this._getAPIClassname('no-screen-sharing-indicator'));
+    }
+
+    /**
+     * disable screen sharing indicator
+     *
+     * @returns {void}
+     */
+    screenSharingIndicatorDisable()
+    {
+        if (this._shellVersion < 43) {
+            return;
+        }
+
+        this.UIStyleClassAdd(this._getAPIClassname('no-screen-sharing-indicator'));
     }
 }
 

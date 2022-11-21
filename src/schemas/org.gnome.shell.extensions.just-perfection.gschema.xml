@@ -401,6 +401,12 @@
       <summary>0 means default size</summary>
       <description>Alt Tab Icon Size</description>
     </key>
+    
+    <key type="b" name="screen-sharing-indicator">
+      <default>true</default>
+      <summary>Screen Sharing Indicator Visibility in Panel</summary>
+      <description>Screen Sharing Indicator Visibility Status</description>
+    </key>
 
   </schema>
   

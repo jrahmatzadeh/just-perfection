@@ -18,6 +18,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Looking glass error when primary monitor doesn't exist.
 - Italian translation by [@svityboy](https://gitlab.gnome.org/svityboy).
 
+### Added
+
+- Screen sharing indicator visibility.
+
 ## [22.0.0 Millet] - 2022-09-10
 
 ### Fixed

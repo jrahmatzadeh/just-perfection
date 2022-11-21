@@ -285,6 +285,10 @@ var Manager = class
         this._settings.connect('changed::alt-tab-icon-size', () => {
             this._applyAltTabIconSize(false);
         });
+
+        this._settings.connect('changed::screen-sharing-indicator', () => {
+            this._applyScreenSharingIndicator(false);
+        });
     }
 
     /**
@@ -352,6 +356,7 @@ var Manager = class
         this._applyAltTabWindowPreviewSize(false);
         this._applyAltTabSmallIconSize(false);
         this._applyAltTabIconSize(false);
+        this._applyScreenSharingIndicator(false);
     }
 
     /**
@@ -419,6 +424,7 @@ var Manager = class
         this._applyAltTabWindowPreviewSize(true);
         this._applyAltTabSmallIconSize(true);
         this._applyAltTabIconSize(true);
+        this._applyScreenSharingIndicator(true);
     }
 
     /**
@@ -1457,6 +1463,24 @@ var Manager = class
             this._api.altTabIconSetDefaultSize();
         } else {
             this._api.altTabIconSetSize(size);
+        }
+    }
+
+    /**
+     * apply screen sharing indicator settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyScreenSharingIndicator(forceOriginal)
+    {
+        let status = this._settings.get_boolean('screen-sharing-indicator');
+
+        if (forceOriginal || status) {
+            this._api.screenSharingIndicatorEnable();
+        } else {
+            this._api.screenSharingIndicatorDisable();
         }
     }
 }

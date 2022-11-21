@@ -161,6 +161,18 @@ var PrefsKeys = class
 
         this.setKey(
             'visibility',
+            'screen-sharing-indicator',
+            'GtkSwitch',
+            this._shellVersion >= 43,
+            {
+                default: true,
+                minimal: true,
+                superminimal: true,
+            }
+        );
+
+        this.setKey(
+            'visibility',
             'search',
             'GtkSwitch',
             true,
