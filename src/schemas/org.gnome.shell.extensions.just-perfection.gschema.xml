@@ -408,6 +408,12 @@
       <description>Screen Sharing Indicator Visibility Status</description>
     </key>
 
+    <key type="b" name="screen-recording-indicator">
+      <default>true</default>
+      <summary>Screen Recording Indicator Visibility in Panel</summary>
+      <description>Screen Recording Indicator Visibility Status</description>
+    </key>
+    
   </schema>
   
 </schemalist>

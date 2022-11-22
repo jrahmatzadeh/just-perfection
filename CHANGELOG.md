@@ -21,6 +21,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Added
 
 - Screen sharing indicator visibility.
+- Screen recording indicator visibility.
 
 ## [22.0.0 Millet] - 2022-09-10
 

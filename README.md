@@ -52,6 +52,7 @@ This extension allows you to do the following:
 | Quick Settings Menu Visibility                       | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: |
 | Ripple Box                                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Screen Sharing Indicator Visibility                  | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: |
+| Screen Recording Indicator Visibility                | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: |
 | Search Visibility                                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Startup Status                                       | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | System Menu (Aggregate Menu) Visibility              | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :white_circle: |

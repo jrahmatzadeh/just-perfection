@@ -724,8 +724,10 @@
 .just-perfection-api-no-world-clocks .world-clocks-button *,
 .just-perfection-api-no-events-button .events-button,
 .just-perfection-api-no-events-button .events-button *,
-.just-perfection-api-no-screen-sharing-indicator,
-.just-perfection-api-no-screen-sharing-indicator *,
+.just-perfection-api-no-screen-sharing-indicator .screen-sharing-indicator,
+.just-perfection-api-no-screen-sharing-indicator .screen-sharing-indicator *,
+.just-perfection-api-no-screen-recording-indicator .screen-recording-indicator,
+.just-perfection-api-no-screen-recording-indicator .screen-recording-indicator *
 {
     padding: 0;
     margin: 0;

@@ -289,6 +289,10 @@ var Manager = class
         this._settings.connect('changed::screen-sharing-indicator', () => {
             this._applyScreenSharingIndicator(false);
         });
+        
+        this._settings.connect('changed::screen-recording-indicator', () => {
+            this._applyScreenRecordingIndicator(false);
+        });
     }
 
     /**
@@ -357,6 +361,7 @@ var Manager = class
         this._applyAltTabSmallIconSize(false);
         this._applyAltTabIconSize(false);
         this._applyScreenSharingIndicator(false);
+        this._applyScreenRecordingIndicator(false);
     }
 
     /**
@@ -425,6 +430,7 @@ var Manager = class
         this._applyAltTabSmallIconSize(true);
         this._applyAltTabIconSize(true);
         this._applyScreenSharingIndicator(true);
+        this._applyScreenRecordingIndicator(true);
     }
 
     /**
@@ -1481,6 +1487,24 @@ var Manager = class
             this._api.screenSharingIndicatorEnable();
         } else {
             this._api.screenSharingIndicatorDisable();
+        }
+    }
+
+    /**
+     * apply screen recording indicator settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyScreenRecordingIndicator(forceOriginal)
+    {
+        let status = this._settings.get_boolean('screen-recording-indicator');
+
+        if (forceOriginal || status) {
+            this._api.screenRecordingIndicatorEnable();
+        } else {
+            this._api.screenRecordingIndicatorDisable();
         }
     }
 }

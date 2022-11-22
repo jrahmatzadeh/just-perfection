@@ -271,6 +271,7 @@ var API = class
      *  osd-position-center
      *  no-dash-separator
      *  no-screen-sharing-indicator
+     *  no-screen-recording-indicator
      *
      * @returns {string}
      */
@@ -313,6 +314,7 @@ var API = class
             'osd-position-center',
             'no-dash-separator',
             'no-screen-sharing-indicator',
+            'no-screen-recording-indicator',
         ];
 
         if (!possibleTypes.includes(type)) {
@@ -3423,6 +3425,34 @@ var API = class
         }
 
         this.UIStyleClassAdd(this._getAPIClassname('no-screen-sharing-indicator'));
+    }
+
+    /**
+     * enable screen recording indicator
+     *
+     * @returns {void}
+     */
+    screenRecordingIndicatorEnable()
+    {
+        if (this._shellVersion < 43) {
+            return;
+        }
+
+        this.UIStyleClassRemove(this._getAPIClassname('no-screen-recording-indicator'));
+    }
+
+    /**
+     * disable screen recording indicator
+     *
+     * @returns {void}
+     */
+    screenRecordingIndicatorDisable()
+    {
+        if (this._shellVersion < 43) {
+            return;
+        }
+
+        this.UIStyleClassAdd(this._getAPIClassname('no-screen-recording-indicator'));
     }
 }
 
