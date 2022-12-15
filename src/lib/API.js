@@ -1129,6 +1129,8 @@ var API = class
      */
     workspaceSwitcherShow()
     {
+        this.UIStyleClassRemove(this._getAPIClassname('no-workspace'));
+
         if (this._shellVersion < 40) {
 
             if (!this._originals['getAlwaysZoomOut'] ||
@@ -1142,15 +1144,9 @@ var API = class
             TSProto._getAlwaysZoomOut = this._originals['getAlwaysZoomOut'];
             TSProto.getNonExpandedWidth = this._originals['getNonExpandedWidth'];
         }
-
-        // it should be before setting the switcher size
-        // because the size can be changed by removing the api class
-        this.UIStyleClassRemove(this._getAPIClassname('no-workspace'));
-
-        if (this._workspaceSwitcherLastSize) {
-            this.workspaceSwitcherSetSize(this._workspaceSwitcherLastSize, false);
-        } else {
-            this.workspaceSwitcherSetDefaultSize();
+        
+        if (this._shellVersion >= 40) {
+            this._workspaceSwitcherShouldShowSetToLast();
         }
     }
 
@@ -1181,13 +1177,12 @@ var API = class
             };
         }
 
-        this.workspaceSwitcherSetSize(0.0, true);
+        if (this._shellVersion >= 40) {
+            this.workspaceSwitcherShouldShow(false, true);
+        }
 
-        // on GNOME 3.38
-        //   fix extra space that 3.38 leaves for no workspace with css
-        // on GNOME 40
-        //   we can hide the workspace only with css by scale=0 and
-        //   no padding
+        //should be after `this.workspaceSwitcherShouldShow()`
+        // since it checks whether it's visible or not
         this.UIStyleClassAdd(this._getAPIClassname('no-workspace'));
     }
 
@@ -2500,12 +2495,21 @@ var API = class
      * set the workspace switcher to always/never show
      *
      * @param {boolean} show true for always show, false for never show
+     * @param {boolean} fake true means set the current should show status
      *
      * @returns {void}
      */
-    workspaceSwitcherShouldShow(shouldShow = true)
+    workspaceSwitcherShouldShow(shouldShow = true, fake = false)
     {
         if (this._shellVersion < 40) {
+            return;
+        }
+
+        if (!fake) {
+            this._shouldShow = shouldShow;
+        }
+
+        if (!this.isWorkspaceSwitcherVisible()) {
             return;
         }
 
@@ -2525,18 +2529,35 @@ var API = class
     }
 
     /**
+     * set the always show workspace switcher status to last real status
+     *
+     * @returns {void}
+     */
+    _workspaceSwitcherShouldShowSetToLast()
+    {
+        if (this._shouldShow === undefined) {
+            this.workspaceSwitcherShouldShowSetDefault();
+            return;
+        }
+
+        this.workspaceSwitcherShouldShow(this._shouldShow);
+    }
+
+    /**
      * set the always show workspace switcher status to default
      *
      * @returns {void}
      */
     workspaceSwitcherShouldShowSetDefault()
     {
-        if (!this._originals['updateShouldShow']) {
+        if (!this._originals['updateShouldShow'] || !this.isWorkspaceSwitcherVisible()) {
             return;
         }
 
         let ThumbnailsBoxProto = this._workspaceThumbnail.ThumbnailsBox.prototype;
         ThumbnailsBoxProto._updateShouldShow = this._originals['updateShouldShow'];
+        delete(this._originals['updateShouldShow']);
+        delete(this._shouldShow);
     }
 
     /**
