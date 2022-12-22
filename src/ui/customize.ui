@@ -1103,6 +1103,9 @@
                             <property name="valign">center</property>
                             <items>
                               <item translatable="yes">Default</item>
+                              <item>16px</item>
+                              <item>22px</item>
+                              <item>24px</item>
                               <item>32px</item>
                               <item>48px</item>
                               <item>64px</item>
