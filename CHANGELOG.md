@@ -17,13 +17,14 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Keep clock menu position when another widget adds to the panel.
 - Looking glass API conflict with Dash to Panel extension.
 - Looking glass error when primary monitor doesn't exist.
+- Window preview gap when window picker close button is disabled.
 - Italian translation by [@svityboy](https://gitlab.gnome.org/svityboy).
 
 ### Added
 
 - More dash icon size (16px, 22px and 24px).
-- Screen sharing indicator visibility.
 - Screen recording indicator visibility.
+- Screen sharing indicator visibility.
 
 ## [22.0.0 Millet] - 2022-09-10
 

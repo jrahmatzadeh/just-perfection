@@ -673,7 +673,7 @@
 .just-perfection-api-no-window-close.just-perfection .window-close
 {
     height: 0;
-    width: 0;
+    width: 30px;
     background: transparent;
     border-radius: 0;
     border: 0;
