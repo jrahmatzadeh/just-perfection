@@ -60,7 +60,7 @@ function init()
 /**
  * fill prefs window
  *
- * @returns {Adw.PreferencesWindow}
+ * @returns {void}
  */
 function fillPreferencesWindow(window)
 {
