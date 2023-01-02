@@ -937,7 +937,7 @@ var Manager = class
         let animation = this._settings.get_int('animation');
 
         let factors = [
-            0.4, // fastest
+            0.2, // fastest
             0.6, // faster
             0.8, // fast
             1.3, // slow

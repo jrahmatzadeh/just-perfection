@@ -9,6 +9,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 ### Changed
 
 - Clock menu offset maximum to 20.
+- Fastest animation speed (twice as fast before).
 
 ### Fixed
 
