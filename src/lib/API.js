@@ -234,7 +234,7 @@ var API = class
     }
 
     /**
-     * get the css classname for API
+     * get the css class name for API
      *
      * @param {string} type possible types
      *  shell-version
@@ -272,6 +272,7 @@ var API = class
      *  no-dash-separator
      *  no-screen-sharing-indicator
      *  no-screen-recording-indicator
+     *  controls-manager-spacing-size
      *
      * @returns {string}
      */
@@ -315,6 +316,7 @@ var API = class
             'no-dash-separator',
             'no-screen-sharing-indicator',
             'no-screen-recording-indicator',
+            'controls-manager-spacing-size',
         ];
 
         if (!possibleTypes.includes(type)) {
@@ -3474,6 +3476,44 @@ var API = class
         }
 
         this.UIStyleClassAdd(this._getAPIClassname('no-screen-recording-indicator'));
+    }
+
+    /**
+     * set controls manager spacing to default
+     *
+     * @returns {void}
+     */
+    controlsManagerSpacingSetDefault()
+    {
+        if (this._controlsManagerSpacingSize === undefined) {
+            return;
+        }
+
+        let classnameStarter = this._getAPIClassname('controls-manager-spacing-size');
+        this.UIStyleClassRemove(classnameStarter + this._controlsManagerSpacingSize);
+
+        delete this._controlsManagerSpacingSize;
+    }
+
+    /**
+     * set controls manager spacing size
+     *
+     * @param {number} size in pixels (0 - 150)
+     *
+     * @returns {void}
+     */
+    controlsManagerSpacingSizeSet(size)
+    {
+        this.controlsManagerSpacingSetDefault();
+
+        if (size < 0 || size > 150) {
+            return;
+        }
+
+        this._controlsManagerSpacingSize = size;
+
+        let classnameStarter = this._getAPIClassname('controls-manager-spacing-size');
+        this.UIStyleClassAdd(classnameStarter + size);
     }
 }
 
