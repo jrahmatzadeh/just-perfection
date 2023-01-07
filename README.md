@@ -55,6 +55,7 @@ This extension allows you to do the following:
 | Screen Recording Indicator Visibility                | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: |
 | Search Visibility                                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Startup Status                                       | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Switcher Popup Delay                                 | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | System Menu (Aggregate Menu) Visibility              | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :white_circle: |
 | Take Screenshot Button in Window Menu Visibility     | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: | :black_circle: |
 | Weather Visibility                                   | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |

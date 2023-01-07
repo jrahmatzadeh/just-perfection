@@ -234,6 +234,10 @@ var Manager = class
             this._applyDoubleSuperToAppgrid(false);
         });
 
+        this._settings.connect('changed::switcher-popup-delay', () => {
+            this._applySwitcherPopupDelay(false);
+        });
+
         this._settings.connect('changed::world-clock', () => {
             this._applyWorldClock(false);
         });
@@ -348,6 +352,7 @@ var Manager = class
         this._applyWorkspaceWrapAround(false);
         this._applyRippleBox(false);
         this._applyDoubleSuperToAppgrid(false);
+        this._applySwitcherPopupDelay(false);
         this._applyWorldClock(false);
         this._applyWeather(false);
         this._applyPanelIconSize(false);
@@ -417,6 +422,7 @@ var Manager = class
         this._applyWorkspaceWrapAround(true);
         this._applyRippleBox(true);
         this._applyDoubleSuperToAppgrid(true);
+        this._applySwitcherPopupDelay(true);
         this._applyWorldClock(true);
         this._applyWeather(true);
         this._applyPanelIconSize(true);
@@ -1250,6 +1256,24 @@ var Manager = class
             this._api.doubleSuperToAppGridEnable();
         } else {
             this._api.doubleSuperToAppGridDisable();
+        }
+    }
+
+    /**
+     * apply switcher popup delay settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applySwitcherPopupDelay(forceOriginal)
+    {
+        let status = this._settings.get_boolean('switcher-popup-delay');
+
+        if (forceOriginal || status) {
+            this._api.switcherPopupDelaySetDefault();
+        } else {
+            this._api.removeSwitcherPopupDelay();
         }
     }
 

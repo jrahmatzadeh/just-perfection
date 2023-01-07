@@ -580,6 +580,18 @@ var PrefsKeys = class
         );
 
         this.setKey(
+            'behavior',
+            'switcher-popup-delay',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superminimal: true,
+            }
+        );
+
+        this.setKey(
             'customize',
             'workspace-background-corner-size',
             'GtkComboBoxText',
