@@ -26,6 +26,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - More dash icon size (16px, 22px and 24px).
 - Screen recording indicator visibility.
 - Screen sharing indicator visibility.
+- Switcher popup delay.
 
 ## [22.0.0 Millet] - 2022-09-10
 

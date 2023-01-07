@@ -581,13 +581,13 @@ var PrefsKeys = class
 
         this.setKey(
             'behavior',
-            'remove-alt-tab-delay',
+            'switcher-popup-delay',
             'GtkSwitch',
             true,
             {
-                default: false,
-                minimal: false,
-                superminimal: false,
+                default: true,
+                minimal: true,
+                superminimal: true,
             }
         );
 

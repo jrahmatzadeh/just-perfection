@@ -20,7 +20,7 @@ const Main = imports.ui.main;
 const BackgroundMenu = imports.ui.backgroundMenu;
 const OverviewControls = imports.ui.overviewControls;
 const WorkspaceSwitcherPopup = imports.ui.workspaceSwitcherPopup;
-const switcherPopup = imports.ui.switcherPopup;
+const SwitcherPopup = imports.ui.switcherPopup;
 const ViewSelector = (shellVersion < 40) ? imports.ui.viewSelector : null;
 const WorkspaceThumbnail = imports.ui.workspaceThumbnail;
 const SearchController = (shellVersion >= 40) ? imports.ui.searchController : null;
@@ -67,7 +67,7 @@ function enable()
         BackgroundMenu,
         OverviewControls,
         WorkspaceSwitcherPopup,
-        switcherPopup,
+        SwitcherPopup,
         InterfaceSettings,
         SearchController,
         ViewSelector,

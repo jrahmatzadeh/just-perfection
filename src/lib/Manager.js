@@ -234,8 +234,8 @@ var Manager = class
             this._applyDoubleSuperToAppgrid(false);
         });
 
-        this._settings.connect('changed::remove-alt-tab-delay', () => {
-            this._applyRemoveAltTabDelay(false);
+        this._settings.connect('changed::switcher-popup-delay', () => {
+            this._applySwitcherPopupDelay(false);
         });
 
         this._settings.connect('changed::world-clock', () => {
@@ -352,7 +352,7 @@ var Manager = class
         this._applyWorkspaceWrapAround(false);
         this._applyRippleBox(false);
         this._applyDoubleSuperToAppgrid(false);
-        this._applyRemoveAltTabDelay(false);
+        this._applySwitcherPopupDelay(false);
         this._applyWorldClock(false);
         this._applyWeather(false);
         this._applyPanelIconSize(false);
@@ -422,7 +422,7 @@ var Manager = class
         this._applyWorkspaceWrapAround(true);
         this._applyRippleBox(true);
         this._applyDoubleSuperToAppgrid(true);
-        this._applyRemoveAltTabDelay(true);
+        this._applySwitcherPopupDelay(true);
         this._applyWorldClock(true);
         this._applyWeather(true);
         this._applyPanelIconSize(true);
@@ -1260,20 +1260,20 @@ var Manager = class
     }
 
     /**
-     * apply remove alt tab delay settings
+     * apply switcher popup delay settings
      *
      * @param {boolean} forceOriginal force original shell setting
      *
      * @returns {void}
      */
-    _applyRemoveAltTabDelay(forceOriginal)
+    _applySwitcherPopupDelay(forceOriginal)
     {
-        let status = this._settings.get_boolean('remove-alt-tab-delay');
+        let status = this._settings.get_boolean('switcher-popup-delay');
 
-        if (forceOriginal || !status) {
-            this._api.removeAltTabDelayDisable();
+        if (forceOriginal || status) {
+            this._api.switcherPopupDelaySetDefault();
         } else {
-            this._api.removeAltTabDelayEnable();
+            this._api.removeSwitcherPopupDelay();
         }
     }
 

@@ -60,7 +60,7 @@ var API = class
      *   'BackgroundMenu' reference to ui::backgroundMenu
      *   'OverviewControls' reference to ui::overviewControls
      *   'WorkspaceSwitcherPopup' reference to ui::workspaceSwitcherPopup
-     *   'switcherPopup' reference to ui::switcherPopup
+     *   'SwitcherPopup' reference to ui::switcherPopup
      *   'InterfaceSettings' reference to Gio::Settings for 'org.gnome.desktop.interface'
      *   'SearchController' reference to ui::searchController
      *   'ViewSelector' reference to ui::viewSelector
@@ -89,7 +89,7 @@ var API = class
         this._backgroundMenu = dependencies['BackgroundMenu'] || null;
         this._overviewControls = dependencies['OverviewControls'] || null;
         this._workspaceSwitcherPopup = dependencies['WorkspaceSwitcherPopup'] || null;
-        this._switcherPopup = dependencies['switcherPopup'] || null;
+        this._switcherPopup = dependencies['SwitcherPopup'] || null;
         this._interfaceSettings = dependencies['InterfaceSettings'] || null;
         this._searchController = dependencies['SearchController'] || null;
         this._viewSelector = dependencies['ViewSelector'] || null;
@@ -2905,23 +2905,31 @@ var API = class
     }
 
     /**
-     * enable the removal of alt tab delay
+     * enable the removal of switcher popup delay
      *
      * @returns {void}
      */
-    removeAltTabDelayEnable()
+    removeSwitcherPopupDelay()
     {
+        if (!this._originals['SwitcherPopupDelay']) {
+            this._originals['SwitcherPopupDelay'] = this._switcherPopup.POPUP_DELAY_TIMEOUT;
+        }
+
         this._switcherPopup.POPUP_DELAY_TIMEOUT = 0;
     }
 
     /**
-     * disable the removal of alt tab delay
+     * disable the removal of switcher popup delay
      *
      * @returns {void}
      */
-    removeAltTabDelayDisable()
+    switcherPopupDelaySetDefault()
     {
-        this._switcherPopup.POPUP_DELAY_TIMEOUT = 150;
+        if (!this._originals['SwitcherPopupDelay']) {
+            return;
+        }
+
+        this._switcherPopup.POPUP_DELAY_TIMEOUT = this._originals['SwitcherPopupDelay'];
     }
 
     /**

@@ -11,7 +11,6 @@ This extension allows you to do the following:
 | Accessibility Menu Visibility                        | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Activities Button Icon Visibility                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Activities button Visibility                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Alt Tab Delay                                        | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: |
 | Alt Tab Icon Size                                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Alt Tab Window Preview Icon Size                     | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Alt Tab Window Preview Size                          | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
@@ -56,6 +55,7 @@ This extension allows you to do the following:
 | Screen Recording Indicator Visibility                | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: |
 | Search Visibility                                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Startup Status                                       | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Switcher Popup Delay                                 | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | System Menu (Aggregate Menu) Visibility              | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :white_circle: |
 | Take Screenshot Button in Window Menu Visibility     | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: | :black_circle: |
 | Weather Visibility                                   | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |

@@ -525,12 +525,12 @@
             </child>
 
             <child>
-              <object class="GtkListBoxRow" id="remove_alt_tab_delay_row">
+              <object class="GtkListBoxRow" id="switcher_popup_delay_row">
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
                 
                 <child>
-                  <object class="GtkBox" id="remove_alt_tab_delay_box">
+                  <object class="GtkBox" id="switcher_popup_delay_box">
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
                     <property name="margin-start">12</property>
@@ -540,7 +540,7 @@
                     <property name="orientation">vertical</property>
                     
                     <child>
-                      <object class="GtkBox" id="remove_alt_tab_delay_box2">
+                      <object class="GtkBox" id="switcher_popup_delay_box2">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
                         <property name="spacing">32</property>
@@ -552,11 +552,11 @@
                             <property name="orientation">vertical</property>
                             
                             <child>
-                              <object class="GtkLabel" id="remove_alt_tab_delay_txt">
+                              <object class="GtkLabel" id="switcher_popup_delay_txt">
                                 <property name="visible">True</property>
                                 <property name="can-focus">False</property>
                                 <property name="valign">center</property>
-                                <property name="label" translatable="yes">Alt Tab Delay</property>
+                                <property name="label" translatable="yes">Switcher Popup Delay</property>
                                 <property name="xalign">0</property>
                                 <property name="hexpand">1</property>
                               </object>
@@ -567,7 +567,7 @@
                                 <property name="visible">True</property>
                                 <property name="can-focus">False</property>
                                 <property name="valign">center</property>
-                                <property name="label" translatable="yes">Removes the 0.15 second popup delay in switcher pop-ups</property>
+                                <property name="label" translatable="yes">Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, keyboard layout, ...</property>
                                 <property name="xalign">0</property>
                                 <property name="wrap">True</property>
                                 <property name="width-chars">0</property>
@@ -585,7 +585,7 @@
                         </child>
                         
                         <child>
-                          <object class="GtkSwitch" id="remove_alt_tab_delay_switch">
+                          <object class="GtkSwitch" id="switcher_popup_delay_switch">
                             <property name="visible">True</property>
                             <property name="can-focus">True</property>
                             <property name="valign">center</property>

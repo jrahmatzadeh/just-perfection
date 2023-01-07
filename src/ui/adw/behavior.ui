@@ -101,12 +101,12 @@
         </child>
 
         <child>
-          <object class="AdwActionRow" id="remove_alt_tab_delay_row">
-            <property name="title" translatable="yes">Alt Tab Delay</property>
-            <property name="subtitle" translatable="yes">Removes the 0.15 second popup delay in switcher pop-ups</property>
-            <property name="activatable-widget">remove_alt_tab_delay_switch</property>
+          <object class="AdwActionRow" id="switcher_popup_delay_row">
+            <property name="title" translatable="yes">Switcher Popup Delay</property>
+            <property name="subtitle" translatable="yes">Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, keyboard layout, ...</property>
+            <property name="activatable-widget">switcher_popup_delay_switch</property>
             <child>
-              <object class="GtkSwitch" id="remove_alt_tab_delay_switch">
+              <object class="GtkSwitch" id="switcher_popup_delay_switch">
                 <property name="valign">center</property>
               </object>
             </child>
