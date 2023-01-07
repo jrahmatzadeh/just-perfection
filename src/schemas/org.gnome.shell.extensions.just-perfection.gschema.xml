@@ -317,6 +317,12 @@
       <description>Double Supper To App Grid Status</description>
     </key>
 
+    <key type="b" name="remove-alt-tab-delay">
+      <default>false</default>
+      <summary>Alt Tab Delay</summary>
+      <description>Removes the 0.15 second popup delay in switcher pop-ups</description>
+    </key>
+
     <key type="b" name="world-clock">
       <default>true</default>
       <summary>World Clock Visibility in Clock Menu</summary>

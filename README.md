@@ -11,6 +11,7 @@ This extension allows you to do the following:
 | Accessibility Menu Visibility                        | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Activities Button Icon Visibility                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Activities button Visibility                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Alt Tab Delay                                        | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: |
 | Alt Tab Icon Size                                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Alt Tab Window Preview Icon Size                     | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Alt Tab Window Preview Size                          | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |

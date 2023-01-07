@@ -101,6 +101,19 @@
         </child>
 
         <child>
+          <object class="AdwActionRow" id="remove_alt_tab_delay_row">
+            <property name="title" translatable="yes">Alt Tab Delay</property>
+            <property name="subtitle" translatable="yes">Removes the 0.15 second popup delay in switcher pop-ups</property>
+            <property name="activatable-widget">remove_alt_tab_delay_switch</property>
+            <child>
+              <object class="GtkSwitch" id="remove_alt_tab_delay_switch">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+
+        <child>
           <object class="AdwComboRow" id="startup_status_row">
             <property name="title" translatable="yes">Startup Status</property>
             <property name="subtitle" translatable="yes">When GNOME Shell is starting up for the first time</property>

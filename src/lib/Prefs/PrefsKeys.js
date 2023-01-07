@@ -580,6 +580,18 @@ var PrefsKeys = class
         );
 
         this.setKey(
+            'behavior',
+            'remove-alt-tab-delay',
+            'GtkSwitch',
+            true,
+            {
+                default: false,
+                minimal: false,
+                superminimal: false,
+            }
+        );
+
+        this.setKey(
             'customize',
             'workspace-background-corner-size',
             'GtkComboBoxText',
