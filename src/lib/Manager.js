@@ -297,6 +297,10 @@ var Manager = class
         this._settings.connect('changed::screen-recording-indicator', () => {
             this._applyScreenRecordingIndicator(false);
         });
+
+        this._settings.connect('changed::controls-manager-spacing-size', () => {
+            this._applyControlsManagerSpacingSize(false);
+        });
     }
 
     /**
@@ -367,6 +371,7 @@ var Manager = class
         this._applyAltTabIconSize(false);
         this._applyScreenSharingIndicator(false);
         this._applyScreenRecordingIndicator(false);
+        this._applyControlsManagerSpacingSize(false);
     }
 
     /**
@@ -437,6 +442,7 @@ var Manager = class
         this._applyAltTabIconSize(true);
         this._applyScreenSharingIndicator(true);
         this._applyScreenRecordingIndicator(true);
+        this._applyControlsManagerSpacingSize(true);
     }
 
     /**
@@ -1529,6 +1535,24 @@ var Manager = class
             this._api.screenRecordingIndicatorEnable();
         } else {
             this._api.screenRecordingIndicatorDisable();
+        }
+    }
+
+    /**
+     * apply controls manager spacing size settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyControlsManagerSpacingSize(forceOriginal)
+    {
+        let size = this._settings.get_int('controls-manager-spacing-size');
+
+        if (forceOriginal || size === 0) {
+            this._api.controlsManagerSpacingSetDefault();
+        } else {
+            this._api.controlsManagerSpacingSizeSet(size);
         }
     }
 }

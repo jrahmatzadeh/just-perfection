@@ -419,6 +419,13 @@
       <summary>Screen Recording Indicator Visibility in Panel</summary>
       <description>Screen Recording Indicator Visibility Status</description>
     </key>
+
+    <key type="i" name="controls-manager-spacing-size">
+      <default>0</default>
+      <range min="0" max="150"/>
+      <summary>0 means default size</summary>
+      <description>Controls manager spacing Size (overview spacing)</description>
+    </key>
     
   </schema>
   

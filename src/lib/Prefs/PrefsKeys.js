@@ -593,6 +593,18 @@ var PrefsKeys = class
 
         this.setKey(
             'customize',
+            'controls-manager-spacing-size',
+            'GtkComboBoxText',
+            this._shellVersion >= 40,
+            {
+                default: 0,
+                minimal: 0,
+                superminimal: 22,
+            }
+        );
+
+        this.setKey(
+            'customize',
             'workspace-background-corner-size',
             'GtkComboBoxText',
             this._shellVersion >= 40,

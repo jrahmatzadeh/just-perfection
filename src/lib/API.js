@@ -3515,6 +3515,10 @@ var API = class
      */
     controlsManagerSpacingSetDefault()
     {
+        if (this._shellVersion < 40) {
+            return;
+        }
+
         if (this._controlsManagerSpacingSize === undefined) {
             return;
         }
@@ -3534,6 +3538,10 @@ var API = class
      */
     controlsManagerSpacingSizeSet(size)
     {
+        if (this._shellVersion < 40) {
+            return;
+        }
+
         this.controlsManagerSpacingSetDefault();
 
         if (size < 0 || size > 150) {

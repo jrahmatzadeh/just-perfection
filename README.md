@@ -17,10 +17,10 @@ This extension allows you to do the following:
 | Always Show Workspace Switcher on Dynamic Workspaces | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Animation Speed or Disable it                        | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | App Gesture                                          | :black_circle: | :black_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: |
-| Applications Button Visibility                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | App Menu Icon Visibility                             | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | App Menu Label Visibility                            | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | App Menu Visibility                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Applications Button Visibility                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Background Menu Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Calendar Visibility                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Clock Menu Position                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
@@ -38,6 +38,7 @@ This extension allows you to do the following:
 | Notification Banner Position                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | OSD Position                                         | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: | :black_circle: |
 | OSD Visibility                                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Overview Spacing Size                                | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Panel Arrow Visibility                               | :black_circle: | :black_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: |
 | Panel Button Padding Size                            | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Panel Height                                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
@@ -51,8 +52,8 @@ This extension allows you to do the following:
 | Power Icon Visibility                                | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Quick Settings Menu Visibility                       | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: |
 | Ripple Box                                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Screen Sharing Indicator Visibility                  | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: |
 | Screen Recording Indicator Visibility                | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: |
+| Screen Sharing Indicator Visibility                  | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: |
 | Search Visibility                                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Startup Status                                       | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Switcher Popup Delay                                 | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
@@ -65,10 +66,10 @@ This extension allows you to do the following:
 | Window Picker Icon                                   | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Workspace Background Corner Size in Overview         | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Workspace Popup Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Workspaces in app grid Visibility                    | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Workspace Switcher Size                              | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Workspace Switcher Visibility                        | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | Workspace Wraparound                                 | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Workspaces in app grid Visibility                    | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 | World Clock Visibility                               | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
 
 ## GNOME Shell Support
