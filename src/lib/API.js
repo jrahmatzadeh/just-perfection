@@ -152,6 +152,7 @@ var API = class
     {
         this.UIStyleClassRemove(this._getAPIClassname('shell-version'));
         this._startSearchSignal(false);
+        this._computeWorkspacesBoxForStateSetDefault();
         
         for (let [name, id] of Object.entries(this._timeoutIds)) {
             this._glib.source_remove(id);
@@ -904,6 +905,8 @@ var API = class
         if (!fake) {
             this._searchEntryVisibility = true;
         }
+
+        this._computeWorkspacesBoxForStateChanged();
     }
 
     /**
@@ -937,6 +940,8 @@ var API = class
         if (!fake) {
             this._searchEntryVisibility = false;
         }
+
+        this._computeWorkspacesBoxForStateChanged();
     }
 
     /**
@@ -2302,11 +2307,12 @@ var API = class
     }
 
     /**
-     * disable workspaces in app grid
+     * change ControlsManagerLayout._computeWorkspacesBoxForState
+     * base on the current state
      *
      * @returns {void}
      */
-    workspacesInAppGridDisable()
+    _computeWorkspacesBoxForStateChanged()
     {
         if (this._shellVersion < 40) {
             return;
@@ -2320,13 +2326,24 @@ var API = class
 
         let controlsLayout = this._main.overview._overview._controls.layout_manager;
 
-        controlsLayout._computeWorkspacesBoxForState = (state, ...args) => {
+        controlsLayout._computeWorkspacesBoxForState = (state, box, searchHeight, ...args) => {
 
-            let box = this._originals['computeWorkspacesBoxForState'].call(
-                controlsLayout, state, ...args);
+            let inAppGrid = state === this._overviewControls.ControlsState.APP_GRID;
 
-            if (state === this._overviewControls.ControlsState.APP_GRID) {
-                box.set_size(box.get_width(), 0);
+            if (inAppGrid && !this._searchEntryVisibility) {
+                // We need some spacing on top of workspace box in app grid
+                // when the search entry is not visible.
+                searchHeight = 40;
+            }
+
+            box = this._originals['computeWorkspacesBoxForState'].call(
+                controlsLayout, state, box, searchHeight, ...args);
+
+            if (inAppGrid && this._workspacesInAppGridHeight !== undefined) {
+                box.set_size(
+                    box.get_width(),
+                    this._workspacesInAppGridHeight
+                );
             }
 
             return box;
@@ -2334,11 +2351,11 @@ var API = class
     }
 
     /**
-     * enable workspaces in app grid
+     * change ControlsManagerLayout._computeWorkspacesBoxForState to its default
      *
      * @returns {void}
      */
-    workspacesInAppGridEnable()
+    _computeWorkspacesBoxForStateSetDefault()
     {
         if (!this._originals['computeWorkspacesBoxForState']) {
             return;
@@ -2348,6 +2365,36 @@ var API = class
 
         controlsLayout._computeWorkspacesBoxForState
         = this._originals['computeWorkspacesBoxForState'];
+    }
+
+    /**
+     * disable workspaces in app grid
+     *
+     * @returns {void}
+     */
+    workspacesInAppGridDisable()
+    {
+        if (this._shellVersion < 40) {
+            return;
+        }
+
+        this._workspacesInAppGridHeight = 0;
+        this._computeWorkspacesBoxForStateChanged();
+    }
+
+    /**
+     * enable workspaces in app grid
+     *
+     * @returns {void}
+     */
+    workspacesInAppGridEnable()
+    {
+        if (this._workspacesInAppGridHeight === undefined) {
+            return;
+        }
+
+        delete(this._workspacesInAppGridHeight);
+        this._computeWorkspacesBoxForStateChanged();
     }
 
     /**
