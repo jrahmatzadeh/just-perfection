@@ -372,6 +372,7 @@ var Manager = class
         this._applyScreenSharingIndicator(false);
         this._applyScreenRecordingIndicator(false);
         this._applyControlsManagerSpacingSize(false);
+        this._api.appGridControlsManagerSpacingSizeSet(50);
     }
 
     /**

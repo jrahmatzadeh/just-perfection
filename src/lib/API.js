@@ -44,7 +44,7 @@ const ICON_TYPE = {
     URI: 1,
 };
 
-const DASH_ICON_SIZES = [16, 22, 24, 32, 48, 64];
+const DASH_ICON_SIZES = [16, 22, 24, 32, 40, 48, 56, 64];
 
 /**
  * API to avoid calling GNOME Shell directly
