@@ -23,7 +23,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ### Added
 
-- More dash icon size (16px, 22px and 24px).
+- More dash icon size (16px, 22px, 24px, 40px and 56px).
 - Overview spacing size.
 - Screen recording indicator visibility.
 - Screen sharing indicator visibility.
