@@ -19,7 +19,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Looking glass API conflict with Dash to Panel extension.
 - Looking glass error when primary monitor doesn't exist.
 - Window preview gap when window picker close button is disabled.
-- Workspace boxes top marin in app grid when the search entry is disabled.
+- Workspace boxes top margin in app grid when the search entry is disabled.
 - Italian translation by [@svityboy](https://gitlab.gnome.org/svityboy).
 
 ### Added
