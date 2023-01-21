@@ -6,82 +6,82 @@
 
 This extension allows you to do the following:
 
-| Feature                                              | 3.36           | 3.38           | 40             | 41             | 42             | 43             |
-| ---------------------------------------------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
-| Accessibility Menu Visibility                        | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Activities Button Icon Visibility                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Activities button Visibility                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Alt Tab Icon Size                                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Alt Tab Window Preview Icon Size                     | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Alt Tab Window Preview Size                          | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Always Show Workspace Switcher on Dynamic Workspaces | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Animation Speed or Disable it                        | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| App Gesture                                          | :black_circle: | :black_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: |
-| App Menu Icon Visibility                             | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| App Menu Label Visibility                            | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| App Menu Visibility                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Applications Button Visibility                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Background Menu Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Calendar Visibility                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Clock Menu Position                                  | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Clock Menu Visibility                                | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Dash Icon Size                                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Dash Separator Visibility                            | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Dash Visibility                                      | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Disable Type to Search                               | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Double Super Key to App Grid                         | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Events in Clock Menu Visibility                      | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| GNOME Shell Theme Override                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Hot Corner                                           | :black_circle: | :black_circle: | :black_circle: | :white_circle: | :white_circle: | :white_circle: |
-| Keyboard Layout Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Looking Glass Size                                   | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Notification Banner Position                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| OSD Position                                         | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: | :black_circle: |
-| OSD Visibility                                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Overview Spacing Size                                | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Panel Arrow Visibility                               | :black_circle: | :black_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: |
-| Panel Button Padding Size                            | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Panel Height                                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Panel icon size                                      | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Panel Indicator Padding Size                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Panel Notification icon Visibility                   | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Panel Position                                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Panel Round Corner Size                              | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :white_circle: | :white_circle: |
-| Panel Visibility                                     | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Panel Visibility in Overview                         | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Power Icon Visibility                                | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Quick Settings Menu Visibility                       | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: |
-| Ripple Box                                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Screen Recording Indicator Visibility                | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: |
-| Screen Sharing Indicator Visibility                  | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: |
-| Search Visibility                                    | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Startup Status                                       | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Switcher Popup Delay                                 | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| System Menu (Aggregate Menu) Visibility              | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :white_circle: |
-| Take Screenshot Button in Window Menu Visibility     | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :black_circle: | :black_circle: |
-| Weather Visibility                                   | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Window Demands Attention Focus                       | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Window Picker Caption Visibility                     | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Window Picker Close Button Visibility                | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Window Picker Icon                                   | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Workspace Background Corner Size in Overview         | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Workspace Popup Visibility                           | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Workspace Switcher Size                              | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Workspace Switcher Visibility                        | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Workspace Wraparound                                 | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| Workspaces in app grid Visibility                    | :white_circle: | :white_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
-| World Clock Visibility                               | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: | :black_circle: |
+| Feature                                              | 3.36               | 3.38               | 40                 | 41                 | 42                 | 43                 |
+| ---------------------------------------------------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |
+| Accessibility Menu Visibility                        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Activities Button Icon Visibility                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Activities button Visibility                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Alt Tab Icon Size                                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Alt Tab Window Preview Icon Size                     | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Alt Tab Window Preview Size                          | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Always Show Workspace Switcher on Dynamic Workspaces |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Animation Speed or Disable it                        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| App Gesture                                          | :white_check_mark: | :white_check_mark: |                    |                    |                    |                    |
+| App Menu Icon Visibility                             | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| App Menu Label Visibility                            | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| App Menu Visibility                                  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Applications Button Visibility                       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Background Menu Visibility                           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Calendar Visibility                                  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Clock Menu Position                                  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Clock Menu Visibility                                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Dash Icon Size                                       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Dash Separator Visibility                            |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Dash Visibility                                      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Disable Type to Search                               | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Double Super Key to App Grid                         |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Events in Clock Menu Visibility                      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| GNOME Shell Theme Override                           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Hot Corner                                           | :white_check_mark: | :white_check_mark: | :white_check_mark: |                    |                    |                    |
+| Keyboard Layout Visibility                           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Looking Glass Size                                   | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Notification Banner Position                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| OSD Position                                         |                    |                    |                    |                    | :white_check_mark: | :white_check_mark: |
+| OSD Visibility                                       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Overview Spacing Size                                |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Panel Arrow Visibility                               | :white_check_mark: | :white_check_mark: |                    |                    |                    |                    |
+| Panel Button Padding Size                            | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Panel Height                                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Panel icon size                                      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Panel Indicator Padding Size                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Panel Notification icon Visibility                   | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Panel Position                                       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Panel Round Corner Size                              | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |                    |                    |
+| Panel Visibility                                     | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Panel Visibility in Overview                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Power Icon Visibility                                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Quick Settings Menu Visibility                       |                    |                    |                    |                    |                    | :white_check_mark: |
+| Ripple Box                                           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Screen Recording Indicator Visibility                |                    |                    |                    |                    |                    | :white_check_mark: |
+| Screen Sharing Indicator Visibility                  |                    |                    |                    |                    |                    | :white_check_mark: |
+| Search Visibility                                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Startup Status                                       |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Switcher Popup Delay                                 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| System Menu (Aggregate Menu) Visibility              | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |                    |
+| Take Screenshot Button in Window Menu Visibility     |                    |                    |                    |                    | :white_check_mark: | :white_check_mark: |
+| Weather Visibility                                   | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Window Demands Attention Focus                       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Window Picker Caption Visibility                     | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Window Picker Close Button Visibility                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Window Picker Icon                                   |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Workspace Background Corner Size in Overview         |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Workspace Popup Visibility                           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Workspace Switcher Size                              |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Workspace Switcher Visibility                        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Workspace Wraparound                                 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Workspaces in app grid Visibility                    |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| World Clock Visibility                               | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 ## GNOME Shell Support
 
-| GNOME Shell Version | End Of Support | Active         |
-| ------------------- | -------------- | -------------- |
-| 43                  | TBA            | :black_circle: |
-| 42                  | July 2026      | :black_circle: |
-| 41                  | May 2022       | :white_circle: |
-| 40                  | December 2021  | :white_circle: |
-| 3.38                | July 2025      | :black_circle: |
-| 3.36                | July 2025      | :black_circle: |
+| GNOME Shell Version | End Of Support | Active             |
+| ------------------- | -------------- | ------------------ |
+| 43                  | TBA            | :white_check_mark: |
+| 42                  | July 2026      | :white_check_mark: |
+| 41                  | May 2022       |                    |
+| 40                  | December 2021  |                    |
+| 3.38                | July 2025      | :white_check_mark: |
+| 3.36                | July 2025      | :white_check_mark: |
 
 ## Install
 
@@ -121,4 +121,5 @@ Or support via [Patreon](https://www.patreon.com/justperfection).
 ## License
 
 This Extension has been released under The **GNU General Public License v3.0**.
+
 
