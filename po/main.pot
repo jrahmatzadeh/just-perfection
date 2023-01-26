@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-07 20:27+0100\n"
+"POT-Creation-Date: 2023-01-25 23:09-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,205 +105,213 @@ msgstr ""
 msgid "Customize"
 msgstr ""
 
-#: src/ui/customize.ui:75 src/ui/adw/customize.ui:15
+#: src/ui/customize.ui:75 src/ui/adw/customize.ui:23
 msgid "Workspace Background Corner Size"
 msgstr ""
 
-#: src/ui/customize.ui:86 src/ui/adw/customize.ui:16
+#: src/ui/customize.ui:86 src/ui/adw/customize.ui:24
 msgid "Workspace background corner size in overview"
 msgstr ""
 
-#: src/ui/customize.ui:109 src/ui/customize.ui:222 src/ui/customize.ui:334
-#: src/ui/customize.ui:446 src/ui/customize.ui:559 src/ui/customize.ui:672
-#: src/ui/adw/customize.ui:156 src/ui/adw/customize.ui:224
-#: src/ui/adw/customize.ui:290 src/ui/adw/customize.ui:356
-#: src/ui/adw/customize.ui:423 src/ui/adw/customize.ui:490
+#: src/ui/customize.ui:109 src/ui/customize.ui:452 src/ui/customize.ui:564
+#: src/ui/customize.ui:676 src/ui/customize.ui:789 src/ui/customize.ui:902
+#: src/ui/adw/customize.ui:320 src/ui/adw/customize.ui:388
+#: src/ui/adw/customize.ui:454 src/ui/adw/customize.ui:520
+#: src/ui/adw/customize.ui:587 src/ui/adw/customize.ui:654
 msgid "By Shell Theme"
 msgstr ""
 
-#: src/ui/customize.ui:210 src/ui/adw/customize.ui:23
-msgid "Panel Size"
+#: src/ui/customize.ui:216 src/ui/adw/customize.ui:15
+msgid "Overview Spacing Size"
 msgstr ""
 
-#: src/ui/customize.ui:322 src/ui/adw/customize.ui:30
-msgid "Panel Icon Size"
+#: src/ui/customize.ui:227 src/ui/adw/customize.ui:16
+msgid "The spacing size for controls manager in overview"
 msgstr ""
 
-#: src/ui/customize.ui:434 src/ui/adw/customize.ui:37
-msgid "Panel Button Padding Size"
-msgstr ""
-
-#: src/ui/customize.ui:547 src/ui/adw/customize.ui:44
-msgid "Panel Indicator Padding Size"
-msgstr ""
-
-#: src/ui/customize.ui:660 src/ui/adw/customize.ui:51
-msgid "Panel Corner Size"
-msgstr ""
-
-#: src/ui/customize.ui:673 src/ui/adw/customize.ui:491
-msgid "No Corner"
-msgstr ""
-
-#: src/ui/customize.ui:773 src/ui/adw/customize.ui:58
-msgid "Panel Position"
-msgstr ""
-
-#: src/ui/customize.ui:785 src/ui/adw/customize.ui:557
-msgid "Top"
-msgstr ""
-
-#: src/ui/customize.ui:786 src/ui/adw/customize.ui:558
-msgid "Bottom"
-msgstr ""
-
-#: src/ui/customize.ui:826 src/ui/adw/customize.ui:65
-msgid "Clock Menu Position"
-msgstr ""
-
-#: src/ui/customize.ui:838 src/ui/customize.ui:1284 src/ui/adw/customize.ui:564
-#: src/ui/adw/customize.ui:678
-msgid "Center"
-msgstr ""
-
-#: src/ui/customize.ui:839 src/ui/adw/customize.ui:565
-msgid "Right"
-msgstr ""
-
-#: src/ui/customize.ui:840 src/ui/adw/customize.ui:566
-msgid "Left"
-msgstr ""
-
-#: src/ui/customize.ui:880 src/ui/adw/customize.ui:72
-msgid "Clock Menu Position Offset"
-msgstr ""
-
-#: src/ui/customize.ui:952 src/ui/adw/customize.ui:79
-msgid "Workspace Switcher Size"
-msgstr ""
-
-#: src/ui/customize.ui:964 src/ui/customize.ui:1105 src/ui/customize.ui:1276
-#: src/ui/customize.ui:1337 src/ui/customize.ui:1394 src/ui/customize.ui:1451
-#: src/ui/customize.ui:1508 src/ui/customize.ui:1569 src/ui/profile.ui:57
-#: src/ui/adw/customize.ui:598 src/ui/adw/customize.ui:647
-#: src/ui/adw/customize.ui:670 src/ui/adw/customize.ui:685
-#: src/ui/adw/customize.ui:696 src/ui/adw/customize.ui:707
-#: src/ui/adw/customize.ui:718 src/ui/adw/customize.ui:733
-#: src/ui/adw/profile.ui:63
+#: src/ui/customize.ui:250 src/ui/customize.ui:1194 src/ui/customize.ui:1335
+#: src/ui/customize.ui:1508 src/ui/customize.ui:1569 src/ui/customize.ui:1626
+#: src/ui/customize.ui:1683 src/ui/customize.ui:1740 src/ui/customize.ui:1801
+#: src/ui/profile.ui:57 src/ui/adw/customize.ui:164 src/ui/adw/customize.ui:762
+#: src/ui/adw/customize.ui:811 src/ui/adw/customize.ui:836
+#: src/ui/adw/customize.ui:851 src/ui/adw/customize.ui:862
+#: src/ui/adw/customize.ui:873 src/ui/adw/customize.ui:884
+#: src/ui/adw/customize.ui:899 src/ui/adw/profile.ui:63
 msgid "Default"
 msgstr ""
 
-#: src/ui/customize.ui:1034 src/ui/adw/customize.ui:86
+#: src/ui/customize.ui:440 src/ui/adw/customize.ui:31
+msgid "Panel Size"
+msgstr ""
+
+#: src/ui/customize.ui:552 src/ui/adw/customize.ui:38
+msgid "Panel Icon Size"
+msgstr ""
+
+#: src/ui/customize.ui:664 src/ui/adw/customize.ui:45
+msgid "Panel Button Padding Size"
+msgstr ""
+
+#: src/ui/customize.ui:777 src/ui/adw/customize.ui:52
+msgid "Panel Indicator Padding Size"
+msgstr ""
+
+#: src/ui/customize.ui:890 src/ui/adw/customize.ui:59
+msgid "Panel Corner Size"
+msgstr ""
+
+#: src/ui/customize.ui:903 src/ui/adw/customize.ui:655
+msgid "No Corner"
+msgstr ""
+
+#: src/ui/customize.ui:1003 src/ui/adw/customize.ui:66
+msgid "Panel Position"
+msgstr ""
+
+#: src/ui/customize.ui:1015 src/ui/adw/customize.ui:721
+msgid "Top"
+msgstr ""
+
+#: src/ui/customize.ui:1016 src/ui/adw/customize.ui:722
+msgid "Bottom"
+msgstr ""
+
+#: src/ui/customize.ui:1056 src/ui/adw/customize.ui:73
+msgid "Clock Menu Position"
+msgstr ""
+
+#: src/ui/customize.ui:1068 src/ui/customize.ui:1516
+#: src/ui/adw/customize.ui:728 src/ui/adw/customize.ui:844
+msgid "Center"
+msgstr ""
+
+#: src/ui/customize.ui:1069 src/ui/adw/customize.ui:729
+msgid "Right"
+msgstr ""
+
+#: src/ui/customize.ui:1070 src/ui/adw/customize.ui:730
+msgid "Left"
+msgstr ""
+
+#: src/ui/customize.ui:1110 src/ui/adw/customize.ui:80
+msgid "Clock Menu Position Offset"
+msgstr ""
+
+#: src/ui/customize.ui:1182 src/ui/adw/customize.ui:87
+msgid "Workspace Switcher Size"
+msgstr ""
+
+#: src/ui/customize.ui:1264 src/ui/adw/customize.ui:94
 msgid "Animation"
 msgstr ""
 
-#: src/ui/customize.ui:1046 src/ui/adw/customize.ui:634
+#: src/ui/customize.ui:1276 src/ui/adw/customize.ui:798
 msgid "No Animation"
 msgstr ""
 
-#: src/ui/customize.ui:1047 src/ui/adw/customize.ui:635
+#: src/ui/customize.ui:1277 src/ui/adw/customize.ui:799
 msgid "Default Speed"
 msgstr ""
 
-#: src/ui/customize.ui:1048 src/ui/adw/customize.ui:636
+#: src/ui/customize.ui:1278 src/ui/adw/customize.ui:800
 msgid "Fastest"
 msgstr ""
 
-#: src/ui/customize.ui:1049 src/ui/adw/customize.ui:637
+#: src/ui/customize.ui:1279 src/ui/adw/customize.ui:801
 msgid "Faster"
 msgstr ""
 
-#: src/ui/customize.ui:1050 src/ui/adw/customize.ui:638
+#: src/ui/customize.ui:1280 src/ui/adw/customize.ui:802
 msgid "Fast"
 msgstr ""
 
-#: src/ui/customize.ui:1051 src/ui/adw/customize.ui:639
+#: src/ui/customize.ui:1281 src/ui/adw/customize.ui:803
 msgid "Slow"
 msgstr ""
 
-#: src/ui/customize.ui:1052 src/ui/adw/customize.ui:640
+#: src/ui/customize.ui:1282 src/ui/adw/customize.ui:804
 msgid "Slower"
 msgstr ""
 
-#: src/ui/customize.ui:1053 src/ui/adw/customize.ui:641
+#: src/ui/customize.ui:1283 src/ui/adw/customize.ui:805
 msgid "Slowest"
 msgstr ""
 
-#: src/ui/customize.ui:1093 src/ui/adw/customize.ui:93
+#: src/ui/customize.ui:1323 src/ui/adw/customize.ui:101
 msgid "Dash Icon Size"
 msgstr ""
 
-#: src/ui/customize.ui:1157 src/ui/adw/customize.ui:100
+#: src/ui/customize.ui:1389 src/ui/adw/customize.ui:108
 msgid "Notification Banner Position"
 msgstr ""
 
-#: src/ui/customize.ui:1168 src/ui/adw/customize.ui:101
+#: src/ui/customize.ui:1400 src/ui/adw/customize.ui:109
 msgid "Notification popup position when notifications show up on the screen"
 msgstr ""
 
-#: src/ui/customize.ui:1191 src/ui/customize.ui:1277
-#: src/ui/adw/customize.ui:659 src/ui/adw/customize.ui:671
+#: src/ui/customize.ui:1423 src/ui/customize.ui:1509
+#: src/ui/adw/customize.ui:825 src/ui/adw/customize.ui:837
 msgid "Top Start"
 msgstr ""
 
-#: src/ui/customize.ui:1192 src/ui/customize.ui:1278
-#: src/ui/adw/customize.ui:660 src/ui/adw/customize.ui:672
+#: src/ui/customize.ui:1424 src/ui/customize.ui:1510
+#: src/ui/adw/customize.ui:826 src/ui/adw/customize.ui:838
 msgid "Top Center"
 msgstr ""
 
-#: src/ui/customize.ui:1193 src/ui/customize.ui:1279
-#: src/ui/adw/customize.ui:661 src/ui/adw/customize.ui:673
+#: src/ui/customize.ui:1425 src/ui/customize.ui:1511
+#: src/ui/adw/customize.ui:827 src/ui/adw/customize.ui:839
 msgid "Top End"
 msgstr ""
 
-#: src/ui/customize.ui:1194 src/ui/customize.ui:1280
-#: src/ui/adw/customize.ui:662 src/ui/adw/customize.ui:674
+#: src/ui/customize.ui:1426 src/ui/customize.ui:1512
+#: src/ui/adw/customize.ui:828 src/ui/adw/customize.ui:840
 msgid "Bottom Start"
 msgstr ""
 
-#: src/ui/customize.ui:1195 src/ui/customize.ui:1281
-#: src/ui/adw/customize.ui:663 src/ui/adw/customize.ui:675
+#: src/ui/customize.ui:1427 src/ui/customize.ui:1513
+#: src/ui/adw/customize.ui:829 src/ui/adw/customize.ui:841
 msgid "Bottom Center"
 msgstr ""
 
-#: src/ui/customize.ui:1196 src/ui/customize.ui:1282
-#: src/ui/adw/customize.ui:664 src/ui/adw/customize.ui:676
+#: src/ui/customize.ui:1428 src/ui/customize.ui:1514
+#: src/ui/adw/customize.ui:830 src/ui/adw/customize.ui:842
 msgid "Bottom End"
 msgstr ""
 
-#: src/ui/customize.ui:1242 src/ui/adw/customize.ui:108
+#: src/ui/customize.ui:1474 src/ui/adw/customize.ui:116
 msgid "OSD Position"
 msgstr ""
 
-#: src/ui/customize.ui:1253 src/ui/adw/customize.ui:109
+#: src/ui/customize.ui:1485 src/ui/adw/customize.ui:117
 msgid "OSD position when on screen display shows up on the screen"
 msgstr ""
 
-#: src/ui/customize.ui:1283 src/ui/adw/customize.ui:677
+#: src/ui/customize.ui:1515 src/ui/adw/customize.ui:843
 msgid "Center Start"
 msgstr ""
 
-#: src/ui/customize.ui:1285 src/ui/adw/customize.ui:679
+#: src/ui/customize.ui:1517 src/ui/adw/customize.ui:845
 msgid "Center End"
 msgstr ""
 
-#: src/ui/customize.ui:1325 src/ui/adw/customize.ui:116
+#: src/ui/customize.ui:1557 src/ui/adw/customize.ui:124
 msgid "Alt Tab Window Preview Size"
 msgstr ""
 
-#: src/ui/customize.ui:1382 src/ui/adw/customize.ui:123
+#: src/ui/customize.ui:1614 src/ui/adw/customize.ui:131
 msgid "Alt Tab Window Preview Icon Size"
 msgstr ""
 
-#: src/ui/customize.ui:1439 src/ui/adw/customize.ui:130
+#: src/ui/customize.ui:1671 src/ui/adw/customize.ui:138
 msgid "Alt Tab Icon Size"
 msgstr ""
 
-#: src/ui/customize.ui:1496 src/ui/adw/customize.ui:137
+#: src/ui/customize.ui:1728 src/ui/adw/customize.ui:145
 msgid "Looking Glass Width"
 msgstr ""
 
-#: src/ui/customize.ui:1557 src/ui/adw/customize.ui:144
+#: src/ui/customize.ui:1789 src/ui/adw/customize.ui:152
 msgid "Looking Glass Height"
 msgstr ""
 

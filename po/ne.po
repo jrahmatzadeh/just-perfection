@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-14 04:58-0700\n"
+"POT-Creation-Date: 2023-01-25 22:37-0800\n"
 "PO-Revision-Date: 2021-02-05 14:43+0545\n"
 "Last-Translator: 1BA4 <nabin7076@protonmail.com>\n"
 "Language-Team: Nepali <>\n"
@@ -81,18 +81,30 @@ msgid "Shows app grid when you double hit super key fast"
 msgstr "तपाईंले सुपर कुञ्जीलाई द्रुत रूपमा डबल हिट गर्दा एप ग्रिड देखाउँछ"
 
 #: src/ui/behavior.ui:559 src/ui/adw/behavior.ui:105
+msgid "Switcher Popup Delay"
+msgstr "स्विचर पपअप ढिलाइ"
+
+#: src/ui/behavior.ui:570 src/ui/adw/behavior.ui:106
+msgid ""
+"Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
+"keyboard layout, ..."
+msgstr ""
+"Alt-tab, ctrl-alt-ट्याब, किबोर्ड लेआउट, ... "
+"जस्ता सबै स्विचर पपअपहरूको लागि ढिलाइ हटाउँछ।"
+
+#: src/ui/behavior.ui:636 src/ui/adw/behavior.ui:118
 msgid "Startup Status"
 msgstr "सुरूवात स्थिति"
 
-#: src/ui/behavior.ui:570 src/ui/adw/behavior.ui:106
+#: src/ui/behavior.ui:647 src/ui/adw/behavior.ui:119
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "जब जिनोम शेल पहिलो पटक सुरू हुन्छ"
 
-#: src/ui/behavior.ui:593 src/ui/adw/behavior.ui:118
+#: src/ui/behavior.ui:670 src/ui/adw/behavior.ui:131
 msgid "Desktop"
 msgstr "डेस्कटप"
 
-#: src/ui/behavior.ui:594 src/ui/adw/behavior.ui:119
+#: src/ui/behavior.ui:671 src/ui/adw/behavior.ui:132
 msgid "Overview"
 msgstr "अवलोकन"
 
@@ -100,205 +112,213 @@ msgstr "अवलोकन"
 msgid "Customize"
 msgstr "अनुकूलन गर्नुहोस्"
 
-#: src/ui/customize.ui:75 src/ui/adw/customize.ui:15
+#: src/ui/customize.ui:75 src/ui/adw/customize.ui:23
 msgid "Workspace Background Corner Size"
 msgstr "कार्यक्षेत्र पृष्ठभूमि कोने आकार"
 
-#: src/ui/customize.ui:86 src/ui/adw/customize.ui:16
+#: src/ui/customize.ui:86 src/ui/adw/customize.ui:24
 msgid "Workspace background corner size in overview"
 msgstr "सिंहावलोकन मा कार्यक्षेत्र पृष्ठभूमि कुना आकार"
 
-#: src/ui/customize.ui:109 src/ui/customize.ui:222 src/ui/customize.ui:334
-#: src/ui/customize.ui:446 src/ui/customize.ui:559 src/ui/customize.ui:672
-#: src/ui/adw/customize.ui:156 src/ui/adw/customize.ui:224
-#: src/ui/adw/customize.ui:290 src/ui/adw/customize.ui:356
-#: src/ui/adw/customize.ui:423 src/ui/adw/customize.ui:490
+#: src/ui/customize.ui:109 src/ui/customize.ui:452 src/ui/customize.ui:564
+#: src/ui/customize.ui:676 src/ui/customize.ui:789 src/ui/customize.ui:902
+#: src/ui/adw/customize.ui:320 src/ui/adw/customize.ui:388
+#: src/ui/adw/customize.ui:454 src/ui/adw/customize.ui:520
+#: src/ui/adw/customize.ui:587 src/ui/adw/customize.ui:654
 msgid "By Shell Theme"
 msgstr "शेल थिम द्वारा"
 
-#: src/ui/customize.ui:210 src/ui/adw/customize.ui:23
-msgid "Panel Size"
-msgstr "प्यानल आकार"
+#: src/ui/customize.ui:216 src/ui/adw/customize.ui:15
+msgid "Overview Spacing Size"
+msgstr "अवलोकन स्पेसिङ साइज"
 
-#: src/ui/customize.ui:322 src/ui/adw/customize.ui:30
-msgid "Panel Icon Size"
-msgstr "प्यानल आइकन आकार"
+#: src/ui/customize.ui:227 src/ui/adw/customize.ui:16
+msgid "The spacing size for controls manager in overview"
+msgstr "सिंहावलोकनमा नियन्त्रण प्रबन्धकका लागि स्पेसिङ साइज"
 
-#: src/ui/customize.ui:434 src/ui/adw/customize.ui:37
-msgid "Panel Button Padding Size"
-msgstr "प्यानल बटन प्याडिंग आकार"
-
-#: src/ui/customize.ui:547 src/ui/adw/customize.ui:44
-msgid "Panel Indicator Padding Size"
-msgstr "प्यानल सूचक प्याडिंग आकार"
-
-#: src/ui/customize.ui:660 src/ui/adw/customize.ui:51
-msgid "Panel Corner Size"
-msgstr "प्यानल कुना आकार"
-
-#: src/ui/customize.ui:673 src/ui/adw/customize.ui:491
-msgid "No Corner"
-msgstr "कुनै कर्नर छैन"
-
-#: src/ui/customize.ui:773 src/ui/adw/customize.ui:58
-msgid "Panel Position"
-msgstr "प्यानल स्थिति"
-
-#: src/ui/customize.ui:785 src/ui/adw/customize.ui:557
-msgid "Top"
-msgstr "माथि"
-
-#: src/ui/customize.ui:786 src/ui/adw/customize.ui:558
-msgid "Bottom"
-msgstr "तल"
-
-#: src/ui/customize.ui:826 src/ui/adw/customize.ui:65
-msgid "Clock Menu Position"
-msgstr "घडी मेनू स्थिति"
-
-#: src/ui/customize.ui:838 src/ui/customize.ui:1270 src/ui/adw/customize.ui:564
-#: src/ui/adw/customize.ui:664
-msgid "Center"
-msgstr "केन्द्र"
-
-#: src/ui/customize.ui:839 src/ui/adw/customize.ui:565
-msgid "Right"
-msgstr "सहि"
-
-#: src/ui/customize.ui:840 src/ui/adw/customize.ui:566
-msgid "Left"
-msgstr "बाँया"
-
-#: src/ui/customize.ui:880 src/ui/adw/customize.ui:72
-msgid "Clock Menu Position Offset"
-msgstr "घडी मेनू स्थिति अफसेट"
-
-#: src/ui/customize.ui:941 src/ui/adw/customize.ui:79
-msgid "Workspace Switcher Size"
-msgstr "कार्यक्षेत्र स्विचर आकार"
-
-#: src/ui/customize.ui:953 src/ui/customize.ui:1094 src/ui/customize.ui:1262
-#: src/ui/customize.ui:1323 src/ui/customize.ui:1380 src/ui/customize.ui:1437
-#: src/ui/customize.ui:1494 src/ui/customize.ui:1555 src/ui/profile.ui:57
-#: src/ui/adw/customize.ui:587 src/ui/adw/customize.ui:636
-#: src/ui/adw/customize.ui:656 src/ui/adw/customize.ui:671
-#: src/ui/adw/customize.ui:682 src/ui/adw/customize.ui:693
-#: src/ui/adw/customize.ui:704 src/ui/adw/customize.ui:719
-#: src/ui/adw/profile.ui:63
+#: src/ui/customize.ui:250 src/ui/customize.ui:1194 src/ui/customize.ui:1335
+#: src/ui/customize.ui:1508 src/ui/customize.ui:1569 src/ui/customize.ui:1626
+#: src/ui/customize.ui:1683 src/ui/customize.ui:1740 src/ui/customize.ui:1801
+#: src/ui/profile.ui:57 src/ui/adw/customize.ui:164 src/ui/adw/customize.ui:762
+#: src/ui/adw/customize.ui:811 src/ui/adw/customize.ui:836
+#: src/ui/adw/customize.ui:851 src/ui/adw/customize.ui:862
+#: src/ui/adw/customize.ui:873 src/ui/adw/customize.ui:884
+#: src/ui/adw/customize.ui:899 src/ui/adw/profile.ui:63
 msgid "Default"
 msgstr "पूर्वनिर्धारित"
 
-#: src/ui/customize.ui:1023 src/ui/adw/customize.ui:86
+#: src/ui/customize.ui:440 src/ui/adw/customize.ui:31
+msgid "Panel Size"
+msgstr "प्यानल आकार"
+
+#: src/ui/customize.ui:552 src/ui/adw/customize.ui:38
+msgid "Panel Icon Size"
+msgstr "प्यानल आइकन आकार"
+
+#: src/ui/customize.ui:664 src/ui/adw/customize.ui:45
+msgid "Panel Button Padding Size"
+msgstr "प्यानल बटन प्याडिंग आकार"
+
+#: src/ui/customize.ui:777 src/ui/adw/customize.ui:52
+msgid "Panel Indicator Padding Size"
+msgstr "प्यानल सूचक प्याडिंग आकार"
+
+#: src/ui/customize.ui:890 src/ui/adw/customize.ui:59
+msgid "Panel Corner Size"
+msgstr "प्यानल कुना आकार"
+
+#: src/ui/customize.ui:903 src/ui/adw/customize.ui:655
+msgid "No Corner"
+msgstr "कुनै कर्नर छैन"
+
+#: src/ui/customize.ui:1003 src/ui/adw/customize.ui:66
+msgid "Panel Position"
+msgstr "प्यानल स्थिति"
+
+#: src/ui/customize.ui:1015 src/ui/adw/customize.ui:721
+msgid "Top"
+msgstr "माथि"
+
+#: src/ui/customize.ui:1016 src/ui/adw/customize.ui:722
+msgid "Bottom"
+msgstr "तल"
+
+#: src/ui/customize.ui:1056 src/ui/adw/customize.ui:73
+msgid "Clock Menu Position"
+msgstr "घडी मेनू स्थिति"
+
+#: src/ui/customize.ui:1068 src/ui/customize.ui:1516
+#: src/ui/adw/customize.ui:728 src/ui/adw/customize.ui:844
+msgid "Center"
+msgstr "केन्द्र"
+
+#: src/ui/customize.ui:1069 src/ui/adw/customize.ui:729
+msgid "Right"
+msgstr "सहि"
+
+#: src/ui/customize.ui:1070 src/ui/adw/customize.ui:730
+msgid "Left"
+msgstr "बाँया"
+
+#: src/ui/customize.ui:1110 src/ui/adw/customize.ui:80
+msgid "Clock Menu Position Offset"
+msgstr "घडी मेनू स्थिति अफसेट"
+
+#: src/ui/customize.ui:1182 src/ui/adw/customize.ui:87
+msgid "Workspace Switcher Size"
+msgstr "कार्यक्षेत्र स्विचर आकार"
+
+#: src/ui/customize.ui:1264 src/ui/adw/customize.ui:94
 msgid "Animation"
 msgstr "एनिमेशन"
 
-#: src/ui/customize.ui:1035 src/ui/adw/customize.ui:623
+#: src/ui/customize.ui:1276 src/ui/adw/customize.ui:798
 msgid "No Animation"
 msgstr "कुनै एनिमेशन छैन"
 
-#: src/ui/customize.ui:1036 src/ui/adw/customize.ui:624
+#: src/ui/customize.ui:1277 src/ui/adw/customize.ui:799
 msgid "Default Speed"
 msgstr "पूर्वनिर्धारित गति"
 
-#: src/ui/customize.ui:1037 src/ui/adw/customize.ui:625
+#: src/ui/customize.ui:1278 src/ui/adw/customize.ui:800
 msgid "Fastest"
 msgstr "सब भन्दा छिटो"
 
-#: src/ui/customize.ui:1038 src/ui/adw/customize.ui:626
+#: src/ui/customize.ui:1279 src/ui/adw/customize.ui:801
 msgid "Faster"
 msgstr "छिटो"
 
-#: src/ui/customize.ui:1039 src/ui/adw/customize.ui:627
+#: src/ui/customize.ui:1280 src/ui/adw/customize.ui:802
 msgid "Fast"
 msgstr "छिटो"
 
-#: src/ui/customize.ui:1040 src/ui/adw/customize.ui:628
+#: src/ui/customize.ui:1281 src/ui/adw/customize.ui:803
 msgid "Slow"
 msgstr "ढिलो"
 
-#: src/ui/customize.ui:1041 src/ui/adw/customize.ui:629
+#: src/ui/customize.ui:1282 src/ui/adw/customize.ui:804
 msgid "Slower"
 msgstr "ढिलो"
 
-#: src/ui/customize.ui:1042 src/ui/adw/customize.ui:630
+#: src/ui/customize.ui:1283 src/ui/adw/customize.ui:805
 msgid "Slowest"
 msgstr "सब भन्दा ढिलो"
 
-#: src/ui/customize.ui:1082 src/ui/adw/customize.ui:93
+#: src/ui/customize.ui:1323 src/ui/adw/customize.ui:101
 msgid "Dash Icon Size"
 msgstr "ड्यास आइकन आकार"
 
-#: src/ui/customize.ui:1143 src/ui/adw/customize.ui:100
+#: src/ui/customize.ui:1389 src/ui/adw/customize.ui:108
 msgid "Notification Banner Position"
 msgstr "सूचना ब्यानर स्थिति"
 
-#: src/ui/customize.ui:1154 src/ui/adw/customize.ui:101
+#: src/ui/customize.ui:1400 src/ui/adw/customize.ui:109
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "सूचना पपअप स्थिति जब सूचनाहरू स्क्रीनमा देखा पर्दछ"
 
-#: src/ui/customize.ui:1177 src/ui/customize.ui:1263
-#: src/ui/adw/customize.ui:645 src/ui/adw/customize.ui:657
+#: src/ui/customize.ui:1423 src/ui/customize.ui:1509
+#: src/ui/adw/customize.ui:825 src/ui/adw/customize.ui:837
 msgid "Top Start"
 msgstr "शीर्ष सुरू"
 
-#: src/ui/customize.ui:1178 src/ui/customize.ui:1264
-#: src/ui/adw/customize.ui:646 src/ui/adw/customize.ui:658
+#: src/ui/customize.ui:1424 src/ui/customize.ui:1510
+#: src/ui/adw/customize.ui:826 src/ui/adw/customize.ui:838
 msgid "Top Center"
 msgstr "शीर्ष केन्द्र"
 
-#: src/ui/customize.ui:1179 src/ui/customize.ui:1265
-#: src/ui/adw/customize.ui:647 src/ui/adw/customize.ui:659
+#: src/ui/customize.ui:1425 src/ui/customize.ui:1511
+#: src/ui/adw/customize.ui:827 src/ui/adw/customize.ui:839
 msgid "Top End"
 msgstr ""
 
-#: src/ui/customize.ui:1180 src/ui/customize.ui:1266
-#: src/ui/adw/customize.ui:648 src/ui/adw/customize.ui:660
+#: src/ui/customize.ui:1426 src/ui/customize.ui:1512
+#: src/ui/adw/customize.ui:828 src/ui/adw/customize.ui:840
 msgid "Bottom Start"
 msgstr "तलको सुरुवात"
 
-#: src/ui/customize.ui:1181 src/ui/customize.ui:1267
-#: src/ui/adw/customize.ui:649 src/ui/adw/customize.ui:661
+#: src/ui/customize.ui:1427 src/ui/customize.ui:1513
+#: src/ui/adw/customize.ui:829 src/ui/adw/customize.ui:841
 msgid "Bottom Center"
 msgstr "तल्लो केन्द्र"
 
-#: src/ui/customize.ui:1182 src/ui/customize.ui:1268
-#: src/ui/adw/customize.ui:650 src/ui/adw/customize.ui:662
+#: src/ui/customize.ui:1428 src/ui/customize.ui:1514
+#: src/ui/adw/customize.ui:830 src/ui/adw/customize.ui:842
 msgid "Bottom End"
 msgstr "तलको अन्त्य"
 
-#: src/ui/customize.ui:1228 src/ui/adw/customize.ui:108
+#: src/ui/customize.ui:1474 src/ui/adw/customize.ui:116
 msgid "OSD Position"
 msgstr "ओएसडी पद"
 
-#: src/ui/customize.ui:1239 src/ui/adw/customize.ui:109
+#: src/ui/customize.ui:1485 src/ui/adw/customize.ui:117
 msgid "OSD position when on screen display shows up on the screen"
 msgstr "OSD स्थिति जब स्क्रिन डिस्प्ले स्क्रिनमा देखा पर्दछ"
 
-#: src/ui/customize.ui:1269 src/ui/adw/customize.ui:663
+#: src/ui/customize.ui:1515 src/ui/adw/customize.ui:843
 msgid "Center Start"
 msgstr "केन्द्र सुरु"
 
-#: src/ui/customize.ui:1271 src/ui/adw/customize.ui:665
+#: src/ui/customize.ui:1517 src/ui/adw/customize.ui:845
 msgid "Center End"
 msgstr "केन्द्र अन्त्य"
 
-#: src/ui/customize.ui:1311 src/ui/adw/customize.ui:116
+#: src/ui/customize.ui:1557 src/ui/adw/customize.ui:124
 msgid "Alt Tab Window Preview Size"
 msgstr "alt-tab विन्डो पूर्वावलोकन आकार"
 
-#: src/ui/customize.ui:1368 src/ui/adw/customize.ui:123
+#: src/ui/customize.ui:1614 src/ui/adw/customize.ui:131
 msgid "Alt Tab Window Preview Icon Size"
 msgstr "alt-tab विन्डो पूर्वावलोकन प्रतिमा आकार"
 
-#: src/ui/customize.ui:1425 src/ui/adw/customize.ui:130
+#: src/ui/customize.ui:1671 src/ui/adw/customize.ui:138
 msgid "Alt Tab Icon Size"
 msgstr "alt-tab प्रतिमा आकार"
 
-#: src/ui/customize.ui:1482 src/ui/adw/customize.ui:137
+#: src/ui/customize.ui:1728 src/ui/adw/customize.ui:145
 msgid "Looking Glass Width"
 msgstr "हेर्दै गिलास चौडाइ"
 
-#: src/ui/customize.ui:1543 src/ui/adw/customize.ui:144
+#: src/ui/customize.ui:1789 src/ui/adw/customize.ui:152
 msgid "Looking Glass Height"
 msgstr "हेर्दै गिलास उचाइ"
 
@@ -468,90 +488,114 @@ msgid "System menu holds power, volume and network icons in panel"
 msgstr "प्रणाली मेनूले प्यानलमा शक्ति, भोल्यूम र नेटवर्क आइकन समात्दछ"
 
 #: src/ui/visibility.ui:715 src/ui/adw/visibility.ui:131
+msgid "Quick Settings"
+msgstr "द्रुत सेटिङहरू"
+
+#: src/ui/visibility.ui:726 src/ui/adw/visibility.ui:132
+msgid "Quick settings menu in panel"
+msgstr "प्यानलमा द्रुत सेटिङ मेनु"
+
+#: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
+msgid "Screen Sharing Indicator"
+msgstr "स्क्रिन साझेदारी सूचक"
+
+#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+msgid "Screen sharing indicator in panel"
+msgstr "प्यानलमा स्क्रिन साझेदारी सूचक"
+
+#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
+msgid "Screen Recording Indicator"
+msgstr "स्क्रिन रेकर्डिङ सूचक"
+
+#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
+msgid "Screen recording indicator in panel"
+msgstr "प्यानलमा स्क्रिन रेकर्डिङ सूचक"
+
+#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
 msgid "World Clock"
 msgstr "विश्व घडी"
 
-#: src/ui/visibility.ui:726 src/ui/adw/visibility.ui:132
+#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
 msgid "World clock in clock menu"
 msgstr "घडी मेनुमा विश्व घडी"
 
-#: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
+#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
 msgid "Weather"
 msgstr "मौसम"
 
-#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
 msgid "Weather in clock menu"
 msgstr "घडी मेनुमा मौसम"
 
-#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
+#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
 msgid "Calendar"
 msgstr "पात्रो"
 
-#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
+#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
 msgid "Calendar in clock menu"
 msgstr "घडी मेनुमा पात्रो"
 
-#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
+#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
 msgid "Events"
 msgstr "घटनाहरू"
 
-#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
+#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
 msgid "Events button in clock menu"
 msgstr "घडी मेनुमा घटनाहरू बटन"
 
-#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
+#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
 msgid "Search"
 msgstr "खोज"
 
-#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
+#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
 msgid "Search entry in overview"
 msgstr "सिंहावलोकन मा खोज प्रविष्टि"
 
-#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
+#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
 msgid "Dash"
 msgstr "ड्यास"
 
-#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
+#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
 msgid "Dash holds favorite and opened applications icons"
 msgstr "ड्याससँग मनपर्ने र खोलिएका अनुप्रयोग आइकनहरू छन्"
 
-#: src/ui/visibility.ui:1178 src/ui/adw/visibility.ui:209
+#: src/ui/visibility.ui:1409 src/ui/adw/visibility.ui:248
 msgid "Dash Separator"
 msgstr "ड्यास विभाजक"
 
-#: src/ui/visibility.ui:1189 src/ui/adw/visibility.ui:210
+#: src/ui/visibility.ui:1420 src/ui/adw/visibility.ui:249
 msgid "Dash separator line that separates pin apps from unpin apps"
 msgstr "ड्यास विभाजक रेखा जसले पिन एपहरूलाई अनपिन एपहरूबाट अलग गर्छ"
 
-#: src/ui/visibility.ui:1255 src/ui/adw/visibility.ui:222
+#: src/ui/visibility.ui:1486 src/ui/adw/visibility.ui:261
 msgid "Show Applications Button"
 msgstr "अनुप्रयोग बटन देखाउनुहोस्"
 
-#: src/ui/visibility.ui:1266 src/ui/adw/visibility.ui:223
+#: src/ui/visibility.ui:1497 src/ui/adw/visibility.ui:262
 msgid "Button in dash that toggles applications list visibility"
 msgstr "ड्यासमा बटन जुन अनुप्रयोग सूची दृश्यता टगल गर्दछ"
 
-#: src/ui/visibility.ui:1332 src/ui/adw/visibility.ui:235
+#: src/ui/visibility.ui:1563 src/ui/adw/visibility.ui:274
 msgid "On Screen Display (OSD)"
 msgstr "अन स्क्रिन डिस्प्ले (ओएसडी)"
 
-#: src/ui/visibility.ui:1343 src/ui/adw/visibility.ui:236
+#: src/ui/visibility.ui:1574 src/ui/adw/visibility.ui:275
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "स्क्रिन डिस्प्लेमा भोल्यूम र चमक जब परिवर्तन हुन्छ"
 
-#: src/ui/visibility.ui:1409 src/ui/adw/visibility.ui:248
+#: src/ui/visibility.ui:1640 src/ui/adw/visibility.ui:287
 msgid "Workspace Popup"
 msgstr "वोर्कस्पेस पप अप"
 
-#: src/ui/visibility.ui:1420 src/ui/adw/visibility.ui:249
+#: src/ui/visibility.ui:1651 src/ui/adw/visibility.ui:288
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr "पपअप जुन तपाईं कार्यस्थान परिवर्तन गर्दा स्क्रिनमा देखा पर्दछ"
 
-#: src/ui/visibility.ui:1486 src/ui/adw/visibility.ui:261
+#: src/ui/visibility.ui:1717 src/ui/adw/visibility.ui:300
 msgid "Workspace Switcher"
 msgstr "वोर्कस्पेस स्विचर"
 
-#: src/ui/visibility.ui:1497 src/ui/adw/visibility.ui:262
+#: src/ui/visibility.ui:1728 src/ui/adw/visibility.ui:301
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
@@ -559,51 +603,51 @@ msgstr ""
 "साथै कार्यक्षेत्र थम्बनेलहरूलाई जनाउँछ जुन तपाईंले कार्यस्थान छनौट गर्नको लागि अवलोकनमा "
 "देख्नुहुन्छ"
 
-#: src/ui/visibility.ui:1563 src/ui/adw/visibility.ui:274
+#: src/ui/visibility.ui:1794 src/ui/adw/visibility.ui:313
 msgid "Workspaces App Grid"
 msgstr "कार्यक्षेत्र अनुप्रयोग ग्रिड"
 
-#: src/ui/visibility.ui:1574 src/ui/adw/visibility.ui:275
+#: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
 msgid "Workspace boxes in app grid"
 msgstr "अनुप्रयोग ग्रिडमा कार्यक्षेत्र बक्सहरू"
 
-#: src/ui/visibility.ui:1640 src/ui/adw/visibility.ui:287
+#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
 msgid "Window Picker Close Button"
 msgstr "विन्डो पिकर बन्द बटन"
 
-#: src/ui/visibility.ui:1651 src/ui/adw/visibility.ui:288
+#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
 msgid "The close button on window preview in overview"
 msgstr "सिंहावलोकन मा विन्डो पूर्वावलोकन मा बन्द बटन"
 
-#: src/ui/visibility.ui:1717 src/ui/adw/visibility.ui:300
+#: src/ui/visibility.ui:1948 src/ui/adw/visibility.ui:339
 msgid "Window Picker Caption"
 msgstr "विन्डो पिकर क्याप्शन"
 
-#: src/ui/visibility.ui:1728 src/ui/adw/visibility.ui:301
+#: src/ui/visibility.ui:1959 src/ui/adw/visibility.ui:340
 msgid "The text under window preview in overview"
 msgstr "सिंहावलोकन मा विन्डो पूर्वावलोकन अन्तर्गत पाठ"
 
-#: src/ui/visibility.ui:1794 src/ui/adw/visibility.ui:313
+#: src/ui/visibility.ui:2025 src/ui/adw/visibility.ui:352
 msgid "Background Menu"
 msgstr "पृष्ठभूमि मेनू"
 
-#: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
+#: src/ui/visibility.ui:2036 src/ui/adw/visibility.ui:353
 msgid "When you right click on desktop background"
 msgstr "जब तपाईं डेस्कटप पृष्ठभूमिमा दायाँ क्लिक गर्नुहुन्छ"
 
-#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
+#: src/ui/visibility.ui:2102 src/ui/adw/visibility.ui:365
 msgid "Ripple Box"
 msgstr "लहर बक्स"
 
-#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
+#: src/ui/visibility.ui:2113 src/ui/adw/visibility.ui:366
 msgid "Hot corner animation effects"
 msgstr "तातो कुना एनीमेशन प्रभाव"
 
-#: src/ui/visibility.ui:1948 src/ui/adw/visibility.ui:339
+#: src/ui/visibility.ui:2179 src/ui/adw/visibility.ui:378
 msgid "Take Screenshot button in Window Menu"
 msgstr "विन्डो मेनुमा स्क्रिनसट बटन लिनुहोस्"
 
-#: src/ui/visibility.ui:1959 src/ui/adw/visibility.ui:340
+#: src/ui/visibility.ui:2190 src/ui/adw/visibility.ui:379
 msgid "Take screenshot button in title bar right click menu"
 msgstr "शीर्षक पट्टीमा स्क्रिनसट बटन लिनुहोस् राइट क्लिक मेनु"
 

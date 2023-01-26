@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-14 04:58-0700\n"
+"POT-Creation-Date: 2023-01-25 23:09-0800\n"
 "PO-Revision-Date: 2020-12-13 07:26-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: French\n"
@@ -88,18 +88,30 @@ msgstr ""
 "sur la touche super"
 
 #: src/ui/behavior.ui:559 src/ui/adw/behavior.ui:105
+msgid "Switcher Popup Delay"
+msgstr "Délai de pop-up du commutateur"
+
+#: src/ui/behavior.ui:570 src/ui/adw/behavior.ui:106
+msgid ""
+"Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
+"keyboard layout, ..."
+msgstr ""
+"Supprime le délai pour toutes les fenêtres contextuelles du commutateur "
+"comme alt-tab, ctrl-alt-tab, la disposition du clavier, ..."
+
+#: src/ui/behavior.ui:636 src/ui/adw/behavior.ui:118
 msgid "Startup Status"
 msgstr "État de démarrage"
 
-#: src/ui/behavior.ui:570 src/ui/adw/behavior.ui:106
+#: src/ui/behavior.ui:647 src/ui/adw/behavior.ui:119
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "Lorsque GNOME Shell démarre pour la première fois"
 
-#: src/ui/behavior.ui:593 src/ui/adw/behavior.ui:118
+#: src/ui/behavior.ui:670 src/ui/adw/behavior.ui:131
 msgid "Desktop"
 msgstr "Bureau"
 
-#: src/ui/behavior.ui:594 src/ui/adw/behavior.ui:119
+#: src/ui/behavior.ui:671 src/ui/adw/behavior.ui:132
 msgid "Overview"
 msgstr "Aperçu"
 
@@ -107,207 +119,216 @@ msgstr "Aperçu"
 msgid "Customize"
 msgstr "Personnaliser"
 
-#: src/ui/customize.ui:75 src/ui/adw/customize.ui:15
+#: src/ui/customize.ui:75 src/ui/adw/customize.ui:23
 msgid "Workspace Background Corner Size"
 msgstr "Taille du coin de l'arrière-plan de l'espace de travail"
 
-#: src/ui/customize.ui:86 src/ui/adw/customize.ui:16
+#: src/ui/customize.ui:86 src/ui/adw/customize.ui:24
 msgid "Workspace background corner size in overview"
 msgstr ""
 "Taille du coin de l'arrière-plan de l'espace de travail dans la vue "
 "d'ensemble"
 
-#: src/ui/customize.ui:109 src/ui/customize.ui:222 src/ui/customize.ui:334
-#: src/ui/customize.ui:446 src/ui/customize.ui:559 src/ui/customize.ui:672
-#: src/ui/adw/customize.ui:156 src/ui/adw/customize.ui:224
-#: src/ui/adw/customize.ui:290 src/ui/adw/customize.ui:356
-#: src/ui/adw/customize.ui:423 src/ui/adw/customize.ui:490
+#: src/ui/customize.ui:109 src/ui/customize.ui:452 src/ui/customize.ui:564
+#: src/ui/customize.ui:676 src/ui/customize.ui:789 src/ui/customize.ui:902
+#: src/ui/adw/customize.ui:320 src/ui/adw/customize.ui:388
+#: src/ui/adw/customize.ui:454 src/ui/adw/customize.ui:520
+#: src/ui/adw/customize.ui:587 src/ui/adw/customize.ui:654
 msgid "By Shell Theme"
 msgstr "Par thème Shell"
 
-#: src/ui/customize.ui:210 src/ui/adw/customize.ui:23
-msgid "Panel Size"
-msgstr "Taille du panneau"
+#: src/ui/customize.ui:216 src/ui/adw/customize.ui:15
+msgid "Overview Spacing Size"
+msgstr "Vue d'ensemble Espacement Taille"
 
-#: src/ui/customize.ui:322 src/ui/adw/customize.ui:30
-msgid "Panel Icon Size"
-msgstr "Taille de l'icône du panneau"
+#: src/ui/customize.ui:227 src/ui/adw/customize.ui:16
+msgid "The spacing size for controls manager in overview"
+msgstr ""
+"La taille d'espacement pour le gestionnaire de contrôles en vue d'ensemble"
 
-#: src/ui/customize.ui:434 src/ui/adw/customize.ui:37
-msgid "Panel Button Padding Size"
-msgstr "Marge intérieure des boutons du panneau"
-
-#: src/ui/customize.ui:547 src/ui/adw/customize.ui:44
-msgid "Panel Indicator Padding Size"
-msgstr "Marge intérieure de l'indicateur de panneau"
-
-#: src/ui/customize.ui:660 src/ui/adw/customize.ui:51
-msgid "Panel Corner Size"
-msgstr "Taille du coin du panneau"
-
-#: src/ui/customize.ui:673 src/ui/adw/customize.ui:491
-msgid "No Corner"
-msgstr "Pas de coin"
-
-#: src/ui/customize.ui:773 src/ui/adw/customize.ui:58
-msgid "Panel Position"
-msgstr "Position du panneau"
-
-#: src/ui/customize.ui:785 src/ui/adw/customize.ui:557
-msgid "Top"
-msgstr "Haut"
-
-#: src/ui/customize.ui:786 src/ui/adw/customize.ui:558
-msgid "Bottom"
-msgstr "Bas"
-
-#: src/ui/customize.ui:826 src/ui/adw/customize.ui:65
-msgid "Clock Menu Position"
-msgstr "Position du menu de l'horloge"
-
-#: src/ui/customize.ui:838 src/ui/customize.ui:1270 src/ui/adw/customize.ui:564
-#: src/ui/adw/customize.ui:664
-msgid "Center"
-msgstr "Centre"
-
-#: src/ui/customize.ui:839 src/ui/adw/customize.ui:565
-msgid "Right"
-msgstr "Droite"
-
-#: src/ui/customize.ui:840 src/ui/adw/customize.ui:566
-msgid "Left"
-msgstr "Gauche"
-
-#: src/ui/customize.ui:880 src/ui/adw/customize.ui:72
-msgid "Clock Menu Position Offset"
-msgstr "Décalage de la position du menu de l'horloge"
-
-#: src/ui/customize.ui:941 src/ui/adw/customize.ui:79
-msgid "Workspace Switcher Size"
-msgstr "Taille du sélecteur d'espace de travail"
-
-#: src/ui/customize.ui:953 src/ui/customize.ui:1094 src/ui/customize.ui:1262
-#: src/ui/customize.ui:1323 src/ui/customize.ui:1380 src/ui/customize.ui:1437
-#: src/ui/customize.ui:1494 src/ui/customize.ui:1555 src/ui/profile.ui:57
-#: src/ui/adw/customize.ui:587 src/ui/adw/customize.ui:636
-#: src/ui/adw/customize.ui:656 src/ui/adw/customize.ui:671
-#: src/ui/adw/customize.ui:682 src/ui/adw/customize.ui:693
-#: src/ui/adw/customize.ui:704 src/ui/adw/customize.ui:719
-#: src/ui/adw/profile.ui:63
+#: src/ui/customize.ui:250 src/ui/customize.ui:1194 src/ui/customize.ui:1335
+#: src/ui/customize.ui:1508 src/ui/customize.ui:1569 src/ui/customize.ui:1626
+#: src/ui/customize.ui:1683 src/ui/customize.ui:1740 src/ui/customize.ui:1801
+#: src/ui/profile.ui:57 src/ui/adw/customize.ui:164 src/ui/adw/customize.ui:762
+#: src/ui/adw/customize.ui:811 src/ui/adw/customize.ui:836
+#: src/ui/adw/customize.ui:851 src/ui/adw/customize.ui:862
+#: src/ui/adw/customize.ui:873 src/ui/adw/customize.ui:884
+#: src/ui/adw/customize.ui:899 src/ui/adw/profile.ui:63
 msgid "Default"
 msgstr "Par défaut"
 
-#: src/ui/customize.ui:1023 src/ui/adw/customize.ui:86
+#: src/ui/customize.ui:440 src/ui/adw/customize.ui:31
+msgid "Panel Size"
+msgstr "Taille du panneau"
+
+#: src/ui/customize.ui:552 src/ui/adw/customize.ui:38
+msgid "Panel Icon Size"
+msgstr "Taille de l'icône du panneau"
+
+#: src/ui/customize.ui:664 src/ui/adw/customize.ui:45
+msgid "Panel Button Padding Size"
+msgstr "Marge intérieure des boutons du panneau"
+
+#: src/ui/customize.ui:777 src/ui/adw/customize.ui:52
+msgid "Panel Indicator Padding Size"
+msgstr "Marge intérieure de l'indicateur de panneau"
+
+#: src/ui/customize.ui:890 src/ui/adw/customize.ui:59
+msgid "Panel Corner Size"
+msgstr "Taille du coin du panneau"
+
+#: src/ui/customize.ui:903 src/ui/adw/customize.ui:655
+msgid "No Corner"
+msgstr "Pas de coin"
+
+#: src/ui/customize.ui:1003 src/ui/adw/customize.ui:66
+msgid "Panel Position"
+msgstr "Position du panneau"
+
+#: src/ui/customize.ui:1015 src/ui/adw/customize.ui:721
+msgid "Top"
+msgstr "Haut"
+
+#: src/ui/customize.ui:1016 src/ui/adw/customize.ui:722
+msgid "Bottom"
+msgstr "Bas"
+
+#: src/ui/customize.ui:1056 src/ui/adw/customize.ui:73
+msgid "Clock Menu Position"
+msgstr "Position du menu de l'horloge"
+
+#: src/ui/customize.ui:1068 src/ui/customize.ui:1516
+#: src/ui/adw/customize.ui:728 src/ui/adw/customize.ui:844
+msgid "Center"
+msgstr "Centre"
+
+#: src/ui/customize.ui:1069 src/ui/adw/customize.ui:729
+msgid "Right"
+msgstr "Droite"
+
+#: src/ui/customize.ui:1070 src/ui/adw/customize.ui:730
+msgid "Left"
+msgstr "Gauche"
+
+#: src/ui/customize.ui:1110 src/ui/adw/customize.ui:80
+msgid "Clock Menu Position Offset"
+msgstr "Décalage de la position du menu de l'horloge"
+
+#: src/ui/customize.ui:1182 src/ui/adw/customize.ui:87
+msgid "Workspace Switcher Size"
+msgstr "Taille du sélecteur d'espace de travail"
+
+#: src/ui/customize.ui:1264 src/ui/adw/customize.ui:94
 msgid "Animation"
 msgstr "Animation"
 
-#: src/ui/customize.ui:1035 src/ui/adw/customize.ui:623
+#: src/ui/customize.ui:1276 src/ui/adw/customize.ui:798
 msgid "No Animation"
 msgstr "Pas d'animation"
 
-#: src/ui/customize.ui:1036 src/ui/adw/customize.ui:624
+#: src/ui/customize.ui:1277 src/ui/adw/customize.ui:799
 msgid "Default Speed"
 msgstr "Vitesse par défaut"
 
-#: src/ui/customize.ui:1037 src/ui/adw/customize.ui:625
+#: src/ui/customize.ui:1278 src/ui/adw/customize.ui:800
 msgid "Fastest"
 msgstr "Le plus rapide"
 
-#: src/ui/customize.ui:1038 src/ui/adw/customize.ui:626
+#: src/ui/customize.ui:1279 src/ui/adw/customize.ui:801
 msgid "Faster"
 msgstr "Plus rapide"
 
-#: src/ui/customize.ui:1039 src/ui/adw/customize.ui:627
+#: src/ui/customize.ui:1280 src/ui/adw/customize.ui:802
 msgid "Fast"
 msgstr "Rapide"
 
-#: src/ui/customize.ui:1040 src/ui/adw/customize.ui:628
+#: src/ui/customize.ui:1281 src/ui/adw/customize.ui:803
 msgid "Slow"
 msgstr "Lent"
 
-#: src/ui/customize.ui:1041 src/ui/adw/customize.ui:629
+#: src/ui/customize.ui:1282 src/ui/adw/customize.ui:804
 msgid "Slower"
 msgstr "Plus lent"
 
-#: src/ui/customize.ui:1042 src/ui/adw/customize.ui:630
+#: src/ui/customize.ui:1283 src/ui/adw/customize.ui:805
 msgid "Slowest"
 msgstr "Le plus lent"
 
-#: src/ui/customize.ui:1082 src/ui/adw/customize.ui:93
+#: src/ui/customize.ui:1323 src/ui/adw/customize.ui:101
 msgid "Dash Icon Size"
 msgstr "Taille des icônes de la barre de raccourcis"
 
-#: src/ui/customize.ui:1143 src/ui/adw/customize.ui:100
+#: src/ui/customize.ui:1389 src/ui/adw/customize.ui:108
 msgid "Notification Banner Position"
 msgstr "Position des notifications"
 
-#: src/ui/customize.ui:1154 src/ui/adw/customize.ui:101
+#: src/ui/customize.ui:1400 src/ui/adw/customize.ui:109
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "Position des notifications lorsqu'elles s'affichent à l'écran"
 
-#: src/ui/customize.ui:1177 src/ui/customize.ui:1263
-#: src/ui/adw/customize.ui:645 src/ui/adw/customize.ui:657
+#: src/ui/customize.ui:1423 src/ui/customize.ui:1509
+#: src/ui/adw/customize.ui:825 src/ui/adw/customize.ui:837
 msgid "Top Start"
 msgstr "En haut à gauche"
 
-#: src/ui/customize.ui:1178 src/ui/customize.ui:1264
-#: src/ui/adw/customize.ui:646 src/ui/adw/customize.ui:658
+#: src/ui/customize.ui:1424 src/ui/customize.ui:1510
+#: src/ui/adw/customize.ui:826 src/ui/adw/customize.ui:838
 msgid "Top Center"
 msgstr "En haut au centre"
 
-#: src/ui/customize.ui:1179 src/ui/customize.ui:1265
-#: src/ui/adw/customize.ui:647 src/ui/adw/customize.ui:659
+#: src/ui/customize.ui:1425 src/ui/customize.ui:1511
+#: src/ui/adw/customize.ui:827 src/ui/adw/customize.ui:839
 msgid "Top End"
 msgstr "En haut à droite"
 
-#: src/ui/customize.ui:1180 src/ui/customize.ui:1266
-#: src/ui/adw/customize.ui:648 src/ui/adw/customize.ui:660
+#: src/ui/customize.ui:1426 src/ui/customize.ui:1512
+#: src/ui/adw/customize.ui:828 src/ui/adw/customize.ui:840
 msgid "Bottom Start"
 msgstr "En bas à gauche"
 
-#: src/ui/customize.ui:1181 src/ui/customize.ui:1267
-#: src/ui/adw/customize.ui:649 src/ui/adw/customize.ui:661
+#: src/ui/customize.ui:1427 src/ui/customize.ui:1513
+#: src/ui/adw/customize.ui:829 src/ui/adw/customize.ui:841
 msgid "Bottom Center"
 msgstr "En bas au centre"
 
-#: src/ui/customize.ui:1182 src/ui/customize.ui:1268
-#: src/ui/adw/customize.ui:650 src/ui/adw/customize.ui:662
+#: src/ui/customize.ui:1428 src/ui/customize.ui:1514
+#: src/ui/adw/customize.ui:830 src/ui/adw/customize.ui:842
 msgid "Bottom End"
 msgstr "En bas à droite"
 
-#: src/ui/customize.ui:1228 src/ui/adw/customize.ui:108
+#: src/ui/customize.ui:1474 src/ui/adw/customize.ui:116
 msgid "OSD Position"
 msgstr "Position de l'OSD"
 
-#: src/ui/customize.ui:1239 src/ui/adw/customize.ui:109
+#: src/ui/customize.ui:1485 src/ui/adw/customize.ui:117
 msgid "OSD position when on screen display shows up on the screen"
 msgstr "Position OSD lorsque l'affichage à l'écran apparaît sur l'écran"
 
-#: src/ui/customize.ui:1269 src/ui/adw/customize.ui:663
+#: src/ui/customize.ui:1515 src/ui/adw/customize.ui:843
 msgid "Center Start"
 msgstr "Démarrage central"
 
-#: src/ui/customize.ui:1271 src/ui/adw/customize.ui:665
+#: src/ui/customize.ui:1517 src/ui/adw/customize.ui:845
 msgid "Center End"
 msgstr "Extrémité centrale"
 
-#: src/ui/customize.ui:1311 src/ui/adw/customize.ui:116
+#: src/ui/customize.ui:1557 src/ui/adw/customize.ui:124
 msgid "Alt Tab Window Preview Size"
 msgstr "Taille de l'aperçu de la fenêtre Alt-Tab"
 
-#: src/ui/customize.ui:1368 src/ui/adw/customize.ui:123
+#: src/ui/customize.ui:1614 src/ui/adw/customize.ui:131
 msgid "Alt Tab Window Preview Icon Size"
 msgstr "alt-tab Taille de l'icône d'aperçu de la fenêtre"
 
-#: src/ui/customize.ui:1425 src/ui/adw/customize.ui:130
+#: src/ui/customize.ui:1671 src/ui/adw/customize.ui:138
 msgid "Alt Tab Icon Size"
 msgstr "Taille de l'icône Alt-Tab"
 
-#: src/ui/customize.ui:1482 src/ui/adw/customize.ui:137
+#: src/ui/customize.ui:1728 src/ui/adw/customize.ui:145
 msgid "Looking Glass Width"
 msgstr "Largeur du miroir"
 
-#: src/ui/customize.ui:1543 src/ui/adw/customize.ui:144
+#: src/ui/customize.ui:1789 src/ui/adw/customize.ui:152
 msgid "Looking Glass Height"
 msgstr "Hauteur du miroir"
 
@@ -483,98 +504,122 @@ msgstr ""
 "dans le panneau"
 
 #: src/ui/visibility.ui:715 src/ui/adw/visibility.ui:131
+msgid "Quick Settings"
+msgstr "Réglages rapides"
+
+#: src/ui/visibility.ui:726 src/ui/adw/visibility.ui:132
+msgid "Quick settings menu in panel"
+msgstr "Menu des paramètres rapides dans le panneau"
+
+#: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
+msgid "Screen Sharing Indicator"
+msgstr "Indicateur de partage d'écran"
+
+#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+msgid "Screen sharing indicator in panel"
+msgstr "Indicateur de partage d'écran dans le panneau"
+
+#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
+msgid "Screen Recording Indicator"
+msgstr "Indicateur d'enregistrement d'écran"
+
+#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
+msgid "Screen recording indicator in panel"
+msgstr "Indicateur de partage d'écran dans le panneau"
+
+#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
 msgid "World Clock"
 msgstr "Horloge mondiale"
 
-#: src/ui/visibility.ui:726 src/ui/adw/visibility.ui:132
+#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
 msgid "World clock in clock menu"
 msgstr "Horloge mondiale dans le menu Horloge"
 
-#: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
+#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
 msgid "Weather"
 msgstr "Météo"
 
-#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
 msgid "Weather in clock menu"
 msgstr "Météo dans le menu de l'horloge"
 
-#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
+#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
 msgid "Calendar"
 msgstr "Calendrier"
 
-#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
+#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
 msgid "Calendar in clock menu"
 msgstr "Calendrier dans le menu de l'horloge"
 
-#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
+#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
 msgid "Events"
 msgstr "Événements"
 
-#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
+#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
 msgid "Events button in clock menu"
 msgstr "Bouton Événements dans le menu Horloge"
 
-#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
+#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
 msgid "Search"
 msgstr "Barre de recherche"
 
-#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
+#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
 msgid "Search entry in overview"
 msgstr "Barre de recherche dans la vue d'ensemble"
 
-#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
+#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
 msgid "Dash"
 msgstr "Barre de raccourcis"
 
-#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
+#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
 msgid "Dash holds favorite and opened applications icons"
 msgstr ""
 "La barre de raccourcis contient les icônes d'applications favorites et "
 "ouvertes"
 
-#: src/ui/visibility.ui:1178 src/ui/adw/visibility.ui:209
+#: src/ui/visibility.ui:1409 src/ui/adw/visibility.ui:248
 msgid "Dash Separator"
 msgstr "Séparateur de tiret"
 
-#: src/ui/visibility.ui:1189 src/ui/adw/visibility.ui:210
+#: src/ui/visibility.ui:1420 src/ui/adw/visibility.ui:249
 msgid "Dash separator line that separates pin apps from unpin apps"
 msgstr ""
 "Ligne de séparation en tiret qui sépare les applications à épingler des "
 "applications à détacher"
 
-#: src/ui/visibility.ui:1255 src/ui/adw/visibility.ui:222
+#: src/ui/visibility.ui:1486 src/ui/adw/visibility.ui:261
 msgid "Show Applications Button"
 msgstr "Afficher le bouton des applications"
 
-#: src/ui/visibility.ui:1266 src/ui/adw/visibility.ui:223
+#: src/ui/visibility.ui:1497 src/ui/adw/visibility.ui:262
 msgid "Button in dash that toggles applications list visibility"
 msgstr ""
 "Bouton dans le tableau de bord qui bascule la visibilité de la liste des "
 "applications"
 
-#: src/ui/visibility.ui:1332 src/ui/adw/visibility.ui:235
+#: src/ui/visibility.ui:1563 src/ui/adw/visibility.ui:274
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: src/ui/visibility.ui:1343 src/ui/adw/visibility.ui:236
+#: src/ui/visibility.ui:1574 src/ui/adw/visibility.ui:275
 msgid "Volume and brightness on screen display when the change happens"
 msgstr ""
 "Affichage du volume et de la luminosité à l'écran lorsque le changement se "
 "produit"
 
-#: src/ui/visibility.ui:1409 src/ui/adw/visibility.ui:248
+#: src/ui/visibility.ui:1640 src/ui/adw/visibility.ui:287
 msgid "Workspace Popup"
 msgstr "Fenêtre contextuelle de l'espace de travail"
 
-#: src/ui/visibility.ui:1420 src/ui/adw/visibility.ui:249
+#: src/ui/visibility.ui:1651 src/ui/adw/visibility.ui:288
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr "Popup qui apparaît à l'écran lorsque vous changez d'espace de travail"
 
-#: src/ui/visibility.ui:1486 src/ui/adw/visibility.ui:261
+#: src/ui/visibility.ui:1717 src/ui/adw/visibility.ui:300
 msgid "Workspace Switcher"
 msgstr "Commutateur d'espace de travail"
 
-#: src/ui/visibility.ui:1497 src/ui/adw/visibility.ui:262
+#: src/ui/visibility.ui:1728 src/ui/adw/visibility.ui:301
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
@@ -582,52 +627,52 @@ msgstr ""
 "Fait également référence aux vignettes d'espace de travail que vous voyez "
 "dans la vue d'ensemble pour sélectionner un espace de travail"
 
-#: src/ui/visibility.ui:1563 src/ui/adw/visibility.ui:274
+#: src/ui/visibility.ui:1794 src/ui/adw/visibility.ui:313
 msgid "Workspaces App Grid"
 msgstr "Grille d'applications des espaces de travail"
 
-#: src/ui/visibility.ui:1574 src/ui/adw/visibility.ui:275
+#: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
 msgid "Workspace boxes in app grid"
 msgstr "Boîtes d'espace de travail dans la grille d'applications"
 
-#: src/ui/visibility.ui:1640 src/ui/adw/visibility.ui:287
+#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
 msgid "Window Picker Close Button"
 msgstr "Bouton de fermeture du sélecteur de fenêtre"
 
-#: src/ui/visibility.ui:1651 src/ui/adw/visibility.ui:288
+#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
 msgid "The close button on window preview in overview"
 msgstr ""
 "Le bouton de fermeture sur l'aperçu de la fenêtre dans la vue d'ensemble"
 
-#: src/ui/visibility.ui:1717 src/ui/adw/visibility.ui:300
+#: src/ui/visibility.ui:1948 src/ui/adw/visibility.ui:339
 msgid "Window Picker Caption"
 msgstr "Légende du sélecteur de fenêtre"
 
-#: src/ui/visibility.ui:1728 src/ui/adw/visibility.ui:301
+#: src/ui/visibility.ui:1959 src/ui/adw/visibility.ui:340
 msgid "The text under window preview in overview"
 msgstr "Le texte sous l'aperçu de la fenêtre en vue d'ensemble"
 
-#: src/ui/visibility.ui:1794 src/ui/adw/visibility.ui:313
+#: src/ui/visibility.ui:2025 src/ui/adw/visibility.ui:352
 msgid "Background Menu"
 msgstr "Menu d'arrière-plan"
 
-#: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
+#: src/ui/visibility.ui:2036 src/ui/adw/visibility.ui:353
 msgid "When you right click on desktop background"
 msgstr "Lorsque vous faites un clic droit sur l'arrière-plan du bureau"
 
-#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
+#: src/ui/visibility.ui:2102 src/ui/adw/visibility.ui:365
 msgid "Ripple Box"
 msgstr "Boîte d'ondulation"
 
-#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
+#: src/ui/visibility.ui:2113 src/ui/adw/visibility.ui:366
 msgid "Hot corner animation effects"
 msgstr "Effets d'animation de coin chaud"
 
-#: src/ui/visibility.ui:1948 src/ui/adw/visibility.ui:339
+#: src/ui/visibility.ui:2179 src/ui/adw/visibility.ui:378
 msgid "Take Screenshot button in Window Menu"
 msgstr "Bouton Prendre une capture d'écran dans le menu Fenêtre"
 
-#: src/ui/visibility.ui:1959 src/ui/adw/visibility.ui:340
+#: src/ui/visibility.ui:2190 src/ui/adw/visibility.ui:379
 msgid "Take screenshot button in title bar right click menu"
 msgstr ""
 "Bouton Prendre une capture d'écran dans le menu contextuel de la barre de "
@@ -636,6 +681,9 @@ msgstr ""
 #: src/ui/adw/profile.ui:130
 msgid "Links"
 msgstr "Liens"
+
+#~ msgid "Indicateur d'enregistrement d'écran"
+#~ msgstr "Indicateur d'enregistrement d'écran dans le panneau"
 
 #~ msgid "Preferences Intro"
 #~ msgstr "Introduction du menu des préférences"
