@@ -6,6 +6,8 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+## [23.0.0 Goya] - 2023-02-10
+
 ### Changed
 
 - Clock menu offset maximum to 20.
