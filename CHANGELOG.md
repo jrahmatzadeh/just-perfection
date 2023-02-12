@@ -6,6 +6,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+### Changed
+
+- Window preview close button for super minimal profile (to disabled).
+
 ## [23.0.0 Goya] - 2023-02-10
 
 ### Changed
