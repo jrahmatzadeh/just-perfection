@@ -10,6 +10,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - Window preview close button for super minimal profile (to disabled).
 
+### Added
+
+- Transparent dash background for shell theme override (GNOME Shell 4x only).
+
 ## [23.0.0 Goya] - 2023-02-10
 
 ### Changed
