@@ -12,6 +12,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ### Added
 
+- GNOME Shell 44 support.
 - Transparent dash background for shell theme override (GNOME Shell 4x only).
 
 ## [23.0.0 Goya] - 2023-02-10
