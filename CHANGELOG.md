@@ -6,6 +6,8 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ## [Unreleased]
 
+## [24.0.0 Hals] - 2023-03-01
+
 ### Changed
 
 - Window preview close button for super minimal profile (to disabled).
