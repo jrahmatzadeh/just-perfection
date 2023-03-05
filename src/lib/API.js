@@ -604,6 +604,10 @@ var API = class
         // top margin to keep it less close to top
         let classname = this._getAPIClassname('no-panel');
         this.UIStyleClassAdd(classname);
+        
+        // update hot corners since we need to make them available
+        // outside overview
+        this._main.layoutManager._updateHotCorners();
     }
 
     /**
