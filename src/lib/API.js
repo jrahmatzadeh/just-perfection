@@ -481,7 +481,7 @@ var API = class
 
         if (!this.isPanelVisible()) {
             let mode = this._panelHideMode ? this._panelHideMode : 0;
-            this.panelHide(mode, 0);
+            this.panelHide(mode);
         } else {
             // resize panel can fix windows going under panel
             // we may not need it on X11, but it is needed on Wayland
@@ -509,11 +509,9 @@ var API = class
     /**
      * show panel
      *
-     * @param {number} animationDuration in milliseconds. defaults to 150 
-     *
      * @returns {void}
      */
-    panelShow(animationDuration = 150)
+    panelShow()
     {
         this._panelVisibility = true;
 
@@ -526,23 +524,13 @@ var API = class
         let overview = this._main.overview;
         let searchEntryParent = overview.searchEntry.get_parent();
         let panelBox = this._main.layoutManager.panelBox;
-        
-        this._main.layoutManager.removeChrome(panelBox);
+
+        panelBox.translation_y = 0;
+
+        this._main.layoutManager.overviewGroup.remove_child(panelBox);
         this._main.layoutManager.addChrome(panelBox, {
             affectsStruts: true,
             trackFullscreen: true,
-        });
-
-        panelBox.ease({
-            translation_y: 0,
-            mode: this._clutter.AnimationMode.EASE,
-            duration: animationDuration,
-            onComplete: () => {
-                // hide and show can fix windows going under panel
-                panelBox.hide();
-                panelBox.show();
-                this._fixLookingGlassPosition();
-            },
         });
 
         if (this._overviewShowingSignal) {
@@ -562,6 +550,11 @@ var API = class
 
         searchEntryParent.set_style(`margin-top: 0;`);
 
+        // hide and show can fix windows going under panel
+        panelBox.hide();
+        panelBox.show();
+        this._fixLookingGlassPosition();
+
         this.UIStyleClassRemove(classname);
     }
 
@@ -570,11 +563,10 @@ var API = class
      *
      * @param {mode} hide mode see PANEL_HIDE_MODE. defaults to hide all
      * @param {boolean} force apply hide even if it is hidden
-     * @param {number} animationDuration in milliseconds. defaults to 150
      *
      * @returns {void}
      */
-    panelHide(mode, animationDuration = 150)
+    panelHide(mode)
     {
         this._panelVisibility = false;
         this._panelHideMode = mode;
@@ -584,26 +576,11 @@ var API = class
         let panelBox = this._main.layoutManager.panelBox;
         let panelHeight = this._main.panel.height;
         let direction = (this.panelGetPosition() === PANEL_POSITION.BOTTOM) ? 1 : -1;
-
-        this._main.layoutManager.removeChrome(panelBox);
-        this._main.layoutManager.addChrome(panelBox, {
-            affectsStruts: false,
-            trackFullscreen: true,
-        });
-
-        panelBox.ease({
-            translation_y: panelHeight * direction,
-            mode: this._clutter.AnimationMode.EASE,
-            duration: animationDuration,
-            onComplete: () => {
-                // hide and show can fix windows going under panel
-                panelBox.hide();
-                panelBox.show();
-                this._fixLookingGlassPosition();
-            },
-        });
-
-        searchEntryParent.set_style(`margin-top: 0;`);
+        
+        if (panelBox.get_parent() === this._main.layoutManager.uiGroup) {
+            this._main.layoutManager.removeChrome(panelBox);
+            this._main.layoutManager.overviewGroup.insert_child_at_index(panelBox, 0);
+        }
 
         if (this._overviewShowingSignal) {
             overview.disconnect(this._overviewShowingSignal);
@@ -621,31 +598,29 @@ var API = class
                 this._overviewShowingSignal = overview.connect('showing', () => {
                     appMenuOriginalVisibility = this.isAppMenuVisible(); 
                     this.appMenuHide();
-                    panelBox.ease({
-                        translation_y: 0,
-                        mode: this._clutter.AnimationMode.EASE,
-                        duration: 250,
-                    });
                 });
             }
             if (!this._overviewHidingSignal) {
                 this._overviewHidingSignal = overview.connect('hiding', () => {
-                    panelBox.ease({
-                        translation_y: panelHeight * direction,
-                        mode: this._clutter.AnimationMode.EASE,
-                        duration: 250,
-                        onComplete: () => {
-                            if (appMenuOriginalVisibility) {
-                                this.appMenuShow();
-                            } else {
-                                this.appMenuHide();
-                            }
-                        },
-                    });
+                    if (appMenuOriginalVisibility) {
+                        this.appMenuShow();
+                    } else {
+                        this.appMenuHide();
+                    }
                 });
             }
+
+            panelBox.translation_y = 0;
             searchEntryParent.set_style(`margin-top: ${panelHeight}px;`);
+        } else {
+            panelBox.translation_y = panelHeight * direction;
+            searchEntryParent.set_style(`margin-top: 0;`);
         }
+
+        // hide and show can fix windows going under panel
+        panelBox.hide();
+        panelBox.show();
+        this._fixLookingGlassPosition();
 
         if (this._hidePanelWorkareasChangedSignal) {
             global.display.disconnect(this._hidePanelWorkareasChangedSignal);
@@ -654,7 +629,7 @@ var API = class
 
         this._hidePanelWorkareasChangedSignal
         = global.display.connect('workareas-changed', () => {
-            this.panelHide(this._panelHideMode, 0);
+            this.panelHide(this._panelHideMode);
         });
 
         // when panel is hidden and search entry is visible,
