@@ -3600,5 +3600,57 @@ var API = class
         let classnameStarter = this._getAPIClassname('controls-manager-spacing-size');
         this.UIStyleClassAdd(classnameStarter + size);
     }
+
+    /**
+     * set workspaces view spacing to default
+     *
+     * @returns {void}
+     */
+    workspacesViewSpacingSetDefault()
+    {
+        if (this._shellVersion < 40) {
+            return;
+        }
+
+        let wsvp = this._workspacesView.WorkspacesView.prototype;
+
+        if (wsvp._getSpacingOld === undefined) {
+            return;
+        }
+
+        wsvp._getSpacing = wsvp._getSpacingOld;
+        delete wsvp._getSpacingOld;
+    }
+
+    /**
+     * set workspaces view spacing size
+     *
+     * @param {number} size in pixels (0 - 500)
+     *
+     * @returns {void}
+     */
+    workspacesViewSpacingSizeSet(size)
+    {
+        if (this._shellVersion < 40) {
+            return;
+        }
+
+        if (size < 0 || size > 500) {
+            return;
+        }
+
+        let wsvp = this._workspacesView.WorkspacesView.prototype;
+
+        if (wsvp._getSpacingOld === undefined) {
+            wsvp._getSpacingOld = wsvp._getSpacing;
+        }
+
+        wsvp._getSpacing = function (box, fitMode, vertical) {
+            if (fitMode === 0) {
+                return size; 
+            }
+            return this._getSpacingOld(box, fitMode, vertical);
+        };
+    }
 }
 
