@@ -339,6 +339,11 @@
     margin-bottom: 0;
 }
 
+.just-perfection-api-no-panel #panel
+{
+    background-color: transparent;
+}
+
 .just-perfection-api-no-panel-arrow .panel-button .popup-menu-arrow
 {
     width: 0;
