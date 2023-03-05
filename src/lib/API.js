@@ -533,16 +533,6 @@ var API = class
             trackFullscreen: true,
         });
 
-        if (this._overviewShowingSignal) {
-            overview.disconnect(this._overviewShowingSignal);
-            delete(this._overviewShowingSignal);
-        }
-
-        if (this._overviewHidingSignal) {
-            overview.disconnect(this._overviewHidingSignal);
-            delete(this._overviewHidingSignal);
-        }
-
         if (this._hidePanelWorkareasChangedSignal) {
             global.display.disconnect(this._hidePanelWorkareasChangedSignal);
             delete(this._hidePanelWorkareasChangedSignal);
@@ -582,34 +572,7 @@ var API = class
             this._main.layoutManager.overviewGroup.insert_child_at_index(panelBox, 0);
         }
 
-        if (this._overviewShowingSignal) {
-            overview.disconnect(this._overviewShowingSignal);
-            delete(this._overviewShowingSignal);
-        }
-        if (this._overviewHidingSignal) {
-            overview.disconnect(this._overviewHidingSignal);
-            delete(this._overviewHidingSignal);
-        }
-
-        let appMenuOriginalVisibility;
-
         if (mode === PANEL_HIDE_MODE.DESKTOP) {
-            if (!this._overviewShowingSignal) {
-                this._overviewShowingSignal = overview.connect('showing', () => {
-                    appMenuOriginalVisibility = this.isAppMenuVisible(); 
-                    this.appMenuHide();
-                });
-            }
-            if (!this._overviewHidingSignal) {
-                this._overviewHidingSignal = overview.connect('hiding', () => {
-                    if (appMenuOriginalVisibility) {
-                        this.appMenuShow();
-                    } else {
-                        this.appMenuHide();
-                    }
-                });
-            }
-
             panelBox.translation_y = 0;
             searchEntryParent.set_style(`margin-top: ${panelHeight}px;`);
         } else {
