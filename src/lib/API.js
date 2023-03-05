@@ -520,6 +520,10 @@ var API = class
         if (!this.UIStyleClassContain(classname)) {
             return;
         }
+        
+        // The class name should be removed before addChrome the panelBox
+        // removing after can cause `st_theme_node_lookup_shadow` crash
+        this.UIStyleClassRemove(classname);
 
         let overview = this._main.overview;
         let searchEntryParent = overview.searchEntry.get_parent();
@@ -544,8 +548,6 @@ var API = class
         panelBox.hide();
         panelBox.show();
         this._fixLookingGlassPosition();
-
-        this.UIStyleClassRemove(classname);
     }
 
     /**
