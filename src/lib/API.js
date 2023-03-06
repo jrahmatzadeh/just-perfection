@@ -567,18 +567,22 @@ var API = class
         let searchEntryParent = overview.searchEntry.get_parent();
         let panelBox = this._main.layoutManager.panelBox;
         let panelHeight = this._main.panel.height;
-        let direction = (this.panelGetPosition() === PANEL_POSITION.BOTTOM) ? 1 : -1;
-        
+        let panelPosition = this.panelGetPosition();
+        let direction = (panelPosition === PANEL_POSITION.BOTTOM) ? 1 : -1;
+
         if (panelBox.get_parent() === this._main.layoutManager.uiGroup) {
             this._main.layoutManager.removeChrome(panelBox);
             this._main.layoutManager.overviewGroup.insert_child_at_index(panelBox, 0);
         }
 
-        if (mode === PANEL_HIDE_MODE.DESKTOP) {
-            panelBox.translation_y = 0;
-            searchEntryParent.set_style(`margin-top: ${panelHeight}px;`);
+        panelBox.translation_y = (mode === PANEL_HIDE_MODE.DESKTOP) ? 0 : panelHeight * direction;
+
+        if (panelPosition === PANEL_POSITION.TOP) {
+            // when panel is hidden the first element gets too close to the top,
+            // so we fix it with top margin in search entry
+            let marginTop = (mode === PANEL_HIDE_MODE.ALL) ? 15 : panelHeight;
+            searchEntryParent.set_style(`margin-top: ${marginTop}px;`);
         } else {
-            panelBox.translation_y = panelHeight * direction;
             searchEntryParent.set_style(`margin-top: 0;`);
         }
 
@@ -592,16 +596,13 @@ var API = class
             delete(this._hidePanelWorkareasChangedSignal);
         }
 
-        this._hidePanelWorkareasChangedSignal
-        = global.display.connect('workareas-changed', () => {
-            this.panelHide(this._panelHideMode);
-        });
+        this._hidePanelWorkareasChangedSignal = global.display.connect(
+            'workareas-changed',
+            () => {
+                this.panelHide(this._panelHideMode);
+            }
+        );
 
-        // when panel is hidden and search entry is visible,
-        // the search entry gets too close to the top, so we fix it with margin
-        // on GNOME 3 we need to have top and bottom margin for correct proportion
-        // but on GNOME 40 we don't need to keep proportion but give it more
-        // top margin to keep it less close to top
         let classname = this._getAPIClassname('no-panel');
         this.UIStyleClassAdd(classname);
         

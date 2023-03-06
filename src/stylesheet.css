@@ -289,14 +289,6 @@
     margin-bottom: 10px;
 }
 
-.just-perfection-api-gnome40.just-perfection-api-no-panel .search-entry,
-.just-perfection-api-gnome41.just-perfection-api-no-panel .search-entry,
-.just-perfection-api-gnome42.just-perfection-api-no-panel .search-entry,
-.just-perfection-api-gnome43.just-perfection-api-no-panel .search-entry
-{
-    margin-top: 30px;
-}
-
 /* commented because the icon will be shown when the window is getting dragged */
 /* icon-dropshadow isn't specific to the window picker icon but that's a quick fix for now */
 /* .just-perfection-api-no-window-picker-icon .workspaces-view StIcon */
