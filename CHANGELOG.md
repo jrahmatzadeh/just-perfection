@@ -8,7 +8,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ### Changed
 
-- The behaviour of the panel if shown only in the overview. Rather than sliding in from the top, it is now rendered behind the workspaces.
+- The behavior of the panel if shown only in the overview. Rather than sliding in from the top, it is now rendered behind the workspaces.
 
 ## [24.0.0 Hals] - 2023-03-01
 
