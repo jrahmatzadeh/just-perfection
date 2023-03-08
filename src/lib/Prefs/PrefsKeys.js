@@ -569,6 +569,18 @@ var PrefsKeys = class
 
         this.setKey(
             'behavior',
+            'workspace-peek',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superminimal: true,
+            }
+        );
+
+        this.setKey(
+            'behavior',
             'double-super-to-appgrid',
             'GtkSwitch',
             this._shellVersion >= 40,

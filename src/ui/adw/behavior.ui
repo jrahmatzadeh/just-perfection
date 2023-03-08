@@ -49,6 +49,19 @@
         </child>
 
         <child>
+          <object class="AdwActionRow" id="workspace_peek_row">
+            <property name="title" translatable="yes">Workspace Peek</property>
+            <property name="subtitle" translatable="yes">Whether the next and previous workspace should be visible in overview.</property>
+            <property name="activatable-widget">workspace_peek_switch</property>
+            <child>
+              <object class="GtkSwitch" id="workspace_peek_switch">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+
+        <child>
           <object class="AdwActionRow" id="window_demands_attention_focus_row">
             <property name="title" translatable="yes">Window Demands Attention Focus</property>
             <property name="subtitle" translatable="yes">Removes window is ready notification and focus on the window</property>

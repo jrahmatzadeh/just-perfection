@@ -360,6 +360,12 @@
       <description>Dash Separator Visibility Status</description>
     </key>
 
+    <key type="b" name="workspace-peek">
+      <default>true</default>
+      <summary>Workspace Peek</summary>
+      <description>Workspace Peek Status</description>
+    </key>
+
     <key type="i" name="looking-glass-width">
       <default>0</default>
       <range min="0" max="9"/>

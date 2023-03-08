@@ -10,6 +10,10 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - The behavior of the panel if shown only in the overview. Rather than sliding in from the top, it is now rendered behind the workspaces.
 
+### Added
+
+- Workspace peek (GNOME Shell 40 and higher)
+
 ## [24.0.0 Hals] - 2023-03-01
 
 ### Changed

@@ -301,6 +301,10 @@ var Manager = class
         this._settings.connect('changed::controls-manager-spacing-size', () => {
             this._applyControlsManagerSpacingSize(false);
         });
+
+        this._settings.connect('changed::workspace-peek', () => {
+            this._applyWorkspacePeek(false);
+        });
     }
 
     /**
@@ -372,6 +376,7 @@ var Manager = class
         this._applyScreenSharingIndicator(false);
         this._applyScreenRecordingIndicator(false);
         this._applyControlsManagerSpacingSize(false);
+        this._applyWorkspacePeek(false);
     }
 
     /**
@@ -443,6 +448,7 @@ var Manager = class
         this._applyScreenSharingIndicator(true);
         this._applyScreenRecordingIndicator(true);
         this._applyControlsManagerSpacingSize(true);
+        this._applyWorkspacePeek(true);
     }
 
     /**
@@ -1553,6 +1559,22 @@ var Manager = class
             this._api.controlsManagerSpacingSetDefault();
         } else {
             this._api.controlsManagerSpacingSizeSet(size);
+        }
+    }
+
+    /**
+     * apply workspace peek
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyWorkspacePeek(forceOriginal)
+    {
+        if (forceOriginal || this._settings.get_boolean('workspace-peek')) {
+            this._api.workspacesViewSpacingSetDefault();
+        } else {
+            this._api.workspacesViewSpacingSizeSet(400);
         }
     }
 }
