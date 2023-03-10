@@ -2,17 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
-We go to the next version after each release on [GNOME Shell Extensions website](https://extensions.gnome.org/).
+We go to the next version after each release on 
+[GNOME Shell Extensions website](https://extensions.gnome.org/).
 
 ## [Unreleased]
 
 ### Changed
 
-- The behavior of the panel if shown only in the overview. Rather than sliding in from the top, it is now rendered behind the workspaces.
+- The behavior of the panel if shown only in the overview.
+  Rather than sliding in from the top, it is now rendered behind the workspaces
+  by [Schneegans](https://gitlab.gnome.org/Schneegans).
 
 ### Added
 
-- Workspace peek (GNOME Shell 40 and higher)
+- Workspace peek (GNOME Shell 40 and higher).
 
 ## [24.0.0 Hals] - 2023-03-01
 
@@ -126,14 +129,14 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - SecondaryMonitorDisplay error on GNOME Shell 42.
 - Shell theme override OSD for GNOME Shell 42.
 - Shell theme override workspace switcher for GNOME Shell 42.
-- Workspace popup visiblity in GNOME Shell 42.
+- Workspace popup visibility in GNOME Shell 42.
 
 ### Added
 
 - Libadwaita for GNOME Shell 42 prefs.
 - Panel icon size.
-- Panel world clock visiblity.
-- Weather visiblity.
+- Panel world clock visibility.
+- Weather visibility.
 
 ## [18.0.0 Roslin] - 2022-02-12
 
@@ -173,7 +176,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Animation jump when search entry is disabled and entering app grid.
 - Clock menu revealing in lockscreen when the position is left or right.
 - Startup status for Ubuntu.
-- Workspace switcher visiblity in GNOME Shell 41.
+- Workspace switcher visibility in GNOME Shell 41.
 
 ### Removed
 
@@ -184,7 +187,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 - Double supper to app grid for GNOME Shell 40 and 41.
 - Panel corner size when panel is disabled.
-- Panel visiblity in overview when panel is disabled.
+- Panel visibility in overview when panel is disabled.
 - Prefs window intro.
 - Profile selector to the prefs window.
 - Ripple box.
@@ -207,7 +210,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ### Fixed
 
-- Bottom panel position for multi monitors [@harshadgavali](https://gitlab.gnome.org/harshadgavali).
+- Bottom panel position for multi monitors by [@harshadgavali](https://gitlab.gnome.org/harshadgavali).
 - First swipe up in desktop startup status.
 - Looking glass position on bottom panel.
 - Maximized window gap on Wayland.
@@ -277,7 +280,7 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Notification banner position.
 - Startup status for GNOME Shell 40.
 - Workspace animation background color for shell theme override.
-- Workspaces visiblity in app grid by [@fmuellner](https://gitlab.gnome.org/fmuellner).
+- Workspaces visibility in app grid by [@fmuellner](https://gitlab.gnome.org/fmuellner).
 - Chinese (Taiwan) translation by [@r0930514](https://gitlab.com/r0930514).
 
 ## [11.0.0 Whisper] - 2021-05-20
@@ -291,9 +294,9 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 
 ### Fixed
 
-- Gap when panel posision is at the bottom and shell override theme happens.
+- Gap when panel position is at the bottom and shell override theme happens.
 - Panel menu margin when panel is in bottom.
-- Window picker icon visiblity on drag.
+- Window picker icon visibility on drag.
 - Workspace switcher size for multi monitor setup.
 - Arabic translation by [@AliGalal](https://gitlab.com/AliGalal).
 - Chinese translation by [@wsxy162](https://gitlab.com/wsxy162).
@@ -461,5 +464,4 @@ We go to the next version after each release on [GNOME Shell Extensions website]
 - Hide top panel.
 - Hide workspace switcher.
 - Hot corner to toggle overview visibility.
-
 
