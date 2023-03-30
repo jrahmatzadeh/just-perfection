@@ -115,7 +115,7 @@
 
         <child>
           <object class="AdwActionRow" id="switcher_popup_delay_row">
-            <property name="title" translatable="yes">Switcher Popup Delay</property>
+            <property name="title" translatable="yes">Popup Delay</property>
             <property name="subtitle" translatable="yes">Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, keyboard layout, ...</property>
             <property name="activatable-widget">switcher_popup_delay_switch</property>
             <child>

@@ -110,6 +110,7 @@ You can support my work by sending me some crypto:
 - **Bitcoin** 1MdFyy7AGqf3vL7EtPJr5bfwpBNKctNzWL
 - **Bitcoin Cash** qq4c94e9mh4gp5zzgxjknvvdfcmea73zycptwgl3zp
 - **Ether** 0x170D57ed547c153B21A7BA8aaB9a8fb53C5EAD5f
+- **Tether** 0xE4A6C46E1095C49688645c132672cB04d1402026
 - **DOGE** DD3pTCxg5BFW2b2er3jsKPprm2hC2Avd5C
 
 Or support via [Patreon](https://www.patreon.com/justperfection).
