@@ -276,6 +276,7 @@ var API = class
      *  no-screen-sharing-indicator
      *  no-screen-recording-indicator
      *  controls-manager-spacing-size
+     *  no-dash-app-running-dot
      *
      * @returns {string}
      */
@@ -320,6 +321,7 @@ var API = class
             'no-screen-sharing-indicator',
             'no-screen-recording-indicator',
             'controls-manager-spacing-size',
+            'no-dash-app-running-dot',
         ];
 
         if (!possibleTypes.includes(type)) {
@@ -3596,6 +3598,26 @@ var API = class
             }
             return this._getSpacingOld(box, fitMode, vertical);
         };
+    }
+    
+    /**
+     * show dash app running dot
+     *
+     * @returns {void}
+     */
+    dashAppRunningDotShow()
+    {
+        this.UIStyleClassRemove(this._getAPIClassname('no-dash-app-running-dot'));
+    }
+
+    /**
+     * hide dash app running dot
+     *
+     * @returns {void}
+     */
+    dashAppRunningDotHide()
+    {
+        this.UIStyleClassAdd(this._getAPIClassname('no-dash-app-running-dot'));
     }
 }
 

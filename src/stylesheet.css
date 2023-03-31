@@ -940,7 +940,8 @@
 .just-perfection-api-osd-position-bottom .osd-window { margin: 4em 3em; }
 
 .just-perfection-api-no-dash-separator .dash-separator,
-.just-perfection-api-no-app-menu-label #appMenu StLabel
+.just-perfection-api-no-app-menu-label #appMenu StLabel,
+.just-perfection-api-no-dash-app-running-dot .app-well-app-running-dot
 {
     width: 0;
     height: 0;
