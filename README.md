@@ -107,11 +107,11 @@ $ ./scripts/build.sh -i
 
 You can support my work by sending me some crypto:
 
-- **Bitcoin** 1MdFyy7AGqf3vL7EtPJr5bfwpBNKctNzWL
-- **Bitcoin Cash** qq4c94e9mh4gp5zzgxjknvvdfcmea73zycptwgl3zp
-- **Ether** 0x170D57ed547c153B21A7BA8aaB9a8fb53C5EAD5f
+- **Bitcoin** bc1qn6p0k8sapmxgedn8qjhd5gm2yzy46t5s296lnd
+- **Bitcoin Cash** qzhuj2kdw4zjrg8r2j7knx5uzqdcpv5lwv5uxq04e0
+- **Ether** 0xE4A6C46E1095C49688645c132672cB04d1402026
 - **Tether** 0xE4A6C46E1095C49688645c132672cB04d1402026
-- **DOGE** DD3pTCxg5BFW2b2er3jsKPprm2hC2Avd5C
+- **DOGE** DULPjoiDuhZCmv5LDeJuqYPC8Uy7NK7DnW
 
 Or support via [Patreon](https://www.patreon.com/justperfection).
 
