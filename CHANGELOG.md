@@ -15,6 +15,7 @@ We go to the next version after each release on
 
 ### Added
 
+- EGO donations.
 - Workspace peek (GNOME Shell 40 and higher).
 
 ## [24.0.0 Hals] - 2023-03-01
