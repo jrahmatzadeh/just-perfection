@@ -941,7 +941,7 @@
 
 .just-perfection-api-no-dash-separator .dash-separator,
 .just-perfection-api-no-app-menu-label #appMenu StLabel,
-.just-perfection-api-no-dash-app-running-dot .app-well-app-running-dot
+.just-perfection-api-no-dash-app-running-dot #dash .app-well-app-running-dot
 {
     width: 0;
     height: 0;
@@ -949,4 +949,3 @@
     padding: 0;
     margin: 0;
 }
-

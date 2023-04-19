@@ -305,6 +305,10 @@ var Manager = class
         this._settings.connect('changed::workspace-peek', () => {
             this._applyWorkspacePeek(false);
         });
+
+        this._settings.connect('changed::dash-app-running', () => {
+            this._applyDashAppRunning(true);
+        });
     }
 
     /**
@@ -377,6 +381,7 @@ var Manager = class
         this._applyScreenRecordingIndicator(false);
         this._applyControlsManagerSpacingSize(false);
         this._applyWorkspacePeek(false);
+        this._applyDashAppRunning(false);
     }
 
     /**
@@ -449,6 +454,7 @@ var Manager = class
         this._applyScreenRecordingIndicator(true);
         this._applyControlsManagerSpacingSize(true);
         this._applyWorkspacePeek(true);
+        this._applyDashAppRunning(true);
     }
 
     /**
@@ -1575,6 +1581,22 @@ var Manager = class
             this._api.workspacesViewSpacingSetDefault();
         } else {
             this._api.workspacesViewSpacingSizeSet(400);
+        }
+    }
+    
+    /**
+     * apply dash app running
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    _applyDashAppRunning(forceOriginal)
+    {
+        if (forceOriginal || this._settings.get_boolean('dash-app-running')) {
+            this._api.dashAppRunningDotShow();
+        } else {
+            this._api.dashAppRunningDotHide();
         }
     }
 }

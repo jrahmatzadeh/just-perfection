@@ -433,6 +433,12 @@
       <description>Controls manager spacing Size (overview spacing)</description>
     </key>
     
+    <key type="b" name="dash-app-running">
+      <default>true</default>
+      <summary>Dash app running dot</summary>
+      <description>Dash app running dot visibility status</description>
+    </key>
+    
   </schema>
   
 </schemalist>

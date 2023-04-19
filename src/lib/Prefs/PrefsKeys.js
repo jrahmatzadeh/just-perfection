@@ -218,6 +218,18 @@ var PrefsKeys = class
                 superminimal: true,
             }
         );
+        
+        this.setKey(
+            'visibility',
+            'dash-app-running',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superminimal: true,
+            }
+        );
 
         this.setKey(
             'visibility',
