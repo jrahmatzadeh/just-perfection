@@ -1289,8 +1289,10 @@ var API = class
      */
     activitiesButtonShow()
     {
-        if (!this.isLocked()) {
-            this._main.panel.statusArea['activities'].container.show();
+        let activities = this._main.panel.statusArea['activities'];
+
+        if (!this.isLocked() && activities) {
+            activities.container.show();
         }
     }
 
@@ -1301,7 +1303,11 @@ var API = class
      */
     activitiesButtonHide()
     {
-        this._main.panel.statusArea['activities'].container.hide();
+        let activities = this._main.panel.statusArea['activities'];
+
+        if (activities) {
+            activities.container.hide();
+        }
     }
 
     /**
@@ -1311,8 +1317,10 @@ var API = class
      */
     appMenuShow()
     {
-        if (!this.isLocked()) {
-            this._main.panel.statusArea['appMenu'].container.show();
+        let appMenu = this._main.panel.statusArea['appMenu'];
+
+        if (!this.isLocked() && appMenu) {
+            appMenu.container.show();
         }
     }
 
@@ -1323,7 +1331,11 @@ var API = class
      */
     appMenuHide()
     {
-        this._main.panel.statusArea['appMenu'].container.hide();
+        let appMenu = this._main.panel.statusArea['appMenu'];
+
+        if (appMenu) {
+            appMenu.container.hide();
+        }
     }
     
     /**
@@ -1333,7 +1345,9 @@ var API = class
      */
     isAppMenuVisible()
     {
-        return this._main.panel.statusArea['appMenu'].container.visible;
+        let appMenu = this._main.panel.statusArea['appMenu'];
+
+        return appMenu ? appMenu.container.visible : false;
     }
 
     /**
@@ -1976,6 +1990,11 @@ var API = class
     {
         let iconSize = this.panelIconGetSize() - this._panel.APP_MENU_ICON_MARGIN;
         let activities = this._main.panel.statusArea['activities'];
+        
+        // GNOME Shell mobile doesn't have activities button
+        if (!activities) {
+            return;
+        }
 
         this.activitiesButtonRemoveIcon();
 
@@ -2054,7 +2073,7 @@ var API = class
     {
         let activities = this._main.panel.statusArea['activities'];
 
-        if (!this._activitiesBtn) {
+        if (!activities || !this._activitiesBtn) {
             return;
         }
 
@@ -2093,7 +2112,7 @@ var API = class
 
         let activities = this._main.panel.statusArea['activities'];
 
-        if (!this._activitiesBtn || !this._activitiesBtn.icon) {
+        if (!activities || !this._activitiesBtn || !this._activitiesBtn.icon) {
             return;
         }
         

@@ -13,6 +13,10 @@ We go to the next version after each release on
   Rather than sliding in from the top, it is now rendered behind the workspaces
   by [Schneegans](https://gitlab.gnome.org/Schneegans).
 
+### Fixed
+
+- Activities button error in GNOME Shell mobile.
+
 ### Added
 
 - Dash app running visibility.
