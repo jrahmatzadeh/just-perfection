@@ -3146,7 +3146,7 @@ var API = class
 
         let defaultSize = this._originals['panelIconSize'];
         this._panel.PANEL_ICON_SIZE = defaultSize;
-        this._main.panel.statusArea['dateMenu']._indicator.set_icon_size(defaultSize);
+        this._changeDateMenuIndicatorIconSize(defaultSize);
         this._main.panel.statusArea['appMenu']._onIconThemeChanged();
         this._activitiesButtonIconSetSize(defaultSize);
 
@@ -3176,11 +3176,33 @@ var API = class
         this._emitRefreshStyles();
 
         this._panel.PANEL_ICON_SIZE = size;
-        this._main.panel.statusArea['dateMenu']._indicator.set_icon_size(size);
+        this._changeDateMenuIndicatorIconSize(size);
         this._main.panel.statusArea['appMenu']._onIconThemeChanged();
         this._activitiesButtonIconSetSize(size);
 
         this._panelIconSize = size;
+    }
+
+    /**
+     * change date menu indicator icon size
+     *
+     * @param {number} size
+     *
+     * @returns {void}
+     */
+    _changeDateMenuIndicatorIconSize(size)
+    {
+        let dateMenu = this._main.panel.statusArea['dateMenu'];
+
+        // we get set_icon_size is not a function in some setups
+        // in case the date menu has been removed or not created
+        if (
+            dateMenu &&
+            dateMenu._indicator &&
+            dateMenu._indicator.set_icon_size
+        ) {
+            dateMenu._indicator.set_icon_size(size);
+        }
     }
 
     /**
@@ -3639,4 +3661,5 @@ var API = class
         this.UIStyleClassAdd(this._getAPIClassname('no-dash-app-running-dot'));
     }
 }
+
 
