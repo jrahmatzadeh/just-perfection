@@ -1399,7 +1399,13 @@ var API = class
      */
     accessibilityMenuShow()
     {
-        this._main.panel.statusArea['a11y'].container.show();
+        let a11y = this._main.panel.statusArea['a11y'];
+
+        if (!a11y) {
+            return;
+        }
+        
+        a11y.container.show();
     }
 
     /**
@@ -1409,7 +1415,13 @@ var API = class
      */
     accessibilityMenuHide()
     {
-        this._main.panel.statusArea['a11y'].container.hide();
+        let a11y = this._main.panel.statusArea['a11y'];
+
+        if (!a11y) {
+            return;
+        }
+
+        a11y.container.hide();
     }
 
     /**
