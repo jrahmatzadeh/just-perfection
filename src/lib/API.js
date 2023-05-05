@@ -2876,6 +2876,49 @@ var API = class
     }
 
     /**
+     * unblock overlay key
+     *
+     * @returns {void}
+     */
+    unblockOverlayKey()
+    {
+        if (this._shellVersion < 40) {
+            return;
+        }
+
+        if (!this._overlayKeyOldSignalId) {
+            return;
+        }
+
+        this._gobject.signal_handler_unblock(
+            global.display,
+            this._overlayKeyOldSignalId
+        );
+
+        delete(this._overlayKeyOldSignalId);
+    }
+
+    /**
+     * block overlay key
+     *
+     * @returns {void}
+     */
+    blockOverlayKey()
+    {
+        if (this._shellVersion < 40) {
+            return;
+        }
+
+        this._overlayKeyOldSignalId = this._getSignalId(global.display, 'overlay-key');
+
+        if (!this._overlayKeyOldSignalId) {
+            return;
+        }
+
+        this._gobject.signal_handler_block(global.display, this._overlayKeyOldSignalId);
+    }
+
+    /**
      * enable double super press to toggle app grid
      *
      * @returns {void}
@@ -2891,14 +2934,8 @@ var API = class
         }
 
         global.display.disconnect(this._overlayKeyNewSignalId);
-
-        this._gobject.signal_handler_unblock(
-            global.display,
-            this._overlayKeyOldSignalId
-        );
-
         delete(this._overlayKeyNewSignalId);
-        delete(this._overlayKeyOldSignalId);
+        this.unblockOverlayKey();
 
         this._isDoubleSuperToAppGrid = true;
     }
@@ -2914,13 +2951,7 @@ var API = class
             return;
         }
 
-        this._overlayKeyOldSignalId = this._getSignalId(global.display, 'overlay-key');
-
-        if (!this._overlayKeyOldSignalId) {
-            return;
-        }
-
-        this._gobject.signal_handler_block(global.display, this._overlayKeyOldSignalId);
+        this.blockOverlayKey();
 
         this._overlayKeyNewSignalId = global.display.connect('overlay-key', () => {
             this._main.overview.toggle();
@@ -3673,5 +3704,4 @@ var API = class
         this.UIStyleClassAdd(this._getAPIClassname('no-dash-app-running-dot'));
     }
 }
-
 
