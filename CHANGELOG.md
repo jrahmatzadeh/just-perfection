@@ -22,6 +22,7 @@ We go to the next version after each release on
 ### Added
 
 - Dash app running visibility.
+- Disable overlay key.
 - EGO donations.
 - Workspace peek (GNOME Shell 40 and higher).
 

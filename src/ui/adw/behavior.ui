@@ -101,10 +101,24 @@
         </child>
 
         <child>
+          <object class="AdwActionRow" id="overlay_key_row">
+            <property name="title" translatable="yes">Overlay Key</property>
+            <property name="subtitle" translatable="yes">Disable overlay key (super key)</property>
+            <property name="activatable-widget">overlay_key_switch</property>
+            <child>
+              <object class="GtkSwitch" id="overlay_key_switch">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+
+        <child>
           <object class="AdwActionRow" id="double_super_to_appgrid_row">
             <property name="title" translatable="yes">Double Super to App Grid</property>
             <property name="subtitle" translatable="yes">Shows app grid when you double hit super key fast</property>
             <property name="activatable-widget">double_super_to_appgrid_switch</property>
+            <property name="sensitive" bind-source="overlay_key_switch" bind-property="active" bind-flags="sync-create"/>
             <child>
               <object class="GtkSwitch" id="double_super_to_appgrid_switch">
                 <property name="valign">center</property>

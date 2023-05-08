@@ -230,8 +230,12 @@ var Manager = class
             this._applyRippleBox(false);
         });
 
+        this._settings.connect('changed::overlay-key', () => {
+            this._applyOverlayKey(false);
+        });
+
         this._settings.connect('changed::double-super-to-appgrid', () => {
-            this._applyDoubleSuperToAppgrid(false);
+            this._applyOverlayKey(false);
         });
 
         this._settings.connect('changed::switcher-popup-delay', () => {
@@ -363,7 +367,7 @@ var Manager = class
         this._applyWorkspaceBackgroundCornerSize(false);
         this._applyWorkspaceWrapAround(false);
         this._applyRippleBox(false);
-        this._applyDoubleSuperToAppgrid(false);
+        this._applyOverlayKey(false);
         this._applySwitcherPopupDelay(false);
         this._applyWorldClock(false);
         this._applyWeather(false);
@@ -436,7 +440,7 @@ var Manager = class
         this._applyWorkspaceBackgroundCornerSize(true);
         this._applyWorkspaceWrapAround(true);
         this._applyRippleBox(true);
-        this._applyDoubleSuperToAppgrid(true);
+        this._applyOverlayKey(true);
         this._applySwitcherPopupDelay(true);
         this._applyWorldClock(true);
         this._applyWeather(true);
@@ -1260,20 +1264,30 @@ var Manager = class
     }
 
     /**
-     * apply double super to appgrid settings
+     * apply overlay key
      *
      * @param {boolean} forceOriginal force original shell setting
      *
      * @returns {void}
      */
-    _applyDoubleSuperToAppgrid(forceOriginal)
+    _applyOverlayKey(forceOriginal)
     {
-        let status = this._settings.get_boolean('double-super-to-appgrid');
+        let overlayKey = this._settings.get_boolean('overlay-key');
+        let doubleSuper = this._settings.get_boolean('double-super-to-appgrid');
 
-        if (forceOriginal || status) {
+        if (forceOriginal) {
             this._api.doubleSuperToAppGridEnable();
+            this._api.unblockOverlayKey();
+        } else if (!overlayKey) {
+            this._api.doubleSuperToAppGridEnable();
+            this._api.blockOverlayKey();
         } else {
-            this._api.doubleSuperToAppGridDisable();
+            this._api.unblockOverlayKey();
+            if (doubleSuper) {
+                this._api.doubleSuperToAppGridEnable();
+            } else {
+                this._api.doubleSuperToAppGridDisable();
+            }
         }
     }
 
