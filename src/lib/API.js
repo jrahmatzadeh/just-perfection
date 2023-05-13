@@ -239,44 +239,7 @@ var API = class
     /**
      * get the css class name for API
      *
-     * @param {string} type possible types
-     *  shell-version
-     *  no-search
-     *  no-workspace
-     *  no-panel
-     *  panel-corner
-     *  no-window-picker-icon
-     *  type-to-search
-     *  no-power-icon
-     *  bottom-panel
-     *  no-panel-arrow
-     *  no-panel-notification-icon
-     *  no-app-menu-icon
-     *  no-app-menu-label
-     *  no-show-apps-button
-     *  activities-button-icon
-     *  activities-button-icon-monochrome
-     *  activities-button-no-label
-     *  dash-icon-size
-     *  panel-button-padding-size
-     *  panel-indicator-padding-size
-     *  no-window-caption
-     *  workspace-background-radius-size
-     *  no-window-close
-     *  refresh-styles
-     *  no-ripple-box
-     *  no-weather
-     *  no-world-clocks
-     *  panel-icon-size
-     *  no-events-button
-     *  osd-position-top
-     *  osd-position-bottom
-     *  osd-position-center
-     *  no-dash-separator
-     *  no-screen-sharing-indicator
-     *  no-screen-recording-indicator
-     *  controls-manager-spacing-size
-     *  no-dash-app-running-dot
+     * @param {string} type
      *
      * @returns {string}
      */
@@ -284,56 +247,12 @@ var API = class
     {
         let starter = 'just-perfection-api-';
 
-        let possibleTypes = [
-            'shell-version',
-            'no-search',
-            'no-workspace',
-            'no-panel',
-            'panel-corner',
-            'no-window-picker-icon',
-            'type-to-search',
-            'no-power-icon',
-            'bottom-panel',
-            'no-panel-arrow',
-            'no-panel-notification-icon',
-            'no-app-menu-icon',
-            'no-app-menu-label',
-            'no-show-apps-button',
-            'activities-button-icon',
-            'activities-button-icon-monochrome',
-            'activities-button-no-label',
-            'dash-icon-size',
-            'panel-button-padding-size',
-            'panel-indicator-padding-size',
-            'no-window-caption',
-            'workspace-background-radius-size',
-            'no-window-close',
-            'refresh-styles',
-            'no-ripple-box',
-            'no-weather',
-            'no-world-clocks',
-            'panel-icon-size',
-            'no-events-button',
-            'osd-position-top',
-            'osd-position-bottom',
-            'osd-position-center',
-            'no-dash-separator',
-            'no-screen-sharing-indicator',
-            'no-screen-recording-indicator',
-            'controls-manager-spacing-size',
-            'no-dash-app-running-dot',
-        ];
-
-        if (!possibleTypes.includes(type)) {
-            return '';
-        }
-
         if (type === 'shell-version') {
             let shellVerMajor = Math.trunc(this._shellVersion);
             return `${starter}gnome${shellVerMajor}`;
         }
 
-        return starter + type;
+        return `${starter}${type}`;
     }
 
     /**
