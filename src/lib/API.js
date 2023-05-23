@@ -1494,7 +1494,12 @@ var API = class
      */
     powerIconShow()
     {
-        this.UIStyleClassRemove(this._getAPIClassname('no-power-icon'));
+        if (this._shellVersion >= 43) {
+            this._main.panel.statusArea['quickSettings']._system.show();
+            return;
+        }
+
+        this._main.panel.statusArea['aggregateMenu']._system.show();
     }
 
     /**
@@ -1504,7 +1509,12 @@ var API = class
      */
     powerIconHide()
     {
-        this.UIStyleClassAdd(this._getAPIClassname('no-power-icon'));
+        if (this._shellVersion >= 43) {
+            this._main.panel.statusArea['quickSettings']._system.hide();
+            return;
+        }
+
+        this._main.panel.statusArea['aggregateMenu']._system.hide();
     }
 
     /**

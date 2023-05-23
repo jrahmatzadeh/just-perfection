@@ -15,9 +15,10 @@ We go to the next version after each release on
 
 ### Fixed
 
-- Activities button error in GNOME Shell mobile.
 - a11y error in GNOME Shell mobile.
+- Activities button error in GNOME Shell mobile.
 - `.set_icon_size` is not a function error (Date Menu).
+- Unwanted padding on disabled power icon.
 
 ### Added
 
