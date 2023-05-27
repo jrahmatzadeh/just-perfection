@@ -25,7 +25,11 @@ We go to the next version after each release on
 - Dash app running visibility.
 - Disable overlay key.
 - EGO donations.
-- Workspace peek (GNOME Shell 40 and higher).
+- Workspace peek (GNOME Shell 42 and higher).
+
+### Removed
+
+- GNOME Shell support (3.36, 3.38, 40 and 41 no longer getting new features).
 
 ## [24.0.0 Hals] - 2023-03-01
 

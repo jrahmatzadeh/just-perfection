@@ -52,18 +52,6 @@
       <description>Workspace Popup Visibility Status</description>
     </key>
 
-    <key type="b" name="gesture">
-      <default>true</default>
-      <summary>Gesture</summary>
-      <description>Gesture Status</description>
-    </key>
-
-    <key type="b" name="hot-corner">
-      <default>false</default>
-      <summary>Hot Corner</summary>
-      <description>Hot Corner Status</description>
-    </key>
-
     <key type="b" name="theme">
       <default>false</default>
       <summary>Theme</summary>
@@ -134,12 +122,6 @@
       <default>true</default>
       <summary>Power Icon</summary>
       <description>Power Icon Visibility Status</description>
-    </key>
-
-    <key type="b" name="panel-arrow">
-      <default>true</default>
-      <summary>Panel Arrow</summary>
-      <description>Panel Arrow Visibility Status</description>
     </key>
 
     <key type="b" name="window-picker-icon">

@@ -63,7 +63,6 @@ var API = class
      *   'SwitcherPopup' reference to ui::switcherPopup
      *   'InterfaceSettings' reference to Gio::Settings for 'org.gnome.desktop.interface'
      *   'SearchController' reference to ui::searchController
-     *   'ViewSelector' reference to ui::viewSelector
      *   'WorkspaceThumbnail' reference to ui::workspaceThumbnail
      *   'WorkspacesView' reference to ui::workspacesView
      *   'Panel' reference to ui::panel
@@ -92,7 +91,6 @@ var API = class
         this._switcherPopup = dependencies['SwitcherPopup'] || null;
         this._interfaceSettings = dependencies['InterfaceSettings'] || null;
         this._searchController = dependencies['SearchController'] || null;
-        this._viewSelector = dependencies['ViewSelector'] || null;
         this._workspaceThumbnail = dependencies['WorkspaceThumbnail'] || null;
         this._workspacesView = dependencies['WorkspacesView'] || null;
         this._panel = dependencies['Panel'] || null;
@@ -128,7 +126,7 @@ var API = class
          * @member {number}
          */
         this._workspaceSwitcherLastSize
-        = (this._workspaceThumbnail && this._shellVersion >= 40)
+        = (this._workspaceThumbnail)
         ? this._workspaceThumbnail.MAX_THUMBNAIL_SCALE
         : 0.0;
     }
@@ -233,7 +231,7 @@ var API = class
      */
     _getSignalId(widget, signalName)
     {
-        return this._gobject.signal_handler_find(widget, { signalId: signalName });
+        return this._gobject.signal_handler_find(widget, {signalId: signalName});
     }
 
     /**
@@ -253,48 +251,6 @@ var API = class
         }
 
         return `${starter}${type}`;
-    }
-
-    /**
-     * allow shell theme use its own panel corner
-     *
-     * @returns {void}
-     */
-    panelCornerSetDefault()
-    {
-        if (this._shellVersion >= 42) {
-            return;
-        }
-
-        let classnameStarter = this._getAPIClassname('panel-corner');
-
-        for (let size = 0; size <= 60; size++) {
-            this.UIStyleClassRemove(classnameStarter + size);
-        }
-    }
-
-    /**
-     * change panel corner size
-     *
-     * @param {number} size 0 to 60
-     *
-     * @returns {void}
-     */
-    panelCornerSetSize(size)
-    {
-        if (this._shellVersion >= 42) {
-            return;
-        }
-
-        this.panelCornerSetDefault();
-
-        if (size > 60 || size < 0) {
-            return;
-        }
-
-        let classnameStarter = this._getAPIClassname('panel-corner');
-
-        this.UIStyleClassAdd(classnameStarter + size);
     }
 
     /**
@@ -408,7 +364,6 @@ var API = class
             // we may not need it on X11, but it is needed on Wayland
             // we also need delay after animation
             // because without delay it many not fix the issue
-            let panelBox = this._main.layoutManager.panelBox;
             let duration = this._addToAnimationDuration(180);
             this._timeoutIds['emitPanelPositionChanged']
             = this._glib.timeout_add(this._glib.PRIORITY_IDLE, duration, () => {
@@ -571,13 +526,8 @@ var API = class
 
         this._main.overview.dash.show();
 
-        if (this._shellVersion >= 40) {
-            this._main.overview.dash.height = -1;
-            this._main.overview.dash.setMaxSize(-1, -1);
-        } else {
-            this._main.overview.dash.width = -1;
-            this._main.overview.dash._maxHeight = -1;
-        }
+        this._main.overview.dash.height = -1;
+        this._main.overview.dash.setMaxSize(-1, -1);
 
         this._updateWindowPreviewOverlap();
     }
@@ -597,11 +547,7 @@ var API = class
 
         this._main.overview.dash.hide();
 
-        if (this._shellVersion >= 40) {
-            this._main.overview.dash.height = 0;
-        } else {
-            this._main.overview.dash.width = 0;
-        }
+        this._main.overview.dash.height = 0;
 
         this._updateWindowPreviewOverlap();
     }
@@ -613,10 +559,6 @@ var API = class
      */
     _updateWindowPreviewOverlap()
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-        
         let wpp = this._windowPreview.WindowPreview.prototype;
         
         if (this.isDashVisible() && wpp.overlapHeightsOld) {
@@ -632,38 +574,6 @@ var API = class
                 return [top + 24, bottom + 24];
             };
         }
-    }
-
-    /**
-     * enable gesture
-     *
-     * @returns {void}
-     */
-    gestureEnable()
-    {
-        if (this._shellVersion >= 40) {
-            return;
-        }
-
-        global.stage.get_actions().forEach(a => {
-            a.enabled = true;
-        });
-    }
-
-    /**
-     * disable gesture
-     *
-     * @returns {void}
-     */
-    gestureDisable()
-    {
-        if (this._shellVersion >= 40) {
-            return;
-        }
-
-        global.stage.get_actions().forEach(a => {
-            a.enabled = false;
-        });
     }
 
     /**
@@ -823,15 +733,7 @@ var API = class
             return;
         }
 
-        let viewSelector
-        = this._main.overview.viewSelector || this._main.overview._overview.viewSelector;
-
-        if (this._shellVersion >= 40 && this._searchController) {
-            this._searchController.SearchController.prototype.startSearch
-            = this._originals['startSearch'];
-        } else {
-            viewSelector.startSearch = this._originals['startSearch'];
-        }
+        this._searchController.SearchController.prototype.startSearch = this._originals['startSearch'];
     }
 
     /**
@@ -843,21 +745,11 @@ var API = class
     {
         this._startSearchSignal(false);
 
-        let overview = this._main.overview;
-        let viewSelector = overview.viewSelector || overview.viewSelector;
-
         if (!this._originals['startSearch']) {
-            this._originals['startSearch']
-            = (this._shellVersion >= 40 && this._searchController)
-            ? this._searchController.SearchController.prototype.startSearch
-            : viewSelector.startSearch;
+            this._originals['startSearch'] = this._searchController.SearchController.prototype.startSearch
         }
 
-        if (this._shellVersion >= 40 && this._searchController) {
-            this._searchController.SearchController.prototype.startSearch = () => {};
-        } else {
-            viewSelector.startSearch = () => {};
-        }
+        this._searchController.SearchController.prototype.startSearch = () => {};
     }
 
     /**
@@ -890,19 +782,12 @@ var API = class
             return;
         }
 
-        let bySearchController = this._shellVersion >= 40;
-
-        let signalName = (bySearchController) ? 'notify::search-active' : 'page-changed';
-
-        this._searchActiveSignal = controller.connect(signalName, () => {
+        this._searchActiveSignal = controller.connect('notify::search-active', () => {
             if (this._searchEntryVisibility) {
                 return;
             }
 
-            let inSearch
-            = (bySearchController)
-            ? controller.searchActive
-            : (controller.getActivePage() === this._viewSelector.ViewPage.SEARCH);
+            let inSearch = controller.searchActive;
 
             if (inSearch) {
                 this.UIStyleClassAdd(this._getAPIClassname('type-to-search'));
@@ -950,16 +835,6 @@ var API = class
      */
     workspacePopupEnable()
     {
-        if (this._shellVersion < 42) {
-            if (!this._originals['workspaceSwitcherPopupShow']) {
-                return;
-            }
-            this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype._show
-            = this._originals['workspaceSwitcherPopupShow'];
-
-            return;
-        }
-
         if (!this._originals['workspaceSwitcherPopupDisplay']) {
             return;
         }
@@ -975,18 +850,6 @@ var API = class
      */
     workspacePopupDisable()
     {
-        if (this._shellVersion < 42) {
-            if (!this._originals['workspaceSwitcherPopupShow']) {
-                this._originals['workspaceSwitcherPopupShow']
-                = this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype._show;
-            }
-            this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype._show = () => {
-               return false;
-            };
-
-            return;
-        }
-
         if (!this._originals['workspaceSwitcherPopupDisplay']) {
             this._originals['workspaceSwitcherPopupDisplay']
             = this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype.display;
@@ -1005,24 +868,8 @@ var API = class
     workspaceSwitcherShow()
     {
         this.UIStyleClassRemove(this._getAPIClassname('no-workspace'));
-
-        if (this._shellVersion < 40) {
-
-            if (!this._originals['getAlwaysZoomOut'] ||
-                !this._originals['getNonExpandedWidth'])
-            {
-                return;
-            }
-
-            let TSProto = this._overviewControls.ThumbnailsSlider.prototype;
-
-            TSProto._getAlwaysZoomOut = this._originals['getAlwaysZoomOut'];
-            TSProto.getNonExpandedWidth = this._originals['getNonExpandedWidth'];
-        }
         
-        if (this._shellVersion >= 40) {
-            this._workspaceSwitcherShouldShowSetToLast();
-        }
+        this._workspaceSwitcherShouldShowSetToLast();
     }
 
     /**
@@ -1032,29 +879,7 @@ var API = class
      */
     workspaceSwitcherHide()
     {
-        if (this._shellVersion < 40) {
-
-            let TSProto = this._overviewControls.ThumbnailsSlider.prototype;
-
-            if (!this._originals['getAlwaysZoomOut']) {
-                this._originals['getAlwaysZoomOut'] = TSProto._getAlwaysZoomOut;
-            }
-
-            if (!this._originals['getNonExpandedWidth']) {
-                this._originals['getNonExpandedWidth'] = TSProto.getNonExpandedWidth;
-            }
-
-            TSProto._getAlwaysZoomOut = () => {
-                return false;
-            };
-            TSProto.getNonExpandedWidth = () => {
-                return 0;
-            };
-        }
-
-        if (this._shellVersion >= 40) {
-            this.workspaceSwitcherShouldShow(false, true);
-        }
+        this.workspaceSwitcherShouldShow(false, true);
 
         //should be after `this.workspaceSwitcherShouldShow()`
         // since it checks whether it's visible or not
@@ -1078,10 +903,6 @@ var API = class
      */
     _getSecondaryMonitorDisplay()
     {
-        if (this._shellVersion < 40) {
-            return null;
-        }
-
         // for some reason the first time we get the value it returns null in 42
         // but it returns the correct value in second get
         this._workspacesView.SecondaryMonitorDisplay;
@@ -1096,10 +917,6 @@ var API = class
      */
     workspaceSwitcherSetDefaultSize()
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         if (this._originals['MAX_THUMBNAIL_SCALE'] === undefined) {
             return;
         }
@@ -1129,10 +946,6 @@ var API = class
      */
     workspaceSwitcherSetSize(size, fake)
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         if (this._originals['MAX_THUMBNAIL_SCALE'] === undefined) {
             this._originals['MAX_THUMBNAIL_SCALE']
             = this._workspaceThumbnail.MAX_THUMBNAIL_SCALE;
@@ -1208,7 +1021,7 @@ var API = class
      */
     activitiesButtonShow()
     {
-        let activities = this._main.panel.statusArea['activities'];
+        let activities = this._main.panel.statusArea.activities;
 
         if (!this.isLocked() && activities) {
             activities.container.show();
@@ -1222,7 +1035,7 @@ var API = class
      */
     activitiesButtonHide()
     {
-        let activities = this._main.panel.statusArea['activities'];
+        let activities = this._main.panel.statusArea.activities;
 
         if (activities) {
             activities.container.hide();
@@ -1236,7 +1049,7 @@ var API = class
      */
     appMenuShow()
     {
-        let appMenu = this._main.panel.statusArea['appMenu'];
+        let appMenu = this._main.panel.statusArea.appMenu;
 
         if (!this.isLocked() && appMenu) {
             appMenu.container.show();
@@ -1250,23 +1063,7 @@ var API = class
      */
     appMenuHide()
     {
-        let appMenu = this._main.panel.statusArea['appMenu'];
-
-        if (appMenu) {
-            appMenu.container.hide();
-        }
-    }
-    
-    /**
-     * check whether app menu is visible
-     *
-     * @returns {boolean}
-     */
-    isAppMenuVisible()
-    {
-        let appMenu = this._main.panel.statusArea['appMenu'];
-
-        return appMenu ? appMenu.container.visible : false;
+        this._main.panel.statusArea.appMenu?.container.hide();
     }
 
     /**
@@ -1277,7 +1074,7 @@ var API = class
     dateMenuShow()
     {
         if (!this.isLocked()) {
-            this._main.panel.statusArea['dateMenu'].container.show();
+            this._main.panel.statusArea.dateMenu.container.show();
         }
     }
 
@@ -1288,7 +1085,7 @@ var API = class
      */
     dateMenuHide()
     {
-        this._main.panel.statusArea['dateMenu'].container.hide();
+        this._main.panel.statusArea.dateMenu.container.hide();
     }
 
     /**
@@ -1298,7 +1095,7 @@ var API = class
      */
     keyboardLayoutShow()
     {
-        this._main.panel.statusArea['keyboard'].container.show();
+        this._main.panel.statusArea.keyboard.container.show();
     }
 
     /**
@@ -1308,7 +1105,7 @@ var API = class
      */
     keyboardLayoutHide()
     {
-        this._main.panel.statusArea['keyboard'].container.hide();
+        this._main.panel.statusArea.keyboard.container.hide();
     }
 
     /**
@@ -1318,13 +1115,7 @@ var API = class
      */
     accessibilityMenuShow()
     {
-        let a11y = this._main.panel.statusArea['a11y'];
-
-        if (!a11y) {
-            return;
-        }
-        
-        a11y.container.show();
+        this._main.panel.statusArea.a11y?.container.show();
     }
 
     /**
@@ -1334,13 +1125,7 @@ var API = class
      */
     accessibilityMenuHide()
     {
-        let a11y = this._main.panel.statusArea['a11y'];
-
-        if (!a11y) {
-            return;
-        }
-
-        a11y.container.hide();
+        this._main.panel.statusArea.a11y?.container.hide();
     }
 
     /**
@@ -1354,7 +1139,7 @@ var API = class
             return;
         }
 
-        this._main.panel.statusArea['quickSettings'].container.show();
+        this._main.panel.statusArea.quickSettings.container.show();
     }
 
     /**
@@ -1368,7 +1153,7 @@ var API = class
             return;
         }
 
-        this._main.panel.statusArea['quickSettings'].container.hide();
+        this._main.panel.statusArea.quickSettings.container.hide();
     }
 
     /**
@@ -1382,7 +1167,7 @@ var API = class
             return;
         }
 
-        this._main.panel.statusArea['aggregateMenu'].container.show();
+        this._main.panel.statusArea.aggregateMenu.container.show();
     }
 
     /**
@@ -1396,57 +1181,7 @@ var API = class
             return;
         }
 
-        this._main.panel.statusArea['aggregateMenu'].container.hide();
-    }
-
-    /**
-     * set 'enableHotCorners' original value
-     *
-     * @returns {void}
-     */
-    _setEnableHotCornersOriginal()
-    {
-        if (this._originals['enableHotCorners'] !== undefined) {
-            return;
-        }
-
-        this._originals['enableHotCorners']
-        = this._interfaceSettings.get_boolean('enable-hot-corners');
-    }
-
-    /**
-     * enable hot corners
-     *
-     * @returns {void}
-     */
-    hotCornersEnable()
-    {
-        this._setEnableHotCornersOriginal();
-        this._interfaceSettings.set_boolean('enable-hot-corners', true);
-    }
-
-    /**
-     * disable hot corners
-     *
-     * @returns {void}
-     */
-    hotCornersDisable()
-    {
-        this._setEnableHotCornersOriginal();
-        this._interfaceSettings.set_boolean('enable-hot-corners', false);
-    }
-
-    /**
-     * set the hot corners to default value
-     *
-     * @returns {void}
-     */
-    hotCornersDefault()
-    {
-        this._setEnableHotCornersOriginal();
-
-        this._interfaceSettings.set_boolean('enable-hot-corners',
-            this._originals['enableHotCorners']);
+        this._main.panel.statusArea.aggregateMenu.container.hide();
     }
 
     /**
@@ -1466,10 +1201,6 @@ var API = class
      */
     windowPickerIconEnable()
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         this.UIStyleClassRemove(this._getAPIClassname('no-window-picker-icon'));
     }
 
@@ -1480,10 +1211,6 @@ var API = class
      */
     windowPickerIconDisable()
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         this.UIStyleClassAdd(this._getAPIClassname('no-window-picker-icon'));
     }
 
@@ -1494,12 +1221,12 @@ var API = class
      */
     powerIconShow()
     {
-        if (this._shellVersion >= 43) {
-            this._main.panel.statusArea['quickSettings']._system.show();
+        if (this._shellVersion < 43) {
+            this._main.panel.statusArea.aggregateMenu._system.show();
             return;
         }
 
-        this._main.panel.statusArea['aggregateMenu']._system.show();
+        this._main.panel.statusArea.quickSettings._system.show();
     }
 
     /**
@@ -1509,12 +1236,12 @@ var API = class
      */
     powerIconHide()
     {
-        if (this._shellVersion >= 43) {
-            this._main.panel.statusArea['quickSettings']._system.hide();
+        if (this._shellVersion < 43) {
+            this._main.panel.statusArea.aggregateMenu._system.hide();
             return;
         }
 
-        this._main.panel.statusArea['aggregateMenu']._system.hide();
+        this._main.panel.statusArea.quickSettings._system.hide();
     }
 
     /**
@@ -1649,34 +1376,6 @@ var API = class
     }
 
     /**
-     * enable panel arrow
-     *
-     * @returns {void}
-     */
-    panelArrowEnable()
-    {
-        if (this._shellVersion >= 40) {
-            return;
-        }
-
-        this.UIStyleClassRemove(this._getAPIClassname('no-panel-arrow'));
-    }
-
-    /**
-     * disable panel arrow
-     *
-     * @returns {void}
-     */
-    panelArrowDisable()
-    {
-        if (this._shellVersion >= 40) {
-            return;
-        }
-
-        this.UIStyleClassAdd(this._getAPIClassname('no-panel-arrow'));
-    }
-
-    /**
      * enable panel notification icon
      *
      * @returns {void}
@@ -1778,7 +1477,7 @@ var API = class
      */
     clockMenuPositionSet(pos, offset)
     {
-        let dateMenu = this._main.panel.statusArea['dateMenu'];
+        let dateMenu = this._main.panel.statusArea.dateMenu;
 
         let panelBoxs = [
             this._main.panel._centerBox,
@@ -1930,7 +1629,7 @@ var API = class
     activitiesButtonAddIcon(type, icon, monochrome, holdLabel)
     {
         let iconSize = this.panelIconGetSize() - this._panel.APP_MENU_ICON_MARGIN;
-        let activities = this._main.panel.statusArea['activities'];
+        let activities = this._main.panel.statusArea.activities;
         
         // GNOME Shell mobile doesn't have activities button
         if (!activities) {
@@ -2012,7 +1711,7 @@ var API = class
      */
     activitiesButtonRemoveIcon()
     {
-        let activities = this._main.panel.statusArea['activities'];
+        let activities = this._main.panel.statusArea.activities;
 
         if (!activities || !this._activitiesBtn) {
             return;
@@ -2051,7 +1750,7 @@ var API = class
             return;
         }
 
-        let activities = this._main.panel.statusArea['activities'];
+        let activities = this._main.panel.statusArea.activities;
 
         if (!activities || !this._activitiesBtn || !this._activitiesBtn.icon) {
             return;
@@ -2083,10 +1782,7 @@ var API = class
 
         // since removing '_windowDemandsAttentionId' doesn't have any effect
         // we remove the original signal and re-connect it on disable
-        let signalId
-        = (this._shellVersion < 42)
-        ? this._main.windowAttentionHandler._windowDemandsAttentionId
-        : this._getSignalId(global.display, 'window-demands-attention');
+        let signalId = this._getSignalId(global.display, 'window-demands-attention');
 
         display.disconnect(signalId);
     }
@@ -2121,10 +1817,6 @@ var API = class
      */
     startupStatusSet(status)
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         let sessionMode = this._main.sessionMode;
         let layoutManager = this._main.layoutManager;
 
@@ -2221,10 +1913,6 @@ var API = class
      */
     _computeWorkspacesBoxForStateChanged()
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         if (!this._originals['computeWorkspacesBoxForState']) {
             let ControlsManagerLayout = this._overviewControls.ControlsManagerLayout;
             this._originals['computeWorkspacesBoxForState']
@@ -2281,10 +1969,6 @@ var API = class
      */
     workspacesInAppGridDisable()
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         this._workspacesInAppGridHeight = 0;
         this._computeWorkspacesBoxForStateChanged();
     }
@@ -2361,24 +2045,10 @@ var API = class
         const State = this._messageTray.State;
         const ANIMATION_TIME = this._messageTray.ANIMATION_TIME;
         const Clutter = this._clutter;
-        const SHELL_VERSION = this._shellVersion;
 
         messageTray._hideNotification = function (animate) {
             this._notificationFocusGrabber.ungrabFocus();
-
-            if (SHELL_VERSION >= 42) {
-                this._banner.disconnectObject(this);
-            } else {
-                if (this._bannerClickedId) {
-                    this._banner.disconnect(this._bannerClickedId);
-                    this._bannerClickedId = 0;
-                }
-                if (this._bannerUnfocusedId) {
-                    this._banner.disconnect(this._bannerUnfocusedId);
-                    this._bannerUnfocusedId = 0;
-                }
-            }
-
+            this._banner.disconnectObject(this);
             this._resetNotificationLeftTimeout();
             this._bannerBin.remove_all_transitions();
 
@@ -2459,10 +2129,6 @@ var API = class
      */
     workspaceSwitcherShouldShow(shouldShow = true, fake = false)
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         if (!fake) {
             this._shouldShow = shouldShow;
         }
@@ -2605,10 +2271,6 @@ var API = class
      */
     _windowPreviewGetPrototype()
     {
-        if (this._shellVersion <= 3.36) {
-            return this._workspace.WindowOverlay.prototype;
-        }
-
         return this._windowPreview.WindowPreview.prototype;
     }
 
@@ -2680,10 +2342,6 @@ var API = class
      */
     workspaceBackgroundRadiusSet(size)
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         if (size < 0 || size > 60) {
             return;
         }
@@ -2811,10 +2469,6 @@ var API = class
      */
     unblockOverlayKey()
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         if (!this._overlayKeyOldSignalId) {
             return;
         }
@@ -2834,10 +2488,6 @@ var API = class
      */
     blockOverlayKey()
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         this._overlayKeyOldSignalId = this._getSignalId(global.display, 'overlay-key');
 
         if (!this._overlayKeyOldSignalId) {
@@ -2854,7 +2504,7 @@ var API = class
      */
     doubleSuperToAppGridEnable()
     {
-        if (this._shellVersion < 40 || this._isDoubleSuperToAppGrid === true) {
+        if (this._isDoubleSuperToAppGrid === true) {
             return;
         }
 
@@ -2876,7 +2526,7 @@ var API = class
      */
     doubleSuperToAppGridDisable()
     {
-        if (this._shellVersion < 40 || this._isDoubleSuperToAppGrid === false) {
+        if (this._isDoubleSuperToAppGrid === false) {
             return;
         }
 
@@ -2924,10 +2574,6 @@ var API = class
      */
     osdPositionSetDefault()
     {
-        if (this._shellVersion < 42) {
-            return;
-        }
-
         if (!this._originals['osdWindowShow']) {
             return;
         }
@@ -2966,10 +2612,6 @@ var API = class
      */
     osdPositionSet(pos)
     {
-        if (this._shellVersion < 42) {
-            return;
-        }
-
         let osdWindowProto = this._osdWindow.OsdWindow.prototype;
 
         if (!this._originals['osdWindowShow']) {
@@ -3119,7 +2761,7 @@ var API = class
         let defaultSize = this._originals['panelIconSize'];
         this._panel.PANEL_ICON_SIZE = defaultSize;
         this._changeDateMenuIndicatorIconSize(defaultSize);
-        this._main.panel.statusArea['appMenu']._onIconThemeChanged();
+        this._main.panel.statusArea.appMenu._onIconThemeChanged();
         this._activitiesButtonIconSetSize(defaultSize);
 
         delete(this._panelIconSize);
@@ -3149,7 +2791,7 @@ var API = class
 
         this._panel.PANEL_ICON_SIZE = size;
         this._changeDateMenuIndicatorIconSize(size);
-        this._main.panel.statusArea['appMenu']._onIconThemeChanged();
+        this._main.panel.statusArea.appMenu._onIconThemeChanged();
         this._activitiesButtonIconSetSize(size);
 
         this._panelIconSize = size;
@@ -3164,7 +2806,7 @@ var API = class
      */
     _changeDateMenuIndicatorIconSize(size)
     {
-        let dateMenu = this._main.panel.statusArea['dateMenu'];
+        let dateMenu = this._main.panel.statusArea.dateMenu;
 
         // we get set_icon_size is not a function in some setups
         // in case the date menu has been removed or not created
@@ -3198,10 +2840,6 @@ var API = class
      */
     dashSeparatorShow()
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         this.UIStyleClassRemove(this._getAPIClassname('no-dash-separator'));
     }
 
@@ -3212,10 +2850,6 @@ var API = class
      */
     dashSeparatorHide()
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         this.UIStyleClassAdd(this._getAPIClassname('no-dash-separator'));
     }
 
@@ -3315,10 +2949,6 @@ var API = class
      */
     screenshotInWindowMenuShow()
     {
-        if (this._shellVersion < 42) {
-            return;
-        }
-
         let windowMenuProto = this._windowMenu.WindowMenu.prototype;
 
         if (windowMenuProto._oldBuildMenu === undefined) {
@@ -3337,10 +2967,6 @@ var API = class
      */
     screenshotInWindowMenuHide()
     {
-        if (this._shellVersion < 42) {
-            return;
-        }
-
         let windowMenuProto = this._windowMenu.WindowMenu.prototype;
 
         if (!this._originals['WindowMenubuildMenu']) {
@@ -3522,10 +3148,6 @@ var API = class
      */
     controlsManagerSpacingSetDefault()
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         if (this._controlsManagerSpacingSize === undefined) {
             return;
         }
@@ -3545,10 +3167,6 @@ var API = class
      */
     controlsManagerSpacingSizeSet(size)
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         this.controlsManagerSpacingSetDefault();
 
         if (size < 0 || size > 150) {
@@ -3568,10 +3186,6 @@ var API = class
      */
     workspacesViewSpacingSetDefault()
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         let wsvp = this._workspacesView.WorkspacesView.prototype;
 
         if (wsvp._getSpacingOld === undefined) {
@@ -3591,10 +3205,6 @@ var API = class
      */
     workspacesViewSpacingSizeSet(size)
     {
-        if (this._shellVersion < 40) {
-            return;
-        }
-
         if (size < 0 || size > 500) {
             return;
         }
@@ -3633,4 +3243,3 @@ var API = class
         this.UIStyleClassAdd(this._getAPIClassname('no-dash-app-running-dot'));
     }
 }
-

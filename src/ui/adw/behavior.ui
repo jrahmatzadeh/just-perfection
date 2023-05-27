@@ -9,31 +9,6 @@
     <child>
       <object class="AdwPreferencesGroup" id="behavior_group">
       <property name="title" translatable="yes">Behavior</property>
-
-        <child>
-          <object class="AdwActionRow" id="hot_corner_row">
-            <property name="title" translatable="yes">Hot Corner</property>
-            <property name="activatable-widget">hot_corner_switch</property>
-            <child>
-              <object class="GtkSwitch" id="hot_corner_switch">
-                <property name="valign">center</property>
-              </object>
-            </child>
-          </object>
-        </child>
-
-        <child>
-          <object class="AdwActionRow" id="gesture_row">
-            <property name="title" translatable="yes">App Gesture</property>
-            <property name="subtitle" translatable="yes"></property>
-            <property name="activatable-widget">gesture_switch</property>
-            <child>
-              <object class="GtkSwitch" id="gesture_switch">
-                <property name="valign">center</property>
-              </object>
-            </child>
-          </object>
-        </child>
         
         <child>
           <object class="AdwActionRow" id="workspace_wrap_around_row">

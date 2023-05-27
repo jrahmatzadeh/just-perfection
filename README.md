@@ -25,11 +25,11 @@ This extension allows you to do the following:
 | Calendar Visibility                                  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Clock Menu Position                                  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Clock Menu Visibility                                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Dash App Running Dot Visibility                      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Dash App Running Dot Visibility                      |                    |                    |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Dash Icon Size                                       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Dash Separator Visibility                            |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Dash Visibility                                      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Disable Overlay Key                                  |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Disable Overlay Key                                  |                    |                    |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Disable Type to Search                               | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Double Super Key to App Grid                         |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Events in Clock Menu Visibility                      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
@@ -67,7 +67,7 @@ This extension allows you to do the following:
 | Window Picker Close Button Visibility                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Window Picker Icon                                   |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Workspace Background Corner Size in Overview         |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Workspace Peek                                       |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Workspace Peek                                       |                    |                    |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Workspace Popup Visibility                           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Workspace Switcher Size                              |                    |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Workspace Switcher Visibility                        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
@@ -84,8 +84,8 @@ This extension allows you to do the following:
 | 42                  | July 2026      | :white_check_mark: |
 | 41                  | May 2022       |                    |
 | 40                  | December 2021  |                    |
-| 3.38                | July 2025      | :white_check_mark: |
-| 3.36                | July 2025      | :white_check_mark: |
+| 3.38                | July 2025      | No New Features    |
+| 3.36                | July 2025      | No New Features    |
 
 ## Install
 

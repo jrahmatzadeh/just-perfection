@@ -66,14 +66,6 @@ var Manager = class
             this._applyBackgroundMenu(false);
         });
 
-        this._settings.connect('changed::gesture', () => {
-            this._applyGesture(false);
-        });
-
-        this._settings.connect('changed::hot-corner', () => {
-            this._applyHotCorner(false);
-        });
-
         this._settings.connect('changed::theme', () => {
             this._applyTheme(false);
         });
@@ -106,10 +98,6 @@ var Manager = class
             this._applyQuickSettings(false);
         });
 
-        this._settings.connect('changed::panel-corner-size', () => {
-            this._applyPanelCornerSize(false);
-        });
-
         this._settings.connect('changed::window-picker-icon', () => {
             this._applyWindowPickerIcon(false);
         });
@@ -128,10 +116,6 @@ var Manager = class
 
         this._settings.connect('changed::top-panel-position', () => {
             this._applyTopPanelPosition(false);
-        });
-
-        this._settings.connect('changed::panel-arrow', () => {
-            this._applyPanelArrow(false);
         });
 
         this._settings.connect('changed::panel-notification-icon', () => {
@@ -330,8 +314,6 @@ var Manager = class
         this._applyWorkspacePopup(false);
         this._applyWorkspace(false);
         this._applyBackgroundMenu(false);
-        this._applyGesture(false);
-        this._applyHotCorner(false);
         this._applyActivitiesButton(false);
         this._applyAppMenu(false);
         this._applyClockMenu(false);
@@ -339,13 +321,11 @@ var Manager = class
         this._applyAccessibilityMenu(false);
         this._applyAggregateMenu(false);
         this._applyQuickSettings(false);
-        this._applyPanelCornerSize(false);
         this._applyWindowPickerIcon(false);
         this._applyTypeToSearch(false);
         this._applyWorkspaceSwitcherSize(false);
         this._applyPowerIcon(false);
         this._applyTopPanelPosition(false);
-        this._applyPanelArrow(false);
         this._applyPanelNotificationIcon(false);
         this._applyAppMenuIcon(false);
         this._applyAppMenuLabel(false);
@@ -403,8 +383,6 @@ var Manager = class
         this._applyWorkspace(true);
         this._applyWorkspacePopup(true);
         this._applyBackgroundMenu(true);
-        this._applyGesture(true);
-        this._applyHotCorner(true);
         this._applyActivitiesButton(true);
         this._applyAppMenu(true);
         this._applyClockMenu(true);
@@ -412,13 +390,11 @@ var Manager = class
         this._applyAccessibilityMenu(true);
         this._applyAggregateMenu(true);
         this._applyQuickSettings(true);
-        this._applyPanelCornerSize(true);
         this._applyWindowPickerIcon(true);
         this._applyTypeToSearch(true);
         this._applyWorkspaceSwitcherSize(true);
         this._applyPowerIcon(true);
         this._applyTopPanelPosition(true);
-        this._applyPanelArrow(true);
         this._applyPanelNotificationIcon(true);
         this._applyAppMenuIcon(true);
         this._applyAppMenuLabel(true);
@@ -594,44 +570,6 @@ var Manager = class
     }
 
     /**
-     * apply gesture settings
-     *
-     * @param {boolean} forceOriginal force original shell setting
-     *
-     * @returns {void}
-     */
-    _applyGesture(forceOriginal)
-    {
-        if (forceOriginal || this._settings.get_boolean('gesture')) {
-            this._api.gestureEnable();
-        } else {
-            this._api.gestureDisable();
-        }
-    }
-
-    /**
-     * apply hot corner settings
-     *
-     * @param {boolean} forceOriginal force original shell setting
-     *
-     * @returns {void}
-     */
-    _applyHotCorner(forceOriginal)
-    {
-        if (this._shellVersion >= 41) {
-            return;
-        }
-    
-        if (forceOriginal) {
-            this._api.hotCornersDefault();
-        } else if (!this._settings.get_boolean('hot-corner')) {
-            this._api.hotCornersDisable();
-        } else {
-            this._api.hotCornersEnable();
-        }
-    }
-
-    /**
      * apply theme settings
      *
      * @param {boolean} forceOriginal force original shell setting
@@ -641,21 +579,11 @@ var Manager = class
     _applyTheme(forceOriginal)
     {
         let className = 'just-perfection';
-        let fallbackClassName = 'just-perfection-gnome3';
-        let fortySecondGenClassName = 'just-perfection-gnome4x-2nd-gen';
 
         if (forceOriginal || !this._settings.get_boolean('theme')) {
             this._api.UIStyleClassRemove(className);
-            this._api.UIStyleClassRemove(fallbackClassName);
-            this._api.UIStyleClassRemove(fortySecondGenClassName);
         } else {
             this._api.UIStyleClassAdd(className);
-            if (this._shellVersion < 40) {
-                this._api.UIStyleClassAdd(fallbackClassName);
-            }
-            if (this._shellVersion >= 42) {
-                this._api.UIStyleClassAdd(fortySecondGenClassName);
-            }
         }
     }
 
@@ -772,24 +700,6 @@ var Manager = class
     }
 
     /**
-     * apply panel corner size settings
-     *
-     * @param {boolean} forceOriginal force original shell setting
-     *
-     * @returns {void}
-     */
-    _applyPanelCornerSize(forceOriginal)
-    {
-        let size = this._settings.get_int('panel-corner-size');
-
-        if (forceOriginal || size === 0) {
-            this._api.panelCornerSetDefault();
-        } else {
-            this._api.panelCornerSetSize(size - 1);
-        }
-    }
-
-    /**
      * apply window picker icon settings
      *
      * @param {boolean} forceOriginal force original shell setting
@@ -852,22 +762,6 @@ var Manager = class
             this._api.panelSetPosition(0);
         } else {
             this._api.panelSetPosition(1);
-        }
-    }
-
-    /**
-     * apply panel arrow settings
-     *
-     * @param {boolean} forceOriginal force original shell setting
-     *
-     * @returns {void}
-     */
-    _applyPanelArrow(forceOriginal)
-    {
-        if (forceOriginal || this._settings.get_boolean('panel-arrow')) {
-            this._api.panelArrowEnable();
-        } else {
-            this._api.panelArrowDisable();
         }
     }
 
