@@ -1766,25 +1766,33 @@ var API = class
      */
     windowDemandsAttentionFocusEnable()
     {
-        if (this._displayWindowDemandsAttentionSignal) {
+        if (
+            this._displayWindowDemandsAttentionSignal ||
+            this._displayWindowMarkedUrgentSignal
+        ) {
             return;
         }
 
         let display = global.display;
 
-        this._displayWindowDemandsAttentionSignal
-        = display.connect('window-demands-attention', (display, window) => {
+        let demandFunction = (display, window) => {
             if (!window || window.has_focus() || window.is_skip_taskbar()) {
                 return;
             }
             this._main.activateWindow(window);
-        });
+        };
+
+        this._displayWindowDemandsAttentionSignal
+        = display.connect('window-demands-attention', demandFunction);
+        this._displayWindowMarkedUrgentSignal
+        = display.connect('window-marked-urgent', demandFunction);
 
         // since removing '_windowDemandsAttentionId' doesn't have any effect
         // we remove the original signal and re-connect it on disable
         let signalId = this._getSignalId(global.display, 'window-demands-attention');
-
+        let signalId2 = this._getSignalId(global.display, 'window-marked-urgent');
         display.disconnect(signalId);
+        display.disconnect(signalId2);
     }
 
     /**
@@ -1794,18 +1802,29 @@ var API = class
      */
     windowDemandsAttentionFocusDisable()
     {
-        if (!this._displayWindowDemandsAttentionSignal) {
+        if (
+            !this._displayWindowDemandsAttentionSignal ||
+            !this._displayWindowMarkedUrgentSignal
+        ) {
             return;
         }
 
         let display = global.display;
 
         display.disconnect(this._displayWindowDemandsAttentionSignal);
+        display.disconnect(this._displayWindowMarkedUrgentSignal);
         this._displayWindowDemandsAttentionSignal = null;
+        this._displayWindowMarkedUrgentSignal = null;
 
         let wah = this._main.windowAttentionHandler;
-        wah._windowDemandsAttentionId = display.connect('window-demands-attention',
-            wah._onWindowDemandsAttention.bind(wah));
+        wah._windowDemandsAttentionId = display.connect(
+            'window-demands-attention',
+            wah._onWindowDemandsAttention.bind(wah)
+        );
+        wah._windowDemandsAttentionId = display.connect(
+            'window-marked-urgent',
+            wah._onWindowDemandsAttention.bind(wah)
+        );
     }
 
     /**
@@ -3243,3 +3262,4 @@ var API = class
         this.UIStyleClassAdd(this._getAPIClassname('no-dash-app-running-dot'));
     }
 }
+
