@@ -291,9 +291,6 @@ var API = class
         if (!fake) {
             this._panelSize = size;
         }
-
-        // to fix panel not getting out of place
-        this._emitPanelPositionChanged();
     }
 
     /**
@@ -332,57 +329,6 @@ var API = class
     }
 
     /**
-     * emit changed signal for panel position
-     *
-     * @param {boolean} calledFromChanger whether it is called from 
-     *   position changer. you should never call it with false from
-     *   this.panelSetPosition() since it can cause recursion.
-     *
-     * @returns {void}
-     */
-    _emitPanelPositionChanged(calledFromChanger = false)
-    {
-        if (this._timeoutIds['emitPanelPositionChanged']) {
-            this._glib.source_remove(this._timeoutIds['emitPanelPositionChanged']);
-            delete(this._timeoutIds['emitPanelPositionChanged']);
-        }
-
-        if (this._timeoutIds['emitPanelPositionChanged2']) {
-            this._glib.source_remove(this._timeoutIds['emitPanelPositionChanged2']);
-            delete(this._timeoutIds['emitPanelPositionChanged2']);
-        }
-
-        if (!calledFromChanger) {
-            this.panelSetPosition(this.panelGetPosition(), true);
-        }
-
-        if (!this.isPanelVisible()) {
-            let mode = this._panelHideMode ? this._panelHideMode : 0;
-            this.panelHide(mode);
-        } else {
-            // resize panel can fix windows going under panel
-            // we may not need it on X11, but it is needed on Wayland
-            // we also need delay after animation
-            // because without delay it many not fix the issue
-            let duration = this._addToAnimationDuration(180);
-            this._timeoutIds['emitPanelPositionChanged']
-            = this._glib.timeout_add(this._glib.PRIORITY_IDLE, duration, () => {
-                delete(this._timeoutIds['emitPanelPositionChanged']);
-                this._main.panel.height++;
-                this._timeoutIds['emitPanelPositionChangedIn2']
-                = this._glib.timeout_add(this._glib.PRIORITY_IDLE, 20, () => {
-                    this._main.panel.height--;
-                    delete(this._timeoutIds['emitPanelPositionChangedIn2']);
-                    return this._glib.SOURCE_REMOVE;
-                });
-                return this._glib.SOURCE_REMOVE;
-            });
-        }
-
-        this._fixLookingGlassPosition();
-    }
-
-    /**
      * show panel
      *
      * @returns {void}
@@ -396,7 +342,7 @@ var API = class
         if (!this.UIStyleClassContain(classname)) {
             return;
         }
-        
+
         // The class name should be removed before addChrome the panelBox
         // removing after can cause `st_theme_node_lookup_shadow` crash
         this.UIStyleClassRemove(classname);
@@ -416,6 +362,11 @@ var API = class
         if (this._hidePanelWorkareasChangedSignal) {
             global.display.disconnect(this._hidePanelWorkareasChangedSignal);
             delete(this._hidePanelWorkareasChangedSignal);
+        }
+
+        if (this._hidePanelHeightSignal) {
+            panelBox.disconnect(this._hidePanelHeightSignal);
+            delete(this._hidePanelHeightSignal);
         }
 
         searchEntryParent.set_style(`margin-top: 0;`);
@@ -478,6 +429,15 @@ var API = class
                 this.panelHide(this._panelHideMode);
             }
         );
+
+        if (!this._hidePanelHeightSignal) {
+            this._hidePanelHeightSignal = panelBox.connect(
+                'notify::height',
+                () => {
+                    this.panelHide(this._panelHideMode);
+                }
+            );
+        }
 
         let classname = this._getAPIClassname('no-panel');
         this.UIStyleClassAdd(classname);
@@ -1309,11 +1269,15 @@ var API = class
                 global.display.disconnect(this._workareasChangedSignal);
                 this._workareasChangedSignal = null;
             }
+            if (this._panelHeightSignal) {
+                panelBox.disconnect(this._panelHeightSignal);
+                this._panelHeightSignal = null;
+            }
             let topX = (monitorInfo) ? monitorInfo.x : 0;
             let topY = (monitorInfo) ? monitorInfo.y : 0;
             panelBox.set_position(topX, topY);
             this.UIStyleClassRemove(this._getAPIClassname('bottom-panel'));
-            this._emitPanelPositionChanged(true);
+            this._fixLookingGlassPosition();
             return;
         }
 
@@ -1336,7 +1300,13 @@ var API = class
             });
         }
 
-        this._emitPanelPositionChanged(true);
+        if (!this._panelHeightSignal) {
+            this._panelHeightSignal = panelBox.connect('notify::height', () => {
+                this.panelSetPosition(PANEL_POSITION.BOTTOM, true);
+            });
+        }
+
+        this._fixLookingGlassPosition();
     }
 
     /**

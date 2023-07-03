@@ -15,10 +15,11 @@ We go to the next version after each release on
 
 ### Fixed
 
+- `.set_icon_size` is not a function error (Date Menu).
 - a11y error in GNOME Shell mobile.
 - Activities button error in GNOME Shell mobile.
 - Marked as urgent signal for window demand attention focus feature.
-- `.set_icon_size` is not a function error (Date Menu).
+- Panel flickering when its position is at the bottom.
 - Unwanted padding on disabled power icon.
 
 ### Added
