@@ -375,6 +375,11 @@ var API = class
         panelBox.hide();
         panelBox.show();
         this._fixLookingGlassPosition();
+
+        if (this._timeoutIds.panelHide) {
+            this._glib.source_remove(this._timeoutIds.panelHide);
+            delete(this._timeoutIds.panelHide);
+        }
     }
 
     /**
@@ -445,6 +450,23 @@ var API = class
         // update hot corners since we need to make them available
         // outside overview
         this._main.layoutManager._updateHotCorners();
+
+        // Maximized windows will have bad maximized gap after unlock in Wayland
+        // This is a Mutter issue,
+        // See https://gitlab.gnome.org/GNOME/mutter/-/issues/1627
+        // TODO remove after the issue is fixed on Mutter
+        if (this._meta.is_wayland_compositor()) {
+            let duration = this._addToAnimationDuration(180);
+            this._timeoutIds.panelHide = this._glib.timeout_add(
+                this._glib.PRIORITY_IDLE,
+                duration,
+                () => {
+                    panelBox.hide();
+                    panelBox.show();
+                    return this._glib.SOURCE_REMOVE;
+                }
+            );
+        }
     }
 
     /**
