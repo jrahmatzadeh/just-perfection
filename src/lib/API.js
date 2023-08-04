@@ -1995,7 +1995,7 @@ var API = class
             let showAppsButton = this._main.overview.dash.showAppsButton;
             showAppsButton.disconnect(this._appButtonForComputeWorkspacesSignal);
             remove(this._appButtonForComputeWorkspacesSignal);
-            this.UIStyleClassRemove(this._getAPIClassname('no-workspaces-in-app-grid');
+            this.UIStyleClassRemove(this._getAPIClassname('no-workspaces-in-app-grid'));
         }
     }
 
