@@ -812,3 +812,9 @@
     padding: 0;
     margin: 0;
 }
+
+.just-perfection-api-no-workspaces-in-app-grid .workspace-background
+{
+    background-color: transparent;
+    box-shadow: 0 4px 16px 4px transparent;
+}

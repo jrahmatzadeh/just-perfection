@@ -1954,6 +1954,25 @@ var API = class
 
             return box;
         };
+
+        // Since workspace background has shadow around it, it can cause
+        // unwanted shadows in app grid when the workspace height is 0.
+        // so we are removing the shadow when we are in app grid
+        if (!this._appButtonForComputeWorkspacesSignal) {
+            this._appButtonForComputeWorkspacesSignal =
+            this._main.overview.dash.showAppsButton.connect(
+                'notify::checked',
+                () => {
+                    let checked = this._main.overview.dash.showAppsButton.checked;
+                    let classname = this._getAPIClassname('no-workspaces-in-app-grid');
+                    if (checked) {
+                        this.UIStyleClassAdd(classname);
+                    } else {
+                        this.UIStyleClassRemove(classname);
+                    }
+                }
+            );
+        }
     }
 
     /**
@@ -1971,6 +1990,13 @@ var API = class
 
         controlsLayout._computeWorkspacesBoxForState
         = this._originals['computeWorkspacesBoxForState'];
+        
+        if (this._appButtonForComputeWorkspacesSignal) {
+            let showAppsButton = this._main.overview.dash.showAppsButton;
+            showAppsButton.disconnect(this._appButtonForComputeWorkspacesSignal);
+            remove(this._appButtonForComputeWorkspacesSignal);
+            this.UIStyleClassRemove(this._getAPIClassname('no-workspaces-in-app-grid');
+        }
     }
 
     /**
