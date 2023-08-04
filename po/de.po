@@ -48,7 +48,7 @@ msgstr "Fenster fordert Aufmerksamkeitsfokus"
 
 #: src/ui/behavior.ui:262 src/ui/adw/behavior.ui:54
 msgid "Removes window is ready notification and focus on the window"
-msgstr "Entfernt "Fenster ist bereit"-Benachrichtigung und Fokus auf das Fenster"
+msgstr "Entfernt \"Fenster ist bereit\"-Benachrichtigung und Fokus auf das Fenster"
 
 #: src/ui/behavior.ui:328 src/ui/adw/behavior.ui:66
 msgid "Type to Search"
