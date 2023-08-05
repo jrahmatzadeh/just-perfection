@@ -119,16 +119,6 @@ var API = class
          * @member {boolean}
          */
         this._searchEntryVisibility = true;
-
-        /**
-         * last workspace switcher size in float
-         *
-         * @member {number}
-         */
-        this._workspaceSwitcherLastSize
-        = (this._workspaceThumbnail)
-        ? this._workspaceThumbnail.MAX_THUMBNAIL_SCALE
-        : 0.0;
     }
 
     /**
@@ -913,20 +903,16 @@ var API = class
             let smd = this._getSecondaryMonitorDisplay();
             smd.prototype._getThumbnailsHeight = this._originals['smd_getThumbnailsHeight'];
         }
-
-        this._workspaceSwitcherLastSize = size;
     }
 
     /**
      * set workspace switcher size
      *
      * @param {number} size in float
-     * @param {boolean} fake true means don't change 
-     *   this._workspaceSwitcherLastSize, false otherwise
      *
      * @returns {void}
      */
-    workspaceSwitcherSetSize(size, fake)
+    workspaceSwitcherSetSize(size)
     {
         if (this._originals['MAX_THUMBNAIL_SCALE'] === undefined) {
             this._originals['MAX_THUMBNAIL_SCALE']
@@ -961,10 +947,6 @@ var API = class
                     height * size);
             }
             // <<
-        }
-
-        if (!fake) {
-            this._workspaceSwitcherLastSize = size;
         }
     }
 

@@ -729,7 +729,7 @@ var Manager = class
         if (forceOriginal || size === 0) {
             this._api.workspaceSwitcherSetDefaultSize();
         } else {
-            this._api.workspaceSwitcherSetSize(size / 100, false);
+            this._api.workspaceSwitcherSetSize(size / 100);
         }
     }
 
