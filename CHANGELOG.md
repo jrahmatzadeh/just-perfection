@@ -7,6 +7,8 @@ We go to the next version after each release on
 
 ## [Unreleased]
 
+## [25.0.0 Rosa] - 2023-08-07
+
 ### Changed
 
 - The behavior of the panel if shown only in the overview.
