@@ -7,6 +7,12 @@ We go to the next version after each release on
 
 ## [Unreleased]
 
+## [26.0.0 Rosa] - 2023-08-07
+
+### Fixed
+
+- remove not defined.
+
 ## [25.0.0 Rosa] - 2023-08-07
 
 ### Changed
