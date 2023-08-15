@@ -79,9 +79,9 @@ This extension allows you to do the following:
 
 | GNOME Shell Version | End Of Support | Active             |
 | ------------------- | -------------- | ------------------ |
-| 44                  | TBA            | :white_check_mark: |
-| 43                  | July 2023      | :white_check_mark: |
-| 42                  | July 2026      | :white_check_mark: |
+| 44                  | July 2024      | No New Features    |
+| 43                  | July 2023      |                    |
+| 42                  | July 2026      | No New Features    |
 | 41                  | May 2022       |                    |
 | 40                  | December 2021  |                    |
 | 3.38                | July 2025      | No New Features    |
