@@ -7,6 +7,10 @@ We go to the next version after each release on
 
 ## [Unreleased]
 
+### Changed
+
+- Activities button icon to flat in preferences window.
+
 ## [26.0.0 Rosa] - 2023-08-07
 
 ### Fixed

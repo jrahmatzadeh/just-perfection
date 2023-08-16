@@ -76,6 +76,7 @@
                     <property name="can-focus">True</property>
                     <property name="focus-on-click">True</property>
                     <property name="receives-default">True</property>
+                    <property name="valign">center</property>
                     
                     <child>
                       <object class="GtkImage" id="activities_button_icon_path_empty_button_icon">
@@ -86,6 +87,10 @@
                       </object>
                     </child>
                     
+                    <style>
+                      <class name="flat"/>
+                    </style>
+                    
                   </object>
                 </child>
                 
@@ -95,6 +100,7 @@
                     <property name="can-focus">True</property>
                     <property name="focus-on-click">True</property>
                     <property name="receives-default">True</property>
+                    <property name="valign">center</property>
                     
                     <child>
                       <object class="GtkImage" id="activities_button_icon_path_preview">
@@ -105,6 +111,10 @@
                       </object>
                     </child>
                     
+                    <style>
+                      <class name="flat"/>
+                    </style>
+                    
                   </object>
                 </child>
                 
@@ -114,10 +124,6 @@
                     <property name="can-focus">False</property>
                   </object>
                 </child>
-                
-                <style>
-                  <class name="linked"/>
-                </style>
                 
               </object>
             </child>
