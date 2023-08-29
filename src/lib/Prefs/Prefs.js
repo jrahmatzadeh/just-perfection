@@ -9,7 +9,7 @@
 /**
  * prefs widget for showing prefs window
  */
-var Prefs = class
+export class Prefs
 {
     /**
      * class constructor
@@ -150,7 +150,6 @@ var Prefs = class
     _registerAllSignals(window)
     {
         this._registerKeySignals();
-        this._registerFileChooserSignals(window);
         this._registerProfileSignals();
     }
 
@@ -181,63 +180,8 @@ var Prefs = class
                          this._guessProfile();
                      });
                      break;
- 
-                 case 'GtkEntry':
-                     this._builder.get_object(key.widgetId).connect('changed', (w) => {
-                         this._settings.set_string(key.name, w.text);
-                         this._guessProfile();
-                     });
-                     break;
              }
          }
-    }
-
-    /**
-     * register file chooser signals
-     *
-     * @param {Adw.PreferencesWindow} window prefs dialog
-     *
-     * @returns {void}
-     */
-     _registerFileChooserSignals(window)
-     {
-         let fileChooser = this._builder.get_object('file_chooser');
-         let activitiesButtonIconPath = {
-             button: this._builder.get_object('activities_button_icon_path_button'),
-             entry: this._builder.get_object('activities_button_icon_path_entry'),
-             empty: this._builder.get_object('activities_button_icon_path_empty_button'),
-         };
- 
-         activitiesButtonIconPath['entry'].connect('changed', (w) => {
-             this._setFileChooserValue('activities_button_icon_path', w.text, true);
-         });
- 
-         activitiesButtonIconPath['empty'].connect('clicked', () => {
-             this._setFileChooserValue('activities_button_icon_path', '');
-         });
- 
-         activitiesButtonIconPath['button'].connect('clicked', (w) => {
-             this.currentFileChooserEntry = activitiesButtonIconPath['entry'];
- 
-             let uri = activitiesButtonIconPath['entry'].text;
-             let file = this._gio.File.new_for_uri(uri);
-             let fileExists = file.query_exists(null);
-             if (fileExists) {
-                 let fileParent = file.get_parent();
-                 fileChooser.set_current_folder(fileParent);
-             }
- 
-             fileChooser.set_transient_for(window);
-             fileChooser.show();
-         });
- 
-         fileChooser.connect('response', (w, response) => {
-             if (response !== this._gtk.ResponseType.ACCEPT) {
-                 return;
-             }
-             let fileURI = w.get_file().get_uri();
-             this.currentFileChooserEntry.text = fileURI;
-         });
     }
 
     /**
@@ -299,9 +243,6 @@ var Prefs = class
                     break;
                 case 'AdwActionRow':
                     value = this._builder.get_object(key.widgetId).get_selected();
-                    break;
-                case 'GtkEntry':
-                    value = this._builder.get_object(key.widgetId).text;
                     break;
                 default:
                     value = '';
@@ -408,16 +349,6 @@ var Prefs = class
                         }
                     }
                     widget.set_selected(index);
-                    break;
-
-                case 'GtkEntry':
-                    let text
-                    = (profile)
-                    ? key.profiles[profile]
-                    : this._settings.get_string(key.name);
-
-                    widget.text = text;
-                    this._setFileChooserValue(key.id, widget.text);
                     break;
             }
         }

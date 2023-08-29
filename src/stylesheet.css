@@ -290,44 +290,12 @@
     spacing: 0;
 }
 
-.just-perfection-api-no-app-menu-icon .app-menu-icon
-{
-    width: 0;
-    height: 0;
-    margin: 0;
-}
-
 .just-perfection-api-no-show-apps-button .show-apps,
 .just-perfection-api-no-show-apps-button .show-apps StIcon
 {
     width: 0;
     margin: 0;
     spacing: 0;
-}
-
-.just-perfection-api-activities-button-icon,
-.just-perfection-api-activities-button-icon-monochrome
-{
-    /* commented because padding would be enough since we are only using */
-    /* one element inside the box */
-    /* -natural-hpadding: 6px; */
-    /* -minimum-hpadding: 6px; */
-    padding-right: 6px;
-    padding-left: 0;
-}
-
-.just-perfection-api-activities-button-icon-monochrome
-{
-    -st-icon-style: symbolic;
-}
-
-.just-perfection-api-activities-button-no-label .just-perfection-api-activities-button-icon,
-.just-perfection-api-activities-button-no-label .just-perfection-api-activities-button-icon-monochrome
-{
-    -natural-hpadding: 0;
-    -minimum-hpadding: 0;
-    padding-right: 0;
-    padding-left: 0;
 }
 
 .just-perfection-api-dash-icon-size16 #dash StIcon { height: 16px; width: 16px; }
@@ -803,7 +771,6 @@
 .just-perfection-api-osd-position-bottom .osd-window { margin: 4em 3em; }
 
 .just-perfection-api-no-dash-separator .dash-separator,
-.just-perfection-api-no-app-menu-label #appMenu StLabel,
 .just-perfection-api-no-dash-app-running-dot #dash .app-well-app-running-dot
 {
     width: 0;
@@ -817,4 +784,11 @@
 {
     background-color: transparent;
     box-shadow: 0 4px 16px 4px transparent;
+}
+
+.just-perfection-api-no-power-icon .power-status StIcon
+{
+    width: 0;
+    height: 0;
+    padding: 0;
 }

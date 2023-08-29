@@ -7,9 +7,10 @@ We go to the next version after each release on
 
 ## [Unreleased]
 
-### Changed
+### Removed
 
-- Activities button icon to flat in preferences window.
+- Activities button icon feature (GNOME Shell 45).
+- App menu indicator (GNOME Shell 45).
 
 ## [26.0.0 Rosa] - 2023-08-07
 

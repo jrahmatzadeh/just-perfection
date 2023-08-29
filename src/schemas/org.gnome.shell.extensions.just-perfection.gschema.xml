@@ -64,24 +64,6 @@
       <description>Activities Button Visibility Status</description>
     </key>
 
-    <key type="b" name="app-menu">
-      <default>true</default>
-      <summary>App Menu</summary>
-      <description>App Menu Visibility Status</description>
-    </key>
-
-    <key type="b" name="app-menu-icon">
-      <default>true</default>
-      <summary>App Menu Icon</summary>
-      <description>App Menu Icon Visibility Status</description>
-    </key>
-
-    <key type="b" name="app-menu-label">
-      <default>true</default>
-      <summary>App Menu Label</summary>
-      <description>App Menu Label Visibility Status</description>
-    </key>
-
     <key type="b" name="clock-menu">
       <default>true</default>
       <summary>Clock Menu</summary>
@@ -104,12 +86,6 @@
       <default>true</default>
       <summary>Accessibility Menu</summary>
       <description>Accessibility Menu Visibility Status</description>
-    </key>
-
-    <key type="b" name="aggregate-menu">
-      <default>true</default>
-      <summary>Aggregate Menu</summary>
-      <description>Aggregate Menu Visibility Status</description>
     </key>
 
     <key type="b" name="quick-settings">
@@ -182,24 +158,6 @@
       <range min="0" max="7"/>
       <summary>0 means disabled, 1 means default speed, animation speed otherwise</summary>
       <description>Animation Status</description>
-    </key>
-
-    <key type="s" name="activities-button-icon-path">
-      <default>''</default>
-      <summary>Activities Button Icon Path</summary>
-      <description>Activities Button Icon Path</description>
-    </key>
-
-    <key type="b" name="activities-button-icon-monochrome">
-      <default>true</default>
-      <summary>Activities Button Monochrome Icon Style</summary>
-      <description>Activities Button Monochrome Icon Style Status</description>
-    </key>
-
-    <key type="b" name="activities-button-label">
-      <default>true</default>
-      <summary>Activities Button Label Visiblity</summary>
-      <description>Activities Button Label Visiblity Status</description>
     </key>
 
     <key type="b" name="window-demands-attention-focus">
