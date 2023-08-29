@@ -9,7 +9,7 @@
 /**
  * prefs keys
  */
-var PrefsKeys = class
+export class PrefsKeys
 {
     /**
      * class constructor
@@ -75,30 +75,6 @@ var PrefsKeys = class
 
         this.setKey(
             'visibility',
-            'app-menu',
-            'GtkSwitch',
-            true,
-            {
-                default: true,
-                minimal: false,
-                superminimal: true,
-            }
-        );
-
-        this.setKey(
-            'visibility',
-            'app-menu-label',
-            'GtkSwitch',
-            true,
-            {
-                default: true,
-                minimal: true,
-                superminimal: true,
-            }
-        );
-
-        this.setKey(
-            'visibility',
             'clock-menu',
             'GtkSwitch',
             true,
@@ -129,18 +105,6 @@ var PrefsKeys = class
             {
                 default: true,
                 minimal: false,
-                superminimal: true,
-            }
-        );
-
-        this.setKey(
-            'visibility',
-            'aggregate-menu',
-            'GtkSwitch',
-            this._shellVersion < 43,
-            {
-                default: true,
-                minimal: true,
                 superminimal: true,
             }
         );
@@ -399,18 +363,6 @@ var PrefsKeys = class
 
         this.setKey(
             'icons',
-            'app-menu-icon',
-            'GtkSwitch',
-            true,
-            {
-                default: true,
-                minimal: false,
-                superminimal: true,
-            }
-        );
-
-        this.setKey(
-            'icons',
             'panel-notification-icon',
             'GtkSwitch',
             true,
@@ -442,42 +394,6 @@ var PrefsKeys = class
                 default: true,
                 minimal: false,
                 superminimal: false,
-            }
-        );
-
-        this.setKey(
-            'icons',
-            'activities-button-icon-path',
-            'GtkEntry',
-            true,
-            {
-                default: '',
-                minimal: '',
-                superminimal: '',
-            }
-        );
-
-        this.setKey(
-            'icons',
-            'activities-button-icon-monochrome',
-            'GtkSwitch',
-            true,
-            {
-                default: true,
-                minimal: true,
-                superminimal: true,
-            }
-        );
-
-        this.setKey(
-            'icons',
-            'activities-button-label',
-            'GtkSwitch',
-            true,
-            {
-                default: true,
-                minimal: true,
-                superminimal: true,
             }
         );
 

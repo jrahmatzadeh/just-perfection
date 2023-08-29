@@ -9,7 +9,7 @@
 /**
  * Apply settings to the GNOME Shell
  */
-var Manager = class
+export class Manager
 {
     /**
      * Class Constructor
@@ -74,10 +74,6 @@ var Manager = class
             this._applyActivitiesButton(false);
         });
 
-        this._settings.connect('changed::app-menu', () => {
-            this._applyAppMenu(false);
-        });
-
         this._settings.connect('changed::clock-menu', () => {
             this._applyClockMenu(false);
         });
@@ -88,10 +84,6 @@ var Manager = class
 
         this._settings.connect('changed::accessibility-menu', () => {
             this._applyAccessibilityMenu(false);
-        });
-
-        this._settings.connect('changed::aggregate-menu', () => {
-            this._applyAggregateMenu(false);
         });
 
         this._settings.connect('changed::quick-settings', () => {
@@ -122,14 +114,6 @@ var Manager = class
             this._applyPanelNotificationIcon(false);
         });
 
-        this._settings.connect('changed::app-menu-icon', () => {
-            this._applyAppMenuIcon(false);
-        });
-
-        this._settings.connect('changed::app-menu-label', () => {
-            this._applyAppMenuLabel(false);
-        });
-
         this._settings.connect('changed::clock-menu-position', () => {
             this._applyClockMenuPosition(false);
         });
@@ -144,18 +128,6 @@ var Manager = class
 
         this._settings.connect('changed::animation', () => {
             this._applyAnimation(false);
-        });
-
-        this._settings.connect('changed::activities-button-icon-path', () => {
-            this._applyActivitiesButtonIcon(false);
-        });
-
-        this._settings.connect('changed::activities-button-icon-monochrome', () => {
-            this._applyActivitiesButtonIcon(false);
-        });
-
-        this._settings.connect('changed::activities-button-label', () => {
-            this._applyActivitiesButtonIcon(false);
         });
 
         this._settings.connect('changed::window-demands-attention-focus', () => {
@@ -315,11 +287,9 @@ var Manager = class
         this._applyWorkspace(false);
         this._applyBackgroundMenu(false);
         this._applyActivitiesButton(false);
-        this._applyAppMenu(false);
         this._applyClockMenu(false);
         this._applyKeyboardLayout(false);
         this._applyAccessibilityMenu(false);
-        this._applyAggregateMenu(false);
         this._applyQuickSettings(false);
         this._applyWindowPickerIcon(false);
         this._applyTypeToSearch(false);
@@ -327,12 +297,9 @@ var Manager = class
         this._applyPowerIcon(false);
         this._applyTopPanelPosition(false);
         this._applyPanelNotificationIcon(false);
-        this._applyAppMenuIcon(false);
-        this._applyAppMenuLabel(false);
         this._applyClockMenuPosition(false);
         this._applyShowAppsButton(false);
         this._applyAnimation(false);
-        this._applyActivitiesButtonIcon(false);
         this._applyWindowDemandsAttentionFocus(false);
         this._applyDashIconSize(false);
         this._applyStartupStatus(false);
@@ -384,11 +351,9 @@ var Manager = class
         this._applyWorkspacePopup(true);
         this._applyBackgroundMenu(true);
         this._applyActivitiesButton(true);
-        this._applyAppMenu(true);
         this._applyClockMenu(true);
         this._applyKeyboardLayout(true);
         this._applyAccessibilityMenu(true);
-        this._applyAggregateMenu(true);
         this._applyQuickSettings(true);
         this._applyWindowPickerIcon(true);
         this._applyTypeToSearch(true);
@@ -396,12 +361,9 @@ var Manager = class
         this._applyPowerIcon(true);
         this._applyTopPanelPosition(true);
         this._applyPanelNotificationIcon(true);
-        this._applyAppMenuIcon(true);
-        this._applyAppMenuLabel(true);
         this._applyClockMenuPosition(true);
         this._applyShowAppsButton(true);
         this._applyAnimation(true);
-        this._applyActivitiesButtonIcon(true);
         this._applyWindowDemandsAttentionFocus(true);
         this._applyDashIconSize(true);
         this._applyStartupStatus(true);
@@ -604,22 +566,6 @@ var Manager = class
     }
 
     /**
-     * apply app menu settings
-     *
-     * @param {boolean} forceOriginal force original shell setting
-     *
-     * @returns {void}
-     */
-    _applyAppMenu(forceOriginal)
-    {
-        if (forceOriginal || this._settings.get_boolean('app-menu')) {
-            this._api.appMenuShow();
-        } else {
-            this._api.appMenuHide();
-        }
-    }
-
-    /**
      * apply clock menu (aka date menu) settings
      *
      * @param {boolean} forceOriginal force original shell setting
@@ -664,22 +610,6 @@ var Manager = class
             this._api.accessibilityMenuShow();
         } else {
             this._api.accessibilityMenuHide();
-        }
-    }
-
-    /**
-     * apply aggregate menu settings
-     *
-     * @param {boolean} forceOriginal force original shell setting
-     *
-     * @returns {void}
-     */
-    _applyAggregateMenu(forceOriginal)
-    {
-        if (forceOriginal || this._settings.get_boolean('aggregate-menu')) {
-            this._api.aggregateMenuShow();
-        } else {
-            this._api.aggregateMenuHide();
         }
     }
 
@@ -782,38 +712,6 @@ var Manager = class
     }
 
     /**
-     * apply app menu icon settings
-     *
-     * @param {boolean} forceOriginal force original shell setting
-     *
-     * @returns {void}
-     */
-    _applyAppMenuIcon(forceOriginal)
-    {
-        if (forceOriginal || this._settings.get_boolean('app-menu-icon')) {
-            this._api.appMenuIconEnable();
-        } else {
-            this._api.appMenuIconDisable();
-        }
-    }
-
-    /**
-     * apply app menu label settings
-     *
-     * @param {boolean} forceOriginal force original shell setting
-     *
-     * @returns {void}
-     */
-    _applyAppMenuLabel(forceOriginal)
-    {
-        if (forceOriginal || this._settings.get_boolean('app-menu-label')) {
-            this._api.appMenuLabelEnable();
-        } else {
-            this._api.appMenuLabelDisable();
-        }
-    }
-
-    /**
      * apply clock menu position settings
      *
      * @param {boolean} forceOriginal force original shell setting
@@ -882,26 +780,6 @@ var Manager = class
             // custom speed
             this._api.animationSpeedSet(factors[animation - 2]);
             this._api.enableAnimationsSet(true);
-        }
-    }
-
-    /**
-     * apply show apps button settings
-     *
-     * @param {boolean} forceOriginal force original shell setting
-     *
-     * @returns {void}
-     */
-    _applyActivitiesButtonIcon(forceOriginal)
-    {
-        let iconPath = this._settings.get_string('activities-button-icon-path');
-        let monochrome = this._settings.get_boolean('activities-button-icon-monochrome');
-        let label = this._settings.get_boolean('activities-button-label');
-
-        if (forceOriginal) {
-            this._api.activitiesButtonRemoveIcon();
-        } else {
-            this._api.activitiesButtonAddIcon(1, iconPath, monochrome, label);
         }
     }
 
