@@ -757,6 +757,7 @@ export class Manager
         let animation = this._settings.get_int('animation');
 
         let factors = [
+            0.001, // almost none
             0.2, // fastest
             0.6, // faster
             0.8, // fast

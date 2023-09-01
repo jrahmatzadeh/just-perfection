@@ -723,6 +723,7 @@
     <items>
       <item translatable="yes">No Animation</item>
       <item translatable="yes">Default Speed</item>
+      <item translatable="yes">Almost None</item>
       <item translatable="yes">Fastest</item>
       <item translatable="yes">Faster</item>
       <item translatable="yes">Fast</item>

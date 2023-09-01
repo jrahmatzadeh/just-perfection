@@ -7,6 +7,11 @@ We go to the next version after each release on
 
 ## [Unreleased]
 
+### Added
+
+- Almost none to animation speed feature (GNOME Shell 45).
+- GNOME Shell 45 Support.
+
 ### Removed
 
 - Activities button icon feature (GNOME Shell 45).
