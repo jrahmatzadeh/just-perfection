@@ -2341,8 +2341,6 @@ export class API
 
         SwitcherPopupProto.showOld = SwitcherPopupProto.show;
 
-        const POPUP_DELAY_TIMEOUT = 0;
-
         SwitcherPopupProto.show = function (...args) {
             let res = this.showOld(...args);
             if (res) {
