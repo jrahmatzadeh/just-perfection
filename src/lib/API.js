@@ -854,7 +854,7 @@ export class API
     {
         this.workspaceSwitcherShouldShow(false, true);
 
-        //should be after `this.workspaceSwitcherShouldShow()`
+        // should be after `this.workspaceSwitcherShouldShow()`
         // since it checks whether it's visible or not
         this.UIStyleClassAdd(this._getAPIClassname('no-workspace'));
     }
@@ -870,40 +870,23 @@ export class API
     }
 
     /**
-     * get Secondary Monitor Display
-     *
-     * @returns {ui.WorkspacesView.SecondaryMonitorDisplay}
-     */
-    _getSecondaryMonitorDisplay()
-    {
-        // for some reason the first time we get the value it returns null in 42
-        // but it returns the correct value in second get
-        this._workspacesView.SecondaryMonitorDisplay;
-
-        return this._workspacesView.SecondaryMonitorDisplay;
-    }
-
-    /**
      * set workspace switcher to its default size
      *
      * @returns {void}
      */
     workspaceSwitcherSetDefaultSize()
     {
-        if (this._originals['MAX_THUMBNAIL_SCALE'] === undefined) {
+        let thumbnailsBox = this._main.overview._overview._controls._thumbnailsBox;
+        let ThumbnailsBoxProto = this._workspaceThumbnail.ThumbnailsBox.prototype;
+
+        if (!ThumbnailsBoxProto._initOld) {
             return;
         }
 
-        let size = this._originals['MAX_THUMBNAIL_SCALE'];
+        ThumbnailsBoxProto._init = ThumbnailsBoxProto._initOld;
+        delete(ThumbnailsBoxProto._initOld);
 
-        if (this.isWorkspaceSwitcherVisible()) {
-            this._workspaceThumbnail.MAX_THUMBNAIL_SCALE = size;
-        }
-
-        if (this._originals['smd_getThumbnailsHeight'] !== undefined) {
-            let smd = this._getSecondaryMonitorDisplay();
-            smd.prototype._getThumbnailsHeight = this._originals['smd_getThumbnailsHeight'];
-        }
+        thumbnailsBox._maxThumbnailScale = this._workspaceThumbnail.MAX_THUMBNAIL_SCALE;
     }
 
     /**
@@ -915,40 +898,19 @@ export class API
      */
     workspaceSwitcherSetSize(size)
     {
-        if (this._originals['MAX_THUMBNAIL_SCALE'] === undefined) {
-            this._originals['MAX_THUMBNAIL_SCALE']
-            = this._workspaceThumbnail.MAX_THUMBNAIL_SCALE;
+        let thumbnailsBox = this._main.overview._overview._controls._thumbnailsBox;
+        let ThumbnailsBoxProto = this._workspaceThumbnail.ThumbnailsBox.prototype;
+
+        thumbnailsBox._maxThumbnailScale = size;
+
+        if (!ThumbnailsBoxProto._initOld) {
+            ThumbnailsBoxProto._initOld = ThumbnailsBoxProto._init;
         }
 
-        if (this.isWorkspaceSwitcherVisible()) {
-
-            this._workspaceThumbnail.MAX_THUMBNAIL_SCALE = size;
-
-            // >>
-            // we are overriding the _getThumbnailsHeight() here with the same
-            // function as original but we change the MAX_THUMBNAIL_SCALE to our
-            // custom size.
-            // we do this because MAX_THUMBNAIL_SCALE is const and cannot be changed
-            let smd = this._getSecondaryMonitorDisplay();
-
-            if (this._originals['smd_getThumbnailsHeight'] === undefined) {
-                this._originals['smd_getThumbnailsHeight'] = smd.prototype._getThumbnailsHeight;
-            }
-
-            smd.prototype._getThumbnailsHeight = function(box) {
-                if (!this._thumbnails.visible)
-                    return 0;
-
-                const [width, height] = box.get_size();
-                const {expandFraction} = this._thumbnails;
-                const [thumbnailsHeight] = this._thumbnails.get_preferred_height(width);
-
-                return Math.min(
-                    thumbnailsHeight * expandFraction,
-                    height * size);
-            }
-            // <<
-        }
+        ThumbnailsBoxProto._init = function(...params) {
+            this._maxThumbnailScale = size;
+            this._initOld(...params);
+        };
     }
 
     /**
