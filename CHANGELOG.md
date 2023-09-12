@@ -7,6 +7,10 @@ We go to the next version after each release on
 
 ## [Unreleased]
 
+### Changed
+
+- The world clocks visibility from css to js.
+
 ### Added
 
 - Almost none to animation speed feature (GNOME Shell 45).

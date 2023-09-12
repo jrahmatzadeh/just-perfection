@@ -2435,7 +2435,16 @@ export class API
      */
     worldClocksShow()
     {
-        this.UIStyleClassRemove(this._getAPIClassname('no-world-clocks'));
+        if (!this._originals['clocksItemSync']) {
+            return;
+        }
+
+        let clocksItem = this._main.panel.statusArea.dateMenu._clocksItem;
+
+        clocksItem._sync = this._originals['clocksItemSync'];
+        delete(this._originals['clocksItemSync']);
+
+        clocksItem._sync();
     }
 
     /**
@@ -2445,7 +2454,17 @@ export class API
      */
     worldClocksHide()
     {
-        this.UIStyleClassAdd(this._getAPIClassname('no-world-clocks'));
+        let clocksItem = this._main.panel.statusArea.dateMenu._clocksItem;
+
+        if (!this._originals['clocksItemSync']) {
+            this._originals['clocksItemSync'] = clocksItem._sync;
+        }
+
+        clocksItem._sync = function () {
+            this.visible = false;
+        };
+
+        clocksItem._sync();
     }
 
     /**
