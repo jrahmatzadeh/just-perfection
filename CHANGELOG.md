@@ -7,6 +7,8 @@ We go to the next version after each release on
 
 ## [Unreleased]
 
+## [27.0.0 Durer] - 2023-09-14
+
 ### Changed
 
 - The world clocks visibility from css to js.
