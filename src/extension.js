@@ -68,41 +68,47 @@ export default class JustPerfection extends Extension
 
         let InterfaceSettings = new Gio.Settings({schema_id: 'org.gnome.desktop.interface'});
 
-        this.#api = new API({
-            Main,
-            BackgroundMenu,
-            OverviewControls,
-            WorkspaceSwitcherPopup,
-            SwitcherPopup,
-            InterfaceSettings,
-            SearchController,
-            WorkspaceThumbnail,
-            WorkspacesView,
-            Panel,
-            WindowPreview,
-            Workspace,
-            LookingGlass,
-            MessageTray,
-            OSDWindow,
-            WindowMenu,
-            AltTab,
-            St,
-            Gio,
-            GLib,
-            Clutter,
-            Util,
-            Meta,
-            GObject,
-        }, shellVersion);
+        this.#api = new API(
+            {
+                Main,
+                BackgroundMenu,
+                OverviewControls,
+                WorkspaceSwitcherPopup,
+                SwitcherPopup,
+                InterfaceSettings,
+                SearchController,
+                WorkspaceThumbnail,
+                WorkspacesView,
+                Panel,
+                WindowPreview,
+                Workspace,
+                LookingGlass,
+                MessageTray,
+                OSDWindow,
+                WindowMenu,
+                AltTab,
+                St,
+                Gio,
+                GLib,
+                Clutter,
+                Util,
+                Meta,
+                GObject,
+            },
+            shellVersion
+        );
 
         this.#api.open();
 
         let settings = this.getSettings();
 
-        this.#manager = new Manager({
-            API: this.#api,
-            Settings: settings,
-        }, shellVersion);
+        this.#manager = new Manager(
+            {
+                API: this.#api,
+                Settings: settings,
+            },
+            shellVersion
+        );
 
         this.#manager.registerSettingsSignals();
         this.#manager.applyAll();

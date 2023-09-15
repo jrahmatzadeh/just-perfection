@@ -6,7 +6,6 @@
  * @license    GPL-3.0-only
  */
 
-import Adw from 'gi://Adw';
 import Gtk from 'gi://Gtk';
 import Gdk from 'gi://Gdk';
 import Gio from 'gi://Gio';
