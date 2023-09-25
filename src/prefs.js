@@ -8,8 +8,6 @@
 
 import Gtk from 'gi://Gtk';
 import Gdk from 'gi://Gdk';
-import Gio from 'gi://Gio';
-import GLib from 'gi://GLib';
 
 import {ExtensionPreferences} from 'resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js';
 import * as Config from 'resource:///org/gnome/Shell/Extensions/js/misc/config.js';
@@ -39,10 +37,7 @@ export default class JustPerfectionPrefs extends ExtensionPreferences
             {
                 Builder: new Gtk.Builder(),
                 Settings: this.getSettings(),
-                Gtk,
                 Gdk,
-                Gio,
-                GLib,
             },
             prefsKeys,
             shellVersion

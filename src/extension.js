@@ -88,7 +88,6 @@ export default class JustPerfection extends Extension
                 WindowMenu,
                 AltTab,
                 St,
-                Gio,
                 GLib,
                 Clutter,
                 Util,
