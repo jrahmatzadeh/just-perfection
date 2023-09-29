@@ -1289,7 +1289,7 @@ export class API
      */
     #disconnectClockMenuPositionSignals()
     {
-        let panelBoxs = [
+        let panelBoxes = [
             this._main.panel._centerBox,
             this._main.panel._rightBox,
             this._main.panel._leftBox,
@@ -1297,7 +1297,7 @@ export class API
 
         if (this._clockMenuPositionSignals) {
             for (let i = 0; i <= 2; i++) {
-                panelBoxs[i].disconnect(this._clockMenuPositionSignals[i]);
+                panelBoxes[i].disconnect(this._clockMenuPositionSignals[i]);
             }
             delete(this._clockMenuPositionSignals);
         }
@@ -1326,7 +1326,7 @@ export class API
     {
         let dateMenu = this._main.panel.statusArea.dateMenu;
 
-        let panelBoxs = [
+        let panelBoxes = [
             this._main.panel._centerBox,
             this._main.panel._rightBox,
             this._main.panel._leftBox,
@@ -1339,12 +1339,12 @@ export class API
         let toIndex = -1;
         let childLength = 0;
         for (let i = 0; i <= 2; i++) {
-            let child = panelBoxs[i].get_children();
+            let child = panelBoxes[i].get_children();
             let childIndex = child.indexOf(dateMenu.container);
             if (childIndex !== -1) {
                 fromPos = i;
                 fromIndex = childIndex;
-                childLength = panelBoxs[pos].get_children().length;
+                childLength = panelBoxes[pos].get_children().length;
                 toIndex = (offset > childLength) ? childLength : offset;
                 break;
             }
@@ -1359,8 +1359,8 @@ export class API
             return;
         }
 
-        panelBoxs[fromPos].remove_actor(dateMenu.container);
-        panelBoxs[pos].insert_child_at_index(dateMenu.container, toIndex);
+        panelBoxes[fromPos].remove_actor(dateMenu.container);
+        panelBoxes[pos].insert_child_at_index(dateMenu.container, toIndex);
 
         if (this.isLocked()) {
             this.dateMenuHide();
@@ -1369,7 +1369,7 @@ export class API
         if (!this._clockMenuPositionSignals) {
             this._clockMenuPositionSignals = [null, null, null];
             for (let i = 0; i <= 2; i++) {
-                this._clockMenuPositionSignals[i] = panelBoxs[i].connect(
+                this._clockMenuPositionSignals[i] = panelBoxes[i].connect(
                     'actor-added',
                     () => {
                         this.clockMenuPositionSet(pos, offset);
