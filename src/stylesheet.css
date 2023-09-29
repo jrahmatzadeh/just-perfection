@@ -149,48 +149,6 @@
     height: 22px;
 }
 
-.just-perfection .search-entry
-{
-    caret-color: white;
-    selection-background-color: #008bff;
-    selected-color: white;
-    padding: 10px;
-    color: white;
-    background-color: rgba(0, 0, 0, .5);
-    border: 0;
-    border-radius: 10px;
-    box-shadow: none;
-}
-
-.just-perfection .search-entry:focus
-{
-    background-color: rgba(0, 0, 0, .6);
-}
-
-.just-perfection .search-entry .search-entry-icon
-{
-    icon-size: 18px;
-    padding: 0 0;
-    color: rgba(255, 255, 255, .5);
-}
-
-.just-perfection .search-section .search-section-separator
-{
-    height: 1px;
-    background-color: rgba(255, 255, 255, .1);
-}
-
-.just-perfection .search-section-content
-{
-    spacing: 0;
-    border-radius: 0;
-    border: 0;
-    box-shadow: none;
-    background: none;
-    text-shadow: none;
-    color: rgba(255, 255, 255, .98);
-}
-
 .just-perfection .dash-background
 {
     background-color: rgba(0, 0, 0, 0.1);
