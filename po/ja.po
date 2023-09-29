@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-25 23:09-0800\n"
+"POT-Creation-Date: 2023-09-28 23:10-0700\n"
 "PO-Revision-Date: 2023-09-13 17:55+0900\n"
 "Last-Translator: Gnuey56 <gnuey56@proton.me>\n"
 "Language-Team: Japanese\n"
@@ -19,23 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0\n"
 "X-Generator: Gtranslator 42.0\n"
 
-#: src/ui/behavior.ui:19 src/ui/adw/behavior.ui:6 src/ui/adw/behavior.ui:11
+#: src/ui/adw/behavior.ui:6 src/ui/adw/behavior.ui:11
 msgid "Behavior"
 msgstr "振る舞い"
 
-#: src/ui/behavior.ui:70 src/ui/adw/behavior.ui:15
-msgid "Hot Corner"
-msgstr "ホットコーナー"
-
-#: src/ui/behavior.ui:119 src/ui/adw/behavior.ui:27
-msgid "App Gesture"
-msgstr "アプリジェスチャー"
-
-#: src/ui/behavior.ui:174 src/ui/adw/behavior.ui:40
+#: src/ui/adw/behavior.ui:15
 msgid "Workspace Wraparound"
 msgstr "ワークスペースの切り替え"
 
-#: src/ui/behavior.ui:185 src/ui/adw/behavior.ui:41
+#: src/ui/adw/behavior.ui:16
 msgid ""
 "Next workspace will be the first workspace when you are in the last "
 "workspace. and previous workspace will be the last workspace when you are in "
@@ -45,28 +37,37 @@ msgstr ""
 "ります。最初のワークスペースにいた場合は、前のワークスペースは最後のワークス"
 "ペースになります。（ワークスペースを移動するとき）"
 
-#: src/ui/behavior.ui:251 src/ui/adw/behavior.ui:53
+#: src/ui/adw/behavior.ui:28
+#, fuzzy
+msgid "Workspace Peek"
+msgstr "ワークスペースポップアップ"
+
+#: src/ui/adw/behavior.ui:29
+msgid "Whether the next and previous workspace should be visible in overview."
+msgstr ""
+
+#: src/ui/adw/behavior.ui:41
 msgid "Window Demands Attention Focus"
 msgstr "ウィンドウをフォーカスさせる"
 
-#: src/ui/behavior.ui:262 src/ui/adw/behavior.ui:54
+#: src/ui/adw/behavior.ui:42
 msgid "Removes window is ready notification and focus on the window"
 msgstr "ウィンドウの準備完了通知をオフにして、ウィンドウをフォーカスさせます"
 
-#: src/ui/behavior.ui:328 src/ui/adw/behavior.ui:66
+#: src/ui/adw/behavior.ui:54
 msgid "Type to Search"
 msgstr "タイプして検索"
 
-#: src/ui/behavior.ui:339 src/ui/adw/behavior.ui:67
+#: src/ui/adw/behavior.ui:55
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr "オーバービュー内で検索欄や検索欄のフォーカスなしで検索を始められます。"
 
-#: src/ui/behavior.ui:405 src/ui/adw/behavior.ui:79
+#: src/ui/adw/behavior.ui:67
 msgid "Always Show Workspace Switcher"
 msgstr "常にワークスペーススイッチャーを表示"
 
-#: src/ui/behavior.ui:416 src/ui/adw/behavior.ui:80
+#: src/ui/adw/behavior.ui:68
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
@@ -74,19 +75,28 @@ msgstr ""
 "動的ワークスペースで1つのワークスペースしか使用していない場合でも、ワークス"
 "ペース切り替えを表示します"
 
-#: src/ui/behavior.ui:482 src/ui/adw/behavior.ui:92
+#: src/ui/adw/behavior.ui:80
+msgid "Overlay Key"
+msgstr ""
+
+#: src/ui/adw/behavior.ui:81
+msgid "Disable overlay key (super key)"
+msgstr ""
+
+#: src/ui/adw/behavior.ui:93
 msgid "Double Super to App Grid"
 msgstr "Super キーを二回押してアプリグリッドを表示"
 
-#: src/ui/behavior.ui:493 src/ui/adw/behavior.ui:93
+#: src/ui/adw/behavior.ui:94
 msgid "Shows app grid when you double hit super key fast"
 msgstr "Super キーを素早く二回押してアプリグリッドを表示します"
 
-#: src/ui/behavior.ui:559 src/ui/adw/behavior.ui:105
-msgid "Switcher Popup Delay"
+#: src/ui/adw/behavior.ui:107
+#, fuzzy
+msgid "Popup Delay"
 msgstr "切り替えポップアップの遅延"
 
-#: src/ui/behavior.ui:570 src/ui/adw/behavior.ui:106
+#: src/ui/adw/behavior.ui:108
 msgid ""
 "Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
 "keyboard layout, ..."
@@ -94,513 +104,454 @@ msgstr ""
 "Alt-Tabや、Ctrl-Alt-Tab、キーボードレイアウト切り替えなどの、切り替えポップ"
 "アップの遅延をなくします。"
 
-#: src/ui/behavior.ui:636 src/ui/adw/behavior.ui:118
+#: src/ui/adw/behavior.ui:120
 msgid "Startup Status"
 msgstr "起動時の状態"
 
-#: src/ui/behavior.ui:647 src/ui/adw/behavior.ui:119
+#: src/ui/adw/behavior.ui:121
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "GNOME Shellが起動して、一番最初の状態"
 
-#: src/ui/behavior.ui:670 src/ui/adw/behavior.ui:131
+#: src/ui/adw/behavior.ui:133
 msgid "Desktop"
 msgstr "デスクトップ"
 
-#: src/ui/behavior.ui:671 src/ui/adw/behavior.ui:132
+#: src/ui/adw/behavior.ui:134
 msgid "Overview"
 msgstr "オーバービュー"
 
-#: src/ui/customize.ui:19 src/ui/adw/customize.ui:6 src/ui/adw/customize.ui:11
+#: src/ui/adw/customize.ui:6 src/ui/adw/customize.ui:11
 msgid "Customize"
 msgstr "カスタマイズ"
 
-#: src/ui/customize.ui:75 src/ui/adw/customize.ui:23
-msgid "Workspace Background Corner Size"
-msgstr "ワークスペースの角のサイズ（丸さ）"
-
-#: src/ui/customize.ui:86 src/ui/adw/customize.ui:24
-msgid "Workspace background corner size in overview"
-msgstr "オーバービューに表示された、ワークスペースの壁紙の角のサイズ"
-
-#: src/ui/customize.ui:109 src/ui/customize.ui:452 src/ui/customize.ui:564
-#: src/ui/customize.ui:676 src/ui/customize.ui:789 src/ui/customize.ui:902
-#: src/ui/adw/customize.ui:320 src/ui/adw/customize.ui:388
-#: src/ui/adw/customize.ui:454 src/ui/adw/customize.ui:520
-#: src/ui/adw/customize.ui:587 src/ui/adw/customize.ui:654
-msgid "By Shell Theme"
-msgstr "Shell テーマ"
-
-#: src/ui/customize.ui:216 src/ui/adw/customize.ui:15
+#: src/ui/adw/customize.ui:15
 msgid "Overview Spacing Size"
 msgstr "オーバービューのスペースサイズ"
 
-#: src/ui/customize.ui:227 src/ui/adw/customize.ui:16
+#: src/ui/adw/customize.ui:16
 msgid "The spacing size for controls manager in overview"
 msgstr "オーバービューの操作コントロール（ボタンや検索欄）の間の空白サイズ"
 
-#: src/ui/customize.ui:250 src/ui/customize.ui:1194 src/ui/customize.ui:1335
-#: src/ui/customize.ui:1508 src/ui/customize.ui:1569 src/ui/customize.ui:1626
-#: src/ui/customize.ui:1683 src/ui/customize.ui:1740 src/ui/customize.ui:1801
-#: src/ui/profile.ui:57 src/ui/adw/customize.ui:164 src/ui/adw/customize.ui:762
-#: src/ui/adw/customize.ui:811 src/ui/adw/customize.ui:836
-#: src/ui/adw/customize.ui:851 src/ui/adw/customize.ui:862
-#: src/ui/adw/customize.ui:873 src/ui/adw/customize.ui:884
-#: src/ui/adw/customize.ui:899 src/ui/adw/profile.ui:63
-msgid "Default"
-msgstr "デフォルト"
+#: src/ui/adw/customize.ui:23
+msgid "Workspace Background Corner Size"
+msgstr "ワークスペースの角のサイズ（丸さ）"
 
-#: src/ui/customize.ui:440 src/ui/adw/customize.ui:31
+#: src/ui/adw/customize.ui:24
+msgid "Workspace background corner size in overview"
+msgstr "オーバービューに表示された、ワークスペースの壁紙の角のサイズ"
+
+#: src/ui/adw/customize.ui:31
 msgid "Panel Size"
 msgstr "パネルサイズ"
 
-#: src/ui/customize.ui:552 src/ui/adw/customize.ui:38
+#: src/ui/adw/customize.ui:38
 msgid "Panel Icon Size"
 msgstr "パネルアイコン"
 
-#: src/ui/customize.ui:664 src/ui/adw/customize.ui:45
+#: src/ui/adw/customize.ui:45
 msgid "Panel Button Padding Size"
 msgstr "パネルボタンのパディングサイズ"
 
-#: src/ui/customize.ui:777 src/ui/adw/customize.ui:52
+#: src/ui/adw/customize.ui:52
 msgid "Panel Indicator Padding Size"
 msgstr "パネルインジケーターのパディングサイズ"
 
-#: src/ui/customize.ui:890 src/ui/adw/customize.ui:59
-msgid "Panel Corner Size"
-msgstr "パネルの角の丸さ"
-
-#: src/ui/customize.ui:903 src/ui/adw/customize.ui:655
-msgid "No Corner"
-msgstr "丸くしない"
-
-#: src/ui/customize.ui:1003 src/ui/adw/customize.ui:66
+#: src/ui/adw/customize.ui:59
 msgid "Panel Position"
 msgstr "パネルの位置"
 
-#: src/ui/customize.ui:1015 src/ui/adw/customize.ui:721
-msgid "Top"
-msgstr "上"
-
-#: src/ui/customize.ui:1016 src/ui/adw/customize.ui:722
-msgid "Bottom"
-msgstr "下"
-
-#: src/ui/customize.ui:1056 src/ui/adw/customize.ui:73
+#: src/ui/adw/customize.ui:66
 msgid "Clock Menu Position"
 msgstr "時計メニューの位置"
 
-#: src/ui/customize.ui:1068 src/ui/customize.ui:1516
-#: src/ui/adw/customize.ui:728 src/ui/adw/customize.ui:844
-msgid "Center"
-msgstr "中央"
-
-#: src/ui/customize.ui:1069 src/ui/adw/customize.ui:729
-msgid "Right"
-msgstr "右"
-
-#: src/ui/customize.ui:1070 src/ui/adw/customize.ui:730
-msgid "Left"
-msgstr "左"
-
-#: src/ui/customize.ui:1110 src/ui/adw/customize.ui:80
+#: src/ui/adw/customize.ui:73
 msgid "Clock Menu Position Offset"
 msgstr "時計メニューのオフセット"
 
-#: src/ui/customize.ui:1182 src/ui/adw/customize.ui:87
+#: src/ui/adw/customize.ui:80
 msgid "Workspace Switcher Size"
 msgstr "ワークスペーススイッチャーのサイズ"
 
-#: src/ui/customize.ui:1264 src/ui/adw/customize.ui:94
+#: src/ui/adw/customize.ui:87
 msgid "Animation"
 msgstr "アニメーション"
 
-#: src/ui/customize.ui:1276 src/ui/adw/customize.ui:798
-msgid "No Animation"
-msgstr "アニメーションなし"
-
-#: src/ui/customize.ui:1277 src/ui/adw/customize.ui:799
-msgid "Default Speed"
-msgstr "デフォルトのスピード"
-
-#: src/ui/customize.ui:1278 src/ui/adw/customize.ui:800
-msgid "Fastest"
-msgstr "最高速度"
-
-#: src/ui/customize.ui:1279 src/ui/adw/customize.ui:801
-msgid "Faster"
-msgstr "高速"
-
-#: src/ui/customize.ui:1280 src/ui/adw/customize.ui:802
-msgid "Fast"
-msgstr "速い"
-
-#: src/ui/customize.ui:1281 src/ui/adw/customize.ui:803
-msgid "Slow"
-msgstr "遅い"
-
-#: src/ui/customize.ui:1282 src/ui/adw/customize.ui:804
-msgid "Slower"
-msgstr "とても遅い"
-
-#: src/ui/customize.ui:1283 src/ui/adw/customize.ui:805
-msgid "Slowest"
-msgstr "最低速度"
-
-#: src/ui/customize.ui:1323 src/ui/adw/customize.ui:101
+#: src/ui/adw/customize.ui:94
 msgid "Dash Icon Size"
 msgstr "Dash アイコンのサイズ"
 
-#: src/ui/customize.ui:1389 src/ui/adw/customize.ui:108
+#: src/ui/adw/customize.ui:101
 msgid "Notification Banner Position"
 msgstr "通知バナーの位置"
 
-#: src/ui/customize.ui:1400 src/ui/adw/customize.ui:109
+#: src/ui/adw/customize.ui:102
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "画面に通知が表示される時の通知ポップアップの位置"
 
-#: src/ui/customize.ui:1423 src/ui/customize.ui:1509
-#: src/ui/adw/customize.ui:825 src/ui/adw/customize.ui:837
-msgid "Top Start"
-msgstr "左上"
-
-#: src/ui/customize.ui:1424 src/ui/customize.ui:1510
-#: src/ui/adw/customize.ui:826 src/ui/adw/customize.ui:838
-msgid "Top Center"
-msgstr "上の中央"
-
-#: src/ui/customize.ui:1425 src/ui/customize.ui:1511
-#: src/ui/adw/customize.ui:827 src/ui/adw/customize.ui:839
-msgid "Top End"
-msgstr "右上"
-
-#: src/ui/customize.ui:1426 src/ui/customize.ui:1512
-#: src/ui/adw/customize.ui:828 src/ui/adw/customize.ui:840
-msgid "Bottom Start"
-msgstr "左下"
-
-#: src/ui/customize.ui:1427 src/ui/customize.ui:1513
-#: src/ui/adw/customize.ui:829 src/ui/adw/customize.ui:841
-msgid "Bottom Center"
-msgstr "下の中央"
-
-#: src/ui/customize.ui:1428 src/ui/customize.ui:1514
-#: src/ui/adw/customize.ui:830 src/ui/adw/customize.ui:842
-msgid "Bottom End"
-msgstr "右下"
-
-#: src/ui/customize.ui:1474 src/ui/adw/customize.ui:116
+#: src/ui/adw/customize.ui:109
 msgid "OSD Position"
 msgstr "OSDの位置"
 
-#: src/ui/customize.ui:1485 src/ui/adw/customize.ui:117
+#: src/ui/adw/customize.ui:110
 msgid "OSD position when on screen display shows up on the screen"
 msgstr "スクリーンディスプレイに表示されるOSDの位置"
 
-#: src/ui/customize.ui:1515 src/ui/adw/customize.ui:843
-msgid "Center Start"
-msgstr "中央の左"
-
-#: src/ui/customize.ui:1517 src/ui/adw/customize.ui:845
-msgid "Center End"
-msgstr "中央の右"
-
-#: src/ui/customize.ui:1557 src/ui/adw/customize.ui:124
+#: src/ui/adw/customize.ui:117
 msgid "Alt Tab Window Preview Size"
 msgstr "Alt Tab ショートカットのウィンドウプレビューサイズ"
 
-#: src/ui/customize.ui:1614 src/ui/adw/customize.ui:131
+#: src/ui/adw/customize.ui:124
 msgid "Alt Tab Window Preview Icon Size"
 msgstr "Alt Tab ショートカットのウィンドウプレビューのアイコンサイズ"
 
-#: src/ui/customize.ui:1671 src/ui/adw/customize.ui:138
+#: src/ui/adw/customize.ui:131
 msgid "Alt Tab Icon Size"
 msgstr "Alt Tab ショートカットのアイコンサイズ"
 
-#: src/ui/customize.ui:1728 src/ui/adw/customize.ui:145
+#: src/ui/adw/customize.ui:138
 msgid "Looking Glass Width"
 msgstr "Looking Glass の幅"
 
-#: src/ui/customize.ui:1789 src/ui/adw/customize.ui:152
+#: src/ui/adw/customize.ui:145
 msgid "Looking Glass Height"
 msgstr "Looking Glass の高さ"
 
-#: src/ui/icons.ui:19 src/ui/adw/icons.ui:6 src/ui/adw/icons.ui:11
+#: src/ui/adw/customize.ui:157 src/ui/adw/customize.ui:688
+#: src/ui/adw/customize.ui:738 src/ui/adw/customize.ui:763
+#: src/ui/adw/customize.ui:778 src/ui/adw/customize.ui:789
+#: src/ui/adw/customize.ui:800 src/ui/adw/customize.ui:811
+#: src/ui/adw/customize.ui:826 src/ui/adw/profile.ui:63
+msgid "Default"
+msgstr "デフォルト"
+
+#: src/ui/adw/customize.ui:313 src/ui/adw/customize.ui:381
+#: src/ui/adw/customize.ui:447 src/ui/adw/customize.ui:513
+#: src/ui/adw/customize.ui:580
+msgid "By Shell Theme"
+msgstr "Shell テーマ"
+
+#: src/ui/adw/customize.ui:647
+msgid "Top"
+msgstr "上"
+
+#: src/ui/adw/customize.ui:648
+msgid "Bottom"
+msgstr "下"
+
+#: src/ui/adw/customize.ui:654 src/ui/adw/customize.ui:771
+msgid "Center"
+msgstr "中央"
+
+#: src/ui/adw/customize.ui:655
+msgid "Right"
+msgstr "右"
+
+#: src/ui/adw/customize.ui:656
+msgid "Left"
+msgstr "左"
+
+#: src/ui/adw/customize.ui:724
+msgid "No Animation"
+msgstr "アニメーションなし"
+
+#: src/ui/adw/customize.ui:725
+msgid "Default Speed"
+msgstr "デフォルトのスピード"
+
+#: src/ui/adw/customize.ui:726
+msgid "Almost None"
+msgstr ""
+
+#: src/ui/adw/customize.ui:727
+msgid "Fastest"
+msgstr "最高速度"
+
+#: src/ui/adw/customize.ui:728
+msgid "Faster"
+msgstr "高速"
+
+#: src/ui/adw/customize.ui:729
+msgid "Fast"
+msgstr "速い"
+
+#: src/ui/adw/customize.ui:730
+msgid "Slow"
+msgstr "遅い"
+
+#: src/ui/adw/customize.ui:731
+msgid "Slower"
+msgstr "とても遅い"
+
+#: src/ui/adw/customize.ui:732
+msgid "Slowest"
+msgstr "最低速度"
+
+#: src/ui/adw/customize.ui:752 src/ui/adw/customize.ui:764
+msgid "Top Start"
+msgstr "左上"
+
+#: src/ui/adw/customize.ui:753 src/ui/adw/customize.ui:765
+msgid "Top Center"
+msgstr "上の中央"
+
+#: src/ui/adw/customize.ui:754 src/ui/adw/customize.ui:766
+msgid "Top End"
+msgstr "右上"
+
+#: src/ui/adw/customize.ui:755 src/ui/adw/customize.ui:767
+msgid "Bottom Start"
+msgstr "左下"
+
+#: src/ui/adw/customize.ui:756 src/ui/adw/customize.ui:768
+msgid "Bottom Center"
+msgstr "下の中央"
+
+#: src/ui/adw/customize.ui:757 src/ui/adw/customize.ui:769
+msgid "Bottom End"
+msgstr "右下"
+
+#: src/ui/adw/customize.ui:770
+msgid "Center Start"
+msgstr "中央の左"
+
+#: src/ui/adw/customize.ui:772
+msgid "Center End"
+msgstr "中央の右"
+
+#: src/ui/adw/icons.ui:6 src/ui/adw/icons.ui:11
 msgid "Icons"
 msgstr "アイコン"
 
-#: src/ui/icons.ui:70 src/ui/adw/icons.ui:15
-msgid "App Menu Icon"
-msgstr "アプリケーションメニューのアイコン"
-
-#: src/ui/icons.ui:119 src/ui/adw/icons.ui:27
+#: src/ui/adw/icons.ui:15
 msgid "Panel Notification Icon"
 msgstr "パネル通知アイコン"
 
-#: src/ui/icons.ui:168 src/ui/adw/icons.ui:39
+#: src/ui/adw/icons.ui:27
 msgid "Power Icon"
 msgstr "電源アイコン"
 
-#: src/ui/icons.ui:217 src/ui/adw/icons.ui:51
-msgid "Panel Arrow"
-msgstr "パネルの矢印"
-
-#: src/ui/icons.ui:272 src/ui/adw/icons.ui:63
+#: src/ui/adw/icons.ui:39
 msgid "Window Picker Icon"
 msgstr "ウィンドウ選択に表示されるアイコン"
 
-#: src/ui/icons.ui:283 src/ui/adw/icons.ui:64 src/ui/adw/icons.ui:77
+#: src/ui/adw/icons.ui:40
 msgid "The icon under window preview in overview"
 msgstr "オーバービュー内でウィンドウプレビューの下に表示されるアイコン"
 
-#: src/ui/icons.ui:343 src/ui/adw/icons.ui:76
-msgid "Activities Button Icon"
-msgstr "アクティビティボタンのアイコン"
-
-#: src/ui/icons.ui:442 src/ui/adw/icons.ui:141
-msgid "Activities Button Icon in Monochrome"
-msgstr "アクティビティボタンのアイコンをモノクロにする"
-
-#: src/ui/icons.ui:497 src/ui/adw/icons.ui:153
-msgid "Activities Button Icon With Label"
-msgstr "アクティビティボタンに文字を表示"
-
-#: src/ui/icons.ui:508 src/ui/adw/icons.ui:154
-msgid "Only works when you have selected an icon for activities button"
-msgstr "アクティビティボタンのアイコンを選択した場合のみ設定は有効になります"
-
-#: src/ui/main.ui:10 src/ui/adw/profile.ui:134
-msgid "Bug Report"
-msgstr "バグを報告"
-
-#: src/ui/main.ui:14 src/ui/adw/profile.ui:146
-msgid "Support via Patreon"
-msgstr "Patreon で支援"
-
-#: src/ui/main.ui:78 src/ui/adw/profile.ui:17
+#: src/ui/adw/profile.ui:17
 msgid "Select File"
 msgstr "ファイルを選択"
 
-#: src/ui/no-results-found.ui:25
-msgid "No Matches"
-msgstr "見つかりませんでした"
-
-#: src/ui/override.ui:19 src/ui/adw/profile.ui:110
-msgid "Override"
-msgstr "上書き"
-
-#: src/ui/override.ui:78 src/ui/adw/profile.ui:114
-msgid "Shell Theme"
-msgstr "Shellテーマ"
-
-#: src/ui/override.ui:89 src/ui/adw/profile.ui:115
-msgid "Overrides the shell theme partially to create a minimal desktop"
-msgstr "ミニマルデスクトップを適用するためにShell テーマを上書きします"
-
-#: src/ui/profile.ui:21 src/ui/adw/profile.ui:26 src/ui/adw/profile.ui:31
+#: src/ui/adw/profile.ui:26 src/ui/adw/profile.ui:31
 msgid "Profile"
 msgstr "プロファイル"
 
-#: src/ui/profile.ui:34 src/ui/adw/profile.ui:38
+#: src/ui/adw/profile.ui:38
 msgid ""
 "You can choose between pre-defined profiles or you can simply use your own "
 "customized settings"
 msgstr ""
 "用意されたプロファイルを使えますし、カスタマイズした設定を使うこともできます"
 
-#: src/ui/profile.ui:67 src/ui/adw/profile.ui:73
+#: src/ui/adw/profile.ui:73
 msgid "Custom"
 msgstr "カスタム"
 
-#: src/ui/profile.ui:77 src/ui/adw/profile.ui:83
+#: src/ui/adw/profile.ui:83
 msgid "Minimal"
 msgstr "ミニマル"
 
-#: src/ui/profile.ui:87 src/ui/adw/profile.ui:93
+#: src/ui/adw/profile.ui:93
 msgid "Super Minimal"
 msgstr "超ミニマル"
 
-#: src/ui/visibility.ui:19 src/ui/adw/visibility.ui:6
-#: src/ui/adw/visibility.ui:11
+#: src/ui/adw/profile.ui:110
+msgid "Override"
+msgstr "上書き"
+
+#: src/ui/adw/profile.ui:114
+msgid "Shell Theme"
+msgstr "Shellテーマ"
+
+#: src/ui/adw/profile.ui:115
+msgid "Overrides the shell theme partially to create a minimal desktop"
+msgstr "ミニマルデスクトップを適用するためにShell テーマを上書きします"
+
+#: src/ui/adw/profile.ui:130
+msgid "Links"
+msgstr "リンク"
+
+#: src/ui/adw/profile.ui:134
+msgid "Bug Report"
+msgstr "バグを報告"
+
+#: src/ui/adw/profile.ui:146
+msgid "Support via Patreon"
+msgstr "Patreon で支援"
+
+#: src/ui/adw/visibility.ui:6 src/ui/adw/visibility.ui:11
 msgid "Visibility"
 msgstr "視覚"
 
-#: src/ui/visibility.ui:70 src/ui/adw/visibility.ui:15
+#: src/ui/adw/visibility.ui:15
 msgid "Panel"
 msgstr "パネル"
 
-#: src/ui/visibility.ui:120 src/ui/adw/visibility.ui:27
+#: src/ui/adw/visibility.ui:27
 msgid "Panel in Overview"
 msgstr "オーバービュー時のパネル"
 
-#: src/ui/visibility.ui:176 src/ui/adw/visibility.ui:40
+#: src/ui/adw/visibility.ui:40
 msgid "Activities Button"
 msgstr "アクティビティボタン"
 
-#: src/ui/visibility.ui:187 src/ui/adw/visibility.ui:41
+#: src/ui/adw/visibility.ui:41
 msgid "Button in panel to toggle overview visibility"
 msgstr "オーバービュー切り替えボタンの表示を切り替えます"
 
-#: src/ui/visibility.ui:253 src/ui/adw/visibility.ui:53
-msgid "App Menu"
-msgstr "アプリケーションメニュー"
-
-#: src/ui/visibility.ui:264 src/ui/adw/visibility.ui:54
-msgid "The menu button in panel with focused window text"
-msgstr "ウィンドウにフォーカスした時にパネルに表示されるメニューボタン"
-
-#: src/ui/visibility.ui:330 src/ui/adw/visibility.ui:66
-msgid "App Menu Label"
-msgstr "アプリケーションメニューのラベル"
-
-#: src/ui/visibility.ui:341 src/ui/adw/visibility.ui:67
-msgid "The text label in app menu button"
-msgstr "アプリケーションメニューボタンの文字ラベル"
-
-#: src/ui/visibility.ui:407 src/ui/adw/visibility.ui:79
+#: src/ui/adw/visibility.ui:53
 msgid "Clock Menu"
 msgstr "時計メニュー"
 
-#: src/ui/visibility.ui:418 src/ui/adw/visibility.ui:80
+#: src/ui/adw/visibility.ui:54
 msgid "Also known as date menu shows date and time in panel"
 msgstr "日付と時間を表示するパネルのメニューでもあります"
 
-#: src/ui/visibility.ui:484 src/ui/adw/visibility.ui:92
+#: src/ui/adw/visibility.ui:66
 msgid "Keyboard Layout"
 msgstr "キーボードレイアウト"
 
-#: src/ui/visibility.ui:495 src/ui/adw/visibility.ui:93
+#: src/ui/adw/visibility.ui:67
 msgid "Keyboard Layout indicator button in panel"
 msgstr "パネルにあるキーボードレイアウトインジケーターボタン"
 
-#: src/ui/visibility.ui:561 src/ui/adw/visibility.ui:105
+#: src/ui/adw/visibility.ui:79
 msgid "Accessibility Menu"
 msgstr "アクセシビリティメニュー"
 
-#: src/ui/visibility.ui:572 src/ui/adw/visibility.ui:106
+#: src/ui/adw/visibility.ui:80
 msgid "Accessibility Menu indicator button in panel"
 msgstr "パネルにあるアクセシビリティメニューインジケーターのボタン"
 
-#: src/ui/visibility.ui:638 src/ui/adw/visibility.ui:118
-msgid "System Menu (Aggregate Menu)"
-msgstr "システムメニュー"
-
-#: src/ui/visibility.ui:649 src/ui/adw/visibility.ui:119
-msgid "System menu holds power, volume and network icons in panel"
-msgstr ""
-"パネルにある電源、ボリューム、ネットワークアイコンが固まっているシステムメ"
-"ニュー"
-
-#: src/ui/visibility.ui:715 src/ui/adw/visibility.ui:131
+#: src/ui/adw/visibility.ui:92
 msgid "Quick Settings"
 msgstr "クイックセッティング"
 
-#: src/ui/visibility.ui:726 src/ui/adw/visibility.ui:132
+#: src/ui/adw/visibility.ui:93
 msgid "Quick settings menu in panel"
 msgstr "パネルにあるクイックセッティングメニュー"
 
-#: src/ui/visibility.ui:792 src/ui/adw/visibility.ui:144
+#: src/ui/adw/visibility.ui:105
 msgid "Screen Sharing Indicator"
 msgstr "スクリーン共有インジケーター"
 
-#: src/ui/visibility.ui:803 src/ui/adw/visibility.ui:145
+#: src/ui/adw/visibility.ui:106
 msgid "Screen sharing indicator in panel"
 msgstr "パネルにあるスクリーン共有インジケーター"
 
-#: src/ui/visibility.ui:869 src/ui/adw/visibility.ui:157
+#: src/ui/adw/visibility.ui:118
 msgid "Screen Recording Indicator"
 msgstr "スクリーン録画インジケーター"
 
-#: src/ui/visibility.ui:880 src/ui/adw/visibility.ui:158
+#: src/ui/adw/visibility.ui:119
 msgid "Screen recording indicator in panel"
 msgstr "パネルにあるスクリーン録画インジケーター"
 
-#: src/ui/visibility.ui:946 src/ui/adw/visibility.ui:170
+#: src/ui/adw/visibility.ui:131
 msgid "World Clock"
 msgstr "世界時計"
 
-#: src/ui/visibility.ui:957 src/ui/adw/visibility.ui:171
+#: src/ui/adw/visibility.ui:132
 msgid "World clock in clock menu"
 msgstr "時計メニューにある世界時計"
 
-#: src/ui/visibility.ui:1023 src/ui/adw/visibility.ui:183
+#: src/ui/adw/visibility.ui:144
 msgid "Weather"
 msgstr "天気"
 
-#: src/ui/visibility.ui:1034 src/ui/adw/visibility.ui:184
+#: src/ui/adw/visibility.ui:145
 msgid "Weather in clock menu"
 msgstr "時計メニューにある天気"
 
-#: src/ui/visibility.ui:1100 src/ui/adw/visibility.ui:196
+#: src/ui/adw/visibility.ui:157
 msgid "Calendar"
 msgstr "カレンダー"
 
-#: src/ui/visibility.ui:1111 src/ui/adw/visibility.ui:197
+#: src/ui/adw/visibility.ui:158
 msgid "Calendar in clock menu"
 msgstr "時計メニューにあるカレンダー"
 
-#: src/ui/visibility.ui:1177 src/ui/adw/visibility.ui:209
+#: src/ui/adw/visibility.ui:170
 msgid "Events"
 msgstr "イベント"
 
-#: src/ui/visibility.ui:1188 src/ui/adw/visibility.ui:210
+#: src/ui/adw/visibility.ui:171
 msgid "Events button in clock menu"
 msgstr "時計メニューにあるイベントボタン"
 
-#: src/ui/visibility.ui:1254 src/ui/adw/visibility.ui:222
+#: src/ui/adw/visibility.ui:183
 msgid "Search"
 msgstr "検索"
 
-#: src/ui/visibility.ui:1265 src/ui/adw/visibility.ui:223
+#: src/ui/adw/visibility.ui:184
 msgid "Search entry in overview"
 msgstr "オーバービュー内にある検索欄"
 
-#: src/ui/visibility.ui:1331 src/ui/adw/visibility.ui:235
+#: src/ui/adw/visibility.ui:196
 msgid "Dash"
 msgstr "Dash"
 
-#: src/ui/visibility.ui:1342 src/ui/adw/visibility.ui:236
+#: src/ui/adw/visibility.ui:197
 msgid "Dash holds favorite and opened applications icons"
 msgstr "お気に入りや開いているアプリ表示するDash"
 
-#: src/ui/visibility.ui:1409 src/ui/adw/visibility.ui:248
+#: src/ui/adw/visibility.ui:209
 msgid "Dash Separator"
 msgstr "Dash のセパレーター"
 
-#: src/ui/visibility.ui:1420 src/ui/adw/visibility.ui:249
+#: src/ui/adw/visibility.ui:210
 msgid "Dash separator line that separates pin apps from unpin apps"
 msgstr ""
 "ピン留めされているアプリとピン留めされていないアプリを分けるDashのセパレー"
 "ター"
 
-#: src/ui/visibility.ui:1486 src/ui/adw/visibility.ui:261
+#: src/ui/adw/visibility.ui:222
+msgid "Dash App Running Indicator"
+msgstr ""
+
+#: src/ui/adw/visibility.ui:223
+msgid "The dot indicator in dash that shows the app is running"
+msgstr ""
+
+#: src/ui/adw/visibility.ui:235
 msgid "Show Applications Button"
 msgstr "アプリケーションを表示ボタン"
 
-#: src/ui/visibility.ui:1497 src/ui/adw/visibility.ui:262
+#: src/ui/adw/visibility.ui:236
 msgid "Button in dash that toggles applications list visibility"
 msgstr "Dashにあるアプリケーションリストを表示するボタン"
 
-#: src/ui/visibility.ui:1563 src/ui/adw/visibility.ui:274
+#: src/ui/adw/visibility.ui:248
 msgid "On Screen Display (OSD)"
 msgstr "On Screen Display (OSD)"
 
-#: src/ui/visibility.ui:1574 src/ui/adw/visibility.ui:275
+#: src/ui/adw/visibility.ui:249
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "音量や明るさを変更した時にスクリーンディスプレイに表示"
 
-#: src/ui/visibility.ui:1640 src/ui/adw/visibility.ui:287
+#: src/ui/adw/visibility.ui:261
 msgid "Workspace Popup"
 msgstr "ワークスペースポップアップ"
 
-#: src/ui/visibility.ui:1651 src/ui/adw/visibility.ui:288
+#: src/ui/adw/visibility.ui:262
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr "ワークスペースを切り替えた時にスクリーン上に表示されるポップアップ"
 
-#: src/ui/visibility.ui:1717 src/ui/adw/visibility.ui:300
+#: src/ui/adw/visibility.ui:274
 msgid "Workspace Switcher"
 msgstr "ワークスペーススイッチャー"
 
-#: src/ui/visibility.ui:1728 src/ui/adw/visibility.ui:301
+#: src/ui/adw/visibility.ui:275
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
@@ -608,55 +559,105 @@ msgstr ""
 "オーバービュー内に表示される、ワークスペースを選択できるワークスペースのサム"
 "ネイルボタンを指します"
 
-#: src/ui/visibility.ui:1794 src/ui/adw/visibility.ui:313
+#: src/ui/adw/visibility.ui:287
 msgid "Workspaces App Grid"
 msgstr "アプリグリッド内のワークスペース表示"
 
-#: src/ui/visibility.ui:1805 src/ui/adw/visibility.ui:314
+#: src/ui/adw/visibility.ui:288
 msgid "Workspace boxes in app grid"
 msgstr "アプリグリッド内に表示されるワークスペースボックス"
 
-#: src/ui/visibility.ui:1871 src/ui/adw/visibility.ui:326
+#: src/ui/adw/visibility.ui:300
 msgid "Window Picker Close Button"
 msgstr "ウィンドウ選択の“閉じる”ボタン"
 
-#: src/ui/visibility.ui:1882 src/ui/adw/visibility.ui:327
+#: src/ui/adw/visibility.ui:301
 msgid "The close button on window preview in overview"
 msgstr "オーバービュー内のウィンドウプレビューのウィンドウを閉じるボタン"
 
-#: src/ui/visibility.ui:1948 src/ui/adw/visibility.ui:339
+#: src/ui/adw/visibility.ui:313
 msgid "Window Picker Caption"
 msgstr "ウィンドウ選択時に表示されるウィンドウタイトル"
 
-#: src/ui/visibility.ui:1959 src/ui/adw/visibility.ui:340
+#: src/ui/adw/visibility.ui:314
 msgid "The text under window preview in overview"
 msgstr "オーバービュー内のウィンドウプレビューの下に表示されるテキスト"
 
-#: src/ui/visibility.ui:2025 src/ui/adw/visibility.ui:352
+#: src/ui/adw/visibility.ui:326
 msgid "Background Menu"
 msgstr "バックグラウンド（背景）のメニュー"
 
-#: src/ui/visibility.ui:2036 src/ui/adw/visibility.ui:353
+#: src/ui/adw/visibility.ui:327
 msgid "When you right click on desktop background"
 msgstr "デスクトップ背景を右クリックすると表示されるメニュー"
 
-#: src/ui/visibility.ui:2102 src/ui/adw/visibility.ui:365
+#: src/ui/adw/visibility.ui:339
 msgid "Ripple Box"
 msgstr "波紋ボックス"
 
-#: src/ui/visibility.ui:2113 src/ui/adw/visibility.ui:366
+#: src/ui/adw/visibility.ui:340
 msgid "Hot corner animation effects"
 msgstr "ホットコーナーのアニメーションエフェクト"
 
-#: src/ui/visibility.ui:2179 src/ui/adw/visibility.ui:378
+#: src/ui/adw/visibility.ui:352
 msgid "Take Screenshot button in Window Menu"
 msgstr "ウィンドウメニューの“スクリーンショットを撮る”ボタン"
 
-#: src/ui/visibility.ui:2190 src/ui/adw/visibility.ui:379
+#: src/ui/adw/visibility.ui:353
 msgid "Take screenshot button in title bar right click menu"
 msgstr ""
 "タイトルバーを右クリックして表示されるメニューのスクリーンショット撮影ボタン"
 
-#: src/ui/adw/profile.ui:130
-msgid "Links"
-msgstr "リンク"
+#~ msgid "Hot Corner"
+#~ msgstr "ホットコーナー"
+
+#~ msgid "App Gesture"
+#~ msgstr "アプリジェスチャー"
+
+#~ msgid "Panel Corner Size"
+#~ msgstr "パネルの角の丸さ"
+
+#~ msgid "No Corner"
+#~ msgstr "丸くしない"
+
+#~ msgid "App Menu Icon"
+#~ msgstr "アプリケーションメニューのアイコン"
+
+#~ msgid "Panel Arrow"
+#~ msgstr "パネルの矢印"
+
+#~ msgid "Activities Button Icon"
+#~ msgstr "アクティビティボタンのアイコン"
+
+#~ msgid "Activities Button Icon in Monochrome"
+#~ msgstr "アクティビティボタンのアイコンをモノクロにする"
+
+#~ msgid "Activities Button Icon With Label"
+#~ msgstr "アクティビティボタンに文字を表示"
+
+#~ msgid "Only works when you have selected an icon for activities button"
+#~ msgstr ""
+#~ "アクティビティボタンのアイコンを選択した場合のみ設定は有効になります"
+
+#~ msgid "No Matches"
+#~ msgstr "見つかりませんでした"
+
+#~ msgid "App Menu"
+#~ msgstr "アプリケーションメニュー"
+
+#~ msgid "The menu button in panel with focused window text"
+#~ msgstr "ウィンドウにフォーカスした時にパネルに表示されるメニューボタン"
+
+#~ msgid "App Menu Label"
+#~ msgstr "アプリケーションメニューのラベル"
+
+#~ msgid "The text label in app menu button"
+#~ msgstr "アプリケーションメニューボタンの文字ラベル"
+
+#~ msgid "System Menu (Aggregate Menu)"
+#~ msgstr "システムメニュー"
+
+#~ msgid "System menu holds power, volume and network icons in panel"
+#~ msgstr ""
+#~ "パネルにある電源、ボリューム、ネットワークアイコンが固まっているシステムメ"
+#~ "ニュー"
