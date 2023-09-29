@@ -20,8 +20,6 @@
 
 - Class constructor shouldn't do much. It is preferred to only use dependency injection if it is necessary.
 
-- All image files should be inside *bin* folder.
-
 - SVG and Image files should be released under GPLv3 license.
 
 - Overriding GNOME Shell theme is accepted and your style should be applied when the parent has *just-perfection* class in it (or starts with *just-perfection-*). But avoid styling top panel.
