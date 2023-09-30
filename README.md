@@ -77,16 +77,16 @@ This extension allows you to do the following:
 
 ## GNOME Shell Support
 
-| GNOME Shell Version | End Of Support | Active             |
-| ------------------- | -------------- | ------------------ |
-| 45                  | TBA            |                    |
-| 44                  | July 2024      | No New Features    |
-| 43                  | July 2023      |                    |
-| 42                  | July 2026      | No New Features    |
-| 41                  | May 2022       |                    |
-| 40                  | December 2021  |                    |
-| 3.38                | July 2025      | No New Features    |
-| 3.36                | July 2025      | No New Features    |
+| GNOME Shell Version | End Of Support | Status             | Last Version  |
+| ------------------- | -------------- | ------------------ | ------------- |
+| 45                  | TBA            | Supported          | 27            |
+| 44                  | July 2024      | No New Features    | 26            |
+| 43                  | July 2023      | EOS                | 26            |
+| 42                  | July 2026      | No New Features    | 26            |
+| 41                  | May 2022       | EOS                | 24            |
+| 40                  | December 2021  | EOS                | 24            |
+| 3.38                | July 2025      | No New Features    | 24            |
+| 3.36                | July 2025      | No New Features    | 24            |
 
 ## Install
 
