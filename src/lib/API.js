@@ -604,12 +604,11 @@ export class API
      */
     backgroundMenuEnable()
     {
-        if (!this.#originals['backgroundMenu']) {
+        if (!this.#originals['backgroundMenuOpen']) {
             return;
         }
 
-        this._backgroundMenu.BackgroundMenu.prototype.open
-        = this.#originals['backgroundMenu'];
+        this._backgroundMenu.BackgroundMenu.prototype.open = this.#originals['backgroundMenuOpen'];
     }
 
     /**
@@ -619,12 +618,13 @@ export class API
      */
     backgroundMenuDisable()
     {
-        if (!this.#originals['backgroundMenu']) {
-            this.#originals['backgroundMenu']
-            = this._backgroundMenu.BackgroundMenu.prototype.open;
+        let backgroundMenuProto = this._backgroundMenu.BackgroundMenu.prototype;
+
+        if (!this.#originals['backgroundMenuOpen']) {
+            this.#originals['backgroundMenuOpen'] = backgroundMenuProto.open;
         }
 
-        this._backgroundMenu.BackgroundMenu.prototype.open = () => {};
+        backgroundMenuProto.open = () => {};
     }
 
     /**
