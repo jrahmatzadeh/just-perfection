@@ -7,6 +7,13 @@ We go to the next version after each release on
 
 ## [Unreleased]
 
+### Removed
+
+- Window Picker Shell Theme Override.
+- Search Shell Theme Override.
+- Workspace Animation Shell Theme Override.
+- Dash Background Shell Theme Override.
+
 ## [27.0.0 Durer] - 2023-09-14
 
 ### Changed
