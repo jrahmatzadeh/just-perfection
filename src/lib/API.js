@@ -2456,6 +2456,11 @@ export class API
         clocksItem._sync = this.#originals['clocksItemSync'];
         delete(this.#originals['clocksItemSync']);
 
+        if (this._clocksItemShowSignal) {
+            clocksItem.disconnect(this._clocksItemShowSignal);
+            delete(this._clocksItemShowSignal);
+        }
+
         clocksItem._sync();
     }
 
@@ -2475,6 +2480,12 @@ export class API
         clocksItem._sync = function () {
             this.visible = false;
         };
+
+        if (!this._clocksItemShowSignal) {
+            this._clocksItemShowSignal = clocksItem.connect('show', () => {
+                clocksItem._sync();
+            });
+        }
 
         clocksItem._sync();
     }

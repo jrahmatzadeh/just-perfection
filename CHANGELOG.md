@@ -7,6 +7,10 @@ We go to the next version after each release on
 
 ## [Unreleased]
 
+### Fixed
+
+- The world clocks visibility coming back after reboot or install change.
+
 ### Removed
 
 - Window Picker Shell Theme Override.
