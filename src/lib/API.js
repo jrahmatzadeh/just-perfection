@@ -1532,6 +1532,45 @@ export class API
     }
 
     /**
+     * enable maximizing windows on creation
+     *
+     * @returns {void}
+     */
+    windowMaximizedOnCreateEnable()
+    {
+        if (this._displayWindowCreatedSignal) {
+            return;
+        }
+
+        let display = global.display;
+
+        let createdFunction = (display, window) => {
+            if (window.can_maximize()) {
+                window.maximize(this._meta.MaximizeFlags.HORIZONTAL | this._meta.MaximizeFlags.VERTICAL);
+            }
+        };
+
+        this._displayWindowCreatedSignal = display.connect('window-created', createdFunction);
+    }
+
+    /**
+     * disable maximizing windows on creation
+     *
+     * @returns {void}
+     */
+    windowMaximizedOnCreateDisable()
+    {
+        if (!this._displayWindowCreatedSignal) {
+            return;
+        }
+
+        let display = global.display;
+
+        display.disconnect(this._displayWindowCreatedSignal);
+        delete(this._displayWindowCreatedSignal);
+    }
+
+    /**
      * set startup status
      *
      * @param {number} status see SHELL_STATUS for available status

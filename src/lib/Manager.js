@@ -155,6 +155,10 @@ export class Manager
             this.#applyWindowDemandsAttentionFocus(false);
         });
 
+        this.#settings.connect('changed::window-maximized-on-create', () => {
+            this.#applyWindowMaximizedOnCreate(false);
+        });
+
         this.#settings.connect('changed::dash-icon-size', () => {
             this.#applyDashIconSize(false);
         });
@@ -322,6 +326,7 @@ export class Manager
         this.#applyShowAppsButton(false);
         this.#applyAnimation(false);
         this.#applyWindowDemandsAttentionFocus(false);
+        this.#applyWindowMaximizedOnCreate(false);
         this.#applyDashIconSize(false);
         this.#applyStartupStatus(false);
         this.#applyWorkspacesInAppGrid(false);
@@ -386,6 +391,7 @@ export class Manager
         this.#applyShowAppsButton(true);
         this.#applyAnimation(true);
         this.#applyWindowDemandsAttentionFocus(true);
+        this.#applyWindowMaximizedOnCreate(true);
         this.#applyDashIconSize(true);
         this.#applyStartupStatus(true);
         this.#applyWorkspacesInAppGrid(true);
@@ -820,6 +826,24 @@ export class Manager
             this.#api.windowDemandsAttentionFocusDisable();
         } else {
             this.#api.windowDemandsAttentionFocusEnable();
+        }
+    }
+
+    /**
+     * apply window maximized on create settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    #applyWindowMaximizedOnCreate(forceOriginal)
+    {
+        let maximize = this.#settings.get_boolean('window-maximized-on-create');
+
+        if (forceOriginal || !maximize) {
+            this.#api.windowMaximizedOnCreateDisable();
+        } else {
+            this.#api.windowMaximizedOnCreateEnable();
         }
     }
 
