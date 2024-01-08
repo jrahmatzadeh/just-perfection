@@ -430,6 +430,18 @@ export class PrefsKeys
 
         this.#setKey(
             'behavior',
+            'window-maximized-on-create',
+            'GtkSwitch',
+            true,
+            {
+                default: false,
+                minimal: false,
+                superminimal: false,
+            }
+        );
+
+        this.#setKey(
+            'behavior',
             'workspace-switcher-should-show',
             'GtkSwitch',
             true,

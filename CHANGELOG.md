@@ -7,6 +7,10 @@ We go to the next version after each release on the
 
 ## [Unreleased]
 
+### Added
+
+- Option to maximize windows on creation by [@droserasprout](https://gitlab.gnome.org/droserasprout).
+
 ### Fixed
 
 - The world clock visibility coming back after reboot or install change.
