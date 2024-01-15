@@ -2,7 +2,7 @@
  * Manager Library
  *
  * @author     Javad Rahmatzadeh <j.rahmatzadeh@gmail.com>
- * @copyright  2020-2023
+ * @copyright  2020-2024
  * @license    GPL-3.0-only
  */
 
