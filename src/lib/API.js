@@ -1359,7 +1359,7 @@ export class API
             return;
         }
 
-        panelBoxes[fromPos].remove_actor(dateMenu.container);
+        panelBoxes[fromPos].remove_child(dateMenu.container);
         panelBoxes[pos].insert_child_at_index(dateMenu.container, toIndex);
 
         if (this.isLocked()) {
