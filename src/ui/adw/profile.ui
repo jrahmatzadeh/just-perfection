@@ -133,6 +133,18 @@
           </object>
         </child>
         
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Support via Buy Me a Coffee</property>
+            <property name="activatable-widget">buymeacoffee_linkbutton</property>
+            <child>
+              <object class="GtkLinkButton" id="buymeacoffee_linkbutton">
+                <property name="uri">https://www.buymeacoffee.com/justperfection</property>
+              </object>
+            </child>
+          </object>
+        </child>"
+        
       </object>
     </child>
     

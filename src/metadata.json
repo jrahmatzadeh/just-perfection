@@ -7,7 +7,8 @@
     "url": "https://gitlab.gnome.org/jrahmatzadeh/just-perfection",
     "uuid": "just-perfection-desktop@just-perfection",
     "donations": {
-        "patreon": "justperfection"
+        "patreon": "justperfection",
+        "buymeacoffee": "justperfection"
     },
     "version": 27
 }

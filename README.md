@@ -118,9 +118,11 @@ You can support my work by sending me some crypto:
 - **Tether** 0xE4A6C46E1095C49688645c132672cB04d1402026
 - **DOGE** DULPjoiDuhZCmv5LDeJuqYPC8Uy7NK7DnW
 
-Or support via [Patreon](https://www.patreon.com/justperfection).
+Or support via:
 
 [![Support via Patreon](data/imgs/support-patreon.svg)](https://www.patreon.com/justperfection)
+
+[![Support via Buy Me a Coffee](data/imgs/support-buymeacoffee.svg)](https://www.buymeacoffee.com/justperfection)
 
 ## Awards
 

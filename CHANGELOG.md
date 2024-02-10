@@ -9,6 +9,7 @@ We go to the next version after each release on the
 
 ### Added
 
+- Buy Me a Coffee donation link.
 - GNOME Shell 46 Support.
 - Option to maximize windows on creation by [@droserasprout](https://gitlab.gnome.org/droserasprout).
 
