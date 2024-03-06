@@ -7,6 +7,8 @@ We go to the next version after each release on the
 
 ## [Unreleased]
 
+## [28.0.0 Lear] - 2024-03-06
+
 ### Added
 
 - Buy Me a Coffee donation link.
