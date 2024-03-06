@@ -1370,7 +1370,7 @@ export class API
             this._clockMenuPositionSignals = [null, null, null];
             for (let i = 0; i <= 2; i++) {
                 this._clockMenuPositionSignals[i] = panelBoxes[i].connect(
-                    'actor-added',
+                    (this.#shellVersion >= 46) ? 'child-added' : 'actor-added',
                     () => {
                         this.clockMenuPositionSet(pos, offset);
                     }
