@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-28 23:10-0700\n"
+"POT-Creation-Date: 2024-03-15 23:18-0700\n"
 "PO-Revision-Date: 2020-12-18 04:15-0800\n"
 "Last-Translator: Kareem Abduljaleel <karemjaleel34@gmail.com>\n"
 "Language-Team: Arabic\n"
@@ -34,13 +34,12 @@ msgstr ""
 "ومساحة العمل السابقة ستكون آخر مساحة عمل عندما تكون في مساحة العمل الأولى."
 
 #: src/ui/adw/behavior.ui:28
-#, fuzzy
 msgid "Workspace Peek"
-msgstr "مساحة العمل المنبثقة"
+msgstr "نظرة خاطفة على مساحة العمل"
 
 #: src/ui/adw/behavior.ui:29
 msgid "Whether the next and previous workspace should be visible in overview."
-msgstr ""
+msgstr "ما إذا كان ينبغي أن تكون مساحة العمل التالية والسابقة مرئية في النظرة العامة."
 
 #: src/ui/adw/behavior.ui:41
 msgid "Window Demands Attention Focus"
@@ -51,19 +50,27 @@ msgid "Removes window is ready notification and focus on the window"
 msgstr "يزيل نافذة إشعار جاهز والتركيز على النافذة"
 
 #: src/ui/adw/behavior.ui:54
+msgid "Window Maximized by Default"
+msgstr "تم تكبير النافذة بشكل افتراضي"
+
+#: src/ui/adw/behavior.ui:55
+msgid "Maximize all windows on creation"
+msgstr "تكبير جميع النوافذ عند الإنشاء"
+
+#: src/ui/adw/behavior.ui:67
 msgid "Type to Search"
 msgstr "اكتب للبحث"
 
-#: src/ui/adw/behavior.ui:55
+#: src/ui/adw/behavior.ui:68
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr "يمكنك بدء البحث بدون إدخال بحث أو حتى التركيز عليه في نظرة عامة"
 
-#: src/ui/adw/behavior.ui:67
+#: src/ui/adw/behavior.ui:80
 msgid "Always Show Workspace Switcher"
 msgstr "إظهار أداة تبديل مساحة العمل دائمًا"
 
-#: src/ui/adw/behavior.ui:68
+#: src/ui/adw/behavior.ui:81
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
@@ -71,28 +78,27 @@ msgstr ""
 "يعرض مبدل مساحة العمل حتى عند استخدام مساحة عمل واحدة فقط مع مساحات العمل "
 "الديناميكية"
 
-#: src/ui/adw/behavior.ui:80
-msgid "Overlay Key"
-msgstr ""
-
-#: src/ui/adw/behavior.ui:81
-msgid "Disable overlay key (super key)"
-msgstr ""
-
 #: src/ui/adw/behavior.ui:93
+msgid "Overlay Key"
+msgstr "مفتاح التراكب"
+
+#: src/ui/adw/behavior.ui:94
+msgid "Disable overlay key (super key)"
+msgstr "تعطيل مفتاح التراكب (المفتاح الفائق)"
+
+#: src/ui/adw/behavior.ui:106
 msgid "Double Super to App Grid"
 msgstr "مفتاح سوبر مزدوج لشبكة التطبيقات"
 
-#: src/ui/adw/behavior.ui:94
+#: src/ui/adw/behavior.ui:107
 msgid "Shows app grid when you double hit super key fast"
 msgstr "يُظهر شبكة التطبيق عندما تضغط مرتين على المفتاح الفائق بسرعة"
 
-#: src/ui/adw/behavior.ui:107
-#, fuzzy
+#: src/ui/adw/behavior.ui:120
 msgid "Popup Delay"
-msgstr "تأخير انبثاق الجلاد"
+msgstr "تأخير المنبثقة"
 
-#: src/ui/adw/behavior.ui:108
+#: src/ui/adw/behavior.ui:121
 msgid ""
 "Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
 "keyboard layout, ..."
@@ -100,19 +106,19 @@ msgstr ""
 "يزيل التأخير لجميع النوافذ المنبثقة للمحول مثل alt-tab ، ctrl-alt-tab ، "
 "تخطيط لوحة المفاتيح ، ..."
 
-#: src/ui/adw/behavior.ui:120
+#: src/ui/adw/behavior.ui:133
 msgid "Startup Status"
 msgstr "حالة بدء التشغيل"
 
-#: src/ui/adw/behavior.ui:121
+#: src/ui/adw/behavior.ui:134
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "عندما يبدأ GNOME Shell لأول مرة"
 
-#: src/ui/adw/behavior.ui:133
+#: src/ui/adw/behavior.ui:146
 msgid "Desktop"
 msgstr "سطح المكتب"
 
-#: src/ui/adw/behavior.ui:134
+#: src/ui/adw/behavior.ui:147
 msgid "Overview"
 msgstr "ملخص"
 
@@ -216,7 +222,7 @@ msgstr "النظر إلى ارتفاع الزجاج"
 #: src/ui/adw/customize.ui:738 src/ui/adw/customize.ui:763
 #: src/ui/adw/customize.ui:778 src/ui/adw/customize.ui:789
 #: src/ui/adw/customize.ui:800 src/ui/adw/customize.ui:811
-#: src/ui/adw/customize.ui:826 src/ui/adw/profile.ui:63
+#: src/ui/adw/customize.ui:826 src/ui/adw/profile.ui:43
 msgid "Default"
 msgstr "الإفتراضي"
 
@@ -256,7 +262,7 @@ msgstr "السرعة الافتراضية"
 
 #: src/ui/adw/customize.ui:726
 msgid "Almost None"
-msgstr ""
+msgstr "تقريبا لا شيء"
 
 #: src/ui/adw/customize.ui:727
 msgid "Fastest"
@@ -334,15 +340,11 @@ msgstr "ايقونة منتقي النافذة"
 msgid "The icon under window preview in overview"
 msgstr "الرمز الموجود أسفل معاينة النافذة في نظرة عامة"
 
-#: src/ui/adw/profile.ui:17
-msgid "Select File"
-msgstr "حدد ملف"
-
-#: src/ui/adw/profile.ui:26 src/ui/adw/profile.ui:31
+#: src/ui/adw/profile.ui:6 src/ui/adw/profile.ui:11
 msgid "Profile"
 msgstr "الملف الشخصي"
 
-#: src/ui/adw/profile.ui:38
+#: src/ui/adw/profile.ui:18
 msgid ""
 "You can choose between pre-defined profiles or you can simply use your own "
 "customized settings"
@@ -350,41 +352,45 @@ msgstr ""
 "يمكنك الاختيار بين ملفات التعريف المحددة مسبقًا أو يمكنك ببساطة استخدام "
 "الإعدادات المخصصة الخاصة بك"
 
-#: src/ui/adw/profile.ui:73
+#: src/ui/adw/profile.ui:53
 msgid "Custom"
 msgstr "مخصص"
 
-#: src/ui/adw/profile.ui:83
+#: src/ui/adw/profile.ui:63
 msgid "Minimal"
 msgstr "الحد الأدنى"
 
-#: src/ui/adw/profile.ui:93
+#: src/ui/adw/profile.ui:73
 msgid "Super Minimal"
 msgstr "سوبر مينيمال"
 
-#: src/ui/adw/profile.ui:110
+#: src/ui/adw/profile.ui:90
 msgid "Override"
 msgstr "تجاوز"
 
-#: src/ui/adw/profile.ui:114
+#: src/ui/adw/profile.ui:94
 msgid "Shell Theme"
 msgstr "مظهر الشل"
 
-#: src/ui/adw/profile.ui:115
+#: src/ui/adw/profile.ui:95
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "تجاوز مظهر الشل جزئيا لصناعة سطح مكتب ادنى"
 
-#: src/ui/adw/profile.ui:130
+#: src/ui/adw/profile.ui:110
 msgid "Links"
 msgstr "الروابط"
 
-#: src/ui/adw/profile.ui:134
+#: src/ui/adw/profile.ui:114
 msgid "Bug Report"
 msgstr "تقرير الشوائب"
 
-#: src/ui/adw/profile.ui:146
+#: src/ui/adw/profile.ui:126
 msgid "Support via Patreon"
 msgstr "الدعم عبر Patreon"
+
+#: src/ui/adw/profile.ui:138
+msgid "Support via Buy Me a Coffee"
+msgstr "الدعم عبر Buy Me a Coffee"
 
 #: src/ui/adw/visibility.ui:6 src/ui/adw/visibility.ui:11
 msgid "Visibility"
@@ -512,11 +518,11 @@ msgstr "خط فاصل الشرطة الذي يفصل بين تطبيقات ال�
 
 #: src/ui/adw/visibility.ui:222
 msgid "Dash App Running Indicator"
-msgstr ""
+msgstr "مؤشر تشغيل تطبيق داش"
 
 #: src/ui/adw/visibility.ui:223
 msgid "The dot indicator in dash that shows the app is running"
-msgstr ""
+msgstr "مؤشر النقطة في الشرطة الذي يوضح أن التطبيق قيد التشغيل"
 
 #: src/ui/adw/visibility.ui:235
 msgid "Show Applications Button"
@@ -601,6 +607,9 @@ msgstr "أخذ زر لقطة الشاشة في قائمة النافذة"
 msgid "Take screenshot button in title bar right click menu"
 msgstr ""
 "التقط زر لقطة شاشة في شريط العنوان ، انقر بزر الماوس الأيمن فوق القائمة"
+
+#~ msgid "Select File"
+#~ msgstr "حدد ملف"
 
 #~ msgid "Hot Corner"
 #~ msgstr "ركن حساس"

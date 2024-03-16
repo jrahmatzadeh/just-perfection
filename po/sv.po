@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-28 23:10-0700\n"
+"POT-Creation-Date: 2024-03-15 23:18-0700\n"
 "PO-Revision-Date: 2021-04-13 22:01+0200\n"
 "Last-Translator: Morgan Antonsson <morgan.antonsson@gmail.com>\n"
 "Language-Team: Swedish\n"
@@ -36,13 +36,12 @@ msgstr ""
 "arbetsytan."
 
 #: src/ui/adw/behavior.ui:28
-#, fuzzy
 msgid "Workspace Peek"
-msgstr "Arbetsyteväxlar-popup"
+msgstr "Workspace Peek"
 
 #: src/ui/adw/behavior.ui:29
 msgid "Whether the next and previous workspace should be visible in overview."
-msgstr ""
+msgstr "Om nästa och föregående arbetsyta ska synas i översikt."
 
 #: src/ui/adw/behavior.ui:41
 msgid "Window Demands Attention Focus"
@@ -53,19 +52,27 @@ msgid "Removes window is ready notification and focus on the window"
 msgstr "Tar bort fönstret är redo anmälan och fokusera på fönstret"
 
 #: src/ui/adw/behavior.ui:54
+msgid "Window Maximized by Default"
+msgstr "Fönster maximerat som standard"
+
+#: src/ui/adw/behavior.ui:55
+msgid "Maximize all windows on creation"
+msgstr "Maximera alla fönster vid skapande"
+
+#: src/ui/adw/behavior.ui:67
 msgid "Type to Search"
 msgstr "Skriv för att söka"
 
-#: src/ui/adw/behavior.ui:55
+#: src/ui/adw/behavior.ui:68
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr "Sök utan synlig sökruta eller utan att fokusera den i översiktsvyn"
 
-#: src/ui/adw/behavior.ui:67
+#: src/ui/adw/behavior.ui:80
 msgid "Always Show Workspace Switcher"
 msgstr "Visa alltid arbetsytans växlare"
 
-#: src/ui/adw/behavior.ui:68
+#: src/ui/adw/behavior.ui:81
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
@@ -73,28 +80,27 @@ msgstr ""
 "Visar arbetsytväxlare även när endast en arbetsyta används med dynamiska "
 "arbetsytor"
 
-#: src/ui/adw/behavior.ui:80
-msgid "Overlay Key"
-msgstr ""
-
-#: src/ui/adw/behavior.ui:81
-msgid "Disable overlay key (super key)"
-msgstr ""
-
 #: src/ui/adw/behavior.ui:93
+msgid "Overlay Key"
+msgstr "Överläggstangent"
+
+#: src/ui/adw/behavior.ui:94
+msgid "Disable overlay key (super key)"
+msgstr "Inaktivera överlagringsnyckel (supernyckel)"
+
+#: src/ui/adw/behavior.ui:106
 msgid "Double Super to App Grid"
 msgstr "Dubbel supernyckel till App Grid"
 
-#: src/ui/adw/behavior.ui:94
+#: src/ui/adw/behavior.ui:107
 msgid "Shows app grid when you double hit super key fast"
 msgstr "Visar apprutnät när du dubbeltrycker supersnabbt"
 
-#: src/ui/adw/behavior.ui:107
-#, fuzzy
+#: src/ui/adw/behavior.ui:120
 msgid "Popup Delay"
-msgstr "Switcher Popup Delay"
+msgstr "Popup-fördröjning"
 
-#: src/ui/adw/behavior.ui:108
+#: src/ui/adw/behavior.ui:121
 msgid ""
 "Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
 "keyboard layout, ..."
@@ -102,19 +108,19 @@ msgstr ""
 "Tar bort fördröjningen för alla växlarpopups som alt-tab, ctrl-alt-tab, "
 "tangentbordslayout, ..."
 
-#: src/ui/adw/behavior.ui:120
+#: src/ui/adw/behavior.ui:133
 msgid "Startup Status"
 msgstr "Startstatus"
 
-#: src/ui/adw/behavior.ui:121
+#: src/ui/adw/behavior.ui:134
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "När GNOME Shell startar för första gången"
 
-#: src/ui/adw/behavior.ui:133
+#: src/ui/adw/behavior.ui:146
 msgid "Desktop"
 msgstr "Skrivbord"
 
-#: src/ui/adw/behavior.ui:134
+#: src/ui/adw/behavior.ui:147
 msgid "Overview"
 msgstr "Översikt"
 
@@ -218,7 +224,7 @@ msgstr "Looking Glass Höjd"
 #: src/ui/adw/customize.ui:738 src/ui/adw/customize.ui:763
 #: src/ui/adw/customize.ui:778 src/ui/adw/customize.ui:789
 #: src/ui/adw/customize.ui:800 src/ui/adw/customize.ui:811
-#: src/ui/adw/customize.ui:826 src/ui/adw/profile.ui:63
+#: src/ui/adw/customize.ui:826 src/ui/adw/profile.ui:43
 msgid "Default"
 msgstr "Standard"
 
@@ -258,7 +264,7 @@ msgstr "Standardhastighet"
 
 #: src/ui/adw/customize.ui:726
 msgid "Almost None"
-msgstr ""
+msgstr "Nästan ingen"
 
 #: src/ui/adw/customize.ui:727
 msgid "Fastest"
@@ -336,15 +342,11 @@ msgstr "Ikon för fönsterplockare"
 msgid "The icon under window preview in overview"
 msgstr "Ikonen under förhandsgranskning av fönster i översikt"
 
-#: src/ui/adw/profile.ui:17
-msgid "Select File"
-msgstr "Välj fil"
-
-#: src/ui/adw/profile.ui:26 src/ui/adw/profile.ui:31
+#: src/ui/adw/profile.ui:6 src/ui/adw/profile.ui:11
 msgid "Profile"
 msgstr "Profil"
 
-#: src/ui/adw/profile.ui:38
+#: src/ui/adw/profile.ui:18
 msgid ""
 "You can choose between pre-defined profiles or you can simply use your own "
 "customized settings"
@@ -352,41 +354,45 @@ msgstr ""
 "Du kan välja mellan fördefinierade profiler eller så kan du helt enkelt "
 "använda dina egna anpassade inställningar"
 
-#: src/ui/adw/profile.ui:73
+#: src/ui/adw/profile.ui:53
 msgid "Custom"
 msgstr "Beställnings"
 
-#: src/ui/adw/profile.ui:83
+#: src/ui/adw/profile.ui:63
 msgid "Minimal"
 msgstr "Minimal"
 
-#: src/ui/adw/profile.ui:93
+#: src/ui/adw/profile.ui:73
 msgid "Super Minimal"
 msgstr "Super Minimal"
 
-#: src/ui/adw/profile.ui:110
+#: src/ui/adw/profile.ui:90
 msgid "Override"
 msgstr "Åsidosätt"
 
-#: src/ui/adw/profile.ui:114
+#: src/ui/adw/profile.ui:94
 msgid "Shell Theme"
 msgstr "Skaltema"
 
-#: src/ui/adw/profile.ui:115
+#: src/ui/adw/profile.ui:95
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "Åsidosätt skaltemat delvis för att göra skrivbordet kompakt"
 
-#: src/ui/adw/profile.ui:130
+#: src/ui/adw/profile.ui:110
 msgid "Links"
 msgstr "Länkar"
 
-#: src/ui/adw/profile.ui:134
+#: src/ui/adw/profile.ui:114
 msgid "Bug Report"
 msgstr "Buggrapport"
 
-#: src/ui/adw/profile.ui:146
+#: src/ui/adw/profile.ui:126
 msgid "Support via Patreon"
 msgstr "Support via Patreon"
+
+#: src/ui/adw/profile.ui:138
+msgid "Support via Buy Me a Coffee"
+msgstr "Support via Buy Me a Coffee"
 
 #: src/ui/adw/visibility.ui:6 src/ui/adw/visibility.ui:11
 msgid "Visibility"
@@ -514,11 +520,11 @@ msgstr "Streckavgränsningslinje som skiljer pin-appar från unpin-appar"
 
 #: src/ui/adw/visibility.ui:222
 msgid "Dash App Running Indicator"
-msgstr ""
+msgstr "Dash App Running Indicator"
 
 #: src/ui/adw/visibility.ui:223
 msgid "The dot indicator in dash that shows the app is running"
-msgstr ""
+msgstr "Punktindikatorn i streck som visar att appen körs"
 
 #: src/ui/adw/visibility.ui:235
 msgid "Show Applications Button"
@@ -603,6 +609,9 @@ msgstr "Ta skärmdump-knappen i fönstermenyn"
 #: src/ui/adw/visibility.ui:353
 msgid "Take screenshot button in title bar right click menu"
 msgstr "Ta skärmdump-knappen i titelfältets högerklicksmeny"
+
+#~ msgid "Select File"
+#~ msgstr "Välj fil"
 
 #~ msgid "Hot Corner"
 #~ msgstr "Aktivitetshörn"

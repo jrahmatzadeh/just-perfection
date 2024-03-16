@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-28 23:10-0700\n"
+"POT-Creation-Date: 2024-03-15 23:18-0700\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -36,13 +36,12 @@ msgstr ""
 "пространство."
 
 #: src/ui/adw/behavior.ui:28
-#, fuzzy
 msgid "Workspace Peek"
-msgstr "Изскачащо работно пространство"
+msgstr "Работно пространство Peek"
 
 #: src/ui/adw/behavior.ui:29
 msgid "Whether the next and previous workspace should be visible in overview."
-msgstr ""
+msgstr "Дали следващото и предишното работно пространство трябва да се виждат в прегледа."
 
 #: src/ui/adw/behavior.ui:41
 msgid "Window Demands Attention Focus"
@@ -53,21 +52,29 @@ msgid "Removes window is ready notification and focus on the window"
 msgstr "Премахва прозорец е готов известие и се фокусира върху прозореца"
 
 #: src/ui/adw/behavior.ui:54
+msgid "Window Maximized by Default"
+msgstr "Прозорецът е увеличен по подразбиране"
+
+#: src/ui/adw/behavior.ui:55
+msgid "Maximize all windows on creation"
+msgstr "Увеличете максимално всички прозорци при създаване"
+
+#: src/ui/adw/behavior.ui:67
 msgid "Type to Search"
 msgstr "Въведете за търсене"
 
-#: src/ui/adw/behavior.ui:55
+#: src/ui/adw/behavior.ui:68
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Можете да започнете търсенето без въвеждане на търсене или дори да се "
 "фокусирате върху него в общ преглед"
 
-#: src/ui/adw/behavior.ui:67
+#: src/ui/adw/behavior.ui:80
 msgid "Always Show Workspace Switcher"
 msgstr "Винаги да се показва превключвател на работното пространство"
 
-#: src/ui/adw/behavior.ui:68
+#: src/ui/adw/behavior.ui:81
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
@@ -75,29 +82,28 @@ msgstr ""
 "Показва превключвател на работно пространство, дори когато само едно работно "
 "пространство се използва с динамични работни пространства"
 
-#: src/ui/adw/behavior.ui:80
-msgid "Overlay Key"
-msgstr ""
-
-#: src/ui/adw/behavior.ui:81
-msgid "Disable overlay key (super key)"
-msgstr ""
-
 #: src/ui/adw/behavior.ui:93
+msgid "Overlay Key"
+msgstr "Ключ за наслагване"
+
+#: src/ui/adw/behavior.ui:94
+msgid "Disable overlay key (super key)"
+msgstr "Деактивиране на клавиша за наслагване (суперклавиш)"
+
+#: src/ui/adw/behavior.ui:106
 msgid "Double Super to App Grid"
 msgstr "Двоен супер ключ към App Grid"
 
-#: src/ui/adw/behavior.ui:94
+#: src/ui/adw/behavior.ui:107
 msgid "Shows app grid when you double hit super key fast"
 msgstr ""
 "Показва мрежата на приложението, когато натиснете бързо супер клавиш двойно"
 
-#: src/ui/adw/behavior.ui:107
-#, fuzzy
+#: src/ui/adw/behavior.ui:120
 msgid "Popup Delay"
-msgstr "Забавяне на изскачащи прозорци на превключвателя"
+msgstr "Забавяне на изскачащи прозорци"
 
-#: src/ui/adw/behavior.ui:108
+#: src/ui/adw/behavior.ui:121
 msgid ""
 "Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
 "keyboard layout, ..."
@@ -105,19 +111,19 @@ msgstr ""
 "Премахва забавянето за всички изскачащи прозорци на превключвателя като alt-"
 "tab, ctrl-alt-tab, клавиатурна подредба, ..."
 
-#: src/ui/adw/behavior.ui:120
+#: src/ui/adw/behavior.ui:133
 msgid "Startup Status"
 msgstr "Стартово състояние"
 
-#: src/ui/adw/behavior.ui:121
+#: src/ui/adw/behavior.ui:134
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "Когато GNOME Shell се стартира за първи път"
 
-#: src/ui/adw/behavior.ui:133
+#: src/ui/adw/behavior.ui:146
 msgid "Desktop"
 msgstr "работен плот"
 
-#: src/ui/adw/behavior.ui:134
+#: src/ui/adw/behavior.ui:147
 msgid "Overview"
 msgstr "Общ преглед"
 
@@ -221,7 +227,7 @@ msgstr "Височина на огледалото"
 #: src/ui/adw/customize.ui:738 src/ui/adw/customize.ui:763
 #: src/ui/adw/customize.ui:778 src/ui/adw/customize.ui:789
 #: src/ui/adw/customize.ui:800 src/ui/adw/customize.ui:811
-#: src/ui/adw/customize.ui:826 src/ui/adw/profile.ui:63
+#: src/ui/adw/customize.ui:826 src/ui/adw/profile.ui:43
 msgid "Default"
 msgstr "По подразбиране"
 
@@ -261,7 +267,7 @@ msgstr "Скорост по подразбиране"
 
 #: src/ui/adw/customize.ui:726
 msgid "Almost None"
-msgstr ""
+msgstr "Почти никакви"
 
 #: src/ui/adw/customize.ui:727
 msgid "Fastest"
@@ -339,15 +345,11 @@ msgstr "Икона за избор на прозорец"
 msgid "The icon under window preview in overview"
 msgstr "Иконата под преглед на прозореца в общ преглед"
 
-#: src/ui/adw/profile.ui:17
-msgid "Select File"
-msgstr "Избери файл"
-
-#: src/ui/adw/profile.ui:26 src/ui/adw/profile.ui:31
+#: src/ui/adw/profile.ui:6 src/ui/adw/profile.ui:11
 msgid "Profile"
 msgstr "Профил"
 
-#: src/ui/adw/profile.ui:38
+#: src/ui/adw/profile.ui:18
 msgid ""
 "You can choose between pre-defined profiles or you can simply use your own "
 "customized settings"
@@ -355,42 +357,46 @@ msgstr ""
 "Можете да избирате между предварително дефинирани профили или просто да "
 "използвате свои собствени персонализирани настройки"
 
-#: src/ui/adw/profile.ui:73
+#: src/ui/adw/profile.ui:53
 msgid "Custom"
 msgstr "Персонализиран"
 
-#: src/ui/adw/profile.ui:83
+#: src/ui/adw/profile.ui:63
 msgid "Minimal"
 msgstr "Минимален"
 
-#: src/ui/adw/profile.ui:93
+#: src/ui/adw/profile.ui:73
 msgid "Super Minimal"
 msgstr "Супер минимално"
 
-#: src/ui/adw/profile.ui:110
+#: src/ui/adw/profile.ui:90
 msgid "Override"
 msgstr "Замяна"
 
-#: src/ui/adw/profile.ui:114
+#: src/ui/adw/profile.ui:94
 msgid "Shell Theme"
 msgstr "Тема Shell"
 
-#: src/ui/adw/profile.ui:115
+#: src/ui/adw/profile.ui:95
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr ""
 "Заменя темата на черупката частично, за да създаде минимален работен плот"
 
-#: src/ui/adw/profile.ui:130
+#: src/ui/adw/profile.ui:110
 msgid "Links"
 msgstr "Връзки"
 
-#: src/ui/adw/profile.ui:134
+#: src/ui/adw/profile.ui:114
 msgid "Bug Report"
 msgstr "Доклад за грешки"
 
-#: src/ui/adw/profile.ui:146
+#: src/ui/adw/profile.ui:126
 msgid "Support via Patreon"
 msgstr "Поддръжка чрез Patreon"
+
+#: src/ui/adw/profile.ui:138
+msgid "Support via Buy Me a Coffee"
+msgstr "Поддръжка чрез Buy Me a Coffee"
 
 #: src/ui/adw/visibility.ui:6 src/ui/adw/visibility.ui:11
 msgid "Visibility"
@@ -520,11 +526,11 @@ msgstr ""
 
 #: src/ui/adw/visibility.ui:222
 msgid "Dash App Running Indicator"
-msgstr ""
+msgstr "Индикатор за работа на приложението Dash"
 
 #: src/ui/adw/visibility.ui:223
 msgid "The dot indicator in dash that shows the app is running"
-msgstr ""
+msgstr "Точковият индикатор в тирето, който показва, че приложението работи"
 
 #: src/ui/adw/visibility.ui:235
 msgid "Show Applications Button"
@@ -613,6 +619,9 @@ msgid "Take screenshot button in title bar right click menu"
 msgstr ""
 "Бутон за правене на екранна снимка в менюто с десен щракване на заглавната "
 "лента"
+
+#~ msgid "Select File"
+#~ msgstr "Избери файл"
 
 #~ msgid "Hot Corner"
 #~ msgstr "Горещ ъгъл"

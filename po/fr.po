@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-28 23:10-0700\n"
+"POT-Creation-Date: 2024-03-15 23:18-0700\n"
 "PO-Revision-Date: 2020-12-13 07:26-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: French\n"
@@ -37,13 +37,12 @@ msgstr ""
 "de travail."
 
 #: src/ui/adw/behavior.ui:28
-#, fuzzy
 msgid "Workspace Peek"
-msgstr "Fenêtre contextuelle de l'espace de travail"
+msgstr "Aperçu de l'espace de travail"
 
 #: src/ui/adw/behavior.ui:29
 msgid "Whether the next and previous workspace should be visible in overview."
-msgstr ""
+msgstr "Indique si l'espace de travail suivant et précédent doit être visible dans l'aperçu."
 
 #: src/ui/adw/behavior.ui:41
 msgid "Window Demands Attention Focus"
@@ -56,21 +55,29 @@ msgstr ""
 "fenêtre"
 
 #: src/ui/adw/behavior.ui:54
+msgid "Window Maximized by Default"
+msgstr "Fenêtre agrandie par défaut"
+
+#: src/ui/adw/behavior.ui:55
+msgid "Maximize all windows on creation"
+msgstr "Maximiser toutes les fenêtres lors de la création"
+
+#: src/ui/adw/behavior.ui:67
 msgid "Type to Search"
 msgstr "Tapez pour rechercher"
 
-#: src/ui/adw/behavior.ui:55
+#: src/ui/adw/behavior.ui:68
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Vous pouvez lancer une recherche sans sélectionner la barre de recherche ou "
 "même en l'ayant désactivée dans l'aperçu"
 
-#: src/ui/adw/behavior.ui:67
+#: src/ui/adw/behavior.ui:80
 msgid "Always Show Workspace Switcher"
 msgstr "Toujours afficher le sélecteur d'espace de travail"
 
-#: src/ui/adw/behavior.ui:68
+#: src/ui/adw/behavior.ui:81
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
@@ -78,30 +85,29 @@ msgstr ""
 "Affiche le sélecteur d'espace de travail même lorsqu'un seul espace de "
 "travail est utilisé avec des espaces de travail dynamiques"
 
-#: src/ui/adw/behavior.ui:80
-msgid "Overlay Key"
-msgstr ""
-
-#: src/ui/adw/behavior.ui:81
-msgid "Disable overlay key (super key)"
-msgstr ""
-
 #: src/ui/adw/behavior.ui:93
+msgid "Overlay Key"
+msgstr "Clé de superposition"
+
+#: src/ui/adw/behavior.ui:94
+msgid "Disable overlay key (super key)"
+msgstr "Désactiver la touche de superposition (super clé)"
+
+#: src/ui/adw/behavior.ui:106
 msgid "Double Super to App Grid"
 msgstr "Double appui sur Super affiche la grille d'applications"
 
-#: src/ui/adw/behavior.ui:94
+#: src/ui/adw/behavior.ui:107
 msgid "Shows app grid when you double hit super key fast"
 msgstr ""
 "Affiche la grille d'applications lorsque vous appuyez deux fois rapidement "
 "sur la touche super"
 
-#: src/ui/adw/behavior.ui:107
-#, fuzzy
+#: src/ui/adw/behavior.ui:120
 msgid "Popup Delay"
-msgstr "Délai de pop-up du commutateur"
+msgstr "Délai de pop-up"
 
-#: src/ui/adw/behavior.ui:108
+#: src/ui/adw/behavior.ui:121
 msgid ""
 "Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
 "keyboard layout, ..."
@@ -109,19 +115,19 @@ msgstr ""
 "Supprime le délai pour toutes les fenêtres contextuelles du commutateur "
 "comme alt-tab, ctrl-alt-tab, la disposition du clavier, ..."
 
-#: src/ui/adw/behavior.ui:120
+#: src/ui/adw/behavior.ui:133
 msgid "Startup Status"
 msgstr "État de démarrage"
 
-#: src/ui/adw/behavior.ui:121
+#: src/ui/adw/behavior.ui:134
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "Lorsque GNOME Shell démarre pour la première fois"
 
-#: src/ui/adw/behavior.ui:133
+#: src/ui/adw/behavior.ui:146
 msgid "Desktop"
 msgstr "Bureau"
 
-#: src/ui/adw/behavior.ui:134
+#: src/ui/adw/behavior.ui:147
 msgid "Overview"
 msgstr "Aperçu"
 
@@ -228,7 +234,7 @@ msgstr "Hauteur du miroir"
 #: src/ui/adw/customize.ui:738 src/ui/adw/customize.ui:763
 #: src/ui/adw/customize.ui:778 src/ui/adw/customize.ui:789
 #: src/ui/adw/customize.ui:800 src/ui/adw/customize.ui:811
-#: src/ui/adw/customize.ui:826 src/ui/adw/profile.ui:63
+#: src/ui/adw/customize.ui:826 src/ui/adw/profile.ui:43
 msgid "Default"
 msgstr "Par défaut"
 
@@ -268,7 +274,7 @@ msgstr "Vitesse par défaut"
 
 #: src/ui/adw/customize.ui:726
 msgid "Almost None"
-msgstr ""
+msgstr "Presque aucun"
 
 #: src/ui/adw/customize.ui:727
 msgid "Fastest"
@@ -346,15 +352,11 @@ msgstr "Icône de sélecteur de fenêtre"
 msgid "The icon under window preview in overview"
 msgstr "L'icône sous l'aperçu de la fenêtre dans la vue d'ensemble"
 
-#: src/ui/adw/profile.ui:17
-msgid "Select File"
-msgstr "Sélectionner un fichier"
-
-#: src/ui/adw/profile.ui:26 src/ui/adw/profile.ui:31
+#: src/ui/adw/profile.ui:6 src/ui/adw/profile.ui:11
 msgid "Profile"
 msgstr "Profil"
 
-#: src/ui/adw/profile.ui:38
+#: src/ui/adw/profile.ui:18
 msgid ""
 "You can choose between pre-defined profiles or you can simply use your own "
 "customized settings"
@@ -362,41 +364,45 @@ msgstr ""
 "Vous pouvez choisir entre des profils prédéfinis ou vous pouvez simplement "
 "utiliser vos propres paramètres personnalisés"
 
-#: src/ui/adw/profile.ui:73
+#: src/ui/adw/profile.ui:53
 msgid "Custom"
 msgstr "Personnalisé"
 
-#: src/ui/adw/profile.ui:83
+#: src/ui/adw/profile.ui:63
 msgid "Minimal"
 msgstr "Minimal"
 
-#: src/ui/adw/profile.ui:93
+#: src/ui/adw/profile.ui:73
 msgid "Super Minimal"
 msgstr "Super minimal"
 
-#: src/ui/adw/profile.ui:110
+#: src/ui/adw/profile.ui:90
 msgid "Override"
 msgstr "Ignorer"
 
-#: src/ui/adw/profile.ui:114
+#: src/ui/adw/profile.ui:94
 msgid "Shell Theme"
 msgstr "Thème Shell"
 
-#: src/ui/adw/profile.ui:115
+#: src/ui/adw/profile.ui:95
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "Remplace partiellement le thème du shell pour créer un bureau minimal"
 
-#: src/ui/adw/profile.ui:130
+#: src/ui/adw/profile.ui:110
 msgid "Links"
 msgstr "Liens"
 
-#: src/ui/adw/profile.ui:134
+#: src/ui/adw/profile.ui:114
 msgid "Bug Report"
 msgstr "Signaler des bugs"
 
-#: src/ui/adw/profile.ui:146
+#: src/ui/adw/profile.ui:126
 msgid "Support via Patreon"
 msgstr "Soutenir via Patreon"
+
+#: src/ui/adw/profile.ui:138
+msgid "Support via Buy Me a Coffee"
+msgstr "Soutenir via Buy Me a Coffee"
 
 #: src/ui/adw/visibility.ui:6 src/ui/adw/visibility.ui:11
 msgid "Visibility"
@@ -530,11 +536,11 @@ msgstr ""
 
 #: src/ui/adw/visibility.ui:222
 msgid "Dash App Running Indicator"
-msgstr ""
+msgstr "Indicateur de fonctionnement de l'application Dash"
 
 #: src/ui/adw/visibility.ui:223
 msgid "The dot indicator in dash that shows the app is running"
-msgstr ""
+msgstr "L'indicateur de point dans le tiret qui indique que l'application est en cours d'exécution"
 
 #: src/ui/adw/visibility.ui:235
 msgid "Show Applications Button"
@@ -626,6 +632,9 @@ msgid "Take screenshot button in title bar right click menu"
 msgstr ""
 "Bouton Prendre une capture d'écran dans le menu contextuel de la barre de "
 "titre"
+
+#~ msgid "Select File"
+#~ msgstr "Sélectionner un fichier"
 
 #~ msgid "Hot Corner"
 #~ msgstr "Coin chaud"
