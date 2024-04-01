@@ -182,9 +182,9 @@ export class Prefs
      {
          // all available keys
          for (let [, key] of Object.entries(this.#prefsKeys.keys)) {
- 
+
              switch (key.widgetType) {
-                
+
                  case 'GtkSwitch':
                      this.#builder.get_object(key.widgetId).connect('state-set', (w) => {
                          this.#settings.set_boolean(key.name, w.get_active());
@@ -200,7 +200,7 @@ export class Prefs
                          this.#guessProfile();
                      });
                      break;
-                
+ 
                  case 'AdwSpinRow':
                      this.#builder.get_object(key.widgetId).connect('notify::value', (w) => {
                          let value = w.get_value();
