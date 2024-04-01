@@ -69,9 +69,9 @@
         </child>
 
         <child>
-          <object class="AdwComboRow" id="clock_menu_position_offset_row">
+          <object class="AdwSpinRow" id="clock_menu_position_offset_row">
             <property name="title" translatable="yes">Clock Menu Position Offset</property>
-            <property name="model">clock_menu_position_offset_model</property>
+            <property name="adjustment">clock_menu_position_offset_adjustment</property>
           </object>
         </child>
 
@@ -657,30 +657,11 @@
     </items>
   </object>
 
-  <object class="GtkStringList" id="clock_menu_position_offset_model">
-    <items>
-      <item>0</item>
-      <item>1</item>
-      <item>2</item>
-      <item>3</item>
-      <item>4</item>
-      <item>5</item>
-      <item>6</item>
-      <item>7</item>
-      <item>8</item>
-      <item>9</item>
-      <item>10</item>
-      <item>11</item>
-      <item>12</item>
-      <item>13</item>
-      <item>14</item>
-      <item>15</item>
-      <item>16</item>
-      <item>17</item>
-      <item>18</item>
-      <item>19</item>
-      <item>20</item>
-    </items>
+  <object class="GtkAdjustment" id="clock_menu_position_offset_adjustment">
+    <property name="lower">0</property>
+    <property name="upper">20</property>
+    <property name="value">0</property>
+    <property name="step-increment">1</property>
   </object>
 
   <object class="GtkStringList" id="workspace_switcher_size_model">

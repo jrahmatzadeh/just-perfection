@@ -575,7 +575,7 @@ export class PrefsKeys
         this.#setKey(
             'customize',
             'clock-menu-position-offset',
-            'AdwActionRow',
+            'AdwSpinRow',
             true,
             {
                 default: 0,
@@ -823,7 +823,11 @@ export class PrefsKeys
     {
         let id = name.replace(/-/g, '_');
         let widgetName = widgetType.toLowerCase().replace('gtk', '');
-        let widgetId = (widgetType === 'AdwActionRow') ?  `${id}_row` : `${id}_${widgetName}`;
+
+        let widgetId
+        = (widgetType === 'AdwActionRow' || widgetType === 'AdwSpinRow')
+        ?  `${id}_row`
+        : `${id}_${widgetName}`;
 
         if (maps === undefined) {
             maps = {};

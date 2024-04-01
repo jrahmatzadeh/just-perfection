@@ -184,7 +184,7 @@ export class Prefs
          for (let [, key] of Object.entries(this.#prefsKeys.keys)) {
  
              switch (key.widgetType) {
- 
+                
                  case 'GtkSwitch':
                      this.#builder.get_object(key.widgetId).connect('state-set', (w) => {
                          this.#settings.set_boolean(key.name, w.get_active());
@@ -196,6 +196,14 @@ export class Prefs
                      this.#builder.get_object(key.widgetId).connect('notify::selected-item', (w) => {
                          let index = w.get_selected();
                          let value = (index in key.maps) ? key.maps[index] : index; 
+                         this.#settings.set_int(key.name, value);
+                         this.#guessProfile();
+                     });
+                     break;
+                
+                 case 'AdwSpinRow':
+                     this.#builder.get_object(key.widgetId).connect('notify::value', (w) => {
+                         let value = w.get_value();
                          this.#settings.set_int(key.name, value);
                          this.#guessProfile();
                      });
@@ -251,6 +259,9 @@ export class Prefs
                 case 'AdwActionRow':
                     value = this.#builder.get_object(key.widgetId).get_selected();
                     break;
+                case 'AdwSpinRow':
+                    value = this.#builder.get_object(key.widgetId).get_value();
+                    break;
                 default:
                     value = '';
                     continue;
@@ -292,10 +303,12 @@ export class Prefs
 
             let widget = this.#builder.get_object(key.widgetId);
 
+            let value;
+
             switch (key.widgetType) {
 
                 case 'GtkSwitch':
-                    let value
+                    value
                     = (profile)
                     ? key.profiles[profile]
                     : this.#settings.get_boolean(key.name);
@@ -316,6 +329,15 @@ export class Prefs
                         }
                     }
                     widget.set_selected(index);
+                    break;
+
+                case 'AdwSpinRow':
+                    value
+                    = (profile)
+                    ? key.profiles[profile]
+                    : this.#settings.get_int(key.name);
+
+                    widget.set_value(value);
                     break;
             }
         }
