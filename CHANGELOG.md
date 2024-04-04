@@ -7,6 +7,10 @@ We go to the next version after each release on the
 
 ## [Unreleased]
 
+### Fixed
+
+- The dash app running indicator visibility.
+
 ### Changed
 
 - The clock menu position widget to `AdwSpinRow`.

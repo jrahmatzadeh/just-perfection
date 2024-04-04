@@ -292,7 +292,7 @@ export class Manager
         });
 
         this.#settings.connect('changed::dash-app-running', () => {
-            this.#applyDashAppRunning(true);
+            this.#applyDashAppRunning(false);
         });
     }
 
