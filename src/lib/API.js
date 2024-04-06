@@ -1050,10 +1050,6 @@ export class API
      */
     quickSettingsMenuShow()
     {
-        if (this.#shellVersion < 43) {
-            return;
-        }
-
         this._main.panel.statusArea.quickSettings.container.show();
     }
 
@@ -1064,10 +1060,6 @@ export class API
      */
     quickSettingsMenuHide()
     {
-        if (this.#shellVersion < 43) {
-            return;
-        }
-
         this._main.panel.statusArea.quickSettings.container.hide();
     }
 
@@ -2959,10 +2951,6 @@ export class API
      */
     screenSharingIndicatorEnable()
     {
-        if (this.#shellVersion < 43) {
-            return;
-        }
-
         this.UIStyleClassRemove(this.#getAPIClassname('no-screen-sharing-indicator'));
     }
 
@@ -2973,10 +2961,6 @@ export class API
      */
     screenSharingIndicatorDisable()
     {
-        if (this.#shellVersion < 43) {
-            return;
-        }
-
         this.UIStyleClassAdd(this.#getAPIClassname('no-screen-sharing-indicator'));
     }
 
@@ -2987,10 +2971,6 @@ export class API
      */
     screenRecordingIndicatorEnable()
     {
-        if (this.#shellVersion < 43) {
-            return;
-        }
-
         this.UIStyleClassRemove(this.#getAPIClassname('no-screen-recording-indicator'));
     }
 
@@ -3001,10 +2981,6 @@ export class API
      */
     screenRecordingIndicatorDisable()
     {
-        if (this.#shellVersion < 43) {
-            return;
-        }
-
         this.UIStyleClassAdd(this.#getAPIClassname('no-screen-recording-indicator'));
     }
 
