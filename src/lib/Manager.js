@@ -294,6 +294,10 @@ export class Manager
         this.#settings.connect('changed::dash-app-running', () => {
             this.#applyDashAppRunning(false);
         });
+
+        this.#settings.connect('changed::max-displayed-search-results', () => {
+            this.#applyMaxDisplayedSearchResults(false);
+        });
     }
 
     /**
@@ -359,6 +363,7 @@ export class Manager
         this.#applyControlsManagerSpacingSize(false);
         this.#applyWorkspacePeek(false);
         this.#applyDashAppRunning(false);
+        this.#applyMaxDisplayedSearchResults(false);
     }
 
     /**
@@ -424,6 +429,7 @@ export class Manager
         this.#applyControlsManagerSpacingSize(true);
         this.#applyWorkspacePeek(true);
         this.#applyDashAppRunning(true);
+        this.#applyMaxDisplayedSearchResults(true);
     }
 
     /**
@@ -1429,6 +1435,24 @@ export class Manager
             this.#api.dashAppRunningDotShow();
         } else {
             this.#api.dashAppRunningDotHide();
+        }
+    }
+
+    /**
+     * apply max displayed search results
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    #applyMaxDisplayedSearchResults(forceOriginal)
+    {
+        let items = this.#settings.get_int('max-displayed-search-results');
+
+        if (forceOriginal || items === 0) {
+            this.#api.setMaxDisplayedSearchResultToDefault();
+        } else {
+            this.#api.setMaxDisplayedSearchResult(items);
         }
     }
 }

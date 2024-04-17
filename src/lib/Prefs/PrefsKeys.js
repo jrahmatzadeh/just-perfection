@@ -787,6 +787,18 @@ export class PrefsKeys
         );
 
         this.#setKey(
+            'customize',
+            'max-displayed-search-results',
+            'AdwActionRow',
+            true,
+            {
+                default: 0,
+                minimal: 0,
+                superminimal: 0,
+            }
+        );
+
+        this.#setKey(
             'override',
             'theme',
             'GtkSwitch',

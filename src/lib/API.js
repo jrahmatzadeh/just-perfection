@@ -78,6 +78,7 @@ export class API
      *   'WorkspaceSwitcherPopup' reference to ui::workspaceSwitcherPopup
      *   'SwitcherPopup' reference to ui::switcherPopup
      *   'InterfaceSettings' reference to Gio::Settings for 'org.gnome.desktop.interface'
+     *   'Search' reference to ui::search
      *   'SearchController' reference to ui::searchController
      *   'WorkspaceThumbnail' reference to ui::workspaceThumbnail
      *   'WorkspacesView' reference to ui::workspacesView
@@ -105,6 +106,7 @@ export class API
         this._workspaceSwitcherPopup = dependencies['WorkspaceSwitcherPopup'] || null;
         this._switcherPopup = dependencies['SwitcherPopup'] || null;
         this._interfaceSettings = dependencies['InterfaceSettings'] || null;
+        this._search = dependencies['Search'] || null;
         this._searchController = dependencies['SearchController'] || null;
         this._workspaceThumbnail = dependencies['WorkspaceThumbnail'] || null;
         this._workspacesView = dependencies['WorkspacesView'] || null;
@@ -782,6 +784,42 @@ export class API
                 this.searchEntryHide(true);
             }
         });
+    }
+
+    /**
+     * Set maximum displayed search result to default value
+     *
+     * @returns {void}
+     */
+    setMaxDisplayedSearchResultToDefault()
+    {
+        if (!this.#originals['searchGetMaxDisplayedResults']) {
+            return;
+        }
+
+        let ListSearchResultsProto = this._search.ListSearchResults.prototype;
+
+        ListSearchResultsProto._getMaxDisplayedResults = this.#originals['searchGetMaxDisplayedResults'];
+    }
+
+    /**
+     * Set maximum displayed search result
+     * 
+     * @param {number} items max items
+     *
+     * @returns {void}
+     */
+    setMaxDisplayedSearchResult(items)
+    {
+        let ListSearchResultsProto = this._search.ListSearchResults.prototype;
+        
+        if (!this.#originals['searchGetMaxDisplayedResults']) {
+            this.#originals['searchGetMaxDisplayedResults'] = ListSearchResultsProto._getMaxDisplayedResults;
+        }
+
+        ListSearchResultsProto._getMaxDisplayedResults = () => {
+            return items;
+        }
     }
 
     /**

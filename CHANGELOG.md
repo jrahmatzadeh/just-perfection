@@ -7,6 +7,10 @@ We go to the next version after each release on the
 
 ## [Unreleased]
 
+### Added
+
+- Maximum Displayed Search Results feature (GNOME Shell 45 and higher).
+
 ### Fixed
 
 - The dash app running indicator visibility.
