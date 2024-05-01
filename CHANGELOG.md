@@ -13,6 +13,7 @@ We go to the next version after each release on the
 
 ### Fixed
 
+- Alt-Tab Switcher list Item Background Color for Shell Theme Override (GNOME Shell 46).
 - The dash app running indicator visibility.
 
 ### Changed
