@@ -117,7 +117,6 @@ You can support my work by sending me some crypto:
 - **Bitcoin Cash** qzhuj2kdw4zjrg8r2j7knx5uzqdcpv5lwv5uxq04e0
 - **Ether** 0xE4A6C46E1095C49688645c132672cB04d1402026
 - **Tether** 0xE4A6C46E1095C49688645c132672cB04d1402026
-- **DOGE** DULPjoiDuhZCmv5LDeJuqYPC8Uy7NK7DnW
 
 Or support via:
 
