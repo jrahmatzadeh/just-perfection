@@ -21,6 +21,7 @@ We go to the next version after each release on the
 ### Changed
 
 - The clock menu position widget to `AdwSpinRow`.
+- The panel height maximum size to 64.
 
 ## [28.0.0 Lear] - 2024-03-06
 
