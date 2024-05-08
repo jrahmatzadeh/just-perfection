@@ -878,8 +878,8 @@ export class API
             = this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype.display;
         }
 
-        this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype.display = (index) => {
-           return false;
+        this._workspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype.display = function (index) {
+           this.destroy();
         };
     }
 
