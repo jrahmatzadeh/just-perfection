@@ -463,7 +463,7 @@ export class API
         if (this._meta.is_wayland_compositor()) {
             let duration = this.#addToAnimationDuration(180);
             this.#timeoutIds.panelHide = this._glib.timeout_add(
-                this._glib.PRIORITY_IDLE,
+                this._glib.PRIORITY_DEFAULT,
                 duration,
                 () => {
                     panelBox.hide();
