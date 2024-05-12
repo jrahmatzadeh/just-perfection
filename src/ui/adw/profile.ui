@@ -152,6 +152,18 @@
           </object>
         </child>
 
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">YouTube Channel</property>
+            <property name="activatable-widget">youtube_linkbutton</property>
+            <child>
+              <object class="GtkLinkButton" id="youtube_linkbutton">
+                <property name="uri">https://www.youtube.com/channel/UCIPetZTndV_mB3GT6tNQ2Zw</property>
+              </object>
+            </child>
+          </object>
+        </child>
+
       </object>
     </child>
     
