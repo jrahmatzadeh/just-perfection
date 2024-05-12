@@ -108,6 +108,11 @@
     <child>
       <object class="AdwPreferencesGroup" id="support_group">
         <property name="title" translatable="yes">Support</property>
+        <property name="description">With nearly one million downloads, the Just Perfection extension has enhanced the GNOME Shell experience for many users. However, ongoing development requires your support to keep the extension alive.
+
+If you find the Just Perfection extension valuable, please consider making a donation.
+
+Your contribution will not only ensure the continued development of Just Perfection but also enable me to maintain high code quality across all GNOME extensions I review daily and also help the other extension developers with the porting guides on each GNOME Shell release.</property>
 
         <child>
           <object class="AdwActionRow">

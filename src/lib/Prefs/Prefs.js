@@ -129,7 +129,7 @@ export class Prefs
         let [pmWidth, pmHeight, pmScale] = this.#getPrimaryMonitorInfo();
         let sizeTolerance = 50;
         let width = 600;
-        let height = 650;
+        let height = 730;
 
         if (
             (pmWidth / pmScale) - sizeTolerance >= width &&
