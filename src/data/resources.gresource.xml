@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gnome/Shell/Extensions/justperfection">
+    <file preprocess="xml-stripblanks">ui/behavior.ui</file>
+    <file preprocess="xml-stripblanks">ui/customize.ui</file>
+    <file preprocess="xml-stripblanks">ui/icons.ui</file>
+    <file preprocess="xml-stripblanks">ui/profile.ui</file>
+    <file preprocess="xml-stripblanks">ui/visibility.ui</file>
+  </gresource>
+</gresources>

@@ -1,3 +1,4 @@
 *~
 *.zip
+*.gresource
 node_modules

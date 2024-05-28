@@ -10,13 +10,17 @@ set -e
 # cd to the repo root
 cd "$( cd "$( dirname "$0" )" && pwd )/.."
 
+echo "Compiling Resources..."
+glib-compile-resources \
+    --sourcedir src/data \
+    src/data/resources.gresource.xml
+
 echo "Packing extension..."
 gnome-extensions pack src \
     --force \
     --podir="../po" \
-    --extra-source="bin" \
+    --extra-source="data/resources.gresource" \
     --extra-source="lib" \
-    --extra-source="ui" \
     --extra-source="../LICENSE" \
     --extra-source="../CHANGELOG.md"
 

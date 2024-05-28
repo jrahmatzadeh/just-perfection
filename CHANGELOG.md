@@ -10,6 +10,7 @@ We go to the next version after each release on the
 ### Added
 
 - Maximum Displayed Search Results feature (GNOME Shell 45 and higher).
+- Gresources compiled file for the preferences window to load faster.
 
 ### Fixed
 
