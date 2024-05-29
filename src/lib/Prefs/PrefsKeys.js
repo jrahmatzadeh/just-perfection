@@ -829,7 +829,7 @@ export class PrefsKeys
      *  if the index is 1 use 32 as value:
      *  {1 : 32}
      *
-     * @returns {Object} key object that has been set
+     * @returns {void}
      */
     #setKey(category, name, widgetType, supported, profiles, maps)
     {
@@ -855,8 +855,6 @@ export class PrefsKeys
             profiles,
             maps,
         }
-
-        return this.keys[id];
     }
 
     /**
