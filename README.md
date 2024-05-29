@@ -81,8 +81,8 @@ This extension allows you to do the following:
 
 | GNOME Shell Version | End Of Support | Status             | Last Version  |
 | ------------------- | -------------- | ------------------ | ------------- |
-| 46                  | TBA            | Supported          | 28            |
-| 45                  | TBA            | Supported          | 28            |
+| 46                  | July 2028      | Supported          | 28            |
+| 45                  | July 2025      | Supported          | 28            |
 | 44                  | July 2024      | No New Features    | 26            |
 | 43                  | July 2023      | EOS                | 26            |
 | 42                  | July 2026      | No New Features    | 26            |
