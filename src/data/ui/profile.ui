@@ -115,6 +115,24 @@ If you find the Just Perfection extension valuable, please consider making a don
 Your contribution will not only ensure the continued development of Just Perfection but also enable me to maintain high code quality across all GNOME extensions I review daily and also help the other extension developers with the porting guides on each GNOME Shell release.</property>
 
         <child>
+          <object class="GtkBox">
+            <property name="halign">center</property>
+            <child>
+              <object class="GtkPicture" id="donation_picture">
+                <property name="can-shrink">False</property>
+                <property name="file">resource:///org/gnome/Shell/Extensions/justperfection/imgs/donation.svg</property>
+              </object>
+            </child>
+          </object>
+        </child>
+
+      </object>
+    </child>
+
+    <child>
+      <object class="AdwPreferencesGroup" id="support_links_group">
+
+        <child>
           <object class="AdwActionRow">
             <property name="title" translatable="yes">Support via Patreon</property>
             <property name="activatable-widget">patreon_linkbutton</property>
@@ -173,5 +191,5 @@ Your contribution will not only ensure the continued development of Just Perfect
     </child>
     
   </object>
-  
+
 </interface>
