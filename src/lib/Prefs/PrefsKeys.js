@@ -850,7 +850,7 @@ export class PrefsKeys
             supported,
             profiles,
             maps,
-        }
+        };
     }
 
     /**
