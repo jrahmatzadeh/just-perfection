@@ -83,6 +83,7 @@ export class API
      *   'WorkspaceThumbnail' reference to ui::workspaceThumbnail
      *   'WorkspacesView' reference to ui::workspacesView
      *   'Panel' reference to ui::panel
+     *   'PanelMenu' reference to ui::panelMenu
      *   'WindowPreview' reference to ui::windowPreview
      *   'Workspace' reference to ui::workspace
      *   'LookingGlass' reference to ui::lookingGlass
@@ -111,6 +112,7 @@ export class API
         this._workspaceThumbnail = dependencies['WorkspaceThumbnail'] || null;
         this._workspacesView = dependencies['WorkspacesView'] || null;
         this._panel = dependencies['Panel'] || null;
+        this._panelMenu = dependencies['PanelMenu'] || null;
         this._windowPreview = dependencies['WindowPreview'] || null;
         this._workspace = dependencies['Workspace'] || null;
         this._lookingGlass = dependencies['LookingGlass'] || null;
@@ -1224,6 +1226,7 @@ export class API
             let topY = (monitorInfo) ? monitorInfo.y : 0;
             panelBox.set_position(topX, topY);
             this.UIStyleClassRemove(this.#getAPIClassname('bottom-panel'));
+            this.#fixPanelMenuSide(this._st.Side.TOP);
             this.#fixLookingGlassPosition();
             return;
         }
@@ -1253,7 +1256,59 @@ export class API
             });
         }
 
+        this.#fixPanelMenuSide(this._st.Side.BOTTOM);
         this.#fixLookingGlassPosition();
+    }
+
+    /**
+     * fix panel menu opening side based on panel position
+     *
+     * @param {number} position St.Side value
+     *   is the same
+     *
+     * @returns {void}
+     */
+    #fixPanelMenuSide(position)
+    {
+        let PanelMenuButton = this._panelMenu.Button;
+        let PanelMenuButtonProto = PanelMenuButton.prototype;
+
+        // Set Instances
+        let findPanelMenus = (widget) => {
+            if (widget instanceof PanelMenuButton && widget.menu?._boxPointer) {
+                widget.menu._boxPointer._userArrowSide = position;
+            }
+            widget.get_children().forEach(subWidget => {
+                findPanelMenus(subWidget)
+            });
+        }
+
+        let panelBoxes = [
+            this._main.panel._centerBox,
+            this._main.panel._rightBox,
+            this._main.panel._leftBox,
+        ];
+        panelBoxes.forEach(panelBox => findPanelMenus(panelBox));
+
+        // Set Prototypes
+        if (position === this._st.Side.TOP) {
+            // reset to default since GNOME Shell panel is top by default
+            if (PanelMenuButtonProto._setMenuOld) {
+                PanelMenuButtonProto.setMenu = PanelMenuButtonProto._setMenuOld;
+            }
+            return;
+        }
+
+        if (!PanelMenuButtonProto._setMenuOld) {
+            PanelMenuButtonProto._setMenuOld = PanelMenuButtonProto.setMenu;
+        }
+
+        PanelMenuButtonProto.setMenu = function (menu) {
+            this._setMenuOld(menu);
+            if (menu) {
+                menu._boxPointer._userArrowSide = position;
+            }
+        }
     }
 
     /**

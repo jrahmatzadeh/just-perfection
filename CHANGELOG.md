@@ -16,6 +16,7 @@ We go to the next version after each release on the
 
 - Alt-Tab Switcher list Item Background Color for Shell Theme Override (GNOME Shell 46).
 - Hidden panel timeout priority on Wayland.
+- Panel Menu not Showing Up On Bottom Panel When the Height is Larger than the Screen Height.
 - The dash app running indicator visibility.
 - Workspace Popup visibility CPU usage.
 - Japanese Translation by [@gnuey56](https://gitlab.gnome.org/gnuey56).
