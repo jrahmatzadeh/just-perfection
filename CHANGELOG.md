@@ -9,6 +9,7 @@ We go to the next version after each release on the
 
 ### Added
 
+- Dark Mode Toggle Button Visibility in Quick Settings.
 - Maximum Displayed Search Results feature (GNOME Shell 45 and higher).
 - Gresources compiled file for the preferences window to load faster.
 

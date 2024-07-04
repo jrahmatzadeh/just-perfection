@@ -398,6 +398,12 @@
       <description>Max Displayed Search Results</description>
     </key>
 
+    <key type="b" name="quick-settings-dark-mode">
+      <default>true</default>
+      <summary>Dark Mode Toggle Button Visibility In Quick Settings</summary>
+      <description>Dark Mode Toggle Button Visibility Status</description>
+    </key>
+
   </schema>
 
 </schemalist>

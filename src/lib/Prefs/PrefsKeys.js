@@ -130,6 +130,18 @@ export class PrefsKeys
 
         this.#setKey(
             'visibility',
+            'quick-settings-dark-mode',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superminimal: true,
+            }
+        );
+
+        this.#setKey(
+            'visibility',
             'screen-sharing-indicator',
             'GtkSwitch',
             this.#shellVersion >= 43,

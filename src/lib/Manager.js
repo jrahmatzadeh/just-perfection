@@ -111,6 +111,10 @@ export class Manager
             this.#applyQuickSettings(false);
         });
 
+        this.#settings.connect('changed::quick-settings-dark-mode', () => {
+            this.#applyQuickSettingsDarkMode(false);
+        });
+
         this.#settings.connect('changed::window-picker-icon', () => {
             this.#applyWindowPickerIcon(false);
         });
@@ -320,6 +324,7 @@ export class Manager
         this.#applyKeyboardLayout(false);
         this.#applyAccessibilityMenu(false);
         this.#applyQuickSettings(false);
+        this.#applyQuickSettingsDarkMode(false);
         this.#applyWindowPickerIcon(false);
         this.#applyTypeToSearch(false);
         this.#applyWorkspaceSwitcherSize(false);
@@ -386,6 +391,7 @@ export class Manager
         this.#applyKeyboardLayout(true);
         this.#applyAccessibilityMenu(true);
         this.#applyQuickSettings(true);
+        this.#applyQuickSettingsDarkMode(true);
         this.#applyWindowPickerIcon(true);
         this.#applyTypeToSearch(true);
         this.#applyWorkspaceSwitcherSize(true);
@@ -659,6 +665,22 @@ export class Manager
             this.#api.quickSettingsMenuShow();
         } else {
             this.#api.quickSettingsMenuHide();
+        }
+    }
+
+    /**
+     * apply quick settings dark mode
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    #applyQuickSettingsDarkMode(forceOriginal)
+    {
+        if (forceOriginal || this.#settings.get_boolean('quick-settings-dark-mode')) {
+            this.#api.quickSettingsDarkStyleToggleShow();
+        } else {
+            this.#api.quickSettingsDarkStyleToggleHide();
         }
     }
 

@@ -101,6 +101,19 @@
         </child>
 
         <child>
+          <object class="AdwActionRow" id="quick_settings_dark_mode_row">
+            <property name="title" translatable="yes">Dark Mode Toggle Button</property>
+            <property name="subtitle" translatable="yes">Dark Mode Toggle Button in Quick settings menu</property>
+            <property name="activatable-widget">quick_settings_dark_mode_switch</property>
+            <child>
+              <object class="GtkSwitch" id="quick_settings_dark_mode_switch">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+
+        <child>
           <object class="AdwActionRow" id="screen_sharing_indicator_row">
             <property name="title" translatable="yes">Screen Sharing Indicator</property>
             <property name="subtitle" translatable="yes">Screen sharing indicator in panel</property>

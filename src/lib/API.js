@@ -3178,6 +3178,49 @@ export class API
     {
         this.UIStyleClassAdd(this.#getAPIClassname('no-dash-app-running-dot'));
     }
+
+    /**
+     * show dark style toggle button in quick settings
+     *
+     * @returns {void}
+     */
+    quickSettingsDarkStyleToggleShow()
+    {
+        this.#onQuickSettingsPropertyCall('_darkMode', (darkMode) => {
+	        darkMode.quickSettingsItems[0].show();
+	    });
+    }
+
+    /**
+     * hide dark style toggle button in quick settings
+     *
+     * @returns {void}
+     */
+    quickSettingsDarkStyleToggleHide()
+    {
+        this.#onQuickSettingsPropertyCall('_darkMode', (darkMode) => {
+	        darkMode.quickSettingsItems[0].hide();
+	    });
+    }
+
+    /**
+     * set workspaces view spacing size
+     *
+     * @param {string} propertyName
+     * @param {Function} func function to call when the property is available
+     *
+     * @returns {void}
+     */
+    #onQuickSettingsPropertyCall(propertyName, func)
+	{
+	    const quickSettings = this._main.panel.statusArea.quickSettings;
+
+        this._glib.idle_add(this._glib.PRIORITY_DEFAULT_IDLE, () => {
+            if (!quickSettings[propertyName]) {
+                return this._glib.SOURCE_CONTINUE;
+            }
+            func(quickSettings[propertyName]);
+            return this._glib.SOURCE_REMOVE;
+        });
+	}
 }
-
-
