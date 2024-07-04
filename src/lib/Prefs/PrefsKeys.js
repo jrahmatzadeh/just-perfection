@@ -120,7 +120,7 @@ export class PrefsKeys
             'visibility',
             'quick-settings',
             'GtkSwitch',
-            this.#shellVersion >= 43,
+            true,
             {
                 default: true,
                 minimal: true,
@@ -144,7 +144,7 @@ export class PrefsKeys
             'visibility',
             'screen-sharing-indicator',
             'GtkSwitch',
-            this.#shellVersion >= 43,
+            true,
             {
                 default: true,
                 minimal: true,
@@ -156,7 +156,7 @@ export class PrefsKeys
             'visibility',
             'screen-recording-indicator',
             'GtkSwitch',
-            this.#shellVersion >= 43,
+            true,
             {
                 default: true,
                 minimal: true,
