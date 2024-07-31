@@ -82,9 +82,9 @@ This extension allows you to do the following:
 
 | GNOME Shell Version | End Of Support | Status             | Last Version  |
 | ------------------- | -------------- | ------------------ | ------------- |
-| 47                  | TBA            | Yes           | Not Released  |
-| 46                  | July 2028      | Yes           | 29            |
-| 45                  | July 2025      | Yes           | 29            |
+| 47                  | TBA            | Yes                | Not Released  |
+| 46                  | July 2028      | Yes                | 29            |
+| 45                  | July 2025      | Yes                | 29            |
 | 44                  | July 2024      | No New Features    | 26            |
 | 43                  | July 2023      | EOS                | 26            |
 | 42                  | July 2026      | No New Features    | 26            |
