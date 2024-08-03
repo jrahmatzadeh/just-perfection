@@ -3223,4 +3223,24 @@ export class API
             return this._glib.SOURCE_REMOVE;
         });
     }
+
+    /**
+     * enable accent color icon
+     *
+     * @returns {void}
+     */
+    accentColorIconEnable()
+    {
+        this.UIStyleClassAdd(this.#getAPIClassname('accent-color-icon'));
+    }
+
+    /**
+     * disable accent color icon
+     *
+     * @returns {void}
+     */
+    accentColorIconDisable()
+    {
+        this.UIStyleClassRemove(this.#getAPIClassname('accent-color-icon'));
+    }
 }

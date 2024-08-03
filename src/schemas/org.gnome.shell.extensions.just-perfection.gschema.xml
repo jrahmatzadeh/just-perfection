@@ -404,6 +404,12 @@
       <description>Dark Mode Toggle Button Visibility Status</description>
     </key>
 
+    <key type="b" name="accent-color-icon">
+      <default>false</default>
+      <summary>Accent Color for Icons</summary>
+      <description>Use Accent for Icons</description>
+    </key>
+
   </schema>
 
 </schemalist>

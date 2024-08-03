@@ -11,6 +11,19 @@
       <property name="title" translatable="yes">Customize</property>
 
         <child>
+          <object class="AdwActionRow" id="accent_color_icon_row">
+            <property name="title" translatable="yes">Accent Color for Icons</property>
+            <property name="subtitle" translatable="yes">Use acccent color for all symbolic icons</property>
+            <property name="activatable-widget">accent_color_icon_switch</property>
+            <child>
+              <object class="GtkSwitch" id="accent_color_icon_switch">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+
+        <child>
           <object class="AdwComboRow" id="controls_manager_spacing_size_row">
             <property name="title" translatable="yes">Overview Spacing Size</property>
             <property name="subtitle" translatable="yes">The spacing size for controls manager in overview</property>

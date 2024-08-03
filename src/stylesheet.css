@@ -152,6 +152,23 @@
     border-radius: 0;
 }
 
+.just-perfection-api-accent-color-icon StIcon
+{
+    color: -st-accent-color;
+}
+
+.just-perfection-api-accent-color-icon #panelActivities .workspace-dot
+{
+    background-color: -st-accent-color;
+}
+
+.just-perfection-api-accent-color-icon .quick-toggle-menu .icon.active,
+.just-perfection-api-accent-color-icon .quick-toggle:checked StIcon,
+.just-perfection-api-accent-color-icon .quick-menu-toggle .quick-toggle-arrow:checked StIcon
+{
+    color: -st-accent-fg-color;
+}
+
 .just-perfection-api-no-search #overview
 {
     spacing: 0;

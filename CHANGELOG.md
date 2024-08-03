@@ -7,6 +7,10 @@ We go to the next version after each release on the
 
 ## [Unreleased]
 
+### Added
+
+- Accent Color for Icons.
+
 ## [30.0] - 2024-07-31
 
 ### Added

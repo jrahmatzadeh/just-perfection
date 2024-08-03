@@ -538,6 +538,18 @@ export class PrefsKeys
 
         this.#setKey(
             'customize',
+            'accent-color-icon',
+            'GtkSwitch',
+            (this.#shellVersion >= 47),
+            {
+                default: false,
+                minimal: false,
+                superminimal: false,
+            }
+        );
+
+        this.#setKey(
+            'customize',
             'controls-manager-spacing-size',
             'AdwActionRow',
             true,

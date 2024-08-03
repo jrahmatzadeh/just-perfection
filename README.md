@@ -9,6 +9,7 @@ This extension allows you to do the following:
 | Feature                                              | 3.36 | 3.38 | 40   | 41   | 42   | 43   | 44   | 45   | 46   | 47   |
 | ---------------------------------------------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | Accessibility Menu Visibility                        | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
+| Accent Color for Icons                               |      |      |      |      |      |      |      |      |      | Yes  |
 | Activities Button Icon                               | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |      |      |      |
 | Activities button Visibility                         | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Alt Tab Icon Size                                    | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |

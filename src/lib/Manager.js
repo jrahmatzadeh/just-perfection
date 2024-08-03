@@ -302,6 +302,10 @@ export class Manager
         this.#settings.connect('changed::max-displayed-search-results', () => {
             this.#applyMaxDisplayedSearchResults(false);
         });
+
+        this.#settings.connect('changed::accent-color-icon', () => {
+            this.#applyAccentColorIcon(false);
+        });
     }
 
     /**
@@ -369,6 +373,7 @@ export class Manager
         this.#applyWorkspacePeek(false);
         this.#applyDashAppRunning(false);
         this.#applyMaxDisplayedSearchResults(false);
+        this.#applyAccentColorIcon(false);
     }
 
     /**
@@ -436,6 +441,7 @@ export class Manager
         this.#applyWorkspacePeek(true);
         this.#applyDashAppRunning(true);
         this.#applyMaxDisplayedSearchResults(true);
+        this.#applyAccentColorIcon(true);
     }
 
     /**
@@ -1475,6 +1481,22 @@ export class Manager
             this.#api.setMaxDisplayedSearchResultToDefault();
         } else {
             this.#api.setMaxDisplayedSearchResult(items);
+        }
+    }
+
+    /**
+     * apply accent color icon
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    #applyAccentColorIcon(forceOriginal)
+    {
+        if (forceOriginal || !this.#settings.get_boolean('accent-color-icon')) {
+            this.#api.accentColorIconDisable();
+        } else {
+            this.#api.accentColorIconEnable();
         }
     }
 }
