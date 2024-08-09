@@ -708,7 +708,8 @@
 .just-perfection-api-osd-position-bottom .osd-window { margin: 4em 3em; }
 
 .just-perfection-api-no-dash-separator .dash-separator,
-.just-perfection-api-no-dash-app-running-dot #dash .app-well-app-running-dot
+.just-perfection-api-no-dash-app-running-dot #dash .app-well-app-running-dot,
+.just-perfection-api-no-dash-app-running-dot #dash .app-grid-running-dot
 {
     width: 0;
     height: 0;

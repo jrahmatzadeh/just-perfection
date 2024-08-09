@@ -11,6 +11,10 @@ We go to the next version after each release on the
 
 - Accent Color for Icons.
 
+### Fixed
+
+- The dash app running indicator visibility (GNOME Shell 46 and 47).
+
 ## [30.0] - 2024-07-31
 
 ### Added
