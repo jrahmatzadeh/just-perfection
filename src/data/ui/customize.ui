@@ -13,7 +13,7 @@
         <child>
           <object class="AdwActionRow" id="accent_color_icon_row">
             <property name="title" translatable="yes">Accent Color for Icons</property>
-            <property name="subtitle" translatable="yes">Use acccent color for all symbolic icons</property>
+            <property name="subtitle" translatable="yes">Use accent color for all symbolic icons</property>
             <property name="activatable-widget">accent_color_icon_switch</property>
             <child>
               <object class="GtkSwitch" id="accent_color_icon_switch">
@@ -163,7 +163,7 @@
         <child>
           <object class="AdwComboRow" id="max_displayed_search_results_row">
             <property name="title" translatable="yes">Maximum Displayed Search Results</property>
-            <property name="subtitle" translatable="yes">The maximum displaed search result items showing up in the search page</property>
+            <property name="subtitle" translatable="yes">The maximum displayed search result items showing up in the search page</property>
             <property name="model">max_displayed_search_results_model</property>
           </object>
         </child>
