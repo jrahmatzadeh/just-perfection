@@ -155,7 +155,7 @@
 
     <key type="i" name="animation">
       <default>1</default>
-      <range min="0" max="7"/>
+      <range min="0" max="8"/>
       <summary>0 means disabled, 1 means default speed, animation speed otherwise</summary>
       <description>Animation Status</description>
     </key>
