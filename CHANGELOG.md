@@ -14,6 +14,7 @@ We go to the next version after each release on the
 ### Fixed
 
 - The dash app running indicator visibility (GNOME Shell 46 and 47).
+- Search margin when using high display scale factor and panel in overview feature.
 - Slowest animation.
 
 ## [30.0] - 2024-07-31

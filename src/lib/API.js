@@ -419,7 +419,11 @@ export class API
         if (panelPosition === PANEL_POSITION.TOP) {
             // when panel is hidden the first element gets too close to the top,
             // so we fix it with top margin in search entry
-            let marginTop = (mode === PANEL_HIDE_MODE.ALL) ? 15 : panelHeight;
+            // the panel height is the actual scaled height
+            // css engine applies the scale automatically so we need to use
+            // the original non-scaled value as initial value 
+            const scaleFactor = this._st.ThemeContext.get_for_stage(global.stage).scale_factor;
+            let marginTop = (mode === PANEL_HIDE_MODE.ALL) ? 15 : Math.round(panelHeight / scaleFactor);
             searchEntryParent.set_style(`margin-top: ${marginTop}px;`);
         } else {
             searchEntryParent.set_style(`margin-top: 0;`);
