@@ -115,6 +115,10 @@ export class Manager
             this.#applyQuickSettingsDarkMode(false);
         });
 
+        this.#settings.connect('changed::quick-settings-night-light', () => {
+            this.#applyQuickSettingsNightLight(false);
+        });
+
         this.#settings.connect('changed::window-picker-icon', () => {
             this.#applyWindowPickerIcon(false);
         });
@@ -329,6 +333,7 @@ export class Manager
         this.#applyAccessibilityMenu(false);
         this.#applyQuickSettings(false);
         this.#applyQuickSettingsDarkMode(false);
+        this.#applyQuickSettingsNightLight(false);
         this.#applyWindowPickerIcon(false);
         this.#applyTypeToSearch(false);
         this.#applyWorkspaceSwitcherSize(false);
@@ -397,6 +402,7 @@ export class Manager
         this.#applyAccessibilityMenu(true);
         this.#applyQuickSettings(true);
         this.#applyQuickSettingsDarkMode(true);
+        this.#applyQuickSettingsNightLight(true);
         this.#applyWindowPickerIcon(true);
         this.#applyTypeToSearch(true);
         this.#applyWorkspaceSwitcherSize(true);
@@ -687,6 +693,22 @@ export class Manager
             this.#api.quickSettingsDarkStyleToggleShow();
         } else {
             this.#api.quickSettingsDarkStyleToggleHide();
+        }
+    }
+
+    /**
+     * apply quick settings night light
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    #applyQuickSettingsNightLight(forceOriginal)
+    {
+        if (forceOriginal || this.#settings.get_boolean('quick-settings-night-light')) {
+            this.#api.quickSettingsNightLightToggleShow();
+        } else {
+            this.#api.quickSettingsNightLightToggleHide();
         }
     }
 

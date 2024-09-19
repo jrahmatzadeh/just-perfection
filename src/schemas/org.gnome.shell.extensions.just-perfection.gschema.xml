@@ -404,6 +404,12 @@
       <description>Dark Mode Toggle Button Visibility Status</description>
     </key>
 
+    <key type="b" name="quick-settings-night-light">
+      <default>true</default>
+      <summary>Night Light Toggle Button Visibility In Quick Settings</summary>
+      <description>Night Light Toggle Button Visibility Status</description>
+    </key>
+
     <key type="b" name="accent-color-icon">
       <default>false</default>
       <summary>Accent Color for Icons</summary>

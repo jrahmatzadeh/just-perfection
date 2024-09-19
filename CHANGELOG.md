@@ -10,6 +10,7 @@ We go to the next version after each release on the
 ### Added
 
 - Accent Color for Icons.
+- Night Light Toggle Button Visibility in Quick Settings.
 
 ### Fixed
 

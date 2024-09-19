@@ -3208,6 +3208,30 @@ export class API
     }
 
     /**
+     * show night light toggle button in quick settings
+     *
+     * @returns {void}
+     */
+    quickSettingsNightLightToggleShow()
+    {
+        this.#onQuickSettingsPropertyCall('_nightLight', (nightLight) => {
+            nightLight.quickSettingsItems[0].show();
+        });
+    }
+
+    /**
+     * hide night light toggle button in quick settings
+     *
+     * @returns {void}
+     */
+    quickSettingsNightLightToggleHide()
+    {
+        this.#onQuickSettingsPropertyCall('_nightLight', (nightLight) => {
+            nightLight.quickSettingsItems[0].hide();
+        });
+    }
+
+    /**
      * set workspaces view spacing size
      *
      * @param {string} propertyName

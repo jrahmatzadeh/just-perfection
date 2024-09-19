@@ -56,6 +56,7 @@ This extension allows you to do the following:
 | Power Icon Visibility                                | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Quick Settings Menu Visibility                       |      |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Quick Settings Dark Mode Toggle Visibility           |      |      |      |      |      |      |      | Yes  | Yes  | Yes  |
+| Quick Settings Night Light Toggle Visibility         |      |      |      |      |      |      |      | Yes  | Yes  | Yes  |
 | Ripple Box                                           | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Screen Recording Indicator Visibility                |      |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Screen Sharing Indicator Visibility                  |      |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  |

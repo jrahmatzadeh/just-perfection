@@ -142,6 +142,18 @@ export class PrefsKeys
 
         this.#setKey(
             'visibility',
+            'quick-settings-night-light',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superminimal: true,
+            }
+        );
+
+        this.#setKey(
+            'visibility',
             'screen-sharing-indicator',
             'GtkSwitch',
             true,
