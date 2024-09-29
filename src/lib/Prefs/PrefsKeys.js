@@ -514,6 +514,18 @@ export class PrefsKeys
 
         this.#setKey(
             'behavior',
+            'workspace-thumbnail-to-main-view',
+            'GtkSwitch',
+            true,
+            {
+                default: false,
+                minimal: false,
+                superminimal: false,
+            }
+        );
+
+        this.#setKey(
+            'behavior',
             'overlay-key',
             'GtkSwitch',
             true,

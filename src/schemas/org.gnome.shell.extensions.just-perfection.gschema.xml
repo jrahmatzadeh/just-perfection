@@ -416,6 +416,12 @@
       <description>Use Accent for Icons</description>
     </key>
 
+    <key type="b" name="workspace-thumbnail-to-main-view">
+      <default>false</default>
+      <summary>Workspace Thumbnail Click Always Goes To The Main View</summary>
+      <description>Workspace Thumbnail Click to Main View</description>
+    </key>
+
   </schema>
 
 </schemalist>

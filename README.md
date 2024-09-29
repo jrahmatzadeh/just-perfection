@@ -74,6 +74,7 @@ This extension allows you to do the following:
 | Workspace Background Corner Size in Overview         |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Workspace Peek                                       |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Workspace Popup Visibility                           | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
+| Workspace Switcher Click To Main View                |      |      |      |      |      |      |      | Yes  | Yes  | Yes  |
 | Workspace Switcher Size                              |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Workspace Switcher Visibility                        | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Workspace Wraparound                                 | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |

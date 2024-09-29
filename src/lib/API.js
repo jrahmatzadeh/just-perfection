@@ -970,6 +970,54 @@ export class API
     }
 
     /**
+     * use default behavior for the workspace thumbnail click
+     *
+     * @returns {void}
+     */
+    workspaceThumbnailClickToDefault()
+    {
+        if (this.#originals['WorkspaceThumbnailActivate'] === undefined) {
+            return;
+        }
+
+        let WorkspaceThumbnailProto = this._workspaceThumbnail.WorkspaceThumbnail.prototype;
+
+        WorkspaceThumbnailProto.activate = this.#originals['WorkspaceThumbnailActivate'];
+
+        delete(this.#originals['WorkspaceThumbnailActivate']);
+    }
+
+    /**
+     * workspace thumbnail click always goes to the main view
+     * instead of just changing the workspace
+     *
+     * @returns {void}
+     */
+    workspaceThumbnailClickToMainView()
+    {
+        if (this.#originals['WorkspaceThumbnailActivate']) {
+            return;
+        }
+
+        let WorkspaceThumbnailProto = this._workspaceThumbnail.WorkspaceThumbnail.prototype;
+
+        this.#originals['WorkspaceThumbnailActivate'] = WorkspaceThumbnailProto.activate;
+
+        const Main = this._main;
+        const ThumbnailState = this._workspaceThumbnail.ThumbnailState;
+
+        WorkspaceThumbnailProto.activate = function (time) {
+            if (this.state > ThumbnailState.NORMAL) {
+                return;
+            }
+            if (!this.metaWorkspace.active) {
+                this.metaWorkspace.activate(time);
+            }
+            Main.overview.hide();
+        };
+    }
+
+    /**
      * add element to stage
      *
      * @param {St.Widget} element widget 

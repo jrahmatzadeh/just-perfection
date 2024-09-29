@@ -37,6 +37,19 @@
         </child>
 
         <child>
+          <object class="AdwActionRow" id="workspace_thumbnail_to_main_view_row">
+            <property name="title" translatable="yes">Workspace Switcher Click to The Main View</property>
+            <property name="subtitle" translatable="yes">Workspace switcher click always goes to the main view of the workspace.</property>
+            <property name="activatable-widget">workspace_thumbnail_to_main_view_switch</property>
+            <child>
+              <object class="GtkSwitch" id="workspace_thumbnail_to_main_view_switch">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+
+        <child>
           <object class="AdwActionRow" id="window_demands_attention_focus_row">
             <property name="title" translatable="yes">Window Demands Attention Focus</property>
             <property name="subtitle" translatable="yes">Removes window is ready notification and focus on the window</property>

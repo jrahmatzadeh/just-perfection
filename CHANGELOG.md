@@ -11,6 +11,7 @@ We go to the next version after each release on the
 
 - Accent Color for Icons.
 - Night Light Toggle Button Visibility in Quick Settings.
+- Workspace Switcher Click Always Goes to The Main View.
 
 ### Fixed
 

@@ -310,6 +310,10 @@ export class Manager
         this.#settings.connect('changed::accent-color-icon', () => {
             this.#applyAccentColorIcon(false);
         });
+
+        this.#settings.connect('changed::workspace-thumbnail-to-main-view', () => {
+            this.#applyWorkspaceThumbnailToMainView(false);
+        });
     }
 
     /**
@@ -379,6 +383,7 @@ export class Manager
         this.#applyDashAppRunning(false);
         this.#applyMaxDisplayedSearchResults(false);
         this.#applyAccentColorIcon(false);
+        this.#applyWorkspaceThumbnailToMainView(false);
     }
 
     /**
@@ -448,6 +453,7 @@ export class Manager
         this.#applyDashAppRunning(true);
         this.#applyMaxDisplayedSearchResults(true);
         this.#applyAccentColorIcon(true);
+        this.#applyWorkspaceThumbnailToMainView(true);
     }
 
     /**
@@ -1519,6 +1525,22 @@ export class Manager
             this.#api.accentColorIconDisable();
         } else {
             this.#api.accentColorIconEnable();
+        }
+    }
+
+    /**
+     * apply workspace thumbnail to main view
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    #applyWorkspaceThumbnailToMainView(forceOriginal)
+    {
+        if (forceOriginal || !this.#settings.get_boolean('workspace-thumbnail-to-main-view')) {
+            this.#api.workspaceThumbnailClickToDefault();
+        } else {
+            this.#api.workspaceThumbnailClickToMainView();
         }
     }
 }
