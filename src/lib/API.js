@@ -1845,14 +1845,22 @@ export class API
         // Since workspace background has shadow around it, it can cause
         // unwanted shadows in app grid when the workspace height is 0.
         // so we are removing the shadow when we are in app grid
-        if (!this._appButtonForComputeWorkspacesSignal) {
+        // but first, we need to remove the already connected signals
+        // since this function can be called in different situations
+        // (ie. workspace app grid, search visibility)
+        let showAppsButton = this._main.overview.dash.showAppsButton;
+        let classname = this.#getAPIClassname('no-workspaces-in-app-grid');
+        if (this._appButtonForComputeWorkspacesSignal) {
+            showAppsButton.disconnect(this._appButtonForComputeWorkspacesSignal);
+            this.UIStyleClassRemove(classname);
+        }
+
+        if (!this.#isWorkspacesInAppGridEnabled()) {
             this._appButtonForComputeWorkspacesSignal =
-            this._main.overview.dash.showAppsButton.connect(
+            showAppsButton.connect(
                 'notify::checked',
                 () => {
-                    let checked = this._main.overview.dash.showAppsButton.checked;
-                    let classname = this.#getAPIClassname('no-workspaces-in-app-grid');
-                    if (checked) {
+                    if (showAppsButton.checked) {
                         this.UIStyleClassAdd(classname);
                     } else {
                         this.UIStyleClassRemove(classname);
@@ -1894,6 +1902,9 @@ export class API
     workspacesInAppGridDisable()
     {
         this._workspacesInAppGridHeight = 0;
+
+        this._workspacesInAppGrid = false;
+
         this.#computeWorkspacesBoxForStateChanged();
     }
 
@@ -1908,8 +1919,20 @@ export class API
             return;
         }
 
+        this._workspacesInAppGrid = true;
+
         delete(this._workspacesInAppGridHeight);
         this.#computeWorkspacesBoxForStateChanged();
+    }
+
+    /**
+     * check whether the workspaces in app grid is enabled
+     *
+     * @returns {boolean}
+     */
+    #isWorkspacesInAppGridEnabled()
+    {
+        return this._workspacesInAppGrid === undefined || this._workspacesInAppGrid;
     }
 
     /**
