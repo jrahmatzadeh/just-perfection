@@ -2620,6 +2620,84 @@ export class API
     }
 
     /**
+     * revert the calendar items position to default
+     *
+     * @returns {void}
+     */
+    revertCalendarColumnItemsToDefault()
+    {
+        if (!this._isCalendarColumnInverted) {
+            return;
+        }
+
+        let dateMenu = this._main.panel.statusArea.dateMenu;
+        let calendar = dateMenu._calendar;
+        let date = dateMenu._date;
+        let eventsItem = dateMenu._eventsItem;
+        let clocksItem = dateMenu._clocksItem;
+        let weatherItem = dateMenu._weatherItem;
+
+        let displayBox = eventsItem.get_parent();
+        if (displayBox) {
+            displayBox.remove_child(eventsItem);
+            displayBox.remove_child(clocksItem);
+            displayBox.remove_child(weatherItem);
+            displayBox.insert_child_at_index(eventsItem, 1);
+            displayBox.insert_child_at_index(clocksItem, 2);
+            displayBox.insert_child_at_index(weatherItem, 3);
+        }
+
+        let calendarBox = calendar.get_parent();
+        if (calendarBox) {
+            calendarBox.remove_child(date);
+            calendarBox.remove_child(calendar);
+            calendarBox.insert_child_at_index(date, 0);
+            calendarBox.insert_child_at_index(calendar, 1);
+        }
+
+        this._isCalendarColumnInverted = false;
+    }
+
+    /**
+     * invert the position of calendar column items
+     *
+     * @returns {void}
+     */
+    invertCalendarColumnItems()
+    {
+        if (this._isCalendarColumnInverted) {
+            return;
+        }
+
+        let dateMenu = this._main.panel.statusArea.dateMenu;
+        let calendar = dateMenu._calendar;
+        let date = dateMenu._date;
+        let eventsItem = dateMenu._eventsItem;
+        let clocksItem = dateMenu._clocksItem;
+        let weatherItem = dateMenu._weatherItem;
+
+        let displayBox = eventsItem.get_parent();
+        if (displayBox) {
+            displayBox.remove_child(clocksItem);
+            displayBox.remove_child(eventsItem);
+            displayBox.remove_child(weatherItem);
+            displayBox.insert_child_at_index(weatherItem, 1);
+            displayBox.insert_child_at_index(clocksItem, 2);
+            displayBox.insert_child_at_index(eventsItem, 3);
+        }
+
+        let calendarBox = calendar.get_parent();
+        if (calendarBox) {
+            calendarBox.remove_child(calendar);
+            calendarBox.remove_child(date);
+            calendarBox.insert_child_at_index(calendar, 1);
+            calendarBox.insert_child_at_index(date, 2);
+        }
+   
+        this._isCalendarColumnInverted = true;
+    }
+
+    /**
      * show weather in date menu
      *
      * @returns {void}
