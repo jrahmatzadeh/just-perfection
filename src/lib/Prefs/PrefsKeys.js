@@ -847,6 +847,18 @@ export class PrefsKeys
         );
 
         this.#setKey(
+            'customize',
+            'invert-calendar-column-items',
+            'GtkSwitch',
+            true,
+            {
+                default: false,
+                minimal: false,
+                superminimal: false,
+            }
+        );
+
+        this.#setKey(
             'override',
             'theme',
             'GtkSwitch',

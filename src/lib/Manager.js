@@ -314,6 +314,10 @@ export class Manager
         this.#settings.connect('changed::workspace-thumbnail-to-main-view', () => {
             this.#applyWorkspaceThumbnailToMainView(false);
         });
+
+        this.#settings.connect('changed::invert-calendar-column-items', () => {
+            this.#applyInvertCalendarColumnItems(false);
+        });
     }
 
     /**
@@ -384,6 +388,7 @@ export class Manager
         this.#applyMaxDisplayedSearchResults(false);
         this.#applyAccentColorIcon(false);
         this.#applyWorkspaceThumbnailToMainView(false);
+        this.#applyInvertCalendarColumnItems(false);
     }
 
     /**
@@ -454,6 +459,7 @@ export class Manager
         this.#applyMaxDisplayedSearchResults(true);
         this.#applyAccentColorIcon(true);
         this.#applyWorkspaceThumbnailToMainView(true);
+        this.#applyInvertCalendarColumnItems(true);
     }
 
     /**
@@ -1541,6 +1547,22 @@ export class Manager
             this.#api.workspaceThumbnailClickToDefault();
         } else {
             this.#api.workspaceThumbnailClickToMainView();
+        }
+    }
+
+    /**
+     * apply invert calendar column items
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    #applyInvertCalendarColumnItems(forceOriginal)
+    {
+        if (forceOriginal || !this.#settings.get_boolean('invert-calendar-column-items')) {
+            this.#api.revertCalendarColumnItemsToDefault();
+        } else {
+            this.#api.invertCalendarColumnItems();
         }
     }
 }

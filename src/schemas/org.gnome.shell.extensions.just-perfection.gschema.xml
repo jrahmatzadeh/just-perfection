@@ -422,6 +422,12 @@
       <description>Workspace Thumbnail Click to Main View</description>
     </key>
 
+    <key type="b" name="invert-calendar-column-items">
+      <default>false</default>
+      <summary>Invert Calendar Column Items Position</summary>
+      <description>Invert Calendar Column Items</description>
+    </key>
+
   </schema>
 
 </schemalist>

@@ -24,6 +24,19 @@
         </child>
 
         <child>
+          <object class="AdwActionRow" id="invert_calendar_column_items_row">
+            <property name="title" translatable="yes">Invert Calendar Column Items</property>
+            <property name="subtitle" translatable="yes">Invert the positions of the calendar column items</property>
+            <property name="activatable-widget">invert_calendar_column_items_switch</property>
+            <child>
+              <object class="GtkSwitch" id="invert_calendar_column_items_switch">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+
+        <child>
           <object class="AdwComboRow" id="controls_manager_spacing_size_row">
             <property name="title" translatable="yes">Overview Spacing Size</property>
             <property name="subtitle" translatable="yes">The spacing size for controls manager in overview</property>

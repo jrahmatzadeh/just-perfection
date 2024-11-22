@@ -36,6 +36,7 @@ This extension allows you to do the following:
 | Events in Clock Menu Visibility                      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | GNOME Shell Theme Override                           | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Hot Corner                                           | Yes  | Yes  | Yes  |      |      |      |      |      |      |      |
+| Invert Calendar Column Items                         |      |      |      |      |      |      |      | Yes  | Yes  | Yes  |
 | Keyboard Layout Visibility                           | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Looking Glass Size                                   | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Maximum Displayed Search Results                     |      |      |      |      |      |      |      | Yes  | Yes  | Yes  |
