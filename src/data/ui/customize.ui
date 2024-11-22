@@ -26,7 +26,7 @@
         <child>
           <object class="AdwActionRow" id="invert_calendar_column_items_row">
             <property name="title" translatable="yes">Invert Calendar Column Items</property>
-            <property name="subtitle" translatable="yes">Invert the positions of the calendar column items</property>
+            <property name="subtitle" translatable="yes">Invert the positions of the calendar column items in clock menu</property>
             <property name="activatable-widget">invert_calendar_column_items_switch</property>
             <child>
               <object class="GtkSwitch" id="invert_calendar_column_items_switch">
