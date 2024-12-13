@@ -13,6 +13,7 @@ We go to the next version after each release on the
 - Invert Calendar Column Items.
 - Night Light Toggle Button Visibility in Quick Settings.
 - Workspace Switcher Click Always Goes to The Main View.
+- Ukrainian Translation by [@vovkiv](https://gitlab.gnome.org/vovkiv).
 
 ### Fixed
 
