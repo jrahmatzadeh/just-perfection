@@ -1,0 +1,624 @@
+# Ukrainian translation for "Just Perfection" GNOME extension.
+# Copyright (C) 2024 Just Perfection
+# This file is distributed under the same license as the Just Perfection package.
+# volkov <volkovissocool@gmail.com>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Just Perfection 3\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/jrahmatzadeh/just-perfection/-/issues\n"
+"POT-Creation-Date: 2024-03-16 03:25-0700\n"
+"PO-Revision-Date: 2024-12-13 15:24+0200\n"
+"Last-Translator: volkov <volkovissocool@gmail.com>\n"
+"Language-Team: volkov <volkovissocool@gmail.com>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: src/ui/adw/behavior.ui:6 src/ui/adw/behavior.ui:11
+msgid "Behavior"
+msgstr "Поведінка"
+
+#: src/ui/adw/behavior.ui:15
+msgid "Workspace Wraparound"
+msgstr "Огортання робочих просторів"
+
+#: src/ui/adw/behavior.ui:16
+msgid ""
+"Next workspace will be the first workspace when you are in the last "
+"workspace. and previous workspace will be the last workspace when you are in "
+"the first workspace."
+msgstr ""
+"Наступний робочий простір стане першим коли ви у останньому робочому "
+"просторі, і попередній стане останнім робочим простором коли ви у першому."
+
+#: src/ui/adw/behavior.ui:28
+msgid "Workspace Peek"
+msgstr "Підглядання на робочі простори"
+
+#: src/ui/adw/behavior.ui:29
+msgid "Whether the next and previous workspace should be visible in overview."
+msgstr "Чи будуть наступні і попередні робочі простори видимі у Діяльності."
+
+#: src/ui/adw/behavior.ui:41
+msgid "Window Demands Attention Focus"
+msgstr "Вікна потребують уваги"
+
+#: src/ui/adw/behavior.ui:42
+msgid "Removes window is ready notification and focus on the window"
+msgstr "Видаляє сповіщення <\"Додаток\" готовий> і фокусується на вікні"
+
+#: src/ui/adw/behavior.ui:54
+msgid "Window Maximized by Default"
+msgstr "Вікна будуть розгортатися за замовченням"
+
+#: src/ui/adw/behavior.ui:55
+msgid "Maximize all windows on creation"
+msgstr "Розгортати усі вікна при створенні"
+
+#: src/ui/adw/behavior.ui:67
+msgid "Type to Search"
+msgstr "Ввід тексту для пошуку"
+
+#: src/ui/adw/behavior.ui:68
+msgid ""
+"You can start search without search entry or even focusing on it in overview"
+msgstr ""
+"Ви можете почати пошук без поля пошуку або необхідності сфокусуватися на "
+"ньому у Діяльність"
+
+#: src/ui/adw/behavior.ui:80
+msgid "Always Show Workspace Switcher"
+msgstr "Завжди показувати перемикачі робочих просторів"
+
+#: src/ui/adw/behavior.ui:81
+msgid ""
+"Shows workspace switcher even when only one workspace used with dynamic "
+"workspaces"
+msgstr ""
+"Показує перемикач робочих просторів, навіть коли існує лише один простір з "
+"\"Динамічні робочі простори\""
+
+#: src/ui/adw/behavior.ui:93
+msgid "Overlay Key"
+msgstr "Кнопка Діяльності"
+
+#: src/ui/adw/behavior.ui:94
+msgid "Disable overlay key (super key)"
+msgstr "Вимкнути кнопку Діяльності (кнопка super)"
+
+#: src/ui/adw/behavior.ui:106
+msgid "Double Super to App Grid"
+msgstr "Подвійне натискання super щоб перейти у сітку додатків"
+
+#: src/ui/adw/behavior.ui:107
+msgid "Shows app grid when you double hit super key fast"
+msgstr ""
+"Показує сітку додатків, коли ви швидко два рази натискаєте кнопку super"
+
+#: src/ui/adw/behavior.ui:120
+msgid "Popup Delay"
+msgstr "Затримка індикаторів"
+
+#: src/ui/adw/behavior.ui:121
+msgid ""
+"Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
+"keyboard layout, ..."
+msgstr ""
+"Прибирає затримку з усіх індикаторів перемикання, такі як alt-tab, ctrl-alt-"
+"tab, зміна розкладки клавіатури, тощо."
+
+#: src/ui/adw/behavior.ui:133
+msgid "Startup Status"
+msgstr "Стан при завантаженні"
+
+#: src/ui/adw/behavior.ui:134
+msgid "When GNOME Shell is starting up for the first time"
+msgstr "Коли оболонка GNOME уперше запускається"
+
+# Я якшо чесно взагалі не знаю про шо це, бо у мене в розширенні цього нема.
+#: src/ui/adw/behavior.ui:146
+msgid "Desktop"
+msgstr "Робочий стіл"
+
+#: src/ui/adw/behavior.ui:147
+msgid "Overview"
+msgstr "Діяльність"
+
+#: src/ui/adw/customize.ui:6 src/ui/adw/customize.ui:11
+msgid "Customize"
+msgstr "Налаштувати"
+
+#: src/ui/adw/customize.ui:15
+msgid "Overview Spacing Size"
+msgstr "Відстань у Діяльності"
+
+# Взагалі не маю гадки шо то таке.
+#: src/ui/adw/customize.ui:16
+msgid "The spacing size for controls manager in overview"
+msgstr "Розмір відстані для менеджеру керувань у Діяльності"
+
+#: src/ui/adw/customize.ui:23
+msgid "Workspace Background Corner Size"
+msgstr "Розмір кутів тла робочого простору"
+
+#: src/ui/adw/customize.ui:24
+msgid "Workspace background corner size in overview"
+msgstr "Розмір кутів тла робочого простору у Діяльності"
+
+#: src/ui/adw/customize.ui:31
+msgid "Panel Size"
+msgstr "Розмір панелі"
+
+#: src/ui/adw/customize.ui:38
+msgid "Panel Icon Size"
+msgstr "Розмір піктограм на панелі додатків"
+
+#: src/ui/adw/customize.ui:45
+msgid "Panel Button Padding Size"
+msgstr "Розмір піктограм кнопок панелі"
+
+# Це мається на увазі он ті піктограми на верхній панелі, де відображається індикатор розкладки клави, блютуз, вайфай і все таке.
+#: src/ui/adw/customize.ui:52
+msgid "Panel Indicator Padding Size"
+msgstr "Розмір підкладки індикаторів панелі"
+
+#: src/ui/adw/customize.ui:59
+msgid "Panel Position"
+msgstr "Позиція панелі"
+
+#: src/ui/adw/customize.ui:66
+msgid "Clock Menu Position"
+msgstr "Позиція меню годинника"
+
+#: src/ui/adw/customize.ui:73
+msgid "Clock Menu Position Offset"
+msgstr "Зсув позиції меню годинника"
+
+#: src/ui/adw/customize.ui:80
+msgid "Workspace Switcher Size"
+msgstr "Розмір перемикача робочих просторів"
+
+#: src/ui/adw/customize.ui:87
+msgid "Animation"
+msgstr "Анімація"
+
+#: src/ui/adw/customize.ui:94
+msgid "Dash Icon Size"
+msgstr "Розмір піктограм на панелі додатків"
+
+#: src/ui/adw/customize.ui:101
+msgid "Notification Banner Position"
+msgstr "Позиція банера сповіщень"
+
+#: src/ui/adw/customize.ui:102
+msgid "Notification popup position when notifications show up on the screen"
+msgstr "Позиція банеру сповіщень, коли сповіщення з'являються на екрані"
+
+#: src/ui/adw/customize.ui:109
+msgid "OSD Position"
+msgstr "Позиція OSD"
+
+#: src/ui/adw/customize.ui:110
+msgid "OSD position when on screen display shows up on the screen"
+msgstr "Позиція OSD коли якісь індикатори з'являються на екрані"
+
+#: src/ui/adw/customize.ui:117
+msgid "Alt Tab Window Preview Size"
+msgstr "Розмір перегляду меню \"Alt Tab\""
+
+#: src/ui/adw/customize.ui:124
+msgid "Alt Tab Window Preview Icon Size"
+msgstr "Розмір піктограми меню \"Alt Tab\""
+
+#: src/ui/adw/customize.ui:131
+msgid "Alt Tab Icon Size"
+msgstr "Розмір піктограми меню \"Alt Tab\""
+
+#: src/ui/adw/customize.ui:138
+msgid "Looking Glass Width"
+msgstr "Ширина Looking Glass"
+
+#: src/ui/adw/customize.ui:145
+msgid "Looking Glass Height"
+msgstr "Висота Looking Glass"
+
+#: src/ui/adw/customize.ui:157 src/ui/adw/customize.ui:688
+#: src/ui/adw/customize.ui:738 src/ui/adw/customize.ui:763
+#: src/ui/adw/customize.ui:778 src/ui/adw/customize.ui:789
+#: src/ui/adw/customize.ui:800 src/ui/adw/customize.ui:811
+#: src/ui/adw/customize.ui:826 src/ui/adw/profile.ui:43
+msgid "Default"
+msgstr "За замовченням"
+
+#: src/ui/adw/customize.ui:313 src/ui/adw/customize.ui:381
+#: src/ui/adw/customize.ui:447 src/ui/adw/customize.ui:513
+#: src/ui/adw/customize.ui:580
+msgid "By Shell Theme"
+msgstr "З налаштувань теми оболонки"
+
+#: src/ui/adw/customize.ui:647
+msgid "Top"
+msgstr "Зверху"
+
+#: src/ui/adw/customize.ui:648
+msgid "Bottom"
+msgstr "Знизу"
+
+#: src/ui/adw/customize.ui:654 src/ui/adw/customize.ui:771
+msgid "Center"
+msgstr "По центру"
+
+#: src/ui/adw/customize.ui:655
+msgid "Right"
+msgstr "Справа"
+
+#: src/ui/adw/customize.ui:656
+msgid "Left"
+msgstr "Зліва"
+
+#: src/ui/adw/customize.ui:724
+msgid "No Animation"
+msgstr "Без анімацій"
+
+#: src/ui/adw/customize.ui:725
+msgid "Default Speed"
+msgstr "Швидкіть за замовченням"
+
+#: src/ui/adw/customize.ui:726
+msgid "Almost None"
+msgstr "Майже немає"
+
+#: src/ui/adw/customize.ui:727
+msgid "Fastest"
+msgstr "Дуже швидка"
+
+#: src/ui/adw/customize.ui:728
+msgid "Faster"
+msgstr "Ще швидше"
+
+#: src/ui/adw/customize.ui:729
+msgid "Fast"
+msgstr "Швидка"
+
+#: src/ui/adw/customize.ui:730
+msgid "Slow"
+msgstr "Повільно"
+
+#: src/ui/adw/customize.ui:731
+msgid "Slower"
+msgstr "Ще повільніше"
+
+#: src/ui/adw/customize.ui:732
+msgid "Slowest"
+msgstr "Дуже повільно"
+
+#: src/ui/adw/customize.ui:752 src/ui/adw/customize.ui:764
+msgid "Top Start"
+msgstr "Зверху з початку"
+
+#: src/ui/adw/customize.ui:753 src/ui/adw/customize.ui:765
+msgid "Top Center"
+msgstr "Зверху по центру"
+
+#: src/ui/adw/customize.ui:754 src/ui/adw/customize.ui:766
+msgid "Top End"
+msgstr "Зверху з кінця"
+
+#: src/ui/adw/customize.ui:755 src/ui/adw/customize.ui:767
+msgid "Bottom Start"
+msgstr "Знизу з початку"
+
+#: src/ui/adw/customize.ui:756 src/ui/adw/customize.ui:768
+msgid "Bottom Center"
+msgstr "Знизу по центру"
+
+#: src/ui/adw/customize.ui:757 src/ui/adw/customize.ui:769
+msgid "Bottom End"
+msgstr "Знизу з кінця"
+
+#: src/ui/adw/customize.ui:770
+msgid "Center Start"
+msgstr "По центру з початку"
+
+#: src/ui/adw/customize.ui:772
+msgid "Center End"
+msgstr "По центру з кінця"
+
+#: src/ui/adw/icons.ui:6 src/ui/adw/icons.ui:11
+msgid "Icons"
+msgstr "Піктограми"
+
+#: src/ui/adw/icons.ui:15
+msgid "Panel Notification Icon"
+msgstr "Піктограма сповіщень на панелі"
+
+#: src/ui/adw/icons.ui:27
+msgid "Power Icon"
+msgstr "Піктограма електроживлення"
+
+#: src/ui/adw/icons.ui:39
+msgid "Window Picker Icon"
+msgstr "Піктограма вибору вікна"
+
+#: src/ui/adw/icons.ui:40
+msgid "The icon under window preview in overview"
+msgstr "Піктограма під вікном у ДІяльності"
+
+#: src/ui/adw/profile.ui:6 src/ui/adw/profile.ui:11
+msgid "Profile"
+msgstr "Профіль"
+
+#: src/ui/adw/profile.ui:18
+msgid ""
+"You can choose between pre-defined profiles or you can simply use your own "
+"customized settings"
+msgstr ""
+"Ви можете обрати поміж вже налаштованих профілів або використовувати власні "
+"налаштування"
+
+#: src/ui/adw/profile.ui:53
+msgid "Custom"
+msgstr "Власний"
+
+#: src/ui/adw/profile.ui:63
+msgid "Minimal"
+msgstr "Мінімалістичний"
+
+#: src/ui/adw/profile.ui:73
+msgid "Super Minimal"
+msgstr "Дуже мінімалістичний"
+
+#: src/ui/adw/profile.ui:90
+msgid "Override"
+msgstr "Перезаписати"
+
+#: src/ui/adw/profile.ui:94
+msgid "Shell Theme"
+msgstr "Тема оболонки"
+
+#: src/ui/adw/profile.ui:95
+msgid "Overrides the shell theme partially to create a minimal desktop"
+msgstr ""
+"Частково перезаписати тему оболонки, щоб створити мінімалістичний робочий "
+"стіл"
+
+#: src/ui/adw/profile.ui:110
+msgid "Links"
+msgstr "Посилання"
+
+#: src/ui/adw/profile.ui:114
+msgid "Bug Report"
+msgstr "Звітувати про ваду"
+
+#: src/ui/adw/profile.ui:126
+msgid "Support via Patreon"
+msgstr "Підтримати нас через Patreon"
+
+#: src/ui/adw/profile.ui:138
+msgid "Support via Buy Me a Coffee"
+msgstr "Підтримати нас через Buy Me a Coffee"
+
+#: src/ui/adw/visibility.ui:6 src/ui/adw/visibility.ui:11
+msgid "Visibility"
+msgstr "Видимість"
+
+#: src/ui/adw/visibility.ui:15
+msgid "Panel"
+msgstr "Панель"
+
+#: src/ui/adw/visibility.ui:27
+msgid "Panel in Overview"
+msgstr "Панель у Діяльності"
+
+#: src/ui/adw/visibility.ui:40
+msgid "Activities Button"
+msgstr "Кнопка Діяльності"
+
+#: src/ui/adw/visibility.ui:41
+msgid "Button in panel to toggle overview visibility"
+msgstr "Кнопка на панелі, щоб перемикати видимість Діяльності"
+
+#: src/ui/adw/visibility.ui:53
+msgid "Clock Menu"
+msgstr "Меню годинника"
+
+#: src/ui/adw/visibility.ui:54
+msgid "Also known as date menu shows date and time in panel"
+msgstr "Також відоме як меню дати, яка показує дату та час у панелі"
+
+#: src/ui/adw/visibility.ui:66
+msgid "Keyboard Layout"
+msgstr "Розкладка клавіатури"
+
+#: src/ui/adw/visibility.ui:67
+msgid "Keyboard Layout indicator button in panel"
+msgstr "Кнопка індикатора розкладки клавіатури на панелі"
+
+#: src/ui/adw/visibility.ui:79
+msgid "Accessibility Menu"
+msgstr "Меню доступності"
+
+#: src/ui/adw/visibility.ui:80
+msgid "Accessibility Menu indicator button in panel"
+msgstr "Індикатор меню доступності на панелі"
+
+#: src/ui/adw/visibility.ui:92
+msgid "Quick Settings"
+msgstr "Швидкі налаштування"
+
+#: src/ui/adw/visibility.ui:93
+msgid "Quick settings menu in panel"
+msgstr "Меню швидких налаштувань на панелі"
+
+#: src/ui/adw/visibility.ui:105
+msgid "Screen Sharing Indicator"
+msgstr "Індикатор доступу до екрану"
+
+#: src/ui/adw/visibility.ui:106
+msgid "Screen sharing indicator in panel"
+msgstr "Індикатор доступу до екрану на панелі"
+
+#: src/ui/adw/visibility.ui:118
+msgid "Screen Recording Indicator"
+msgstr "Індикатор запису екрана"
+
+#: src/ui/adw/visibility.ui:119
+msgid "Screen recording indicator in panel"
+msgstr "Індикатор запису екрану на панелі"
+
+#: src/ui/adw/visibility.ui:131
+msgid "World Clock"
+msgstr "Світові годинники"
+
+#: src/ui/adw/visibility.ui:132
+msgid "World clock in clock menu"
+msgstr "Світові годинники у меню годинників"
+
+#: src/ui/adw/visibility.ui:144
+msgid "Weather"
+msgstr "Погода"
+
+#: src/ui/adw/visibility.ui:145
+msgid "Weather in clock menu"
+msgstr "Погода у меню годинника"
+
+#: src/ui/adw/visibility.ui:157
+msgid "Calendar"
+msgstr "Календар"
+
+#: src/ui/adw/visibility.ui:158
+msgid "Calendar in clock menu"
+msgstr "Календар у меню годинника"
+
+#: src/ui/adw/visibility.ui:170
+msgid "Events"
+msgstr "Події"
+
+#: src/ui/adw/visibility.ui:171
+msgid "Events button in clock menu"
+msgstr "Кнопка подій у меню годинника"
+
+#: src/ui/adw/visibility.ui:183
+msgid "Search"
+msgstr "Пошук"
+
+#: src/ui/adw/visibility.ui:184
+msgid "Search entry in overview"
+msgstr "Поле пошуку у Діяльності"
+
+# Я щось не дуже впевнений як це перекласти, але цей "Dash" це вон то меню з додатками які користувач додає в улюблені та ті додатки які зараз запущені (помічені білим кружечком).
+#: src/ui/adw/visibility.ui:196
+msgid "Dash"
+msgstr "Панель додатків"
+
+#: src/ui/adw/visibility.ui:197
+msgid "Dash holds favorite and opened applications icons"
+msgstr "Ця панель тримає піктограми ваших улюблених та відкритих додатків"
+
+#: src/ui/adw/visibility.ui:209
+msgid "Dash Separator"
+msgstr "Розділювач панелі додатків"
+
+#: src/ui/adw/visibility.ui:210
+msgid "Dash separator line that separates pin apps from unpin apps"
+msgstr ""
+"Цей розділювач малює лінію між закріпленими та не закріпленими додатками"
+
+#: src/ui/adw/visibility.ui:222
+msgid "Dash App Running Indicator"
+msgstr "Індикатор відкритих додатків"
+
+#: src/ui/adw/visibility.ui:223
+msgid "The dot indicator in dash that shows the app is running"
+msgstr "Точка-індикатор на панелі, яка показує, що додаток відкрито"
+
+#: src/ui/adw/visibility.ui:235
+msgid "Show Applications Button"
+msgstr "Показувати кнопку додатків"
+
+#: src/ui/adw/visibility.ui:236
+msgid "Button in dash that toggles applications list visibility"
+msgstr "Кнопка яка перемикає видимість списку додатків"
+
+# Я не знаю чи існує офіційний якись переклад для цього, тому залишаю як є. Якшо хтось придумає, то виправте.
+#: src/ui/adw/visibility.ui:248
+msgid "On Screen Display (OSD)"
+msgstr ""
+
+#: src/ui/adw/visibility.ui:249
+msgid "Volume and brightness on screen display when the change happens"
+msgstr "Індикатори гучності та яскравості коли зміна стається"
+
+#: src/ui/adw/visibility.ui:261
+msgid "Workspace Popup"
+msgstr "Індикатор перемикання робочих просторів"
+
+#: src/ui/adw/visibility.ui:262
+msgid "Popup that appears on the screen when you change the workspace"
+msgstr "Індикатор який з'являється, коли ви змінюєте робочий простір"
+
+#: src/ui/adw/visibility.ui:274
+msgid "Workspace Switcher"
+msgstr "Перемикач робочих просторів"
+
+#: src/ui/adw/visibility.ui:275
+msgid ""
+"Also refers to workspace thumbnails that you see in overview for selecting a "
+"workspace"
+msgstr ""
+"Те що відомо як попередній перегляд робочих просторів які ви можете бачити "
+"коли відкрили Діяльність, щоб обрати робочий простір"
+
+#: src/ui/adw/visibility.ui:287
+msgid "Workspaces App Grid"
+msgstr "Робочі простори у сітці додатків"
+
+#: src/ui/adw/visibility.ui:288
+msgid "Workspace boxes in app grid"
+msgstr "Прямокутники робочих просторів на сітці додатків"
+
+#: src/ui/adw/visibility.ui:300
+msgid "Window Picker Close Button"
+msgstr "Кнопка закриття у виборі вікна"
+
+#: src/ui/adw/visibility.ui:301
+msgid "The close button on window preview in overview"
+msgstr "Кнопка, щоб закрити вікно у Діяльністі"
+
+#: src/ui/adw/visibility.ui:313
+msgid "Window Picker Caption"
+msgstr "Підпис у виборі вікна"
+
+#: src/ui/adw/visibility.ui:314
+msgid "The text under window preview in overview"
+msgstr "Текст під переглядом вікна у Діяльності"
+
+#: src/ui/adw/visibility.ui:326
+msgid "Background Menu"
+msgstr "Меню тла"
+
+#: src/ui/adw/visibility.ui:327
+msgid "When you right click on desktop background"
+msgstr "Коли ви клацаєте правою кнопкою по тлу робочого столу"
+
+# Та хз я, шо то таке. Самі придумайте.
+#: src/ui/adw/visibility.ui:339
+msgid "Ripple Box"
+msgstr ""
+
+#: src/ui/adw/visibility.ui:340
+msgid "Hot corner animation effects"
+msgstr "Ефект анімації Гарячого кута"
+
+#: src/ui/adw/visibility.ui:352
+msgid "Take Screenshot button in Window Menu"
+msgstr "Кнопка \"Зробити знімок\" у меню вікна"
+
+#: src/ui/adw/visibility.ui:353
+msgid "Take screenshot button in title bar right click menu"
+msgstr ""
+"Кнопка \"Зробити знімок\" коли ви клацаєте правою кнопкою по заголовку вікна"
