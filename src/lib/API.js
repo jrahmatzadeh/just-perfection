@@ -2937,9 +2937,10 @@ export class API
         }
 
         this._main.lookingGlass.disconnect(this._lookingGlassShowSignal);
+        this._main.layoutManager.disconnect(this._monitorsChangedSignal);
 
-        delete(this._lookingGlassShowSignal);
         delete(this._lookingGlassOriginalSize);
+        delete(this._lookingGlassShowSignal);
         delete(this._monitorsChangedSignal);
     }
 
@@ -2965,7 +2966,6 @@ export class API
         }
 
         this._lookingGlassShowSignal = lookingGlass.connect('show', () => {
-            let [, currentHeight] = this.#lookingGlassGetSize();
             let [originalWidth, originalHeight] = this._lookingGlassOriginalSize;
 
             let monitorInfo = this.monitorGetInfo();
@@ -2985,9 +2985,8 @@ export class API
             ? Math.min(monitorInfo.height * height, availableHeight * 0.9)
             : originalHeight;
 
-            let hiddenY = lookingGlass._hiddenY + currentHeight - dialogHeight;
-            lookingGlass.set_y(hiddenY);
-            lookingGlass._hiddenY = hiddenY;
+            lookingGlass._hiddenY = monitorInfo.y + this._main.layoutManager.panelBox.height - dialogHeight;
+            lookingGlass._targetY = lookingGlass._hiddenY + dialogHeight;
 
             lookingGlass.set_size(dialogWidth, dialogHeight);
         });
