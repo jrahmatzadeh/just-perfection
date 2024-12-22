@@ -2971,9 +2971,9 @@ export class API
             let monitorInfo = this.monitorGetInfo();
 
             let dialogWidth
-            =   (width !== null)
-            ?   monitorInfo.width * width
-            :   originalWidth;
+            = (width !== null)
+            ? monitorInfo.width * width
+            : originalWidth;
 
             let x = monitorInfo.x + (monitorInfo.width - dialogWidth) / 2;
             lookingGlass.set_x(x);
