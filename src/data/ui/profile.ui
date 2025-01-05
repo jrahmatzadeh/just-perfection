@@ -247,6 +247,60 @@ Your contribution will not only ensure the continued development of Just Perfect
         </child>
 
         <child>
+          <object class="AdwActionRow" id="qr_4_row">
+          <property name="halign">center</property>
+          <property name="visible">False</property>
+            <child>
+              <object class="GtkBox">
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkPicture" id="qr_4_picture">
+                    <property name="can-shrink">False</property>
+                    <property name="file">resource:///org/gnome/Shell/Extensions/justperfection/imgs/qr-dogecoin.svg</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwEntryRow" id="address_4_row">
+            <property name="visible">False</property>
+            <property name="title">Dogecoin Address</property>
+            <property name="text">DULPjoiDuhZCmv5LDeJuqYPC8Uy7NK7DnW</property>
+            <property name="editable">False</property>
+            <property name="show-apply-button">False</property>
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwActionRow" id="qr_5_row">
+          <property name="halign">center</property>
+          <property name="visible">False</property>
+            <child>
+              <object class="GtkBox">
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkPicture" id="qr_5_picture">
+                    <property name="can-shrink">False</property>
+                    <property name="file">resource:///org/gnome/Shell/Extensions/justperfection/imgs/qr-monero.svg</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwEntryRow" id="address_5_row">
+            <property name="visible">False</property>
+            <property name="title">Monero Address</property>
+            <property name="text">49uPJDZCoFJMoeLAZKDpuTScHjdfgfzksMNurZdt2J4x8meKUZZwUiq3tBs9xYVq9G8PzxjwH6zkXeEZKz3JgdfiGo3aZN5</property>
+            <property name="editable">False</property>
+            <property name="show-apply-button">False</property>
+          </object>
+        </child>
+
+        <child>
           <object class="AdwActionRow">
             <property name="title" translatable="yes">Support via Buy Me a Coffee</property>
             <property name="activatable-widget">buymeacoffee_linkbutton</property>
@@ -312,6 +366,8 @@ Your contribution will not only ensure the continued development of Just Perfect
       <item>Bitcoin Cash</item>
       <item>Ether</item>
       <item>Tether (USDT)</item>
+      <item>Dogecoin</item>
+      <item>Monero</item>
     </items>
   </object>
 

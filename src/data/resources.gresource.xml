@@ -11,5 +11,7 @@
     <file preprocess="xml-stripblanks">imgs/qr-bitcoin-cash.svg</file>
     <file preprocess="xml-stripblanks">imgs/qr-ethereum.svg</file>
     <file preprocess="xml-stripblanks">imgs/qr-usdt.svg</file>
+    <file preprocess="xml-stripblanks">imgs/qr-dogecoin.svg</file>
+    <file preprocess="xml-stripblanks">imgs/qr-monero.svg</file>
   </gresource>
 </gresources>

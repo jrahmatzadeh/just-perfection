@@ -292,7 +292,7 @@ export class Prefs
 
         widget.connect('notify::selected-item', (w) => {
             let selectedIndex = w.get_selected();
-            for (let i = 0; i <= 3; i++) {
+            for (let i = 0; i <= 5; i++) {
                 let isVisible = i === selectedIndex;
                 this.#builder.get_object(`qr_${i}_row`).visible = isVisible;
                 this.#builder.get_object(`address_${i}_row`).visible = isVisible;
