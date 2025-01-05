@@ -10,6 +10,7 @@ We go to the next version after each release on the
 ### Added
 
 - Accent Color for Icons.
+- Crypto Support to the Preferences Window.
 - Invert Calendar Column Items.
 - Night Light Toggle Button Visibility in Quick Settings.
 - Workspace Switcher Click Always Goes to The Main View.

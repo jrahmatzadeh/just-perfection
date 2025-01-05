@@ -133,14 +133,116 @@ Your contribution will not only ensure the continued development of Just Perfect
       <object class="AdwPreferencesGroup" id="support_links_group">
 
         <child>
-          <object class="AdwActionRow">
-            <property name="title" translatable="yes">Support via Patreon</property>
-            <property name="activatable-widget">patreon_linkbutton</property>
+          <object class="AdwComboRow" id="support_crypto_row">
+            <property name="title" translatable="yes">Support Via Crypto</property>
+            <property name="subtitle" translatable="yes">Preferred Method</property>
+            <property name="model">support_crypto_model</property>
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwActionRow" id="qr_0_row">
+          <property name="halign">center</property>
             <child>
-              <object class="GtkLinkButton" id="patreon_linkbutton">
-                <property name="uri">https://www.patreon.com/justperfection</property>
+              <object class="GtkBox">
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkPicture" id="qr_0_picture">
+                    <property name="can-shrink">False</property>
+                    <property name="file">resource:///org/gnome/Shell/Extensions/justperfection/imgs/qr-bitcoin.svg</property>
+                  </object>
+                </child>
               </object>
             </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwEntryRow" id="address_0_row">
+            <property name="title">Bitcoin Address</property>
+            <property name="text">bc1qn6p0k8sapmxgedn8qjhd5gm2yzy46t5s296lnd</property>
+            <property name="editable">False</property>
+            <property name="show-apply-button">False</property>
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwActionRow" id="qr_1_row">
+          <property name="halign">center</property>
+          <property name="visible">False</property>
+            <child>
+              <object class="GtkBox">
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkPicture" id="qr_1_picture">
+                    <property name="can-shrink">False</property>
+                    <property name="file">resource:///org/gnome/Shell/Extensions/justperfection/imgs/qr-bitcoin-cash.svg</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwEntryRow" id="address_1_row">
+            <property name="visible">False</property>
+            <property name="title">Bitcoin Cash Address</property>
+            <property name="text">qzhuj2kdw4zjrg8r2j7knx5uzqdcpv5lwv5uxq04e0</property>
+            <property name="editable">False</property>
+            <property name="show-apply-button">False</property>
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwActionRow" id="qr_2_row">
+          <property name="halign">center</property>
+          <property name="visible">False</property>
+            <child>
+              <object class="GtkBox">
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkPicture" id="qr_2_picture">
+                    <property name="can-shrink">False</property>
+                    <property name="file">resource:///org/gnome/Shell/Extensions/justperfection/imgs/qr-ethereum.svg</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwEntryRow" id="address_2_row">
+            <property name="visible">False</property>
+            <property name="title">Ethereum Address</property>
+            <property name="text">0xE4A6C46E1095C49688645c132672cB04d1402026</property>
+            <property name="editable">False</property>
+            <property name="show-apply-button">False</property>
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwActionRow" id="qr_3_row">
+          <property name="halign">center</property>
+          <property name="visible">False</property>
+            <child>
+              <object class="GtkBox">
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkPicture" id="qr_3_picture">
+                    <property name="can-shrink">False</property>
+                    <property name="file">resource:///org/gnome/Shell/Extensions/justperfection/imgs/qr-usdt.svg</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwEntryRow" id="address_3_row">
+            <property name="visible">False</property>
+            <property name="title">Tether Address</property>
+            <property name="text">0xE4A6C46E1095C49688645c132672cB04d1402026</property>
+            <property name="editable">False</property>
+            <property name="show-apply-button">False</property>
           </object>
         </child>
 
@@ -151,6 +253,18 @@ Your contribution will not only ensure the continued development of Just Perfect
             <child>
               <object class="GtkLinkButton" id="buymeacoffee_linkbutton">
                 <property name="uri">https://www.buymeacoffee.com/justperfection</property>
+              </object>
+            </child>
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Support via Patreon</property>
+            <property name="activatable-widget">patreon_linkbutton</property>
+            <child>
+              <object class="GtkLinkButton" id="patreon_linkbutton">
+                <property name="uri">https://www.patreon.com/justperfection</property>
               </object>
             </child>
           </object>
@@ -190,6 +304,15 @@ Your contribution will not only ensure the continued development of Just Perfect
       </object>
     </child>
     
+  </object>
+
+  <object class="GtkStringList" id="support_crypto_model">
+    <items>
+      <item>Bitcoin</item>
+      <item>Bitcoin Cash</item>
+      <item>Ether</item>
+      <item>Tether (USDT)</item>
+    </items>
   </object>
 
 </interface>
