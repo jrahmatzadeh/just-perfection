@@ -130,7 +130,7 @@ Your contribution will not only ensure the continued development of Just Perfect
     </child>
 
     <child>
-      <object class="AdwPreferencesGroup" id="support_links_group">
+      <object class="AdwPreferencesGroup" id="support_crypto_group">
 
         <child>
           <object class="AdwComboRow" id="support_crypto_row">
@@ -299,6 +299,12 @@ Your contribution will not only ensure the continued development of Just Perfect
             <property name="show-apply-button">False</property>
           </object>
         </child>
+
+      </object>
+    </child>
+
+    <child>
+      <object class="AdwPreferencesGroup" id="support_links_group">
 
         <child>
           <object class="AdwActionRow">
