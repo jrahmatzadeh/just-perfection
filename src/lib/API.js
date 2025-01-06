@@ -3332,6 +3332,52 @@ export class API
     }
 
     /**
+     * show airplane mode toggle button in quick settings
+     *
+     * @returns {void}
+     */
+    quickSettingsAirplaneModeToggleShow()
+    {
+        this.#onQuickSettingsPropertyCall('_rfkill', (rfkill) => {
+            if (this._rfkillToggleShowSignal) {
+                rfkill._rfkillToggle.disconnect(this._rfkillToggleShowSignal);
+            }
+
+            if (this.#originals['rfkilToggleVisibleDefaultStatus'] !== undefined) {
+                rfkill._rfkillToggle.visible = this.#originals['rfkilToggleVisibleDefaultStatus'];
+                rfkill._sync();
+                delete(this.#originals['rfkilToggleVisibleDefaultStatus']);
+            }
+        });
+    }
+
+    /**
+     * hide airplane mode toggle button in quick settings
+     *
+     * @returns {void}
+     */
+    quickSettingsAirplaneModeToggleHide()
+    {
+        this._rfkillToggleShowSignal;
+
+        this.#onQuickSettingsPropertyCall('_rfkill', (rfkill) => {
+            if (!this.#originals['rfkilToggleVisibleDefaultStatus']) {
+                this.#originals['rfkilToggleVisibleDefaultStatus'] = rfkill._rfkillToggle.visible;
+            }
+
+            rfkill._rfkillToggle.hide();
+            rfkill._sync();
+
+            if (!this._rfkillToggleShowSignal) {
+                this._rfkillToggleShowSignal = rfkill._rfkillToggle.connect('show', () => {
+                    rfkill._rfkillToggle.hide();
+                    rfkill._sync();
+                });
+            }
+        });
+    }
+
+    /**
      * show dark style toggle button in quick settings
      *
      * @returns {void}

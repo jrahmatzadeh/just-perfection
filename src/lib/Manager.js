@@ -119,6 +119,10 @@ export class Manager
             this.#applyQuickSettingsNightLight(false);
         });
 
+        this.#settings.connect('changed::quick-settings-airplane-mode', () => {
+            this.#applyQuickSettingsAirplaneMode(false);
+        });
+
         this.#settings.connect('changed::window-picker-icon', () => {
             this.#applyWindowPickerIcon(false);
         });
@@ -342,6 +346,7 @@ export class Manager
         this.#applyQuickSettings(false);
         this.#applyQuickSettingsDarkMode(false);
         this.#applyQuickSettingsNightLight(false);
+        this.#applyQuickSettingsAirplaneMode(false);
         this.#applyWindowPickerIcon(false);
         this.#applyTypeToSearch(false);
         this.#applyWorkspaceSwitcherSize(false);
@@ -413,6 +418,7 @@ export class Manager
         this.#applyQuickSettings(true);
         this.#applyQuickSettingsDarkMode(true);
         this.#applyQuickSettingsNightLight(true);
+        this.#applyQuickSettingsAirplaneMode(true);
         this.#applyWindowPickerIcon(true);
         this.#applyTypeToSearch(true);
         this.#applyWorkspaceSwitcherSize(true);
@@ -721,6 +727,22 @@ export class Manager
             this.#api.quickSettingsNightLightToggleShow();
         } else {
             this.#api.quickSettingsNightLightToggleHide();
+        }
+    }
+
+    /**
+     * apply quick settings airplane mode
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    #applyQuickSettingsAirplaneMode(forceOriginal)
+    {
+        if (forceOriginal || this.#settings.get_boolean('quick-settings-airplane-mode')) {
+            this.#api.quickSettingsAirplaneModeToggleShow();
+        } else {
+            this.#api.quickSettingsAirplaneModeToggleHide();
         }
     }
 

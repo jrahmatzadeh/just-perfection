@@ -410,6 +410,12 @@
       <description>Night Light Toggle Button Visibility Status</description>
     </key>
 
+    <key type="b" name="quick-settings-airplane-mode">
+      <default>true</default>
+      <summary>Airplane Mode Toggle Button Visibility In Quick Settings</summary>
+      <description>Airplane Mode Toggle Button Visibility Status</description>
+    </key>
+
     <key type="b" name="accent-color-icon">
       <default>false</default>
       <summary>Accent Color for Icons</summary>

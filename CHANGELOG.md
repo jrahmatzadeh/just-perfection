@@ -7,6 +7,10 @@ We go to the next version after each release on the
 
 ## [Unreleased]
 
+### Added
+
+- Airplane Mode Toggle Button Visibility in Quick Settings.
+
 ## [31.0] - 2025-01-06
 
 ### Added

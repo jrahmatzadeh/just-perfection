@@ -154,6 +154,18 @@ export class PrefsKeys
 
         this.#setKey(
             'visibility',
+            'quick-settings-airplane-mode',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superminimal: true,
+            }
+        );
+
+        this.#setKey(
+            'visibility',
             'screen-sharing-indicator',
             'GtkSwitch',
             true,
