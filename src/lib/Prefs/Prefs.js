@@ -40,11 +40,25 @@ export class Prefs
     #settings = null;
 
     /**
+     * Instance of Gtk.CssProvider
+     *
+     * @type {Gtk.CssProvider|null}
+     */
+    #cssProvider = null;
+
+    /**
      * Instance of Resource
      *
      * @type {Gio.Resource|null}
      */
     #resource = null;
+
+    /**
+     * Instance of Gtk
+     *
+     * @type {Gtk|null}
+     */
+    #gtk = null;
 
     /**
      * Instance of Gdk
@@ -77,6 +91,8 @@ export class Prefs
      * @param {Object} dependencies
      *   'Builder' instance of Gtk::Builder
      *   'Settings' instance of Gio::Settings
+     *   'CssProvider': instance of Gtk::CssProvider
+     *   'Gtk' reference to Gtk
      *   'Gdk' reference to Gdk
      *   'Gio' reference to Gio
      * @param {PrefsKeys.PrefsKeys} prefsKeys instance of PrefsKeys
@@ -86,6 +102,8 @@ export class Prefs
     {
         this.#settings = dependencies['Settings'] || null;
         this.#builder = dependencies['Builder'] || null;
+        this.#cssProvider = dependencies['CssProvider'] || null;
+        this.#gtk = dependencies['Gtk'] || null;
         this.#gdk = dependencies['Gdk'] || null;
         this.#gio = dependencies['Gio'] || null;
 
@@ -114,6 +132,15 @@ export class Prefs
          ];
 
          this.#loadResource(ResourcesFolderPath);
+         
+         this.#cssProvider.load_from_resource(
+            `/org/gnome/Shell/Extensions/justperfection/css/prefs.css`
+         );
+         this.#gtk.StyleContext.add_provider_for_display(
+            this.#gdk.Display.get_default(),
+            this.#cssProvider,
+            this.#gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+         );
  
          this.#builder.set_translation_domain(gettextDomain);
          for (let uiFilename of uiFilenames) {

@@ -143,6 +143,9 @@ Your contribution will not only ensure the continued development of Just Perfect
         <child>
           <object class="AdwActionRow" id="qr_0_row">
           <property name="halign">center</property>
+          <style>
+            <class name="qr-code-row" />
+          </style>
             <child>
               <object class="GtkBox">
                 <property name="orientation">vertical</property>
@@ -169,6 +172,9 @@ Your contribution will not only ensure the continued development of Just Perfect
           <object class="AdwActionRow" id="qr_1_row">
           <property name="halign">center</property>
           <property name="visible">False</property>
+          <style>
+            <class name="qr-code-row" />
+          </style>
             <child>
               <object class="GtkBox">
                 <property name="orientation">vertical</property>
@@ -196,6 +202,9 @@ Your contribution will not only ensure the continued development of Just Perfect
           <object class="AdwActionRow" id="qr_2_row">
           <property name="halign">center</property>
           <property name="visible">False</property>
+          <style>
+            <class name="qr-code-row" />
+          </style>
             <child>
               <object class="GtkBox">
                 <property name="orientation">vertical</property>
@@ -223,6 +232,9 @@ Your contribution will not only ensure the continued development of Just Perfect
           <object class="AdwActionRow" id="qr_3_row">
           <property name="halign">center</property>
           <property name="visible">False</property>
+          <style>
+            <class name="qr-code-row" />
+          </style>
             <child>
               <object class="GtkBox">
                 <property name="orientation">vertical</property>
@@ -250,6 +262,9 @@ Your contribution will not only ensure the continued development of Just Perfect
           <object class="AdwActionRow" id="qr_4_row">
           <property name="halign">center</property>
           <property name="visible">False</property>
+          <style>
+            <class name="qr-code-row" />
+          </style>
             <child>
               <object class="GtkBox">
                 <property name="orientation">vertical</property>
@@ -277,6 +292,9 @@ Your contribution will not only ensure the continued development of Just Perfect
           <object class="AdwActionRow" id="qr_5_row">
           <property name="halign">center</property>
           <property name="visible">False</property>
+          <style>
+            <class name="qr-code-row" />
+          </style>
             <child>
               <object class="GtkBox">
                 <property name="orientation">vertical</property>

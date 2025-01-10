@@ -38,6 +38,8 @@ export default class JustPerfectionPrefs extends ExtensionPreferences
             {
                 Builder: new Gtk.Builder(),
                 Settings: this.getSettings(),
+                CssProvider: new Gtk.CssProvider(),
+                Gtk,
                 Gdk,
                 Gio,
             },
