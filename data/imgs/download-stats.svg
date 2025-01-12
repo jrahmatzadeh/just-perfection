@@ -5,7 +5,7 @@
    viewBox="0 0 37.041666 11.906252"
    version="1.1"
    id="svg1787"
-   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    sodipodi:docname="download-stats.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -49,9 +49,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="58"
-     inkscape:cy="31.5"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="56.214989"
+     inkscape:cy="20.417708"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -107,6 +107,11 @@
        y="14.083687"
        ry="2.2709818" />
     <path
+       d="m 15.194077,16.764489 h 0.921302 v 3.751016 h 1.066079 v -4.606511 h -1.987381 z m 3.395658,3.803662 c 0.35536,0 0.638331,-0.26981 0.638331,-0.644912 0,-0.381682 -0.282971,-0.63175 -0.638331,-0.63175 -0.355359,0 -0.63833,0.250068 -0.63833,0.63175 0,0.375102 0.282971,0.644912 0.63833,0.644912 z m 0.802839,-3.803662 h 0.921302 v 3.751016 h 1.066078 v -4.606511 h -1.98738 z m 8.258817,-0.855495 h -0.875237 l -1.697828,2.862617 -1.724152,-2.862617 h -0.881817 v 4.606511 h 1.000271 v -2.70468 l 1.349049,2.217706 h 0.480394 l 1.35563,-2.276933 0.0066,2.763907 h 1.000271 z"
+       id="text4"
+       style="font-weight:bold;font-size:6.58073px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;stroke-width:0.164519"
+       aria-label="1.1M" />
+    <path
        d="M 9.510625,18.785763 V 17.261621 H 8.3540703 v 1.524142 H 6.8030319 v 1.093796 h 1.5510384 v 1.524142 H 9.510625 v -1.524142 h 1.560004 v -1.093796 z"
        id="text1"
        style="font-weight:bold;font-size:8.96554px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;stroke-width:0.224139"
@@ -116,10 +121,5 @@
        id="text2"
        style="font-weight:bold;font-size:2.2868px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;stroke-width:0.0518601"
        aria-label="DOWNLOADS" />
-    <path
-       d="m 15.194077,16.774264 h 0.931831 v 3.793886 h 1.078263 v -4.659158 h -2.010094 z m 8.353206,-0.865272 h -0.88524 l -1.717233,2.895333 -1.743856,-2.895333 h -0.891896 v 4.659158 h 1.011703 v -2.735592 l 1.364468,2.243052 h 0.485883 l 1.371124,-2.302955 0.0067,2.795495 h 1.011703 z"
-       id="text3"
-       style="font-weight:bold;font-size:6.65594px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;stroke-width:0.166399"
-       aria-label="1M" />
   </g>
 </svg>
