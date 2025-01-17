@@ -1,12 +1,12 @@
 # Just Perfection GNOME Shell Extension Translation
-# Copyright (C) 2020-2023 Javad Rahmatzadeh
+# Copyright (C) 2020-2025 Javad Rahmatzadeh
 # This file is distributed under GPL v3
 # r0930514 <r0930514@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-15 23:18-0700\n"
+"POT-Creation-Date: 2025-01-15 23:47-0800\n"
 "PO-Revision-Date: 2021-06-10 10:43+0800\n"
 "Last-Translator: r0930514 <r0930514@gmail.com>\n"
 "Language-Team: \n"
@@ -17,15 +17,15 @@ msgstr ""
 "X-Generator: Poedit 2.4.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: src/ui/adw/behavior.ui:6 src/ui/adw/behavior.ui:11
+#: src/data/ui/behavior.ui:6 src/data/ui/behavior.ui:11
 msgid "Behavior"
 msgstr "行為"
 
-#: src/ui/adw/behavior.ui:15
+#: src/data/ui/behavior.ui:15
 msgid "Workspace Wraparound"
 msgstr "工作區環繞"
 
-#: src/ui/adw/behavior.ui:16
+#: src/data/ui/behavior.ui:16
 msgid ""
 "Next workspace will be the first workspace when you are in the last "
 "workspace. and previous workspace will be the last workspace when you are in "
@@ -34,626 +34,642 @@ msgstr ""
 "當您在最後一個工作區時，下一個工作區將是第一個工作區。 當您在第一個工作區時，"
 "上一個工作區將是最後一個工作區。"
 
-#: src/ui/adw/behavior.ui:28
+#: src/data/ui/behavior.ui:28
 msgid "Workspace Peek"
 msgstr "工作區一覽"
 
-#: src/ui/adw/behavior.ui:29
+#: src/data/ui/behavior.ui:29
 msgid "Whether the next and previous workspace should be visible in overview."
 msgstr "下一個和上一個工作區是否應在概覽中可見。"
 
-#: src/ui/adw/behavior.ui:41
+#: src/data/ui/behavior.ui:41
+msgid "Workspace Switcher Click to The Main View"
+msgstr "工作區切換器點選至主視圖"
+
+#: src/data/ui/behavior.ui:42
+msgid "Workspace switcher click always goes to the main view of the workspace."
+msgstr "工作區切換器按一下始終會轉到工作區的主視圖。"
+
+#: src/data/ui/behavior.ui:54
 msgid "Window Demands Attention Focus"
 msgstr "視窗要求關注焦點"
 
-#: src/ui/adw/behavior.ui:42
+#: src/data/ui/behavior.ui:55
 msgid "Removes window is ready notification and focus on the window"
 msgstr "刪除視窗已準備就緒通知，並直接專注於視窗"
 
-#: src/ui/adw/behavior.ui:54
+#: src/data/ui/behavior.ui:67
 msgid "Window Maximized by Default"
 msgstr "預設情況下視窗最大化"
 
-#: src/ui/adw/behavior.ui:55
+#: src/data/ui/behavior.ui:68
 msgid "Maximize all windows on creation"
 msgstr "創建時最大化所有視窗"
 
-#: src/ui/adw/behavior.ui:67
+#: src/data/ui/behavior.ui:80
 msgid "Type to Search"
 msgstr "打字直接搜索"
 
-#: src/ui/adw/behavior.ui:68
+#: src/data/ui/behavior.ui:81
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr "不需要搜索框甚至不用聚焦到概覽視圖，你就可以開始搜索"
 
-#: src/ui/adw/behavior.ui:80
+#: src/data/ui/behavior.ui:93
 msgid "Always Show Workspace Switcher"
 msgstr "始終顯示工作區切換器"
 
-#: src/ui/adw/behavior.ui:81
+#: src/data/ui/behavior.ui:94
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
 msgstr "即使只有一個工作區與動態工作區一起使用，也會顯示工作區切換器"
 
-#: src/ui/adw/behavior.ui:93
+#: src/data/ui/behavior.ui:106
 msgid "Overlay Key"
 msgstr "覆蓋鍵"
 
-#: src/ui/adw/behavior.ui:94
+#: src/data/ui/behavior.ui:107
 msgid "Disable overlay key (super key)"
 msgstr "停用覆蓋鍵（超級鍵）"
 
-#: src/ui/adw/behavior.ui:106
+#: src/data/ui/behavior.ui:119
 msgid "Double Super to App Grid"
 msgstr "App Grid 的雙超級鍵"
 
-#: src/ui/adw/behavior.ui:107
+#: src/data/ui/behavior.ui:120
 msgid "Shows app grid when you double hit super key fast"
 msgstr "當您快速雙擊超級鍵時顯示應用程序網格"
 
-#: src/ui/adw/behavior.ui:120
+#: src/data/ui/behavior.ui:133
 msgid "Popup Delay"
 msgstr "彈出延遲"
 
-#: src/ui/adw/behavior.ui:121
+#: src/data/ui/behavior.ui:134
 msgid ""
 "Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
 "keyboard layout, ..."
 msgstr "刪除所有切換器彈出窗口的延遲，如 alt-tab、ctrl-alt-tab、鍵盤佈局......"
 
-#: src/ui/adw/behavior.ui:133
+#: src/data/ui/behavior.ui:146
 msgid "Startup Status"
 msgstr "啟動狀態"
 
-#: src/ui/adw/behavior.ui:134
+#: src/data/ui/behavior.ui:147
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "GNOME Shell 首次啟動時"
 
-#: src/ui/adw/behavior.ui:146
+#: src/data/ui/behavior.ui:159
 msgid "Desktop"
 msgstr "桌面"
 
-#: src/ui/adw/behavior.ui:147
+#: src/data/ui/behavior.ui:160
 msgid "Overview"
 msgstr "概述"
 
-#: src/ui/adw/customize.ui:6 src/ui/adw/customize.ui:11
+#: src/data/ui/customize.ui:6 src/data/ui/customize.ui:11
 msgid "Customize"
 msgstr "自定義"
 
-#: src/ui/adw/customize.ui:15
+#: src/data/ui/customize.ui:15
+msgid "Accent Color for Icons"
+msgstr "圖示的強調色"
+
+#: src/data/ui/customize.ui:16
+msgid "Use accent color for all symbolic icons"
+msgstr "對所有符號圖示使用強調色"
+
+#: src/data/ui/customize.ui:28
+msgid "Invert Calendar Column Items"
+msgstr "反轉日曆列項"
+
+#: src/data/ui/customize.ui:29
+msgid "Invert the positions of the calendar column items in clock menu"
+msgstr "反轉時鐘選單中日曆列項目的位置"
+
+#: src/data/ui/customize.ui:41
 msgid "Overview Spacing Size"
 msgstr "總覽間距大小"
 
-#: src/ui/adw/customize.ui:16
+#: src/data/ui/customize.ui:42
 msgid "The spacing size for controls manager in overview"
 msgstr "控制管理器的間距大小概覽"
 
-#: src/ui/adw/customize.ui:23
+#: src/data/ui/customize.ui:49
 msgid "Workspace Background Corner Size"
 msgstr "工作區背景角大小"
 
-#: src/ui/adw/customize.ui:24
+#: src/data/ui/customize.ui:50
 msgid "Workspace background corner size in overview"
 msgstr "工作區背景角尺寸概覽"
 
-#: src/ui/adw/customize.ui:31
+#: src/data/ui/customize.ui:57
 msgid "Panel Size"
 msgstr "面板尺寸"
 
-#: src/ui/adw/customize.ui:38
+#: src/data/ui/customize.ui:64
 msgid "Panel Icon Size"
 msgstr "面板圖標大小"
 
-#: src/ui/adw/customize.ui:45
+#: src/data/ui/customize.ui:71
 msgid "Panel Button Padding Size"
 msgstr "面板按鈕填充尺寸"
 
-#: src/ui/adw/customize.ui:52
+#: src/data/ui/customize.ui:78
 msgid "Panel Indicator Padding Size"
 msgstr "面板指示器填充尺寸"
 
-#: src/ui/adw/customize.ui:59
+#: src/data/ui/customize.ui:85
 msgid "Panel Position"
 msgstr "面板位置"
 
-#: src/ui/adw/customize.ui:66
+#: src/data/ui/customize.ui:92
 msgid "Clock Menu Position"
 msgstr "時鐘選單位置"
 
-#: src/ui/adw/customize.ui:73
+#: src/data/ui/customize.ui:99
 msgid "Clock Menu Position Offset"
 msgstr "時鐘選單位置偏移"
 
-#: src/ui/adw/customize.ui:80
+#: src/data/ui/customize.ui:106
 msgid "Workspace Switcher Size"
 msgstr "工作區切換器尺寸"
 
-#: src/ui/adw/customize.ui:87
+#: src/data/ui/customize.ui:113
 msgid "Animation"
 msgstr "動畫"
 
-#: src/ui/adw/customize.ui:94
+#: src/data/ui/customize.ui:120
 msgid "Dash Icon Size"
 msgstr "Dash圖示大小"
 
-#: src/ui/adw/customize.ui:101
+#: src/data/ui/customize.ui:127
 msgid "Notification Banner Position"
 msgstr "通知橫幅位置"
 
-#: src/ui/adw/customize.ui:102
+#: src/data/ui/customize.ui:128
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "通知出現在屏幕上時的通知彈出位置"
 
-#: src/ui/adw/customize.ui:109
+#: src/data/ui/customize.ui:135
 msgid "OSD Position"
 msgstr "屏顯位置"
 
-#: src/ui/adw/customize.ui:110
+#: src/data/ui/customize.ui:136
 msgid "OSD position when on screen display shows up on the screen"
 msgstr "屏幕顯示時的 OSD 位置顯示在屏幕上"
 
-#: src/ui/adw/customize.ui:117
+#: src/data/ui/customize.ui:143
 msgid "Alt Tab Window Preview Size"
 msgstr "Alt-Tab 窗口預覽大小"
 
-#: src/ui/adw/customize.ui:124
+#: src/data/ui/customize.ui:150
 msgid "Alt Tab Window Preview Icon Size"
 msgstr "Alt-Tab 窗口預覽圖標大小"
 
-#: src/ui/adw/customize.ui:131
+#: src/data/ui/customize.ui:157
 msgid "Alt Tab Icon Size"
 msgstr "Alt-Tab 圖標大小"
 
-#: src/ui/adw/customize.ui:138
+#: src/data/ui/customize.ui:164
 msgid "Looking Glass Width"
 msgstr "鏡子寬度"
 
-#: src/ui/adw/customize.ui:145
+#: src/data/ui/customize.ui:171
 msgid "Looking Glass Height"
 msgstr "鏡子高度"
 
-#: src/ui/adw/customize.ui:157 src/ui/adw/customize.ui:688
-#: src/ui/adw/customize.ui:738 src/ui/adw/customize.ui:763
-#: src/ui/adw/customize.ui:778 src/ui/adw/customize.ui:789
-#: src/ui/adw/customize.ui:800 src/ui/adw/customize.ui:811
-#: src/ui/adw/customize.ui:826 src/ui/adw/profile.ui:43
+#: src/data/ui/customize.ui:178
+msgid "Maximum Displayed Search Results"
+msgstr "最大顯示搜尋結果"
+
+#: src/data/ui/customize.ui:179
+msgid "The maximum displayed search result items showing up in the search page"
+msgstr "搜尋頁面顯示的最大搜尋結果項目數"
+
+#: src/data/ui/customize.ui:191 src/data/ui/customize.ui:707
+#: src/data/ui/customize.ui:757 src/data/ui/customize.ui:782
+#: src/data/ui/customize.ui:797 src/data/ui/customize.ui:808
+#: src/data/ui/customize.ui:819 src/data/ui/customize.ui:830
+#: src/data/ui/customize.ui:845 src/data/ui/customize.ui:860
+#: src/data/ui/profile.ui:43
 msgid "Default"
 msgstr "預設"
 
-#: src/ui/adw/customize.ui:313 src/ui/adw/customize.ui:381
-#: src/ui/adw/customize.ui:447 src/ui/adw/customize.ui:513
-#: src/ui/adw/customize.ui:580
+#: src/data/ui/customize.ui:347 src/data/ui/customize.ui:415
+#: src/data/ui/customize.ui:485 src/data/ui/customize.ui:551
+#: src/data/ui/customize.ui:618
 msgid "By Shell Theme"
 msgstr "依照 Shell 主題"
 
-#: src/ui/adw/customize.ui:647
+#: src/data/ui/customize.ui:685
 msgid "Top"
 msgstr "頂部"
 
-#: src/ui/adw/customize.ui:648
+#: src/data/ui/customize.ui:686
 msgid "Bottom"
 msgstr "底部"
 
-#: src/ui/adw/customize.ui:654 src/ui/adw/customize.ui:771
+#: src/data/ui/customize.ui:692 src/data/ui/customize.ui:790
 msgid "Center"
 msgstr "中間"
 
-#: src/ui/adw/customize.ui:655
+#: src/data/ui/customize.ui:693
 msgid "Right"
 msgstr "左側"
 
-#: src/ui/adw/customize.ui:656
+#: src/data/ui/customize.ui:694
 msgid "Left"
 msgstr "右側"
 
-#: src/ui/adw/customize.ui:724
+#: src/data/ui/customize.ui:743
 msgid "No Animation"
 msgstr "無動畫"
 
-#: src/ui/adw/customize.ui:725
+#: src/data/ui/customize.ui:744
 msgid "Default Speed"
 msgstr "預設速度"
 
-#: src/ui/adw/customize.ui:726
+#: src/data/ui/customize.ui:745
 msgid "Almost None"
 msgstr "幾乎沒有"
 
-#: src/ui/adw/customize.ui:727
+#: src/data/ui/customize.ui:746
 msgid "Fastest"
 msgstr "最快"
 
-#: src/ui/adw/customize.ui:728
+#: src/data/ui/customize.ui:747
 msgid "Faster"
 msgstr "更快"
 
-#: src/ui/adw/customize.ui:729
+#: src/data/ui/customize.ui:748
 msgid "Fast"
 msgstr "快"
 
-#: src/ui/adw/customize.ui:730
+#: src/data/ui/customize.ui:749
 msgid "Slow"
 msgstr "慢"
 
-#: src/ui/adw/customize.ui:731
+#: src/data/ui/customize.ui:750
 msgid "Slower"
 msgstr "更慢"
 
-#: src/ui/adw/customize.ui:732
+#: src/data/ui/customize.ui:751
 msgid "Slowest"
 msgstr "最慢"
 
-#: src/ui/adw/customize.ui:752 src/ui/adw/customize.ui:764
+#: src/data/ui/customize.ui:771 src/data/ui/customize.ui:783
 msgid "Top Start"
 msgstr "最開始"
 
-#: src/ui/adw/customize.ui:753 src/ui/adw/customize.ui:765
+#: src/data/ui/customize.ui:772 src/data/ui/customize.ui:784
 msgid "Top Center"
 msgstr "頂部中心"
 
-#: src/ui/adw/customize.ui:754 src/ui/adw/customize.ui:766
+#: src/data/ui/customize.ui:773 src/data/ui/customize.ui:785
 msgid "Top End"
 msgstr "高端"
 
-#: src/ui/adw/customize.ui:755 src/ui/adw/customize.ui:767
+#: src/data/ui/customize.ui:774 src/data/ui/customize.ui:786
 msgid "Bottom Start"
 msgstr "底部開始"
 
-#: src/ui/adw/customize.ui:756 src/ui/adw/customize.ui:768
+#: src/data/ui/customize.ui:775 src/data/ui/customize.ui:787
 msgid "Bottom Center"
 msgstr "底部中心"
 
-#: src/ui/adw/customize.ui:757 src/ui/adw/customize.ui:769
+#: src/data/ui/customize.ui:776 src/data/ui/customize.ui:788
 msgid "Bottom End"
 msgstr "底端"
 
-#: src/ui/adw/customize.ui:770
+#: src/data/ui/customize.ui:789
 msgid "Center Start"
 msgstr "中心開始"
 
-#: src/ui/adw/customize.ui:772
+#: src/data/ui/customize.ui:791
 msgid "Center End"
 msgstr "中心端"
 
-#: src/ui/adw/icons.ui:6 src/ui/adw/icons.ui:11
+#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
 msgid "Icons"
 msgstr "圖示"
 
-#: src/ui/adw/icons.ui:15
+#: src/data/ui/icons.ui:15
 msgid "Panel Notification Icon"
 msgstr "面板通知圖示"
 
-#: src/ui/adw/icons.ui:27
+#: src/data/ui/icons.ui:27
 msgid "Power Icon"
 msgstr "電源圖示"
 
-#: src/ui/adw/icons.ui:39
+#: src/data/ui/icons.ui:39
 msgid "Window Picker Icon"
 msgstr "視窗選擇器圖示"
 
-#: src/ui/adw/icons.ui:40
+#: src/data/ui/icons.ui:40
 msgid "The icon under window preview in overview"
 msgstr "概覽窗口預覽下的圖標"
 
-#: src/ui/adw/profile.ui:6 src/ui/adw/profile.ui:11
+#: src/data/ui/profile.ui:6 src/data/ui/profile.ui:11
 msgid "Profile"
 msgstr "輪廓"
 
-#: src/ui/adw/profile.ui:18
+#: src/data/ui/profile.ui:18
 msgid ""
 "You can choose between pre-defined profiles or you can simply use your own "
 "customized settings"
 msgstr "您可以在預定義的配置文件之間進行選擇，也可以簡單地使用自己的自定義設置"
 
-#: src/ui/adw/profile.ui:53
+#: src/data/ui/profile.ui:53
 msgid "Custom"
 msgstr "風俗"
 
-#: src/ui/adw/profile.ui:63
+#: src/data/ui/profile.ui:63
 msgid "Minimal"
 msgstr "最小"
 
-#: src/ui/adw/profile.ui:73
+#: src/data/ui/profile.ui:73
 msgid "Super Minimal"
 msgstr "超極小"
 
-#: src/ui/adw/profile.ui:90
+#: src/data/ui/profile.ui:90
 msgid "Override"
 msgstr "覆蓋"
 
-#: src/ui/adw/profile.ui:94
+#: src/data/ui/profile.ui:94
 msgid "Shell Theme"
 msgstr "Shell 主題"
 
-#: src/ui/adw/profile.ui:95
+#: src/data/ui/profile.ui:95
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr "覆蓋掉部分的 Shell 主題以建立最小的桌面"
 
-#: src/ui/adw/profile.ui:110
-msgid "Links"
-msgstr "鏈接"
+#: src/data/ui/profile.ui:110
+msgid "Support"
+msgstr "支援"
 
-#: src/ui/adw/profile.ui:114
-msgid "Bug Report"
-msgstr "錯誤報告"
+#: src/data/ui/profile.ui:137
+msgid "Support Via Crypto"
+msgstr "透過加密支援"
 
-#: src/ui/adw/profile.ui:126
-msgid "Support via Patreon"
-msgstr "通過 Patreon 提供支持"
+#: src/data/ui/profile.ui:138
+msgid "Preferred Method"
+msgstr "首選方法"
 
-#: src/ui/adw/profile.ui:138
+#: src/data/ui/profile.ui:329
 msgid "Support via Buy Me a Coffee"
 msgstr "通過 Buy Me a Coffee 提供支持"
 
-#: src/ui/adw/visibility.ui:6 src/ui/adw/visibility.ui:11
+#: src/data/ui/profile.ui:341
+msgid "Support via Patreon"
+msgstr "通過 Patreon 提供支持"
+
+#: src/data/ui/profile.ui:356
+msgid "Links"
+msgstr "鏈接"
+
+#: src/data/ui/profile.ui:360
+msgid "Bug Report"
+msgstr "錯誤報告"
+
+#: src/data/ui/profile.ui:372
+msgid "YouTube Channel"
+msgstr "YouTube 頻道"
+
+#: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
 msgid "Visibility"
 msgstr "顯示"
 
-#: src/ui/adw/visibility.ui:15
+#: src/data/ui/visibility.ui:15
 msgid "Panel"
 msgstr "面板"
 
-#: src/ui/adw/visibility.ui:27
+#: src/data/ui/visibility.ui:27
 msgid "Panel in Overview"
 msgstr "概覽中的面板"
 
-#: src/ui/adw/visibility.ui:40
+#: src/data/ui/visibility.ui:40
 msgid "Activities Button"
 msgstr "概覽按鈕"
 
-#: src/ui/adw/visibility.ui:41
+#: src/data/ui/visibility.ui:41
 msgid "Button in panel to toggle overview visibility"
 msgstr "面板中的按鈕可切換概覽可見性"
 
-#: src/ui/adw/visibility.ui:53
+#: src/data/ui/visibility.ui:53
 msgid "Clock Menu"
 msgstr "時鐘選單"
 
-#: src/ui/adw/visibility.ui:54
+#: src/data/ui/visibility.ui:54
 msgid "Also known as date menu shows date and time in panel"
 msgstr "也稱為日期選單在面板中顯示日期和時間"
 
-#: src/ui/adw/visibility.ui:66
+#: src/data/ui/visibility.ui:66
 msgid "Keyboard Layout"
 msgstr "鍵盤佈局（輸入法）"
 
-#: src/ui/adw/visibility.ui:67
+#: src/data/ui/visibility.ui:67
 msgid "Keyboard Layout indicator button in panel"
 msgstr "面板中的鍵盤佈局指示器按鈕"
 
-#: src/ui/adw/visibility.ui:79
+#: src/data/ui/visibility.ui:79
 msgid "Accessibility Menu"
 msgstr "輔助功能選單"
 
-#: src/ui/adw/visibility.ui:80
+#: src/data/ui/visibility.ui:80
 msgid "Accessibility Menu indicator button in panel"
 msgstr "面板中的輔助功能選單指示器按鈕"
 
-#: src/ui/adw/visibility.ui:92
+#: src/data/ui/visibility.ui:92
 msgid "Quick Settings"
 msgstr "快速設置"
 
-#: src/ui/adw/visibility.ui:93
+#: src/data/ui/visibility.ui:93
 msgid "Quick settings menu in panel"
 msgstr "面板中的快速設置菜單"
 
-#: src/ui/adw/visibility.ui:105
+#: src/data/ui/visibility.ui:105
+msgid "Dark Mode Toggle Button"
+msgstr "暗模式切換按鈕"
+
+#: src/data/ui/visibility.ui:106
+msgid "Dark Mode Toggle Button in Quick settings menu"
+msgstr "快速設定選單中的暗模式切換按鈕"
+
+#: src/data/ui/visibility.ui:118
+msgid "Night Light Toggle Button"
+msgstr "夜燈切換按鈕"
+
+#: src/data/ui/visibility.ui:119
+msgid "Night Light Toggle Button in Quick settings menu"
+msgstr "快速設定選單中的夜燈切換按鈕"
+
+#: src/data/ui/visibility.ui:131
+msgid "Airplane Mode Toggle Button"
+msgstr "飛航模式切換按鈕"
+
+#: src/data/ui/visibility.ui:132
+msgid "Airplane Mode Toggle Button in Quick settings menu"
+msgstr "快速設定選單中的飛行模式切換按鈕"
+
+#: src/data/ui/visibility.ui:144
 msgid "Screen Sharing Indicator"
 msgstr "屏幕共享指示器"
 
-#: src/ui/adw/visibility.ui:106
+#: src/data/ui/visibility.ui:145
 msgid "Screen sharing indicator in panel"
 msgstr "面板中的屏幕共享指示器"
 
-#: src/ui/adw/visibility.ui:118
+#: src/data/ui/visibility.ui:157
 msgid "Screen Recording Indicator"
 msgstr "錄屏指示燈"
 
-#: src/ui/adw/visibility.ui:119
+#: src/data/ui/visibility.ui:158
 msgid "Screen recording indicator in panel"
 msgstr "面板中的屏幕錄製指示器"
 
-#: src/ui/adw/visibility.ui:131
+#: src/data/ui/visibility.ui:170
 msgid "World Clock"
 msgstr "世界時鐘"
 
-#: src/ui/adw/visibility.ui:132
+#: src/data/ui/visibility.ui:171
 msgid "World clock in clock menu"
 msgstr "時鐘菜單中的世界時鐘"
 
-#: src/ui/adw/visibility.ui:144
+#: src/data/ui/visibility.ui:183
 msgid "Weather"
 msgstr "天氣"
 
-#: src/ui/adw/visibility.ui:145
+#: src/data/ui/visibility.ui:184
 msgid "Weather in clock menu"
 msgstr "時鐘菜單中的天氣"
 
-#: src/ui/adw/visibility.ui:157
+#: src/data/ui/visibility.ui:196
 msgid "Calendar"
 msgstr "日曆"
 
-#: src/ui/adw/visibility.ui:158
+#: src/data/ui/visibility.ui:197
 msgid "Calendar in clock menu"
 msgstr "時鐘菜單中的日曆"
 
-#: src/ui/adw/visibility.ui:170
+#: src/data/ui/visibility.ui:209
 msgid "Events"
 msgstr "活動"
 
-#: src/ui/adw/visibility.ui:171
+#: src/data/ui/visibility.ui:210
 msgid "Events button in clock menu"
 msgstr "時鐘菜單中的事件按鈕"
 
-#: src/ui/adw/visibility.ui:183
+#: src/data/ui/visibility.ui:222
 msgid "Search"
 msgstr "搜索"
 
-#: src/ui/adw/visibility.ui:184
+#: src/data/ui/visibility.ui:223
 msgid "Search entry in overview"
 msgstr "概覽中的搜索項目"
 
-#: src/ui/adw/visibility.ui:196
+#: src/data/ui/visibility.ui:235
 msgid "Dash"
 msgstr "Dash"
 
-#: src/ui/adw/visibility.ui:197
+#: src/data/ui/visibility.ui:236
 msgid "Dash holds favorite and opened applications icons"
 msgstr "Dash 包含最喜歡和打開的應用程式圖示"
 
-#: src/ui/adw/visibility.ui:209
+#: src/data/ui/visibility.ui:248
 msgid "Dash Separator"
 msgstr "破折號分隔符"
 
-#: src/ui/adw/visibility.ui:210
+#: src/data/ui/visibility.ui:249
 msgid "Dash separator line that separates pin apps from unpin apps"
 msgstr "將固定應用程序與取消固定應用程序分開的破折號分隔線"
 
-#: src/ui/adw/visibility.ui:222
+#: src/data/ui/visibility.ui:261
 msgid "Dash App Running Indicator"
 msgstr "Dash 應用程式運行指示器"
 
-#: src/ui/adw/visibility.ui:223
+#: src/data/ui/visibility.ui:262
 msgid "The dot indicator in dash that shows the app is running"
 msgstr "破折號中的點指示器顯示應用程式正在運行"
 
-#: src/ui/adw/visibility.ui:235
+#: src/data/ui/visibility.ui:274
 msgid "Show Applications Button"
 msgstr "顯示應用程式按鈕"
 
-#: src/ui/adw/visibility.ui:236
+#: src/data/ui/visibility.ui:275
 msgid "Button in dash that toggles applications list visibility"
 msgstr "短划線中用於切換應用程式列表可見性的按鈕"
 
-#: src/ui/adw/visibility.ui:248
+#: src/data/ui/visibility.ui:287
 msgid "On Screen Display (OSD)"
 msgstr "螢幕顯示（OSD）"
 
-#: src/ui/adw/visibility.ui:249
+#: src/data/ui/visibility.ui:288
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "音量和亮度發生變化時顯示在螢幕上"
 
-#: src/ui/adw/visibility.ui:261
+#: src/data/ui/visibility.ui:300
 msgid "Workspace Popup"
 msgstr "工作區彈出"
 
-#: src/ui/adw/visibility.ui:262
+#: src/data/ui/visibility.ui:301
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr "更改工作區時出現在螢幕上的彈出視窗"
 
-#: src/ui/adw/visibility.ui:274
+#: src/data/ui/visibility.ui:313
 msgid "Workspace Switcher"
 msgstr "工作區切換器"
 
-#: src/ui/adw/visibility.ui:275
+#: src/data/ui/visibility.ui:314
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
 msgstr "也指您在概覽中看到的用於選擇工作區的工作區縮圖"
 
-#: src/ui/adw/visibility.ui:287
+#: src/data/ui/visibility.ui:326
 msgid "Workspaces App Grid"
 msgstr "工作區應用程序網格"
 
-#: src/ui/adw/visibility.ui:288
+#: src/data/ui/visibility.ui:327
 msgid "Workspace boxes in app grid"
 msgstr "應用程序網格中的工作區框"
 
-#: src/ui/adw/visibility.ui:300
+#: src/data/ui/visibility.ui:339
 msgid "Window Picker Close Button"
 msgstr "窗口選擇器關閉按鈕"
 
-#: src/ui/adw/visibility.ui:301
+#: src/data/ui/visibility.ui:340
 msgid "The close button on window preview in overview"
 msgstr "概覽中窗口預覽的關閉按鈕"
 
-#: src/ui/adw/visibility.ui:313
+#: src/data/ui/visibility.ui:352
 msgid "Window Picker Caption"
 msgstr "窗口選擇器標題"
 
-#: src/ui/adw/visibility.ui:314
+#: src/data/ui/visibility.ui:353
 msgid "The text under window preview in overview"
 msgstr "概覽中窗口預覽下的文本"
 
-#: src/ui/adw/visibility.ui:326
+#: src/data/ui/visibility.ui:365
 msgid "Background Menu"
 msgstr "後台選單"
 
-#: src/ui/adw/visibility.ui:327
+#: src/data/ui/visibility.ui:366
 msgid "When you right click on desktop background"
 msgstr "當你右鍵單擊桌面背景時"
 
-#: src/ui/adw/visibility.ui:339
+#: src/data/ui/visibility.ui:378
 msgid "Ripple Box"
 msgstr "波紋盒"
 
-#: src/ui/adw/visibility.ui:340
+#: src/data/ui/visibility.ui:379
 msgid "Hot corner animation effects"
 msgstr "熱角動畫效果"
 
-#: src/ui/adw/visibility.ui:352
+#: src/data/ui/visibility.ui:391
 msgid "Take Screenshot button in Window Menu"
 msgstr "窗口菜單中的“截屏”按鈕"
 
-#: src/ui/adw/visibility.ui:353
+#: src/data/ui/visibility.ui:392
 msgid "Take screenshot button in title bar right click menu"
 msgstr "標題欄右鍵菜單中的截圖按鈕"
-
-#~ msgid "Select File"
-#~ msgstr "選擇文件"
-
-#~ msgid "Hot Corner"
-#~ msgstr "熱角"
-
-#~ msgid "App Gesture"
-#~ msgstr "應用程式手勢"
-
-#~ msgid "Panel Corner Size"
-#~ msgstr "面板圓角尺寸"
-
-#~ msgid "No Corner"
-#~ msgstr "無圓角"
-
-#~ msgid "App Menu Icon"
-#~ msgstr "應用程式圖示"
-
-#~ msgid "Panel Arrow"
-#~ msgstr "面板箭頭"
-
-#~ msgid "Activities Button Icon"
-#~ msgstr "活動按鈕圖示"
-
-#~ msgid "Activities Button Icon in Monochrome"
-#~ msgstr "單色的活動按鈕圖示"
-
-#~ msgid "Activities Button Icon With Label"
-#~ msgstr "帶有標籤的活動按鈕圖示"
-
-#~ msgid "Only works when you have selected an icon for activities button"
-#~ msgstr "僅適用於已為活動按鈕選擇了圖示時"
-
-#~ msgid "No Matches"
-#~ msgstr "未找到結果"
-
-#~ msgid "App Menu"
-#~ msgstr "應用程式選單"
-
-#~ msgid "The menu button in panel with focused window text"
-#~ msgstr "面板中帶有焦點視窗文件的選單按鈕"
-
-#~ msgid "App Menu Label"
-#~ msgstr "應用菜單標籤"
-
-#~ msgid "The text label in app menu button"
-#~ msgstr "應用程序菜單按鈕中的文本標籤"
-
-#~ msgid "System Menu (Aggregate Menu)"
-#~ msgstr "系統選單"
-
-#~ msgid "System menu holds power, volume and network icons in panel"
-#~ msgstr "系统選單在面板中包含電源、音量和網路圖示"
-
-#~ msgid "Preferences Intro"
-#~ msgstr "首選項介紹"

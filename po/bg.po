@@ -1,12 +1,12 @@
 # Just Perfection GNOME Shell Extension Translation
-# Copyright (C) 2020-2023 Javad Rahmatzadeh
+# Copyright (C) 2020-2025 Javad Rahmatzadeh
 # This file is distributed under GPL v3
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-15 23:18-0700\n"
+"POT-Creation-Date: 2025-01-15 23:47-0800\n"
 "PO-Revision-Date: 2020-12-18 04:27-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Bulgarian\n"
@@ -16,15 +16,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/ui/adw/behavior.ui:6 src/ui/adw/behavior.ui:11
+#: src/data/ui/behavior.ui:6 src/data/ui/behavior.ui:11
 msgid "Behavior"
 msgstr "Поведение"
 
-#: src/ui/adw/behavior.ui:15
+#: src/data/ui/behavior.ui:15
 msgid "Workspace Wraparound"
 msgstr "Работно пространство Wraparound"
 
-#: src/ui/adw/behavior.ui:16
+#: src/data/ui/behavior.ui:16
 msgid ""
 "Next workspace will be the first workspace when you are in the last "
 "workspace. and previous workspace will be the last workspace when you are in "
@@ -35,46 +35,56 @@ msgstr ""
 "бъде последното работно пространство, когато сте в първото работно "
 "пространство."
 
-#: src/ui/adw/behavior.ui:28
+#: src/data/ui/behavior.ui:28
 msgid "Workspace Peek"
 msgstr "Работно пространство Peek"
 
-#: src/ui/adw/behavior.ui:29
+#: src/data/ui/behavior.ui:29
 msgid "Whether the next and previous workspace should be visible in overview."
-msgstr "Дали следващото и предишното работно пространство трябва да се виждат в прегледа."
+msgstr ""
+"Дали следващото и предишното работно пространство трябва да се виждат в "
+"прегледа."
 
-#: src/ui/adw/behavior.ui:41
+#: src/data/ui/behavior.ui:41
+msgid "Workspace Switcher Click to The Main View"
+msgstr "Превключвател на работно пространство Щракнете за основния изглед"
+
+#: src/data/ui/behavior.ui:42
+msgid "Workspace switcher click always goes to the main view of the workspace."
+msgstr "Щракването върху превключвателя на работното пространство винаги отива към основния изглед на работното пространство."
+
+#: src/data/ui/behavior.ui:54
 msgid "Window Demands Attention Focus"
 msgstr "Прозорецът изисква фокус на вниманието"
 
-#: src/ui/adw/behavior.ui:42
+#: src/data/ui/behavior.ui:55
 msgid "Removes window is ready notification and focus on the window"
 msgstr "Премахва прозорец е готов известие и се фокусира върху прозореца"
 
-#: src/ui/adw/behavior.ui:54
+#: src/data/ui/behavior.ui:67
 msgid "Window Maximized by Default"
 msgstr "Прозорецът е увеличен по подразбиране"
 
-#: src/ui/adw/behavior.ui:55
+#: src/data/ui/behavior.ui:68
 msgid "Maximize all windows on creation"
 msgstr "Увеличете максимално всички прозорци при създаване"
 
-#: src/ui/adw/behavior.ui:67
+#: src/data/ui/behavior.ui:80
 msgid "Type to Search"
 msgstr "Въведете за търсене"
 
-#: src/ui/adw/behavior.ui:68
+#: src/data/ui/behavior.ui:81
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Можете да започнете търсенето без въвеждане на търсене или дори да се "
 "фокусирате върху него в общ преглед"
 
-#: src/ui/adw/behavior.ui:80
+#: src/data/ui/behavior.ui:93
 msgid "Always Show Workspace Switcher"
 msgstr "Винаги да се показва превключвател на работното пространство"
 
-#: src/ui/adw/behavior.ui:81
+#: src/data/ui/behavior.ui:94
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
@@ -82,28 +92,28 @@ msgstr ""
 "Показва превключвател на работно пространство, дори когато само едно работно "
 "пространство се използва с динамични работни пространства"
 
-#: src/ui/adw/behavior.ui:93
+#: src/data/ui/behavior.ui:106
 msgid "Overlay Key"
 msgstr "Ключ за наслагване"
 
-#: src/ui/adw/behavior.ui:94
+#: src/data/ui/behavior.ui:107
 msgid "Disable overlay key (super key)"
 msgstr "Деактивиране на клавиша за наслагване (суперклавиш)"
 
-#: src/ui/adw/behavior.ui:106
+#: src/data/ui/behavior.ui:119
 msgid "Double Super to App Grid"
 msgstr "Двоен супер ключ към App Grid"
 
-#: src/ui/adw/behavior.ui:107
+#: src/data/ui/behavior.ui:120
 msgid "Shows app grid when you double hit super key fast"
 msgstr ""
 "Показва мрежата на приложението, когато натиснете бързо супер клавиш двойно"
 
-#: src/ui/adw/behavior.ui:120
+#: src/data/ui/behavior.ui:133
 msgid "Popup Delay"
 msgstr "Забавяне на изскачащи прозорци"
 
-#: src/ui/adw/behavior.ui:121
+#: src/data/ui/behavior.ui:134
 msgid ""
 "Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
 "keyboard layout, ..."
@@ -111,245 +121,270 @@ msgstr ""
 "Премахва забавянето за всички изскачащи прозорци на превключвателя като alt-"
 "tab, ctrl-alt-tab, клавиатурна подредба, ..."
 
-#: src/ui/adw/behavior.ui:133
+#: src/data/ui/behavior.ui:146
 msgid "Startup Status"
 msgstr "Стартово състояние"
 
-#: src/ui/adw/behavior.ui:134
+#: src/data/ui/behavior.ui:147
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "Когато GNOME Shell се стартира за първи път"
 
-#: src/ui/adw/behavior.ui:146
+#: src/data/ui/behavior.ui:159
 msgid "Desktop"
 msgstr "работен плот"
 
-#: src/ui/adw/behavior.ui:147
+#: src/data/ui/behavior.ui:160
 msgid "Overview"
 msgstr "Общ преглед"
 
-#: src/ui/adw/customize.ui:6 src/ui/adw/customize.ui:11
+#: src/data/ui/customize.ui:6 src/data/ui/customize.ui:11
 msgid "Customize"
 msgstr "Персонализирайте"
 
-#: src/ui/adw/customize.ui:15
+#: src/data/ui/customize.ui:15
+msgid "Accent Color for Icons"
+msgstr "Цвят на акцента за икони"
+
+#: src/data/ui/customize.ui:16
+msgid "Use accent color for all symbolic icons"
+msgstr "Използвайте цвят на акцента за всички символични икони"
+
+#: src/data/ui/customize.ui:28
+msgid "Invert Calendar Column Items"
+msgstr "Обръщане на елементи от колоната на календара"
+
+#: src/data/ui/customize.ui:29
+msgid "Invert the positions of the calendar column items in clock menu"
+msgstr "Обърнете позициите на елементите от колоната на календара в менюто на часовника"
+
+#: src/data/ui/customize.ui:41
 msgid "Overview Spacing Size"
 msgstr "Общ преглед Размер на разстоянието"
 
-#: src/ui/adw/customize.ui:16
+#: src/data/ui/customize.ui:42
 msgid "The spacing size for controls manager in overview"
 msgstr "Размерът на разстоянието за мениджъра на контролите в общ преглед"
 
-#: src/ui/adw/customize.ui:23
+#: src/data/ui/customize.ui:49
 msgid "Workspace Background Corner Size"
 msgstr "Размер на ъгъла на работното пространство"
 
-#: src/ui/adw/customize.ui:24
+#: src/data/ui/customize.ui:50
 msgid "Workspace background corner size in overview"
 msgstr "Преглед на размера на ъгъла на работното пространство"
 
-#: src/ui/adw/customize.ui:31
+#: src/data/ui/customize.ui:57
 msgid "Panel Size"
 msgstr "Размер на панела"
 
-#: src/ui/adw/customize.ui:38
+#: src/data/ui/customize.ui:64
 msgid "Panel Icon Size"
 msgstr "Размер на иконата на панела"
 
-#: src/ui/adw/customize.ui:45
+#: src/data/ui/customize.ui:71
 msgid "Panel Button Padding Size"
 msgstr "Размер на подложката на бутона на панела"
 
-#: src/ui/adw/customize.ui:52
+#: src/data/ui/customize.ui:78
 msgid "Panel Indicator Padding Size"
 msgstr "Размер на подложката на индикатора на панела"
 
-#: src/ui/adw/customize.ui:59
+#: src/data/ui/customize.ui:85
 msgid "Panel Position"
 msgstr "Позиция на панела"
 
-#: src/ui/adw/customize.ui:66
+#: src/data/ui/customize.ui:92
 msgid "Clock Menu Position"
 msgstr "Позиция на менюто на часовника"
 
-#: src/ui/adw/customize.ui:73
+#: src/data/ui/customize.ui:99
 msgid "Clock Menu Position Offset"
 msgstr "Отместване на позицията на менюто на часовника"
 
-#: src/ui/adw/customize.ui:80
+#: src/data/ui/customize.ui:106
 msgid "Workspace Switcher Size"
 msgstr "Размер на превключвателя на работното пространство"
 
-#: src/ui/adw/customize.ui:87
+#: src/data/ui/customize.ui:113
 msgid "Animation"
 msgstr "Анимация"
 
-#: src/ui/adw/customize.ui:94
+#: src/data/ui/customize.ui:120
 msgid "Dash Icon Size"
 msgstr "размер на иконата на тире"
 
-#: src/ui/adw/customize.ui:101
+#: src/data/ui/customize.ui:127
 msgid "Notification Banner Position"
 msgstr "Позиция на банера за известия"
 
-#: src/ui/adw/customize.ui:102
+#: src/data/ui/customize.ui:128
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "Изскачаща позиция за известия, когато известията се показват на екрана"
 
-#: src/ui/adw/customize.ui:109
+#: src/data/ui/customize.ui:135
 msgid "OSD Position"
 msgstr "OSD позиция"
 
-#: src/ui/adw/customize.ui:110
+#: src/data/ui/customize.ui:136
 msgid "OSD position when on screen display shows up on the screen"
 msgstr "Позицията на OSD, когато е на екрана, се показва на екрана"
 
-#: src/ui/adw/customize.ui:117
+#: src/data/ui/customize.ui:143
 msgid "Alt Tab Window Preview Size"
 msgstr "Alt-Tab Размер на визуализацията на прозореца"
 
-#: src/ui/adw/customize.ui:124
+#: src/data/ui/customize.ui:150
 msgid "Alt Tab Window Preview Icon Size"
 msgstr "Alt-Tab Размер на иконата за преглед на прозореца"
 
-#: src/ui/adw/customize.ui:131
+#: src/data/ui/customize.ui:157
 msgid "Alt Tab Icon Size"
 msgstr "Размер на иконата Alt-Tab"
 
-#: src/ui/adw/customize.ui:138
+#: src/data/ui/customize.ui:164
 msgid "Looking Glass Width"
 msgstr "Ширина на огледалото"
 
-#: src/ui/adw/customize.ui:145
+#: src/data/ui/customize.ui:171
 msgid "Looking Glass Height"
 msgstr "Височина на огледалото"
 
-#: src/ui/adw/customize.ui:157 src/ui/adw/customize.ui:688
-#: src/ui/adw/customize.ui:738 src/ui/adw/customize.ui:763
-#: src/ui/adw/customize.ui:778 src/ui/adw/customize.ui:789
-#: src/ui/adw/customize.ui:800 src/ui/adw/customize.ui:811
-#: src/ui/adw/customize.ui:826 src/ui/adw/profile.ui:43
+#: src/data/ui/customize.ui:178
+msgid "Maximum Displayed Search Results"
+msgstr "Максимално показвани резултати от търсене"
+
+#: src/data/ui/customize.ui:179
+msgid "The maximum displayed search result items showing up in the search page"
+msgstr "Максималният брой показани елементи от резултатите от търсенето, които се показват на страницата за търсене"
+
+#: src/data/ui/customize.ui:191 src/data/ui/customize.ui:707
+#: src/data/ui/customize.ui:757 src/data/ui/customize.ui:782
+#: src/data/ui/customize.ui:797 src/data/ui/customize.ui:808
+#: src/data/ui/customize.ui:819 src/data/ui/customize.ui:830
+#: src/data/ui/customize.ui:845 src/data/ui/customize.ui:860
+#: src/data/ui/profile.ui:43
 msgid "Default"
 msgstr "По подразбиране"
 
-#: src/ui/adw/customize.ui:313 src/ui/adw/customize.ui:381
-#: src/ui/adw/customize.ui:447 src/ui/adw/customize.ui:513
-#: src/ui/adw/customize.ui:580
+#: src/data/ui/customize.ui:347 src/data/ui/customize.ui:415
+#: src/data/ui/customize.ui:485 src/data/ui/customize.ui:551
+#: src/data/ui/customize.ui:618
 msgid "By Shell Theme"
 msgstr "От Shell Theme"
 
-#: src/ui/adw/customize.ui:647
+#: src/data/ui/customize.ui:685
 msgid "Top"
 msgstr "Връх"
 
-#: src/ui/adw/customize.ui:648
+#: src/data/ui/customize.ui:686
 msgid "Bottom"
 msgstr "Отдолу"
 
-#: src/ui/adw/customize.ui:654 src/ui/adw/customize.ui:771
+#: src/data/ui/customize.ui:692 src/data/ui/customize.ui:790
 msgid "Center"
 msgstr "Център"
 
-#: src/ui/adw/customize.ui:655
+#: src/data/ui/customize.ui:693
 msgid "Right"
 msgstr "Нали"
 
-#: src/ui/adw/customize.ui:656
+#: src/data/ui/customize.ui:694
 msgid "Left"
 msgstr "Наляво"
 
-#: src/ui/adw/customize.ui:724
+#: src/data/ui/customize.ui:743
 msgid "No Animation"
 msgstr "Без анимация"
 
-#: src/ui/adw/customize.ui:725
+#: src/data/ui/customize.ui:744
 msgid "Default Speed"
 msgstr "Скорост по подразбиране"
 
-#: src/ui/adw/customize.ui:726
+#: src/data/ui/customize.ui:745
 msgid "Almost None"
 msgstr "Почти никакви"
 
-#: src/ui/adw/customize.ui:727
+#: src/data/ui/customize.ui:746
 msgid "Fastest"
 msgstr "Най-бързият"
 
-#: src/ui/adw/customize.ui:728
+#: src/data/ui/customize.ui:747
 msgid "Faster"
 msgstr "По-бързо"
 
-#: src/ui/adw/customize.ui:729
+#: src/data/ui/customize.ui:748
 msgid "Fast"
 msgstr "Бърз"
 
-#: src/ui/adw/customize.ui:730
+#: src/data/ui/customize.ui:749
 msgid "Slow"
 msgstr "Бавен"
 
-#: src/ui/adw/customize.ui:731
+#: src/data/ui/customize.ui:750
 msgid "Slower"
 msgstr "По-бавно"
 
-#: src/ui/adw/customize.ui:732
+#: src/data/ui/customize.ui:751
 msgid "Slowest"
 msgstr "Най-бавно"
 
-#: src/ui/adw/customize.ui:752 src/ui/adw/customize.ui:764
+#: src/data/ui/customize.ui:771 src/data/ui/customize.ui:783
 msgid "Top Start"
 msgstr "Топ Старт"
 
-#: src/ui/adw/customize.ui:753 src/ui/adw/customize.ui:765
+#: src/data/ui/customize.ui:772 src/data/ui/customize.ui:784
 msgid "Top Center"
 msgstr "Топ център"
 
-#: src/ui/adw/customize.ui:754 src/ui/adw/customize.ui:766
+#: src/data/ui/customize.ui:773 src/data/ui/customize.ui:785
 msgid "Top End"
 msgstr "Горен край"
 
-#: src/ui/adw/customize.ui:755 src/ui/adw/customize.ui:767
+#: src/data/ui/customize.ui:774 src/data/ui/customize.ui:786
 msgid "Bottom Start"
 msgstr "Долно начало"
 
-#: src/ui/adw/customize.ui:756 src/ui/adw/customize.ui:768
+#: src/data/ui/customize.ui:775 src/data/ui/customize.ui:787
 msgid "Bottom Center"
 msgstr "Долен център"
 
-#: src/ui/adw/customize.ui:757 src/ui/adw/customize.ui:769
+#: src/data/ui/customize.ui:776 src/data/ui/customize.ui:788
 msgid "Bottom End"
 msgstr "Долен край"
 
-#: src/ui/adw/customize.ui:770
+#: src/data/ui/customize.ui:789
 msgid "Center Start"
 msgstr "Централен старт"
 
-#: src/ui/adw/customize.ui:772
+#: src/data/ui/customize.ui:791
 msgid "Center End"
 msgstr "Централен край"
 
-#: src/ui/adw/icons.ui:6 src/ui/adw/icons.ui:11
+#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
 msgid "Icons"
 msgstr "икони"
 
-#: src/ui/adw/icons.ui:15
+#: src/data/ui/icons.ui:15
 msgid "Panel Notification Icon"
 msgstr "Икона за известяване на панела"
 
-#: src/ui/adw/icons.ui:27
+#: src/data/ui/icons.ui:27
 msgid "Power Icon"
 msgstr "Икона на захранването"
 
-#: src/ui/adw/icons.ui:39
+#: src/data/ui/icons.ui:39
 msgid "Window Picker Icon"
 msgstr "Икона за избор на прозорец"
 
-#: src/ui/adw/icons.ui:40
+#: src/data/ui/icons.ui:40
 msgid "The icon under window preview in overview"
 msgstr "Иконата под преглед на прозореца в общ преглед"
 
-#: src/ui/adw/profile.ui:6 src/ui/adw/profile.ui:11
+#: src/data/ui/profile.ui:6 src/data/ui/profile.ui:11
 msgid "Profile"
 msgstr "Профил"
 
-#: src/ui/adw/profile.ui:18
+#: src/data/ui/profile.ui:18
 msgid ""
 "You can choose between pre-defined profiles or you can simply use your own "
 "customized settings"
@@ -357,212 +392,252 @@ msgstr ""
 "Можете да избирате между предварително дефинирани профили или просто да "
 "използвате свои собствени персонализирани настройки"
 
-#: src/ui/adw/profile.ui:53
+#: src/data/ui/profile.ui:53
 msgid "Custom"
 msgstr "Персонализиран"
 
-#: src/ui/adw/profile.ui:63
+#: src/data/ui/profile.ui:63
 msgid "Minimal"
 msgstr "Минимален"
 
-#: src/ui/adw/profile.ui:73
+#: src/data/ui/profile.ui:73
 msgid "Super Minimal"
 msgstr "Супер минимално"
 
-#: src/ui/adw/profile.ui:90
+#: src/data/ui/profile.ui:90
 msgid "Override"
 msgstr "Замяна"
 
-#: src/ui/adw/profile.ui:94
+#: src/data/ui/profile.ui:94
 msgid "Shell Theme"
 msgstr "Тема Shell"
 
-#: src/ui/adw/profile.ui:95
+#: src/data/ui/profile.ui:95
 msgid "Overrides the shell theme partially to create a minimal desktop"
 msgstr ""
 "Заменя темата на черупката частично, за да създаде минимален работен плот"
 
-#: src/ui/adw/profile.ui:110
-msgid "Links"
-msgstr "Връзки"
+#: src/data/ui/profile.ui:110
+msgid "Support"
+msgstr "поддръжка"
 
-#: src/ui/adw/profile.ui:114
-msgid "Bug Report"
-msgstr "Доклад за грешки"
+#: src/data/ui/profile.ui:137
+msgid "Support Via Crypto"
+msgstr "Поддръжка чрез Crypto"
 
-#: src/ui/adw/profile.ui:126
-msgid "Support via Patreon"
-msgstr "Поддръжка чрез Patreon"
+#: src/data/ui/profile.ui:138
+msgid "Preferred Method"
+msgstr "Предпочитан метод"
 
-#: src/ui/adw/profile.ui:138
+#: src/data/ui/profile.ui:329
 msgid "Support via Buy Me a Coffee"
 msgstr "Поддръжка чрез Buy Me a Coffee"
 
-#: src/ui/adw/visibility.ui:6 src/ui/adw/visibility.ui:11
+#: src/data/ui/profile.ui:341
+msgid "Support via Patreon"
+msgstr "Поддръжка чрез Patreon"
+
+#: src/data/ui/profile.ui:356
+msgid "Links"
+msgstr "Връзки"
+
+#: src/data/ui/profile.ui:360
+msgid "Bug Report"
+msgstr "Доклад за грешки"
+
+#: src/data/ui/profile.ui:372
+msgid "YouTube Channel"
+msgstr "Канал в YouTube"
+
+#: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
 msgid "Visibility"
 msgstr "Видимост"
 
-#: src/ui/adw/visibility.ui:15
+#: src/data/ui/visibility.ui:15
 msgid "Panel"
 msgstr "Панел"
 
-#: src/ui/adw/visibility.ui:27
+#: src/data/ui/visibility.ui:27
 msgid "Panel in Overview"
 msgstr "Панел в Общ преглед"
 
-#: src/ui/adw/visibility.ui:40
+#: src/data/ui/visibility.ui:40
 msgid "Activities Button"
 msgstr "Бутон за дейности"
 
-#: src/ui/adw/visibility.ui:41
+#: src/data/ui/visibility.ui:41
 msgid "Button in panel to toggle overview visibility"
 msgstr "Бутон в панела за превключване на видимостта на общия преглед"
 
-#: src/ui/adw/visibility.ui:53
+#: src/data/ui/visibility.ui:53
 msgid "Clock Menu"
 msgstr "часовник Меню"
 
-#: src/ui/adw/visibility.ui:54
+#: src/data/ui/visibility.ui:54
 msgid "Also known as date menu shows date and time in panel"
 msgstr "Известно също като меню за дата показва дата и час в панела"
 
-#: src/ui/adw/visibility.ui:66
+#: src/data/ui/visibility.ui:66
 msgid "Keyboard Layout"
 msgstr "Клавиатурна подредба"
 
-#: src/ui/adw/visibility.ui:67
+#: src/data/ui/visibility.ui:67
 msgid "Keyboard Layout indicator button in panel"
 msgstr "Бутон на индикатора за оформление на клавиатурата в панела"
 
-#: src/ui/adw/visibility.ui:79
+#: src/data/ui/visibility.ui:79
 msgid "Accessibility Menu"
 msgstr "Меню за достъпност"
 
-#: src/ui/adw/visibility.ui:80
+#: src/data/ui/visibility.ui:80
 msgid "Accessibility Menu indicator button in panel"
 msgstr "Бутон за индикатор на менюто за достъпност в панела"
 
-#: src/ui/adw/visibility.ui:92
+#: src/data/ui/visibility.ui:92
 msgid "Quick Settings"
 msgstr "Бързи настройки"
 
-#: src/ui/adw/visibility.ui:93
+#: src/data/ui/visibility.ui:93
 msgid "Quick settings menu in panel"
 msgstr "Меню за бързи настройки в панела"
 
-#: src/ui/adw/visibility.ui:105
+#: src/data/ui/visibility.ui:105
+msgid "Dark Mode Toggle Button"
+msgstr "Бутон за превключване на тъмен режим"
+
+#: src/data/ui/visibility.ui:106
+msgid "Dark Mode Toggle Button in Quick settings menu"
+msgstr "Бутон за превключване на тъмен режим в менюто за бързи настройки"
+
+#: src/data/ui/visibility.ui:118
+msgid "Night Light Toggle Button"
+msgstr "Бутон за превключване на нощна светлина"
+
+#: src/data/ui/visibility.ui:119
+msgid "Night Light Toggle Button in Quick settings menu"
+msgstr "Бутон за превключване на нощна светлина в менюто за бързи настройки"
+
+#: src/data/ui/visibility.ui:131
+msgid "Airplane Mode Toggle Button"
+msgstr "Бутон за превключване на самолетен режим"
+
+#: src/data/ui/visibility.ui:132
+msgid "Airplane Mode Toggle Button in Quick settings menu"
+msgstr "Бутон за превключване на самолетен режим в менюто за бързи настройки"
+
+#: src/data/ui/visibility.ui:144
 msgid "Screen Sharing Indicator"
 msgstr "Индикатор за споделяне на екрана"
 
-#: src/ui/adw/visibility.ui:106
+#: src/data/ui/visibility.ui:145
 msgid "Screen sharing indicator in panel"
 msgstr "Индикатор за споделяне на екрана в панела"
 
-#: src/ui/adw/visibility.ui:118
+#: src/data/ui/visibility.ui:157
 msgid "Screen Recording Indicator"
 msgstr "Индикатор за запис на екрана"
 
-#: src/ui/adw/visibility.ui:119
+#: src/data/ui/visibility.ui:158
 msgid "Screen recording indicator in panel"
 msgstr "Индикатор за запис на екрана в панела"
 
-#: src/ui/adw/visibility.ui:131
+#: src/data/ui/visibility.ui:170
 msgid "World Clock"
 msgstr "Световен часовник"
 
-#: src/ui/adw/visibility.ui:132
+#: src/data/ui/visibility.ui:171
 msgid "World clock in clock menu"
 msgstr "Световен часовник в менюто на часовника"
 
-#: src/ui/adw/visibility.ui:144
+#: src/data/ui/visibility.ui:183
 msgid "Weather"
 msgstr "Метеорологично време"
 
-#: src/ui/adw/visibility.ui:145
+#: src/data/ui/visibility.ui:184
 msgid "Weather in clock menu"
 msgstr "Времето в менюто на часовника"
 
-#: src/ui/adw/visibility.ui:157
+#: src/data/ui/visibility.ui:196
 msgid "Calendar"
 msgstr "Календар"
 
-#: src/ui/adw/visibility.ui:158
+#: src/data/ui/visibility.ui:197
 msgid "Calendar in clock menu"
 msgstr "Календар в менюто на часовника"
 
-#: src/ui/adw/visibility.ui:170
+#: src/data/ui/visibility.ui:209
 msgid "Events"
 msgstr "Събития"
 
-#: src/ui/adw/visibility.ui:171
+#: src/data/ui/visibility.ui:210
 msgid "Events button in clock menu"
 msgstr "Бутон за събития в менюто на часовника"
 
-#: src/ui/adw/visibility.ui:183
+#: src/data/ui/visibility.ui:222
 msgid "Search"
 msgstr "Търсене"
 
-#: src/ui/adw/visibility.ui:184
+#: src/data/ui/visibility.ui:223
 msgid "Search entry in overview"
 msgstr "Търсене на запис в общ преглед"
 
-#: src/ui/adw/visibility.ui:196
+#: src/data/ui/visibility.ui:235
 msgid "Dash"
 msgstr "Тире"
 
-#: src/ui/adw/visibility.ui:197
+#: src/data/ui/visibility.ui:236
 msgid "Dash holds favorite and opened applications icons"
 msgstr "Dash съдържа икони на любими и отворени приложения"
 
-#: src/ui/adw/visibility.ui:209
+#: src/data/ui/visibility.ui:248
 msgid "Dash Separator"
 msgstr "Разделител на тире"
 
-#: src/ui/adw/visibility.ui:210
+#: src/data/ui/visibility.ui:249
 msgid "Dash separator line that separates pin apps from unpin apps"
 msgstr ""
 "Линия за разделяне на тире, която разделя приложенията за щифтове от "
 "приложенията за демонтиране"
 
-#: src/ui/adw/visibility.ui:222
+#: src/data/ui/visibility.ui:261
 msgid "Dash App Running Indicator"
 msgstr "Индикатор за работа на приложението Dash"
 
-#: src/ui/adw/visibility.ui:223
+#: src/data/ui/visibility.ui:262
 msgid "The dot indicator in dash that shows the app is running"
 msgstr "Точковият индикатор в тирето, който показва, че приложението работи"
 
-#: src/ui/adw/visibility.ui:235
+#: src/data/ui/visibility.ui:274
 msgid "Show Applications Button"
 msgstr "Бутон за показване на приложения"
 
-#: src/ui/adw/visibility.ui:236
+#: src/data/ui/visibility.ui:275
 msgid "Button in dash that toggles applications list visibility"
 msgstr "Бутон в тире, който превключва видимостта на списъка с приложения"
 
-#: src/ui/adw/visibility.ui:248
+#: src/data/ui/visibility.ui:287
 msgid "On Screen Display (OSD)"
 msgstr "OSD"
 
-#: src/ui/adw/visibility.ui:249
+#: src/data/ui/visibility.ui:288
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "Сила на звука и яркост на дисплея на екрана, когато се случи промяната"
 
-#: src/ui/adw/visibility.ui:261
+#: src/data/ui/visibility.ui:300
 msgid "Workspace Popup"
 msgstr "Изскачащо работно пространство"
 
-#: src/ui/adw/visibility.ui:262
+#: src/data/ui/visibility.ui:301
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr ""
 "Изскачащ прозорец, който се появява на екрана, когато промените работното "
 "пространство"
 
-#: src/ui/adw/visibility.ui:274
+#: src/data/ui/visibility.ui:313
 msgid "Workspace Switcher"
 msgstr "Превключвател на работното пространство"
 
-#: src/ui/adw/visibility.ui:275
+#: src/data/ui/visibility.ui:314
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
@@ -570,110 +645,52 @@ msgstr ""
 "Също така се отнася до миниатюри на работното пространство, които виждате в "
 "преглед за избор на работно пространство"
 
-#: src/ui/adw/visibility.ui:287
+#: src/data/ui/visibility.ui:326
 msgid "Workspaces App Grid"
 msgstr "Решетка за приложения на работни пространства"
 
-#: src/ui/adw/visibility.ui:288
+#: src/data/ui/visibility.ui:327
 msgid "Workspace boxes in app grid"
 msgstr "Кутии за работно пространство в мрежата на приложенията"
 
-#: src/ui/adw/visibility.ui:300
+#: src/data/ui/visibility.ui:339
 msgid "Window Picker Close Button"
 msgstr "Бутон за затваряне на прозореца за избор"
 
-#: src/ui/adw/visibility.ui:301
+#: src/data/ui/visibility.ui:340
 msgid "The close button on window preview in overview"
 msgstr "Бутонът за затваряне в прегледа на прозореца в преглед"
 
-#: src/ui/adw/visibility.ui:313
+#: src/data/ui/visibility.ui:352
 msgid "Window Picker Caption"
 msgstr "Надпис за избор на прозорец"
 
-#: src/ui/adw/visibility.ui:314
+#: src/data/ui/visibility.ui:353
 msgid "The text under window preview in overview"
 msgstr "Текстът под визуализация на прозореца в преглед"
 
-#: src/ui/adw/visibility.ui:326
+#: src/data/ui/visibility.ui:365
 msgid "Background Menu"
 msgstr "Меню на фона"
 
-#: src/ui/adw/visibility.ui:327
+#: src/data/ui/visibility.ui:366
 msgid "When you right click on desktop background"
 msgstr "Когато щракнете с десния бутон върху фона на работния плот"
 
-#: src/ui/adw/visibility.ui:339
+#: src/data/ui/visibility.ui:378
 msgid "Ripple Box"
 msgstr "Кутия за пулсации"
 
-#: src/ui/adw/visibility.ui:340
+#: src/data/ui/visibility.ui:379
 msgid "Hot corner animation effects"
 msgstr "Горещи ъгли анимационни ефекти"
 
-#: src/ui/adw/visibility.ui:352
+#: src/data/ui/visibility.ui:391
 msgid "Take Screenshot button in Window Menu"
 msgstr "Бутон за правене на екранна снимка в менюто на прозореца"
 
-#: src/ui/adw/visibility.ui:353
+#: src/data/ui/visibility.ui:392
 msgid "Take screenshot button in title bar right click menu"
 msgstr ""
 "Бутон за правене на екранна снимка в менюто с десен щракване на заглавната "
 "лента"
-
-#~ msgid "Select File"
-#~ msgstr "Избери файл"
-
-#~ msgid "Hot Corner"
-#~ msgstr "Горещ ъгъл"
-
-#~ msgid "App Gesture"
-#~ msgstr "App жест"
-
-#~ msgid "Panel Corner Size"
-#~ msgstr "Размер на ъгъла на панела"
-
-#~ msgid "No Corner"
-#~ msgstr "Без ъгъл"
-
-#~ msgid "App Menu Icon"
-#~ msgstr "Икона на менюто на приложението"
-
-#~ msgid "Panel Arrow"
-#~ msgstr "панелна стрелка"
-
-#~ msgid "Activities Button Icon"
-#~ msgstr "Икона на бутон за дейности"
-
-#~ msgid "Activities Button Icon in Monochrome"
-#~ msgstr "Икона на бутон за дейности в монохромен"
-
-#~ msgid "Activities Button Icon With Label"
-#~ msgstr "Икона на бутон за дейности с етикет"
-
-#~ msgid "Only works when you have selected an icon for activities button"
-#~ msgstr "Работи само когато сте избрали икона за бутон за дейности"
-
-#~ msgid "No Matches"
-#~ msgstr "Няма намерени резултати"
-
-#~ msgid "App Menu"
-#~ msgstr "Меню на приложението"
-
-#~ msgid "The menu button in panel with focused window text"
-#~ msgstr "Бутонът за меню в панела с фокусиран текст на прозореца"
-
-#~ msgid "App Menu Label"
-#~ msgstr "Етикет на менюто на приложението"
-
-#~ msgid "The text label in app menu button"
-#~ msgstr "Текстовият етикет в бутона на менюто на приложението"
-
-#~ msgid "System Menu (Aggregate Menu)"
-#~ msgstr "системно меню"
-
-#~ msgid "System menu holds power, volume and network icons in panel"
-#~ msgstr ""
-#~ "Системното меню съдържа икони за мощност, сила на звука и мрежа в панела"
-
-#~ msgid "Preferences Intro"
-#~ msgstr "Предпочитания Въведение"
