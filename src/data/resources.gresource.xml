@@ -13,6 +13,7 @@
     <file preprocess="xml-stripblanks">imgs/qr-usdt.svg</file>
     <file preprocess="xml-stripblanks">imgs/qr-dogecoin.svg</file>
     <file preprocess="xml-stripblanks">imgs/qr-monero.svg</file>
+    <file preprocess="xml-stripblanks">imgs/qr-lbry.svg</file>
     <file>css/prefs.css</file>
   </gresource>
 </gresources>

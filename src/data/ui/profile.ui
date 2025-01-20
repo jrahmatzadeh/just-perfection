@@ -318,6 +318,36 @@ Your contribution will not only ensure the continued development of Just Perfect
           </object>
         </child>
 
+        <child>
+          <object class="AdwActionRow" id="qr_6_row">
+          <property name="halign">center</property>
+          <property name="visible">False</property>
+          <style>
+            <class name="qr-code-row" />
+          </style>
+            <child>
+              <object class="GtkBox">
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkPicture" id="qr_6_picture">
+                    <property name="can-shrink">False</property>
+                    <property name="file">resource:///org/gnome/Shell/Extensions/justperfection/imgs/qr-lbry.svg</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwEntryRow" id="address_6_row">
+            <property name="visible">False</property>
+            <property name="title">LBRY Address</property>
+            <property name="text">bPMi1WVgtMDjdX3V4ofAtMt5qMj4xYM4A1</property>
+            <property name="editable">False</property>
+            <property name="show-apply-button">False</property>
+          </object>
+        </child>
+
       </object>
     </child>
 
@@ -392,6 +422,7 @@ Your contribution will not only ensure the continued development of Just Perfect
       <item>Tether (USDT)</item>
       <item>Dogecoin</item>
       <item>Monero</item>
+      <item>LBRY</item>
     </items>
   </object>
 
