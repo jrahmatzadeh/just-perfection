@@ -86,6 +86,24 @@ export class Prefs
     ];
 
     /**
+     * All available crypto addresses for donation
+     *
+     * The order should be the same as what we have in the combobox .ui file
+     *
+     * @type {Array}
+     */
+    #cryptoAddresses = [
+        ['Bitcoin', 'bc1qn6p0k8sapmxgedn8qjhd5gm2yzy46t5s296lnd'],
+        ['Bitcoin Cash', 'qzhuj2kdw4zjrg8r2j7knx5uzqdcpv5lwv5uxq04e0'],
+        ['Ethereum', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
+        ['USDT', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
+        ['Dogecoin', 'DULPjoiDuhZCmv5LDeJuqYPC8Uy7NK7DnW'],
+        ['Shiba Inu', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
+        ['Monero', '49uPJDZCoFJMoeLAZKDpuTScHjdfgfzksMNurZdt2J4x8meKUZZwUiq3tBs9xYVq9G8PzxjwH6zkXeEZKz3JgdfiGo3aZN5'],
+        ['LBRY', 'bPMi1WVgtMDjdX3V4ofAtMt5qMj4xYM4A1'],
+    ];
+
+    /**
      * class constructor
      *
      * @param {Object} dependencies
@@ -157,6 +175,7 @@ export class Prefs
          this.#setValues();
          this.#guessProfile();
          this.#onlyShowSupportedRows();
+         this.#loadCryptoSupportAddress();
          this.#registerAllSignals(window);
 
          this.#setWindowSize(window);
@@ -315,17 +334,35 @@ export class Prefs
      */
     #registerCryptoSupportSignals()
     {
-        let widget = this.#builder.get_object(`support_crypto_row`);
-        let totalItems = widget.get_model().get_n_items();
+        let comboWidget = this.#builder.get_object(`support_crypto_row`);
 
-        widget.connect('notify::selected-item', (w) => {
+        comboWidget.connect('notify::selected-item', (w) => {
             let selectedIndex = w.get_selected();
-            for (let i = 0; i < totalItems; i++) {
-                let isVisible = i === selectedIndex;
-                this.#builder.get_object(`qr_${i}_row`).visible = isVisible;
-                this.#builder.get_object(`address_${i}_row`).visible = isVisible;
-            }
+            this.#loadCryptoSupportAddress(selectedIndex);
         });
+    }
+
+    /**
+     * load crypto address into the ui
+     * 
+     * @param {number} index coming from the crypto name combobox
+     *
+     * @returns {void}
+     */
+    #loadCryptoSupportAddress(index = 0)
+    {
+        let qrAddressRowWidget = this.#builder.get_object(`qr_address_row`);
+        let qrPictureWidget = this.#builder.get_object(`qr_picture`);
+
+        let name = this.#cryptoAddresses[index][0];
+        let filename = name.replace(' ', '-').toLowerCase();
+        let address = this.#cryptoAddresses[index][1]
+
+        qrPictureWidget.set_resource(
+            `/org/gnome/Shell/Extensions/justperfection/imgs/qr-${filename}.svg`
+        );
+        qrAddressRowWidget.title = `${name} Address`;
+        qrAddressRowWidget.text = address;
     }
 
     /**
