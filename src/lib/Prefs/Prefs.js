@@ -97,6 +97,8 @@ export class Prefs
         ['Bitcoin Cash', 'qzhuj2kdw4zjrg8r2j7knx5uzqdcpv5lwv5uxq04e0'],
         ['Ethereum', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
         ['USDT', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
+        ['USDC', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
+        ['LTC', 'LVz4se3wepdgCNGkE8V53VB47ViAjZb7F1'],
         ['Dogecoin', 'DULPjoiDuhZCmv5LDeJuqYPC8Uy7NK7DnW'],
         ['Shiba Inu', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
         ['Monero', '49uPJDZCoFJMoeLAZKDpuTScHjdfgfzksMNurZdt2J4x8meKUZZwUiq3tBs9xYVq9G8PzxjwH6zkXeEZKz3JgdfiGo3aZN5'],
