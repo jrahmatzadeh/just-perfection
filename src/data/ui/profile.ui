@@ -159,9 +159,19 @@ Your contribution will not only ensure the continued development of Just Perfect
           </object>
         </child>
         <child>
-          <object class="AdwEntryRow" id="qr_address_row">
+          <object class="AdwEntryRow" id="crypto_address_row">
             <property name="editable">False</property>
             <property name="show-apply-button">False</property>
+            <child>
+              <object class="GtkButton" id="crypto_address_copy_button">
+                <property name="valign">center</property>
+                <property name="icon_name">edit-copy-symbolic</property>
+                <property name="tooltip-text" translatable="yes">Copy</property>
+                <style>
+                  <class name="flat"/>
+                </style>
+              </object>
+            </child>
           </object>
         </child>
 
@@ -233,17 +243,22 @@ Your contribution will not only ensure the continued development of Just Perfect
 
   <object class="GtkStringList" id="support_crypto_model">
     <items>
+      <item>Dogecoin</item>
+      <item>Shiba Inu</item>
       <item>Bitcoin</item>
       <item>Bitcoin Cash</item>
       <item>Ethereum</item>
       <item>Tether (USDT)</item>
       <item>USDC</item>
       <item>Litecoin (LTC)</item>
-      <item>Dogecoin</item>
-      <item>Shiba Inu</item>
       <item>Monero</item>
       <item>LBRY</item>
     </items>
+  </object>
+
+  <object class="AdwToast" id="toast_added_to_clipboard">
+    <property name="title" translatable="yes">Address copied to the clipboard</property>
+    <property name="timeout">2</property>
   </object>
 
 </interface>

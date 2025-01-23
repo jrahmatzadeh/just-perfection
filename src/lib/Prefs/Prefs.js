@@ -93,14 +93,14 @@ export class Prefs
      * @type {Array}
      */
     #cryptoAddresses = [
+        ['Dogecoin', 'DULPjoiDuhZCmv5LDeJuqYPC8Uy7NK7DnW'],
+        ['Shiba Inu', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
         ['Bitcoin', 'bc1qn6p0k8sapmxgedn8qjhd5gm2yzy46t5s296lnd'],
         ['Bitcoin Cash', 'qzhuj2kdw4zjrg8r2j7knx5uzqdcpv5lwv5uxq04e0'],
         ['Ethereum', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
         ['USDT', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
         ['USDC', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
         ['LTC', 'LVz4se3wepdgCNGkE8V53VB47ViAjZb7F1'],
-        ['Dogecoin', 'DULPjoiDuhZCmv5LDeJuqYPC8Uy7NK7DnW'],
-        ['Shiba Inu', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
         ['Monero', '49uPJDZCoFJMoeLAZKDpuTScHjdfgfzksMNurZdt2J4x8meKUZZwUiq3tBs9xYVq9G8PzxjwH6zkXeEZKz3JgdfiGo3aZN5'],
         ['LBRY', 'bPMi1WVgtMDjdX3V4ofAtMt5qMj4xYM4A1'],
     ];
@@ -252,7 +252,7 @@ export class Prefs
     {
         this.#registerKeySignals();
         this.#registerProfileSignals();
-        this.#registerCryptoSupportSignals();
+        this.#registerCryptoSupportSignals(window);
         this.#registerCloseSignal(window);
     }
 
@@ -331,16 +331,28 @@ export class Prefs
 
     /**
      * register crypto support signals
+     * 
+     * @param {Adw.PreferencesWindow} window prefs dialog
      *
      * @returns {void}
      */
-    #registerCryptoSupportSignals()
+    #registerCryptoSupportSignals(window)
     {
-        let comboWidget = this.#builder.get_object(`support_crypto_row`);
+        let comboRow = this.#builder.get_object(`support_crypto_row`);
+        let copyButton = this.#builder.get_object(`crypto_address_copy_button`);
+        let addressEntry = this.#builder.get_object(`crypto_address_row`);
+        let toast = this.#builder.get_object(`toast_added_to_clipboard`);
 
-        comboWidget.connect('notify::selected-item', (w) => {
+        comboRow.connect('notify::selected-item', (w) => {
             let selectedIndex = w.get_selected();
             this.#loadCryptoSupportAddress(selectedIndex);
+        });
+
+        copyButton.connect('clicked', () => {
+            let display = this.#gdk.Display.get_default();
+            let clipboard = display.get_clipboard();
+            clipboard.set(addressEntry.text);
+            window.add_toast(toast);
         });
     }
 
@@ -353,18 +365,18 @@ export class Prefs
      */
     #loadCryptoSupportAddress(index = 0)
     {
-        let qrAddressRowWidget = this.#builder.get_object(`qr_address_row`);
-        let qrPictureWidget = this.#builder.get_object(`qr_picture`);
+        let addressEntry = this.#builder.get_object(`crypto_address_row`);
+        let qrPicture = this.#builder.get_object(`qr_picture`);
 
         let name = this.#cryptoAddresses[index][0];
         let filename = name.replace(' ', '-').toLowerCase();
         let address = this.#cryptoAddresses[index][1]
 
-        qrPictureWidget.set_resource(
+        qrPicture.set_resource(
             `/org/gnome/Shell/Extensions/justperfection/imgs/qr-${filename}.svg`
         );
-        qrAddressRowWidget.title = `${name} Address`;
-        qrAddressRowWidget.text = address;
+        addressEntry.title = `${name} Address`;
+        addressEntry.text = address;
     }
 
     /**
