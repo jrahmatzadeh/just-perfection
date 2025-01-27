@@ -137,7 +137,7 @@ export default class JustPerfection extends Extension
             this
         );
 
-        this.#supportNotifier.run();
+        this.#supportNotifier.start();
     }
 
     /**

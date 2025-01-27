@@ -78,17 +78,16 @@ export class SupportNotifier
     #registerSettingsSignals()
     {
         this.#settings.connect('changed::support-notifier-type', () => {
-            this.stop();
-            this.run();
+            this.restart();
         });
     }
 
     /**
-     * run support notifier service
+     * start support notifier service
      *
      * @returns {void}
      */
-    run()
+    start()
     {
         let type = this.#settings.get_int('support-notifier-type');
 
@@ -124,6 +123,17 @@ export class SupportNotifier
             this._glib.source_remove(this._monthly_timeout);
             this._monthly_timeout = null;
         }
+    }
+
+    /**
+     * restart support notifier service
+     *
+     * @returns {void}
+     */
+    restart()
+    {
+        this.stop();
+        this.start();
     }
 
     /**
