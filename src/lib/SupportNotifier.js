@@ -145,7 +145,7 @@ export class SupportNotifier
     {
         let showedVersion = this.#settings.get_int('support-notifier-showed-version');
 
-        return this.#extensionVersion >= showedVersion;
+        return this.#extensionVersion <= showedVersion;
     }
 
     /**
