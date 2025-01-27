@@ -881,6 +881,12 @@ export class PrefsKeys
                 superminimal: true,
             }
         );
+
+        this.#setKey(
+            'support',
+            'support-notifier-type',
+            'AdwActionRow'
+        );
     }
 
     /**
@@ -903,7 +909,7 @@ export class PrefsKeys
      *
      * @returns {void}
      */
-    #setKey(category, name, widgetType, supported, profiles, maps = {})
+    #setKey(category, name, widgetType, supported = true, profiles = {}, maps = {})
     {
         let id = name.replace(/-/g, '_');
         let widgetName = widgetType.toLowerCase().replace('gtk', '');

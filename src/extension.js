@@ -39,6 +39,7 @@ import {Extension} from 'resource:///org/gnome/shell/extensions/extension.js';
 
 import {API} from './lib/API.js';
 import {Manager} from './lib/Manager.js';
+import {SupportNotifier} from './lib/SupportNotifier.js';
 
 /**
  * Extension entry point
@@ -50,14 +51,21 @@ export default class JustPerfection extends Extension
      *
      * @type {API|null}
      */
-     #api = null;
+    #api = null;
 
     /**
      * Instance of Manager
      *
      * @type {Manager|null}
      */
-     #manager = null;
+    #manager = null;
+
+    /**
+     * Instance of SupportNotifier
+     *
+     * @type {SupportNotifier|null}
+     */
+    #supportNotifier = null;
 
     /**
      * Enable extension
@@ -67,6 +75,7 @@ export default class JustPerfection extends Extension
     enable()
     {
         const shellVersion = parseFloat(Config.PACKAGE_VERSION);
+        const extensionVersion = parseInt(this.metadata.version);
 
         let InterfaceSettings = new Gio.Settings({schema_id: 'org.gnome.desktop.interface'});
 
@@ -115,6 +124,20 @@ export default class JustPerfection extends Extension
 
         this.#manager.registerSettingsSignals();
         this.#manager.applyAll();
+
+        this.#supportNotifier = new SupportNotifier(
+            {
+                MessageTray,
+                GLib,
+                Gio,
+                Settings: settings,
+            },
+            shellVersion,
+            extensionVersion,
+            this
+        );
+
+        this.#supportNotifier.run();
     }
 
     /**
@@ -129,6 +152,9 @@ export default class JustPerfection extends Extension
 
         this.#api?.close();
         this.#api = null;
+
+        this.#supportNotifier?.stop();
+        this.#supportNotifier = null;
     }
 }
 

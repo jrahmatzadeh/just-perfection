@@ -11,6 +11,7 @@ We go to the next version after each release on the
 
 - Airplane Mode Toggle Button Visibility in Quick Settings.
 - More Crypto Donations (USDC, LTC, Shiba Inu and LBRY).
+- Support Notifier.
 
 ## [31.0] - 2025-01-06
 

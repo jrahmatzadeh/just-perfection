@@ -193,18 +193,20 @@ Your contribution will not only ensure the continued development of Just Perfect
           </object>
         </child>
 
+      </object>
+    </child>
+
+    <child>
+      <object class="AdwPreferencesGroup" id="support_notifier_group">
+
         <child>
-          <object class="AdwActionRow">
-            <property name="title" translatable="yes">Support via Patreon</property>
-            <property name="activatable-widget">patreon_linkbutton</property>
-            <child>
-              <object class="GtkLinkButton" id="patreon_linkbutton">
-                <property name="uri">https://www.patreon.com/justperfection</property>
-              </object>
-            </child>
+          <object class="AdwComboRow" id="support_notifier_type_row">
+            <property name="title" translatable="yes">Support Notifier</property>
+            <property name="subtitle" translatable="yes">Manage when the support notifier shows up</property>
+            <property name="model">support_notifier_type_model</property>
           </object>
         </child>
-
+        
       </object>
     </child>
 
@@ -244,7 +246,6 @@ Your contribution will not only ensure the continued development of Just Perfect
   <object class="GtkStringList" id="support_crypto_model">
     <items>
       <item>Dogecoin</item>
-      <item>Shiba Inu</item>
       <item>Bitcoin</item>
       <item>Bitcoin Cash</item>
       <item>Ethereum</item>
@@ -253,6 +254,15 @@ Your contribution will not only ensure the continued development of Just Perfect
       <item>Litecoin (LTC)</item>
       <item>Monero</item>
       <item>LBRY</item>
+      <item>Shiba Inu</item>
+    </items>
+  </object>
+
+  <object class="GtkStringList" id="support_notifier_type_model">
+    <items>
+      <item translatable="yes">Never</item>
+      <item translatable="yes">On New Releases</item>
+      <item translatable="yes">Monthly</item>
     </items>
   </object>
 

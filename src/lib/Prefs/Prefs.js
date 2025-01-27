@@ -94,7 +94,6 @@ export class Prefs
      */
     #cryptoAddresses = [
         ['Dogecoin', 'DULPjoiDuhZCmv5LDeJuqYPC8Uy7NK7DnW'],
-        ['Shiba Inu', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
         ['Bitcoin', 'bc1qn6p0k8sapmxgedn8qjhd5gm2yzy46t5s296lnd'],
         ['Bitcoin Cash', 'qzhuj2kdw4zjrg8r2j7knx5uzqdcpv5lwv5uxq04e0'],
         ['Ethereum', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
@@ -103,6 +102,7 @@ export class Prefs
         ['LTC', 'LVz4se3wepdgCNGkE8V53VB47ViAjZb7F1'],
         ['Monero', '49uPJDZCoFJMoeLAZKDpuTScHjdfgfzksMNurZdt2J4x8meKUZZwUiq3tBs9xYVq9G8PzxjwH6zkXeEZKz3JgdfiGo3aZN5'],
         ['LBRY', 'bPMi1WVgtMDjdX3V4ofAtMt5qMj4xYM4A1'],
+        ['Shiba Inu', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
     ];
 
     /**
@@ -209,8 +209,8 @@ export class Prefs
     {
         let [pmWidth, pmHeight, pmScale] = this.#getPrimaryMonitorInfo();
         let sizeTolerance = 50;
-        let width = 600;
-        let height = 730;
+        let width = 670;
+        let height = 840;
 
         if (
             (pmWidth / pmScale) - sizeTolerance >= width &&
@@ -506,4 +506,3 @@ export class Prefs
         }
      }
 };
-
