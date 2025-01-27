@@ -132,8 +132,6 @@ You can support my work by sending me some crypto:
 
 Or support via:
 
-[![Support via Patreon](data/imgs/support-patreon.svg)](https://www.patreon.com/justperfection)
-
 [![Support via Buy Me a Coffee](data/imgs/support-buymeacoffee.svg)](https://www.buymeacoffee.com/justperfection)
 
 ## Awards
