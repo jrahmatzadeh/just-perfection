@@ -201,8 +201,8 @@ Your contribution will not only ensure the continued development of Just Perfect
 
         <child>
           <object class="AdwComboRow" id="support_notifier_type_row">
-            <property name="title" translatable="yes">Support Notifier</property>
-            <property name="subtitle" translatable="yes">Manage when the support notifier shows up</property>
+            <property name="title" translatable="yes">Support Notification</property>
+            <property name="subtitle" translatable="yes">Manage when the support notification shows up</property>
             <property name="model">support_notifier_type_model</property>
           </object>
         </child>
