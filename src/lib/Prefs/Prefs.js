@@ -93,13 +93,18 @@ export class Prefs
      * @type {Array}
      */
     #cryptoAddresses = [
-        ['Dogecoin', 'DULPjoiDuhZCmv5LDeJuqYPC8Uy7NK7DnW'],
         ['Bitcoin', 'bc1qn6p0k8sapmxgedn8qjhd5gm2yzy46t5s296lnd'],
         ['Bitcoin Cash', 'qzhuj2kdw4zjrg8r2j7knx5uzqdcpv5lwv5uxq04e0'],
         ['Ethereum', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
+        ['XRP', 'rMvJGGw3eWat3vm7TRjUb5XAtazoSm399R'],
         ['USDT', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
         ['USDC', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
+        ['Solana', '3M9d8arcHiuqAwso9zTX4pvZRoaeVVomkovWmGCYgDG2'],
+        ['Cardano', 'addr1qxgrpcsdpyuh7dl4m2mk2vpuss68zjze9y83wpsuxjyafg5sxr3q6zfe0umltk4hv5crepp5w9y9j2g0zurpcdyf6j3qeu2hqs'],
+        ['BNB', '0xE4A6C46E1095C49688645c132672cB04d1402026'],
+        ['Dogecoin', 'DULPjoiDuhZCmv5LDeJuqYPC8Uy7NK7DnW'],
         ['LTC', 'LVz4se3wepdgCNGkE8V53VB47ViAjZb7F1'],
+        ['XLM', 'GDZOVYXD6PGG77V5HGHN767AGPIYZ3ZHNUC53BSXMIDRSTKVFVUJJFHZ'],
         ['Monero', '49uPJDZCoFJMoeLAZKDpuTScHjdfgfzksMNurZdt2J4x8meKUZZwUiq3tBs9xYVq9G8PzxjwH6zkXeEZKz3JgdfiGo3aZN5'],
         ['LBRY', 'bPMi1WVgtMDjdX3V4ofAtMt5qMj4xYM4A1'],
         ['Shiba Inu', '0xE4A6C46E1095C49688645c132672cB04d1402026'],

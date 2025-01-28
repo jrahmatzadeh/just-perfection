@@ -245,13 +245,18 @@ Your contribution will not only ensure the continued development of Just Perfect
 
   <object class="GtkStringList" id="support_crypto_model">
     <items>
-      <item>Dogecoin</item>
       <item>Bitcoin</item>
       <item>Bitcoin Cash</item>
       <item>Ethereum</item>
-      <item>Tether (USDT)</item>
+      <item>XRP</item>
+      <item>USDT (Tether)</item>
       <item>USDC</item>
+      <item>Solana</item>
+      <item>Cardano (ADA)</item>
+      <item>BNB (BSC Network)</item>
+      <item>Dogecoin</item>
       <item>Litecoin (LTC)</item>
+      <item>Stellar (XLM)</item>
       <item>Monero</item>
       <item>LBRY</item>
       <item>Shiba Inu</item>

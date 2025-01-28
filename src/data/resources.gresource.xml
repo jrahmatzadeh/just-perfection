@@ -9,14 +9,19 @@
     <file preprocess="xml-stripblanks">imgs/donation.svg</file>
     <file preprocess="xml-stripblanks">imgs/qr-bitcoin.svg</file>
     <file preprocess="xml-stripblanks">imgs/qr-bitcoin-cash.svg</file>
-    <file preprocess="xml-stripblanks">imgs/qr-ethereum.svg</file>
-    <file preprocess="xml-stripblanks">imgs/qr-usdt.svg</file>
-    <file preprocess="xml-stripblanks">imgs/qr-usdc.svg</file>
-    <file preprocess="xml-stripblanks">imgs/qr-ltc.svg</file>
+    <file preprocess="xml-stripblanks">imgs/qr-bnb.svg</file>
+    <file preprocess="xml-stripblanks">imgs/qr-cardano.svg</file>
     <file preprocess="xml-stripblanks">imgs/qr-dogecoin.svg</file>
-    <file preprocess="xml-stripblanks">imgs/qr-monero.svg</file>
+    <file preprocess="xml-stripblanks">imgs/qr-ethereum.svg</file>
     <file preprocess="xml-stripblanks">imgs/qr-lbry.svg</file>
+    <file preprocess="xml-stripblanks">imgs/qr-ltc.svg</file>
+    <file preprocess="xml-stripblanks">imgs/qr-monero.svg</file>
     <file preprocess="xml-stripblanks">imgs/qr-shiba-inu.svg</file>
+    <file preprocess="xml-stripblanks">imgs/qr-solana.svg</file>
+    <file preprocess="xml-stripblanks">imgs/qr-usdc.svg</file>
+    <file preprocess="xml-stripblanks">imgs/qr-usdt.svg</file>
+    <file preprocess="xml-stripblanks">imgs/qr-xlm.svg</file>
+    <file preprocess="xml-stripblanks">imgs/qr-xrp.svg</file>
     <file>css/prefs.css</file>
   </gresource>
 </gresources>
