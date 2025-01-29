@@ -179,19 +179,27 @@ export class SupportNotifier
         }
 
         let title = "Support Just Perfection Extension";
-        let body = "Maintaining Just Perfection extension takes time and resources. " +
-            "Please consider a donation to help maintain and improve it with new features and updates.";
+        let body = "The future of the Just Perfection extension depends on your support! " +
+            "Your donation will help add new features and updates. " +
+            "Please consider making a donation." +
+            "\r\r" +
+            "<i>Crypto donations are preferred since there are no platform fees, " +
+            "and 100% of your donation is received directly.</i>";
 
         const source = this._messageTray.getSystemSource();
+
+        source.title = 'Just Perfection Extension';
+        source.iconName = 'application-x-addon-symbolic';
+
         const notification = new this._messageTray.Notification({
             source,
             title,
             body,
+            useBodyMarkup: true,
+            resident: true,
+            iconName: 'emblem-favorite-symbolic',
+            urgency: this._messageTray.Urgency.CRITICAL
         });
-
-        notification.urgency = this._messageTray.Urgency.CRITICAL;
-        notification.resident = true;
-        notification.iconName = 'emblem-favorite-symbolic';
 
         notification.addAction('Buy Me a Coffee', () => {
             this._gio.AppInfo.launch_default_for_uri('https://www.buymeacoffee.com/justperfection', null);
