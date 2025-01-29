@@ -128,6 +128,7 @@ export default class JustPerfection extends Extension
         this.#supportNotifier = new SupportNotifier(
             {
                 MessageTray,
+                Main,
                 GLib,
                 Gio,
                 Settings: settings,
