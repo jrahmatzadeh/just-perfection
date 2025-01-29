@@ -245,7 +245,7 @@ export class SupportNotifier
         const notification
             = (this.#shellVersion >= 46)
             ? new this._messageTray.Notification({source, title, body})
-            : new this._messageTray.Notification(source, title, body);
+            : new this._messageTray.Notification(source, title, body, {bannerMarkup: true});
 
         notification.useBodyMarkup = true;
         notification.resident = true;
