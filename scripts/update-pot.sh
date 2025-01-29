@@ -10,13 +10,13 @@ set -e
 # cd to the repo root
 cd "$( cd "$( dirname "$0" )" && pwd )/.."
 
+find -name *.ui -o -name *.js | xargs \
 xgettext \
     --from-code=UTF-8 \
     --copyright-holder="Just Perfection" \
     --package-name="Just Perfection" \
     --package-version="3" \
-    --output="po/main.pot" \
-    src/data/ui/*.ui
+    --output="po/main.pot"
 
 for file in po/*.po
 do

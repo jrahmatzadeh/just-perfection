@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-17 03:11-0800\n"
+"POT-Creation-Date: 2025-01-29 14:44-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,264 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
+msgid "Visibility"
+msgstr ""
+
+#: src/data/ui/visibility.ui:15
+msgid "Panel"
+msgstr ""
+
+#: src/data/ui/visibility.ui:27
+msgid "Panel in Overview"
+msgstr ""
+
+#: src/data/ui/visibility.ui:40
+msgid "Activities Button"
+msgstr ""
+
+#: src/data/ui/visibility.ui:41
+msgid "Button in panel to toggle overview visibility"
+msgstr ""
+
+#: src/data/ui/visibility.ui:53
+msgid "Clock Menu"
+msgstr ""
+
+#: src/data/ui/visibility.ui:54
+msgid "Also known as date menu shows date and time in panel"
+msgstr ""
+
+#: src/data/ui/visibility.ui:66
+msgid "Keyboard Layout"
+msgstr ""
+
+#: src/data/ui/visibility.ui:67
+msgid "Keyboard Layout indicator button in panel"
+msgstr ""
+
+#: src/data/ui/visibility.ui:79
+msgid "Accessibility Menu"
+msgstr ""
+
+#: src/data/ui/visibility.ui:80
+msgid "Accessibility Menu indicator button in panel"
+msgstr ""
+
+#: src/data/ui/visibility.ui:92
+msgid "Quick Settings"
+msgstr ""
+
+#: src/data/ui/visibility.ui:93
+msgid "Quick settings menu in panel"
+msgstr ""
+
+#: src/data/ui/visibility.ui:105
+msgid "Dark Mode Toggle Button"
+msgstr ""
+
+#: src/data/ui/visibility.ui:106
+msgid "Dark Mode Toggle Button in Quick settings menu"
+msgstr ""
+
+#: src/data/ui/visibility.ui:118
+msgid "Night Light Toggle Button"
+msgstr ""
+
+#: src/data/ui/visibility.ui:119
+msgid "Night Light Toggle Button in Quick settings menu"
+msgstr ""
+
+#: src/data/ui/visibility.ui:131
+msgid "Airplane Mode Toggle Button"
+msgstr ""
+
+#: src/data/ui/visibility.ui:132
+msgid "Airplane Mode Toggle Button in Quick settings menu"
+msgstr ""
+
+#: src/data/ui/visibility.ui:144
+msgid "Screen Sharing Indicator"
+msgstr ""
+
+#: src/data/ui/visibility.ui:145
+msgid "Screen sharing indicator in panel"
+msgstr ""
+
+#: src/data/ui/visibility.ui:157
+msgid "Screen Recording Indicator"
+msgstr ""
+
+#: src/data/ui/visibility.ui:158
+msgid "Screen recording indicator in panel"
+msgstr ""
+
+#: src/data/ui/visibility.ui:170
+msgid "World Clock"
+msgstr ""
+
+#: src/data/ui/visibility.ui:171
+msgid "World clock in clock menu"
+msgstr ""
+
+#: src/data/ui/visibility.ui:183
+msgid "Weather"
+msgstr ""
+
+#: src/data/ui/visibility.ui:184
+msgid "Weather in clock menu"
+msgstr ""
+
+#: src/data/ui/visibility.ui:196
+msgid "Calendar"
+msgstr ""
+
+#: src/data/ui/visibility.ui:197
+msgid "Calendar in clock menu"
+msgstr ""
+
+#: src/data/ui/visibility.ui:209
+msgid "Events"
+msgstr ""
+
+#: src/data/ui/visibility.ui:210
+msgid "Events button in clock menu"
+msgstr ""
+
+#: src/data/ui/visibility.ui:222
+msgid "Search"
+msgstr ""
+
+#: src/data/ui/visibility.ui:223
+msgid "Search entry in overview"
+msgstr ""
+
+#: src/data/ui/visibility.ui:235
+msgid "Dash"
+msgstr ""
+
+#: src/data/ui/visibility.ui:236
+msgid "Dash holds favorite and opened applications icons"
+msgstr ""
+
+#: src/data/ui/visibility.ui:248
+msgid "Dash Separator"
+msgstr ""
+
+#: src/data/ui/visibility.ui:249
+msgid "Dash separator line that separates pin apps from unpin apps"
+msgstr ""
+
+#: src/data/ui/visibility.ui:261
+msgid "Dash App Running Indicator"
+msgstr ""
+
+#: src/data/ui/visibility.ui:262
+msgid "The dot indicator in dash that shows the app is running"
+msgstr ""
+
+#: src/data/ui/visibility.ui:274
+msgid "Show Applications Button"
+msgstr ""
+
+#: src/data/ui/visibility.ui:275
+msgid "Button in dash that toggles applications list visibility"
+msgstr ""
+
+#: src/data/ui/visibility.ui:287
+msgid "On Screen Display (OSD)"
+msgstr ""
+
+#: src/data/ui/visibility.ui:288
+msgid "Volume and brightness on screen display when the change happens"
+msgstr ""
+
+#: src/data/ui/visibility.ui:300
+msgid "Workspace Popup"
+msgstr ""
+
+#: src/data/ui/visibility.ui:301
+msgid "Popup that appears on the screen when you change the workspace"
+msgstr ""
+
+#: src/data/ui/visibility.ui:313
+msgid "Workspace Switcher"
+msgstr ""
+
+#: src/data/ui/visibility.ui:314
+msgid ""
+"Also refers to workspace thumbnails that you see in overview for selecting a "
+"workspace"
+msgstr ""
+
+#: src/data/ui/visibility.ui:326
+msgid "Workspaces App Grid"
+msgstr ""
+
+#: src/data/ui/visibility.ui:327
+msgid "Workspace boxes in app grid"
+msgstr ""
+
+#: src/data/ui/visibility.ui:339
+msgid "Window Picker Close Button"
+msgstr ""
+
+#: src/data/ui/visibility.ui:340
+msgid "The close button on window preview in overview"
+msgstr ""
+
+#: src/data/ui/visibility.ui:352
+msgid "Window Picker Caption"
+msgstr ""
+
+#: src/data/ui/visibility.ui:353
+msgid "The text under window preview in overview"
+msgstr ""
+
+#: src/data/ui/visibility.ui:365
+msgid "Background Menu"
+msgstr ""
+
+#: src/data/ui/visibility.ui:366
+msgid "When you right click on desktop background"
+msgstr ""
+
+#: src/data/ui/visibility.ui:378
+msgid "Ripple Box"
+msgstr ""
+
+#: src/data/ui/visibility.ui:379
+msgid "Hot corner animation effects"
+msgstr ""
+
+#: src/data/ui/visibility.ui:391
+msgid "Take Screenshot button in Window Menu"
+msgstr ""
+
+#: src/data/ui/visibility.ui:392
+msgid "Take screenshot button in title bar right click menu"
+msgstr ""
+
+#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
+msgid "Icons"
+msgstr ""
+
+#: src/data/ui/icons.ui:15
+msgid "Panel Notification Icon"
+msgstr ""
+
+#: src/data/ui/icons.ui:27
+msgid "Power Icon"
+msgstr ""
+
+#: src/data/ui/icons.ui:39
+msgid "Window Picker Icon"
+msgstr ""
+
+#: src/data/ui/icons.ui:40
+msgid "The icon under window preview in overview"
+msgstr ""
 
 #: src/data/ui/behavior.ui:6 src/data/ui/behavior.ui:11
 msgid "Behavior"
@@ -348,26 +606,6 @@ msgstr ""
 msgid "Center End"
 msgstr ""
 
-#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
-msgid "Icons"
-msgstr ""
-
-#: src/data/ui/icons.ui:15
-msgid "Panel Notification Icon"
-msgstr ""
-
-#: src/data/ui/icons.ui:27
-msgid "Power Icon"
-msgstr ""
-
-#: src/data/ui/icons.ui:39
-msgid "Window Picker Icon"
-msgstr ""
-
-#: src/data/ui/icons.ui:40
-msgid "The icon under window preview in overview"
-msgstr ""
-
 #: src/data/ui/profile.ui:6 src/data/ui/profile.ui:11
 msgid "Profile"
 msgstr ""
@@ -406,268 +644,54 @@ msgstr ""
 msgid "Support"
 msgstr ""
 
-#: src/data/ui/profile.ui:137
+#: src/data/ui/profile.ui:135
 msgid "Support Via Crypto"
 msgstr ""
 
-#: src/data/ui/profile.ui:138
+#: src/data/ui/profile.ui:136
 msgid "Preferred Method"
 msgstr ""
 
-#: src/data/ui/profile.ui:329
+#: src/data/ui/profile.ui:167
+msgid "Copy"
+msgstr ""
+
+#: src/data/ui/profile.ui:184
 msgid "Support via Buy Me a Coffee"
 msgstr ""
 
-#: src/data/ui/profile.ui:341
-msgid "Support via Patreon"
+#: src/data/ui/profile.ui:202
+msgid "Support Notification"
 msgstr ""
 
-#: src/data/ui/profile.ui:356
+#: src/data/ui/profile.ui:203
+msgid "Manage when the support notification shows up"
+msgstr ""
+
+#: src/data/ui/profile.ui:213
 msgid "Links"
 msgstr ""
 
-#: src/data/ui/profile.ui:360
+#: src/data/ui/profile.ui:217
 msgid "Bug Report"
 msgstr ""
 
-#: src/data/ui/profile.ui:372
+#: src/data/ui/profile.ui:229
 msgid "YouTube Channel"
 msgstr ""
 
-#: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
-msgid "Visibility"
+#: src/data/ui/profile.ui:266
+msgid "Never"
 msgstr ""
 
-#: src/data/ui/visibility.ui:15
-msgid "Panel"
+#: src/data/ui/profile.ui:267
+msgid "On New Releases"
 msgstr ""
 
-#: src/data/ui/visibility.ui:27
-msgid "Panel in Overview"
+#: src/data/ui/profile.ui:268
+msgid "Monthly"
 msgstr ""
 
-#: src/data/ui/visibility.ui:40
-msgid "Activities Button"
-msgstr ""
-
-#: src/data/ui/visibility.ui:41
-msgid "Button in panel to toggle overview visibility"
-msgstr ""
-
-#: src/data/ui/visibility.ui:53
-msgid "Clock Menu"
-msgstr ""
-
-#: src/data/ui/visibility.ui:54
-msgid "Also known as date menu shows date and time in panel"
-msgstr ""
-
-#: src/data/ui/visibility.ui:66
-msgid "Keyboard Layout"
-msgstr ""
-
-#: src/data/ui/visibility.ui:67
-msgid "Keyboard Layout indicator button in panel"
-msgstr ""
-
-#: src/data/ui/visibility.ui:79
-msgid "Accessibility Menu"
-msgstr ""
-
-#: src/data/ui/visibility.ui:80
-msgid "Accessibility Menu indicator button in panel"
-msgstr ""
-
-#: src/data/ui/visibility.ui:92
-msgid "Quick Settings"
-msgstr ""
-
-#: src/data/ui/visibility.ui:93
-msgid "Quick settings menu in panel"
-msgstr ""
-
-#: src/data/ui/visibility.ui:105
-msgid "Dark Mode Toggle Button"
-msgstr ""
-
-#: src/data/ui/visibility.ui:106
-msgid "Dark Mode Toggle Button in Quick settings menu"
-msgstr ""
-
-#: src/data/ui/visibility.ui:118
-msgid "Night Light Toggle Button"
-msgstr ""
-
-#: src/data/ui/visibility.ui:119
-msgid "Night Light Toggle Button in Quick settings menu"
-msgstr ""
-
-#: src/data/ui/visibility.ui:131
-msgid "Airplane Mode Toggle Button"
-msgstr ""
-
-#: src/data/ui/visibility.ui:132
-msgid "Airplane Mode Toggle Button in Quick settings menu"
-msgstr ""
-
-#: src/data/ui/visibility.ui:144
-msgid "Screen Sharing Indicator"
-msgstr ""
-
-#: src/data/ui/visibility.ui:145
-msgid "Screen sharing indicator in panel"
-msgstr ""
-
-#: src/data/ui/visibility.ui:157
-msgid "Screen Recording Indicator"
-msgstr ""
-
-#: src/data/ui/visibility.ui:158
-msgid "Screen recording indicator in panel"
-msgstr ""
-
-#: src/data/ui/visibility.ui:170
-msgid "World Clock"
-msgstr ""
-
-#: src/data/ui/visibility.ui:171
-msgid "World clock in clock menu"
-msgstr ""
-
-#: src/data/ui/visibility.ui:183
-msgid "Weather"
-msgstr ""
-
-#: src/data/ui/visibility.ui:184
-msgid "Weather in clock menu"
-msgstr ""
-
-#: src/data/ui/visibility.ui:196
-msgid "Calendar"
-msgstr ""
-
-#: src/data/ui/visibility.ui:197
-msgid "Calendar in clock menu"
-msgstr ""
-
-#: src/data/ui/visibility.ui:209
-msgid "Events"
-msgstr ""
-
-#: src/data/ui/visibility.ui:210
-msgid "Events button in clock menu"
-msgstr ""
-
-#: src/data/ui/visibility.ui:222
-msgid "Search"
-msgstr ""
-
-#: src/data/ui/visibility.ui:223
-msgid "Search entry in overview"
-msgstr ""
-
-#: src/data/ui/visibility.ui:235
-msgid "Dash"
-msgstr ""
-
-#: src/data/ui/visibility.ui:236
-msgid "Dash holds favorite and opened applications icons"
-msgstr ""
-
-#: src/data/ui/visibility.ui:248
-msgid "Dash Separator"
-msgstr ""
-
-#: src/data/ui/visibility.ui:249
-msgid "Dash separator line that separates pin apps from unpin apps"
-msgstr ""
-
-#: src/data/ui/visibility.ui:261
-msgid "Dash App Running Indicator"
-msgstr ""
-
-#: src/data/ui/visibility.ui:262
-msgid "The dot indicator in dash that shows the app is running"
-msgstr ""
-
-#: src/data/ui/visibility.ui:274
-msgid "Show Applications Button"
-msgstr ""
-
-#: src/data/ui/visibility.ui:275
-msgid "Button in dash that toggles applications list visibility"
-msgstr ""
-
-#: src/data/ui/visibility.ui:287
-msgid "On Screen Display (OSD)"
-msgstr ""
-
-#: src/data/ui/visibility.ui:288
-msgid "Volume and brightness on screen display when the change happens"
-msgstr ""
-
-#: src/data/ui/visibility.ui:300
-msgid "Workspace Popup"
-msgstr ""
-
-#: src/data/ui/visibility.ui:301
-msgid "Popup that appears on the screen when you change the workspace"
-msgstr ""
-
-#: src/data/ui/visibility.ui:313
-msgid "Workspace Switcher"
-msgstr ""
-
-#: src/data/ui/visibility.ui:314
-msgid ""
-"Also refers to workspace thumbnails that you see in overview for selecting a "
-"workspace"
-msgstr ""
-
-#: src/data/ui/visibility.ui:326
-msgid "Workspaces App Grid"
-msgstr ""
-
-#: src/data/ui/visibility.ui:327
-msgid "Workspace boxes in app grid"
-msgstr ""
-
-#: src/data/ui/visibility.ui:339
-msgid "Window Picker Close Button"
-msgstr ""
-
-#: src/data/ui/visibility.ui:340
-msgid "The close button on window preview in overview"
-msgstr ""
-
-#: src/data/ui/visibility.ui:352
-msgid "Window Picker Caption"
-msgstr ""
-
-#: src/data/ui/visibility.ui:353
-msgid "The text under window preview in overview"
-msgstr ""
-
-#: src/data/ui/visibility.ui:365
-msgid "Background Menu"
-msgstr ""
-
-#: src/data/ui/visibility.ui:366
-msgid "When you right click on desktop background"
-msgstr ""
-
-#: src/data/ui/visibility.ui:378
-msgid "Ripple Box"
-msgstr ""
-
-#: src/data/ui/visibility.ui:379
-msgid "Hot corner animation effects"
-msgstr ""
-
-#: src/data/ui/visibility.ui:391
-msgid "Take Screenshot button in Window Menu"
-msgstr ""
-
-#: src/data/ui/visibility.ui:392
-msgid "Take screenshot button in title bar right click menu"
+#: src/data/ui/profile.ui:273
+msgid "Address copied to the clipboard"
 msgstr ""

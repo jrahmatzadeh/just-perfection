@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-15 23:47-0800\n"
+"POT-Creation-Date: 2025-01-29 14:44-0800\n"
 "PO-Revision-Date: 2021-02-05 14:43+0545\n"
 "Last-Translator: 1BA4 <nabin7076@protonmail.com>\n"
 "Language-Team: Nepali <>\n"
@@ -17,6 +17,266 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "X-Generator: Gtranslator 3.38.0\n"
+
+#: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
+msgid "Visibility"
+msgstr "दृश्यता"
+
+#: src/data/ui/visibility.ui:15
+msgid "Panel"
+msgstr "प्यानल"
+
+#: src/data/ui/visibility.ui:27
+msgid "Panel in Overview"
+msgstr "अवलोकन मा प्यानल"
+
+#: src/data/ui/visibility.ui:40
+msgid "Activities Button"
+msgstr "एकटीभीटिज बटन"
+
+#: src/data/ui/visibility.ui:41
+msgid "Button in panel to toggle overview visibility"
+msgstr "अवलोकन दृश्यता टगल गर्न प्यानलमा बटन"
+
+#: src/data/ui/visibility.ui:53
+msgid "Clock Menu"
+msgstr "घडी मेनू"
+
+#: src/data/ui/visibility.ui:54
+msgid "Also known as date menu shows date and time in panel"
+msgstr "मिति मेनूको रूपमा पनि जानिन्छ प्यानलमा मिति र समय देखाउँदछ"
+
+#: src/data/ui/visibility.ui:66
+msgid "Keyboard Layout"
+msgstr "कीबोर्ड लेआउट"
+
+#: src/data/ui/visibility.ui:67
+msgid "Keyboard Layout indicator button in panel"
+msgstr "प्यानलमा कीबोर्ड लेआउट सूचक बटन"
+
+#: src/data/ui/visibility.ui:79
+msgid "Accessibility Menu"
+msgstr "पहुँच मेनू"
+
+#: src/data/ui/visibility.ui:80
+msgid "Accessibility Menu indicator button in panel"
+msgstr "प्यानलमा पहुँच मेनू सूचक बटन"
+
+#: src/data/ui/visibility.ui:92
+msgid "Quick Settings"
+msgstr "द्रुत सेटिङहरू"
+
+#: src/data/ui/visibility.ui:93
+msgid "Quick settings menu in panel"
+msgstr "प्यानलमा द्रुत सेटिङ मेनु"
+
+#: src/data/ui/visibility.ui:105
+msgid "Dark Mode Toggle Button"
+msgstr "गाढा मोड टगल बटन"
+
+#: src/data/ui/visibility.ui:106
+msgid "Dark Mode Toggle Button in Quick settings menu"
+msgstr "द्रुत सेटिङ मेनुमा गाढा मोड टगल बटन"
+
+#: src/data/ui/visibility.ui:118
+msgid "Night Light Toggle Button"
+msgstr "रातको प्रकाश टगल बटन"
+
+#: src/data/ui/visibility.ui:119
+msgid "Night Light Toggle Button in Quick settings menu"
+msgstr "द्रुत सेटिङ मेनुमा रातको प्रकाश टगल बटन"
+
+#: src/data/ui/visibility.ui:131
+msgid "Airplane Mode Toggle Button"
+msgstr "हवाइजहाज मोड टगल बटन"
+
+#: src/data/ui/visibility.ui:132
+msgid "Airplane Mode Toggle Button in Quick settings menu"
+msgstr "द्रुत सेटिङ मेनुमा हवाईजहाज मोड टगल बटन"
+
+#: src/data/ui/visibility.ui:144
+msgid "Screen Sharing Indicator"
+msgstr "स्क्रिन साझेदारी सूचक"
+
+#: src/data/ui/visibility.ui:145
+msgid "Screen sharing indicator in panel"
+msgstr "प्यानलमा स्क्रिन साझेदारी सूचक"
+
+#: src/data/ui/visibility.ui:157
+msgid "Screen Recording Indicator"
+msgstr "स्क्रिन रेकर्डिङ सूचक"
+
+#: src/data/ui/visibility.ui:158
+msgid "Screen recording indicator in panel"
+msgstr "प्यानलमा स्क्रिन रेकर्डिङ सूचक"
+
+#: src/data/ui/visibility.ui:170
+msgid "World Clock"
+msgstr "विश्व घडी"
+
+#: src/data/ui/visibility.ui:171
+msgid "World clock in clock menu"
+msgstr "घडी मेनुमा विश्व घडी"
+
+#: src/data/ui/visibility.ui:183
+msgid "Weather"
+msgstr "मौसम"
+
+#: src/data/ui/visibility.ui:184
+msgid "Weather in clock menu"
+msgstr "घडी मेनुमा मौसम"
+
+#: src/data/ui/visibility.ui:196
+msgid "Calendar"
+msgstr "पात्रो"
+
+#: src/data/ui/visibility.ui:197
+msgid "Calendar in clock menu"
+msgstr "घडी मेनुमा पात्रो"
+
+#: src/data/ui/visibility.ui:209
+msgid "Events"
+msgstr "घटनाहरू"
+
+#: src/data/ui/visibility.ui:210
+msgid "Events button in clock menu"
+msgstr "घडी मेनुमा घटनाहरू बटन"
+
+#: src/data/ui/visibility.ui:222
+msgid "Search"
+msgstr "खोज"
+
+#: src/data/ui/visibility.ui:223
+msgid "Search entry in overview"
+msgstr "सिंहावलोकन मा खोज प्रविष्टि"
+
+#: src/data/ui/visibility.ui:235
+msgid "Dash"
+msgstr "ड्यास"
+
+#: src/data/ui/visibility.ui:236
+msgid "Dash holds favorite and opened applications icons"
+msgstr "ड्याससँग मनपर्ने र खोलिएका अनुप्रयोग आइकनहरू छन्"
+
+#: src/data/ui/visibility.ui:248
+msgid "Dash Separator"
+msgstr "ड्यास विभाजक"
+
+#: src/data/ui/visibility.ui:249
+msgid "Dash separator line that separates pin apps from unpin apps"
+msgstr "ड्यास विभाजक रेखा जसले पिन एपहरूलाई अनपिन एपहरूबाट अलग गर्छ"
+
+#: src/data/ui/visibility.ui:261
+msgid "Dash App Running Indicator"
+msgstr "ड्यास एप चलिरहेको सूचक"
+
+#: src/data/ui/visibility.ui:262
+msgid "The dot indicator in dash that shows the app is running"
+msgstr "ड्यासमा डट सूचक जसले एप चलिरहेको देखाउँछ"
+
+#: src/data/ui/visibility.ui:274
+msgid "Show Applications Button"
+msgstr "अनुप्रयोग बटन देखाउनुहोस्"
+
+#: src/data/ui/visibility.ui:275
+msgid "Button in dash that toggles applications list visibility"
+msgstr "ड्यासमा बटन जुन अनुप्रयोग सूची दृश्यता टगल गर्दछ"
+
+#: src/data/ui/visibility.ui:287
+msgid "On Screen Display (OSD)"
+msgstr "अन स्क्रिन डिस्प्ले (ओएसडी)"
+
+#: src/data/ui/visibility.ui:288
+msgid "Volume and brightness on screen display when the change happens"
+msgstr "स्क्रिन डिस्प्लेमा भोल्यूम र चमक जब परिवर्तन हुन्छ"
+
+#: src/data/ui/visibility.ui:300
+msgid "Workspace Popup"
+msgstr "वोर्कस्पेस पप अप"
+
+#: src/data/ui/visibility.ui:301
+msgid "Popup that appears on the screen when you change the workspace"
+msgstr "पपअप जुन तपाईं कार्यस्थान परिवर्तन गर्दा स्क्रिनमा देखा पर्दछ"
+
+#: src/data/ui/visibility.ui:313
+msgid "Workspace Switcher"
+msgstr "वोर्कस्पेस स्विचर"
+
+#: src/data/ui/visibility.ui:314
+msgid ""
+"Also refers to workspace thumbnails that you see in overview for selecting a "
+"workspace"
+msgstr ""
+"साथै कार्यक्षेत्र थम्बनेलहरूलाई जनाउँछ जुन तपाईंले कार्यस्थान छनौट गर्नको लागि अवलोकनमा "
+"देख्नुहुन्छ"
+
+#: src/data/ui/visibility.ui:326
+msgid "Workspaces App Grid"
+msgstr "कार्यक्षेत्र अनुप्रयोग ग्रिड"
+
+#: src/data/ui/visibility.ui:327
+msgid "Workspace boxes in app grid"
+msgstr "अनुप्रयोग ग्रिडमा कार्यक्षेत्र बक्सहरू"
+
+#: src/data/ui/visibility.ui:339
+msgid "Window Picker Close Button"
+msgstr "विन्डो पिकर बन्द बटन"
+
+#: src/data/ui/visibility.ui:340
+msgid "The close button on window preview in overview"
+msgstr "सिंहावलोकन मा विन्डो पूर्वावलोकन मा बन्द बटन"
+
+#: src/data/ui/visibility.ui:352
+msgid "Window Picker Caption"
+msgstr "विन्डो पिकर क्याप्शन"
+
+#: src/data/ui/visibility.ui:353
+msgid "The text under window preview in overview"
+msgstr "सिंहावलोकन मा विन्डो पूर्वावलोकन अन्तर्गत पाठ"
+
+#: src/data/ui/visibility.ui:365
+msgid "Background Menu"
+msgstr "पृष्ठभूमि मेनू"
+
+#: src/data/ui/visibility.ui:366
+msgid "When you right click on desktop background"
+msgstr "जब तपाईं डेस्कटप पृष्ठभूमिमा दायाँ क्लिक गर्नुहुन्छ"
+
+#: src/data/ui/visibility.ui:378
+msgid "Ripple Box"
+msgstr "लहर बक्स"
+
+#: src/data/ui/visibility.ui:379
+msgid "Hot corner animation effects"
+msgstr "तातो कुना एनीमेशन प्रभाव"
+
+#: src/data/ui/visibility.ui:391
+msgid "Take Screenshot button in Window Menu"
+msgstr "विन्डो मेनुमा स्क्रिनसट बटन लिनुहोस्"
+
+#: src/data/ui/visibility.ui:392
+msgid "Take screenshot button in title bar right click menu"
+msgstr "शीर्षक पट्टीमा स्क्रिनसट बटन लिनुहोस् राइट क्लिक मेनु"
+
+#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
+msgid "Icons"
+msgstr "आइकनहरू"
+
+#: src/data/ui/icons.ui:15
+msgid "Panel Notification Icon"
+msgstr "प्यानल सूचना आइकन"
+
+#: src/data/ui/icons.ui:27
+msgid "Power Icon"
+msgstr "पावर आइकन"
+
+#: src/data/ui/icons.ui:39
+msgid "Window Picker Icon"
+msgstr "विन्डो पिकर आइकन"
+
+#: src/data/ui/icons.ui:40
+msgid "The icon under window preview in overview"
+msgstr "सिंहावलोकनमा विन्डो पूर्वावलोकन मुनिको प्रतिमा"
 
 #: src/data/ui/behavior.ui:6 src/data/ui/behavior.ui:11
 msgid "Behavior"
@@ -355,26 +615,6 @@ msgstr "केन्द्र सुरु"
 msgid "Center End"
 msgstr "केन्द्र अन्त्य"
 
-#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
-msgid "Icons"
-msgstr "आइकनहरू"
-
-#: src/data/ui/icons.ui:15
-msgid "Panel Notification Icon"
-msgstr "प्यानल सूचना आइकन"
-
-#: src/data/ui/icons.ui:27
-msgid "Power Icon"
-msgstr "पावर आइकन"
-
-#: src/data/ui/icons.ui:39
-msgid "Window Picker Icon"
-msgstr "विन्डो पिकर आइकन"
-
-#: src/data/ui/icons.ui:40
-msgid "The icon under window preview in overview"
-msgstr "सिंहावलोकनमा विन्डो पूर्वावलोकन मुनिको प्रतिमा"
-
 #: src/data/ui/profile.ui:6 src/data/ui/profile.ui:11
 msgid "Profile"
 msgstr "प्रोफाइल"
@@ -415,273 +655,58 @@ msgstr "न्यूनतम डेस्कटप सिर्जना गर
 msgid "Support"
 msgstr "समर्थन"
 
-#: src/data/ui/profile.ui:137
+#: src/data/ui/profile.ui:135
 msgid "Support Via Crypto"
 msgstr "क्रिप्टो मार्फत समर्थन"
 
-#: src/data/ui/profile.ui:138
+#: src/data/ui/profile.ui:136
 msgid "Preferred Method"
 msgstr "रुचाइएको विधि"
 
-#: src/data/ui/profile.ui:329
+#: src/data/ui/profile.ui:167
+msgid "Copy"
+msgstr ""
+
+#: src/data/ui/profile.ui:184
 msgid "Support via Buy Me a Coffee"
 msgstr "Buy Me a Coffee मार्फत समर्थन"
 
-#: src/data/ui/profile.ui:341
-msgid "Support via Patreon"
+#: src/data/ui/profile.ui:202
+#, fuzzy
+msgid "Support Notification"
 msgstr "Patreon मार्फत समर्थन"
 
-#: src/data/ui/profile.ui:356
+#: src/data/ui/profile.ui:203
+msgid "Manage when the support notification shows up"
+msgstr ""
+
+#: src/data/ui/profile.ui:213
 msgid "Links"
 msgstr "लिङ्कहरू"
 
-#: src/data/ui/profile.ui:360
+#: src/data/ui/profile.ui:217
 msgid "Bug Report"
 msgstr "बग रिपोर्ट"
 
-#: src/data/ui/profile.ui:372
+#: src/data/ui/profile.ui:229
 msgid "YouTube Channel"
 msgstr "युट्युब च्यानल"
 
-#: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
-msgid "Visibility"
-msgstr "दृश्यता"
-
-#: src/data/ui/visibility.ui:15
-msgid "Panel"
-msgstr "प्यानल"
-
-#: src/data/ui/visibility.ui:27
-msgid "Panel in Overview"
-msgstr "अवलोकन मा प्यानल"
-
-#: src/data/ui/visibility.ui:40
-msgid "Activities Button"
-msgstr "एकटीभीटिज बटन"
-
-#: src/data/ui/visibility.ui:41
-msgid "Button in panel to toggle overview visibility"
-msgstr "अवलोकन दृश्यता टगल गर्न प्यानलमा बटन"
-
-#: src/data/ui/visibility.ui:53
-msgid "Clock Menu"
-msgstr "घडी मेनू"
-
-#: src/data/ui/visibility.ui:54
-msgid "Also known as date menu shows date and time in panel"
-msgstr "मिति मेनूको रूपमा पनि जानिन्छ प्यानलमा मिति र समय देखाउँदछ"
-
-#: src/data/ui/visibility.ui:66
-msgid "Keyboard Layout"
-msgstr "कीबोर्ड लेआउट"
-
-#: src/data/ui/visibility.ui:67
-msgid "Keyboard Layout indicator button in panel"
-msgstr "प्यानलमा कीबोर्ड लेआउट सूचक बटन"
-
-#: src/data/ui/visibility.ui:79
-msgid "Accessibility Menu"
-msgstr "पहुँच मेनू"
-
-#: src/data/ui/visibility.ui:80
-msgid "Accessibility Menu indicator button in panel"
-msgstr "प्यानलमा पहुँच मेनू सूचक बटन"
-
-#: src/data/ui/visibility.ui:92
-msgid "Quick Settings"
-msgstr "द्रुत सेटिङहरू"
-
-#: src/data/ui/visibility.ui:93
-msgid "Quick settings menu in panel"
-msgstr "प्यानलमा द्रुत सेटिङ मेनु"
-
-#: src/data/ui/visibility.ui:105
-msgid "Dark Mode Toggle Button"
-msgstr "गाढा मोड टगल बटन"
-
-#: src/data/ui/visibility.ui:106
-msgid "Dark Mode Toggle Button in Quick settings menu"
-msgstr "द्रुत सेटिङ मेनुमा गाढा मोड टगल बटन"
-
-#: src/data/ui/visibility.ui:118
-msgid "Night Light Toggle Button"
-msgstr "रातको प्रकाश टगल बटन"
-
-#: src/data/ui/visibility.ui:119
-msgid "Night Light Toggle Button in Quick settings menu"
-msgstr "द्रुत सेटिङ मेनुमा रातको प्रकाश टगल बटन"
-
-#: src/data/ui/visibility.ui:131
-msgid "Airplane Mode Toggle Button"
-msgstr "हवाइजहाज मोड टगल बटन"
-
-#: src/data/ui/visibility.ui:132
-msgid "Airplane Mode Toggle Button in Quick settings menu"
-msgstr "द्रुत सेटिङ मेनुमा हवाईजहाज मोड टगल बटन"
-
-#: src/data/ui/visibility.ui:144
-msgid "Screen Sharing Indicator"
-msgstr "स्क्रिन साझेदारी सूचक"
-
-#: src/data/ui/visibility.ui:145
-msgid "Screen sharing indicator in panel"
-msgstr "प्यानलमा स्क्रिन साझेदारी सूचक"
-
-#: src/data/ui/visibility.ui:157
-msgid "Screen Recording Indicator"
-msgstr "स्क्रिन रेकर्डिङ सूचक"
-
-#: src/data/ui/visibility.ui:158
-msgid "Screen recording indicator in panel"
-msgstr "प्यानलमा स्क्रिन रेकर्डिङ सूचक"
-
-#: src/data/ui/visibility.ui:170
-msgid "World Clock"
-msgstr "विश्व घडी"
-
-#: src/data/ui/visibility.ui:171
-msgid "World clock in clock menu"
-msgstr "घडी मेनुमा विश्व घडी"
-
-#: src/data/ui/visibility.ui:183
-msgid "Weather"
-msgstr "मौसम"
-
-#: src/data/ui/visibility.ui:184
-msgid "Weather in clock menu"
-msgstr "घडी मेनुमा मौसम"
-
-#: src/data/ui/visibility.ui:196
-msgid "Calendar"
-msgstr "पात्रो"
-
-#: src/data/ui/visibility.ui:197
-msgid "Calendar in clock menu"
-msgstr "घडी मेनुमा पात्रो"
-
-#: src/data/ui/visibility.ui:209
-msgid "Events"
-msgstr "घटनाहरू"
-
-#: src/data/ui/visibility.ui:210
-msgid "Events button in clock menu"
-msgstr "घडी मेनुमा घटनाहरू बटन"
-
-#: src/data/ui/visibility.ui:222
-msgid "Search"
-msgstr "खोज"
-
-#: src/data/ui/visibility.ui:223
-msgid "Search entry in overview"
-msgstr "सिंहावलोकन मा खोज प्रविष्टि"
-
-#: src/data/ui/visibility.ui:235
-msgid "Dash"
-msgstr "ड्यास"
-
-#: src/data/ui/visibility.ui:236
-msgid "Dash holds favorite and opened applications icons"
-msgstr "ड्याससँग मनपर्ने र खोलिएका अनुप्रयोग आइकनहरू छन्"
-
-#: src/data/ui/visibility.ui:248
-msgid "Dash Separator"
-msgstr "ड्यास विभाजक"
-
-#: src/data/ui/visibility.ui:249
-msgid "Dash separator line that separates pin apps from unpin apps"
-msgstr "ड्यास विभाजक रेखा जसले पिन एपहरूलाई अनपिन एपहरूबाट अलग गर्छ"
-
-#: src/data/ui/visibility.ui:261
-msgid "Dash App Running Indicator"
-msgstr "ड्यास एप चलिरहेको सूचक"
-
-#: src/data/ui/visibility.ui:262
-msgid "The dot indicator in dash that shows the app is running"
-msgstr "ड्यासमा डट सूचक जसले एप चलिरहेको देखाउँछ"
-
-#: src/data/ui/visibility.ui:274
-msgid "Show Applications Button"
-msgstr "अनुप्रयोग बटन देखाउनुहोस्"
-
-#: src/data/ui/visibility.ui:275
-msgid "Button in dash that toggles applications list visibility"
-msgstr "ड्यासमा बटन जुन अनुप्रयोग सूची दृश्यता टगल गर्दछ"
-
-#: src/data/ui/visibility.ui:287
-msgid "On Screen Display (OSD)"
-msgstr "अन स्क्रिन डिस्प्ले (ओएसडी)"
-
-#: src/data/ui/visibility.ui:288
-msgid "Volume and brightness on screen display when the change happens"
-msgstr "स्क्रिन डिस्प्लेमा भोल्यूम र चमक जब परिवर्तन हुन्छ"
-
-#: src/data/ui/visibility.ui:300
-msgid "Workspace Popup"
-msgstr "वोर्कस्पेस पप अप"
-
-#: src/data/ui/visibility.ui:301
-msgid "Popup that appears on the screen when you change the workspace"
-msgstr "पपअप जुन तपाईं कार्यस्थान परिवर्तन गर्दा स्क्रिनमा देखा पर्दछ"
-
-#: src/data/ui/visibility.ui:313
-msgid "Workspace Switcher"
-msgstr "वोर्कस्पेस स्विचर"
-
-#: src/data/ui/visibility.ui:314
-msgid ""
-"Also refers to workspace thumbnails that you see in overview for selecting a "
-"workspace"
+#: src/data/ui/profile.ui:266
+msgid "Never"
 msgstr ""
-"साथै कार्यक्षेत्र थम्बनेलहरूलाई जनाउँछ जुन तपाईंले कार्यस्थान छनौट गर्नको लागि अवलोकनमा "
-"देख्नुहुन्छ"
 
-#: src/data/ui/visibility.ui:326
-msgid "Workspaces App Grid"
-msgstr "कार्यक्षेत्र अनुप्रयोग ग्रिड"
+#: src/data/ui/profile.ui:267
+msgid "On New Releases"
+msgstr ""
 
-#: src/data/ui/visibility.ui:327
-msgid "Workspace boxes in app grid"
-msgstr "अनुप्रयोग ग्रिडमा कार्यक्षेत्र बक्सहरू"
+#: src/data/ui/profile.ui:268
+msgid "Monthly"
+msgstr ""
 
-#: src/data/ui/visibility.ui:339
-msgid "Window Picker Close Button"
-msgstr "विन्डो पिकर बन्द बटन"
-
-#: src/data/ui/visibility.ui:340
-msgid "The close button on window preview in overview"
-msgstr "सिंहावलोकन मा विन्डो पूर्वावलोकन मा बन्द बटन"
-
-#: src/data/ui/visibility.ui:352
-msgid "Window Picker Caption"
-msgstr "विन्डो पिकर क्याप्शन"
-
-#: src/data/ui/visibility.ui:353
-msgid "The text under window preview in overview"
-msgstr "सिंहावलोकन मा विन्डो पूर्वावलोकन अन्तर्गत पाठ"
-
-#: src/data/ui/visibility.ui:365
-msgid "Background Menu"
-msgstr "पृष्ठभूमि मेनू"
-
-#: src/data/ui/visibility.ui:366
-msgid "When you right click on desktop background"
-msgstr "जब तपाईं डेस्कटप पृष्ठभूमिमा दायाँ क्लिक गर्नुहुन्छ"
-
-#: src/data/ui/visibility.ui:378
-msgid "Ripple Box"
-msgstr "लहर बक्स"
-
-#: src/data/ui/visibility.ui:379
-msgid "Hot corner animation effects"
-msgstr "तातो कुना एनीमेशन प्रभाव"
-
-#: src/data/ui/visibility.ui:391
-msgid "Take Screenshot button in Window Menu"
-msgstr "विन्डो मेनुमा स्क्रिनसट बटन लिनुहोस्"
-
-#: src/data/ui/visibility.ui:392
-msgid "Take screenshot button in title bar right click menu"
-msgstr "शीर्षक पट्टीमा स्क्रिनसट बटन लिनुहोस् राइट क्लिक मेनु"
+#: src/data/ui/profile.ui:273
+msgid "Address copied to the clipboard"
+msgstr ""
 
 #~ msgid "Select File"
 #~ msgstr "फाइल चयन गर्नुहोस्"

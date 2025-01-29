@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-15 23:47-0800\n"
+"POT-Creation-Date: 2025-01-29 14:44-0800\n"
 "PO-Revision-Date: 2020-12-18 04:15-0800\n"
 "Last-Translator: Kareem Abduljaleel <karemjaleel34@gmail.com>\n"
 "Language-Team: Arabic\n"
@@ -15,6 +15,266 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
+msgid "Visibility"
+msgstr "الوضوح"
+
+#: src/data/ui/visibility.ui:15
+msgid "Panel"
+msgstr "اللوحة"
+
+#: src/data/ui/visibility.ui:27
+msgid "Panel in Overview"
+msgstr "لوحة في نظرة عامة"
+
+#: src/data/ui/visibility.ui:40
+msgid "Activities Button"
+msgstr "زر الأنشطة"
+
+#: src/data/ui/visibility.ui:41
+msgid "Button in panel to toggle overview visibility"
+msgstr "زر في اللوحة لتبديل الرؤية العامة"
+
+#: src/data/ui/visibility.ui:53
+msgid "Clock Menu"
+msgstr "قائمة الساعة"
+
+#: src/data/ui/visibility.ui:54
+msgid "Also known as date menu shows date and time in panel"
+msgstr "تُعرف أيضًا باسم قائمة التاريخ والتي تعرض التاريخ والوقت في اللوحة"
+
+#: src/data/ui/visibility.ui:66
+msgid "Keyboard Layout"
+msgstr "نموذج لوحة المفاتيح"
+
+#: src/data/ui/visibility.ui:67
+msgid "Keyboard Layout indicator button in panel"
+msgstr "زر مؤشر تخطيط لوحة المفاتيح في اللوحة"
+
+#: src/data/ui/visibility.ui:79
+msgid "Accessibility Menu"
+msgstr "قائمة الوصول"
+
+#: src/data/ui/visibility.ui:80
+msgid "Accessibility Menu indicator button in panel"
+msgstr "زر مؤشر قائمة إمكانية الوصول في اللوحة"
+
+#: src/data/ui/visibility.ui:92
+msgid "Quick Settings"
+msgstr "إعدادات سريعة"
+
+#: src/data/ui/visibility.ui:93
+msgid "Quick settings menu in panel"
+msgstr "قائمة الإعدادات السريعة في اللوحة"
+
+#: src/data/ui/visibility.ui:105
+msgid "Dark Mode Toggle Button"
+msgstr "زر تبديل الوضع الداكن"
+
+#: src/data/ui/visibility.ui:106
+msgid "Dark Mode Toggle Button in Quick settings menu"
+msgstr "زر تبديل الوضع الداكن في قائمة الإعدادات السريعة"
+
+#: src/data/ui/visibility.ui:118
+msgid "Night Light Toggle Button"
+msgstr "زر تبديل الإضاءة الليلية"
+
+#: src/data/ui/visibility.ui:119
+msgid "Night Light Toggle Button in Quick settings menu"
+msgstr "زر تبديل الإضاءة الليلية في قائمة الإعدادات السريعة"
+
+#: src/data/ui/visibility.ui:131
+msgid "Airplane Mode Toggle Button"
+msgstr "زر تبديل وضع الطيران"
+
+#: src/data/ui/visibility.ui:132
+msgid "Airplane Mode Toggle Button in Quick settings menu"
+msgstr "زر تبديل وضع الطيران في قائمة الإعدادات السريعة"
+
+#: src/data/ui/visibility.ui:144
+msgid "Screen Sharing Indicator"
+msgstr "مؤشر مشاركة الشاشة"
+
+#: src/data/ui/visibility.ui:145
+msgid "Screen sharing indicator in panel"
+msgstr "مؤشر مشاركة الشاشة في اللوحة"
+
+#: src/data/ui/visibility.ui:157
+msgid "Screen Recording Indicator"
+msgstr "مؤشر تسجيل الشاشة"
+
+#: src/data/ui/visibility.ui:158
+msgid "Screen recording indicator in panel"
+msgstr "مؤشر تسجيل الشاشة في اللوحة"
+
+#: src/data/ui/visibility.ui:170
+msgid "World Clock"
+msgstr "الساعة العالمية"
+
+#: src/data/ui/visibility.ui:171
+msgid "World clock in clock menu"
+msgstr "الساعة العالمية في قائمة الساعة"
+
+#: src/data/ui/visibility.ui:183
+msgid "Weather"
+msgstr "الجو"
+
+#: src/data/ui/visibility.ui:184
+msgid "Weather in clock menu"
+msgstr "الطقس في قائمة الساعة"
+
+#: src/data/ui/visibility.ui:196
+msgid "Calendar"
+msgstr "التقويم"
+
+#: src/data/ui/visibility.ui:197
+msgid "Calendar in clock menu"
+msgstr "التقويم في قائمة الساعة"
+
+#: src/data/ui/visibility.ui:209
+msgid "Events"
+msgstr "الأحداث"
+
+#: src/data/ui/visibility.ui:210
+msgid "Events button in clock menu"
+msgstr "زر الأحداث في قائمة الساعة"
+
+#: src/data/ui/visibility.ui:222
+msgid "Search"
+msgstr "بحث"
+
+#: src/data/ui/visibility.ui:223
+msgid "Search entry in overview"
+msgstr "إدخال البحث في نظرة عامة"
+
+#: src/data/ui/visibility.ui:235
+msgid "Dash"
+msgstr "الشريط"
+
+#: src/data/ui/visibility.ui:236
+msgid "Dash holds favorite and opened applications icons"
+msgstr "تحمل Dash أيقونات التطبيقات المفضلة والمفتوحة"
+
+#: src/data/ui/visibility.ui:248
+msgid "Dash Separator"
+msgstr "فاصل داش"
+
+#: src/data/ui/visibility.ui:249
+msgid "Dash separator line that separates pin apps from unpin apps"
+msgstr "خط فاصل الشرطة الذي يفصل بين تطبيقات التثبيت وتطبيقات إلغاء التثبيت"
+
+#: src/data/ui/visibility.ui:261
+msgid "Dash App Running Indicator"
+msgstr "مؤشر تشغيل تطبيق داش"
+
+#: src/data/ui/visibility.ui:262
+msgid "The dot indicator in dash that shows the app is running"
+msgstr "مؤشر النقطة في الشرطة الذي يوضح أن التطبيق قيد التشغيل"
+
+#: src/data/ui/visibility.ui:274
+msgid "Show Applications Button"
+msgstr "إظهار زر التطبيقات"
+
+#: src/data/ui/visibility.ui:275
+msgid "Button in dash that toggles applications list visibility"
+msgstr "زر في اندفاعة يبدل رؤية قائمة التطبيقات"
+
+#: src/data/ui/visibility.ui:287
+msgid "On Screen Display (OSD)"
+msgstr "OSD"
+
+#: src/data/ui/visibility.ui:288
+msgid "Volume and brightness on screen display when the change happens"
+msgstr "مستوى الصوت والسطوع على شاشة العرض عند حدوث التغيير"
+
+#: src/data/ui/visibility.ui:300
+msgid "Workspace Popup"
+msgstr "مساحة العمل المنبثقة"
+
+#: src/data/ui/visibility.ui:301
+msgid "Popup that appears on the screen when you change the workspace"
+msgstr "نافذة منبثقة تظهر على الشاشة عند تغيير مساحة العمل"
+
+#: src/data/ui/visibility.ui:313
+msgid "Workspace Switcher"
+msgstr "مبدل مساحة العمل"
+
+#: src/data/ui/visibility.ui:314
+msgid ""
+"Also refers to workspace thumbnails that you see in overview for selecting a "
+"workspace"
+msgstr ""
+"يشير أيضًا إلى مصغرات مساحة العمل التي تراها في نظرة عامة لتحديد مساحة عمل"
+
+#: src/data/ui/visibility.ui:326
+msgid "Workspaces App Grid"
+msgstr "شبكة تطبيق مساحات العمل"
+
+#: src/data/ui/visibility.ui:327
+msgid "Workspace boxes in app grid"
+msgstr "مربعات مساحة العمل في شبكة التطبيق"
+
+#: src/data/ui/visibility.ui:339
+msgid "Window Picker Close Button"
+msgstr "زر إغلاق منتقي النافذة"
+
+#: src/data/ui/visibility.ui:340
+msgid "The close button on window preview in overview"
+msgstr "زر الإغلاق في معاينة النافذة في نظرة عامة"
+
+#: src/data/ui/visibility.ui:352
+msgid "Window Picker Caption"
+msgstr "نافذة منتقي التسمية التوضيحية"
+
+#: src/data/ui/visibility.ui:353
+msgid "The text under window preview in overview"
+msgstr "النص الموجود أسفل معاينة النافذة في نظرة عامة"
+
+#: src/data/ui/visibility.ui:365
+msgid "Background Menu"
+msgstr "قائمة الخلفية"
+
+#: src/data/ui/visibility.ui:366
+msgid "When you right click on desktop background"
+msgstr "عند النقر بزر الماوس الأيمن على خلفية سطح المكتب"
+
+#: src/data/ui/visibility.ui:378
+msgid "Ripple Box"
+msgstr "صندوق تموج"
+
+#: src/data/ui/visibility.ui:379
+msgid "Hot corner animation effects"
+msgstr "تأثيرات الرسوم المتحركة في الزاوية الساخنة"
+
+#: src/data/ui/visibility.ui:391
+msgid "Take Screenshot button in Window Menu"
+msgstr "أخذ زر لقطة الشاشة في قائمة النافذة"
+
+#: src/data/ui/visibility.ui:392
+msgid "Take screenshot button in title bar right click menu"
+msgstr ""
+"التقط زر لقطة شاشة في شريط العنوان ، انقر بزر الماوس الأيمن فوق القائمة"
+
+#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
+msgid "Icons"
+msgstr "الأيقونات"
+
+#: src/data/ui/icons.ui:15
+msgid "Panel Notification Icon"
+msgstr "ايقونة لوحة الإشعارات"
+
+#: src/data/ui/icons.ui:27
+msgid "Power Icon"
+msgstr "أيقونة الطاقة"
+
+#: src/data/ui/icons.ui:39
+msgid "Window Picker Icon"
+msgstr "ايقونة منتقي النافذة"
+
+#: src/data/ui/icons.ui:40
+msgid "The icon under window preview in overview"
+msgstr "الرمز الموجود أسفل معاينة النافذة في نظرة عامة"
 
 #: src/data/ui/behavior.ui:6 src/data/ui/behavior.ui:11
 msgid "Behavior"
@@ -39,8 +299,9 @@ msgstr "نظرة خاطفة على مساحة العمل"
 
 #: src/data/ui/behavior.ui:29
 msgid "Whether the next and previous workspace should be visible in overview."
-msgstr "ما إذا كان يجب أن تكون مساحة العمل التالية والسابقة مرئية في نظرة عامة."
-"ما إذا كان ينبغي أن تكون مساحة العمل التالية والسابقة مرئية في النظرة العامة."
+msgstr ""
+"ما إذا كان يجب أن تكون مساحة العمل التالية والسابقة مرئية في نظرة عامة.ما "
+"إذا كان ينبغي أن تكون مساحة العمل التالية والسابقة مرئية في النظرة العامة."
 
 #: src/data/ui/behavior.ui:41
 msgid "Workspace Switcher Click to The Main View"
@@ -354,26 +615,6 @@ msgstr "بداية المركز"
 msgid "Center End"
 msgstr "نهاية المركز"
 
-#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
-msgid "Icons"
-msgstr "الأيقونات"
-
-#: src/data/ui/icons.ui:15
-msgid "Panel Notification Icon"
-msgstr "ايقونة لوحة الإشعارات"
-
-#: src/data/ui/icons.ui:27
-msgid "Power Icon"
-msgstr "أيقونة الطاقة"
-
-#: src/data/ui/icons.ui:39
-msgid "Window Picker Icon"
-msgstr "ايقونة منتقي النافذة"
-
-#: src/data/ui/icons.ui:40
-msgid "The icon under window preview in overview"
-msgstr "الرمز الموجود أسفل معاينة النافذة في نظرة عامة"
-
 #: src/data/ui/profile.ui:6 src/data/ui/profile.ui:11
 msgid "Profile"
 msgstr "الملف الشخصي"
@@ -414,270 +655,55 @@ msgstr "تجاوز مظهر الشل جزئيا لصناعة سطح مكتب ا�
 msgid "Support"
 msgstr "الدعم"
 
-#: src/data/ui/profile.ui:137
+#: src/data/ui/profile.ui:135
 msgid "Support Via Crypto"
 msgstr "الدعم عبر Crypto"
 
-#: src/data/ui/profile.ui:138
+#: src/data/ui/profile.ui:136
 msgid "Preferred Method"
 msgstr "الطريقة المفضلة"
 
-#: src/data/ui/profile.ui:329
+#: src/data/ui/profile.ui:167
+msgid "Copy"
+msgstr ""
+
+#: src/data/ui/profile.ui:184
 msgid "Support via Buy Me a Coffee"
 msgstr "الدعم عبر Buy Me a Coffee"
 
-#: src/data/ui/profile.ui:341
-msgid "Support via Patreon"
+#: src/data/ui/profile.ui:202
+#, fuzzy
+msgid "Support Notification"
 msgstr "الدعم عبر Patreon"
 
-#: src/data/ui/profile.ui:356
+#: src/data/ui/profile.ui:203
+msgid "Manage when the support notification shows up"
+msgstr ""
+
+#: src/data/ui/profile.ui:213
 msgid "Links"
 msgstr "الروابط"
 
-#: src/data/ui/profile.ui:360
+#: src/data/ui/profile.ui:217
 msgid "Bug Report"
 msgstr "تقرير الشوائب"
 
-#: src/data/ui/profile.ui:372
+#: src/data/ui/profile.ui:229
 msgid "YouTube Channel"
 msgstr "قناة YouTube"
 
-#: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
-msgid "Visibility"
-msgstr "الوضوح"
-
-#: src/data/ui/visibility.ui:15
-msgid "Panel"
-msgstr "اللوحة"
-
-#: src/data/ui/visibility.ui:27
-msgid "Panel in Overview"
-msgstr "لوحة في نظرة عامة"
-
-#: src/data/ui/visibility.ui:40
-msgid "Activities Button"
-msgstr "زر الأنشطة"
-
-#: src/data/ui/visibility.ui:41
-msgid "Button in panel to toggle overview visibility"
-msgstr "زر في اللوحة لتبديل الرؤية العامة"
-
-#: src/data/ui/visibility.ui:53
-msgid "Clock Menu"
-msgstr "قائمة الساعة"
-
-#: src/data/ui/visibility.ui:54
-msgid "Also known as date menu shows date and time in panel"
-msgstr "تُعرف أيضًا باسم قائمة التاريخ والتي تعرض التاريخ والوقت في اللوحة"
-
-#: src/data/ui/visibility.ui:66
-msgid "Keyboard Layout"
-msgstr "نموذج لوحة المفاتيح"
-
-#: src/data/ui/visibility.ui:67
-msgid "Keyboard Layout indicator button in panel"
-msgstr "زر مؤشر تخطيط لوحة المفاتيح في اللوحة"
-
-#: src/data/ui/visibility.ui:79
-msgid "Accessibility Menu"
-msgstr "قائمة الوصول"
-
-#: src/data/ui/visibility.ui:80
-msgid "Accessibility Menu indicator button in panel"
-msgstr "زر مؤشر قائمة إمكانية الوصول في اللوحة"
-
-#: src/data/ui/visibility.ui:92
-msgid "Quick Settings"
-msgstr "إعدادات سريعة"
-
-#: src/data/ui/visibility.ui:93
-msgid "Quick settings menu in panel"
-msgstr "قائمة الإعدادات السريعة في اللوحة"
-
-#: src/data/ui/visibility.ui:105
-msgid "Dark Mode Toggle Button"
-msgstr "زر تبديل الوضع الداكن"
-
-#: src/data/ui/visibility.ui:106
-msgid "Dark Mode Toggle Button in Quick settings menu"
-msgstr "زر تبديل الوضع الداكن في قائمة الإعدادات السريعة"
-
-#: src/data/ui/visibility.ui:118
-msgid "Night Light Toggle Button"
-msgstr "زر تبديل الإضاءة الليلية"
-
-#: src/data/ui/visibility.ui:119
-msgid "Night Light Toggle Button in Quick settings menu"
-msgstr "زر تبديل الإضاءة الليلية في قائمة الإعدادات السريعة"
-
-#: src/data/ui/visibility.ui:131
-msgid "Airplane Mode Toggle Button"
-msgstr "زر تبديل وضع الطيران"
-
-#: src/data/ui/visibility.ui:132
-msgid "Airplane Mode Toggle Button in Quick settings menu"
-msgstr "زر تبديل وضع الطيران في قائمة الإعدادات السريعة"
-
-#: src/data/ui/visibility.ui:144
-msgid "Screen Sharing Indicator"
-msgstr "مؤشر مشاركة الشاشة"
-
-#: src/data/ui/visibility.ui:145
-msgid "Screen sharing indicator in panel"
-msgstr "مؤشر مشاركة الشاشة في اللوحة"
-
-#: src/data/ui/visibility.ui:157
-msgid "Screen Recording Indicator"
-msgstr "مؤشر تسجيل الشاشة"
-
-#: src/data/ui/visibility.ui:158
-msgid "Screen recording indicator in panel"
-msgstr "مؤشر تسجيل الشاشة في اللوحة"
-
-#: src/data/ui/visibility.ui:170
-msgid "World Clock"
-msgstr "الساعة العالمية"
-
-#: src/data/ui/visibility.ui:171
-msgid "World clock in clock menu"
-msgstr "الساعة العالمية في قائمة الساعة"
-
-#: src/data/ui/visibility.ui:183
-msgid "Weather"
-msgstr "الجو"
-
-#: src/data/ui/visibility.ui:184
-msgid "Weather in clock menu"
-msgstr "الطقس في قائمة الساعة"
-
-#: src/data/ui/visibility.ui:196
-msgid "Calendar"
-msgstr "التقويم"
-
-#: src/data/ui/visibility.ui:197
-msgid "Calendar in clock menu"
-msgstr "التقويم في قائمة الساعة"
-
-#: src/data/ui/visibility.ui:209
-msgid "Events"
-msgstr "الأحداث"
-
-#: src/data/ui/visibility.ui:210
-msgid "Events button in clock menu"
-msgstr "زر الأحداث في قائمة الساعة"
-
-#: src/data/ui/visibility.ui:222
-msgid "Search"
-msgstr "بحث"
-
-#: src/data/ui/visibility.ui:223
-msgid "Search entry in overview"
-msgstr "إدخال البحث في نظرة عامة"
-
-#: src/data/ui/visibility.ui:235
-msgid "Dash"
-msgstr "الشريط"
-
-#: src/data/ui/visibility.ui:236
-msgid "Dash holds favorite and opened applications icons"
-msgstr "تحمل Dash أيقونات التطبيقات المفضلة والمفتوحة"
-
-#: src/data/ui/visibility.ui:248
-msgid "Dash Separator"
-msgstr "فاصل داش"
-
-#: src/data/ui/visibility.ui:249
-msgid "Dash separator line that separates pin apps from unpin apps"
-msgstr "خط فاصل الشرطة الذي يفصل بين تطبيقات التثبيت وتطبيقات إلغاء التثبيت"
-
-#: src/data/ui/visibility.ui:261
-msgid "Dash App Running Indicator"
-msgstr "مؤشر تشغيل تطبيق داش"
-
-#: src/data/ui/visibility.ui:262
-msgid "The dot indicator in dash that shows the app is running"
-msgstr "مؤشر النقطة في الشرطة الذي يوضح أن التطبيق قيد التشغيل"
-
-#: src/data/ui/visibility.ui:274
-msgid "Show Applications Button"
-msgstr "إظهار زر التطبيقات"
-
-#: src/data/ui/visibility.ui:275
-msgid "Button in dash that toggles applications list visibility"
-msgstr "زر في اندفاعة يبدل رؤية قائمة التطبيقات"
-
-#: src/data/ui/visibility.ui:287
-msgid "On Screen Display (OSD)"
-msgstr "OSD"
-
-#: src/data/ui/visibility.ui:288
-msgid "Volume and brightness on screen display when the change happens"
-msgstr "مستوى الصوت والسطوع على شاشة العرض عند حدوث التغيير"
-
-#: src/data/ui/visibility.ui:300
-msgid "Workspace Popup"
-msgstr "مساحة العمل المنبثقة"
-
-#: src/data/ui/visibility.ui:301
-msgid "Popup that appears on the screen when you change the workspace"
-msgstr "نافذة منبثقة تظهر على الشاشة عند تغيير مساحة العمل"
-
-#: src/data/ui/visibility.ui:313
-msgid "Workspace Switcher"
-msgstr "مبدل مساحة العمل"
-
-#: src/data/ui/visibility.ui:314
-msgid ""
-"Also refers to workspace thumbnails that you see in overview for selecting a "
-"workspace"
+#: src/data/ui/profile.ui:266
+msgid "Never"
 msgstr ""
-"يشير أيضًا إلى مصغرات مساحة العمل التي تراها في نظرة عامة لتحديد مساحة عمل"
 
-#: src/data/ui/visibility.ui:326
-msgid "Workspaces App Grid"
-msgstr "شبكة تطبيق مساحات العمل"
-
-#: src/data/ui/visibility.ui:327
-msgid "Workspace boxes in app grid"
-msgstr "مربعات مساحة العمل في شبكة التطبيق"
-
-#: src/data/ui/visibility.ui:339
-msgid "Window Picker Close Button"
-msgstr "زر إغلاق منتقي النافذة"
-
-#: src/data/ui/visibility.ui:340
-msgid "The close button on window preview in overview"
-msgstr "زر الإغلاق في معاينة النافذة في نظرة عامة"
-
-#: src/data/ui/visibility.ui:352
-msgid "Window Picker Caption"
-msgstr "نافذة منتقي التسمية التوضيحية"
-
-#: src/data/ui/visibility.ui:353
-msgid "The text under window preview in overview"
-msgstr "النص الموجود أسفل معاينة النافذة في نظرة عامة"
-
-#: src/data/ui/visibility.ui:365
-msgid "Background Menu"
-msgstr "قائمة الخلفية"
-
-#: src/data/ui/visibility.ui:366
-msgid "When you right click on desktop background"
-msgstr "عند النقر بزر الماوس الأيمن على خلفية سطح المكتب"
-
-#: src/data/ui/visibility.ui:378
-msgid "Ripple Box"
-msgstr "صندوق تموج"
-
-#: src/data/ui/visibility.ui:379
-msgid "Hot corner animation effects"
-msgstr "تأثيرات الرسوم المتحركة في الزاوية الساخنة"
-
-#: src/data/ui/visibility.ui:391
-msgid "Take Screenshot button in Window Menu"
-msgstr "أخذ زر لقطة الشاشة في قائمة النافذة"
-
-#: src/data/ui/visibility.ui:392
-msgid "Take screenshot button in title bar right click menu"
+#: src/data/ui/profile.ui:267
+msgid "On New Releases"
 msgstr ""
-"التقط زر لقطة شاشة في شريط العنوان ، انقر بزر الماوس الأيمن فوق القائمة"
+
+#: src/data/ui/profile.ui:268
+msgid "Monthly"
+msgstr ""
+
+#: src/data/ui/profile.ui:273
+msgid "Address copied to the clipboard"
+msgstr ""

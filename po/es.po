@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-15 23:47-0800\n"
+"POT-Creation-Date: 2025-01-29 14:44-0800\n"
 "PO-Revision-Date: 2022-06-26 23:01-0300\n"
 "Last-Translator: Luci <FOSSgerme.deb@cyberfear.com>\n"
 "Language-Team: Spanish; Castilian <FOSSgerme.deb@cyberfear.com>\n"
@@ -19,446 +19,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Gtranslator 40.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-
-#: src/data/ui/behavior.ui:6 src/data/ui/behavior.ui:11
-msgid "Behavior"
-msgstr "Comportamiento"
-
-#: src/data/ui/behavior.ui:15
-msgid "Workspace Wraparound"
-msgstr "Espacios de trabajo envolventes"
-
-#: src/data/ui/behavior.ui:16
-msgid ""
-"Next workspace will be the first workspace when you are in the last "
-"workspace. and previous workspace will be the last workspace when you are in "
-"the first workspace."
-msgstr ""
-"El siguiente espacio de trabajo será el primer espacio de trabajo cuando se "
-"encuentre en el último espacio de trabajo. y el espacio de trabajo anterior "
-"será el último espacio de trabajo cuando esté en el primer espacio de "
-"trabajo."
-
-#: src/data/ui/behavior.ui:28
-msgid "Workspace Peek"
-msgstr "Vistazo al espacio de trabajo"
-
-#: src/data/ui/behavior.ui:29
-msgid "Whether the next and previous workspace should be visible in overview."
-msgstr ""
-"Si el espacio de trabajo anterior y siguiente deben estar visibles en la "
-"descripción general."
-
-#: src/data/ui/behavior.ui:41
-msgid "Workspace Switcher Click to The Main View"
-msgstr "Cambiar de espacio de trabajo Haga clic para ir a la vista principal"
-
-#: src/data/ui/behavior.ui:42
-msgid "Workspace switcher click always goes to the main view of the workspace."
-msgstr "El clic en el cambio de espacio de trabajo siempre lleva a la vista principal del espacio de trabajo."
-
-#: src/data/ui/behavior.ui:54
-msgid "Window Demands Attention Focus"
-msgstr "Ventana Exige el Foco"
-
-#: src/data/ui/behavior.ui:55
-msgid "Removes window is ready notification and focus on the window"
-msgstr "Elimina la notificación de ventana preparada y la enfoca"
-
-#: src/data/ui/behavior.ui:67
-msgid "Window Maximized by Default"
-msgstr "Ventana maximizada por defecto"
-
-#: src/data/ui/behavior.ui:68
-msgid "Maximize all windows on creation"
-msgstr "Maximizar todas las ventanas en la creación"
-
-#: src/data/ui/behavior.ui:80
-msgid "Type to Search"
-msgstr "Escribir para buscar"
-
-#: src/data/ui/behavior.ui:81
-msgid ""
-"You can start search without search entry or even focusing on it in overview"
-msgstr ""
-"Puedes iniciar la búsqueda sin una entrada de búsqueda o sin siquiera "
-"centrarse en ella en la vista de actividades"
-
-#: src/data/ui/behavior.ui:93
-msgid "Always Show Workspace Switcher"
-msgstr "Mostrar siempre el conmutador de espacio de trabajo"
-
-#: src/data/ui/behavior.ui:94
-msgid ""
-"Shows workspace switcher even when only one workspace used with dynamic "
-"workspaces"
-msgstr ""
-"Muestra el conmutador de espacio de trabajo incluso cuando solo se utiliza "
-"un espacio de trabajo con espacios de trabajo dinámicos"
-
-#: src/data/ui/behavior.ui:106
-msgid "Overlay Key"
-msgstr "Tecla de superposición"
-
-#: src/data/ui/behavior.ui:107
-msgid "Disable overlay key (super key)"
-msgstr "Deshabilitar la tecla de superposición (supertecla)"
-
-#: src/data/ui/behavior.ui:119
-msgid "Double Super to App Grid"
-msgstr "Doble tecla Super para la Cuadrícula de Apps"
-
-#: src/data/ui/behavior.ui:120
-msgid "Shows app grid when you double hit super key fast"
-msgstr ""
-"Muestra la cuadrícula de aplicaciones cuando la tecla Super es rápidamente "
-"presionada dos veces"
-
-#: src/data/ui/behavior.ui:133
-msgid "Popup Delay"
-msgstr "Retraso de ventana emergente"
-
-#: src/data/ui/behavior.ui:134
-msgid ""
-"Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
-"keyboard layout, ..."
-msgstr ""
-"Elimina la demora para todas las ventanas emergentes del conmutador como alt-"
-"tab, ctrl-alt-tab, distribución del teclado, ..."
-
-#: src/data/ui/behavior.ui:146
-msgid "Startup Status"
-msgstr "Estado de inicio"
-
-#: src/data/ui/behavior.ui:147
-msgid "When GNOME Shell is starting up for the first time"
-msgstr "Cuando GNOME Shell se inicia por primera vez"
-
-#: src/data/ui/behavior.ui:159
-msgid "Desktop"
-msgstr "Escritorio"
-
-#: src/data/ui/behavior.ui:160
-msgid "Overview"
-msgstr "Vista de Actividades"
-
-#: src/data/ui/customize.ui:6 src/data/ui/customize.ui:11
-msgid "Customize"
-msgstr "Personalizar"
-
-#: src/data/ui/customize.ui:15
-msgid "Accent Color for Icons"
-msgstr "Color de énfasis para los íconos"
-
-#: src/data/ui/customize.ui:16
-msgid "Use accent color for all symbolic icons"
-msgstr "Usar color de énfasis para todos los íconos simbólicos"
-
-#: src/data/ui/customize.ui:28
-msgid "Invert Calendar Column Items"
-msgstr "Invertir elementos de la columna del calendario"
-
-#: src/data/ui/customize.ui:29
-msgid "Invert the positions of the calendar column items in clock menu"
-msgstr "Invertir las posiciones de los elementos de la columna del calendario en el menú del reloj"
-
-#: src/data/ui/customize.ui:41
-msgid "Overview Spacing Size"
-msgstr "Resumen Espaciado Tamaño"
-
-#: src/data/ui/customize.ui:42
-msgid "The spacing size for controls manager in overview"
-msgstr "Resumen del tamaño del espacio para el administrador de controles"
-
-#: src/data/ui/customize.ui:49
-msgid "Workspace Background Corner Size"
-msgstr "Tamaño de las Esquinas de los Espacios de Trabajo"
-
-#: src/data/ui/customize.ui:50
-msgid "Workspace background corner size in overview"
-msgstr ""
-"Tamaño de las Esquinas de los Espacios de Trabajo en la Vista de Actividades"
-
-#: src/data/ui/customize.ui:57
-msgid "Panel Size"
-msgstr "Tamaño del Panel"
-
-#: src/data/ui/customize.ui:64
-msgid "Panel Icon Size"
-msgstr "Tamaño de los Iconos del Panel"
-
-#: src/data/ui/customize.ui:71
-msgid "Panel Button Padding Size"
-msgstr "Tamaño del Relleno de los Botones del Panel"
-
-#: src/data/ui/customize.ui:78
-msgid "Panel Indicator Padding Size"
-msgstr "Tamaño del Relleno de los Indicadores del Panel"
-
-#: src/data/ui/customize.ui:85
-msgid "Panel Position"
-msgstr "Posición del panel"
-
-#: src/data/ui/customize.ui:92
-msgid "Clock Menu Position"
-msgstr "Posición del Menú del Reloj"
-
-#: src/data/ui/customize.ui:99
-msgid "Clock Menu Position Offset"
-msgstr "Compensación del Menú del Reloj"
-
-#: src/data/ui/customize.ui:106
-msgid "Workspace Switcher Size"
-msgstr "Tamaño del Cambiador de Espacios de Trabajo"
-
-#: src/data/ui/customize.ui:113
-msgid "Animation"
-msgstr "Animación"
-
-#: src/data/ui/customize.ui:120
-msgid "Dash Icon Size"
-msgstr "Tamaño de los Iconos del Dash"
-
-#: src/data/ui/customize.ui:127
-msgid "Notification Banner Position"
-msgstr "Posición de las Notificaciones"
-
-#: src/data/ui/customize.ui:128
-msgid "Notification popup position when notifications show up on the screen"
-msgstr ""
-"Posición de los carteles de Notificaciones al momento de mostrarse en "
-"pantalla"
-
-#: src/data/ui/customize.ui:135
-msgid "OSD Position"
-msgstr "Posición del OSD"
-
-#: src/data/ui/customize.ui:136
-msgid "OSD position when on screen display shows up on the screen"
-msgstr ""
-"La posición del OSD (On Screen Display) al momento de mostrarse en pantalla"
-
-#: src/data/ui/customize.ui:143
-msgid "Alt Tab Window Preview Size"
-msgstr "Tamaño de vista previa de la ventana Alt-Tab"
-
-#: src/data/ui/customize.ui:150
-msgid "Alt Tab Window Preview Icon Size"
-msgstr "Tamaño del icono de vista previa de la ventana Alt-Tab"
-
-#: src/data/ui/customize.ui:157
-msgid "Alt Tab Icon Size"
-msgstr "Tamaño del icono Alt-Tab"
-
-#: src/data/ui/customize.ui:164
-msgid "Looking Glass Width"
-msgstr "Ancho del espejo"
-
-#: src/data/ui/customize.ui:171
-msgid "Looking Glass Height"
-msgstr "Altura del espejo"
-
-#: src/data/ui/customize.ui:178
-msgid "Maximum Displayed Search Results"
-msgstr "Resultados de búsqueda máximos mostrados"
-
-#: src/data/ui/customize.ui:179
-msgid "The maximum displayed search result items showing up in the search page"
-msgstr "El máximo de elementos de resultados de búsqueda mostrados que aparecen en la página de búsqueda"
-
-#: src/data/ui/customize.ui:191 src/data/ui/customize.ui:707
-#: src/data/ui/customize.ui:757 src/data/ui/customize.ui:782
-#: src/data/ui/customize.ui:797 src/data/ui/customize.ui:808
-#: src/data/ui/customize.ui:819 src/data/ui/customize.ui:830
-#: src/data/ui/customize.ui:845 src/data/ui/customize.ui:860
-#: src/data/ui/profile.ui:43
-msgid "Default"
-msgstr "Predeterminada"
-
-#: src/data/ui/customize.ui:347 src/data/ui/customize.ui:415
-#: src/data/ui/customize.ui:485 src/data/ui/customize.ui:551
-#: src/data/ui/customize.ui:618
-msgid "By Shell Theme"
-msgstr "Por Tema del Shell"
-
-#: src/data/ui/customize.ui:685
-msgid "Top"
-msgstr "Arriba"
-
-#: src/data/ui/customize.ui:686
-msgid "Bottom"
-msgstr "Abajo"
-
-#: src/data/ui/customize.ui:692 src/data/ui/customize.ui:790
-msgid "Center"
-msgstr "Centro"
-
-#: src/data/ui/customize.ui:693
-msgid "Right"
-msgstr "Derecha"
-
-#: src/data/ui/customize.ui:694
-msgid "Left"
-msgstr "Izquierda"
-
-#: src/data/ui/customize.ui:743
-msgid "No Animation"
-msgstr "Sin animación"
-
-#: src/data/ui/customize.ui:744
-msgid "Default Speed"
-msgstr "Velocidad Predeterminada"
-
-#: src/data/ui/customize.ui:745
-msgid "Almost None"
-msgstr "Casi ninguno"
-
-#: src/data/ui/customize.ui:746
-msgid "Fastest"
-msgstr "Mucho más rápido"
-
-#: src/data/ui/customize.ui:747
-msgid "Faster"
-msgstr "Muy rápido"
-
-#: src/data/ui/customize.ui:748
-msgid "Fast"
-msgstr "Rápido"
-
-#: src/data/ui/customize.ui:749
-msgid "Slow"
-msgstr "Lento"
-
-#: src/data/ui/customize.ui:750
-msgid "Slower"
-msgstr "Muy lento"
-
-#: src/data/ui/customize.ui:751
-msgid "Slowest"
-msgstr "Mucho más lento"
-
-#: src/data/ui/customize.ui:771 src/data/ui/customize.ui:783
-msgid "Top Start"
-msgstr "Superior Izquierda"
-
-#: src/data/ui/customize.ui:772 src/data/ui/customize.ui:784
-msgid "Top Center"
-msgstr "Superior Central"
-
-#: src/data/ui/customize.ui:773 src/data/ui/customize.ui:785
-msgid "Top End"
-msgstr "Superior Derecha"
-
-#: src/data/ui/customize.ui:774 src/data/ui/customize.ui:786
-msgid "Bottom Start"
-msgstr "Inferior Izquierda"
-
-#: src/data/ui/customize.ui:775 src/data/ui/customize.ui:787
-msgid "Bottom Center"
-msgstr "Inferior Central"
-
-#: src/data/ui/customize.ui:776 src/data/ui/customize.ui:788
-msgid "Bottom End"
-msgstr "Inferior Derecha"
-
-#: src/data/ui/customize.ui:789
-msgid "Center Start"
-msgstr "Inicio Central"
-
-#: src/data/ui/customize.ui:791
-msgid "Center End"
-msgstr "Final Central"
-
-#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
-msgid "Icons"
-msgstr "Iconos"
-
-#: src/data/ui/icons.ui:15
-msgid "Panel Notification Icon"
-msgstr "Icono de notificación del panel"
-
-#: src/data/ui/icons.ui:27
-msgid "Power Icon"
-msgstr "Icono de Energía"
-
-#: src/data/ui/icons.ui:39
-msgid "Window Picker Icon"
-msgstr "Iconos del Selector de ventana"
-
-#: src/data/ui/icons.ui:40
-msgid "The icon under window preview in overview"
-msgstr ""
-"El icono debajo de la vista previa de la ventana en la vista de actividades"
-
-#: src/data/ui/profile.ui:6 src/data/ui/profile.ui:11
-msgid "Profile"
-msgstr "Perfil"
-
-#: src/data/ui/profile.ui:18
-msgid ""
-"You can choose between pre-defined profiles or you can simply use your own "
-"customized settings"
-msgstr ""
-"Puede elegir entre perfiles predefinidos o puede simplemente usar su propia "
-"configuración personalizada"
-
-#: src/data/ui/profile.ui:53
-msgid "Custom"
-msgstr "Personalizado"
-
-#: src/data/ui/profile.ui:63
-msgid "Minimal"
-msgstr "Mínimo"
-
-#: src/data/ui/profile.ui:73
-msgid "Super Minimal"
-msgstr "Super mínimo"
-
-#: src/data/ui/profile.ui:90
-msgid "Override"
-msgstr "Sobreescribir"
-
-#: src/data/ui/profile.ui:94
-msgid "Shell Theme"
-msgstr "Tema de la Shell"
-
-#: src/data/ui/profile.ui:95
-msgid "Overrides the shell theme partially to create a minimal desktop"
-msgstr ""
-"Sobreescribe parcialmente el tema de la shell para crear un escritorio "
-"mínimo."
-
-#: src/data/ui/profile.ui:110
-msgid "Support"
-msgstr "Soporte"
-
-#: src/data/ui/profile.ui:137
-msgid "Support Via Crypto"
-msgstr "Soporte a través de Crypto"
-
-#: src/data/ui/profile.ui:138
-msgid "Preferred Method"
-msgstr "Método preferido"
-
-#: src/data/ui/profile.ui:329
-msgid "Support via Buy Me a Coffee"
-msgstr "Soporte a través de Buy Me a Coffee"
-
-#: src/data/ui/profile.ui:341
-msgid "Support via Patreon"
-msgstr "Soporte a través de Patreon"
-
-#: src/data/ui/profile.ui:356
-msgid "Links"
-msgstr "Enlaces"
-
-#: src/data/ui/profile.ui:360
-msgid "Bug Report"
-msgstr "Informe de error"
-
-#: src/data/ui/profile.ui:372
-msgid "YouTube Channel"
-msgstr "Canal de YouTube"
 
 #: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
 msgid "Visibility"
@@ -521,7 +81,8 @@ msgstr "Botón de alternancia del modo oscuro"
 
 #: src/data/ui/visibility.ui:106
 msgid "Dark Mode Toggle Button in Quick settings menu"
-msgstr "Botón de alternancia del modo oscuro en el menú de configuración rápida"
+msgstr ""
+"Botón de alternancia del modo oscuro en el menú de configuración rápida"
 
 #: src/data/ui/visibility.ui:118
 msgid "Night Light Toggle Button"
@@ -529,7 +90,8 @@ msgstr "Botón de alternancia de luz nocturna"
 
 #: src/data/ui/visibility.ui:119
 msgid "Night Light Toggle Button in Quick settings menu"
-msgstr "Botón de alternancia de luz nocturna en el menú de configuración rápida"
+msgstr ""
+"Botón de alternancia de luz nocturna en el menú de configuración rápida"
 
 #: src/data/ui/visibility.ui:131
 msgid "Airplane Mode Toggle Button"
@@ -707,6 +269,477 @@ msgid "Take screenshot button in title bar right click menu"
 msgstr ""
 "Botón para tomar una captura de pantalla en el menú del click derecho de la "
 "ventana"
+
+#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
+msgid "Icons"
+msgstr "Iconos"
+
+#: src/data/ui/icons.ui:15
+msgid "Panel Notification Icon"
+msgstr "Icono de notificación del panel"
+
+#: src/data/ui/icons.ui:27
+msgid "Power Icon"
+msgstr "Icono de Energía"
+
+#: src/data/ui/icons.ui:39
+msgid "Window Picker Icon"
+msgstr "Iconos del Selector de ventana"
+
+#: src/data/ui/icons.ui:40
+msgid "The icon under window preview in overview"
+msgstr ""
+"El icono debajo de la vista previa de la ventana en la vista de actividades"
+
+#: src/data/ui/behavior.ui:6 src/data/ui/behavior.ui:11
+msgid "Behavior"
+msgstr "Comportamiento"
+
+#: src/data/ui/behavior.ui:15
+msgid "Workspace Wraparound"
+msgstr "Espacios de trabajo envolventes"
+
+#: src/data/ui/behavior.ui:16
+msgid ""
+"Next workspace will be the first workspace when you are in the last "
+"workspace. and previous workspace will be the last workspace when you are in "
+"the first workspace."
+msgstr ""
+"El siguiente espacio de trabajo será el primer espacio de trabajo cuando se "
+"encuentre en el último espacio de trabajo. y el espacio de trabajo anterior "
+"será el último espacio de trabajo cuando esté en el primer espacio de "
+"trabajo."
+
+#: src/data/ui/behavior.ui:28
+msgid "Workspace Peek"
+msgstr "Vistazo al espacio de trabajo"
+
+#: src/data/ui/behavior.ui:29
+msgid "Whether the next and previous workspace should be visible in overview."
+msgstr ""
+"Si el espacio de trabajo anterior y siguiente deben estar visibles en la "
+"descripción general."
+
+#: src/data/ui/behavior.ui:41
+msgid "Workspace Switcher Click to The Main View"
+msgstr "Cambiar de espacio de trabajo Haga clic para ir a la vista principal"
+
+#: src/data/ui/behavior.ui:42
+msgid "Workspace switcher click always goes to the main view of the workspace."
+msgstr ""
+"El clic en el cambio de espacio de trabajo siempre lleva a la vista "
+"principal del espacio de trabajo."
+
+#: src/data/ui/behavior.ui:54
+msgid "Window Demands Attention Focus"
+msgstr "Ventana Exige el Foco"
+
+#: src/data/ui/behavior.ui:55
+msgid "Removes window is ready notification and focus on the window"
+msgstr "Elimina la notificación de ventana preparada y la enfoca"
+
+#: src/data/ui/behavior.ui:67
+msgid "Window Maximized by Default"
+msgstr "Ventana maximizada por defecto"
+
+#: src/data/ui/behavior.ui:68
+msgid "Maximize all windows on creation"
+msgstr "Maximizar todas las ventanas en la creación"
+
+#: src/data/ui/behavior.ui:80
+msgid "Type to Search"
+msgstr "Escribir para buscar"
+
+#: src/data/ui/behavior.ui:81
+msgid ""
+"You can start search without search entry or even focusing on it in overview"
+msgstr ""
+"Puedes iniciar la búsqueda sin una entrada de búsqueda o sin siquiera "
+"centrarse en ella en la vista de actividades"
+
+#: src/data/ui/behavior.ui:93
+msgid "Always Show Workspace Switcher"
+msgstr "Mostrar siempre el conmutador de espacio de trabajo"
+
+#: src/data/ui/behavior.ui:94
+msgid ""
+"Shows workspace switcher even when only one workspace used with dynamic "
+"workspaces"
+msgstr ""
+"Muestra el conmutador de espacio de trabajo incluso cuando solo se utiliza "
+"un espacio de trabajo con espacios de trabajo dinámicos"
+
+#: src/data/ui/behavior.ui:106
+msgid "Overlay Key"
+msgstr "Tecla de superposición"
+
+#: src/data/ui/behavior.ui:107
+msgid "Disable overlay key (super key)"
+msgstr "Deshabilitar la tecla de superposición (supertecla)"
+
+#: src/data/ui/behavior.ui:119
+msgid "Double Super to App Grid"
+msgstr "Doble tecla Super para la Cuadrícula de Apps"
+
+#: src/data/ui/behavior.ui:120
+msgid "Shows app grid when you double hit super key fast"
+msgstr ""
+"Muestra la cuadrícula de aplicaciones cuando la tecla Super es rápidamente "
+"presionada dos veces"
+
+#: src/data/ui/behavior.ui:133
+msgid "Popup Delay"
+msgstr "Retraso de ventana emergente"
+
+#: src/data/ui/behavior.ui:134
+msgid ""
+"Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
+"keyboard layout, ..."
+msgstr ""
+"Elimina la demora para todas las ventanas emergentes del conmutador como alt-"
+"tab, ctrl-alt-tab, distribución del teclado, ..."
+
+#: src/data/ui/behavior.ui:146
+msgid "Startup Status"
+msgstr "Estado de inicio"
+
+#: src/data/ui/behavior.ui:147
+msgid "When GNOME Shell is starting up for the first time"
+msgstr "Cuando GNOME Shell se inicia por primera vez"
+
+#: src/data/ui/behavior.ui:159
+msgid "Desktop"
+msgstr "Escritorio"
+
+#: src/data/ui/behavior.ui:160
+msgid "Overview"
+msgstr "Vista de Actividades"
+
+#: src/data/ui/customize.ui:6 src/data/ui/customize.ui:11
+msgid "Customize"
+msgstr "Personalizar"
+
+#: src/data/ui/customize.ui:15
+msgid "Accent Color for Icons"
+msgstr "Color de énfasis para los íconos"
+
+#: src/data/ui/customize.ui:16
+msgid "Use accent color for all symbolic icons"
+msgstr "Usar color de énfasis para todos los íconos simbólicos"
+
+#: src/data/ui/customize.ui:28
+msgid "Invert Calendar Column Items"
+msgstr "Invertir elementos de la columna del calendario"
+
+#: src/data/ui/customize.ui:29
+msgid "Invert the positions of the calendar column items in clock menu"
+msgstr ""
+"Invertir las posiciones de los elementos de la columna del calendario en el "
+"menú del reloj"
+
+#: src/data/ui/customize.ui:41
+msgid "Overview Spacing Size"
+msgstr "Resumen Espaciado Tamaño"
+
+#: src/data/ui/customize.ui:42
+msgid "The spacing size for controls manager in overview"
+msgstr "Resumen del tamaño del espacio para el administrador de controles"
+
+#: src/data/ui/customize.ui:49
+msgid "Workspace Background Corner Size"
+msgstr "Tamaño de las Esquinas de los Espacios de Trabajo"
+
+#: src/data/ui/customize.ui:50
+msgid "Workspace background corner size in overview"
+msgstr ""
+"Tamaño de las Esquinas de los Espacios de Trabajo en la Vista de Actividades"
+
+#: src/data/ui/customize.ui:57
+msgid "Panel Size"
+msgstr "Tamaño del Panel"
+
+#: src/data/ui/customize.ui:64
+msgid "Panel Icon Size"
+msgstr "Tamaño de los Iconos del Panel"
+
+#: src/data/ui/customize.ui:71
+msgid "Panel Button Padding Size"
+msgstr "Tamaño del Relleno de los Botones del Panel"
+
+#: src/data/ui/customize.ui:78
+msgid "Panel Indicator Padding Size"
+msgstr "Tamaño del Relleno de los Indicadores del Panel"
+
+#: src/data/ui/customize.ui:85
+msgid "Panel Position"
+msgstr "Posición del panel"
+
+#: src/data/ui/customize.ui:92
+msgid "Clock Menu Position"
+msgstr "Posición del Menú del Reloj"
+
+#: src/data/ui/customize.ui:99
+msgid "Clock Menu Position Offset"
+msgstr "Compensación del Menú del Reloj"
+
+#: src/data/ui/customize.ui:106
+msgid "Workspace Switcher Size"
+msgstr "Tamaño del Cambiador de Espacios de Trabajo"
+
+#: src/data/ui/customize.ui:113
+msgid "Animation"
+msgstr "Animación"
+
+#: src/data/ui/customize.ui:120
+msgid "Dash Icon Size"
+msgstr "Tamaño de los Iconos del Dash"
+
+#: src/data/ui/customize.ui:127
+msgid "Notification Banner Position"
+msgstr "Posición de las Notificaciones"
+
+#: src/data/ui/customize.ui:128
+msgid "Notification popup position when notifications show up on the screen"
+msgstr ""
+"Posición de los carteles de Notificaciones al momento de mostrarse en "
+"pantalla"
+
+#: src/data/ui/customize.ui:135
+msgid "OSD Position"
+msgstr "Posición del OSD"
+
+#: src/data/ui/customize.ui:136
+msgid "OSD position when on screen display shows up on the screen"
+msgstr ""
+"La posición del OSD (On Screen Display) al momento de mostrarse en pantalla"
+
+#: src/data/ui/customize.ui:143
+msgid "Alt Tab Window Preview Size"
+msgstr "Tamaño de vista previa de la ventana Alt-Tab"
+
+#: src/data/ui/customize.ui:150
+msgid "Alt Tab Window Preview Icon Size"
+msgstr "Tamaño del icono de vista previa de la ventana Alt-Tab"
+
+#: src/data/ui/customize.ui:157
+msgid "Alt Tab Icon Size"
+msgstr "Tamaño del icono Alt-Tab"
+
+#: src/data/ui/customize.ui:164
+msgid "Looking Glass Width"
+msgstr "Ancho del espejo"
+
+#: src/data/ui/customize.ui:171
+msgid "Looking Glass Height"
+msgstr "Altura del espejo"
+
+#: src/data/ui/customize.ui:178
+msgid "Maximum Displayed Search Results"
+msgstr "Resultados de búsqueda máximos mostrados"
+
+#: src/data/ui/customize.ui:179
+msgid "The maximum displayed search result items showing up in the search page"
+msgstr ""
+"El máximo de elementos de resultados de búsqueda mostrados que aparecen en "
+"la página de búsqueda"
+
+#: src/data/ui/customize.ui:191 src/data/ui/customize.ui:707
+#: src/data/ui/customize.ui:757 src/data/ui/customize.ui:782
+#: src/data/ui/customize.ui:797 src/data/ui/customize.ui:808
+#: src/data/ui/customize.ui:819 src/data/ui/customize.ui:830
+#: src/data/ui/customize.ui:845 src/data/ui/customize.ui:860
+#: src/data/ui/profile.ui:43
+msgid "Default"
+msgstr "Predeterminada"
+
+#: src/data/ui/customize.ui:347 src/data/ui/customize.ui:415
+#: src/data/ui/customize.ui:485 src/data/ui/customize.ui:551
+#: src/data/ui/customize.ui:618
+msgid "By Shell Theme"
+msgstr "Por Tema del Shell"
+
+#: src/data/ui/customize.ui:685
+msgid "Top"
+msgstr "Arriba"
+
+#: src/data/ui/customize.ui:686
+msgid "Bottom"
+msgstr "Abajo"
+
+#: src/data/ui/customize.ui:692 src/data/ui/customize.ui:790
+msgid "Center"
+msgstr "Centro"
+
+#: src/data/ui/customize.ui:693
+msgid "Right"
+msgstr "Derecha"
+
+#: src/data/ui/customize.ui:694
+msgid "Left"
+msgstr "Izquierda"
+
+#: src/data/ui/customize.ui:743
+msgid "No Animation"
+msgstr "Sin animación"
+
+#: src/data/ui/customize.ui:744
+msgid "Default Speed"
+msgstr "Velocidad Predeterminada"
+
+#: src/data/ui/customize.ui:745
+msgid "Almost None"
+msgstr "Casi ninguno"
+
+#: src/data/ui/customize.ui:746
+msgid "Fastest"
+msgstr "Mucho más rápido"
+
+#: src/data/ui/customize.ui:747
+msgid "Faster"
+msgstr "Muy rápido"
+
+#: src/data/ui/customize.ui:748
+msgid "Fast"
+msgstr "Rápido"
+
+#: src/data/ui/customize.ui:749
+msgid "Slow"
+msgstr "Lento"
+
+#: src/data/ui/customize.ui:750
+msgid "Slower"
+msgstr "Muy lento"
+
+#: src/data/ui/customize.ui:751
+msgid "Slowest"
+msgstr "Mucho más lento"
+
+#: src/data/ui/customize.ui:771 src/data/ui/customize.ui:783
+msgid "Top Start"
+msgstr "Superior Izquierda"
+
+#: src/data/ui/customize.ui:772 src/data/ui/customize.ui:784
+msgid "Top Center"
+msgstr "Superior Central"
+
+#: src/data/ui/customize.ui:773 src/data/ui/customize.ui:785
+msgid "Top End"
+msgstr "Superior Derecha"
+
+#: src/data/ui/customize.ui:774 src/data/ui/customize.ui:786
+msgid "Bottom Start"
+msgstr "Inferior Izquierda"
+
+#: src/data/ui/customize.ui:775 src/data/ui/customize.ui:787
+msgid "Bottom Center"
+msgstr "Inferior Central"
+
+#: src/data/ui/customize.ui:776 src/data/ui/customize.ui:788
+msgid "Bottom End"
+msgstr "Inferior Derecha"
+
+#: src/data/ui/customize.ui:789
+msgid "Center Start"
+msgstr "Inicio Central"
+
+#: src/data/ui/customize.ui:791
+msgid "Center End"
+msgstr "Final Central"
+
+#: src/data/ui/profile.ui:6 src/data/ui/profile.ui:11
+msgid "Profile"
+msgstr "Perfil"
+
+#: src/data/ui/profile.ui:18
+msgid ""
+"You can choose between pre-defined profiles or you can simply use your own "
+"customized settings"
+msgstr ""
+"Puede elegir entre perfiles predefinidos o puede simplemente usar su propia "
+"configuración personalizada"
+
+#: src/data/ui/profile.ui:53
+msgid "Custom"
+msgstr "Personalizado"
+
+#: src/data/ui/profile.ui:63
+msgid "Minimal"
+msgstr "Mínimo"
+
+#: src/data/ui/profile.ui:73
+msgid "Super Minimal"
+msgstr "Super mínimo"
+
+#: src/data/ui/profile.ui:90
+msgid "Override"
+msgstr "Sobreescribir"
+
+#: src/data/ui/profile.ui:94
+msgid "Shell Theme"
+msgstr "Tema de la Shell"
+
+#: src/data/ui/profile.ui:95
+msgid "Overrides the shell theme partially to create a minimal desktop"
+msgstr ""
+"Sobreescribe parcialmente el tema de la shell para crear un escritorio "
+"mínimo."
+
+#: src/data/ui/profile.ui:110
+msgid "Support"
+msgstr "Soporte"
+
+#: src/data/ui/profile.ui:135
+msgid "Support Via Crypto"
+msgstr "Soporte a través de Crypto"
+
+#: src/data/ui/profile.ui:136
+msgid "Preferred Method"
+msgstr "Método preferido"
+
+#: src/data/ui/profile.ui:167
+msgid "Copy"
+msgstr ""
+
+#: src/data/ui/profile.ui:184
+msgid "Support via Buy Me a Coffee"
+msgstr "Soporte a través de Buy Me a Coffee"
+
+#: src/data/ui/profile.ui:202
+#, fuzzy
+msgid "Support Notification"
+msgstr "Soporte a través de Patreon"
+
+#: src/data/ui/profile.ui:203
+msgid "Manage when the support notification shows up"
+msgstr ""
+
+#: src/data/ui/profile.ui:213
+msgid "Links"
+msgstr "Enlaces"
+
+#: src/data/ui/profile.ui:217
+msgid "Bug Report"
+msgstr "Informe de error"
+
+#: src/data/ui/profile.ui:229
+msgid "YouTube Channel"
+msgstr "Canal de YouTube"
+
+#: src/data/ui/profile.ui:266
+msgid "Never"
+msgstr ""
+
+#: src/data/ui/profile.ui:267
+msgid "On New Releases"
+msgstr ""
+
+#: src/data/ui/profile.ui:268
+msgid "Monthly"
+msgstr ""
+
+#: src/data/ui/profile.ui:273
+msgid "Address copied to the clipboard"
+msgstr ""
 
 #~ msgid "Select File"
 #~ msgstr "Seleccionar Archivo"

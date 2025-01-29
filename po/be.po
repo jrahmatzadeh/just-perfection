@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-15 23:47-0800\n"
+"POT-Creation-Date: 2025-01-29 14:44-0800\n"
 "PO-Revision-Date: 2020-12-18 04:22-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -16,437 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: src/data/ui/behavior.ui:6 src/data/ui/behavior.ui:11
-msgid "Behavior"
-msgstr "Паводзіны"
-
-#: src/data/ui/behavior.ui:15
-msgid "Workspace Wraparound"
-msgstr "Абгортка працоўнай прасторы"
-
-#: src/data/ui/behavior.ui:16
-msgid ""
-"Next workspace will be the first workspace when you are in the last "
-"workspace. and previous workspace will be the last workspace when you are in "
-"the first workspace."
-msgstr ""
-"Наступная працоўная вобласць будзе першай працоўнай, калі вы будзеце "
-"знаходзіцца ў апошняй.і папярэдняя працоўная прастора будзе апошняй, калі вы "
-"будзеце знаходзіцца ў першай."
-
-#: src/data/ui/behavior.ui:28
-msgid "Workspace Peek"
-msgstr "Працоўная вобласць Peek"
-
-#: src/data/ui/behavior.ui:29
-msgid "Whether the next and previous workspace should be visible in overview."
-msgstr ""
-"Ці павінны наступная і папярэдняя рабочая вобласці быць бачныя ў аглядзе."
-
-#: src/data/ui/behavior.ui:41
-msgid "Workspace Switcher Click to The Main View"
-msgstr "Пераключальнік працоўнай прасторы Пстрыкніце, каб перайсці да галоўнага выгляду"
-
-#: src/data/ui/behavior.ui:42
-msgid "Workspace switcher click always goes to the main view of the workspace."
-msgstr "Пстрычка пераключальніка працоўнай прасторы заўсёды пераходзіць у галоўны выгляд працоўнай вобласці."
-
-#: src/data/ui/behavior.ui:54
-msgid "Window Demands Attention Focus"
-msgstr "Акно патрабуе ўвагі"
-
-#: src/data/ui/behavior.ui:55
-msgid "Removes window is ready notification and focus on the window"
-msgstr "Выдаляе акно гатовага апавяшчэння і засяродзіцца на акне"
-
-#: src/data/ui/behavior.ui:67
-msgid "Window Maximized by Default"
-msgstr "Акно разгорнута па змаўчанні"
-
-#: src/data/ui/behavior.ui:68
-msgid "Maximize all windows on creation"
-msgstr "Разгарнуць усе вокны пры стварэнні"
-
-#: src/data/ui/behavior.ui:80
-msgid "Type to Search"
-msgstr "Набярыце для пошуку"
-
-#: src/data/ui/behavior.ui:81
-msgid ""
-"You can start search without search entry or even focusing on it in overview"
-msgstr ""
-"Вы можаце пачаць пошук без запісу пошуку альбо нават сканцэнтравацца на ім у "
-"аглядзе"
-
-#: src/data/ui/behavior.ui:93
-msgid "Always Show Workspace Switcher"
-msgstr "Заўсёды паказваць пераключальнік працоўнай прасторы"
-
-#: src/data/ui/behavior.ui:94
-msgid ""
-"Shows workspace switcher even when only one workspace used with dynamic "
-"workspaces"
-msgstr ""
-"Паказвае пераключальнік працоўнай прасторы, нават калі толькі адна рабочая "
-"вобласць выкарыстоўваецца з дынамічнымі працоўнымі прасторамі"
-
-#: src/data/ui/behavior.ui:106
-msgid "Overlay Key"
-msgstr "Накладны ключ"
-
-#: src/data/ui/behavior.ui:107
-msgid "Disable overlay key (super key)"
-msgstr "Адключыць клавішу накладання (суперклавіша)"
-
-#: src/data/ui/behavior.ui:119
-msgid "Double Super to App Grid"
-msgstr "Двайны супер-ключ да сеткі прыкладання"
-
-#: src/data/ui/behavior.ui:120
-msgid "Shows app grid when you double hit super key fast"
-msgstr "Паказвае сетку праграмы, калі вы хутка двойчы націснеце суперклавішу"
-
-#: src/data/ui/behavior.ui:133
-msgid "Popup Delay"
-msgstr "Затрымка ўсплывальных вокнаў"
-
-#: src/data/ui/behavior.ui:134
-msgid ""
-"Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
-"keyboard layout, ..."
-msgstr ""
-"Выдаляе затрымку для ўсіх усплывальных вокнаў пераключальніка, такіх як alt-"
-"tab, ctrl-alt-tab, раскладка клавіятуры, ..."
-
-#: src/data/ui/behavior.ui:146
-msgid "Startup Status"
-msgstr "Стан запуску"
-
-#: src/data/ui/behavior.ui:147
-msgid "When GNOME Shell is starting up for the first time"
-msgstr "Калі GNOME Shell запускаецца ўпершыню"
-
-#: src/data/ui/behavior.ui:159
-msgid "Desktop"
-msgstr "Працоўны стол"
-
-#: src/data/ui/behavior.ui:160
-msgid "Overview"
-msgstr "Агляд"
-
-#: src/data/ui/customize.ui:6 src/data/ui/customize.ui:11
-msgid "Customize"
-msgstr "Наладзіць"
-
-#: src/data/ui/customize.ui:15
-msgid "Accent Color for Icons"
-msgstr "Акцэнтны колер для значкоў"
-
-#: src/data/ui/customize.ui:16
-msgid "Use accent color for all symbolic icons"
-msgstr "Выкарыстоўвайце акцэнтны колер для ўсіх сімвалічных значкоў"
-
-#: src/data/ui/customize.ui:28
-msgid "Invert Calendar Column Items"
-msgstr "Інвертаваць элементы слупка календара"
-
-#: src/data/ui/customize.ui:29
-msgid "Invert the positions of the calendar column items in clock menu"
-msgstr "Інвертуйце пазіцыі элементаў слупка календара ў меню гадзінніка"
-
-#: src/data/ui/customize.ui:41
-msgid "Overview Spacing Size"
-msgstr "Агляд Памер інтэрвалу"
-
-#: src/data/ui/customize.ui:42
-msgid "The spacing size for controls manager in overview"
-msgstr "Памер інтэрвалу для дыспетчара элементаў кіравання ў аглядзе"
-
-#: src/data/ui/customize.ui:49
-msgid "Workspace Background Corner Size"
-msgstr "Памер фону працоўнай прасторы"
-
-#: src/data/ui/customize.ui:50
-msgid "Workspace background corner size in overview"
-msgstr "Агляд памеру кута фону працоўнай прасторы"
-
-#: src/data/ui/customize.ui:57
-msgid "Panel Size"
-msgstr "Памер панэлі"
-
-#: src/data/ui/customize.ui:64
-msgid "Panel Icon Size"
-msgstr "Памер значка панэлі"
-
-#: src/data/ui/customize.ui:71
-msgid "Panel Button Padding Size"
-msgstr "Памер абіўкі кнопак на панэлі"
-
-#: src/data/ui/customize.ui:78
-msgid "Panel Indicator Padding Size"
-msgstr "Памер індыкатара панэлі"
-
-#: src/data/ui/customize.ui:85
-msgid "Panel Position"
-msgstr "Палажэнне панэлі"
-
-#: src/data/ui/customize.ui:92
-msgid "Clock Menu Position"
-msgstr "Палажэнне меню гадзінніка"
-
-#: src/data/ui/customize.ui:99
-msgid "Clock Menu Position Offset"
-msgstr "Зрушэнне становішча меню гадзін"
-
-#: src/data/ui/customize.ui:106
-msgid "Workspace Switcher Size"
-msgstr "Памер пераключальніка працоўнай вобласці"
-
-#: src/data/ui/customize.ui:113
-msgid "Animation"
-msgstr "Анімацыя"
-
-#: src/data/ui/customize.ui:120
-msgid "Dash Icon Size"
-msgstr "памер значка працяжніка"
-
-#: src/data/ui/customize.ui:127
-msgid "Notification Banner Position"
-msgstr "Палажэнне апавяшчальнага банера"
-
-#: src/data/ui/customize.ui:128
-msgid "Notification popup position when notifications show up on the screen"
-msgstr ""
-"Усплывальнае становішча апавяшчэнняў пры з'яўленні апавяшчэнняў на экране"
-
-#: src/data/ui/customize.ui:135
-msgid "OSD Position"
-msgstr "Становішча экраннага меню"
-
-#: src/data/ui/customize.ui:136
-msgid "OSD position when on screen display shows up on the screen"
-msgstr "Становішча экраннага меню, калі на экране адлюстроўваецца на экране"
-
-#: src/data/ui/customize.ui:143
-msgid "Alt Tab Window Preview Size"
-msgstr "Alt-Tab Памер папярэдняга прагляду акна"
-
-#: src/data/ui/customize.ui:150
-msgid "Alt Tab Window Preview Icon Size"
-msgstr "Alt-tab Памер значка папярэдняга прагляду акна"
-
-#: src/data/ui/customize.ui:157
-msgid "Alt Tab Icon Size"
-msgstr "Памер значка Alt-Tab"
-
-#: src/data/ui/customize.ui:164
-msgid "Looking Glass Width"
-msgstr "Шырыня люстэрка"
-
-#: src/data/ui/customize.ui:171
-msgid "Looking Glass Height"
-msgstr "Вышыня люстэрка"
-
-#: src/data/ui/customize.ui:178
-msgid "Maximum Displayed Search Results"
-msgstr "Максімальная колькасць паказаных вынікаў пошуку"
-
-#: src/data/ui/customize.ui:179
-msgid "The maximum displayed search result items showing up in the search page"
-msgstr "Максімальная колькасць элементаў вынікаў пошуку, якія адлюстроўваюцца на старонцы пошуку"
-
-#: src/data/ui/customize.ui:191 src/data/ui/customize.ui:707
-#: src/data/ui/customize.ui:757 src/data/ui/customize.ui:782
-#: src/data/ui/customize.ui:797 src/data/ui/customize.ui:808
-#: src/data/ui/customize.ui:819 src/data/ui/customize.ui:830
-#: src/data/ui/customize.ui:845 src/data/ui/customize.ui:860
-#: src/data/ui/profile.ui:43
-msgid "Default"
-msgstr "Па змаўчанні"
-
-#: src/data/ui/customize.ui:347 src/data/ui/customize.ui:415
-#: src/data/ui/customize.ui:485 src/data/ui/customize.ui:551
-#: src/data/ui/customize.ui:618
-msgid "By Shell Theme"
-msgstr "Тэма Shell"
-
-#: src/data/ui/customize.ui:685
-msgid "Top"
-msgstr "Зверху"
-
-#: src/data/ui/customize.ui:686
-msgid "Bottom"
-msgstr "Знізу"
-
-#: src/data/ui/customize.ui:692 src/data/ui/customize.ui:790
-msgid "Center"
-msgstr "Цэнтр"
-
-#: src/data/ui/customize.ui:693
-msgid "Right"
-msgstr "Правільна"
-
-#: src/data/ui/customize.ui:694
-msgid "Left"
-msgstr "Злева"
-
-#: src/data/ui/customize.ui:743
-msgid "No Animation"
-msgstr "Няма анімацыі"
-
-#: src/data/ui/customize.ui:744
-msgid "Default Speed"
-msgstr "Хуткасць па змаўчанні"
-
-#: src/data/ui/customize.ui:745
-msgid "Almost None"
-msgstr "Амаль няма"
-
-#: src/data/ui/customize.ui:746
-msgid "Fastest"
-msgstr "Самы хуткі"
-
-#: src/data/ui/customize.ui:747
-msgid "Faster"
-msgstr "Хутчэй"
-
-#: src/data/ui/customize.ui:748
-msgid "Fast"
-msgstr "Хутка"
-
-#: src/data/ui/customize.ui:749
-msgid "Slow"
-msgstr "Павольна"
-
-#: src/data/ui/customize.ui:750
-msgid "Slower"
-msgstr "Павольней"
-
-#: src/data/ui/customize.ui:751
-msgid "Slowest"
-msgstr "Самае павольнае"
-
-#: src/data/ui/customize.ui:771 src/data/ui/customize.ui:783
-msgid "Top Start"
-msgstr "З пачатку"
-
-#: src/data/ui/customize.ui:772 src/data/ui/customize.ui:784
-msgid "Top Center"
-msgstr "Верхні цэнтр"
-
-#: src/data/ui/customize.ui:773 src/data/ui/customize.ui:785
-msgid "Top End"
-msgstr "Верхні канец"
-
-#: src/data/ui/customize.ui:774 src/data/ui/customize.ui:786
-msgid "Bottom Start"
-msgstr "Ніжні пачатак"
-
-#: src/data/ui/customize.ui:775 src/data/ui/customize.ui:787
-msgid "Bottom Center"
-msgstr "Ніжні цэнтр"
-
-#: src/data/ui/customize.ui:776 src/data/ui/customize.ui:788
-msgid "Bottom End"
-msgstr "Ніжняя частка"
-
-#: src/data/ui/customize.ui:789
-msgid "Center Start"
-msgstr "Цэнтральны старт"
-
-#: src/data/ui/customize.ui:791
-msgid "Center End"
-msgstr "Цэнтральны канец"
-
-#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
-msgid "Icons"
-msgstr "абразкі"
-
-#: src/data/ui/icons.ui:15
-msgid "Panel Notification Icon"
-msgstr "Значок апавяшчэння на панэлі"
-
-#: src/data/ui/icons.ui:27
-msgid "Power Icon"
-msgstr "Абразок харчавання"
-
-#: src/data/ui/icons.ui:39
-msgid "Window Picker Icon"
-msgstr "Акно выбару вокнаў"
-
-#: src/data/ui/icons.ui:40
-msgid "The icon under window preview in overview"
-msgstr "Значок пад папярэднім праглядам акна ў аглядзе"
-
-#: src/data/ui/profile.ui:6 src/data/ui/profile.ui:11
-msgid "Profile"
-msgstr "Профіль"
-
-#: src/data/ui/profile.ui:18
-msgid ""
-"You can choose between pre-defined profiles or you can simply use your own "
-"customized settings"
-msgstr ""
-"Вы можаце выбіраць паміж прадвызначанымі профілямі або проста выкарыстоўваць "
-"свае ўласныя налады"
-
-#: src/data/ui/profile.ui:53
-msgid "Custom"
-msgstr "Карыстальніцкія"
-
-#: src/data/ui/profile.ui:63
-msgid "Minimal"
-msgstr "Мінімальны"
-
-#: src/data/ui/profile.ui:73
-msgid "Super Minimal"
-msgstr "Супер мінімальны"
-
-#: src/data/ui/profile.ui:90
-msgid "Override"
-msgstr "Перавызначыць"
-
-#: src/data/ui/profile.ui:94
-msgid "Shell Theme"
-msgstr "Тэма Shell"
-
-#: src/data/ui/profile.ui:95
-msgid "Overrides the shell theme partially to create a minimal desktop"
-msgstr ""
-"Перакрывае тэму абалонкі часткова, каб стварыць мінімальны працоўны стол"
-
-#: src/data/ui/profile.ui:110
-msgid "Support"
-msgstr "Падтрымка"
-
-#: src/data/ui/profile.ui:137
-msgid "Support Via Crypto"
-msgstr "Падтрымка праз Crypto"
-
-#: src/data/ui/profile.ui:138
-msgid "Preferred Method"
-msgstr "Пераважны метад"
-
-#: src/data/ui/profile.ui:329
-msgid "Support via Buy Me a Coffee"
-msgstr "Падтрымка праз Buy Me a Coffee"
-
-#: src/data/ui/profile.ui:341
-msgid "Support via Patreon"
-msgstr "Падтрымка праз Patreon"
-
-#: src/data/ui/profile.ui:356
-msgid "Links"
-msgstr "Спасылкі"
-
-#: src/data/ui/profile.ui:360
-msgid "Bug Report"
-msgstr "Справаздача пра памылкі"
-
-#: src/data/ui/profile.ui:372
-msgid "YouTube Channel"
-msgstr "Канал YouTube"
 
 #: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
 msgid "Visibility"
@@ -690,3 +259,465 @@ msgstr "Кнопка зрабіць здымак экрана ў меню вок
 #: src/data/ui/visibility.ui:392
 msgid "Take screenshot button in title bar right click menu"
 msgstr "Кнопка зрабіць скрыншот у меню правай кнопкі мышы ў радку загалоўка"
+
+#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
+msgid "Icons"
+msgstr "абразкі"
+
+#: src/data/ui/icons.ui:15
+msgid "Panel Notification Icon"
+msgstr "Значок апавяшчэння на панэлі"
+
+#: src/data/ui/icons.ui:27
+msgid "Power Icon"
+msgstr "Абразок харчавання"
+
+#: src/data/ui/icons.ui:39
+msgid "Window Picker Icon"
+msgstr "Акно выбару вокнаў"
+
+#: src/data/ui/icons.ui:40
+msgid "The icon under window preview in overview"
+msgstr "Значок пад папярэднім праглядам акна ў аглядзе"
+
+#: src/data/ui/behavior.ui:6 src/data/ui/behavior.ui:11
+msgid "Behavior"
+msgstr "Паводзіны"
+
+#: src/data/ui/behavior.ui:15
+msgid "Workspace Wraparound"
+msgstr "Абгортка працоўнай прасторы"
+
+#: src/data/ui/behavior.ui:16
+msgid ""
+"Next workspace will be the first workspace when you are in the last "
+"workspace. and previous workspace will be the last workspace when you are in "
+"the first workspace."
+msgstr ""
+"Наступная працоўная вобласць будзе першай працоўнай, калі вы будзеце "
+"знаходзіцца ў апошняй.і папярэдняя працоўная прастора будзе апошняй, калі вы "
+"будзеце знаходзіцца ў першай."
+
+#: src/data/ui/behavior.ui:28
+msgid "Workspace Peek"
+msgstr "Працоўная вобласць Peek"
+
+#: src/data/ui/behavior.ui:29
+msgid "Whether the next and previous workspace should be visible in overview."
+msgstr ""
+"Ці павінны наступная і папярэдняя рабочая вобласці быць бачныя ў аглядзе."
+
+#: src/data/ui/behavior.ui:41
+msgid "Workspace Switcher Click to The Main View"
+msgstr ""
+"Пераключальнік працоўнай прасторы Пстрыкніце, каб перайсці да галоўнага "
+"выгляду"
+
+#: src/data/ui/behavior.ui:42
+msgid "Workspace switcher click always goes to the main view of the workspace."
+msgstr ""
+"Пстрычка пераключальніка працоўнай прасторы заўсёды пераходзіць у галоўны "
+"выгляд працоўнай вобласці."
+
+#: src/data/ui/behavior.ui:54
+msgid "Window Demands Attention Focus"
+msgstr "Акно патрабуе ўвагі"
+
+#: src/data/ui/behavior.ui:55
+msgid "Removes window is ready notification and focus on the window"
+msgstr "Выдаляе акно гатовага апавяшчэння і засяродзіцца на акне"
+
+#: src/data/ui/behavior.ui:67
+msgid "Window Maximized by Default"
+msgstr "Акно разгорнута па змаўчанні"
+
+#: src/data/ui/behavior.ui:68
+msgid "Maximize all windows on creation"
+msgstr "Разгарнуць усе вокны пры стварэнні"
+
+#: src/data/ui/behavior.ui:80
+msgid "Type to Search"
+msgstr "Набярыце для пошуку"
+
+#: src/data/ui/behavior.ui:81
+msgid ""
+"You can start search without search entry or even focusing on it in overview"
+msgstr ""
+"Вы можаце пачаць пошук без запісу пошуку альбо нават сканцэнтравацца на ім у "
+"аглядзе"
+
+#: src/data/ui/behavior.ui:93
+msgid "Always Show Workspace Switcher"
+msgstr "Заўсёды паказваць пераключальнік працоўнай прасторы"
+
+#: src/data/ui/behavior.ui:94
+msgid ""
+"Shows workspace switcher even when only one workspace used with dynamic "
+"workspaces"
+msgstr ""
+"Паказвае пераключальнік працоўнай прасторы, нават калі толькі адна рабочая "
+"вобласць выкарыстоўваецца з дынамічнымі працоўнымі прасторамі"
+
+#: src/data/ui/behavior.ui:106
+msgid "Overlay Key"
+msgstr "Накладны ключ"
+
+#: src/data/ui/behavior.ui:107
+msgid "Disable overlay key (super key)"
+msgstr "Адключыць клавішу накладання (суперклавіша)"
+
+#: src/data/ui/behavior.ui:119
+msgid "Double Super to App Grid"
+msgstr "Двайны супер-ключ да сеткі прыкладання"
+
+#: src/data/ui/behavior.ui:120
+msgid "Shows app grid when you double hit super key fast"
+msgstr "Паказвае сетку праграмы, калі вы хутка двойчы націснеце суперклавішу"
+
+#: src/data/ui/behavior.ui:133
+msgid "Popup Delay"
+msgstr "Затрымка ўсплывальных вокнаў"
+
+#: src/data/ui/behavior.ui:134
+msgid ""
+"Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
+"keyboard layout, ..."
+msgstr ""
+"Выдаляе затрымку для ўсіх усплывальных вокнаў пераключальніка, такіх як alt-"
+"tab, ctrl-alt-tab, раскладка клавіятуры, ..."
+
+#: src/data/ui/behavior.ui:146
+msgid "Startup Status"
+msgstr "Стан запуску"
+
+#: src/data/ui/behavior.ui:147
+msgid "When GNOME Shell is starting up for the first time"
+msgstr "Калі GNOME Shell запускаецца ўпершыню"
+
+#: src/data/ui/behavior.ui:159
+msgid "Desktop"
+msgstr "Працоўны стол"
+
+#: src/data/ui/behavior.ui:160
+msgid "Overview"
+msgstr "Агляд"
+
+#: src/data/ui/customize.ui:6 src/data/ui/customize.ui:11
+msgid "Customize"
+msgstr "Наладзіць"
+
+#: src/data/ui/customize.ui:15
+msgid "Accent Color for Icons"
+msgstr "Акцэнтны колер для значкоў"
+
+#: src/data/ui/customize.ui:16
+msgid "Use accent color for all symbolic icons"
+msgstr "Выкарыстоўвайце акцэнтны колер для ўсіх сімвалічных значкоў"
+
+#: src/data/ui/customize.ui:28
+msgid "Invert Calendar Column Items"
+msgstr "Інвертаваць элементы слупка календара"
+
+#: src/data/ui/customize.ui:29
+msgid "Invert the positions of the calendar column items in clock menu"
+msgstr "Інвертуйце пазіцыі элементаў слупка календара ў меню гадзінніка"
+
+#: src/data/ui/customize.ui:41
+msgid "Overview Spacing Size"
+msgstr "Агляд Памер інтэрвалу"
+
+#: src/data/ui/customize.ui:42
+msgid "The spacing size for controls manager in overview"
+msgstr "Памер інтэрвалу для дыспетчара элементаў кіравання ў аглядзе"
+
+#: src/data/ui/customize.ui:49
+msgid "Workspace Background Corner Size"
+msgstr "Памер фону працоўнай прасторы"
+
+#: src/data/ui/customize.ui:50
+msgid "Workspace background corner size in overview"
+msgstr "Агляд памеру кута фону працоўнай прасторы"
+
+#: src/data/ui/customize.ui:57
+msgid "Panel Size"
+msgstr "Памер панэлі"
+
+#: src/data/ui/customize.ui:64
+msgid "Panel Icon Size"
+msgstr "Памер значка панэлі"
+
+#: src/data/ui/customize.ui:71
+msgid "Panel Button Padding Size"
+msgstr "Памер абіўкі кнопак на панэлі"
+
+#: src/data/ui/customize.ui:78
+msgid "Panel Indicator Padding Size"
+msgstr "Памер індыкатара панэлі"
+
+#: src/data/ui/customize.ui:85
+msgid "Panel Position"
+msgstr "Палажэнне панэлі"
+
+#: src/data/ui/customize.ui:92
+msgid "Clock Menu Position"
+msgstr "Палажэнне меню гадзінніка"
+
+#: src/data/ui/customize.ui:99
+msgid "Clock Menu Position Offset"
+msgstr "Зрушэнне становішча меню гадзін"
+
+#: src/data/ui/customize.ui:106
+msgid "Workspace Switcher Size"
+msgstr "Памер пераключальніка працоўнай вобласці"
+
+#: src/data/ui/customize.ui:113
+msgid "Animation"
+msgstr "Анімацыя"
+
+#: src/data/ui/customize.ui:120
+msgid "Dash Icon Size"
+msgstr "памер значка працяжніка"
+
+#: src/data/ui/customize.ui:127
+msgid "Notification Banner Position"
+msgstr "Палажэнне апавяшчальнага банера"
+
+#: src/data/ui/customize.ui:128
+msgid "Notification popup position when notifications show up on the screen"
+msgstr ""
+"Усплывальнае становішча апавяшчэнняў пры з'яўленні апавяшчэнняў на экране"
+
+#: src/data/ui/customize.ui:135
+msgid "OSD Position"
+msgstr "Становішча экраннага меню"
+
+#: src/data/ui/customize.ui:136
+msgid "OSD position when on screen display shows up on the screen"
+msgstr "Становішча экраннага меню, калі на экране адлюстроўваецца на экране"
+
+#: src/data/ui/customize.ui:143
+msgid "Alt Tab Window Preview Size"
+msgstr "Alt-Tab Памер папярэдняга прагляду акна"
+
+#: src/data/ui/customize.ui:150
+msgid "Alt Tab Window Preview Icon Size"
+msgstr "Alt-tab Памер значка папярэдняга прагляду акна"
+
+#: src/data/ui/customize.ui:157
+msgid "Alt Tab Icon Size"
+msgstr "Памер значка Alt-Tab"
+
+#: src/data/ui/customize.ui:164
+msgid "Looking Glass Width"
+msgstr "Шырыня люстэрка"
+
+#: src/data/ui/customize.ui:171
+msgid "Looking Glass Height"
+msgstr "Вышыня люстэрка"
+
+#: src/data/ui/customize.ui:178
+msgid "Maximum Displayed Search Results"
+msgstr "Максімальная колькасць паказаных вынікаў пошуку"
+
+#: src/data/ui/customize.ui:179
+msgid "The maximum displayed search result items showing up in the search page"
+msgstr ""
+"Максімальная колькасць элементаў вынікаў пошуку, якія адлюстроўваюцца на "
+"старонцы пошуку"
+
+#: src/data/ui/customize.ui:191 src/data/ui/customize.ui:707
+#: src/data/ui/customize.ui:757 src/data/ui/customize.ui:782
+#: src/data/ui/customize.ui:797 src/data/ui/customize.ui:808
+#: src/data/ui/customize.ui:819 src/data/ui/customize.ui:830
+#: src/data/ui/customize.ui:845 src/data/ui/customize.ui:860
+#: src/data/ui/profile.ui:43
+msgid "Default"
+msgstr "Па змаўчанні"
+
+#: src/data/ui/customize.ui:347 src/data/ui/customize.ui:415
+#: src/data/ui/customize.ui:485 src/data/ui/customize.ui:551
+#: src/data/ui/customize.ui:618
+msgid "By Shell Theme"
+msgstr "Тэма Shell"
+
+#: src/data/ui/customize.ui:685
+msgid "Top"
+msgstr "Зверху"
+
+#: src/data/ui/customize.ui:686
+msgid "Bottom"
+msgstr "Знізу"
+
+#: src/data/ui/customize.ui:692 src/data/ui/customize.ui:790
+msgid "Center"
+msgstr "Цэнтр"
+
+#: src/data/ui/customize.ui:693
+msgid "Right"
+msgstr "Правільна"
+
+#: src/data/ui/customize.ui:694
+msgid "Left"
+msgstr "Злева"
+
+#: src/data/ui/customize.ui:743
+msgid "No Animation"
+msgstr "Няма анімацыі"
+
+#: src/data/ui/customize.ui:744
+msgid "Default Speed"
+msgstr "Хуткасць па змаўчанні"
+
+#: src/data/ui/customize.ui:745
+msgid "Almost None"
+msgstr "Амаль няма"
+
+#: src/data/ui/customize.ui:746
+msgid "Fastest"
+msgstr "Самы хуткі"
+
+#: src/data/ui/customize.ui:747
+msgid "Faster"
+msgstr "Хутчэй"
+
+#: src/data/ui/customize.ui:748
+msgid "Fast"
+msgstr "Хутка"
+
+#: src/data/ui/customize.ui:749
+msgid "Slow"
+msgstr "Павольна"
+
+#: src/data/ui/customize.ui:750
+msgid "Slower"
+msgstr "Павольней"
+
+#: src/data/ui/customize.ui:751
+msgid "Slowest"
+msgstr "Самае павольнае"
+
+#: src/data/ui/customize.ui:771 src/data/ui/customize.ui:783
+msgid "Top Start"
+msgstr "З пачатку"
+
+#: src/data/ui/customize.ui:772 src/data/ui/customize.ui:784
+msgid "Top Center"
+msgstr "Верхні цэнтр"
+
+#: src/data/ui/customize.ui:773 src/data/ui/customize.ui:785
+msgid "Top End"
+msgstr "Верхні канец"
+
+#: src/data/ui/customize.ui:774 src/data/ui/customize.ui:786
+msgid "Bottom Start"
+msgstr "Ніжні пачатак"
+
+#: src/data/ui/customize.ui:775 src/data/ui/customize.ui:787
+msgid "Bottom Center"
+msgstr "Ніжні цэнтр"
+
+#: src/data/ui/customize.ui:776 src/data/ui/customize.ui:788
+msgid "Bottom End"
+msgstr "Ніжняя частка"
+
+#: src/data/ui/customize.ui:789
+msgid "Center Start"
+msgstr "Цэнтральны старт"
+
+#: src/data/ui/customize.ui:791
+msgid "Center End"
+msgstr "Цэнтральны канец"
+
+#: src/data/ui/profile.ui:6 src/data/ui/profile.ui:11
+msgid "Profile"
+msgstr "Профіль"
+
+#: src/data/ui/profile.ui:18
+msgid ""
+"You can choose between pre-defined profiles or you can simply use your own "
+"customized settings"
+msgstr ""
+"Вы можаце выбіраць паміж прадвызначанымі профілямі або проста выкарыстоўваць "
+"свае ўласныя налады"
+
+#: src/data/ui/profile.ui:53
+msgid "Custom"
+msgstr "Карыстальніцкія"
+
+#: src/data/ui/profile.ui:63
+msgid "Minimal"
+msgstr "Мінімальны"
+
+#: src/data/ui/profile.ui:73
+msgid "Super Minimal"
+msgstr "Супер мінімальны"
+
+#: src/data/ui/profile.ui:90
+msgid "Override"
+msgstr "Перавызначыць"
+
+#: src/data/ui/profile.ui:94
+msgid "Shell Theme"
+msgstr "Тэма Shell"
+
+#: src/data/ui/profile.ui:95
+msgid "Overrides the shell theme partially to create a minimal desktop"
+msgstr ""
+"Перакрывае тэму абалонкі часткова, каб стварыць мінімальны працоўны стол"
+
+#: src/data/ui/profile.ui:110
+msgid "Support"
+msgstr "Падтрымка"
+
+#: src/data/ui/profile.ui:135
+msgid "Support Via Crypto"
+msgstr "Падтрымка праз Crypto"
+
+#: src/data/ui/profile.ui:136
+msgid "Preferred Method"
+msgstr "Пераважны метад"
+
+#: src/data/ui/profile.ui:167
+msgid "Copy"
+msgstr ""
+
+#: src/data/ui/profile.ui:184
+msgid "Support via Buy Me a Coffee"
+msgstr "Падтрымка праз Buy Me a Coffee"
+
+#: src/data/ui/profile.ui:202
+#, fuzzy
+msgid "Support Notification"
+msgstr "Падтрымка праз Patreon"
+
+#: src/data/ui/profile.ui:203
+msgid "Manage when the support notification shows up"
+msgstr ""
+
+#: src/data/ui/profile.ui:213
+msgid "Links"
+msgstr "Спасылкі"
+
+#: src/data/ui/profile.ui:217
+msgid "Bug Report"
+msgstr "Справаздача пра памылкі"
+
+#: src/data/ui/profile.ui:229
+msgid "YouTube Channel"
+msgstr "Канал YouTube"
+
+#: src/data/ui/profile.ui:266
+msgid "Never"
+msgstr ""
+
+#: src/data/ui/profile.ui:267
+msgid "On New Releases"
+msgstr ""
+
+#: src/data/ui/profile.ui:268
+msgid "Monthly"
+msgstr ""
+
+#: src/data/ui/profile.ui:273
+msgid "Address copied to the clipboard"
+msgstr ""

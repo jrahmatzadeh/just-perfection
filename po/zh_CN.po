@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-15 23:47-0800\n"
+"POT-Creation-Date: 2025-01-29 14:44-0800\n"
 "PO-Revision-Date: 2021-04-15 06:33+0800\n"
 "Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
 "Language-Team: Chinese - China <i18n-zh@googlegroups.com>\n"
@@ -17,6 +17,264 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Gtranslator 3.38.0\n"
 "Plural-Forms: nplurals=1; plural=0\n"
+
+#: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
+msgid "Visibility"
+msgstr "显示"
+
+#: src/data/ui/visibility.ui:15
+msgid "Panel"
+msgstr "面板"
+
+#: src/data/ui/visibility.ui:27
+msgid "Panel in Overview"
+msgstr "概览中的面板"
+
+#: src/data/ui/visibility.ui:40
+msgid "Activities Button"
+msgstr "活动按钮"
+
+#: src/data/ui/visibility.ui:41
+msgid "Button in panel to toggle overview visibility"
+msgstr "面板中的按钮可切换概览可见性"
+
+#: src/data/ui/visibility.ui:53
+msgid "Clock Menu"
+msgstr "时钟菜单"
+
+#: src/data/ui/visibility.ui:54
+msgid "Also known as date menu shows date and time in panel"
+msgstr "在面板中显示日期和时间的日期菜单"
+
+#: src/data/ui/visibility.ui:66
+msgid "Keyboard Layout"
+msgstr "键盘布局（输入法）"
+
+#: src/data/ui/visibility.ui:67
+msgid "Keyboard Layout indicator button in panel"
+msgstr "面板中的键盘布局指示器按钮"
+
+#: src/data/ui/visibility.ui:79
+msgid "Accessibility Menu"
+msgstr "辅助功能菜单"
+
+#: src/data/ui/visibility.ui:80
+msgid "Accessibility Menu indicator button in panel"
+msgstr "面板中的辅助功能菜单指示器按钮"
+
+#: src/data/ui/visibility.ui:92
+msgid "Quick Settings"
+msgstr "快速设置"
+
+#: src/data/ui/visibility.ui:93
+msgid "Quick settings menu in panel"
+msgstr "面板中的快速设置菜单"
+
+#: src/data/ui/visibility.ui:105
+msgid "Dark Mode Toggle Button"
+msgstr "暗模式切换按钮"
+
+#: src/data/ui/visibility.ui:106
+msgid "Dark Mode Toggle Button in Quick settings menu"
+msgstr "快速设置菜单中的暗模式切换按钮"
+
+#: src/data/ui/visibility.ui:118
+msgid "Night Light Toggle Button"
+msgstr "夜灯切换按钮"
+
+#: src/data/ui/visibility.ui:119
+msgid "Night Light Toggle Button in Quick settings menu"
+msgstr "快速设置菜单中的夜灯切换按钮"
+
+#: src/data/ui/visibility.ui:131
+msgid "Airplane Mode Toggle Button"
+msgstr "飞行模式切换按钮"
+
+#: src/data/ui/visibility.ui:132
+msgid "Airplane Mode Toggle Button in Quick settings menu"
+msgstr "快速设置菜单中的飞行模式切换按钮"
+
+#: src/data/ui/visibility.ui:144
+msgid "Screen Sharing Indicator"
+msgstr "屏幕共享指示器"
+
+#: src/data/ui/visibility.ui:145
+msgid "Screen sharing indicator in panel"
+msgstr "面板中的屏幕共享指示器"
+
+#: src/data/ui/visibility.ui:157
+msgid "Screen Recording Indicator"
+msgstr "录屏指示灯"
+
+#: src/data/ui/visibility.ui:158
+msgid "Screen recording indicator in panel"
+msgstr "面板中的屏幕录制指示器"
+
+#: src/data/ui/visibility.ui:170
+msgid "World Clock"
+msgstr "世界时钟"
+
+#: src/data/ui/visibility.ui:171
+msgid "World clock in clock menu"
+msgstr "时钟菜单中的世界时钟"
+
+#: src/data/ui/visibility.ui:183
+msgid "Weather"
+msgstr "天气"
+
+#: src/data/ui/visibility.ui:184
+msgid "Weather in clock menu"
+msgstr "时钟菜单中的天气"
+
+#: src/data/ui/visibility.ui:196
+msgid "Calendar"
+msgstr "日历"
+
+#: src/data/ui/visibility.ui:197
+msgid "Calendar in clock menu"
+msgstr "时钟菜单中的日历"
+
+#: src/data/ui/visibility.ui:209
+msgid "Events"
+msgstr "活动"
+
+#: src/data/ui/visibility.ui:210
+msgid "Events button in clock menu"
+msgstr "时钟菜单中的事件按钮"
+
+#: src/data/ui/visibility.ui:222
+msgid "Search"
+msgstr "搜索"
+
+#: src/data/ui/visibility.ui:223
+msgid "Search entry in overview"
+msgstr "概览中的搜索条目"
+
+#: src/data/ui/visibility.ui:235
+msgid "Dash"
+msgstr "Dash"
+
+#: src/data/ui/visibility.ui:236
+msgid "Dash holds favorite and opened applications icons"
+msgstr "Dash 包含最喜欢和打开的应用程序图标"
+
+#: src/data/ui/visibility.ui:248
+msgid "Dash Separator"
+msgstr "Dash 分隔符"
+
+#: src/data/ui/visibility.ui:249
+msgid "Dash separator line that separates pin apps from unpin apps"
+msgstr "将固定应用程序与未固定应用程序分开的 Dash 分隔线"
+
+#: src/data/ui/visibility.ui:261
+msgid "Dash App Running Indicator"
+msgstr "Dash 应用程序运行指示器"
+
+#: src/data/ui/visibility.ui:262
+msgid "The dot indicator in dash that shows the app is running"
+msgstr "破折号中的点指示器显示应用程序正在运行"
+
+#: src/data/ui/visibility.ui:274
+msgid "Show Applications Button"
+msgstr "显示应用程序按钮"
+
+#: src/data/ui/visibility.ui:275
+msgid "Button in dash that toggles applications list visibility"
+msgstr "Dash 中用于切换应用程序列表可见性的按钮"
+
+#: src/data/ui/visibility.ui:287
+msgid "On Screen Display (OSD)"
+msgstr "屏幕显示（OSD）"
+
+#: src/data/ui/visibility.ui:288
+msgid "Volume and brightness on screen display when the change happens"
+msgstr "发生变化时屏幕显示的音量和亮度"
+
+#: src/data/ui/visibility.ui:300
+msgid "Workspace Popup"
+msgstr "工作区弹窗"
+
+#: src/data/ui/visibility.ui:301
+msgid "Popup that appears on the screen when you change the workspace"
+msgstr "更改工作区时出现在屏幕上的弹出窗口"
+
+#: src/data/ui/visibility.ui:313
+msgid "Workspace Switcher"
+msgstr "工作区切换器"
+
+#: src/data/ui/visibility.ui:314
+msgid ""
+"Also refers to workspace thumbnails that you see in overview for selecting a "
+"workspace"
+msgstr "也指您在概览中看到的用于选择工作区的工作区缩略图"
+
+#: src/data/ui/visibility.ui:326
+msgid "Workspaces App Grid"
+msgstr "工作区应用程序网格"
+
+#: src/data/ui/visibility.ui:327
+msgid "Workspace boxes in app grid"
+msgstr "应用程序网格中的工作区缩略图"
+
+#: src/data/ui/visibility.ui:339
+msgid "Window Picker Close Button"
+msgstr "窗口选择器关闭按钮"
+
+#: src/data/ui/visibility.ui:340
+msgid "The close button on window preview in overview"
+msgstr "概览中窗口预览的关闭按钮"
+
+#: src/data/ui/visibility.ui:352
+msgid "Window Picker Caption"
+msgstr "窗口选择器标题"
+
+#: src/data/ui/visibility.ui:353
+msgid "The text under window preview in overview"
+msgstr "概览中窗口预览下的文本"
+
+#: src/data/ui/visibility.ui:365
+msgid "Background Menu"
+msgstr "后台菜单"
+
+#: src/data/ui/visibility.ui:366
+msgid "When you right click on desktop background"
+msgstr "当您右键单击桌面背景时"
+
+#: src/data/ui/visibility.ui:378
+msgid "Ripple Box"
+msgstr "波纹盒"
+
+#: src/data/ui/visibility.ui:379
+msgid "Hot corner animation effects"
+msgstr "热角动画效果"
+
+#: src/data/ui/visibility.ui:391
+msgid "Take Screenshot button in Window Menu"
+msgstr "窗口菜单中的“截屏”按钮"
+
+#: src/data/ui/visibility.ui:392
+msgid "Take screenshot button in title bar right click menu"
+msgstr "标题栏右键菜单中的截图按钮"
+
+#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
+msgid "Icons"
+msgstr "图标"
+
+#: src/data/ui/icons.ui:15
+msgid "Panel Notification Icon"
+msgstr "面板通知图标"
+
+#: src/data/ui/icons.ui:27
+msgid "Power Icon"
+msgstr "电源图标"
+
+#: src/data/ui/icons.ui:39
+msgid "Window Picker Icon"
+msgstr "窗口选择器图标"
+
+#: src/data/ui/icons.ui:40
+msgid "The icon under window preview in overview"
+msgstr "概览中窗口预览下的图标"
 
 #: src/data/ui/behavior.ui:6 src/data/ui/behavior.ui:11
 msgid "Behavior"
@@ -351,26 +609,6 @@ msgstr "中心开始"
 msgid "Center End"
 msgstr "中心端"
 
-#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
-msgid "Icons"
-msgstr "图标"
-
-#: src/data/ui/icons.ui:15
-msgid "Panel Notification Icon"
-msgstr "面板通知图标"
-
-#: src/data/ui/icons.ui:27
-msgid "Power Icon"
-msgstr "电源图标"
-
-#: src/data/ui/icons.ui:39
-msgid "Window Picker Icon"
-msgstr "窗口选择器图标"
-
-#: src/data/ui/icons.ui:40
-msgid "The icon under window preview in overview"
-msgstr "概览中窗口预览下的图标"
-
 #: src/data/ui/profile.ui:6 src/data/ui/profile.ui:11
 msgid "Profile"
 msgstr "轮廓"
@@ -409,268 +647,55 @@ msgstr "覆盖掉部分的 Shell 主题以创建最小桌面"
 msgid "Support"
 msgstr "支持"
 
-#: src/data/ui/profile.ui:137
+#: src/data/ui/profile.ui:135
 msgid "Support Via Crypto"
 msgstr "通过加密支持"
 
-#: src/data/ui/profile.ui:138
+#: src/data/ui/profile.ui:136
 msgid "Preferred Method"
 msgstr "首选方法"
 
-#: src/data/ui/profile.ui:329
+#: src/data/ui/profile.ui:167
+msgid "Copy"
+msgstr ""
+
+#: src/data/ui/profile.ui:184
 msgid "Support via Buy Me a Coffee"
 msgstr "通过 Buy Me a Coffee 提供支持"
 
-#: src/data/ui/profile.ui:341
-msgid "Support via Patreon"
+#: src/data/ui/profile.ui:202
+#, fuzzy
+msgid "Support Notification"
 msgstr "通过 Patreon 提供支持"
 
-#: src/data/ui/profile.ui:356
+#: src/data/ui/profile.ui:203
+msgid "Manage when the support notification shows up"
+msgstr ""
+
+#: src/data/ui/profile.ui:213
 msgid "Links"
 msgstr "链接"
 
-#: src/data/ui/profile.ui:360
+#: src/data/ui/profile.ui:217
 msgid "Bug Report"
 msgstr "错误报告"
 
-#: src/data/ui/profile.ui:372
+#: src/data/ui/profile.ui:229
 msgid "YouTube Channel"
 msgstr "YouTube 频道"
 
-#: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
-msgid "Visibility"
-msgstr "显示"
+#: src/data/ui/profile.ui:266
+msgid "Never"
+msgstr ""
 
-#: src/data/ui/visibility.ui:15
-msgid "Panel"
-msgstr "面板"
+#: src/data/ui/profile.ui:267
+msgid "On New Releases"
+msgstr ""
 
-#: src/data/ui/visibility.ui:27
-msgid "Panel in Overview"
-msgstr "概览中的面板"
+#: src/data/ui/profile.ui:268
+msgid "Monthly"
+msgstr ""
 
-#: src/data/ui/visibility.ui:40
-msgid "Activities Button"
-msgstr "活动按钮"
-
-#: src/data/ui/visibility.ui:41
-msgid "Button in panel to toggle overview visibility"
-msgstr "面板中的按钮可切换概览可见性"
-
-#: src/data/ui/visibility.ui:53
-msgid "Clock Menu"
-msgstr "时钟菜单"
-
-#: src/data/ui/visibility.ui:54
-msgid "Also known as date menu shows date and time in panel"
-msgstr "在面板中显示日期和时间的日期菜单"
-
-#: src/data/ui/visibility.ui:66
-msgid "Keyboard Layout"
-msgstr "键盘布局（输入法）"
-
-#: src/data/ui/visibility.ui:67
-msgid "Keyboard Layout indicator button in panel"
-msgstr "面板中的键盘布局指示器按钮"
-
-#: src/data/ui/visibility.ui:79
-msgid "Accessibility Menu"
-msgstr "辅助功能菜单"
-
-#: src/data/ui/visibility.ui:80
-msgid "Accessibility Menu indicator button in panel"
-msgstr "面板中的辅助功能菜单指示器按钮"
-
-#: src/data/ui/visibility.ui:92
-msgid "Quick Settings"
-msgstr "快速设置"
-
-#: src/data/ui/visibility.ui:93
-msgid "Quick settings menu in panel"
-msgstr "面板中的快速设置菜单"
-
-#: src/data/ui/visibility.ui:105
-msgid "Dark Mode Toggle Button"
-msgstr "暗模式切换按钮"
-
-#: src/data/ui/visibility.ui:106
-msgid "Dark Mode Toggle Button in Quick settings menu"
-msgstr "快速设置菜单中的暗模式切换按钮"
-
-#: src/data/ui/visibility.ui:118
-msgid "Night Light Toggle Button"
-msgstr "夜灯切换按钮"
-
-#: src/data/ui/visibility.ui:119
-msgid "Night Light Toggle Button in Quick settings menu"
-msgstr "快速设置菜单中的夜灯切换按钮"
-
-#: src/data/ui/visibility.ui:131
-msgid "Airplane Mode Toggle Button"
-msgstr "飞行模式切换按钮"
-
-#: src/data/ui/visibility.ui:132
-msgid "Airplane Mode Toggle Button in Quick settings menu"
-msgstr "快速设置菜单中的飞行模式切换按钮"
-
-#: src/data/ui/visibility.ui:144
-msgid "Screen Sharing Indicator"
-msgstr "屏幕共享指示器"
-
-#: src/data/ui/visibility.ui:145
-msgid "Screen sharing indicator in panel"
-msgstr "面板中的屏幕共享指示器"
-
-#: src/data/ui/visibility.ui:157
-msgid "Screen Recording Indicator"
-msgstr "录屏指示灯"
-
-#: src/data/ui/visibility.ui:158
-msgid "Screen recording indicator in panel"
-msgstr "面板中的屏幕录制指示器"
-
-#: src/data/ui/visibility.ui:170
-msgid "World Clock"
-msgstr "世界时钟"
-
-#: src/data/ui/visibility.ui:171
-msgid "World clock in clock menu"
-msgstr "时钟菜单中的世界时钟"
-
-#: src/data/ui/visibility.ui:183
-msgid "Weather"
-msgstr "天气"
-
-#: src/data/ui/visibility.ui:184
-msgid "Weather in clock menu"
-msgstr "时钟菜单中的天气"
-
-#: src/data/ui/visibility.ui:196
-msgid "Calendar"
-msgstr "日历"
-
-#: src/data/ui/visibility.ui:197
-msgid "Calendar in clock menu"
-msgstr "时钟菜单中的日历"
-
-#: src/data/ui/visibility.ui:209
-msgid "Events"
-msgstr "活动"
-
-#: src/data/ui/visibility.ui:210
-msgid "Events button in clock menu"
-msgstr "时钟菜单中的事件按钮"
-
-#: src/data/ui/visibility.ui:222
-msgid "Search"
-msgstr "搜索"
-
-#: src/data/ui/visibility.ui:223
-msgid "Search entry in overview"
-msgstr "概览中的搜索条目"
-
-#: src/data/ui/visibility.ui:235
-msgid "Dash"
-msgstr "Dash"
-
-#: src/data/ui/visibility.ui:236
-msgid "Dash holds favorite and opened applications icons"
-msgstr "Dash 包含最喜欢和打开的应用程序图标"
-
-#: src/data/ui/visibility.ui:248
-msgid "Dash Separator"
-msgstr "Dash 分隔符"
-
-#: src/data/ui/visibility.ui:249
-msgid "Dash separator line that separates pin apps from unpin apps"
-msgstr "将固定应用程序与未固定应用程序分开的 Dash 分隔线"
-
-#: src/data/ui/visibility.ui:261
-msgid "Dash App Running Indicator"
-msgstr "Dash 应用程序运行指示器"
-
-#: src/data/ui/visibility.ui:262
-msgid "The dot indicator in dash that shows the app is running"
-msgstr "破折号中的点指示器显示应用程序正在运行"
-
-#: src/data/ui/visibility.ui:274
-msgid "Show Applications Button"
-msgstr "显示应用程序按钮"
-
-#: src/data/ui/visibility.ui:275
-msgid "Button in dash that toggles applications list visibility"
-msgstr "Dash 中用于切换应用程序列表可见性的按钮"
-
-#: src/data/ui/visibility.ui:287
-msgid "On Screen Display (OSD)"
-msgstr "屏幕显示（OSD）"
-
-#: src/data/ui/visibility.ui:288
-msgid "Volume and brightness on screen display when the change happens"
-msgstr "发生变化时屏幕显示的音量和亮度"
-
-#: src/data/ui/visibility.ui:300
-msgid "Workspace Popup"
-msgstr "工作区弹窗"
-
-#: src/data/ui/visibility.ui:301
-msgid "Popup that appears on the screen when you change the workspace"
-msgstr "更改工作区时出现在屏幕上的弹出窗口"
-
-#: src/data/ui/visibility.ui:313
-msgid "Workspace Switcher"
-msgstr "工作区切换器"
-
-#: src/data/ui/visibility.ui:314
-msgid ""
-"Also refers to workspace thumbnails that you see in overview for selecting a "
-"workspace"
-msgstr "也指您在概览中看到的用于选择工作区的工作区缩略图"
-
-#: src/data/ui/visibility.ui:326
-msgid "Workspaces App Grid"
-msgstr "工作区应用程序网格"
-
-#: src/data/ui/visibility.ui:327
-msgid "Workspace boxes in app grid"
-msgstr "应用程序网格中的工作区缩略图"
-
-#: src/data/ui/visibility.ui:339
-msgid "Window Picker Close Button"
-msgstr "窗口选择器关闭按钮"
-
-#: src/data/ui/visibility.ui:340
-msgid "The close button on window preview in overview"
-msgstr "概览中窗口预览的关闭按钮"
-
-#: src/data/ui/visibility.ui:352
-msgid "Window Picker Caption"
-msgstr "窗口选择器标题"
-
-#: src/data/ui/visibility.ui:353
-msgid "The text under window preview in overview"
-msgstr "概览中窗口预览下的文本"
-
-#: src/data/ui/visibility.ui:365
-msgid "Background Menu"
-msgstr "后台菜单"
-
-#: src/data/ui/visibility.ui:366
-msgid "When you right click on desktop background"
-msgstr "当您右键单击桌面背景时"
-
-#: src/data/ui/visibility.ui:378
-msgid "Ripple Box"
-msgstr "波纹盒"
-
-#: src/data/ui/visibility.ui:379
-msgid "Hot corner animation effects"
-msgstr "热角动画效果"
-
-#: src/data/ui/visibility.ui:391
-msgid "Take Screenshot button in Window Menu"
-msgstr "窗口菜单中的“截屏”按钮"
-
-#: src/data/ui/visibility.ui:392
-msgid "Take screenshot button in title bar right click menu"
-msgstr "标题栏右键菜单中的截图按钮"
+#: src/data/ui/profile.ui:273
+msgid "Address copied to the clipboard"
+msgstr ""

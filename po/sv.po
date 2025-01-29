@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-15 23:47-0800\n"
+"POT-Creation-Date: 2025-01-29 14:44-0800\n"
 "PO-Revision-Date: 2021-04-13 22:01+0200\n"
 "Last-Translator: Morgan Antonsson <morgan.antonsson@gmail.com>\n"
 "Language-Team: Swedish\n"
@@ -16,6 +16,266 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.4.1\n"
+
+#: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
+msgid "Visibility"
+msgstr "Synlighet"
+
+#: src/data/ui/visibility.ui:15
+msgid "Panel"
+msgstr "Systemrad"
+
+#: src/data/ui/visibility.ui:27
+msgid "Panel in Overview"
+msgstr "Panel i översikt"
+
+#: src/data/ui/visibility.ui:40
+msgid "Activities Button"
+msgstr "Knappen Aktiviteter"
+
+#: src/data/ui/visibility.ui:41
+msgid "Button in panel to toggle overview visibility"
+msgstr "Knapp i panelen för att växla synlighet"
+
+#: src/data/ui/visibility.ui:53
+msgid "Clock Menu"
+msgstr "Klockmeny"
+
+#: src/data/ui/visibility.ui:54
+msgid "Also known as date menu shows date and time in panel"
+msgstr "Även känd som datummeny visar datum och tid i panelen"
+
+#: src/data/ui/visibility.ui:66
+msgid "Keyboard Layout"
+msgstr "Tangentbordslayout"
+
+#: src/data/ui/visibility.ui:67
+msgid "Keyboard Layout indicator button in panel"
+msgstr "Knapp för tangentbordslayout i panelen"
+
+#: src/data/ui/visibility.ui:79
+msgid "Accessibility Menu"
+msgstr "Tillgänglighetsmeny"
+
+#: src/data/ui/visibility.ui:80
+msgid "Accessibility Menu indicator button in panel"
+msgstr "Knapp för tillgänglighetsmeny i panelen"
+
+#: src/data/ui/visibility.ui:92
+msgid "Quick Settings"
+msgstr "Snabbinställningar"
+
+#: src/data/ui/visibility.ui:93
+msgid "Quick settings menu in panel"
+msgstr "Snabbinställningsmeny i panelen"
+
+#: src/data/ui/visibility.ui:105
+msgid "Dark Mode Toggle Button"
+msgstr "Växlingsknapp för mörkt läge"
+
+#: src/data/ui/visibility.ui:106
+msgid "Dark Mode Toggle Button in Quick settings menu"
+msgstr "Växlingsknapp för mörkt läge i snabbinställningsmenyn"
+
+#: src/data/ui/visibility.ui:118
+msgid "Night Light Toggle Button"
+msgstr "Växlingsknapp för nattljus"
+
+#: src/data/ui/visibility.ui:119
+msgid "Night Light Toggle Button in Quick settings menu"
+msgstr "Växlingsknapp för nattljus i snabbinställningsmenyn"
+
+#: src/data/ui/visibility.ui:131
+msgid "Airplane Mode Toggle Button"
+msgstr "Växlingsknapp för flygplansläge"
+
+#: src/data/ui/visibility.ui:132
+msgid "Airplane Mode Toggle Button in Quick settings menu"
+msgstr "Växlingsknapp för flygplansläge i snabbinställningsmenyn"
+
+#: src/data/ui/visibility.ui:144
+msgid "Screen Sharing Indicator"
+msgstr "Skärmdelningsindikator"
+
+#: src/data/ui/visibility.ui:145
+msgid "Screen sharing indicator in panel"
+msgstr "Skärmdelningsindikator i panelen"
+
+#: src/data/ui/visibility.ui:157
+msgid "Screen Recording Indicator"
+msgstr "Skärminspelningsindikator"
+
+#: src/data/ui/visibility.ui:158
+msgid "Screen recording indicator in panel"
+msgstr "Skärminspelningsindikator i panelen"
+
+#: src/data/ui/visibility.ui:170
+msgid "World Clock"
+msgstr "Världsklocka"
+
+#: src/data/ui/visibility.ui:171
+msgid "World clock in clock menu"
+msgstr "Världsklocka i klockmenyn"
+
+#: src/data/ui/visibility.ui:183
+msgid "Weather"
+msgstr "Väder"
+
+#: src/data/ui/visibility.ui:184
+msgid "Weather in clock menu"
+msgstr "Väder i klockmeny"
+
+#: src/data/ui/visibility.ui:196
+msgid "Calendar"
+msgstr "Kalender"
+
+#: src/data/ui/visibility.ui:197
+msgid "Calendar in clock menu"
+msgstr "Kalender i klockmenyn"
+
+#: src/data/ui/visibility.ui:209
+msgid "Events"
+msgstr "evenemang"
+
+#: src/data/ui/visibility.ui:210
+msgid "Events button in clock menu"
+msgstr "Händelseknapp i klockmenyn"
+
+#: src/data/ui/visibility.ui:222
+msgid "Search"
+msgstr "Sökruta"
+
+#: src/data/ui/visibility.ui:223
+msgid "Search entry in overview"
+msgstr "Sökpost i översikt"
+
+#: src/data/ui/visibility.ui:235
+msgid "Dash"
+msgstr "Snabbstartspanel"
+
+#: src/data/ui/visibility.ui:236
+msgid "Dash holds favorite and opened applications icons"
+msgstr "Dash har favorit- och öppnade applikationsikoner"
+
+#: src/data/ui/visibility.ui:248
+msgid "Dash Separator"
+msgstr "Dash Separator"
+
+#: src/data/ui/visibility.ui:249
+msgid "Dash separator line that separates pin apps from unpin apps"
+msgstr "Streckavgränsningslinje som skiljer pin-appar från unpin-appar"
+
+#: src/data/ui/visibility.ui:261
+msgid "Dash App Running Indicator"
+msgstr "Dash App Running Indicator"
+
+#: src/data/ui/visibility.ui:262
+msgid "The dot indicator in dash that shows the app is running"
+msgstr "Punktindikatorn i streck som visar att appen körs"
+
+#: src/data/ui/visibility.ui:274
+msgid "Show Applications Button"
+msgstr "Knapp för att visa programöversiktsvyn"
+
+#: src/data/ui/visibility.ui:275
+msgid "Button in dash that toggles applications list visibility"
+msgstr "Knapp i streck som växlar mellan applikationslistans synlighet"
+
+#: src/data/ui/visibility.ui:287
+msgid "On Screen Display (OSD)"
+msgstr "Skärmöverlagring (OSD)"
+
+#: src/data/ui/visibility.ui:288
+msgid "Volume and brightness on screen display when the change happens"
+msgstr "Volym och ljusstyrka på skärmen när ändringen sker"
+
+#: src/data/ui/visibility.ui:300
+msgid "Workspace Popup"
+msgstr "Arbetsyteväxlar-popup"
+
+#: src/data/ui/visibility.ui:301
+msgid "Popup that appears on the screen when you change the workspace"
+msgstr "Pop-up som visas på skärmen när du ändrar arbetsytan"
+
+#: src/data/ui/visibility.ui:313
+msgid "Workspace Switcher"
+msgstr "Arbetsyteväxlare"
+
+#: src/data/ui/visibility.ui:314
+msgid ""
+"Also refers to workspace thumbnails that you see in overview for selecting a "
+"workspace"
+msgstr ""
+"Hänvisar också till arbetsytans miniatyrer som du ser i översikten för att "
+"välja en arbetsyta"
+
+#: src/data/ui/visibility.ui:326
+msgid "Workspaces App Grid"
+msgstr "Arbetsytor App Grid"
+
+#: src/data/ui/visibility.ui:327
+msgid "Workspace boxes in app grid"
+msgstr "Arbetsytor i app-rutnät"
+
+#: src/data/ui/visibility.ui:339
+msgid "Window Picker Close Button"
+msgstr "Fönsterväljare Stäng -knapp"
+
+#: src/data/ui/visibility.ui:340
+msgid "The close button on window preview in overview"
+msgstr "Stängknappen på fönsters förhandsvisning i översikt"
+
+#: src/data/ui/visibility.ui:352
+msgid "Window Picker Caption"
+msgstr "Fönsterväljare Bildtext"
+
+#: src/data/ui/visibility.ui:353
+msgid "The text under window preview in overview"
+msgstr "Texten under fönsters förhandsvisning i översikt"
+
+#: src/data/ui/visibility.ui:365
+msgid "Background Menu"
+msgstr "Bakgrundsmeny"
+
+#: src/data/ui/visibility.ui:366
+msgid "When you right click on desktop background"
+msgstr "När du högerklickar på skrivbordsbakgrund"
+
+#: src/data/ui/visibility.ui:378
+msgid "Ripple Box"
+msgstr "Rippelbox"
+
+#: src/data/ui/visibility.ui:379
+msgid "Hot corner animation effects"
+msgstr "Heta hörn animationseffekter"
+
+#: src/data/ui/visibility.ui:391
+msgid "Take Screenshot button in Window Menu"
+msgstr "Ta skärmdump-knappen i fönstermenyn"
+
+#: src/data/ui/visibility.ui:392
+msgid "Take screenshot button in title bar right click menu"
+msgstr "Ta skärmdump-knappen i titelfältets högerklicksmeny"
+
+#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
+msgid "Icons"
+msgstr "Ikoner"
+
+#: src/data/ui/icons.ui:15
+msgid "Panel Notification Icon"
+msgstr "Aviseringsikon"
+
+#: src/data/ui/icons.ui:27
+msgid "Power Icon"
+msgstr "Strömikon"
+
+#: src/data/ui/icons.ui:39
+msgid "Window Picker Icon"
+msgstr "Ikon för fönsterplockare"
+
+#: src/data/ui/icons.ui:40
+msgid "The icon under window preview in overview"
+msgstr "Ikonen under förhandsgranskning av fönster i översikt"
 
 #: src/data/ui/behavior.ui:6 src/data/ui/behavior.ui:11
 msgid "Behavior"
@@ -355,26 +615,6 @@ msgstr "Center Start"
 msgid "Center End"
 msgstr "Center End"
 
-#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
-msgid "Icons"
-msgstr "Ikoner"
-
-#: src/data/ui/icons.ui:15
-msgid "Panel Notification Icon"
-msgstr "Aviseringsikon"
-
-#: src/data/ui/icons.ui:27
-msgid "Power Icon"
-msgstr "Strömikon"
-
-#: src/data/ui/icons.ui:39
-msgid "Window Picker Icon"
-msgstr "Ikon för fönsterplockare"
-
-#: src/data/ui/icons.ui:40
-msgid "The icon under window preview in overview"
-msgstr "Ikonen under förhandsgranskning av fönster i översikt"
-
 #: src/data/ui/profile.ui:6 src/data/ui/profile.ui:11
 msgid "Profile"
 msgstr "Profil"
@@ -415,270 +655,55 @@ msgstr "Åsidosätt skaltemat delvis för att göra skrivbordet kompakt"
 msgid "Support"
 msgstr "Stöd"
 
-#: src/data/ui/profile.ui:137
+#: src/data/ui/profile.ui:135
 msgid "Support Via Crypto"
 msgstr "Support via Crypto"
 
-#: src/data/ui/profile.ui:138
+#: src/data/ui/profile.ui:136
 msgid "Preferred Method"
 msgstr "Föredragen metod"
 
-#: src/data/ui/profile.ui:329
+#: src/data/ui/profile.ui:167
+msgid "Copy"
+msgstr ""
+
+#: src/data/ui/profile.ui:184
 msgid "Support via Buy Me a Coffee"
 msgstr "Support via Buy Me a Coffee"
 
-#: src/data/ui/profile.ui:341
-msgid "Support via Patreon"
+#: src/data/ui/profile.ui:202
+#, fuzzy
+msgid "Support Notification"
 msgstr "Support via Patreon"
 
-#: src/data/ui/profile.ui:356
+#: src/data/ui/profile.ui:203
+msgid "Manage when the support notification shows up"
+msgstr ""
+
+#: src/data/ui/profile.ui:213
 msgid "Links"
 msgstr "Länkar"
 
-#: src/data/ui/profile.ui:360
+#: src/data/ui/profile.ui:217
 msgid "Bug Report"
 msgstr "Buggrapport"
 
-#: src/data/ui/profile.ui:372
+#: src/data/ui/profile.ui:229
 msgid "YouTube Channel"
 msgstr "YouTube-kanal"
 
-#: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
-msgid "Visibility"
-msgstr "Synlighet"
-
-#: src/data/ui/visibility.ui:15
-msgid "Panel"
-msgstr "Systemrad"
-
-#: src/data/ui/visibility.ui:27
-msgid "Panel in Overview"
-msgstr "Panel i översikt"
-
-#: src/data/ui/visibility.ui:40
-msgid "Activities Button"
-msgstr "Knappen Aktiviteter"
-
-#: src/data/ui/visibility.ui:41
-msgid "Button in panel to toggle overview visibility"
-msgstr "Knapp i panelen för att växla synlighet"
-
-#: src/data/ui/visibility.ui:53
-msgid "Clock Menu"
-msgstr "Klockmeny"
-
-#: src/data/ui/visibility.ui:54
-msgid "Also known as date menu shows date and time in panel"
-msgstr "Även känd som datummeny visar datum och tid i panelen"
-
-#: src/data/ui/visibility.ui:66
-msgid "Keyboard Layout"
-msgstr "Tangentbordslayout"
-
-#: src/data/ui/visibility.ui:67
-msgid "Keyboard Layout indicator button in panel"
-msgstr "Knapp för tangentbordslayout i panelen"
-
-#: src/data/ui/visibility.ui:79
-msgid "Accessibility Menu"
-msgstr "Tillgänglighetsmeny"
-
-#: src/data/ui/visibility.ui:80
-msgid "Accessibility Menu indicator button in panel"
-msgstr "Knapp för tillgänglighetsmeny i panelen"
-
-#: src/data/ui/visibility.ui:92
-msgid "Quick Settings"
-msgstr "Snabbinställningar"
-
-#: src/data/ui/visibility.ui:93
-msgid "Quick settings menu in panel"
-msgstr "Snabbinställningsmeny i panelen"
-
-#: src/data/ui/visibility.ui:105
-msgid "Dark Mode Toggle Button"
-msgstr "Växlingsknapp för mörkt läge"
-
-#: src/data/ui/visibility.ui:106
-msgid "Dark Mode Toggle Button in Quick settings menu"
-msgstr "Växlingsknapp för mörkt läge i snabbinställningsmenyn"
-
-#: src/data/ui/visibility.ui:118
-msgid "Night Light Toggle Button"
-msgstr "Växlingsknapp för nattljus"
-
-#: src/data/ui/visibility.ui:119
-msgid "Night Light Toggle Button in Quick settings menu"
-msgstr "Växlingsknapp för nattljus i snabbinställningsmenyn"
-
-#: src/data/ui/visibility.ui:131
-msgid "Airplane Mode Toggle Button"
-msgstr "Växlingsknapp för flygplansläge"
-
-#: src/data/ui/visibility.ui:132
-msgid "Airplane Mode Toggle Button in Quick settings menu"
-msgstr "Växlingsknapp för flygplansläge i snabbinställningsmenyn"
-
-#: src/data/ui/visibility.ui:144
-msgid "Screen Sharing Indicator"
-msgstr "Skärmdelningsindikator"
-
-#: src/data/ui/visibility.ui:145
-msgid "Screen sharing indicator in panel"
-msgstr "Skärmdelningsindikator i panelen"
-
-#: src/data/ui/visibility.ui:157
-msgid "Screen Recording Indicator"
-msgstr "Skärminspelningsindikator"
-
-#: src/data/ui/visibility.ui:158
-msgid "Screen recording indicator in panel"
-msgstr "Skärminspelningsindikator i panelen"
-
-#: src/data/ui/visibility.ui:170
-msgid "World Clock"
-msgstr "Världsklocka"
-
-#: src/data/ui/visibility.ui:171
-msgid "World clock in clock menu"
-msgstr "Världsklocka i klockmenyn"
-
-#: src/data/ui/visibility.ui:183
-msgid "Weather"
-msgstr "Väder"
-
-#: src/data/ui/visibility.ui:184
-msgid "Weather in clock menu"
-msgstr "Väder i klockmeny"
-
-#: src/data/ui/visibility.ui:196
-msgid "Calendar"
-msgstr "Kalender"
-
-#: src/data/ui/visibility.ui:197
-msgid "Calendar in clock menu"
-msgstr "Kalender i klockmenyn"
-
-#: src/data/ui/visibility.ui:209
-msgid "Events"
-msgstr "evenemang"
-
-#: src/data/ui/visibility.ui:210
-msgid "Events button in clock menu"
-msgstr "Händelseknapp i klockmenyn"
-
-#: src/data/ui/visibility.ui:222
-msgid "Search"
-msgstr "Sökruta"
-
-#: src/data/ui/visibility.ui:223
-msgid "Search entry in overview"
-msgstr "Sökpost i översikt"
-
-#: src/data/ui/visibility.ui:235
-msgid "Dash"
-msgstr "Snabbstartspanel"
-
-#: src/data/ui/visibility.ui:236
-msgid "Dash holds favorite and opened applications icons"
-msgstr "Dash har favorit- och öppnade applikationsikoner"
-
-#: src/data/ui/visibility.ui:248
-msgid "Dash Separator"
-msgstr "Dash Separator"
-
-#: src/data/ui/visibility.ui:249
-msgid "Dash separator line that separates pin apps from unpin apps"
-msgstr "Streckavgränsningslinje som skiljer pin-appar från unpin-appar"
-
-#: src/data/ui/visibility.ui:261
-msgid "Dash App Running Indicator"
-msgstr "Dash App Running Indicator"
-
-#: src/data/ui/visibility.ui:262
-msgid "The dot indicator in dash that shows the app is running"
-msgstr "Punktindikatorn i streck som visar att appen körs"
-
-#: src/data/ui/visibility.ui:274
-msgid "Show Applications Button"
-msgstr "Knapp för att visa programöversiktsvyn"
-
-#: src/data/ui/visibility.ui:275
-msgid "Button in dash that toggles applications list visibility"
-msgstr "Knapp i streck som växlar mellan applikationslistans synlighet"
-
-#: src/data/ui/visibility.ui:287
-msgid "On Screen Display (OSD)"
-msgstr "Skärmöverlagring (OSD)"
-
-#: src/data/ui/visibility.ui:288
-msgid "Volume and brightness on screen display when the change happens"
-msgstr "Volym och ljusstyrka på skärmen när ändringen sker"
-
-#: src/data/ui/visibility.ui:300
-msgid "Workspace Popup"
-msgstr "Arbetsyteväxlar-popup"
-
-#: src/data/ui/visibility.ui:301
-msgid "Popup that appears on the screen when you change the workspace"
-msgstr "Pop-up som visas på skärmen när du ändrar arbetsytan"
-
-#: src/data/ui/visibility.ui:313
-msgid "Workspace Switcher"
-msgstr "Arbetsyteväxlare"
-
-#: src/data/ui/visibility.ui:314
-msgid ""
-"Also refers to workspace thumbnails that you see in overview for selecting a "
-"workspace"
+#: src/data/ui/profile.ui:266
+msgid "Never"
 msgstr ""
-"Hänvisar också till arbetsytans miniatyrer som du ser i översikten för att "
-"välja en arbetsyta"
 
-#: src/data/ui/visibility.ui:326
-msgid "Workspaces App Grid"
-msgstr "Arbetsytor App Grid"
+#: src/data/ui/profile.ui:267
+msgid "On New Releases"
+msgstr ""
 
-#: src/data/ui/visibility.ui:327
-msgid "Workspace boxes in app grid"
-msgstr "Arbetsytor i app-rutnät"
+#: src/data/ui/profile.ui:268
+msgid "Monthly"
+msgstr ""
 
-#: src/data/ui/visibility.ui:339
-msgid "Window Picker Close Button"
-msgstr "Fönsterväljare Stäng -knapp"
-
-#: src/data/ui/visibility.ui:340
-msgid "The close button on window preview in overview"
-msgstr "Stängknappen på fönsters förhandsvisning i översikt"
-
-#: src/data/ui/visibility.ui:352
-msgid "Window Picker Caption"
-msgstr "Fönsterväljare Bildtext"
-
-#: src/data/ui/visibility.ui:353
-msgid "The text under window preview in overview"
-msgstr "Texten under fönsters förhandsvisning i översikt"
-
-#: src/data/ui/visibility.ui:365
-msgid "Background Menu"
-msgstr "Bakgrundsmeny"
-
-#: src/data/ui/visibility.ui:366
-msgid "When you right click on desktop background"
-msgstr "När du högerklickar på skrivbordsbakgrund"
-
-#: src/data/ui/visibility.ui:378
-msgid "Ripple Box"
-msgstr "Rippelbox"
-
-#: src/data/ui/visibility.ui:379
-msgid "Hot corner animation effects"
-msgstr "Heta hörn animationseffekter"
-
-#: src/data/ui/visibility.ui:391
-msgid "Take Screenshot button in Window Menu"
-msgstr "Ta skärmdump-knappen i fönstermenyn"
-
-#: src/data/ui/visibility.ui:392
-msgid "Take screenshot button in title bar right click menu"
-msgstr "Ta skärmdump-knappen i titelfältets högerklicksmeny"
+#: src/data/ui/profile.ui:273
+msgid "Address copied to the clipboard"
+msgstr ""
