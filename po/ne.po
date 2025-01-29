@@ -672,9 +672,8 @@ msgid "Support via Buy Me a Coffee"
 msgstr "Buy Me a Coffee मार्फत समर्थन"
 
 #: src/data/ui/profile.ui:202
-#, fuzzy
 msgid "Support Notification"
-msgstr "Patreon मार्फत समर्थन"
+msgstr ""
 
 #: src/data/ui/profile.ui:203
 msgid "Manage when the support notification shows up"
@@ -707,57 +706,3 @@ msgstr ""
 #: src/data/ui/profile.ui:273
 msgid "Address copied to the clipboard"
 msgstr ""
-
-#~ msgid "Select File"
-#~ msgstr "फाइल चयन गर्नुहोस्"
-
-#~ msgid "Hot Corner"
-#~ msgstr "हट कर्नर"
-
-#~ msgid "App Gesture"
-#~ msgstr "ए्याप जेस्चर्स"
-
-#~ msgid "Panel Corner Size"
-#~ msgstr "प्यानल कुना आकार"
-
-#~ msgid "No Corner"
-#~ msgstr "कुनै कर्नर छैन"
-
-#~ msgid "App Menu Icon"
-#~ msgstr "ए्याप मेनु आइकन"
-
-#~ msgid "Panel Arrow"
-#~ msgstr "प्यानल एरो"
-
-#~ msgid "Activities Button Icon"
-#~ msgstr "गतिविधि बटन बटन"
-
-#~ msgid "Activities Button Icon in Monochrome"
-#~ msgstr "मोनोक्रोममा गतिविधि बटन बटन"
-
-#~ msgid "Activities Button Icon With Label"
-#~ msgstr "लेबलको साथ गतिविधि बटन बटन"
-
-#~ msgid "Only works when you have selected an icon for activities button"
-#~ msgstr "केवल तब कार्य गर्दछ जब तपाइँ गतिविधि बटनको लागि आईकन चयन गर्नुहुन्छ"
-
-#~ msgid "No Matches"
-#~ msgstr "कुनै परिणाम भेटिएन"
-
-#~ msgid "App Menu"
-#~ msgstr "ए्याप मेनु"
-
-#~ msgid "The menu button in panel with focused window text"
-#~ msgstr "फोकस गरिएको विन्डो पाठको साथ प्यानलमा मेनू बटन"
-
-#~ msgid "App Menu Label"
-#~ msgstr "एप मेनु लेबल"
-
-#~ msgid "The text label in app menu button"
-#~ msgstr "एप मेनु बटनमा पाठ लेबल"
-
-#~ msgid "System Menu (Aggregate Menu)"
-#~ msgstr "सिस्टम मेनु (समग्र मेनु)"
-
-#~ msgid "System menu holds power, volume and network icons in panel"
-#~ msgstr "प्रणाली मेनूले प्यानलमा शक्ति, भोल्यूम र नेटवर्क आइकन समात्दछ"

@@ -705,9 +705,8 @@ msgid "Support via Buy Me a Coffee"
 msgstr "Soutenir via Buy Me a Coffee"
 
 #: src/data/ui/profile.ui:202
-#, fuzzy
 msgid "Support Notification"
-msgstr "Soutenir via Patreon"
+msgstr ""
 
 #: src/data/ui/profile.ui:203
 msgid "Manage when the support notification shows up"
@@ -740,65 +739,3 @@ msgstr ""
 #: src/data/ui/profile.ui:273
 msgid "Address copied to the clipboard"
 msgstr ""
-
-#~ msgid "Select File"
-#~ msgstr "Sélectionner un fichier"
-
-#~ msgid "Hot Corner"
-#~ msgstr "Coin chaud"
-
-#~ msgid "App Gesture"
-#~ msgstr "Geste d'application"
-
-#~ msgid "Panel Corner Size"
-#~ msgstr "Taille du coin du panneau"
-
-#~ msgid "No Corner"
-#~ msgstr "Pas de coin"
-
-#~ msgid "App Menu Icon"
-#~ msgstr "Icône de menu de l'application"
-
-#~ msgid "Panel Arrow"
-#~ msgstr "Flèche de panneau"
-
-#~ msgid "Activities Button Icon"
-#~ msgstr "Icône du bouton des activités"
-
-#~ msgid "Activities Button Icon in Monochrome"
-#~ msgstr "Icône de bouton des activités en monochrome"
-
-#~ msgid "Activities Button Icon With Label"
-#~ msgstr "Icône de bouton des activités avec étiquette"
-
-#~ msgid "Only works when you have selected an icon for activities button"
-#~ msgstr ""
-#~ "Fonctionne uniquement lorsque vous avez sélectionné une icône pour le "
-#~ "bouton des activités"
-
-#~ msgid "No Matches"
-#~ msgstr "Aucun résultat"
-
-#~ msgid "App Menu"
-#~ msgstr "Menu d'application"
-
-#~ msgid "The menu button in panel with focused window text"
-#~ msgstr ""
-#~ "Le bouton de menu dans le panneau avec le texte de la fenêtre ciblée"
-
-#~ msgid "App Menu Label"
-#~ msgstr "Libellé du menu de l'application"
-
-#~ msgid "The text label in app menu button"
-#~ msgstr "L'étiquette de texte dans le bouton de menu de l'application"
-
-#~ msgid "System Menu (Aggregate Menu)"
-#~ msgstr "Menu système"
-
-#~ msgid "System menu holds power, volume and network icons in panel"
-#~ msgstr ""
-#~ "Le menu système contient les icônes d'alimentation, de volume et de "
-#~ "réseau dans le panneau"
-
-#~ msgid "Indicateur d'enregistrement d'écran"
-#~ msgstr "Indicateur d'enregistrement d'écran dans le panneau"

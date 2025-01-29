@@ -705,9 +705,8 @@ msgid "Support via Buy Me a Coffee"
 msgstr "Soporte a través de Buy Me a Coffee"
 
 #: src/data/ui/profile.ui:202
-#, fuzzy
 msgid "Support Notification"
-msgstr "Soporte a través de Patreon"
+msgstr ""
 
 #: src/data/ui/profile.ui:203
 msgid "Manage when the support notification shows up"
@@ -740,61 +739,3 @@ msgstr ""
 #: src/data/ui/profile.ui:273
 msgid "Address copied to the clipboard"
 msgstr ""
-
-#~ msgid "Select File"
-#~ msgstr "Seleccionar Archivo"
-
-#~ msgid "Hot Corner"
-#~ msgstr "Esquina Caliente"
-
-#~ msgid "App Gesture"
-#~ msgstr "Animación de \"Mostrar aplicaciones\""
-
-#~ msgid "Panel Corner Size"
-#~ msgstr "Tamaño de las Esquinas del Panel"
-
-#~ msgid "No Corner"
-#~ msgstr "Sin esquinas"
-
-#~ msgid "App Menu Icon"
-#~ msgstr "Icono de Menú de aplicaciones"
-
-#~ msgid "Panel Arrow"
-#~ msgstr "Flecha del Panel"
-
-#~ msgid "Activities Button Icon"
-#~ msgstr "Icono del Botón de Actividades"
-
-#~ msgid "Activities Button Icon in Monochrome"
-#~ msgstr "Icono del Botón de Actividades en Monocromo"
-
-#~ msgid "Activities Button Icon With Label"
-#~ msgstr "Icono de Botón de Actividades con Etiqueta"
-
-#~ msgid "Only works when you have selected an icon for activities button"
-#~ msgstr ""
-#~ "Solo funciona cuando se ha seleccionado un icono para el botón de "
-#~ "actividades"
-
-#~ msgid "No Matches"
-#~ msgstr "Sin Resultados"
-
-#~ msgid "App Menu"
-#~ msgstr "Menú de Aplicaciones"
-
-#~ msgid "The menu button in panel with focused window text"
-#~ msgstr "El botón de menú con el texto de la ventana enfocada en el panel"
-
-#~ msgid "App Menu Label"
-#~ msgstr "Etiqueta del menú de la aplicación"
-
-#~ msgid "The text label in app menu button"
-#~ msgstr "La etiqueta de texto en el botón de menú de la aplicación"
-
-#~ msgid "System Menu (Aggregate Menu)"
-#~ msgstr "Menú del sistema (Menú agregado)"
-
-#~ msgid "System menu holds power, volume and network icons in panel"
-#~ msgstr ""
-#~ "El menú del sistema contiene los íconos de encendido, volumen y red en el "
-#~ "panel"

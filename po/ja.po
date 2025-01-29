@@ -678,9 +678,8 @@ msgid "Support via Buy Me a Coffee"
 msgstr "Buy Me a Coffee で支援"
 
 #: src/data/ui/profile.ui:202
-#, fuzzy
 msgid "Support Notification"
-msgstr "Patreon で支援"
+msgstr ""
 
 #: src/data/ui/profile.ui:203
 msgid "Manage when the support notification shows up"

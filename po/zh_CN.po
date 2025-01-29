@@ -664,9 +664,8 @@ msgid "Support via Buy Me a Coffee"
 msgstr "通过 Buy Me a Coffee 提供支持"
 
 #: src/data/ui/profile.ui:202
-#, fuzzy
 msgid "Support Notification"
-msgstr "通过 Patreon 提供支持"
+msgstr ""
 
 #: src/data/ui/profile.ui:203
 msgid "Manage when the support notification shows up"
