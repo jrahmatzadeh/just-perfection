@@ -13,6 +13,10 @@ We go to the next version after each release on the
 - More Crypto Donations (XRP, Solana, Cardano, BNB, Stellar, USDC, LTC, Shiba Inu and LBRY).
 - Support Notifier.
 
+### Fixed
+
+- Looking Glass `_resize()` issue.
+
 ## [31.0] - 2025-01-06
 
 ### Added

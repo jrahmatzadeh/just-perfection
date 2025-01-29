@@ -145,6 +145,7 @@ export class API
     open()
     {
         this.UIStyleClassAdd(this.#getAPIClassname('shell-version'));
+        this.#registerLookingGlassSignals();
     }
 
     /**
@@ -158,6 +159,7 @@ export class API
         this.#startSearchSignal(false);
         this.#computeWorkspacesBoxForStateSetDefault();
         this.#altTabSizesSetDefault();
+        this.#unregisterLookingGlassSignals();
         
         for (let [name, id] of Object.entries(this.#timeoutIds)) {
             this._glib.source_remove(id);
@@ -381,7 +383,6 @@ export class API
         // hide and show can fix windows going under panel
         panelBox.hide();
         panelBox.show();
-        this.#fixLookingGlassPosition();
 
         if (this.#timeoutIds.panelHide) {
             this._glib.source_remove(this.#timeoutIds.panelHide);
@@ -432,7 +433,6 @@ export class API
         // hide and show can fix windows going under panel
         panelBox.hide();
         panelBox.show();
-        this.#fixLookingGlassPosition();
 
         if (this._hidePanelWorkareasChangedSignal) {
             global.display.disconnect(this._hidePanelWorkareasChangedSignal);
@@ -491,7 +491,9 @@ export class API
             return true;
         }
 
-        return this._panelVisibility;
+        let fullyHidden = this._panelHideMode === PANEL_HIDE_MODE.ALL;
+
+        return this._panelVisibility || (!this._panelVisibility && !fullyHidden);
     }
 
     /**
@@ -1279,7 +1281,6 @@ export class API
             panelBox.set_position(topX, topY);
             this.UIStyleClassRemove(this.#getAPIClassname('bottom-panel'));
             this.#fixPanelMenuSide(this._st.Side.TOP);
-            this.#fixLookingGlassPosition();
             return;
         }
 
@@ -1309,7 +1310,6 @@ export class API
         }
 
         this.#fixPanelMenuSide(this._st.Side.BOTTOM);
-        this.#fixLookingGlassPosition();
     }
 
     /**
@@ -1360,42 +1360,6 @@ export class API
             if (menu) {
                 menu._boxPointer._userArrowSide = position;
             }
-        }
-    }
-
-    /**
-     * fix looking glass position
-     *
-     * @returns {void}
-     */
-    #fixLookingGlassPosition()
-    {
-        let lookingGlassProto = this._lookingGlass.LookingGlass.prototype;
-
-        if (this.#originals['lookingGlassResize'] === undefined) {
-            this.#originals['lookingGlassResize'] = lookingGlassProto._resize;
-        }
-
-        if (this.panelGetPosition() === PANEL_POSITION.TOP && this.isPanelVisible()) {
-
-            lookingGlassProto._resize = this.#originals['lookingGlassResize'];
-            delete(lookingGlassProto._oldResizeMethod);
-            delete(this.#originals['lookingGlassResize']);
-
-            return;
-        }
-
-        if (lookingGlassProto._oldResizeMethod === undefined) {
-            lookingGlassProto._oldResizeMethod = this.#originals['lookingGlassResize'];
-
-            const Main = this._main;
-
-            lookingGlassProto._resize = function () {
-                let panelHeight = Main.layoutManager.panelBox.height;
-                this._oldResizeMethod();
-                this._targetY -= panelHeight;
-                this._hiddenY -= panelHeight;
-            };
         }
     }
 
@@ -2932,6 +2896,31 @@ export class API
      */
     lookingGlassSetDefaultSize()
     {
+        this._lookingGlassWidth = null;
+        this._lookingGlassHeight = null;
+    }
+
+    /**
+     * set looking glass size
+     *
+     * @param {number} width in float
+     * @param {number} height in float
+     *
+     * @returns {void}
+     */
+    lookingGlassSetSize(width, height)
+    {
+        this._lookingGlassWidth = width;
+        this._lookingGlassHeight = height;
+    }
+
+    /**
+     * unregister the looking glass signals
+     *
+     * @returns {void}
+     */
+    #unregisterLookingGlassSignals()
+    {
         if (!this._lookingGlassShowSignal) {
             return;
         }
@@ -2945,14 +2934,11 @@ export class API
     }
 
     /**
-     * set looking glass size
-     *
-     * @param {number} width in float
-     * @param {number} height in float
+     * register the looking glass signals
      *
      * @returns {void}
      */
-    lookingGlassSetSize(width, height)
+    #registerLookingGlassSignals()
     {
         let lookingGlass = this._main.createLookingGlass();
 
@@ -2967,8 +2953,10 @@ export class API
 
         this._lookingGlassShowSignal = lookingGlass.connect('show', () => {
             let [originalWidth, originalHeight] = this._lookingGlassOriginalSize;
-
             let monitorInfo = this.monitorGetInfo();
+
+            let width = this._lookingGlassWidth ?? null;
+            let height = this._lookingGlassHeight ?? null;
 
             let dialogWidth
             = (width !== null)
@@ -2985,7 +2973,9 @@ export class API
             ? Math.min(monitorInfo.height * height, availableHeight * 0.9)
             : originalHeight;
 
-            lookingGlass._hiddenY = monitorInfo.y + this._main.layoutManager.panelBox.height - dialogHeight;
+            let panelHeight = (this.isPanelVisible()) ? this._main.layoutManager.panelBox.height : 0;
+
+            lookingGlass._hiddenY = monitorInfo.y + panelHeight - dialogHeight;
             lookingGlass._targetY = lookingGlass._hiddenY + dialogHeight;
 
             lookingGlass.set_size(dialogWidth, dialogHeight);
@@ -2994,7 +2984,8 @@ export class API
         if (!this._monitorsChangedSignal) {
             this._monitorsChangedSignal = this._main.layoutManager.connect('monitors-changed',
             () => {
-                    this.lookingGlassSetSize(width, height);
+                this.#unregisterLookingGlassSignals()
+                this.#registerLookingGlassSignals();
             });
         }
     }
