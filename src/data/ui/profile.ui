@@ -108,7 +108,7 @@
     <child>
       <object class="AdwPreferencesGroup" id="support_group">
         <property name="title" translatable="yes">Support</property>
-        <property name="description">Your support helps me: Maintain and Improve Just Perfection, Develop New Features, Ensure Smooth Updates. Even a small donation makes a big difference!
+        <property name="description">Your support helps maintain and improve Just Perfection, develop new features, and ensure smooth updates. Even a small donation makes a big difference!
 
 Thank you for your support!</property>
 
