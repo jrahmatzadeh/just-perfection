@@ -243,6 +243,7 @@ Thank you for your support!</property>
 
   <object class="GtkStringList" id="support_crypto_model">
     <items>
+      <item>Dogecoin</item>
       <item>Bitcoin</item>
       <item>Bitcoin Cash</item>
       <item>Ethereum</item>
@@ -252,7 +253,6 @@ Thank you for your support!</property>
       <item>Solana</item>
       <item>Cardano (ADA)</item>
       <item>BNB (BSC Network)</item>
-      <item>Dogecoin</item>
       <item>Litecoin (LTC)</item>
       <item>Stellar (XLM)</item>
       <item>Monero</item>
