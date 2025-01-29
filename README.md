@@ -115,7 +115,7 @@ You can download this repo and install it manually with the build script:
 $ ./scripts/build.sh -i
 ```
 
-*You need gettext package installed on your system*
+*You need gettext and glib2-devel packages installed on your system*
 
 ## Support
 
