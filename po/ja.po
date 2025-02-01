@@ -671,7 +671,7 @@ msgstr "推奨される方法"
 
 #: src/data/ui/profile.ui:167
 msgid "Copy"
-msgstr ""
+msgstr "コピー"
 
 #: src/data/ui/profile.ui:184
 msgid "Support via Buy Me a Coffee"
@@ -679,11 +679,11 @@ msgstr "Buy Me a Coffee で支援"
 
 #: src/data/ui/profile.ui:202
 msgid "Support Notification"
-msgstr ""
+msgstr "サポート通知"
 
 #: src/data/ui/profile.ui:203
 msgid "Manage when the support notification shows up"
-msgstr ""
+msgstr "サポート通知が表示されるタイミングを管理"
 
 #: src/data/ui/profile.ui:213
 msgid "Links"
@@ -699,16 +699,16 @@ msgstr "YouTube チャンネル"
 
 #: src/data/ui/profile.ui:266
 msgid "Never"
-msgstr ""
+msgstr "なし"
 
 #: src/data/ui/profile.ui:267
 msgid "On New Releases"
-msgstr ""
+msgstr "新リリース時"
 
 #: src/data/ui/profile.ui:268
 msgid "Monthly"
-msgstr ""
+msgstr "毎月"
 
 #: src/data/ui/profile.ui:273
 msgid "Address copied to the clipboard"
-msgstr ""
+msgstr "アドレスがクリップボードにコピーされました"

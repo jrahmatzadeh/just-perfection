@@ -687,7 +687,7 @@ msgstr "Mètode preferit"
 
 #: src/data/ui/profile.ui:167
 msgid "Copy"
-msgstr ""
+msgstr "Còpia"
 
 #: src/data/ui/profile.ui:184
 msgid "Support via Buy Me a Coffee"
@@ -695,11 +695,11 @@ msgstr "Suport a través de Buy Me a Coffee"
 
 #: src/data/ui/profile.ui:202
 msgid "Support Notification"
-msgstr ""
+msgstr "Notificació de suport"
 
 #: src/data/ui/profile.ui:203
 msgid "Manage when the support notification shows up"
-msgstr ""
+msgstr "Gestiona quan apareix la notificació d'assistència"
 
 #: src/data/ui/profile.ui:213
 msgid "Links"
@@ -715,16 +715,16 @@ msgstr "Canal de YouTube"
 
 #: src/data/ui/profile.ui:266
 msgid "Never"
-msgstr ""
+msgstr "Mai"
 
 #: src/data/ui/profile.ui:267
 msgid "On New Releases"
-msgstr ""
+msgstr "En Noves Estrenes"
 
 #: src/data/ui/profile.ui:268
 msgid "Monthly"
-msgstr ""
+msgstr "Mensualment"
 
 #: src/data/ui/profile.ui:273
 msgid "Address copied to the clipboard"
-msgstr ""
+msgstr "S'ha copiat l'adreça al porta-retalls"

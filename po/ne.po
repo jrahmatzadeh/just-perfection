@@ -665,7 +665,7 @@ msgstr "रुचाइएको विधि"
 
 #: src/data/ui/profile.ui:167
 msgid "Copy"
-msgstr ""
+msgstr "प्रतिलिपि गर्नुहोस्"
 
 #: src/data/ui/profile.ui:184
 msgid "Support via Buy Me a Coffee"
@@ -673,11 +673,11 @@ msgstr "Buy Me a Coffee मार्फत समर्थन"
 
 #: src/data/ui/profile.ui:202
 msgid "Support Notification"
-msgstr ""
+msgstr "समर्थन सूचना"
 
 #: src/data/ui/profile.ui:203
 msgid "Manage when the support notification shows up"
-msgstr ""
+msgstr "समर्थन सूचना देखा पर्दा व्यवस्थापन गर्नुहोस्"
 
 #: src/data/ui/profile.ui:213
 msgid "Links"
@@ -693,16 +693,16 @@ msgstr "युट्युब च्यानल"
 
 #: src/data/ui/profile.ui:266
 msgid "Never"
-msgstr ""
+msgstr "कहिल्यै नगर्नुहोस्"
 
 #: src/data/ui/profile.ui:267
 msgid "On New Releases"
-msgstr ""
+msgstr "नयाँ रिलीजहरूमा"
 
 #: src/data/ui/profile.ui:268
 msgid "Monthly"
-msgstr ""
+msgstr "मासिक"
 
 #: src/data/ui/profile.ui:273
 msgid "Address copied to the clipboard"
-msgstr ""
+msgstr "क्लिपबोर्डमा ठेगाना प्रतिलिपि गरियो"

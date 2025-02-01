@@ -698,7 +698,7 @@ msgstr "Método preferido"
 
 #: src/data/ui/profile.ui:167
 msgid "Copy"
-msgstr ""
+msgstr "Copiar"
 
 #: src/data/ui/profile.ui:184
 msgid "Support via Buy Me a Coffee"
@@ -706,11 +706,11 @@ msgstr "Soporte a través de Buy Me a Coffee"
 
 #: src/data/ui/profile.ui:202
 msgid "Support Notification"
-msgstr ""
+msgstr "Notificación de soporte"
 
 #: src/data/ui/profile.ui:203
 msgid "Manage when the support notification shows up"
-msgstr ""
+msgstr "Administrar cuándo aparece la notificación de soporte"
 
 #: src/data/ui/profile.ui:213
 msgid "Links"
@@ -726,16 +726,16 @@ msgstr "Canal de YouTube"
 
 #: src/data/ui/profile.ui:266
 msgid "Never"
-msgstr ""
+msgstr "Nunca"
 
 #: src/data/ui/profile.ui:267
 msgid "On New Releases"
-msgstr ""
+msgstr "En los nuevos lanzamientos"
 
 #: src/data/ui/profile.ui:268
 msgid "Monthly"
-msgstr ""
+msgstr "Mensualmente"
 
 #: src/data/ui/profile.ui:273
 msgid "Address copied to the clipboard"
-msgstr ""
+msgstr "Dirección copiada al portapapeles"

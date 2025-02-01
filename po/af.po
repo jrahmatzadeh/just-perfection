@@ -668,7 +668,7 @@ msgstr "Voorkeur metode"
 
 #: src/data/ui/profile.ui:167
 msgid "Copy"
-msgstr ""
+msgstr "Kopieer"
 
 #: src/data/ui/profile.ui:184
 msgid "Support via Buy Me a Coffee"
@@ -676,11 +676,11 @@ msgstr "Ondersteuning via Buy Me a Coffee"
 
 #: src/data/ui/profile.ui:202
 msgid "Support Notification"
-msgstr ""
+msgstr "Ondersteuningskennisgewing"
 
 #: src/data/ui/profile.ui:203
 msgid "Manage when the support notification shows up"
-msgstr ""
+msgstr "Bestuur wanneer die ondersteuningskennisgewing verskyn"
 
 #: src/data/ui/profile.ui:213
 msgid "Links"
@@ -696,16 +696,16 @@ msgstr "YouTube-kanaal"
 
 #: src/data/ui/profile.ui:266
 msgid "Never"
-msgstr ""
+msgstr "Nooit nie"
 
 #: src/data/ui/profile.ui:267
 msgid "On New Releases"
-msgstr ""
+msgstr "Op nuwe vrystellings"
 
 #: src/data/ui/profile.ui:268
 msgid "Monthly"
-msgstr ""
+msgstr "Maandeliks"
 
 #: src/data/ui/profile.ui:273
 msgid "Address copied to the clipboard"
-msgstr ""
+msgstr "Adres na die knipbord gekopieer"

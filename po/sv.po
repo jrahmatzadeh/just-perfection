@@ -665,7 +665,7 @@ msgstr "Föredragen metod"
 
 #: src/data/ui/profile.ui:167
 msgid "Copy"
-msgstr ""
+msgstr "Kopiera"
 
 #: src/data/ui/profile.ui:184
 msgid "Support via Buy Me a Coffee"
@@ -673,11 +673,11 @@ msgstr "Support via Buy Me a Coffee"
 
 #: src/data/ui/profile.ui:202
 msgid "Support Notification"
-msgstr ""
+msgstr "Supportmeddelande"
 
 #: src/data/ui/profile.ui:203
 msgid "Manage when the support notification shows up"
-msgstr ""
+msgstr "Hantera när supportmeddelandet dyker upp"
 
 #: src/data/ui/profile.ui:213
 msgid "Links"
@@ -693,16 +693,16 @@ msgstr "YouTube-kanal"
 
 #: src/data/ui/profile.ui:266
 msgid "Never"
-msgstr ""
+msgstr "Aldrig"
 
 #: src/data/ui/profile.ui:267
 msgid "On New Releases"
-msgstr ""
+msgstr "På nya releaser"
 
 #: src/data/ui/profile.ui:268
 msgid "Monthly"
-msgstr ""
+msgstr "Månatlig"
 
 #: src/data/ui/profile.ui:273
 msgid "Address copied to the clipboard"
-msgstr ""
+msgstr "Adress kopierad till urklipp"

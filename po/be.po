@@ -679,7 +679,7 @@ msgstr "Пераважны метад"
 
 #: src/data/ui/profile.ui:167
 msgid "Copy"
-msgstr ""
+msgstr "Копія"
 
 #: src/data/ui/profile.ui:184
 msgid "Support via Buy Me a Coffee"
@@ -687,11 +687,11 @@ msgstr "Падтрымка праз Buy Me a Coffee"
 
 #: src/data/ui/profile.ui:202
 msgid "Support Notification"
-msgstr ""
+msgstr "Апавяшчэнне падтрымкі"
 
 #: src/data/ui/profile.ui:203
 msgid "Manage when the support notification shows up"
-msgstr ""
+msgstr "Кіруйце тым, калі з'яўляецца паведамленне службы падтрымкі"
 
 #: src/data/ui/profile.ui:213
 msgid "Links"
@@ -707,16 +707,16 @@ msgstr "Канал YouTube"
 
 #: src/data/ui/profile.ui:266
 msgid "Never"
-msgstr ""
+msgstr "ніколі"
 
 #: src/data/ui/profile.ui:267
 msgid "On New Releases"
-msgstr ""
+msgstr "Аб новых выпусках"
 
 #: src/data/ui/profile.ui:268
 msgid "Monthly"
-msgstr ""
+msgstr "Штомесяц"
 
 #: src/data/ui/profile.ui:273
 msgid "Address copied to the clipboard"
-msgstr ""
+msgstr "Адрас скапіраваны ў буфер абмену"
