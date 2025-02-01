@@ -10,6 +10,7 @@ We go to the next version after each release on the
 ### Added
 
 - Airplane Mode Toggle Button Visibility in Quick Settings.
+- GNOME Shell 48 Support.
 - More Crypto Donations (XRP, Solana, Cardano, BNB, Stellar, USDC, LTC, Shiba Inu and LBRY).
 - Support Notifier.
 
