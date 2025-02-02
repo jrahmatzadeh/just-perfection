@@ -271,6 +271,10 @@ export class Manager
             this.#applyOSDPosition(false);
         });
 
+        this.#settings.connect('changed::window-menu', () => {
+            this.#applyWindowMenu(false);
+        });
+
         this.#settings.connect('changed::window-menu-take-screenshot-button', () => {
             this.#applyWindowMenuTakeScreenshotButton(false);
         });
@@ -381,6 +385,7 @@ export class Manager
         this.#applyDashSeparator(false);
         this.#applyLookingGlassSize(false);
         this.#applyOSDPosition(false);
+        this.#applyWindowMenu(false);
         this.#applyWindowMenuTakeScreenshotButton(false);
         this.#applyAltTabWindowPreviewSize(false);
         this.#applyAltTabSmallIconSize(false);
@@ -453,6 +458,7 @@ export class Manager
         this.#applyDashSeparator(true);
         this.#applyLookingGlassSize(true);
         this.#applyOSDPosition(true);
+        this.#applyWindowMenu(true);
         this.#applyWindowMenuTakeScreenshotButton(true);
         this.#applyAltTabWindowPreviewSize(true);
         this.#applyAltTabSmallIconSize(true);
@@ -1363,7 +1369,25 @@ export class Manager
             this.#api.osdPositionSet(pos - 1);
         }
     }
-    
+
+    /**
+     * apply window menu settings
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    #applyWindowMenu(forceOriginal)
+    {
+        let status = this.#settings.get_boolean('window-menu');
+
+        if (forceOriginal || status) {
+            this.#api.windowMenuShow();
+        } else {
+            this.#api.windowMenuHide();
+        }
+    }
+
     /**
      * apply window menu take screenshot button settings
      *

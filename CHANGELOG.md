@@ -7,6 +7,10 @@ We go to the next version after each release on the
 
 ## [Unreleased]
 
+### Added
+
+- Window Menu Visibility.
+
 ## [34.0] - 2025-02-02
 
 ### Removed

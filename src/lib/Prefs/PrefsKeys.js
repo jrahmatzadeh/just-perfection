@@ -364,6 +364,17 @@ export class PrefsKeys
         );
 
         this.#setKey(
+            'window-menu',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superminimal: true,
+            }
+        );
+
+        this.#setKey(
             'window-menu-take-screenshot-button',
             'GtkSwitch',
             true,

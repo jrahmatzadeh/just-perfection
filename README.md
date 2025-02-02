@@ -70,6 +70,7 @@ This extension allows you to do the following:
 | Weather Visibility                                   | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Window Demands Attention Focus                       | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Window Maximized on Create                           |      |      |      |      |      |      |      | Yes  | Yes  | Yes  | Yes  |
+| Window Menu Visibility                               |      |      |      |      |      |      |      | Yes  | Yes  | Yes  | Yes  |
 | Window Picker Caption Visibility                     | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Window Picker Close Button Visibility                | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Window Picker Icon                                   |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |

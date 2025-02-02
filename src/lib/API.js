@@ -2991,6 +2991,42 @@ export class API
     }
 
     /**
+     * show window menu
+     *
+     * @returns {void}
+     */
+    windowMenuShow()
+    {
+        let WindowMenuManagerProto = this._windowMenu.WindowMenuManager.prototype;
+
+        if (!this.#originals['showWindowMenuForWindow']) {
+            return;
+        }
+
+        WindowMenuManagerProto.showWindowMenuForWindow = this.#originals['showWindowMenuForWindow'];
+
+        delete(this.#originals['showWindowMenuForWindow']);
+    }
+
+    /**
+     * hide window menu
+     *
+     * @returns {void}
+     */
+    windowMenuHide()
+    {
+        let WindowMenuManagerProto = this._windowMenu.WindowMenuManager.prototype;
+
+        if (!this.#originals['showWindowMenuForWindow']) {
+            this.#originals['showWindowMenuForWindow'] = WindowMenuManagerProto.showWindowMenuForWindow;
+        }
+
+        WindowMenuManagerProto.showWindowMenuForWindow = (window, _type, _rect) => {
+            window.focus(global.get_current_time());
+        };
+    }
+
+    /**
      * show screenshot in window menu
      *
      * @returns {void}
