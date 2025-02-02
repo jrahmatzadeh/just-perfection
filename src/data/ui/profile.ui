@@ -265,7 +265,6 @@ Thank you for your support!</property>
     <items>
       <item translatable="yes">Never</item>
       <item translatable="yes">On New Releases</item>
-      <item translatable="yes">Monthly</item>
     </items>
   </object>
 

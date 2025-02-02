@@ -7,6 +7,10 @@ We go to the next version after each release on the
 
 ## [Unreleased]
 
+### Removed
+
+- The monthly notification support.
+
 ## [33.0] - 2025-02-02
 
 ### Fixed

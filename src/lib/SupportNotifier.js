@@ -9,7 +9,6 @@
 const TYPE = {
     NEVER: 0,
     NEW_RELEASE: 1,
-    MONTHLY: 2,
 };
 
 /**
@@ -51,7 +50,6 @@ export class SupportNotifier
      * @param {Object} dependencies
      *   'MessageTray' reference to ui::messageTray
      *   'Main' reference to ui::main
-     *   'GLib' reference to GLib
      *   'Gio' reference to Gio
      * @param {number} shellVersion float in major.minor format
      * @param {number} extensionVersion integer
@@ -61,7 +59,6 @@ export class SupportNotifier
     {
         this._messageTray = dependencies['MessageTray'] || null;
         this._main = dependencies['Main'] || null;
-        this._glib = dependencies['GLib'] || null;
         this._gio = dependencies['Gio'] || null;
         this.#settings = dependencies['Settings'] || null;
 
@@ -97,20 +94,6 @@ export class SupportNotifier
             if (!this.#isShownForCurrentVersion()) {
                 this.#showNotification();
             }
-        } else if (type === TYPE.MONTHLY) {
-            if (this._monthly_timeout) {
-                this._glib.source_remove(this._monthly_timeout);
-            }
-            this._monthly_timeout = this._glib.timeout_add_seconds(
-                this._glib.PRIORITY_LOW,
-                300,
-                () => {
-                    if (!this.#isShownOneMonthAgo()) {
-                        this.#showNotification();
-                    }
-                    return this._glib.SOURCE_CONTINUE;
-                }
-            );
         }
     }
 
@@ -121,10 +104,6 @@ export class SupportNotifier
      */
     stop()
     {
-        if (this._monthly_timeout) {
-            this._glib.source_remove(this._monthly_timeout);
-            this._monthly_timeout = null;
-        }
     }
 
     /**
@@ -148,21 +127,6 @@ export class SupportNotifier
         let showedVersion = this.#settings.get_int('support-notifier-showed-version');
 
         return this.#extensionVersion <= showedVersion;
-    }
-
-    /**
-     * whether a month passed relative to the last notification show
-     *
-     * @returns {boolean}
-     */
-    #isShownOneMonthAgo()
-    {
-        let showedTime = this.#settings.get_uint64('support-notifier-showed-time');
-
-        let now = Date.now();
-        let oneMonthBeforeNow = now - 2592000;
-
-        return oneMonthBeforeNow < showedTime;
     }
 
     /**
@@ -193,8 +157,8 @@ export class SupportNotifier
             notification.destroy();
         });
 
-        notification.addAction('Remind me later!', () => {
-            this.#settings.set_int('support-notifier-type', TYPE.MONTHLY);
+        notification.addAction("Don't show again!", () => {
+            this.#settings.set_int('support-notifier-type', TYPE.NEVER);
             notification.destroy();
         });
 
@@ -205,7 +169,6 @@ export class SupportNotifier
         }
 
         this.#settings.set_int('support-notifier-showed-version', this.#extensionVersion);
-        this.#settings.set_uint64('support-notifier-showed-time', Date.now());
     }
 
     /**
