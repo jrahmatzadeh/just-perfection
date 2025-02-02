@@ -7,6 +7,10 @@ We go to the next version after each release on the
 
 ## [Unreleased]
 
+### Fixed
+
+- The monthly notification support calculation.
+
 ## [32.0] - 2025-02-01
 
 ### Added

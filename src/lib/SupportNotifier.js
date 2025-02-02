@@ -159,11 +159,10 @@ export class SupportNotifier
     {
         let showedTime = this.#settings.get_uint64('support-notifier-showed-time');
 
-        let showedDate = new Date(showedTime);
         let now = Date.now();
         let oneMonthBeforeNow = now - 2592000;
 
-        return oneMonthBeforeNow < showedDate;
+        return oneMonthBeforeNow < showedTime;
     }
 
     /**
