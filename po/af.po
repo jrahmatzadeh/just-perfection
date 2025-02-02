@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 14:44-0800\n"
+"POT-Creation-Date: 2025-02-02 13:06-0800\n"
 "PO-Revision-Date: 2020-12-18 04:05-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: Afrikaans\n"
@@ -372,8 +372,8 @@ msgstr "Opspringvertraging"
 
 #: src/data/ui/behavior.ui:134
 msgid ""
-"Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
-"keyboard layout, ..."
+"The delay for all switcher popups like alt-tab, ctrl-alt-tab, keyboard "
+"layout, ..."
 msgstr ""
 "Verwyder die vertraging vir alle skakelaar-opspringers soos alt-tab, ctrl-"
 "alt-tab, sleutelborduitleg, ..."
@@ -702,10 +702,9 @@ msgstr "Nooit nie"
 msgid "On New Releases"
 msgstr "Op nuwe vrystellings"
 
-#: src/data/ui/profile.ui:268
-msgid "Monthly"
-msgstr "Maandeliks"
-
-#: src/data/ui/profile.ui:273
+#: src/data/ui/profile.ui:272
 msgid "Address copied to the clipboard"
 msgstr "Adres na die knipbord gekopieer"
+
+#~ msgid "Monthly"
+#~ msgstr "Maandeliks"

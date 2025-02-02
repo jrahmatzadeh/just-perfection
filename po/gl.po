@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 14:44-0800\n"
+"POT-Creation-Date: 2025-02-02 13:06-0800\n"
 "PO-Revision-Date: 2021-11-22 20:15+0100\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <Proxecto Trasno <proxecto@trasno.gal>>\n"
@@ -395,8 +395,8 @@ msgstr "Atraso emerxente"
 
 #: src/data/ui/behavior.ui:134
 msgid ""
-"Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
-"keyboard layout, ..."
+"The delay for all switcher popups like alt-tab, ctrl-alt-tab, keyboard "
+"layout, ..."
 msgstr ""
 "Elimina o atraso de todas as ventás emerxentes do conmutador como alt-tab, "
 "ctrl-alt-tab, deseño de teclado,..."
@@ -727,10 +727,9 @@ msgstr "Nunca"
 msgid "On New Releases"
 msgstr "En Novos Lanzamentos"
 
-#: src/data/ui/profile.ui:268
-msgid "Monthly"
-msgstr "Mensuais"
-
-#: src/data/ui/profile.ui:273
+#: src/data/ui/profile.ui:272
 msgid "Address copied to the clipboard"
 msgstr "Enderezo copiado no portapapeis"
+
+#~ msgid "Monthly"
+#~ msgstr "Mensuais"

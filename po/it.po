@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 14:44-0800\n"
+"POT-Creation-Date: 2025-02-02 13:06-0800\n"
 "PO-Revision-Date: 2022-09-11 00:10+0200\n"
 "Last-Translator: Andrea Brandi <git@andreabrandi.com>\n"
 "Language-Team: Italian <git@andreabrandi.com>\n"
@@ -390,8 +390,8 @@ msgstr "Ritardo popup"
 
 #: src/data/ui/behavior.ui:134
 msgid ""
-"Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
-"keyboard layout, ..."
+"The delay for all switcher popups like alt-tab, ctrl-alt-tab, keyboard "
+"layout, ..."
 msgstr ""
 "Rimuove il ritardo per tutti i popup di switcher come alt-tab, ctrl-alt-tab, "
 "layout di tastiera, ..."
@@ -725,10 +725,9 @@ msgstr "Mai"
 msgid "On New Releases"
 msgstr "Sulle nuove uscite"
 
-#: src/data/ui/profile.ui:268
-msgid "Monthly"
-msgstr "Mensile"
-
-#: src/data/ui/profile.ui:273
+#: src/data/ui/profile.ui:272
 msgid "Address copied to the clipboard"
 msgstr "Indirizzo copiato negli appunti"
+
+#~ msgid "Monthly"
+#~ msgstr "Mensile"

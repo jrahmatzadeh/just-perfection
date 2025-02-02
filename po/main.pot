@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-01 08:45-0800\n"
+"POT-Creation-Date: 2025-02-02 13:09-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -363,8 +363,8 @@ msgstr ""
 
 #: src/data/ui/behavior.ui:134
 msgid ""
-"Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
-"keyboard layout, ..."
+"The delay for all switcher popups like alt-tab, ctrl-alt-tab, keyboard "
+"layout, ..."
 msgstr ""
 
 #: src/data/ui/behavior.ui:146
@@ -688,10 +688,6 @@ msgstr ""
 msgid "On New Releases"
 msgstr ""
 
-#: src/data/ui/profile.ui:268
-msgid "Monthly"
-msgstr ""
-
-#: src/data/ui/profile.ui:273
+#: src/data/ui/profile.ui:272
 msgid "Address copied to the clipboard"
 msgstr ""

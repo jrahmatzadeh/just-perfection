@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 14:44-0800\n"
+"POT-Creation-Date: 2025-02-02 13:06-0800\n"
 "PO-Revision-Date: 2021-04-13 22:01+0200\n"
 "Last-Translator: Morgan Antonsson <morgan.antonsson@gmail.com>\n"
 "Language-Team: Swedish\n"
@@ -370,8 +370,8 @@ msgstr "Popup-fördröjning"
 
 #: src/data/ui/behavior.ui:134
 msgid ""
-"Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
-"keyboard layout, ..."
+"The delay for all switcher popups like alt-tab, ctrl-alt-tab, keyboard "
+"layout, ..."
 msgstr ""
 "Tar bort fördröjningen för alla växlarpopups som alt-tab, ctrl-alt-tab, "
 "tangentbordslayout, ..."
@@ -699,10 +699,9 @@ msgstr "Aldrig"
 msgid "On New Releases"
 msgstr "På nya releaser"
 
-#: src/data/ui/profile.ui:268
-msgid "Monthly"
-msgstr "Månatlig"
-
-#: src/data/ui/profile.ui:273
+#: src/data/ui/profile.ui:272
 msgid "Address copied to the clipboard"
 msgstr "Adress kopierad till urklipp"
+
+#~ msgid "Monthly"
+#~ msgstr "Månatlig"

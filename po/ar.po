@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 14:44-0800\n"
+"POT-Creation-Date: 2025-02-02 13:06-0800\n"
 "PO-Revision-Date: 2020-12-18 04:15-0800\n"
 "Last-Translator: Kareem Abduljaleel <karemjaleel34@gmail.com>\n"
 "Language-Team: Arabic\n"
@@ -370,8 +370,8 @@ msgstr "تأخير المنبثقة"
 
 #: src/data/ui/behavior.ui:134
 msgid ""
-"Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
-"keyboard layout, ..."
+"The delay for all switcher popups like alt-tab, ctrl-alt-tab, keyboard "
+"layout, ..."
 msgstr ""
 "يزيل التأخير لجميع النوافذ المنبثقة للمحول مثل alt-tab ، ctrl-alt-tab ، "
 "تخطيط لوحة المفاتيح ، ..."
@@ -699,10 +699,9 @@ msgstr "أبدًا"
 msgid "On New Releases"
 msgstr "في الإصدارات الجديدة"
 
-#: src/data/ui/profile.ui:268
-msgid "Monthly"
-msgstr "شهريًا"
-
-#: src/data/ui/profile.ui:273
+#: src/data/ui/profile.ui:272
 msgid "Address copied to the clipboard"
 msgstr "تم نسخ العنوان إلى الحافظة"
+
+#~ msgid "Monthly"
+#~ msgstr "شهريًا"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 14:44-0800\n"
+"POT-Creation-Date: 2025-02-02 13:06-0800\n"
 "PO-Revision-Date: 2020-12-18 04:55-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: German\n"
@@ -382,8 +382,8 @@ msgstr "Popup-Verzögerung"
 
 #: src/data/ui/behavior.ui:134
 msgid ""
-"Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
-"keyboard layout, ..."
+"The delay for all switcher popups like alt-tab, ctrl-alt-tab, keyboard "
+"layout, ..."
 msgstr ""
 "Entfernt die Verzögerung für alle Switcher-Popups wie Alt-Tab, Strg-Alt-Tab, "
 "Tastaturlayout, ..."
@@ -717,10 +717,9 @@ msgstr "Nie"
 msgid "On New Releases"
 msgstr "Bei neuen Veröffentlichungen"
 
-#: src/data/ui/profile.ui:268
-msgid "Monthly"
-msgstr "Monatlich"
-
-#: src/data/ui/profile.ui:273
+#: src/data/ui/profile.ui:272
 msgid "Address copied to the clipboard"
 msgstr "Adresse in die Zwischenablage kopiert"
+
+#~ msgid "Monthly"
+#~ msgstr "Monatlich"

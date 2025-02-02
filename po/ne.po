@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 14:44-0800\n"
+"POT-Creation-Date: 2025-02-02 13:06-0800\n"
 "PO-Revision-Date: 2021-02-05 14:43+0545\n"
 "Last-Translator: 1BA4 <nabin7076@protonmail.com>\n"
 "Language-Team: Nepali <>\n"
@@ -370,8 +370,8 @@ msgstr "पपअप ढिलाइ"
 
 #: src/data/ui/behavior.ui:134
 msgid ""
-"Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
-"keyboard layout, ..."
+"The delay for all switcher popups like alt-tab, ctrl-alt-tab, keyboard "
+"layout, ..."
 msgstr ""
 "Alt-tab, ctrl-alt-ट्याब, किबोर्ड लेआउट, ... जस्ता सबै स्विचर पपअपहरूको लागि ढिलाइ "
 "हटाउँछ।"
@@ -699,10 +699,9 @@ msgstr "कहिल्यै नगर्नुहोस्"
 msgid "On New Releases"
 msgstr "नयाँ रिलीजहरूमा"
 
-#: src/data/ui/profile.ui:268
-msgid "Monthly"
-msgstr "मासिक"
-
-#: src/data/ui/profile.ui:273
+#: src/data/ui/profile.ui:272
 msgid "Address copied to the clipboard"
 msgstr "क्लिपबोर्डमा ठेगाना प्रतिलिपि गरियो"
+
+#~ msgid "Monthly"
+#~ msgstr "मासिक"

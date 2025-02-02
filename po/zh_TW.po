@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 14:44-0800\n"
+"POT-Creation-Date: 2025-02-02 13:06-0800\n"
 "PO-Revision-Date: 2021-06-10 10:43+0800\n"
 "Last-Translator: r0930514 <r0930514@gmail.com>\n"
 "Language-Team: \n"
@@ -365,8 +365,8 @@ msgstr "彈出延遲"
 
 #: src/data/ui/behavior.ui:134
 msgid ""
-"Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
-"keyboard layout, ..."
+"The delay for all switcher popups like alt-tab, ctrl-alt-tab, keyboard "
+"layout, ..."
 msgstr "刪除所有切換器彈出窗口的延遲，如 alt-tab、ctrl-alt-tab、鍵盤佈局......"
 
 #: src/data/ui/behavior.ui:146
@@ -690,10 +690,9 @@ msgstr "絕不"
 msgid "On New Releases"
 msgstr "關於新發布"
 
-#: src/data/ui/profile.ui:268
-msgid "Monthly"
-msgstr "每月"
-
-#: src/data/ui/profile.ui:273
+#: src/data/ui/profile.ui:272
 msgid "Address copied to the clipboard"
 msgstr "位址已複製到剪貼簿"
+
+#~ msgid "Monthly"
+#~ msgstr "每月"

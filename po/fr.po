@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 14:44-0800\n"
+"POT-Creation-Date: 2025-02-02 13:06-0800\n"
 "PO-Revision-Date: 2020-12-13 07:26-0800\n"
 "Last-Translator: Just Perfection <justperfection.channel@gmail.com>\n"
 "Language-Team: French\n"
@@ -396,8 +396,8 @@ msgstr "Délai de pop-up"
 
 #: src/data/ui/behavior.ui:134
 msgid ""
-"Removes the delay for all switcher popups like alt-tab, ctrl-alt-tab, "
-"keyboard layout, ..."
+"The delay for all switcher popups like alt-tab, ctrl-alt-tab, keyboard "
+"layout, ..."
 msgstr ""
 "Supprime le délai pour toutes les fenêtres contextuelles du commutateur "
 "comme alt-tab, ctrl-alt-tab, la disposition du clavier, ..."
@@ -732,10 +732,9 @@ msgstr "Jamais"
 msgid "On New Releases"
 msgstr "Sur les nouvelles versions"
 
-#: src/data/ui/profile.ui:268
-msgid "Monthly"
-msgstr "Mensuel"
-
-#: src/data/ui/profile.ui:273
+#: src/data/ui/profile.ui:272
 msgid "Address copied to the clipboard"
 msgstr "Adresse copiée dans le presse-papiers"
+
+#~ msgid "Monthly"
+#~ msgstr "Mensuel"
