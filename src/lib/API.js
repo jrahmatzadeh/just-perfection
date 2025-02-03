@@ -3023,6 +3023,7 @@ export class API
 
         WindowMenuManagerProto.showWindowMenuForWindow = (window, _type, _rect) => {
             window.focus(global.get_current_time());
+            window.raise();
         };
     }
 
