@@ -129,6 +129,7 @@ export default class JustPerfection extends Extension
             {
                 MessageTray,
                 Main,
+                GLib,
                 Gio,
                 Settings: settings,
             },

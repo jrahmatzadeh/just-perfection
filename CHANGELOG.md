@@ -11,6 +11,10 @@ We go to the next version after each release on the
 
 - Window Menu Visibility.
 
+### Fixed
+
+- Avoid showing support notifications immediately after login.
+
 ## [34.0] - 2025-02-02
 
 ### Removed
