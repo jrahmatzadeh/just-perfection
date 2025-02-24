@@ -14,6 +14,7 @@ We go to the next version after each release on the
 ### Fixed
 
 - Avoid showing support notifications immediately after login.
+- Startup freeze on NixOS.
 
 ## [34.0] - 2025-02-02
 

@@ -3463,9 +3463,9 @@ export class API
      */
     #onQuickSettingsPropertyCall(propertyName, func)
     {
-        const quickSettings = this._main.panel.statusArea.quickSettings;
-
         this._glib.idle_add(this._glib.PRIORITY_DEFAULT_IDLE, () => {
+            const quickSettings = this._main.panel.statusArea.quickSettings;
+
             if (!quickSettings[propertyName]) {
                 return this._glib.SOURCE_CONTINUE;
             }
