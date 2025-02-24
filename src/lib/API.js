@@ -3454,7 +3454,7 @@ export class API
     }
 
     /**
-     * set workspaces view spacing size
+     * call a function when async property of quick settings is available
      *
      * @param {string} propertyName
      * @param {Function} func function to call when the property is available
