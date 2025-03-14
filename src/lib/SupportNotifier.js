@@ -90,6 +90,10 @@ export class SupportNotifier
      */
     start()
     {
+        if (!this.#isAllowedForCurrentVersion()) {
+            return;
+        }
+
         let type = this.#settings.get_int('support-notifier-type');
 
         if (type === TYPE.NEW_RELEASE) {
@@ -133,6 +137,19 @@ export class SupportNotifier
     {
         this.stop();
         this.start();
+    }
+
+    /**
+     * checks whether the notification can be shown for the current version.
+     *
+     * we are going to only show the notification for specific versions,
+     * for example, every 'n' versions.
+     *
+     * @returns {boolean}
+     */
+    #isAllowedForCurrentVersion()
+    {
+        return this.#extensionVersion % 3 === 0;
     }
 
     /**
