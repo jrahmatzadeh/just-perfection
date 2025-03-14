@@ -15,6 +15,7 @@ We go to the next version after each release on the
 
 - Avoid showing support notifications immediately after login.
 - Startup freeze on NixOS.
+- The page icon in preferences window for GNOME Shell 48.
 
 ## [34.0] - 2025-02-02
 
