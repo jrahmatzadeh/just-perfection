@@ -5,7 +5,7 @@
    viewBox="0 0 37.041666 11.906252"
    version="1.1"
    id="svg1787"
-   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    sodipodi:docname="download-stats.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -106,11 +106,17 @@
        x="2.3452969"
        y="14.083687"
        ry="2.2709818" />
-    <path
-       d="m 15.194078,16.796585 h 0.913528 v 3.719364 h 1.057082 v -4.56764 h -1.97061 z m 3.367004,3.771566 c 0.352361,0 0.632945,-0.267533 0.632945,-0.63947 0,-0.378461 -0.280584,-0.626419 -0.632945,-0.626419 -0.352361,0 -0.632944,0.247958 -0.632944,0.626419 0,0.371937 0.280583,0.63947 0.632944,0.63947 z m 3.673683,-1.905359 c 0.63947,-0.593793 0.763449,-0.998355 0.763449,-1.442069 0,-0.8287 -0.678621,-1.350716 -1.696552,-1.350716 -0.822175,0 -1.461645,0.332785 -1.814006,0.848276 l 0.769974,0.495915 c 0.221857,-0.306684 0.554642,-0.456764 0.946154,-0.456764 0.482865,0 0.730822,0.208807 0.730822,0.567693 0,0.221856 -0.07178,0.456763 -0.476339,0.84175 l -1.761804,1.663926 v 0.685146 h 3.45183 v -0.861326 h -1.964085 z m 6.773159,-2.714483 h -0.867851 l -1.683502,2.838462 -1.709602,-2.838462 h -0.874377 v 4.56764 h 0.99183 v -2.681857 l 1.337666,2.198992 h 0.47634 l 1.344191,-2.257719 0.0065,2.740584 h 0.991831 z"
-       id="text3"
-       style="font-weight:bold;font-size:6.5252px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;stroke-width:0.16313"
-       aria-label="1.2M" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.51903px;font-family:Inter;-inkscape-font-specification:'Inter Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke-width:0.977852"
+       x="15.148445"
+       y="20.505728"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';stroke-width:0.977852;fill:#ffffff"
+         x="15.148445"
+         y="20.505728">1.3M</tspan></text>
     <path
        d="M 9.510625,18.785763 V 17.261621 H 8.3540703 v 1.524142 H 6.8030319 v 1.093796 h 1.5510384 v 1.524142 H 9.510625 v -1.524142 h 1.560004 v -1.093796 z"
        id="text1"
