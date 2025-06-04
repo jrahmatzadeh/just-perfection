@@ -28,6 +28,7 @@ We go to the next version after each release on the
 ### Fixed
 
 - The monthly notification support calculation.
+- German Translation by [@uwe-ss](https://gitlab.gnome.org/uwe-ss).
 
 ## [32.0] - 2025-02-01
 
