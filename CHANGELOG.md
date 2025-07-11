@@ -9,6 +9,7 @@ We go to the next version after each release on the
 
 ### Added
 
+- GNOME Shell 49 Support.
 - Window Menu Visibility.
 
 ### Fixed
