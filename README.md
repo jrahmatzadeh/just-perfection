@@ -18,9 +18,9 @@ This extension allows you to do the following:
 | Always Show Workspace Switcher on Dynamic Workspaces |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Animation Speed or Disable it                        | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | App Gesture                                          | Yes  | Yes  |      |      |      |      |      |      |      |      |      |      |
-| App Menu Icon Visibility                             | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| App Menu Label Visibility                            | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| App Menu Visibility                                  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
+| App Menu Icon Visibility                             | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |      |      |      |      |      |
+| App Menu Label Visibility                            | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |      |      |      |      |      |
+| App Menu Visibility                                  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |      |      |      |      |      |
 | Applications Button Visibility                       | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Background Menu Visibility                           | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | Calendar Visibility                                  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
