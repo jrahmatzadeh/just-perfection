@@ -1643,15 +1643,19 @@ export class API
             return;
         }
 
-        let display = global.display;
-
-        let createdFunction = (display, window) => {
-            if (window.can_maximize()) {
-                window.maximize(this._meta.MaximizeFlags.HORIZONTAL | this._meta.MaximizeFlags.VERTICAL);
+        this._displayWindowCreatedSignal = global.display.connect(
+            'window-created',
+            (display, window) => {
+                if (!window.can_maximize()) {
+                    return;
+                }
+                if (this.#shellVersion >= 49) {
+                    window.maximize();
+                } else {
+                    window.maximize(this._meta.MaximizeFlags.HORIZONTAL | this._meta.MaximizeFlags.VERTICAL);
+                }
             }
-        };
-
-        this._displayWindowCreatedSignal = display.connect('window-created', createdFunction);
+        );
     }
 
     /**
@@ -1665,9 +1669,7 @@ export class API
             return;
         }
 
-        let display = global.display;
-
-        display.disconnect(this._displayWindowCreatedSignal);
+        global.display.disconnect(this._displayWindowCreatedSignal);
         delete(this._displayWindowCreatedSignal);
     }
 
