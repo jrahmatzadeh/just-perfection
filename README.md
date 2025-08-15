@@ -89,17 +89,17 @@ This extension allows you to do the following:
 | GNOME Shell Version | End Of Support | Status             | Last Version  |
 | ------------------- | -------------- | ------------------ | ------------- |
 | 49                  | TBA            | Supported          | TBA           |
-| 48                  | TBA            | Supported          | 34            |
+| 48                  | July 2026      | Supported          | 34            |
 | 47                  | July 2026      | Supported          | 34            |
 | 46                  | July 2028      | Supported          | 34            |
-| 45                  | July 2025      | Supported          | 34            |
+| 45                  | July 2026      | Supported          | 34            |
 | 44                  | July 2024      | EOS                | 26            |
 | 43                  | July 2023      | EOS                | 26            |
 | 42                  | July 2026      | No New Features    | 26            |
 | 41                  | May 2022       | EOS                | 24            |
 | 40                  | December 2021  | EOS                | 24            |
-| 3.38                | July 2025      | No New Features    | 24            |
-| 3.36                | July 2025      | No New Features    | 24            |
+| 3.38                | July 2025      | EOS                | 24            |
+| 3.36                | July 2025      | EOS                | 24            |
 
 ## Install
 
