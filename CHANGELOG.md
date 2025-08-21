@@ -15,6 +15,7 @@ We go to the next version after each release on the
 ### Fixed
 
 - Avoid showing support notifications immediately after login.
+- Primary monitor error for registering looking glass signals.
 - Startup freeze on NixOS.
 - The page icon in preferences window for GNOME Shell 48.
 

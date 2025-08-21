@@ -145,7 +145,28 @@ export class API
     open()
     {
         this.UIStyleClassAdd(this.#getAPIClassname('shell-version'));
-        this.#registerLookingGlassSignals();
+
+        // Getting the looking glass instance before having primary monitor
+        // can cause fatal error. So we wait for primary monitor
+        // until it is available
+        // Fixes #166
+        this.#timeoutIds.registerLookingGlassSignals = this._glib.timeout_add(
+            this._glib.PRIORITY_DEFAULT,
+            1000,
+            () => {
+                let pMonitor = this._main.layoutManager.primaryMonitor;
+
+                if (!pMonitor) {
+                    return this._glib.SOURCE_CONTINUE;
+                }
+
+                this.#registerLookingGlassSignals();
+
+                this.#timeoutIds.registerLookingGlassSignals = null;
+
+                return this._glib.SOURCE_REMOVE;
+            }
+        );
     }
 
     /**
@@ -155,16 +176,18 @@ export class API
      */
     close()
     {
+        for (let [name, id] of Object.entries(this.#timeoutIds)) {
+            if (id) {
+                this._glib.source_remove(id);
+            }
+            delete(this.#timeoutIds[name]);
+        }
+
         this.UIStyleClassRemove(this.#getAPIClassname('shell-version'));
         this.#startSearchSignal(false);
         this.#computeWorkspacesBoxForStateSetDefault();
         this.#altTabSizesSetDefault();
         this.#unregisterLookingGlassSignals();
-        
-        for (let [name, id] of Object.entries(this.#timeoutIds)) {
-            this._glib.source_remove(id);
-            delete(this.#timeoutIds[name]);
-        }
     }
 
     /**
