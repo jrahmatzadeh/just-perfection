@@ -188,6 +188,7 @@ export class API
         this.#computeWorkspacesBoxForStateSetDefault();
         this.#altTabSizesSetDefault();
         this.#unregisterLookingGlassSignals();
+        this.#stopAllOnQuickSettingsPropertyCalls();
     }
 
     /**
@@ -3488,15 +3489,58 @@ export class API
      */
     #onQuickSettingsPropertyCall(propertyName, func)
     {
-        this._glib.idle_add(this._glib.PRIORITY_DEFAULT_IDLE, () => {
-            const quickSettings = this._main.panel.statusArea.quickSettings;
+        const quickSettings = this._main.panel.statusArea.quickSettings;
+        const indicators = quickSettings._indicators;
 
-            if (!quickSettings[propertyName]) {
-                return this._glib.SOURCE_CONTINUE;
-            }
+        if (quickSettings[propertyName]) {
             func(quickSettings[propertyName]);
-            return this._glib.SOURCE_REMOVE;
-        });
+            return;
+        }
+
+        if (!this._quickSettingsCallSignals) {
+            this._quickSettingsCallSignals = {};
+        }
+
+        if (this._quickSettingsCallSignals[propertyName]) {
+            indicators.disconnect(this._quickSettingsCallSignals[propertyName]);
+        }
+
+        this._quickSettingsCallSignals[propertyName] = indicators.connect(
+            (this.#shellVersion >= 46) ? 'child-added' : 'actor-added',
+            () => {
+                if (!quickSettings[propertyName]) {
+                    return;
+                }
+
+                if (this._quickSettingsCallSignals[propertyName]) {
+                    indicators.disconnect(this._quickSettingsCallSignals[propertyName]);
+                }
+
+                func(quickSettings[propertyName]);
+            }
+        );
+    }
+
+    /**
+     * disconnect all quick settings property calls
+     *
+     * @returns {void}
+     */
+    #stopAllOnQuickSettingsPropertyCalls()
+    {
+        if (!this._quickSettingsCallSignals) {
+            return;
+        }
+
+        const indicators = this._main.panel.statusArea.quickSettings._indicators;
+
+        for (let [_name, id] of Object.entries(this._quickSettingsCallSignals)) {
+            if (id) {
+                indicators.disconnect(id);
+            }
+        }
+
+        delete(this._quickSettingsCallSignals);
     }
 
     /**
