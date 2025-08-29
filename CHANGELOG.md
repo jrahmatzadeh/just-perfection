@@ -7,6 +7,8 @@ We go to the next version after each release on the
 
 ## [Unreleased]
 
+## [35.0] - 2025-08-29
+
 ### Added
 
 - GNOME Shell 49 Support.

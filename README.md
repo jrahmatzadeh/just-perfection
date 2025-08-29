@@ -88,11 +88,11 @@ This extension allows you to do the following:
 
 | GNOME Shell Version | End Of Support | Status             | Last Version  |
 | ------------------- | -------------- | ------------------ | ------------- |
-| 49                  | TBA            | Supported          | TBA           |
-| 48                  | July 2026      | Supported          | 34            |
-| 47                  | July 2026      | Supported          | 34            |
-| 46                  | July 2028      | Supported          | 34            |
-| 45                  | July 2026      | Supported          | 34            |
+| 49                  | TBA            | Supported          | 35            |
+| 48                  | July 2026      | Supported          | 35            |
+| 47                  | July 2026      | Supported          | 35            |
+| 46                  | July 2028      | Supported          | 35            |
+| 45                  | July 2026      | Supported          | 35            |
 | 44                  | July 2024      | EOS                | 26            |
 | 43                  | July 2023      | EOS                | 26            |
 | 42                  | July 2026      | No New Features    | 26            |
