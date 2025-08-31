@@ -6,83 +6,84 @@
 
 This extension allows you to do the following:
 
-| Feature                                              | 3.36 | 3.38 | 40   | 41   | 42   | 43   | 44   | 45   | 46   | 47   | 48   | 49   |
-| ---------------------------------------------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| Accent Color for Icons                               |      |      |      |      |      |      |      |      |      | Yes  | Yes  | Yes  |
-| Accessibility Menu Visibility                        | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Activities Button Icon                               | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |      |      |      |      |      |
-| Activities button Visibility                         | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Alt Tab Icon Size                                    | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Alt Tab Window Preview Icon Size                     | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Alt Tab Window Preview Size                          | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Always Show Workspace Switcher on Dynamic Workspaces |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Animation Speed or Disable it                        | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| App Gesture                                          | Yes  | Yes  |      |      |      |      |      |      |      |      |      |      |
-| App Menu Icon Visibility                             | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |      |      |      |      |      |
-| App Menu Label Visibility                            | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |      |      |      |      |      |
-| App Menu Visibility                                  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |      |      |      |      |      |
-| Applications Button Visibility                       | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Background Menu Visibility                           | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Calendar Visibility                                  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Clock Menu Position                                  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Clock Menu Visibility                                | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Dash App Running Dot Visibility                      |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Dash Icon Size                                       | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Dash Separator Visibility                            |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Dash Visibility                                      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Disable Overlay Key                                  |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Disable Type to Search                               | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Double Super Key to App Grid                         |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Events in Clock Menu Visibility                      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| GNOME Shell Theme Override                           | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Hot Corner                                           | Yes  | Yes  | Yes  |      |      |      |      |      |      |      |      |      |
-| Invert Calendar Column Items                         |      |      |      |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Keyboard Layout Visibility                           | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Looking Glass Size                                   | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Maximum Displayed Search Results                     |      |      |      |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Notification Banner Position                         | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| OSD Position                                         |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| OSD Visibility                                       | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Overview Spacing Size                                |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Panel Arrow Visibility                               | Yes  | Yes  |      |      |      |      |      |      |      |      |      |      |
-| Panel Button Padding Size                            | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Panel Height                                         | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Panel icon size                                      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Panel Indicator Padding Size                         | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Panel Notification icon Visibility                   | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Panel Position                                       | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Panel Round Corner Size                              | Yes  | Yes  | Yes  | Yes  |      |      |      |      |      |      |      |      |
-| Panel Visibility                                     | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Panel Visibility in Overview                         | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Power Icon Visibility                                | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Quick Settings Airplane Mode Toggle Visibility       |      |      |      |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Quick Settings Dark Mode Toggle Visibility           |      |      |      |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Quick Settings Menu Visibility                       |      |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Quick Settings Night Light Toggle Visibility         |      |      |      |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Ripple Box                                           | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Screen Recording Indicator Visibility                |      |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Screen Sharing Indicator Visibility                  |      |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Search Visibility                                    | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Startup Status                                       |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Switcher Popup Delay                                 | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| System Menu (Aggregate Menu) Visibility              | Yes  | Yes  | Yes  | Yes  | Yes  |      |      |      |      |      |      |      |
-| Take Screenshot Button in Window Menu Visibility     |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Weather Visibility                                   | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Window Demands Attention Focus                       | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Window Maximized on Create                           |      |      |      |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Window Menu Visibility                               |      |      |      |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Window Picker Caption Visibility                     | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Window Picker Close Button Visibility                | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Window Picker Icon                                   |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Workspace Background Corner Size in Overview         |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Workspace Peek                                       |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Workspace Popup Visibility                           | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Workspace Switcher Click To Main View                |      |      |      |      |      |      |      | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Workspace Switcher Size                              |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Workspace Switcher Visibility                        | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Workspace Wraparound                                 | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| Workspaces in app grid Visibility                    |      |      | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
-| World Clock Visibility                               | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  | Yes  |
+| Feature                                              | GNOME Shell Version |
+| ---------------------------------------------------- | ------------------- |
+| Accent Color for Icons                               | 47+                 |
+| Accessibility Menu Visibility                        | 3.36+               |
+| Activities Button Icon                               | 3.36 - 44           |
+| Activities button Visibility                         | 3.36+               |
+| Alt Tab Icon Size                                    | 3.36+               |
+| Alt Tab Window Preview Icon Size                     | 3.36+               |
+| Alt Tab Window Preview Size                          | 3.36+               |
+| Always Show Workspace Switcher on Dynamic Workspaces | 40+                 |
+| Animation Speed or Disable it                        | 3.36+               |
+| App Gesture                                          | 3.36 - 3.38         |
+| App Menu Icon Visibility                             | 3.36 - 44           |
+| App Menu Label Visibility                            | 3.36 - 44           |
+| App Menu Visibility                                  | 3.36 - 44           |
+| Applications Button Visibility                       | 3.36+               |
+| Background Menu Visibility                           | 3.36+               |
+| Calendar Visibility                                  | 3.36+               |
+| Clock Menu Position                                  | 3.36+               |
+| Clock Menu Visibility                                | 3.36+               |
+| Dash App Running Dot Visibility                      | 42+                 |
+| Dash Icon Size                                       | 3.36+               |
+| Dash Separator Visibility                            | 40+                 |
+| Dash Visibility                                      | 3.36+               |
+| Disable Overlay Key                                  | 42+                 |
+| Disable Type to Search                               | 3.36+               |
+| Double Super Key to App Grid                         | 40+                 |
+| Events in Clock Menu Visibility                      | 3.36+               |
+| GNOME Shell Theme Override                           | 3.36+               |
+| Hot Corner                                           | 3.36 - 40           |
+| Invert Calendar Column Items                         | 45+                 |
+| Keyboard Layout Visibility                           | 3.36+               |
+| Looking Glass Size                                   | 3.36+               |
+| Maximum Displayed Search Results                     | 45+                 |
+| Notification Banner Position                         | 3.36+               |
+| OSD Position                                         | 42+                 |
+| OSD Visibility                                       | 3.36+               |
+| Overview Spacing Size                                | 40+                 |
+| Panel Arrow Visibility                               | 3.36 - 3.38         |
+| Panel Button Padding Size                            | 3.36+               |
+| Panel Height                                         | 3.36+               |
+| Panel icon size                                      | 3.36+               |
+| Panel Indicator Padding Size                         | 3.36+               |
+| Panel Notification icon Visibility                   | 3.36+               |
+| Panel Position                                       | 3.36+               |
+| Panel Round Corner Size                              | 3.36 - 41           |
+| Panel Visibility                                     | 3.36+               |
+| Panel Visibility in Overview                         | 3.36+               |
+| Power Icon Visibility                                | 3.36+               |
+| Quick Settings Airplane Mode Toggle Visibility       | 45+                 |
+| Quick Settings Dark Mode Toggle Visibility           | 45+                 |
+| Quick Settings Menu Visibility                       | 43+                 |
+| Quick Settings Night Light Toggle Visibility         | 45+                 |
+| Ripple Box                                           | 3.36+               |
+| Screen Recording Indicator Visibility                | 43+                 |
+| Screen Sharing Indicator Visibility                  | 43+                 |
+| Search Visibility                                    | 3.36+               |
+| Startup Status                                       | 40+                 |
+| Switcher Popup Delay                                 | 3.36+               |
+| System Menu (Aggregate Menu) Visibility              | 3.36 - 42           |
+| Take Screenshot Button in Window Menu Visibility     | 42+                 |
+| Weather Visibility                                   | 3.36+               |
+| Window Demands Attention Focus                       | 3.36+               |
+| Window Maximized on Create                           | 45+                 |
+| Window Menu Visibility                               | 45+                 |
+| Window Picker Caption Visibility                     | 3.36+               |
+| Window Picker Close Button Visibility                | 3.36+               |
+| Window Picker Icon                                   | 40+                 |
+| Workspace Background Corner Size in Overview         | 40+                 |
+| Workspace Peek                                       | 42+                 |
+| Workspace Popup Visibility                           | 3.36+               |
+| Workspace Switcher Click To Main View                | 45+                 |
+| Workspace Switcher Size                              | 40+                 |
+| Workspace Switcher Visibility                        | 3.36+               |
+| Workspace Wraparound                                 | 3.36+               |
+| Workspaces in app grid Visibility                    | 40+                 |
+| World Clock Visibility                               | 3.36+               |
+
 
 ## GNOME Shell Support
 
