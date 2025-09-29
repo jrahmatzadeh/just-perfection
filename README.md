@@ -129,7 +129,7 @@ You can support my work by sending me some crypto:
 | Bitcoin           | bc1qn6p0k8sapmxgedn8qjhd5gm2yzy46t5s296lnd                                                              |
 | Bitcoin Cash      | qzhuj2kdw4zjrg8r2j7knx5uzqdcpv5lwv5uxq04e0                                                              |
 | Ethereum          | 0xE4A6C46E1095C49688645c132672cB04d1402026                                                              |
-| XRP               | rMvJGGw3eWat3vm7TRjUb5XAtazoSm399R                                                                      |
+| XRP               | rEneFYpbFmTB7ejLphTwjsj8ityezR1NeY                                                                      |
 | USDT (Tether)     | 0xE4A6C46E1095C49688645c132672cB04d1402026                                                              |
 | USDC              | 0xE4A6C46E1095C49688645c132672cB04d1402026                                                              |
 | Solana            | 3M9d8arcHiuqAwso9zTX4pvZRoaeVVomkovWmGCYgDG2                                                            |
