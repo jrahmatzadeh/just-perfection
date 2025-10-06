@@ -54,6 +54,13 @@ export class Prefs
     #resource = null;
 
     /**
+     * Instance of Adw
+     *
+     * @type {Adw|null}
+     */
+    #adw = null;
+
+    /**
      * Instance of Gtk
      *
      * @type {Gtk|null}
@@ -73,6 +80,13 @@ export class Prefs
      * @type {Gio|null}
      */
     #gio = null;
+
+    /**
+     * Instance of GLib
+     *
+     * @type {GLib|null}
+     */
+    #glib = null;
 
     /**
      * All available profile names
@@ -117,9 +131,11 @@ export class Prefs
      *   'Builder' instance of Gtk::Builder
      *   'Settings' instance of Gio::Settings
      *   'CssProvider': instance of Gtk::CssProvider
+     *   'Adw' reference to Adw
      *   'Gtk' reference to Gtk
      *   'Gdk' reference to Gdk
      *   'Gio' reference to Gio
+     *   'GLib' reference to GLib
      * @param {PrefsKeys.PrefsKeys} prefsKeys instance of PrefsKeys
      * @param {number} shellVersion float in major.minor format
      */
@@ -128,9 +144,11 @@ export class Prefs
         this.#settings = dependencies['Settings'] || null;
         this.#builder = dependencies['Builder'] || null;
         this.#cssProvider = dependencies['CssProvider'] || null;
+        this.#adw = dependencies['Adw'] || null;
         this.#gtk = dependencies['Gtk'] || null;
         this.#gdk = dependencies['Gdk'] || null;
         this.#gio = dependencies['Gio'] || null;
+        this.#glib = dependencies['GLib'] || null;
 
         this.#prefsKeys = prefsKeys;
         this.#shellVersion = shellVersion;
@@ -149,11 +167,12 @@ export class Prefs
      {
          // changing the order here can change the elements order in ui 
          let uiFilenames = [
-             'profile',
-             'visibility',
-             'icons',
-             'behavior',
-             'customize',
+             'menu',
+             'pages/profile',
+             'pages/visibility',
+             'pages/icons',
+             'pages/behavior',
+             'pages/customize',
          ];
 
          this.#loadResource(ResourcesFolderPath);
@@ -175,15 +194,20 @@ export class Prefs
          }
 
          for (let uiFilename of uiFilenames) {
-             let page = this.#builder.get_object(uiFilename);
+             if (!uiFilename.startsWith('pages/')) {
+                 continue;
+             }
+             let page = this.#builder.get_object(uiFilename.replace('pages/', ''));
              window.add(page);
          }
- 
+
+         this.#addMainMenu(window);
          this.#setValues();
          this.#guessProfile();
          this.#onlyShowSupportedRows();
          this.#loadCryptoSupportAddress();
          this.#registerAllSignals(window);
+         this.#registerAllActions(window);
 
          this.#setWindowSize(window);
 
@@ -244,6 +268,88 @@ export class Prefs
         let scale = pm.get_scale_factor();
 
         return [geo.width, geo.height, scale];
+    }
+
+     /**
+      * get header bar widget
+      *
+      * @param {Gtk.Widget} parent the widget that may contain the header bar
+      *
+      * @returns {void}
+      */
+     #getHeaderBar(parent)
+     {
+        const children = parent.observe_children();
+    
+        if (!children) {
+            return null;
+        }
+
+        for (let i = 0; i < children.get_n_items(); i++) {
+            const child = children.get_item(i);
+            if (child instanceof this.#adw.HeaderBar) {
+                return child;
+            }
+            const widget = this.#getHeaderBar(child);
+            if (widget) {
+                return widget;
+            }
+        }
+
+        return null;
+    }
+
+    /**
+     * add main menu to the header bar
+     *
+     * @param {Adw.PreferencesWindow} window prefs dialog
+     *
+     * @returns {void}
+     */
+    #addMainMenu(window)
+    {
+        let headerBar = this.#getHeaderBar(window);
+
+        headerBar?.pack_end(this.#builder.get_object('menu_button'));
+    }
+
+    /**
+     * register all actions
+     *
+     * @param {Adw.PreferencesWindow} window prefs dialog
+     *
+     * @returns {void}
+     */
+    #registerAllActions(window)
+    {
+        this.#registerLinksActions(window);
+    }
+
+    /**
+     * register links action
+     *
+     * @param {Adw.PreferencesWindow} window prefs dialog
+     *
+     * @returns {void}
+     */
+    #registerLinksActions(window)
+    {
+        let group = new this.#gio.SimpleActionGroup();
+        window.insert_action_group('links', group);
+
+        let openUriAction = new this.#gio.SimpleAction({
+            name: 'open-uri',
+            parameter_type: new this.#glib.VariantType('s'),
+        });
+        openUriAction.connect(
+            'activate',
+            (_self, target) => {
+                const uri = target.get_string()[0];
+                this.#gio.AppInfo.launch_default_for_uri(uri, null);
+            }
+        );
+
+        group.add_action(openUriAction);
     }
 
     /**

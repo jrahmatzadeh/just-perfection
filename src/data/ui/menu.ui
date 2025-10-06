@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+
+  <menu id="menu">
+
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Changelog</attribute>
+        <attribute name="action">links.open-uri</attribute>
+        <attribute name="target" type="s">"https://gitlab.gnome.org/jrahmatzadeh/just-perfection/-/blob/main/CHANGELOG.md"</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Bug Report</attribute>
+        <attribute name="action">links.open-uri</attribute>
+        <attribute name="target" type="s">"https://gitlab.gnome.org/jrahmatzadeh/just-perfection/-/issues"</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">YouTube Channel</attribute>
+        <attribute name="action">links.open-uri</attribute>
+        <attribute name="target" type="s">"https://www.youtube.com/channel/UCIPetZTndV_mB3GT6tNQ2Zw"</attribute>
+      </item>
+    </section>
+
+  </menu>
+
+  <object class="GtkMenuButton" id="menu_button">
+    <property name="menu-model">menu</property>
+    <property name="icon-name">open-menu-symbolic</property>
+  </object>
+
+</interface>

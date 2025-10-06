@@ -207,37 +207,6 @@ Thank you for your support!</property>
         
       </object>
     </child>
-
-    <child>
-      <object class="AdwPreferencesGroup" id="links_group">
-        <property name="title" translatable="yes">Links</property>
-
-        <child>
-          <object class="AdwActionRow">
-            <property name="title" translatable="yes">Bug Report</property>
-            <property name="activatable-widget">bug_report_linkbutton</property>
-            <child>
-              <object class="GtkLinkButton" id="bug_report_linkbutton">
-                <property name="uri">https://gitlab.gnome.org/jrahmatzadeh/just-perfection/-/issues</property>
-              </object>
-            </child>
-          </object>
-        </child>
-
-        <child>
-          <object class="AdwActionRow">
-            <property name="title" translatable="yes">YouTube Channel</property>
-            <property name="activatable-widget">youtube_linkbutton</property>
-            <child>
-              <object class="GtkLinkButton" id="youtube_linkbutton">
-                <property name="uri">https://www.youtube.com/channel/UCIPetZTndV_mB3GT6tNQ2Zw</property>
-              </object>
-            </child>
-          </object>
-        </child>
-
-      </object>
-    </child>
     
   </object>
 

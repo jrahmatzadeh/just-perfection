@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
   <gresource prefix="/org/gnome/Shell/Extensions/justperfection">
-    <file preprocess="xml-stripblanks">ui/behavior.ui</file>
-    <file preprocess="xml-stripblanks">ui/customize.ui</file>
-    <file preprocess="xml-stripblanks">ui/icons.ui</file>
-    <file preprocess="xml-stripblanks">ui/profile.ui</file>
-    <file preprocess="xml-stripblanks">ui/visibility.ui</file>
+    <file preprocess="xml-stripblanks">ui/pages/behavior.ui</file>
+    <file preprocess="xml-stripblanks">ui/pages/customize.ui</file>
+    <file preprocess="xml-stripblanks">ui/pages/icons.ui</file>
+    <file preprocess="xml-stripblanks">ui/pages/profile.ui</file>
+    <file preprocess="xml-stripblanks">ui/pages/visibility.ui</file>
+    <file preprocess="xml-stripblanks">ui/menu.ui</file>
     <file preprocess="xml-stripblanks">imgs/donation.svg</file>
     <file preprocess="xml-stripblanks">imgs/qr-bitcoin.svg</file>
     <file preprocess="xml-stripblanks">imgs/qr-bitcoin-cash.svg</file>
