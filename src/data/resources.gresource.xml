@@ -3,7 +3,6 @@
   <gresource prefix="/org/gnome/Shell/Extensions/justperfection">
     <file preprocess="xml-stripblanks">ui/pages/behavior.ui</file>
     <file preprocess="xml-stripblanks">ui/pages/customize.ui</file>
-    <file preprocess="xml-stripblanks">ui/pages/icons.ui</file>
     <file preprocess="xml-stripblanks">ui/pages/profile.ui</file>
     <file preprocess="xml-stripblanks">ui/pages/visibility.ui</file>
     <file preprocess="xml-stripblanks">ui/menu.ui</file>

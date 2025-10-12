@@ -7,6 +7,10 @@ We go to the next version after each release on the
 
 ## [Unreleased]
 
+### Removed
+
+- Icons page from preferences window and moved the items to the visibility page.
+
 ## [35.0] - 2025-08-29
 
 ### Added

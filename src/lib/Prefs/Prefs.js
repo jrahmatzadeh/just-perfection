@@ -170,7 +170,6 @@ export class Prefs
              'menu',
              'pages/profile',
              'pages/visibility',
-             'pages/icons',
              'pages/behavior',
              'pages/customize',
          ];
