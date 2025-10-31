@@ -866,6 +866,8 @@ export class API
         }
 
         this._main.osdWindowManager.show = this.#originals['osdWindowManagerShow'];
+        this._main.osdWindowManager.showOne = this.#originals['osdWindowManagerShowOne'];
+        this._main.osdWindowManager.showAll = this.#originals['osdWindowManagerShowAll'];
     }
 
     /**
@@ -880,7 +882,19 @@ export class API
             = this._main.osdWindowManager.show;
         }
 
+        if (this.#shellVersion >= 49 && !this.#originals['osdWindowManagerShowOne']) {
+            this.#originals['osdWindowManagerShowOne']
+            = this._main.osdWindowManager.showOne;
+        }
+
+        if (this.#shellVersion >= 49 && !this.#originals['osdWindowManagerShowAll']) {
+            this.#originals['osdWindowManagerShowAll']
+            = this._main.osdWindowManager.showAll;
+        }
+
         this._main.osdWindowManager.show = () => {};
+        this._main.osdWindowManager.showOne = () => {};
+        this._main.osdWindowManager.showAll = () => {};
     }
 
     /**

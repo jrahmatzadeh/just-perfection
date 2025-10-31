@@ -7,6 +7,10 @@ We go to the next version after each release on the
 
 ## [Unreleased]
 
+### Fixed
+
+- On Screen Display (OSD) visibility on GNOME Shell 49.
+
 ### Removed
 
 - Icons page from preferences window and moved the items to the visibility page.
