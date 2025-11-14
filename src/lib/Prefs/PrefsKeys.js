@@ -866,17 +866,5 @@ export class PrefsKeys
             maps,
         };
     }
-
-    /**
-     * delete key
-     *
-     * @param {string} id key id
-     *
-     * @returns {void}
-     */
-    deleteKey(id)
-    {
-        delete(this.keys[id]);
-    }
 };
 
