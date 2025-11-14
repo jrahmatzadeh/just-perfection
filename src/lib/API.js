@@ -486,11 +486,11 @@ export class API
         // outside overview
         this._main.layoutManager._updateHotCorners();
 
+        // For GNOME Shell 45-48
         // Maximized windows will have bad maximized gap after unlock in Wayland
         // This is a Mutter issue,
         // See https://gitlab.gnome.org/GNOME/mutter/-/issues/1627
-        // TODO remove after the issue is fixed on Mutter
-        if (this._meta.is_wayland_compositor()) {
+        if (this.#shellVersion <= 48 && this._meta.is_wayland_compositor()) {
             let duration = this.#addToAnimationDuration(180);
             this.#timeoutIds.panelHide = this._glib.timeout_add(
                 this._glib.PRIORITY_DEFAULT,
@@ -498,6 +498,7 @@ export class API
                 () => {
                     panelBox.hide();
                     panelBox.show();
+                    this.#timeoutIds.panelHide = null;
                     return this._glib.SOURCE_REMOVE;
                 }
             );
