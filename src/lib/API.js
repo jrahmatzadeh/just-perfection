@@ -2517,7 +2517,9 @@ export class API
     {
         let SwitcherPopupProto = this._switcherPopup.SwitcherPopup.prototype;
 
-        SwitcherPopupProto.showOld = SwitcherPopupProto.show;
+        if (!SwitcherPopupProto.showOld) {
+            SwitcherPopupProto.showOld = SwitcherPopupProto.show;
+        }
 
         SwitcherPopupProto.show = function (...args) {
             let res = this.showOld(...args);
