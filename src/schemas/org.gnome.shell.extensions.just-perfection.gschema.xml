@@ -286,7 +286,7 @@
       <summary>Weather Visibility in Clock Menu</summary>
       <description>Weather Visibility Status</description>
     </key>
-    
+
     <key type="b" name="events-button">
       <default>true</default>
       <summary>Events Button Visibility in Clock Menu</summary>
@@ -414,6 +414,12 @@
       <default>true</default>
       <summary>Night Light Toggle Button Visibility In Quick Settings</summary>
       <description>Night Light Toggle Button Visibility Status</description>
+    </key>
+
+    <key type="b" name="quick-settings-backlight">
+      <default>true</default>
+      <summary>Backlight Toggle Button Visibility In Quick Settings</summary>
+      <description>Backlight Toggle Button Visibility Status</description>
     </key>
 
     <key type="b" name="quick-settings-airplane-mode">

@@ -56,6 +56,7 @@ This extension allows you to do the following:
 | Panel Visibility in Overview                         | 3.36+               |
 | Power Icon Visibility                                | 3.36+               |
 | Quick Settings Airplane Mode Toggle Visibility       | 45+                 |
+| Quick Settings Backlight Toggle Visibility           | 45+                 |
 | Quick Settings Dark Mode Toggle Visibility           | 45+                 |
 | Quick Settings Menu Visibility                       | 43+                 |
 | Quick Settings Night Light Toggle Visibility         | 45+                 |
@@ -153,5 +154,3 @@ Or support via:
 ## License
 
 This Extension has been released under The **GNU General Public License v3.0**.
-
-

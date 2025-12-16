@@ -115,6 +115,10 @@ export class Manager
             this.#applyQuickSettingsDarkMode(false);
         });
 
+        this.#settings.connect('changed::quick-settings-backlight', () => {
+            this.#applyQuickSettingsBacklight(false);
+        });
+
         this.#settings.connect('changed::quick-settings-night-light', () => {
             this.#applyQuickSettingsNightLight(false);
         });
@@ -349,6 +353,7 @@ export class Manager
         this.#applyAccessibilityMenu(false);
         this.#applyQuickSettings(false);
         this.#applyQuickSettingsDarkMode(false);
+        this.#applyQuickSettingsBacklight(false);
         this.#applyQuickSettingsNightLight(false);
         this.#applyQuickSettingsAirplaneMode(false);
         this.#applyWindowPickerIcon(false);
@@ -422,6 +427,7 @@ export class Manager
         this.#applyAccessibilityMenu(true);
         this.#applyQuickSettings(true);
         this.#applyQuickSettingsDarkMode(true);
+        this.#applyQuickSettingsBacklight(true);
         this.#applyQuickSettingsNightLight(true);
         this.#applyQuickSettingsAirplaneMode(true);
         this.#applyWindowPickerIcon(true);
@@ -717,6 +723,22 @@ export class Manager
             this.#api.quickSettingsDarkStyleToggleShow();
         } else {
             this.#api.quickSettingsDarkStyleToggleHide();
+        }
+    }
+
+    /**
+     * apply quick settings backlight mode
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+     #applyQuickSettingsBacklight(forceOriginal)
+    {
+        if (forceOriginal || this.#settings.get_boolean('quick-settings-backlight')) {
+            this.#api.quickSettingsBacklightToggleShow();
+        } else {
+            this.#api.quickSettingsBacklightToggleHide();
         }
     }
 

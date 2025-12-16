@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
-  
+
   <object class="AdwPreferencesPage" id="visibility">
     <property name="name">visibility</property>
     <property name="title" translatable="yes">Visibility</property>
@@ -9,7 +9,7 @@
     <child>
       <object class="AdwPreferencesGroup" id="visibility_group">
       <property name="title" translatable="yes">Visibility</property>
-        
+
         <child>
           <object class="AdwActionRow" id="panel_row">
             <property name="title" translatable="yes">Panel</property>
@@ -34,7 +34,7 @@
             </child>
           </object>
         </child>
-        
+
         <child>
           <object class="AdwActionRow" id="activities_button_row">
             <property name="title" translatable="yes">Activities Button</property>
@@ -107,6 +107,19 @@
             <property name="activatable-widget">quick_settings_dark_mode_switch</property>
             <child>
               <object class="GtkSwitch" id="quick_settings_dark_mode_switch">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwActionRow" id="quick_settings_backlight_row">
+            <property name="title" translatable="yes">Backlight Toggle Button</property>
+            <property name="subtitle" translatable="yes">Backlight Toggle Button in Quick settings menu</property>
+            <property name="activatable-widget">quick_settings_backlight_switch</property>
+            <child>
+              <object class="GtkSwitch" id="quick_settings_backlight_switch">
                 <property name="valign">center</property>
               </object>
             </child>
@@ -190,7 +203,7 @@
             </child>
           </object>
         </child>
-        
+
         <child>
           <object class="AdwActionRow" id="calendar_row">
             <property name="title" translatable="yes">Calendar</property>
@@ -216,7 +229,7 @@
             </child>
           </object>
         </child>
-        
+
         <child>
           <object class="AdwActionRow" id="search_row">
             <property name="title" translatable="yes">Search</property>
@@ -385,7 +398,7 @@
             </child>
           </object>
         </child>
-        
+
         <child>
           <object class="AdwActionRow" id="window_menu_row">
             <property name="title" translatable="yes">Window Menu</property>
@@ -451,8 +464,7 @@
 
       </object>
     </child>
-    
-  </object>
-  
-</interface>
 
+  </object>
+
+</interface>

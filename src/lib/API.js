@@ -3497,6 +3497,53 @@ export class API
     }
 
     /**
+     * show backlight toggle button in quick settings
+     *
+     * @returns {void}
+     */
+    quickSettingsBacklightToggleShow()
+    {
+        this.#onQuickSettingsPropertyCall('_backlight', (backlight) => {
+            let item = backlight.quickSettingsItems[0];
+
+            if (this.#originals['backlightToggleVisibleDefaultStatus'] !== undefined) {
+                item.visible = this.#originals['backlightToggleVisibleDefaultStatus'];
+                delete(this.#originals['backlightToggleVisibleDefaultStatus']);
+            }
+
+            if (this._backlightToggleShowSignal) {
+                item.disconnect(this._backlightToggleShowSignal);
+            }
+        });
+    }
+
+    /**
+     * hide backlight toggle button in quick settings
+     *
+     * @returns {void}
+     */
+    quickSettingsBacklightToggleHide()
+    {
+        this._backlightToggleShowSignal;
+
+        this.#onQuickSettingsPropertyCall('_backlight', (backlight) => {
+            let item = backlight.quickSettingsItems[0];
+
+            if (!this.#originals['backlightToggleVisibleDefaultStatus']) {
+                this.#originals['backlightToggleVisibleDefaultStatus'] = item.visible;
+            }
+
+            item.hide();
+
+            if (!this._backlightToggleShowSignal) {
+                this._backlightToggleShowSignal = item.connect('show', () => {
+                    item.hide();
+                });
+            }
+        });
+    }
+
+    /**
      * call a function when async property of quick settings is available
      *
      * @param {string} propertyName

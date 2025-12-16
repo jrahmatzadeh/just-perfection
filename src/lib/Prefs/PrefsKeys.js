@@ -144,6 +144,17 @@ export class PrefsKeys
         );
 
         this.#setKey(
+            'quick-settings-backlight',
+            'GtkSwitch',
+            true,
+            {
+                default: true,
+                minimal: true,
+                superminimal: true,
+            }
+        );
+
+        this.#setKey(
             'quick-settings-airplane-mode',
             'GtkSwitch',
             true,
