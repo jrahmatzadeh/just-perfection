@@ -294,7 +294,7 @@ export class Manager
         this.#settings.connect('changed::screen-sharing-indicator', () => {
             this.#applyScreenSharingIndicator(false);
         });
-        
+
         this.#settings.connect('changed::screen-recording-indicator', () => {
             this.#applyScreenRecordingIndicator(false);
         });
@@ -1158,7 +1158,7 @@ export class Manager
             this.#api.workspaceWraparoundEnable();
         }
     }
-    
+
     /**
      * apply ripple box settings
      *
@@ -1333,9 +1333,9 @@ export class Manager
 
     /**
      * apply looking glass size settings
-     * 
+     *
      * @param {boolean} forceOriginal force original shell setting
-     * 
+     *
      * @returns {void}
      */
     #applyLookingGlassSize(forceOriginal)
@@ -1529,7 +1529,7 @@ export class Manager
             this.#api.workspacesViewSpacingSizeSet(400);
         }
     }
-    
+
     /**
      * apply dash app running
      *
@@ -1612,4 +1612,3 @@ export class Manager
         }
     }
 }
-

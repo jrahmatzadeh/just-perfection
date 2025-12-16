@@ -54,4 +54,3 @@ export default class JustPerfectionPrefs extends ExtensionPreferences
         prefs.fillPrefsWindow(window, ResourcesFolderPath, gettextDomain);
     }
 }
-

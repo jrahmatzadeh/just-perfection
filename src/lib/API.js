@@ -43,7 +43,7 @@ const DASH_ICON_SIZES = [16, 22, 24, 32, 40, 48, 56, 64];
 
 /**
  * API to avoid calling GNOME Shell directly
- * and make all parts compatible with different GNOME Shell versions 
+ * and make all parts compatible with different GNOME Shell versions
  */
 export class API
 {
@@ -170,7 +170,7 @@ export class API
     }
 
     /**
-     * remove everything from GNOME Shell been added by this class 
+     * remove everything from GNOME Shell been added by this class
      *
      * @returns {void}
      */
@@ -446,7 +446,7 @@ export class API
             // so we fix it with top margin in search entry
             // the panel height is the actual scaled height
             // css engine applies the scale automatically so we need to use
-            // the original non-scaled value as initial value 
+            // the original non-scaled value as initial value
             const scaleFactor = this._st.ThemeContext.get_for_stage(global.stage).scale_factor;
             let marginTop = (mode === PANEL_HIDE_MODE.ALL) ? 15 : Math.round(panelHeight / scaleFactor);
             searchEntryParent.set_style(`margin-top: ${marginTop}px;`);
@@ -481,7 +481,7 @@ export class API
 
         let classname = this.#getAPIClassname('no-panel');
         this.UIStyleClassAdd(classname);
-        
+
         // update hot corners since we need to make them available
         // outside overview
         this._main.layoutManager._updateHotCorners();
@@ -580,13 +580,13 @@ export class API
     #updateWindowPreviewOverlap()
     {
         let wpp = this._windowPreview.WindowPreview.prototype;
-        
+
         if (this.isDashVisible() && wpp.overlapHeightsOld) {
             wpp.overlapHeights = wpp.overlapHeightsOld;
             delete(wpp.overlapHeightsOld);
             return;
         }
-        
+
         if (!this.isDashVisible()) {
             wpp.overlapHeightsOld = wpp.overlapHeights;
             wpp.overlapHeights = function () {
@@ -776,7 +776,7 @@ export class API
      * add search signals that needs to be show search entry when the
      * search entry is hidden
      *
-     * @param {boolean} add true means add the signal, false means remove 
+     * @param {boolean} add true means add the signal, false means remove
      *   the signal
      *
      * @returns {void}
@@ -837,7 +837,7 @@ export class API
 
     /**
      * Set maximum displayed search result
-     * 
+     *
      * @param {number} items max items
      *
      * @returns {void}
@@ -845,7 +845,7 @@ export class API
     setMaxDisplayedSearchResult(items)
     {
         let ListSearchResultsProto = this._search.ListSearchResults.prototype;
-        
+
         if (!this.#originals['searchGetMaxDisplayedResults']) {
             this.#originals['searchGetMaxDisplayedResults'] = ListSearchResultsProto._getMaxDisplayedResults;
         }
@@ -938,7 +938,7 @@ export class API
     workspaceSwitcherShow()
     {
         this.UIStyleClassRemove(this.#getAPIClassname('no-workspace'));
-        
+
         this.#workspaceSwitcherShouldShowSetToLast();
     }
 
@@ -1061,7 +1061,7 @@ export class API
     /**
      * add element to stage
      *
-     * @param {St.Widget} element widget 
+     * @param {St.Widget} element widget
      *
      * @returns {void}
      */
@@ -1077,7 +1077,7 @@ export class API
     /**
      * remove element from stage
      *
-     * @param {St.Widget} element widget 
+     * @param {St.Widget} element widget
      *
      * @returns {void}
      */
@@ -1423,7 +1423,7 @@ export class API
     }
 
     /**
-     * disconnect all clock menu position signals 
+     * disconnect all clock menu position signals
      *
      * @returns {void}
      */
@@ -1442,9 +1442,9 @@ export class API
             delete(this._clockMenuPositionSignals);
         }
     }
-     
+
     /**
-     * set the clock menu position to default 
+     * set the clock menu position to default
      *
      * @returns {void}
      */
@@ -1458,7 +1458,7 @@ export class API
      * set the clock menu position
      *
      * @param {number} pos see PANEL_BOX_POSITION
-     * @param {number} offset starts from 0 
+     * @param {number} offset starts from 0
      *
      * @returns {void}
      */
@@ -1471,7 +1471,7 @@ export class API
             this._main.panel._rightBox,
             this._main.panel._leftBox,
         ];
-        
+
         this.#disconnectClockMenuPositionSignals();
 
         let fromPos = -1;
@@ -1505,7 +1505,7 @@ export class API
         if (this.isLocked()) {
             this.dateMenuHide();
         }
-        
+
         if (!this._clockMenuPositionSignals) {
             this._clockMenuPositionSignals = [null, null, null];
             for (let i = 0; i <= 2; i++) {
@@ -1890,7 +1890,7 @@ export class API
 
         controlsLayout._computeWorkspacesBoxForState
         = this.#originals['computeWorkspacesBoxForState'];
-        
+
         if (this._appButtonForComputeWorkspacesSignal) {
             let showAppsButton = this._main.overview.dash.showAppsButton;
             showAppsButton.disconnect(this._appButtonForComputeWorkspacesSignal);
@@ -1993,7 +1993,7 @@ export class API
         // this is the same function from (ui.messageTray.messageTray._hideNotification)
         // with clutter animation mode set to EASE.
         // because the EASE_OUT_BACK (original code) causes glitch when
-        // the tray is on bottom 
+        // the tray is on bottom
         const State = this._messageTray.State;
         const ANIMATION_TIME = this._messageTray.ANIMATION_TIME;
         const Clutter = this._clutter;
@@ -2315,7 +2315,7 @@ export class API
             const cornerRadius = scaleFactor * size;
 
             const backgroundContent = this._bgManager.backgroundActor.content;
-            backgroundContent.rounded_clip_radius = 
+            backgroundContent.rounded_clip_radius =
                 Util.lerp(0, cornerRadius, this._stateAdjustment.value);
         }
 
@@ -2547,9 +2547,9 @@ export class API
 
         delete(osdWindowProto._oldShow);
         delete(this.#originals['osdWindowShow']);
-        
+
         if (
-            this.#originals['osdWindowXAlign'] !== undefined && 
+            this.#originals['osdWindowXAlign'] !== undefined &&
             this.#originals['osdWindowYAlign'] !== undefined
         ) {
             let osdWindows = this._main.osdWindowManager._osdWindows;
@@ -2582,7 +2582,7 @@ export class API
         }
 
         if (
-            this.#originals['osdWindowXAlign'] === undefined || 
+            this.#originals['osdWindowXAlign'] === undefined ||
             this.#originals['osdWindowYAlign'] === undefined
         ) {
             let osdWindows = this._main.osdWindowManager._osdWindows;
@@ -2608,7 +2608,7 @@ export class API
         ) {
             this.UIStyleClassAdd(this.#getAPIClassname('osd-position-top'));
         }
-        
+
         if (
             pos === XY_POSITION.BOTTOM_START ||
             pos === XY_POSITION.BOTTOM_CENTER ||
@@ -2616,7 +2616,7 @@ export class API
         ) {
             this.UIStyleClassAdd(this.#getAPIClassname('osd-position-bottom'));
         }
-        
+
         if (
             pos === XY_POSITION.CENTER_START ||
             pos === XY_POSITION.CENTER_CENTER ||
@@ -2700,7 +2700,7 @@ export class API
             calendarBox.insert_child_at_index(calendar, 1);
             calendarBox.insert_child_at_index(date, 2);
         }
-   
+
         this._isCalendarColumnInverted = true;
     }
 
@@ -3376,12 +3376,12 @@ export class API
 
         wsvp._getSpacing = function (box, fitMode, vertical) {
             if (fitMode === 0) {
-                return size; 
+                return size;
             }
             return this._getSpacingOld(box, fitMode, vertical);
         };
     }
-    
+
     /**
      * show dash app running dot
      *

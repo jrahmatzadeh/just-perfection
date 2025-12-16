@@ -158,4 +158,3 @@ export default class JustPerfection extends Extension
         this.#supportNotifier = null;
     }
 }
-

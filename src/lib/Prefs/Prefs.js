@@ -165,7 +165,7 @@ export class Prefs
      */
      fillPrefsWindow(window, ResourcesFolderPath, gettextDomain)
      {
-         // changing the order here can change the elements order in ui 
+         // changing the order here can change the elements order in ui
          let uiFilenames = [
              'menu',
              'pages/profile',
@@ -175,7 +175,7 @@ export class Prefs
          ];
 
          this.#loadResource(ResourcesFolderPath);
-         
+
          this.#cssProvider.load_from_resource(
             `/org/gnome/Shell/Extensions/justperfection/css/prefs.css`
          );
@@ -184,7 +184,7 @@ export class Prefs
             this.#cssProvider,
             this.#gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
          );
- 
+
          this.#builder.set_translation_domain(gettextDomain);
          for (let uiFilename of uiFilenames) {
             this.#builder.add_from_resource(
@@ -279,7 +279,7 @@ export class Prefs
      #getHeaderBar(parent)
      {
         const children = parent.observe_children();
-    
+
         if (!children) {
             return null;
         }
@@ -404,7 +404,7 @@ export class Prefs
                 case 'AdwActionRow':
                     this.#builder.get_object(key.widgetId).connect('notify::selected-item', (w) => {
                         let index = w.get_selected();
-                        let value = (index in key.maps) ? key.maps[index] : index; 
+                        let value = (index in key.maps) ? key.maps[index] : index;
                         this.#settings.set_int(key.name, value);
                         this.#guessProfile();
                     });
@@ -441,7 +441,7 @@ export class Prefs
 
     /**
      * register crypto support signals
-     * 
+     *
      * @param {Adw.PreferencesWindow} window prefs dialog
      *
      * @returns {void}
@@ -468,7 +468,7 @@ export class Prefs
 
     /**
      * load crypto address into the ui
-     * 
+     *
      * @param {number} index coming from the crypto name combobox
      *
      * @returns {void}
@@ -504,7 +504,7 @@ export class Prefs
         }
 
         for (let [, key] of Object.entries(this.#prefsKeys.keys)) {
-        
+
             if (!key.supported) {
                 continue;
             }
@@ -525,7 +525,7 @@ export class Prefs
                     value = '';
                     continue;
             }
-            
+
             for (let profile of this.#profiles) {
                 if (key.profiles[profile] === value) {
                     matchCount[profile]++;
@@ -542,7 +542,7 @@ export class Prefs
                 break;
             }
         }
-        
+
         let widget = this.#builder.get_object(`profile_${currentProfile}`);
         if (widget) {
             widget.set_active(true);

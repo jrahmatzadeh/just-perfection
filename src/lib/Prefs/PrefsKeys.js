@@ -208,7 +208,7 @@ export class PrefsKeys
                 superminimal: true,
             }
         );
-        
+
         this.#setKey(
             'dash-app-running',
             'GtkSwitch',
@@ -840,7 +840,7 @@ export class PrefsKeys
      * @param {boolean} supported whether supported in the current shell
      * @param {Object} profiles values for each profile. for example:
      *   {default: true, minimal: false}
-     * @param {Object} [maps] for example for combobox you can specify 
+     * @param {Object} [maps] for example for combobox you can specify
      *  if the index is 1 use 32 as value:
      *  {1 : 32}
      *
@@ -867,4 +867,3 @@ export class PrefsKeys
         };
     }
 };
-
