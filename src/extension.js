@@ -118,8 +118,7 @@ export default class JustPerfection extends Extension
             {
                 API: this.#api,
                 Settings: settings,
-            },
-            shellVersion
+            }
         );
 
         this.#manager.registerSettingsSignals();

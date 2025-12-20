@@ -12,13 +12,6 @@
 export class Manager
 {
     /**
-     * Current shell version
-     *
-     * @type {number|null}
-     */
-    #shellVersion = null;
-
-    /**
      * Instance of API
      *
      * @type {API|null}
@@ -38,14 +31,11 @@ export class Manager
      * @param {Object} dependencies
      *   'API' instance of lib::API
      *   'Settings' instance of Gio::Settings
-     * @param {number} shellVersion float in major.minor format
      */
-    constructor(dependencies, shellVersion)
+    constructor(dependencies)
     {
         this.#api = dependencies['API'] || null;
         this.#settings = dependencies['Settings'] || null;
-
-        this.#shellVersion = shellVersion;
     }
 
     /**
