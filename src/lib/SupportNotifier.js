@@ -106,6 +106,9 @@ export class SupportNotifier
                     this._glib.PRIORITY_LOW,
                     300,
                     () => {
+                        if (this.#isInFullscreen()) {
+                            return this._glib.SOURCE_CONTINUE;
+                        }
                         this.#showNotification();
                         this._timeoutId = null;
                         return this._glib.SOURCE_REMOVE;
@@ -162,6 +165,16 @@ export class SupportNotifier
         let showedVersion = this.#settings.get_int('support-notifier-showed-version');
 
         return this.#extensionVersion <= showedVersion;
+    }
+
+    /**
+     * check whether any app is in fullscreen
+     *
+     * @returns {boolean}
+     */
+    #isInFullscreen()
+    {
+        return this._main.layoutManager.primaryMonitor?.inFullscreen;
     }
 
     /**
