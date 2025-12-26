@@ -39,287 +39,456 @@ export class Manager
     }
 
     /**
+     * start manager
+     *
+     * @returns {void}
+     */
+    start()
+    {
+        this.#registerSettingsSignals();
+        this.#applyAll();
+    }
+
+    /**
+     * stop manager and revert everything done by manager
+     *
+     * @returns {void}
+     */
+    stop()
+    {
+        this.#unregisterSettingsSignals();
+        this.#revertAll();
+    }
+
+    /**
      * register all signals for settings
      *
      * @returns {void}
      */
-    registerSettingsSignals()
+    #registerSettingsSignals()
     {
-        this.#settings.connect('changed::panel', () => {
-            this.#applyPanel(false);
-        });
-
-        this.#settings.connect('changed::panel-in-overview', () => {
-            this.#applyPanel(false);
-        });
-
-        this.#settings.connect('changed::search', () => {
-            this.#applySearch(false);
-        });
-
-        this.#settings.connect('changed::dash', () => {
-            this.#applyDash(false);
-        });
-
-        this.#settings.connect('changed::osd', () => {
-            this.#applyOSD(false);
-        });
-
-        this.#settings.connect('changed::workspace-popup', () => {
-            this.#applyWorkspacePopup(false);
-        });
-
-        this.#settings.connect('changed::workspace', () => {
-            this.#applyWorkspace(false);
-        });
-
-        this.#settings.connect('changed::background-menu', () => {
-            this.#applyBackgroundMenu(false);
-        });
-
-        this.#settings.connect('changed::theme', () => {
-            this.#applyTheme(false);
-        });
-
-        this.#settings.connect('changed::activities-button', () => {
-            this.#applyActivitiesButton(false);
-        });
-
-        this.#settings.connect('changed::clock-menu', () => {
-            this.#applyClockMenu(false);
-        });
-
-        this.#settings.connect('changed::keyboard-layout', () => {
-            this.#applyKeyboardLayout(false);
-        });
-
-        this.#settings.connect('changed::accessibility-menu', () => {
-            this.#applyAccessibilityMenu(false);
-        });
-
-        this.#settings.connect('changed::quick-settings', () => {
-            this.#applyQuickSettings(false);
-        });
-
-        this.#settings.connect('changed::quick-settings-dark-mode', () => {
-            this.#applyQuickSettingsDarkMode(false);
-        });
-
-        this.#settings.connect('changed::quick-settings-backlight', () => {
-            this.#applyQuickSettingsBacklight(false);
-        });
-
-        this.#settings.connect('changed::quick-settings-night-light', () => {
-            this.#applyQuickSettingsNightLight(false);
-        });
-
-        this.#settings.connect('changed::quick-settings-airplane-mode', () => {
-            this.#applyQuickSettingsAirplaneMode(false);
-        });
-
-        this.#settings.connect('changed::window-picker-icon', () => {
-            this.#applyWindowPickerIcon(false);
-        });
-
-        this.#settings.connect('changed::type-to-search', () => {
-            this.#applyTypeToSearch(false);
-        });
-
-        this.#settings.connect('changed::workspace-switcher-size', () => {
-            this.#applyWorkspaceSwitcherSize(false);
-        });
-
-        this.#settings.connect('changed::power-icon', () => {
-            this.#applyPowerIcon(false);
-        });
-
-        this.#settings.connect('changed::top-panel-position', () => {
-            this.#applyTopPanelPosition(false);
-        });
-
-        this.#settings.connect('changed::panel-notification-icon', () => {
-            this.#applyPanelNotificationIcon(false);
-        });
-
-        this.#settings.connect('changed::clock-menu-position', () => {
-            this.#applyClockMenuPosition(false);
-        });
-
-        this.#settings.connect('changed::clock-menu-position-offset', () => {
-            this.#applyClockMenuPosition(false);
-        });
-
-        this.#settings.connect('changed::show-apps-button', () => {
-            this.#applyShowAppsButton(false);
-        });
-
-        this.#settings.connect('changed::animation', () => {
-            this.#applyAnimation(false);
-        });
-
-        this.#settings.connect('changed::window-demands-attention-focus', () => {
-            this.#applyWindowDemandsAttentionFocus(false);
-        });
-
-        this.#settings.connect('changed::window-maximized-on-create', () => {
-            this.#applyWindowMaximizedOnCreate(false);
-        });
-
-        this.#settings.connect('changed::dash-icon-size', () => {
-            this.#applyDashIconSize(false);
-        });
-
-        this.#settings.connect('changed::startup-status', () => {
-            this.#applyStartupStatus(false);
-        });
-
-        this.#settings.connect('changed::workspaces-in-app-grid', () => {
-            this.#applyWorkspacesInAppGrid(false);
-        });
-
-        this.#settings.connect('changed::notification-banner-position', () => {
-            this.#applyNotificationBannerPosition(false);
-        });
-
-        this.#settings.connect('changed::workspace-switcher-should-show', () => {
-            this.#applyWorkspaceSwitcherShouldShow(false);
-        });
-
-        this.#settings.connect('changed::panel-size', () => {
-            this.#applyPanelSize(false);
-        });
-
-        this.#settings.connect('changed::panel-button-padding-size', () => {
-            this.#applyPanelButtonPaddingSize(false);
-        });
-
-        this.#settings.connect('changed::panel-indicator-padding-size', () => {
-            this.#applyPanelIndicatorPaddingSize(false);
-        });
-
-        this.#settings.connect('changed::window-preview-caption', () => {
-            this.#applyWindowPreviewCaption(false);
-        });
-
-        this.#settings.connect('changed::window-preview-close-button', () => {
-            this.#applyWindowPreviewCloseButton(false);
-        });
-
-        this.#settings.connect('changed::workspace-background-corner-size', () => {
-            this.#applyWorkspaceBackgroundCornerSize(false);
-        });
-
-        this.#settings.connect('changed::workspace-wrap-around', () => {
-            this.#applyWorkspaceWrapAround(false);
-        });
-
-        this.#settings.connect('changed::ripple-box', () => {
-            this.#applyRippleBox(false);
-        });
-
-        this.#settings.connect('changed::overlay-key', () => {
-            this.#applyOverlayKey(false);
-        });
-
-        this.#settings.connect('changed::double-super-to-appgrid', () => {
-            this.#applyOverlayKey(false);
-        });
-
-        this.#settings.connect('changed::switcher-popup-delay', () => {
-            this.#applySwitcherPopupDelay(false);
-        });
-
-        this.#settings.connect('changed::world-clock', () => {
-            this.#applyWorldClock(false);
-        });
-
-        this.#settings.connect('changed::weather', () => {
-            this.#applyWeather(false);
-        });
-
-        this.#settings.connect('changed::calendar', () => {
-            this.#applyCalendar(false);
-        });
-
-        this.#settings.connect('changed::events-button', () => {
-            this.#applyEventsButton(false);
-        });
-
-        this.#settings.connect('changed::panel-icon-size', () => {
-            this.#applyPanelIconSize(false);
-        });
-
-        this.#settings.connect('changed::dash-separator', () => {
-            this.#applyDashSeparator(false);
-        });
-
-        this.#settings.connect('changed::looking-glass-width', () => {
-            this.#applyLookingGlassSize(false);
-        });
-
-        this.#settings.connect('changed::looking-glass-height', () => {
-            this.#applyLookingGlassSize(false);
-        });
-
-        this.#settings.connect('changed::osd-position', () => {
-            this.#applyOSDPosition(false);
-        });
-
-        this.#settings.connect('changed::window-menu', () => {
-            this.#applyWindowMenu(false);
-        });
-
-        this.#settings.connect('changed::window-menu-take-screenshot-button', () => {
-            this.#applyWindowMenuTakeScreenshotButton(false);
-        });
-
-        this.#settings.connect('changed::alt-tab-window-preview-size', () => {
-            this.#applyAltTabWindowPreviewSize(false);
-        });
-
-        this.#settings.connect('changed::alt-tab-small-icon-size', () => {
-            this.#applyAltTabSmallIconSize(false);
-        });
-
-        this.#settings.connect('changed::alt-tab-icon-size', () => {
-            this.#applyAltTabIconSize(false);
-        });
-
-        this.#settings.connect('changed::screen-sharing-indicator', () => {
-            this.#applyScreenSharingIndicator(false);
-        });
-
-        this.#settings.connect('changed::screen-recording-indicator', () => {
-            this.#applyScreenRecordingIndicator(false);
-        });
-
-        this.#settings.connect('changed::controls-manager-spacing-size', () => {
-            this.#applyControlsManagerSpacingSize(false);
-        });
-
-        this.#settings.connect('changed::workspace-peek', () => {
-            this.#applyWorkspacePeek(false);
-        });
-
-        this.#settings.connect('changed::dash-app-running', () => {
-            this.#applyDashAppRunning(false);
-        });
-
-        this.#settings.connect('changed::max-displayed-search-results', () => {
-            this.#applyMaxDisplayedSearchResults(false);
-        });
-
-        this.#settings.connect('changed::accent-color-icon', () => {
-            this.#applyAccentColorIcon(false);
-        });
-
-        this.#settings.connect('changed::workspace-thumbnail-to-main-view', () => {
-            this.#applyWorkspaceThumbnailToMainView(false);
-        });
-
-        this.#settings.connect('changed::invert-calendar-column-items', () => {
-            this.#applyInvertCalendarColumnItems(false);
-        });
+        this.#settings.connectObject(
+            'changed::panel',
+            () => this.#applyPanel(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::panel-in-overview',
+            () => this.#applyPanel(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::search',
+            () => this.#applySearch(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::dash',
+            () => this.#applyDash(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::osd',
+            () =>this.#applyOSD(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::workspace-popup',
+            () => this.#applyWorkspacePopup(false),
+            this
+        );
+
+        this.#settings.connectObject('changed::workspace',
+            () => this.#applyWorkspace(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::background-menu',
+            () => this.#applyBackgroundMenu(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::theme',
+            () => this.#applyTheme(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::activities-button',
+            () => this.#applyActivitiesButton(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::clock-menu',
+            () => this.#applyClockMenu(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::keyboard-layout',
+            () => this.#applyKeyboardLayout(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::accessibility-menu',
+            () => this.#applyAccessibilityMenu(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::quick-settings',
+            () => this.#applyQuickSettings(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::quick-settings-dark-mode',
+            () => this.#applyQuickSettingsDarkMode(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::quick-settings-backlight',
+            () => this.#applyQuickSettingsBacklight(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::quick-settings-night-light',
+            () => this.#applyQuickSettingsNightLight(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::quick-settings-airplane-mode',
+            () => this.#applyQuickSettingsAirplaneMode(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::window-picker-icon',
+            () => this.#applyWindowPickerIcon(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::type-to-search',
+            () => this.#applyTypeToSearch(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::workspace-switcher-size',
+            () => this.#applyWorkspaceSwitcherSize(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::power-icon',
+            () => this.#applyPowerIcon(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::top-panel-position',
+            () => this.#applyTopPanelPosition(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::panel-notification-icon',
+            () => this.#applyPanelNotificationIcon(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::clock-menu-position',
+            () => this.#applyClockMenuPosition(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::clock-menu-position-offset',
+            () => this.#applyClockMenuPosition(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::show-apps-button',
+            () => this.#applyShowAppsButton(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::animation',
+            () => this.#applyAnimation(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::window-demands-attention-focus',
+            () => this.#applyWindowDemandsAttentionFocus(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::window-maximized-on-create',
+            () => this.#applyWindowMaximizedOnCreate(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::dash-icon-size',
+            () => this.#applyDashIconSize(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::startup-status',
+            () => this.#applyStartupStatus(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::workspaces-in-app-grid',
+            () => this.#applyWorkspacesInAppGrid(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::notification-banner-position',
+            () => this.#applyNotificationBannerPosition(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::workspace-switcher-should-show',
+            () => this.#applyWorkspaceSwitcherShouldShow(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::panel-size',
+            () => this.#applyPanelSize(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::panel-button-padding-size',
+            () => this.#applyPanelButtonPaddingSize(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::panel-indicator-padding-size',
+            () => this.#applyPanelIndicatorPaddingSize(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::window-preview-caption',
+            () => this.#applyWindowPreviewCaption(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::window-preview-close-button',
+            () => this.#applyWindowPreviewCloseButton(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::workspace-background-corner-size',
+            () => this.#applyWorkspaceBackgroundCornerSize(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::workspace-wrap-around',
+            () => this.#applyWorkspaceWrapAround(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::ripple-box',
+            () => this.#applyRippleBox(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::overlay-key',
+            () => this.#applyOverlayKey(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::double-super-to-appgrid',
+            () => this.#applyOverlayKey(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::switcher-popup-delay',
+            () => this.#applySwitcherPopupDelay(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::world-clock',
+            () => this.#applyWorldClock(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::weather',
+            () => this.#applyWeather(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::calendar',
+            () => this.#applyCalendar(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::events-button',
+            () => this.#applyEventsButton(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::panel-icon-size',
+            () => this.#applyPanelIconSize(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::dash-separator',
+            () => this.#applyDashSeparator(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::looking-glass-width',
+            () => this.#applyLookingGlassSize(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::looking-glass-height',
+            () => this.#applyLookingGlassSize(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::osd-position',
+            () => this.#applyOSDPosition(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::window-menu',
+            () => this.#applyWindowMenu(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::window-menu-take-screenshot-button',
+            () => this.#applyWindowMenuTakeScreenshotButton(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::alt-tab-window-preview-size',
+            () => this.#applyAltTabWindowPreviewSize(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::alt-tab-small-icon-size',
+            () => this.#applyAltTabSmallIconSize(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::alt-tab-icon-size',
+            () => this.#applyAltTabIconSize(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::screen-sharing-indicator',
+            () => this.#applyScreenSharingIndicator(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::screen-recording-indicator',
+            () => this.#applyScreenRecordingIndicator(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::controls-manager-spacing-size',
+            () => this.#applyControlsManagerSpacingSize(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::workspace-peek',
+            () => this.#applyWorkspacePeek(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::dash-app-running',
+            () => this.#applyDashAppRunning(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::max-displayed-search-results',
+            () => this.#applyMaxDisplayedSearchResults(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::accent-color-icon',
+            () => this.#applyAccentColorIcon(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::workspace-thumbnail-to-main-view',
+            () => this.#applyWorkspaceThumbnailToMainView(false),
+            this
+        );
+
+        this.#settings.connectObject(
+            'changed::invert-calendar-column-items',
+            () => this.#applyInvertCalendarColumnItems(false),
+            this
+        );
+    }
+
+    /**
+     * unregister all signals connected to settings
+     *
+     * @returns {void}
+     */
+    #unregisterSettingsSignals()
+    {
+        this.#settings.disconnectObject(this);
     }
 
     /**
@@ -327,7 +496,7 @@ export class Manager
      *
      * @returns {void}
      */
-    applyAll()
+    #applyAll()
     {
         this.#applyTheme(false);
         this.#applyPanel(false);
@@ -401,7 +570,7 @@ export class Manager
      *
      * @returns {void}
      */
-    revertAll()
+    #revertAll()
     {
         this.#applyTheme(true);
         this.#applyPanel(true);

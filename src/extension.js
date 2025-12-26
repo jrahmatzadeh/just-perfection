@@ -121,8 +121,7 @@ export default class JustPerfection extends Extension
             }
         );
 
-        this.#manager.registerSettingsSignals();
-        this.#manager.applyAll();
+        this.#manager.start();
 
         this.#supportNotifier = new SupportNotifier(
             {
@@ -147,7 +146,7 @@ export default class JustPerfection extends Extension
      */
     disable()
     {
-        this.#manager?.revertAll();
+        this.#manager?.stop();
         this.#manager = null;
 
         this.#api?.close();
