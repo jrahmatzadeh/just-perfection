@@ -72,32 +72,32 @@ export class API
      * Class Constructor
      *
      * @param {Object} dependencies
-     *   'Main' reference to ui::main
-     *   'BackgroundMenu' reference to ui::backgroundMenu
-     *   'OverviewControls' reference to ui::overviewControls
-     *   'WorkspaceSwitcherPopup' reference to ui::workspaceSwitcherPopup
-     *   'SwitcherPopup' reference to ui::switcherPopup
-     *   'InterfaceSettings' reference to Gio::Settings for 'org.gnome.desktop.interface'
-     *   'Search' reference to ui::search
-     *   'SearchController' reference to ui::searchController
-     *   'WorkspaceThumbnail' reference to ui::workspaceThumbnail
-     *   'WorkspacesView' reference to ui::workspacesView
-     *   'Panel' reference to ui::panel
-     *   'PanelMenu' reference to ui::panelMenu
-     *   'WindowPreview' reference to ui::windowPreview
-     *   'Workspace' reference to ui::workspace
-     *   'LookingGlass' reference to ui::lookingGlass
-     *   'MessageTray' reference to ui::messageTray
-     *   'OSDWindow' reference to ui::osdTray
-     *   'WindowMenu' reference to ui::windowMenu
-     *   'AltTab' reference to ui::altTab
+     *   'Main' reference to ui.main
+     *   'BackgroundMenu' reference to ui.backgroundMenu
+     *   'OverviewControls' reference to ui.overviewControls
+     *   'WorkspaceSwitcherPopup' reference to ui.workspaceSwitcherPopup
+     *   'SwitcherPopup' reference to ui.switcherPopup
+     *   'InterfaceSettings' reference to Gio.Settings for 'org.gnome.desktop.interface'
+     *   'Search' reference to ui.search
+     *   'SearchController' reference to ui.searchController
+     *   'WorkspaceThumbnail' reference to ui.workspaceThumbnail
+     *   'WorkspacesView' reference to ui.workspacesView
+     *   'Panel' reference to ui.panel
+     *   'PanelMenu' reference to ui.panelMenu
+     *   'WindowPreview' reference to ui.windowPreview
+     *   'Workspace' reference to ui.workspace
+     *   'LookingGlass' reference to ui.lookingGlass
+     *   'MessageTray' reference to ui.messageTray
+     *   'OSDWindow' reference to ui.osdTray
+     *   'WindowMenu' reference to ui.windowMenu
+     *   'AltTab' reference to ui.altTab
      *   'St' reference to St
      *   'GLib' reference to GLib
      *   'Clutter' reference to Clutter
-     *   'Util' reference to misc::util
+     *   'Util' reference to misc.util
      *   'Meta' reference to Meta
      *   'GObject' reference to GObject
-     * @param {number} shellVersion float in major.minor format
+     * @param {number} shellVersion - float in major.minor format
      */
     constructor(dependencies, shellVersion)
     {

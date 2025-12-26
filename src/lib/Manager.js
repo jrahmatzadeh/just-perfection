@@ -14,14 +14,14 @@ export class Manager
     /**
      * Instance of API
      *
-     * @type {API|null}
+     * @type {import('./API.js').API|null}
      */
     #api = null;
 
     /**
      * Instance of Gio.Settings
      *
-     * @type {Settings|null}
+     * @type {Gio.Settings|null}
      */
     #settings = null;
 
@@ -29,8 +29,8 @@ export class Manager
      * Class Constructor
      *
      * @param {Object} dependencies
-     *   'API' instance of lib::API
-     *   'Settings' instance of Gio::Settings
+     *   'API' instance of API
+     *   'Settings' instance of Gio.Settings
      */
     constructor(dependencies)
     {

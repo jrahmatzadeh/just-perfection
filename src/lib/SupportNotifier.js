@@ -33,7 +33,7 @@ export class SupportNotifier
     /**
      * Instance of Gio.Settings
      *
-     * @type {Settings|null}
+     * @type {Gio.Settings|null}
      */
     #settings = null;
 
@@ -52,9 +52,9 @@ export class SupportNotifier
      *   'Main' reference to ui::main
      *   'GLib' reference to GLib
      *   'Gio' reference to Gio
-     * @param {number} shellVersion float in major.minor format
-     * @param {number} extensionVersion integer
-     * @param {Object} extension Extension
+     * @param {number} shellVersion - float in major.minor format
+     * @param {number} extensionVersion - integer
+     * @param {Object} extension
      */
     constructor(dependencies, shellVersion, extensionVersion, extension)
     {

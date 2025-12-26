@@ -21,7 +21,7 @@ export class Prefs
     /**
      * Instance of PrefsKeys
      *
-     * @type {PrefsKeys|null}
+     * @type {import('./PrefsKeys.js').PrefsKeys|null}
      */
     #prefsKeys = null;
 
@@ -128,16 +128,16 @@ export class Prefs
      * class constructor
      *
      * @param {Object} dependencies
-     *   'Builder' instance of Gtk::Builder
-     *   'Settings' instance of Gio::Settings
-     *   'CssProvider': instance of Gtk::CssProvider
+     *   'Builder' instance of Gtk.Builder
+     *   'Settings' instance of Gio.Settings
+     *   'CssProvider': instance of Gtk.CssProvider
      *   'Adw' reference to Adw
      *   'Gtk' reference to Gtk
      *   'Gdk' reference to Gdk
      *   'Gio' reference to Gio
      *   'GLib' reference to GLib
-     * @param {PrefsKeys.PrefsKeys} prefsKeys instance of PrefsKeys
-     * @param {number} shellVersion float in major.minor format
+     * @param {PrefsKeys.PrefsKeys} prefsKeys - instance of PrefsKeys
+     * @param {number} shellVersion - float in major.minor format
      */
     constructor(dependencies, prefsKeys, shellVersion)
     {
