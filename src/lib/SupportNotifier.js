@@ -174,7 +174,7 @@ export class SupportNotifier
      */
     #isInFullscreen()
     {
-        return this._main.layoutManager.primaryMonitor?.inFullscreen;
+        return this._main.layoutManager.primaryMonitor?.inFullscreen ?? false;
     }
 
     /**
