@@ -1,4 +1,6 @@
-# Rules for Contribution
+# Contribution
+
+## Rules
 
 - Respect 100 characters margin.
 
@@ -14,7 +16,7 @@
 
 - Class name, function, method names and variables should be camel cased.
 
-- Only main files are allowed in the src folder (such as extension.js, prefs.js, stylesheet.css, metadata.json).
+- Only main files are allowed in the src folder (such as `extension.js`, `prefs.js`, `stylesheet.css` and `metadata.json`).
 
 - Singleton is not allowed for any files inside *lib* folder.
 
@@ -22,11 +24,11 @@
 
 - SVG and Image files should be released under GPLv3 license.
 
-- Overriding GNOME Shell theme is accepted and your style should be applied when the parent has *just-perfection* class in it (or starts with *just-perfection-*). But avoid styling top panel.
+- Overriding GNOME Shell theme is accepted and your style should be applied when the parent has *just-perfection* class in it (or starts with *just-perfection-*).
 
-- All *ui* files should be inside *ui* folder.
+- All *ui* files should be inside *src/data/ui* folder.
 
-- All changes related to the GNOME Shell should pass through API (lib/API.js). Also API acts as compatibility layer.
+- All changes related to the GNOME Shell should pass through API (`lib/API.js`). Also API acts as compatibility layer.
 
 ## Translation
 
