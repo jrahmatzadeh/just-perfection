@@ -1,5 +1,5 @@
 # Just Perfection GNOME Shell Extension Translation
-# Copyright (C) 2020-2025 Javad Rahmatzadeh
+# Copyright (C) 2020-2026 Javad Rahmatzadeh
 # volkov <volkovissocool@gmail.com>, 2024.
 #
 msgid ""

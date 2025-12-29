@@ -1,5 +1,5 @@
 # Just Perfection GNOME Shell Extension Translation
-# Copyright (C) 2020-2025 Javad Rahmatzadeh
+# Copyright (C) 2020-2026 Javad Rahmatzadeh
 # This file is distributed under GPL v3
 # Óscar Fernández Díaz <oscfdezdz@tuta.io>, 2021.
 # Diego Iván <diegoivan.mae@gmail.com>, 2021.
