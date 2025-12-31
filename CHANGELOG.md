@@ -10,6 +10,7 @@ We go to the next version after each release on the
 ### Added
 
 - Backlight Toggle Button Visibility in Quick Settings.
+- Do Not Disturb Toggle Button Visibility in Quick Settings by @michael.online.
 
 ### Fixed
 

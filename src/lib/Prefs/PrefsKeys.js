@@ -162,6 +162,17 @@ export class PrefsKeys
         );
 
         this.#setKey(
+            'quick-settings-do-not-disturb',
+            'GtkSwitch',
+            (this.#shellVersion >= 49),
+            {
+                default: true,
+                minimal: true,
+                superminimal: true,
+            }
+        );
+
+        this.#setKey(
             'quick-settings-backlight',
             'GtkSwitch',
             true,

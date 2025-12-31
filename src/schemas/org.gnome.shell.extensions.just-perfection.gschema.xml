@@ -416,6 +416,12 @@
       <description>Night Light Toggle Button Visibility Status</description>
     </key>
 
+    <key type="b" name="quick-settings-do-not-disturb">
+      <default>true</default>
+      <summary>Do Not Disturb Toggle Button Visibility In Quick Settings</summary>
+      <description>Do Not Disturb Toggle Button Visibility Status</description>
+    </key>
+
     <key type="b" name="quick-settings-backlight">
       <default>true</default>
       <summary>Backlight Toggle Button Visibility In Quick Settings</summary>

@@ -60,6 +60,7 @@ This extension allows you to do the following:
 | Quick Settings Dark Mode Toggle Visibility           | 45+                 |
 | Quick Settings Menu Visibility                       | 43+                 |
 | Quick Settings Night Light Toggle Visibility         | 45+                 |
+| Quick Settings Do Not Disturb Toggle Visibility      | 49+                 |
 | Ripple Box                                           | 3.36+               |
 | Screen Recording Indicator Visibility                | 43+                 |
 | Screen Sharing Indicator Visibility                  | 43+                 |
