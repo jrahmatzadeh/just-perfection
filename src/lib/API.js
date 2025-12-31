@@ -3497,6 +3497,38 @@ export class API
     }
 
     /**
+     * show do not disturb toggle button in quick settings
+     *
+     * @returns {void}
+     */
+    quickSettingsDoNotDisturbToggleShow()
+    {
+        if (this.#shellVersion < 49) {
+            return;
+        }
+
+        this.#onQuickSettingsPropertyCall('_doNotDisturb', (doNotDisturb) => {
+            doNotDisturb.quickSettingsItems[0].show();
+        });
+    }
+
+    /**
+     * hide do not disturb toggle button in quick settings
+     *
+     * @returns {void}
+     */
+    quickSettingsDoNotDisturbToggleHide()
+    {
+        if (this.#shellVersion < 49) {
+            return;
+        }
+
+        this.#onQuickSettingsPropertyCall('_doNotDisturb', (doNotDisturb) => {
+            doNotDisturb.quickSettingsItems[0].hide();
+        });
+    }
+
+    /**
      * show backlight toggle button in quick settings
      *
      * @returns {void}

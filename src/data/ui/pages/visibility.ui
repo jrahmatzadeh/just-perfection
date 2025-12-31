@@ -127,6 +127,19 @@
         </child>
 
         <child>
+          <object class="AdwActionRow" id="quick_settings_do_not_disturb_row">
+            <property name="title" translatable="yes">Do Not Disturb Toggle Button</property>
+            <property name="subtitle" translatable="yes">Do Not Disturb Button in Quick setttings menu</property>
+            <property name="activatable-widget">quick_settings_do_not_disturb_switch</property>
+            <child>
+              <object class="GtkSwitch" id="quick_settings_do_not_disturb_switch">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+
+        <child>
           <object class="AdwActionRow" id="quick_settings_night_light_row">
             <property name="title" translatable="yes">Night Light Toggle Button</property>
             <property name="subtitle" translatable="yes">Night Light Toggle Button in Quick settings menu</property>

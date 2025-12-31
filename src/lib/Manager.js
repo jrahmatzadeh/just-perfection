@@ -169,6 +169,12 @@ export class Manager
         );
 
         this.#settings.connectObject(
+            'changed::quick-settings-do-not-disturb',
+            () => this.#applyQuickSettingsDoNotDisturb(false),
+            this
+        );
+
+        this.#settings.connectObject(
             'changed::quick-settings-airplane-mode',
             () => this.#applyQuickSettingsAirplaneMode(false),
             this
@@ -514,6 +520,7 @@ export class Manager
         this.#applyQuickSettingsDarkMode(false);
         this.#applyQuickSettingsBacklight(false);
         this.#applyQuickSettingsNightLight(false);
+        this.#applyQuickSettingsDoNotDisturb(false);
         this.#applyQuickSettingsAirplaneMode(false);
         this.#applyWindowPickerIcon(false);
         this.#applyTypeToSearch(false);
@@ -588,6 +595,7 @@ export class Manager
         this.#applyQuickSettingsDarkMode(true);
         this.#applyQuickSettingsBacklight(true);
         this.#applyQuickSettingsNightLight(true);
+        this.#applyQuickSettingsDoNotDisturb(true);
         this.#applyQuickSettingsAirplaneMode(true);
         this.#applyWindowPickerIcon(true);
         this.#applyTypeToSearch(true);
@@ -914,6 +922,22 @@ export class Manager
             this.#api.quickSettingsNightLightToggleShow();
         } else {
             this.#api.quickSettingsNightLightToggleHide();
+        }
+    }
+
+    /**
+     * apply quick settings do not disturb
+     *
+     * @param {boolean} forceOriginal force original shell setting
+     *
+     * @returns {void}
+     */
+    #applyQuickSettingsDoNotDisturb(forceOriginal)
+    {
+        if (forceOriginal || this.#settings.get_boolean('quick-settings-do-not-disturb')) {
+            this.#api.quickSettingsDoNotDisturbToggleShow();
+        } else {
+            this.#api.quickSettingsDoNotDisturbToggleHide();
         }
     }
 
