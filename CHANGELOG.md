@@ -14,6 +14,7 @@ We go to the next version after each release on the
 
 ### Fixed
 
+- Looking Glass Position on Vertical Panel.
 - On Screen Display (OSD) visibility on GNOME Shell 49.
 
 ### Removed
@@ -624,4 +625,3 @@ We go to the next version after each release on the
 - Hide top panel.
 - Hide workspace switcher.
 - Hot corner to toggle overview visibility.
-

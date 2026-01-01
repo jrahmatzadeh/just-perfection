@@ -3016,9 +3016,11 @@ export class API
             ? Math.min(monitorInfo.height * height, availableHeight * 0.9)
             : originalHeight;
 
-            let panelHeight = (this.isPanelVisible()) ? this._main.layoutManager.panelBox.height : 0;
+            let panelBox = this._main.layoutManager.panelBox;
+            let isPanelHorizontal = (panelBox.width > panelBox.height);
+            let panelGap = (this.isPanelVisible() && isPanelHorizontal) ? panelBox.height : 0;
 
-            lookingGlass._hiddenY = monitorInfo.y + panelHeight - dialogHeight;
+            lookingGlass._hiddenY = monitorInfo.y + panelGap - dialogHeight;
             lookingGlass._targetY = lookingGlass._hiddenY + dialogHeight;
 
             lookingGlass.set_size(dialogWidth, dialogHeight);
