@@ -91,6 +91,7 @@ This extension allows you to do the following:
 
 | GNOME Shell Version | End Of Support | Status             | Last Version  |
 | ------------------- | -------------- | ------------------ | ------------- |
+| 50                  | TBA            | Supported          | 35            |
 | 49                  | TBA            | Supported          | 35            |
 | 48                  | July 2026      | Supported          | 35            |
 | 47                  | July 2026      | Supported          | 35            |
