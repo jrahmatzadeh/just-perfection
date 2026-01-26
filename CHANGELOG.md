@@ -7,6 +7,8 @@ We go to the next version after each release on the
 
 ## [Unreleased]
 
+## [36.0] - 2026-01-26
+
 ### Added
 
 - Backlight Toggle Button Visibility in Quick Settings.
