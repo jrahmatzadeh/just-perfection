@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-02 13:06-0800\n"
-"PO-Revision-Date: 2022-05-18 18:02+0700\n"
-"Last-Translator: VBB <librusekus35790@gmail.com>\n"
+"POT-Creation-Date: 2026-01-01 17:48+0300\n"
+"PO-Revision-Date: 2026-01-27 10:29+0300\n"
+"Last-Translator: Fraxinus Acer\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -17,278 +17,397 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.8\n"
 
-#: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
+#: src/data/ui/menu.ui:8
+msgid "Changelog"
+msgstr "Изменения"
+
+#: src/data/ui/menu.ui:13
+msgid "Bug Report"
+msgstr "Сообщить об ошибке"
+
+#: src/data/ui/menu.ui:18
+msgid "YouTube Channel"
+msgstr "Канал YouTube"
+
+#: src/data/ui/pages/profile.ui:6 src/data/ui/pages/profile.ui:11
+msgid "Profile"
+msgstr "Профиль"
+
+#: src/data/ui/pages/profile.ui:18
+msgid ""
+"You can choose between pre-defined profiles or you can simply use your own "
+"customized settings"
+msgstr ""
+"Вы можете выбрать предустановленный профиль или использовать собственные "
+"настройки"
+
+#: src/data/ui/pages/profile.ui:43 src/data/ui/pages/customize.ui:191
+#: src/data/ui/pages/customize.ui:707 src/data/ui/pages/customize.ui:757
+#: src/data/ui/pages/customize.ui:782 src/data/ui/pages/customize.ui:797
+#: src/data/ui/pages/customize.ui:808 src/data/ui/pages/customize.ui:819
+#: src/data/ui/pages/customize.ui:830 src/data/ui/pages/customize.ui:845
+#: src/data/ui/pages/customize.ui:860
+msgid "Default"
+msgstr "По умолчанию"
+
+#: src/data/ui/pages/profile.ui:53
+msgid "Custom"
+msgstr "Пользовательский"
+
+#: src/data/ui/pages/profile.ui:63
+msgid "Minimal"
+msgstr "Минимальный"
+
+#: src/data/ui/pages/profile.ui:73
+msgid "Super Minimal"
+msgstr "Очень минимальный"
+
+#: src/data/ui/pages/profile.ui:90
+msgid "Override"
+msgstr "Переопределение"
+
+#: src/data/ui/pages/profile.ui:94
+msgid "Shell Theme"
+msgstr "Тема оболочки"
+
+#: src/data/ui/pages/profile.ui:95
+msgid "Overrides the shell theme partially to create a minimal desktop"
+msgstr ""
+"Частично переопределяет тему оболочки для создания минималистичного рабочего "
+"стола"
+
+#: src/data/ui/pages/profile.ui:110
+msgid "Support"
+msgstr "Поддержка"
+
+#: src/data/ui/pages/profile.ui:135
+msgid "Support Via Crypto"
+msgstr "Поддержка через Crypto"
+
+#: src/data/ui/pages/profile.ui:136
+msgid "Preferred Method"
+msgstr "Предпочтительный метод"
+
+#: src/data/ui/pages/profile.ui:167
+msgid "Copy"
+msgstr "Копировать"
+
+#: src/data/ui/pages/profile.ui:184
+msgid "Support via Buy Me a Coffee"
+msgstr "Поддержать через Buy Me a Coffee"
+
+#: src/data/ui/pages/profile.ui:202
+msgid "Support Notification"
+msgstr "Уведомление о поддержке"
+
+#: src/data/ui/pages/profile.ui:203
+msgid "Manage when the support notification shows up"
+msgstr "Управление отображением уведомления о поддержке"
+
+#: src/data/ui/pages/profile.ui:235
+msgid "Never"
+msgstr "Никогда"
+
+#: src/data/ui/pages/profile.ui:236
+msgid "On New Releases"
+msgstr "В новых выпусках"
+
+#: src/data/ui/pages/profile.ui:241
+msgid "Address copied to the clipboard"
+msgstr "Адрес скопирован в буфер обмена"
+
+#: src/data/ui/pages/visibility.ui:6 src/data/ui/pages/visibility.ui:11
 msgid "Visibility"
 msgstr "Видимость"
 
-#: src/data/ui/visibility.ui:15
+#: src/data/ui/pages/visibility.ui:15
 msgid "Panel"
 msgstr "Панель"
 
-#: src/data/ui/visibility.ui:27
+#: src/data/ui/pages/visibility.ui:27
 msgid "Panel in Overview"
 msgstr "Панель в режиме Обзора"
 
-#: src/data/ui/visibility.ui:40
+#: src/data/ui/pages/visibility.ui:40
 msgid "Activities Button"
 msgstr "Кнопка Обзор"
 
-#: src/data/ui/visibility.ui:41
+#: src/data/ui/pages/visibility.ui:41
 msgid "Button in panel to toggle overview visibility"
 msgstr "Кнопка на панели для перехода в режим Обзора"
 
-#: src/data/ui/visibility.ui:53
+#: src/data/ui/pages/visibility.ui:53
 msgid "Clock Menu"
 msgstr "Центр уведомлений/Часы"
 
-#: src/data/ui/visibility.ui:54
+#: src/data/ui/pages/visibility.ui:54
 msgid "Also known as date menu shows date and time in panel"
 msgstr "Показывает дату и время на панели"
 
-#: src/data/ui/visibility.ui:66
+#: src/data/ui/pages/visibility.ui:66
 msgid "Keyboard Layout"
 msgstr "Раскладка клавиатуры"
 
-#: src/data/ui/visibility.ui:67
+#: src/data/ui/pages/visibility.ui:67
 msgid "Keyboard Layout indicator button in panel"
 msgstr "Индикатор раскладки клавиатуры на панели"
 
-#: src/data/ui/visibility.ui:79
+#: src/data/ui/pages/visibility.ui:79
 msgid "Accessibility Menu"
 msgstr "Меню специальных возможностей"
 
-#: src/data/ui/visibility.ui:80
+#: src/data/ui/pages/visibility.ui:80
 msgid "Accessibility Menu indicator button in panel"
 msgstr "Меню специальных возможностей на панели"
 
-#: src/data/ui/visibility.ui:92
+#: src/data/ui/pages/visibility.ui:92
 msgid "Quick Settings"
 msgstr "Быстрые настройки"
 
-#: src/data/ui/visibility.ui:93
+#: src/data/ui/pages/visibility.ui:93
 msgid "Quick settings menu in panel"
 msgstr "Меню быстрых настроек в панели"
 
-#: src/data/ui/visibility.ui:105
+#: src/data/ui/pages/visibility.ui:105
 msgid "Dark Mode Toggle Button"
-msgstr "Кнопка переключения темного режима"
+msgstr "Кнопка переключения \"Темного стиля\""
 
-#: src/data/ui/visibility.ui:106
+#: src/data/ui/pages/visibility.ui:106
 msgid "Dark Mode Toggle Button in Quick settings menu"
-msgstr "Кнопка переключения темного режима в меню быстрых настроек"
+msgstr "Кнопка переключения темного стиля в меню быстрых настроек"
 
-#: src/data/ui/visibility.ui:118
+#: src/data/ui/pages/visibility.ui:118
+msgid "Backlight Toggle Button"
+msgstr "Кнопка переключения \"Подсветка\""
+
+#: src/data/ui/pages/visibility.ui:119
+msgid "Backlight Toggle Button in Quick settings menu"
+msgstr "Кнопка переключения подсветки клавиатуры в меню быстрых настроек"
+
+#: src/data/ui/pages/visibility.ui:131
+msgid "Do Not Disturb Toggle Button"
+msgstr "Кнопка переключения \"Не беспокоить\""
+
+#: src/data/ui/pages/visibility.ui:132
+msgid "Do Not Disturb Button in Quick setttings menu"
+msgstr "Кнопка не беспокоить в меню быстрых настроек"
+
+#: src/data/ui/pages/visibility.ui:144
 msgid "Night Light Toggle Button"
-msgstr "Кнопка переключения ночного режима"
+msgstr "Кнопка переключения \"Ночного света\""
 
-#: src/data/ui/visibility.ui:119
+#: src/data/ui/pages/visibility.ui:145
 msgid "Night Light Toggle Button in Quick settings menu"
-msgstr "Кнопка переключения ночного режима в меню быстрых настроек"
+msgstr "Кнопка переключения ночного света в меню быстрых настроек"
 
-#: src/data/ui/visibility.ui:131
+#: src/data/ui/pages/visibility.ui:157
 msgid "Airplane Mode Toggle Button"
-msgstr "Кнопка переключения режима полета"
+msgstr "Кнопка переключения \"Авиарежим\""
 
-#: src/data/ui/visibility.ui:132
+#: src/data/ui/pages/visibility.ui:158
 msgid "Airplane Mode Toggle Button in Quick settings menu"
 msgstr "Кнопка переключения режима полета в меню быстрых настроек"
 
-#: src/data/ui/visibility.ui:144
+#: src/data/ui/pages/visibility.ui:170
 msgid "Screen Sharing Indicator"
 msgstr "Индикатор совместного использования экрана"
 
-#: src/data/ui/visibility.ui:145
+#: src/data/ui/pages/visibility.ui:171
 msgid "Screen sharing indicator in panel"
 msgstr "Индикатор общего доступа к экрану на панели"
 
-#: src/data/ui/visibility.ui:157
+#: src/data/ui/pages/visibility.ui:183
 msgid "Screen Recording Indicator"
 msgstr "Индикатор записи экрана"
 
-#: src/data/ui/visibility.ui:158
+#: src/data/ui/pages/visibility.ui:184
 msgid "Screen recording indicator in panel"
 msgstr "Индикатор записи экрана на панели"
 
-#: src/data/ui/visibility.ui:170
+#: src/data/ui/pages/visibility.ui:196
 msgid "World Clock"
 msgstr "Мировые часы"
 
-#: src/data/ui/visibility.ui:171
+#: src/data/ui/pages/visibility.ui:197
 msgid "World clock in clock menu"
 msgstr "Мировые часы в центре уведомлений"
 
-#: src/data/ui/visibility.ui:183
+#: src/data/ui/pages/visibility.ui:209
 msgid "Weather"
 msgstr "Погода"
 
-#: src/data/ui/visibility.ui:184
+#: src/data/ui/pages/visibility.ui:210
 msgid "Weather in clock menu"
 msgstr "Погода в центре уведомлений"
 
-#: src/data/ui/visibility.ui:196
+#: src/data/ui/pages/visibility.ui:222
 msgid "Calendar"
 msgstr "Календарь"
 
-#: src/data/ui/visibility.ui:197
+#: src/data/ui/pages/visibility.ui:223
 msgid "Calendar in clock menu"
 msgstr "Календарь в центре уведомлений"
 
-#: src/data/ui/visibility.ui:209
+#: src/data/ui/pages/visibility.ui:235
 msgid "Events"
 msgstr "События"
 
-#: src/data/ui/visibility.ui:210
+#: src/data/ui/pages/visibility.ui:236
 msgid "Events button in clock menu"
 msgstr "События в центре уведомлений"
 
-#: src/data/ui/visibility.ui:222
+#: src/data/ui/pages/visibility.ui:248
 msgid "Search"
 msgstr "Строка поиска"
 
-#: src/data/ui/visibility.ui:223
+#: src/data/ui/pages/visibility.ui:249
 msgid "Search entry in overview"
 msgstr "Строка поиска в Обзоре"
 
-#: src/data/ui/visibility.ui:235
+#: src/data/ui/pages/visibility.ui:261
 msgid "Dash"
 msgstr "Dash панель"
 
-#: src/data/ui/visibility.ui:236
+#: src/data/ui/pages/visibility.ui:262
 msgid "Dash holds favorite and opened applications icons"
 msgstr "Dash содержит иконки избранных и открытых приложений"
 
-#: src/data/ui/visibility.ui:248
+#: src/data/ui/pages/visibility.ui:274
 msgid "Dash Separator"
-msgstr "Разделитель тире"
+msgstr "Разделитель dash"
 
-#: src/data/ui/visibility.ui:249
+#: src/data/ui/pages/visibility.ui:275
 msgid "Dash separator line that separates pin apps from unpin apps"
 msgstr ""
-"Линия-разделитель тире, которая отделяет закрепленные приложения от "
+"Линия-разделитель в dash'е, которая отделяет закрепленные приложения от "
 "открепляемых приложений"
 
-#: src/data/ui/visibility.ui:261
+#: src/data/ui/pages/visibility.ui:287
 msgid "Dash App Running Indicator"
 msgstr "Индикатор работы приложения Dash"
 
-#: src/data/ui/visibility.ui:262
+#: src/data/ui/pages/visibility.ui:288
 msgid "The dot indicator in dash that shows the app is running"
-msgstr "Точка-индикатор в тире, показывающая, что приложение запущено."
+msgstr "Точка-индикатор в тире, показывающая, что приложение запущено"
 
-#: src/data/ui/visibility.ui:274
+#: src/data/ui/pages/visibility.ui:300
 msgid "Show Applications Button"
 msgstr "Показать кнопку приложений"
 
-#: src/data/ui/visibility.ui:275
+#: src/data/ui/pages/visibility.ui:301
 msgid "Button in dash that toggles applications list visibility"
 msgstr "Кнопка на Dash панели, которая выводит список приложений"
 
-#: src/data/ui/visibility.ui:287
+#: src/data/ui/pages/visibility.ui:313
 msgid "On Screen Display (OSD)"
 msgstr "Экранная индикация"
 
-#: src/data/ui/visibility.ui:288
+#: src/data/ui/pages/visibility.ui:314
 msgid "Volume and brightness on screen display when the change happens"
 msgstr "Появляется на экране при изменении громкости или яркости"
 
-#: src/data/ui/visibility.ui:300
+#: src/data/ui/pages/visibility.ui:326
 msgid "Workspace Popup"
 msgstr "Всплывающий индикатор рабочих столов"
 
-#: src/data/ui/visibility.ui:301
+#: src/data/ui/pages/visibility.ui:327
 msgid "Popup that appears on the screen when you change the workspace"
 msgstr "Индикатор, который появляется на экране при смене рабочего стола"
 
-#: src/data/ui/visibility.ui:313
+#: src/data/ui/pages/visibility.ui:339
 msgid "Workspace Switcher"
 msgstr "Переключатель рабочих столов"
 
-#: src/data/ui/visibility.ui:314
+#: src/data/ui/pages/visibility.ui:340
 msgid ""
 "Also refers to workspace thumbnails that you see in overview for selecting a "
 "workspace"
-msgstr "Эскизы рабочих столов, которые вы видите в Обзоре."
+msgstr "Эскизы рабочих столов, которые вы видите в Обзоре"
 
-#: src/data/ui/visibility.ui:326
+#: src/data/ui/pages/visibility.ui:352
 msgid "Workspaces App Grid"
 msgstr "Рабочие столы в списке приложений"
 
-#: src/data/ui/visibility.ui:327
+#: src/data/ui/pages/visibility.ui:353
 msgid "Workspace boxes in app grid"
 msgstr "Эскизы рабочих столов в списке приложений"
 
-#: src/data/ui/visibility.ui:339
+#: src/data/ui/pages/visibility.ui:365
 msgid "Window Picker Close Button"
 msgstr "Кнопки закрытия окон в Обзоре"
 
-#: src/data/ui/visibility.ui:340
+#: src/data/ui/pages/visibility.ui:366
 msgid "The close button on window preview in overview"
 msgstr "Кнопки закрытия, появляющиеся на эскизах окон в Обзоре"
 
-#: src/data/ui/visibility.ui:352
+#: src/data/ui/pages/visibility.ui:378
 msgid "Window Picker Caption"
 msgstr "Заголовки окон в Обзоре"
 
-#: src/data/ui/visibility.ui:353
+#: src/data/ui/pages/visibility.ui:379
 msgid "The text under window preview in overview"
 msgstr "Текст под эскизами окон в Обзоре"
 
-#: src/data/ui/visibility.ui:365
+#: src/data/ui/pages/visibility.ui:391
 msgid "Background Menu"
 msgstr "Меню рабочего стола"
 
-#: src/data/ui/visibility.ui:366
+#: src/data/ui/pages/visibility.ui:392
 msgid "When you right click on desktop background"
 msgstr "Когда вы щелкаете правой кнопкой мыши по рабочему столу"
 
-#: src/data/ui/visibility.ui:378
+#: src/data/ui/pages/visibility.ui:404
 msgid "Ripple Box"
 msgstr "Пульсация"
 
-#: src/data/ui/visibility.ui:379
+#: src/data/ui/pages/visibility.ui:405
 msgid "Hot corner animation effects"
 msgstr "Анимация горячего угла"
 
-#: src/data/ui/visibility.ui:391
+#: src/data/ui/pages/visibility.ui:417
+msgid "Window Menu"
+msgstr "Меню окна"
+
+#: src/data/ui/pages/visibility.ui:418
+msgid "Window menu when you right click in title bar"
+msgstr "Меню окна при щелчке правой кнопкой мыши в строке заголовка"
+
+#: src/data/ui/pages/visibility.ui:430
 msgid "Take Screenshot button in Window Menu"
 msgstr "Кнопка «Сделать снимок экрана» в меню «Окно»"
 
-#: src/data/ui/visibility.ui:392
+#: src/data/ui/pages/visibility.ui:431
 msgid "Take screenshot button in title bar right click menu"
 msgstr ""
 "Кнопка «Сделать снимок экрана» в меню правой кнопки мыши в строке заголовка"
 
-#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
-msgid "Icons"
-msgstr "Иконки"
-
-#: src/data/ui/icons.ui:15
+#: src/data/ui/pages/visibility.ui:443
 msgid "Panel Notification Icon"
 msgstr "Индикатор уведомлений"
 
-#: src/data/ui/icons.ui:27
+#: src/data/ui/pages/visibility.ui:455
 msgid "Power Icon"
 msgstr "Значок питания"
 
-#: src/data/ui/icons.ui:39
+#: src/data/ui/pages/visibility.ui:467
 msgid "Window Picker Icon"
 msgstr "Иконки окон в обзоре"
 
-#: src/data/ui/icons.ui:40
+#: src/data/ui/pages/visibility.ui:468
 msgid "The icon under window preview in overview"
 msgstr "Иконки под окнами в Обзоре"
 
-#: src/data/ui/behavior.ui:6 src/data/ui/behavior.ui:11
+#: src/data/ui/pages/behavior.ui:6 src/data/ui/pages/behavior.ui:11
 msgid "Behavior"
 msgstr "Поведение"
 
-#: src/data/ui/behavior.ui:15
+#: src/data/ui/pages/behavior.ui:15
 msgid "Workspace Wraparound"
 msgstr "Зацикливание рабочих столов"
 
-#: src/data/ui/behavior.ui:16
+#: src/data/ui/pages/behavior.ui:16
 msgid ""
 "Next workspace will be the first workspace when you are in the last "
 "workspace. and previous workspace will be the last workspace when you are in "
@@ -297,57 +416,57 @@ msgstr ""
 "За последним рабочим столом будет следовать первый. А перед первым рабочим "
 "столом будет располагаться последний."
 
-#: src/data/ui/behavior.ui:28
+#: src/data/ui/pages/behavior.ui:28
 msgid "Workspace Peek"
 msgstr "Обзор рабочей области"
 
-#: src/data/ui/behavior.ui:29
+#: src/data/ui/pages/behavior.ui:29
 msgid "Whether the next and previous workspace should be visible in overview."
 msgstr "Должна ли следующая и предыдущая рабочая область быть видна в обзоре."
 
-#: src/data/ui/behavior.ui:41
+#: src/data/ui/pages/behavior.ui:41
 msgid "Workspace Switcher Click to The Main View"
 msgstr ""
 "Переключатель рабочей области Щелкните для перехода в главное представление"
 
-#: src/data/ui/behavior.ui:42
+#: src/data/ui/pages/behavior.ui:42
 msgid "Workspace switcher click always goes to the main view of the workspace."
 msgstr ""
 "Переключатель рабочей области Щелкните, чтобы перейти в главное "
 "представление рабочей области."
 
-#: src/data/ui/behavior.ui:54
+#: src/data/ui/pages/behavior.ui:54
 msgid "Window Demands Attention Focus"
 msgstr "Окно требует внимания"
 
-#: src/data/ui/behavior.ui:55
+#: src/data/ui/pages/behavior.ui:55
 msgid "Removes window is ready notification and focus on the window"
 msgstr "Убрать уведомление о готовности окна и сразу фокусироваться на нём"
 
-#: src/data/ui/behavior.ui:67
+#: src/data/ui/pages/behavior.ui:67
 msgid "Window Maximized by Default"
 msgstr "Окно развернуто по умолчанию"
 
-#: src/data/ui/behavior.ui:68
+#: src/data/ui/pages/behavior.ui:68
 msgid "Maximize all windows on creation"
 msgstr "Развернуть все окна создания"
 
-#: src/data/ui/behavior.ui:80
+#: src/data/ui/pages/behavior.ui:80
 msgid "Type to Search"
 msgstr "Введите для поиска"
 
-#: src/data/ui/behavior.ui:81
+#: src/data/ui/pages/behavior.ui:81
 msgid ""
 "You can start search without search entry or even focusing on it in overview"
 msgstr ""
 "Вы можете начать поиск в Обзоре, если строки поиска нету, либо если она "
 "есть, не нажимая на неё"
 
-#: src/data/ui/behavior.ui:93
+#: src/data/ui/pages/behavior.ui:93
 msgid "Always Show Workspace Switcher"
 msgstr "Всегда показывать переключатель рабочих столов"
 
-#: src/data/ui/behavior.ui:94
+#: src/data/ui/pages/behavior.ui:94
 msgid ""
 "Shows workspace switcher even when only one workspace used with dynamic "
 "workspaces"
@@ -355,27 +474,27 @@ msgstr ""
 "Отображать переключатель, даже если используется только один рабочий стол с "
 "активированным режимом динамических рабочих столов"
 
-#: src/data/ui/behavior.ui:106
+#: src/data/ui/pages/behavior.ui:106
 msgid "Overlay Key"
 msgstr "Ключ наложения"
 
-#: src/data/ui/behavior.ui:107
+#: src/data/ui/pages/behavior.ui:107
 msgid "Disable overlay key (super key)"
 msgstr "Отключить наложение ключа (суперклавиши)"
 
-#: src/data/ui/behavior.ui:119
+#: src/data/ui/pages/behavior.ui:119
 msgid "Double Super to App Grid"
 msgstr "Двойной Super для перехода к списку приложений"
 
-#: src/data/ui/behavior.ui:120
+#: src/data/ui/pages/behavior.ui:120
 msgid "Shows app grid when you double hit super key fast"
 msgstr "Открывать список приложений при быстром двойном нажатии Super"
 
-#: src/data/ui/behavior.ui:133
+#: src/data/ui/pages/behavior.ui:133
 msgid "Popup Delay"
 msgstr "Задержка всплывающего окна"
 
-#: src/data/ui/behavior.ui:134
+#: src/data/ui/pages/behavior.ui:134
 msgid ""
 "The delay for all switcher popups like alt-tab, ctrl-alt-tab, keyboard "
 "layout, ..."
@@ -383,336 +502,243 @@ msgstr ""
 "Удаляет задержку для всех всплывающих окон переключателей, таких как alt-"
 "tab, ctrl-alt-tab, раскладка клавиатуры, ..."
 
-#: src/data/ui/behavior.ui:146
+#: src/data/ui/pages/behavior.ui:146
 msgid "Startup Status"
 msgstr "Место входа"
 
-#: src/data/ui/behavior.ui:147
+#: src/data/ui/pages/behavior.ui:147
 msgid "When GNOME Shell is starting up for the first time"
 msgstr "Что будет отображаться при запуске GNOME Shell"
 
-#: src/data/ui/behavior.ui:159
+#: src/data/ui/pages/behavior.ui:159
 msgid "Desktop"
 msgstr "Рабочий стол"
 
-#: src/data/ui/behavior.ui:160
+#: src/data/ui/pages/behavior.ui:160
 msgid "Overview"
 msgstr "Обзор"
 
-#: src/data/ui/customize.ui:6 src/data/ui/customize.ui:11
+#: src/data/ui/pages/customize.ui:6 src/data/ui/pages/customize.ui:11
 msgid "Customize"
 msgstr "Настройки"
 
-#: src/data/ui/customize.ui:15
+#: src/data/ui/pages/customize.ui:15
 msgid "Accent Color for Icons"
 msgstr "Цвет акцента для значков"
 
-#: src/data/ui/customize.ui:16
+#: src/data/ui/pages/customize.ui:16
 msgid "Use accent color for all symbolic icons"
 msgstr "Использовать цвет акцента для всех символических значков"
 
-#: src/data/ui/customize.ui:28
+#: src/data/ui/pages/customize.ui:28
 msgid "Invert Calendar Column Items"
 msgstr "Инвертировать элементы столбца календаря"
 
-#: src/data/ui/customize.ui:29
+#: src/data/ui/pages/customize.ui:29
 msgid "Invert the positions of the calendar column items in clock menu"
 msgstr "Инвертировать позиции элементов столбца календаря в меню часов"
 
-#: src/data/ui/customize.ui:41
+#: src/data/ui/pages/customize.ui:41
 msgid "Overview Spacing Size"
 msgstr "Обзор Интервал Размер"
 
-#: src/data/ui/customize.ui:42
+#: src/data/ui/pages/customize.ui:42
 msgid "The spacing size for controls manager in overview"
 msgstr "Размер интервала для диспетчера элементов управления в обзоре"
 
-#: src/data/ui/customize.ui:49
+#: src/data/ui/pages/customize.ui:49
 msgid "Workspace Background Corner Size"
 msgstr "Размер угла рабочего стола"
 
-#: src/data/ui/customize.ui:50
+#: src/data/ui/pages/customize.ui:50
 msgid "Workspace background corner size in overview"
 msgstr "Размер угла рабочего стола в Обзоре"
 
-#: src/data/ui/customize.ui:57
+#: src/data/ui/pages/customize.ui:57
 msgid "Panel Size"
 msgstr "Размер панели"
 
-#: src/data/ui/customize.ui:64
+#: src/data/ui/pages/customize.ui:64
 msgid "Panel Icon Size"
 msgstr "Размер значка панели"
 
-#: src/data/ui/customize.ui:71
+#: src/data/ui/pages/customize.ui:71
 msgid "Panel Button Padding Size"
 msgstr "Отступ между кнопками панели"
 
-#: src/data/ui/customize.ui:78
+#: src/data/ui/pages/customize.ui:78
 msgid "Panel Indicator Padding Size"
 msgstr "Отступ между индикаторами на панели"
 
-#: src/data/ui/customize.ui:85
+#: src/data/ui/pages/customize.ui:85
 msgid "Panel Position"
 msgstr "Расположение панели"
 
-#: src/data/ui/customize.ui:92
+#: src/data/ui/pages/customize.ui:92
 msgid "Clock Menu Position"
 msgstr "Расположение центра уведомлений"
 
-#: src/data/ui/customize.ui:99
+#: src/data/ui/pages/customize.ui:99
 msgid "Clock Menu Position Offset"
 msgstr "Смещение центра уведомлений"
 
-#: src/data/ui/customize.ui:106
+#: src/data/ui/pages/customize.ui:106
 msgid "Workspace Switcher Size"
 msgstr "Размер переключателя рабочих столов"
 
-#: src/data/ui/customize.ui:113
+#: src/data/ui/pages/customize.ui:113
 msgid "Animation"
 msgstr "Анимации"
 
-#: src/data/ui/customize.ui:120
+#: src/data/ui/pages/customize.ui:120
 msgid "Dash Icon Size"
 msgstr "Размер иконок Dash панели"
 
-#: src/data/ui/customize.ui:127
+#: src/data/ui/pages/customize.ui:127
 msgid "Notification Banner Position"
 msgstr "Расположение уведомлений"
 
-#: src/data/ui/customize.ui:128
+#: src/data/ui/pages/customize.ui:128
 msgid "Notification popup position when notifications show up on the screen"
 msgstr "Расположение всплывающих уведомлений на экране"
 
-#: src/data/ui/customize.ui:135
+#: src/data/ui/pages/customize.ui:135
 msgid "OSD Position"
 msgstr "Позиция экранного меню"
 
-#: src/data/ui/customize.ui:136
+#: src/data/ui/pages/customize.ui:136
 msgid "OSD position when on screen display shows up on the screen"
 msgstr "Положение экранного меню, когда на экране отображается экранное меню"
 
-#: src/data/ui/customize.ui:143
+#: src/data/ui/pages/customize.ui:143
 msgid "Alt Tab Window Preview Size"
 msgstr "Alt-Tab Размер предварительного просмотра окна"
 
-#: src/data/ui/customize.ui:150
+#: src/data/ui/pages/customize.ui:150
 msgid "Alt Tab Window Preview Icon Size"
 msgstr "Alt-Tab Размер значка предварительного просмотра окна"
 
-#: src/data/ui/customize.ui:157
+#: src/data/ui/pages/customize.ui:157
 msgid "Alt Tab Icon Size"
 msgstr "Alt-Tab Размер значка"
 
-#: src/data/ui/customize.ui:164
+#: src/data/ui/pages/customize.ui:164
 msgid "Looking Glass Width"
 msgstr "Ширина зеркала"
 
-#: src/data/ui/customize.ui:171
+#: src/data/ui/pages/customize.ui:171
 msgid "Looking Glass Height"
 msgstr "Зазеркалье Высота"
 
-#: src/data/ui/customize.ui:178
+#: src/data/ui/pages/customize.ui:178
 msgid "Maximum Displayed Search Results"
 msgstr "Максимальное количество отображаемых результатов поиска"
 
-#: src/data/ui/customize.ui:179
+#: src/data/ui/pages/customize.ui:179
 msgid "The maximum displayed search result items showing up in the search page"
 msgstr ""
 "Максимальное количество отображаемых результатов поиска, отображаемых на "
 "странице поиска"
 
-#: src/data/ui/customize.ui:191 src/data/ui/customize.ui:707
-#: src/data/ui/customize.ui:757 src/data/ui/customize.ui:782
-#: src/data/ui/customize.ui:797 src/data/ui/customize.ui:808
-#: src/data/ui/customize.ui:819 src/data/ui/customize.ui:830
-#: src/data/ui/customize.ui:845 src/data/ui/customize.ui:860
-#: src/data/ui/profile.ui:43
-msgid "Default"
-msgstr "По умолчанию"
-
-#: src/data/ui/customize.ui:347 src/data/ui/customize.ui:415
-#: src/data/ui/customize.ui:485 src/data/ui/customize.ui:551
-#: src/data/ui/customize.ui:618
+#: src/data/ui/pages/customize.ui:347 src/data/ui/pages/customize.ui:415
+#: src/data/ui/pages/customize.ui:485 src/data/ui/pages/customize.ui:551
+#: src/data/ui/pages/customize.ui:618
 msgid "By Shell Theme"
 msgstr "Следовать теме"
 
-#: src/data/ui/customize.ui:685
+#: src/data/ui/pages/customize.ui:685
 msgid "Top"
 msgstr "Вверху"
 
-#: src/data/ui/customize.ui:686
+#: src/data/ui/pages/customize.ui:686
 msgid "Bottom"
 msgstr "Внизу"
 
-#: src/data/ui/customize.ui:692 src/data/ui/customize.ui:790
+#: src/data/ui/pages/customize.ui:692 src/data/ui/pages/customize.ui:790
 msgid "Center"
 msgstr "По центру"
 
-#: src/data/ui/customize.ui:693
+#: src/data/ui/pages/customize.ui:693
 msgid "Right"
 msgstr "Справа"
 
-#: src/data/ui/customize.ui:694
+#: src/data/ui/pages/customize.ui:694
 msgid "Left"
 msgstr "Слева"
 
-#: src/data/ui/customize.ui:743
+#: src/data/ui/pages/customize.ui:743
 msgid "No Animation"
 msgstr "Без анимаций"
 
-#: src/data/ui/customize.ui:744
+#: src/data/ui/pages/customize.ui:744
 msgid "Default Speed"
 msgstr "По умолчанию"
 
-#: src/data/ui/customize.ui:745
+#: src/data/ui/pages/customize.ui:745
 msgid "Almost None"
 msgstr "Почти ничего"
 
-#: src/data/ui/customize.ui:746
+#: src/data/ui/pages/customize.ui:746
 msgid "Fastest"
 msgstr "Очень быстро"
 
-#: src/data/ui/customize.ui:747
+#: src/data/ui/pages/customize.ui:747
 msgid "Faster"
 msgstr "Быстрее"
 
-#: src/data/ui/customize.ui:748
+#: src/data/ui/pages/customize.ui:748
 msgid "Fast"
 msgstr "Быстро"
 
-#: src/data/ui/customize.ui:749
+#: src/data/ui/pages/customize.ui:749
 msgid "Slow"
 msgstr "Медленно"
 
-#: src/data/ui/customize.ui:750
+#: src/data/ui/pages/customize.ui:750
 msgid "Slower"
 msgstr "Медленнее"
 
-#: src/data/ui/customize.ui:751
+#: src/data/ui/pages/customize.ui:751
 msgid "Slowest"
 msgstr "Очень медленно"
 
-#: src/data/ui/customize.ui:771 src/data/ui/customize.ui:783
+#: src/data/ui/pages/customize.ui:771 src/data/ui/pages/customize.ui:783
 msgid "Top Start"
 msgstr "Сверху слева"
 
-#: src/data/ui/customize.ui:772 src/data/ui/customize.ui:784
+#: src/data/ui/pages/customize.ui:772 src/data/ui/pages/customize.ui:784
 msgid "Top Center"
 msgstr "Сверху по центру"
 
-#: src/data/ui/customize.ui:773 src/data/ui/customize.ui:785
+#: src/data/ui/pages/customize.ui:773 src/data/ui/pages/customize.ui:785
 msgid "Top End"
 msgstr "Сверху справа"
 
-#: src/data/ui/customize.ui:774 src/data/ui/customize.ui:786
+#: src/data/ui/pages/customize.ui:774 src/data/ui/pages/customize.ui:786
 msgid "Bottom Start"
 msgstr "Нижний старт"
 
-#: src/data/ui/customize.ui:775 src/data/ui/customize.ui:787
+#: src/data/ui/pages/customize.ui:775 src/data/ui/pages/customize.ui:787
 msgid "Bottom Center"
 msgstr "Внизу по центру"
 
-#: src/data/ui/customize.ui:776 src/data/ui/customize.ui:788
+#: src/data/ui/pages/customize.ui:776 src/data/ui/pages/customize.ui:788
 msgid "Bottom End"
 msgstr "Нижний конец"
 
-#: src/data/ui/customize.ui:789
+#: src/data/ui/pages/customize.ui:789
 msgid "Center Start"
 msgstr "Центральный старт"
 
-#: src/data/ui/customize.ui:791
+#: src/data/ui/pages/customize.ui:791
 msgid "Center End"
 msgstr "Центральный конец"
 
-#: src/data/ui/profile.ui:6 src/data/ui/profile.ui:11
-msgid "Profile"
-msgstr "Профиль"
+#~ msgid "Icons"
+#~ msgstr "Иконки"
 
-#: src/data/ui/profile.ui:18
-msgid ""
-"You can choose between pre-defined profiles or you can simply use your own "
-"customized settings"
-msgstr ""
-"Вы можете выбрать предустановленный профиль или использовать собственные "
-"настройки"
-
-#: src/data/ui/profile.ui:53
-msgid "Custom"
-msgstr "Пользовательский"
-
-#: src/data/ui/profile.ui:63
-msgid "Minimal"
-msgstr "Минимальный"
-
-#: src/data/ui/profile.ui:73
-msgid "Super Minimal"
-msgstr "Очень минимальный"
-
-#: src/data/ui/profile.ui:90
-msgid "Override"
-msgstr "Переопределение"
-
-#: src/data/ui/profile.ui:94
-msgid "Shell Theme"
-msgstr "Тема оболочки"
-
-#: src/data/ui/profile.ui:95
-msgid "Overrides the shell theme partially to create a minimal desktop"
-msgstr ""
-"Частично переопределяет тему оболочки для создания минималистичного рабочего "
-"стола"
-
-#: src/data/ui/profile.ui:110
-msgid "Support"
-msgstr "Поддержка"
-
-#: src/data/ui/profile.ui:135
-msgid "Support Via Crypto"
-msgstr "Поддержка через Crypto"
-
-#: src/data/ui/profile.ui:136
-msgid "Preferred Method"
-msgstr "Предпочтительный метод"
-
-#: src/data/ui/profile.ui:167
-msgid "Copy"
-msgstr "Копировать"
-
-#: src/data/ui/profile.ui:184
-msgid "Support via Buy Me a Coffee"
-msgstr "Поддержать через Buy Me a Coffee"
-
-#: src/data/ui/profile.ui:202
-msgid "Support Notification"
-msgstr "Уведомление о поддержке"
-
-#: src/data/ui/profile.ui:203
-msgid "Manage when the support notification shows up"
-msgstr "Управление отображением уведомления о поддержке"
-
-#: src/data/ui/profile.ui:213
-msgid "Links"
-msgstr "Ссылки"
-
-#: src/data/ui/profile.ui:217
-msgid "Bug Report"
-msgstr "Сообщить об ошибке"
-
-#: src/data/ui/profile.ui:229
-msgid "YouTube Channel"
-msgstr "Канал YouTube"
-
-#: src/data/ui/profile.ui:266
-msgid "Never"
-msgstr "Никогда"
-
-#: src/data/ui/profile.ui:267
-msgid "On New Releases"
-msgstr "В новых выпусках"
-
-#: src/data/ui/profile.ui:272
-msgid "Address copied to the clipboard"
-msgstr "Адрес скопирован в буфер обмена"
+#~ msgid "Links"
+#~ msgstr "Ссылки"
 
 #~ msgid "Monthly"
 #~ msgstr "Ежемесячно"
