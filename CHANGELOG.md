@@ -7,6 +7,10 @@ We go to the next version after each release on the
 
 ## [Unreleased]
 
+### Fixed
+
+- Russian Translation by [@Moss3488](https://gitlab.gnome.org/Moss3488).
+
 ## [36.0] - 2026-01-26
 
 ### Added
