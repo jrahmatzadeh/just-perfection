@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-02 13:06-0800\n"
-"PO-Revision-Date: 2021-04-15 06:33+0800\n"
-"Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
+"POT-Creation-Date: 2025-02-02 13:09-0800\n"
+"PO-Revision-Date: 2026-04-23 13:43+0800\n"
+"Last-Translator: Tianyu Chen <sweetyfish@deepin.org>\n"
 "Language-Team: Chinese - China <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 3.38.0\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.6\n"
 
 #: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
 msgid "Visibility"
@@ -621,7 +621,7 @@ msgstr "您可以在预定义的配置文件之间进行选择，也可以简单
 
 #: src/data/ui/profile.ui:53
 msgid "Custom"
-msgstr "风俗"
+msgstr "自定义"
 
 #: src/data/ui/profile.ui:63
 msgid "Minimal"

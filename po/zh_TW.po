@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Just Perfection 3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-02 13:06-0800\n"
-"PO-Revision-Date: 2021-06-10 10:43+0800\n"
-"Last-Translator: r0930514 <r0930514@gmail.com>\n"
+"PO-Revision-Date: 2026-04-23 14:50+0800\n"
+"Last-Translator: Tianyu Chen <sweetyfish@deepin.org>\n"
 "Language-Team: \n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.6\n"
 
 #: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
 msgid "Visibility"
@@ -620,7 +620,7 @@ msgstr "您可以在預定義的配置文件之間進行選擇，也可以簡單
 
 #: src/data/ui/profile.ui:53
 msgid "Custom"
-msgstr "風俗"
+msgstr "自定義"
 
 #: src/data/ui/profile.ui:63
 msgid "Minimal"
