@@ -1,0 +1,712 @@
+# Georgian translation for Just Perfection 3.
+# Copyright (C) 2026 Just Perfection 3's authors.
+# This file is distributed under the same license as the Just Perfection 3 package.
+# Ekaterine Papava <papava.e@gtu.ge>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Just Perfection 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-02 13:09-0800\n"
+"PO-Revision-Date: 2026-02-23 17:22+0100\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#: src/data/ui/visibility.ui:6 src/data/ui/visibility.ui:11
+msgid "Visibility"
+msgstr "ხილვადობა"
+
+#: src/data/ui/visibility.ui:15
+msgid "Panel"
+msgstr "პანელი"
+
+#: src/data/ui/visibility.ui:27
+msgid "Panel in Overview"
+msgstr "პანელი გადახედვის რეჟიმში"
+
+#: src/data/ui/visibility.ui:40
+msgid "Activities Button"
+msgstr "აქტივობების ღილაკი"
+
+#: src/data/ui/visibility.ui:41
+msgid "Button in panel to toggle overview visibility"
+msgstr "ღილაკი პანელზე გადახედვის ხილვადობის გადასარტავად"
+
+#: src/data/ui/visibility.ui:53
+msgid "Clock Menu"
+msgstr "საათის მენიუ"
+
+#: src/data/ui/visibility.ui:54
+msgid "Also known as date menu shows date and time in panel"
+msgstr "ასევე ცნობილია, როგორც თარიღის მენიუ, პანელზე აჩვენებს თარიღსა და დროს"
+
+#: src/data/ui/visibility.ui:66
+msgid "Keyboard Layout"
+msgstr "კლავიატურის განლაგება"
+
+#: src/data/ui/visibility.ui:67
+msgid "Keyboard Layout indicator button in panel"
+msgstr "კლავიატურის განლაგების მაჩვენებლის ღილაკი პანელზე"
+
+#: src/data/ui/visibility.ui:79
+msgid "Accessibility Menu"
+msgstr "წვდომადომის მენიუ"
+
+#: src/data/ui/visibility.ui:80
+msgid "Accessibility Menu indicator button in panel"
+msgstr "წვდომადომის მენიუს მაჩვენებელი ღილაკი პანელზე"
+
+#: src/data/ui/visibility.ui:92
+msgid "Quick Settings"
+msgstr "სწრაფი მორგება"
+
+#: src/data/ui/visibility.ui:93
+msgid "Quick settings menu in panel"
+msgstr "სწრაფი მორგების მენიუ პანელზე"
+
+#: src/data/ui/visibility.ui:105
+msgid "Dark Mode Toggle Button"
+msgstr "მუქი რეჟიმის გადართვის ღილაკი"
+
+#: src/data/ui/visibility.ui:106
+msgid "Dark Mode Toggle Button in Quick settings menu"
+msgstr "მუქი რეჟიმის გადართვის ღილაკი სწრაფი მორგების მენიუში"
+
+#: src/data/ui/visibility.ui:118
+msgid "Night Light Toggle Button"
+msgstr "ღამის სინათლის გადართვის ღილაკი"
+
+#: src/data/ui/visibility.ui:119
+msgid "Night Light Toggle Button in Quick settings menu"
+msgstr "ღამის განათების გადართვის ღილაკი სწრაფი მორგების მენიუში"
+
+#: src/data/ui/visibility.ui:131
+msgid "Airplane Mode Toggle Button"
+msgstr "თვითმფრინავის რეჟიმის გადართვის ღილაკი"
+
+#: src/data/ui/visibility.ui:132
+msgid "Airplane Mode Toggle Button in Quick settings menu"
+msgstr "თვითმფრინავის რეჟიმის გადართვის ღილაკი სწრაფი მორგების მენიუში"
+
+#: src/data/ui/visibility.ui:144
+msgid "Screen Sharing Indicator"
+msgstr "ეკრანის გაზიარების მაჩვენებელი"
+
+#: src/data/ui/visibility.ui:145
+msgid "Screen sharing indicator in panel"
+msgstr "ეკრანის გაზიარების მაჩვენებელი პანელზე"
+
+#: src/data/ui/visibility.ui:157
+msgid "Screen Recording Indicator"
+msgstr "ეკრანის ჩაწერის ინდიკატორი"
+
+#: src/data/ui/visibility.ui:158
+msgid "Screen recording indicator in panel"
+msgstr "ეკრანის ჩაწერის ინდიკატორი პანელზე"
+
+#: src/data/ui/visibility.ui:170
+msgid "World Clock"
+msgstr "მსოფლიო საათი"
+
+#: src/data/ui/visibility.ui:171
+msgid "World clock in clock menu"
+msgstr "მსოფლიო საათი საათის მენიუში"
+
+#: src/data/ui/visibility.ui:183
+msgid "Weather"
+msgstr "ამინდი"
+
+#: src/data/ui/visibility.ui:184
+msgid "Weather in clock menu"
+msgstr "ამინდის საათის მენიუში"
+
+#: src/data/ui/visibility.ui:196
+msgid "Calendar"
+msgstr "კალენდარი"
+
+#: src/data/ui/visibility.ui:197
+msgid "Calendar in clock menu"
+msgstr "კალენდარი საათის მენიუში"
+
+#: src/data/ui/visibility.ui:209
+msgid "Events"
+msgstr "მოვლენები"
+
+#: src/data/ui/visibility.ui:210
+msgid "Events button in clock menu"
+msgstr "მოვლენების ღილაკი საათის მენიუში"
+
+#: src/data/ui/visibility.ui:222
+msgid "Search"
+msgstr "ძებნა"
+
+#: src/data/ui/visibility.ui:223
+msgid "Search entry in overview"
+msgstr "ძებნის სტრიქონი მიმოხილვაში"
+
+#: src/data/ui/visibility.ui:235
+msgid "Dash"
+msgstr "პანელი"
+
+#: src/data/ui/visibility.ui:236
+msgid "Dash holds favorite and opened applications icons"
+msgstr "Dash რჩეული და გახსნილი აპლიკაციის ხატულებს შეიცავს"
+
+#: src/data/ui/visibility.ui:248
+msgid "Dash Separator"
+msgstr "ტირე გამყოფი"
+
+#: src/data/ui/visibility.ui:249
+msgid "Dash separator line that separates pin apps from unpin apps"
+msgstr ""
+"ტირე გამყოფი ხაზია, რომელიც ამაგრებულ აპებს აუმაგრებელი აპებისგან გამოჰყოფს"
+
+#: src/data/ui/visibility.ui:261
+msgid "Dash App Running Indicator"
+msgstr "Dash-ის გაშვებულობის მაჩვენებელი"
+
+#: src/data/ui/visibility.ui:262
+msgid "The dot indicator in dash that shows the app is running"
+msgstr ""
+"წერტილი მაჩვენებელი dash-ში, რომელიც აჩვენებს, რომ აპლიკაცია გაშვებულია"
+
+#: src/data/ui/visibility.ui:274
+msgid "Show Applications Button"
+msgstr "აპლიკაციების ღილაკის ჩვენება"
+
+#: src/data/ui/visibility.ui:275
+msgid "Button in dash that toggles applications list visibility"
+msgstr "ღილაკი dash-ში, რომელიც აპლიკაციების სიის ხილვადობას გადართავს"
+
+#: src/data/ui/visibility.ui:287
+msgid "On Screen Display (OSD)"
+msgstr "ეკრანზე ჩვენება (OSD)"
+
+#: src/data/ui/visibility.ui:288
+msgid "Volume and brightness on screen display when the change happens"
+msgstr "ხმისა და სიკაშკაშის ჩვენება ეკრანზე, როცა ცვლილება ხდება"
+
+#: src/data/ui/visibility.ui:300
+msgid "Workspace Popup"
+msgstr "სამუშაო სივრცის მხტუნარა"
+
+#: src/data/ui/visibility.ui:301
+msgid "Popup that appears on the screen when you change the workspace"
+msgstr "მხტუნარა, რომელიც ეკრანზე გამოჩნდება, როცა სამუშაო სივრცეს ცვლით"
+
+#: src/data/ui/visibility.ui:313
+msgid "Workspace Switcher"
+msgstr "სამუშაო სივრცის გადამრთველი"
+
+#: src/data/ui/visibility.ui:314
+msgid ""
+"Also refers to workspace thumbnails that you see in overview for selecting a "
+"workspace"
+msgstr ""
+"ასევე მიმართავს სამუშაო სივრცის მინიატურებს, რომლებსაც ხედავთ სამუშაო "
+"სივრცის არჩევის მიმოხილვაში"
+
+#: src/data/ui/visibility.ui:326
+msgid "Workspaces App Grid"
+msgstr "სამუშაო სივრცეების აპის ბადე"
+
+#: src/data/ui/visibility.ui:327
+msgid "Workspace boxes in app grid"
+msgstr "სამუშაო სივრცის ველები აპების ბადეზე"
+
+#: src/data/ui/visibility.ui:339
+msgid "Window Picker Close Button"
+msgstr "ფანჯრის ამრჩევის დახურვის ღილაკი"
+
+#: src/data/ui/visibility.ui:340
+msgid "The close button on window preview in overview"
+msgstr "დახურვის ღილაკი ფანჯრის მინიატურაზე მიმოხილვაში"
+
+#: src/data/ui/visibility.ui:352
+msgid "Window Picker Caption"
+msgstr "ფანჯრის ამრჩევის წარწერა"
+
+#: src/data/ui/visibility.ui:353
+msgid "The text under window preview in overview"
+msgstr "ტექსტი ფანჯრის მინიატურის ქვეშ მიმოხილვაში"
+
+#: src/data/ui/visibility.ui:365
+msgid "Background Menu"
+msgstr "ფონის მენიუ"
+
+#: src/data/ui/visibility.ui:366
+msgid "When you right click on desktop background"
+msgstr "როცა თქვენ მარჯვენა ღილაკით დააწკაპუნებთ სამუშაო მაგიდის ფონზე"
+
+#: src/data/ui/visibility.ui:378
+msgid "Ripple Box"
+msgstr "პულსაცია"
+
+#: src/data/ui/visibility.ui:379
+msgid "Hot corner animation effects"
+msgstr "ცხელი კუთხის ანიმაცია"
+
+#: src/data/ui/visibility.ui:391
+msgid "Take Screenshot button in Window Menu"
+msgstr "ეკრანის ანაბეჭდის გადაღების ღილაკი ფანჯრის მენიუში"
+
+#: src/data/ui/visibility.ui:392
+msgid "Take screenshot button in title bar right click menu"
+msgstr ""
+"ეკრანის ანაბეჭდის გადაღების ღილაკი სათაურის ზოლის მარჯვენა დაწკაპუნების "
+"მენიუში"
+
+#: src/data/ui/icons.ui:6 src/data/ui/icons.ui:11
+msgid "Icons"
+msgstr "ხატულები"
+
+#: src/data/ui/icons.ui:15
+msgid "Panel Notification Icon"
+msgstr "პანელის გაფრთხილების ხატულა"
+
+#: src/data/ui/icons.ui:27
+msgid "Power Icon"
+msgstr "კვების ხატულა"
+
+#: src/data/ui/icons.ui:39
+msgid "Window Picker Icon"
+msgstr "ფანჯრების ამრჩევის ხატულა"
+
+#: src/data/ui/icons.ui:40
+msgid "The icon under window preview in overview"
+msgstr "ხატულა ფანჯრის მინიატურის ქვეშ მიმოხილვაში"
+
+#: src/data/ui/behavior.ui:6 src/data/ui/behavior.ui:11
+msgid "Behavior"
+msgstr "ქცევა"
+
+#: src/data/ui/behavior.ui:15
+msgid "Workspace Wraparound"
+msgstr "სამუშაო სივრცეების ციკლურობა"
+
+#: src/data/ui/behavior.ui:16
+msgid ""
+"Next workspace will be the first workspace when you are in the last "
+"workspace. and previous workspace will be the last workspace when you are in "
+"the first workspace."
+msgstr ""
+"შემდეგი სამუშაო სივრცე პირველი სამუშაო სივრცე იქნება, როცა ბოლო სამუშაო "
+"სივრცეზე ბრძანდებით და წინა სამუშაო სივრცე იქნება ბოლო, თუ ბრძანდებით "
+"პირველზე."
+
+#: src/data/ui/behavior.ui:28
+msgid "Workspace Peek"
+msgstr "სამუშაო სივრცის მიმოხილვა"
+
+#: src/data/ui/behavior.ui:29
+msgid "Whether the next and previous workspace should be visible in overview."
+msgstr "იქნება თუ არა წინა და შემდეგი სამუშაო სივრცეები ხილული მიმოხილვაში."
+
+#: src/data/ui/behavior.ui:41
+msgid "Workspace Switcher Click to The Main View"
+msgstr "სამუშაო სივრცის გადამრთველი დააწკაპუნეთ მთავარ ხედზე გადასასვლელად"
+
+#: src/data/ui/behavior.ui:42
+msgid "Workspace switcher click always goes to the main view of the workspace."
+msgstr ""
+"სამუშაო სივრცის გადამრთველზე დაწკაპუნება ყოველთვის გადავა სამუშაო სივრცის "
+"მთავარ ხედზე."
+
+#: src/data/ui/behavior.ui:54
+msgid "Window Demands Attention Focus"
+msgstr "ფანჯარა, რომელიც ყურადღებას მოითხოვს"
+
+#: src/data/ui/behavior.ui:55
+msgid "Removes window is ready notification and focus on the window"
+msgstr "ფანჯრის მზადყოფნის გაფრთხილების მოცილება და ფოკუსი ფანჯარაზე"
+
+#: src/data/ui/behavior.ui:67
+msgid "Window Maximized by Default"
+msgstr "ფანჯარა ნაგულისხმევად მთელ ეკრანზეა"
+
+#: src/data/ui/behavior.ui:68
+msgid "Maximize all windows on creation"
+msgstr "ყველა ფანჯრის მთელ ეკრანზე გაშლა მათი შექმნისას"
+
+#: src/data/ui/behavior.ui:80
+msgid "Type to Search"
+msgstr "მოსაძებნად აკრიფეთ"
+
+#: src/data/ui/behavior.ui:81
+msgid ""
+"You can start search without search entry or even focusing on it in overview"
+msgstr ""
+"ძებნა შეგიძლიათ ძებნის ზოლის, ან მასზე ფოკუსის გადატანის გარეშე დაიწყოთ"
+
+#: src/data/ui/behavior.ui:93
+msgid "Always Show Workspace Switcher"
+msgstr "სამუშაო სივრცის გადამრთველის ყოველთვის ჩვენება"
+
+#: src/data/ui/behavior.ui:94
+msgid ""
+"Shows workspace switcher even when only one workspace used with dynamic "
+"workspaces"
+msgstr ""
+"აჩვენებს სამუშაო სივრცის გადამრთველს მაშინაც კი, როცა გამოიყენება ერთი "
+"სამუშაო სივრცე"
+
+#: src/data/ui/behavior.ui:106
+msgid "Overlay Key"
+msgstr "გადალაგების გასაღები"
+
+#: src/data/ui/behavior.ui:107
+msgid "Disable overlay key (super key)"
+msgstr "გადალაგების გასაღების (ღილაკი Super) გამორთვა"
+
+#: src/data/ui/behavior.ui:119
+msgid "Double Super to App Grid"
+msgstr "ორმაგი Super აპების ბადეზე გადასასვლელად"
+
+#: src/data/ui/behavior.ui:120
+msgid "Shows app grid when you double hit super key fast"
+msgstr "აპების ბადის ჩვენება როცა ღილაკს Super ორჯერ სწრაფად დააჭერთ"
+
+#: src/data/ui/behavior.ui:133
+msgid "Popup Delay"
+msgstr "მხტუნარას დაყოვნება"
+
+#: src/data/ui/behavior.ui:134
+msgid ""
+"The delay for all switcher popups like alt-tab, ctrl-alt-tab, keyboard "
+"layout, ..."
+msgstr ""
+"დაყოვნება ყველა გადამრთველი მხტუნარებისთვის, როგორიცაა alt-tab, ctrl-alt-"
+"tab, კლავიატურის განლაგება, ..."
+
+#: src/data/ui/behavior.ui:146
+msgid "Startup Status"
+msgstr "გაშვების სტატუსი"
+
+#: src/data/ui/behavior.ui:147
+msgid "When GNOME Shell is starting up for the first time"
+msgstr "როცა GNOME-ის გარსი პირველად ეშვება"
+
+#: src/data/ui/behavior.ui:159
+msgid "Desktop"
+msgstr "სამუშაო მაგიდა"
+
+#: src/data/ui/behavior.ui:160
+msgid "Overview"
+msgstr "მიმოხილვა"
+
+#: src/data/ui/customize.ui:6 src/data/ui/customize.ui:11
+msgid "Customize"
+msgstr "მორგება"
+
+#: src/data/ui/customize.ui:15
+msgid "Accent Color for Icons"
+msgstr "აქცენტის ფერი ხატულებისთვის"
+
+#: src/data/ui/customize.ui:16
+msgid "Use accent color for all symbolic icons"
+msgstr "აქცენტის ფერის გამოყენება ყველა სიმბოლური ხატულასთვის"
+
+#: src/data/ui/customize.ui:28
+msgid "Invert Calendar Column Items"
+msgstr "კალენდრის სვეტის ელემენტების ინვერსია"
+
+#: src/data/ui/customize.ui:29
+msgid "Invert the positions of the calendar column items in clock menu"
+msgstr "კალენდრის სვეტის ელემენტების მდებარეობის ინვერსია საათის მენიუში"
+
+#: src/data/ui/customize.ui:41
+msgid "Overview Spacing Size"
+msgstr "გადახედვის დაშორების ზომა"
+
+#: src/data/ui/customize.ui:42
+msgid "The spacing size for controls manager in overview"
+msgstr "დაშორების ზომა კონტროლის ელემენტების მმართველისთვის მიმოხილვაში"
+
+#: src/data/ui/customize.ui:49
+msgid "Workspace Background Corner Size"
+msgstr "სამუშაო სივრცის ფონის კუთხის ზომა"
+
+#: src/data/ui/customize.ui:50
+msgid "Workspace background corner size in overview"
+msgstr "სამუშაო სივრცის ფონის კუთხის ზომა მიმოხილვაში"
+
+#: src/data/ui/customize.ui:57
+msgid "Panel Size"
+msgstr "პანელის ზომა"
+
+#: src/data/ui/customize.ui:64
+msgid "Panel Icon Size"
+msgstr "პანელის ხატულების ზომა"
+
+#: src/data/ui/customize.ui:71
+msgid "Panel Button Padding Size"
+msgstr "პანელის ღილაკის შევსების ზომა"
+
+#: src/data/ui/customize.ui:78
+msgid "Panel Indicator Padding Size"
+msgstr "პანელის მაჩვენებლის შევსების ზომა"
+
+#: src/data/ui/customize.ui:85
+msgid "Panel Position"
+msgstr "პანელის მდებარეობა"
+
+#: src/data/ui/customize.ui:92
+msgid "Clock Menu Position"
+msgstr "საათის მენიუს მდებარეობა"
+
+#: src/data/ui/customize.ui:99
+msgid "Clock Menu Position Offset"
+msgstr "საათის მენიუს მდებარეობის წანაცვლება"
+
+#: src/data/ui/customize.ui:106
+msgid "Workspace Switcher Size"
+msgstr "სამუშაო სივრცის გადამრთველის ზომა"
+
+#: src/data/ui/customize.ui:113
+msgid "Animation"
+msgstr "ანიმაცია"
+
+#: src/data/ui/customize.ui:120
+msgid "Dash Icon Size"
+msgstr "ტირეს ხატულას ზომა"
+
+#: src/data/ui/customize.ui:127
+msgid "Notification Banner Position"
+msgstr "გაფრთხილების ბანერის მდებარეობა"
+
+#: src/data/ui/customize.ui:128
+msgid "Notification popup position when notifications show up on the screen"
+msgstr "გაფრთხილების მხტუნარას მდებარეობა, როცა ის ეკრანზე გამოჩნდება"
+
+#: src/data/ui/customize.ui:135
+msgid "OSD Position"
+msgstr "OSD-ის მდებარეობა"
+
+#: src/data/ui/customize.ui:136
+msgid "OSD position when on screen display shows up on the screen"
+msgstr "OSD-ის მდებარეობა, როცა ის ეკრანზე გამოჩნდება"
+
+#: src/data/ui/customize.ui:143
+msgid "Alt Tab Window Preview Size"
+msgstr "Alt Tab-ის ფანჯრის მინიატურის ზომა"
+
+#: src/data/ui/customize.ui:150
+msgid "Alt Tab Window Preview Icon Size"
+msgstr "Alt Tab-ის ფანჯრის მინიატურის ხატულას ზომა"
+
+#: src/data/ui/customize.ui:157
+msgid "Alt Tab Icon Size"
+msgstr "Alt Tab-ის ხატულას ზომა"
+
+#: src/data/ui/customize.ui:164
+msgid "Looking Glass Width"
+msgstr "სარკის სიგანე"
+
+#: src/data/ui/customize.ui:171
+msgid "Looking Glass Height"
+msgstr "სარკის სიმაღლე"
+
+#: src/data/ui/customize.ui:178
+msgid "Maximum Displayed Search Results"
+msgstr "მაქს. ნაჩვენები ძებნის შედეგები"
+
+#: src/data/ui/customize.ui:179
+msgid "The maximum displayed search result items showing up in the search page"
+msgstr "მაქს. ნაჩვენები ძიების შედეგი, რომელიც ძებნების გვერდზე გამოჩნდება"
+
+#: src/data/ui/customize.ui:191 src/data/ui/customize.ui:707
+#: src/data/ui/customize.ui:757 src/data/ui/customize.ui:782
+#: src/data/ui/customize.ui:797 src/data/ui/customize.ui:808
+#: src/data/ui/customize.ui:819 src/data/ui/customize.ui:830
+#: src/data/ui/customize.ui:845 src/data/ui/customize.ui:860
+#: src/data/ui/profile.ui:43
+msgid "Default"
+msgstr "ნაგულისხმევი"
+
+#: src/data/ui/customize.ui:347 src/data/ui/customize.ui:415
+#: src/data/ui/customize.ui:485 src/data/ui/customize.ui:551
+#: src/data/ui/customize.ui:618
+msgid "By Shell Theme"
+msgstr "გარსის თემის მიხედვით"
+
+#: src/data/ui/customize.ui:685
+msgid "Top"
+msgstr "ზედა"
+
+#: src/data/ui/customize.ui:686
+msgid "Bottom"
+msgstr "ქვემო"
+
+#: src/data/ui/customize.ui:692 src/data/ui/customize.ui:790
+msgid "Center"
+msgstr "ცენტრი"
+
+#: src/data/ui/customize.ui:693
+msgid "Right"
+msgstr "მარჯვენა"
+
+#: src/data/ui/customize.ui:694
+msgid "Left"
+msgstr "მარცხენა"
+
+#: src/data/ui/customize.ui:743
+msgid "No Animation"
+msgstr "ანიმაციის გარეშე"
+
+#: src/data/ui/customize.ui:744
+msgid "Default Speed"
+msgstr "ნაგულისხმევი სიჩქარე"
+
+#: src/data/ui/customize.ui:745
+msgid "Almost None"
+msgstr "თითქმის არაფერი"
+
+#: src/data/ui/customize.ui:746
+msgid "Fastest"
+msgstr "უსწრაფესი"
+
+#: src/data/ui/customize.ui:747
+msgid "Faster"
+msgstr "უფრო სწრაფად"
+
+#: src/data/ui/customize.ui:748
+msgid "Fast"
+msgstr "ჩქარი"
+
+#: src/data/ui/customize.ui:749
+msgid "Slow"
+msgstr "ნელი"
+
+#: src/data/ui/customize.ui:750
+msgid "Slower"
+msgstr "უფრო ნელა"
+
+#: src/data/ui/customize.ui:751
+msgid "Slowest"
+msgstr "ყველაზე ნელი"
+
+#: src/data/ui/customize.ui:771 src/data/ui/customize.ui:783
+msgid "Top Start"
+msgstr "ზემოთ მარცხნივ"
+
+#: src/data/ui/customize.ui:772 src/data/ui/customize.ui:784
+msgid "Top Center"
+msgstr "ზედა ცენტრი"
+
+#: src/data/ui/customize.ui:773 src/data/ui/customize.ui:785
+msgid "Top End"
+msgstr "ზემოთ მარჯვნივ"
+
+#: src/data/ui/customize.ui:774 src/data/ui/customize.ui:786
+msgid "Bottom Start"
+msgstr "ქვემოთ მარცხნივ"
+
+#: src/data/ui/customize.ui:775 src/data/ui/customize.ui:787
+msgid "Bottom Center"
+msgstr "ქვემოთ ცენტრში"
+
+#: src/data/ui/customize.ui:776 src/data/ui/customize.ui:788
+msgid "Bottom End"
+msgstr "ქვემოთ მარჯვნივ"
+
+#: src/data/ui/customize.ui:789
+msgid "Center Start"
+msgstr "ცენტრალური გაშვება"
+
+#: src/data/ui/customize.ui:791
+msgid "Center End"
+msgstr "ცენტრალური ბოლო"
+
+#: src/data/ui/profile.ui:6 src/data/ui/profile.ui:11
+msgid "Profile"
+msgstr "პროფილი"
+
+#: src/data/ui/profile.ui:18
+msgid ""
+"You can choose between pre-defined profiles or you can simply use your own "
+"customized settings"
+msgstr ""
+"შეგიძლიათ, აირჩიოთ წინასწარ აღწერილი პროფილებიდან, ან, უბრალოდ, თქვენი "
+"პარამეტრები გამოიყენოთ"
+
+#: src/data/ui/profile.ui:53
+msgid "Custom"
+msgstr "ხელით"
+
+#: src/data/ui/profile.ui:63
+msgid "Minimal"
+msgstr "მინიმალური"
+
+#: src/data/ui/profile.ui:73
+msgid "Super Minimal"
+msgstr "ძალიან მინიმალური"
+
+#: src/data/ui/profile.ui:90
+msgid "Override"
+msgstr "გადაფარვა"
+
+#: src/data/ui/profile.ui:94
+msgid "Shell Theme"
+msgstr "გარსის ტემა"
+
+#: src/data/ui/profile.ui:95
+msgid "Overrides the shell theme partially to create a minimal desktop"
+msgstr ""
+"ნაწილობრივ გადაფარავს გარსის თემას მინიმალური სამუშაო მაგიდის შესაქმნელად"
+
+#: src/data/ui/profile.ui:110
+msgid "Support"
+msgstr "მხარდაჭერა"
+
+#: src/data/ui/profile.ui:135
+msgid "Support Via Crypto"
+msgstr "მხარდაჭერა კრიპტოთი"
+
+#: src/data/ui/profile.ui:136
+msgid "Preferred Method"
+msgstr "რჩეული მეთოდი"
+
+#: src/data/ui/profile.ui:167
+msgid "Copy"
+msgstr "კოპირება"
+
+#: src/data/ui/profile.ui:184
+msgid "Support via Buy Me a Coffee"
+msgstr "მხარდაჭერა Buy Me a Coffee-ით"
+
+#: src/data/ui/profile.ui:202
+msgid "Support Notification"
+msgstr "მხარდაჭერის შეტყობინება"
+
+#: src/data/ui/profile.ui:203
+msgid "Manage when the support notification shows up"
+msgstr "მართეთ, როდის მოხდება მხარდაჭერის გაფრთხილებების ჩვენება"
+
+#: src/data/ui/profile.ui:213
+msgid "Links"
+msgstr "ბმულები"
+
+#: src/data/ui/profile.ui:217
+msgid "Bug Report"
+msgstr "შეცდომის ანგარიში"
+
+#: src/data/ui/profile.ui:229
+msgid "YouTube Channel"
+msgstr "YouTube არხი"
+
+#: src/data/ui/profile.ui:266
+msgid "Never"
+msgstr "არასდროს"
+
+#: src/data/ui/profile.ui:267
+msgid "On New Releases"
+msgstr "ახალი გამოცემისას"
+
+#: src/data/ui/profile.ui:272
+msgid "Address copied to the clipboard"
+msgstr "მისამართი დაკოპირდა ბუფერში"

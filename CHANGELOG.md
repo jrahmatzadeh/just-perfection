@@ -7,6 +7,10 @@ We go to the next version after each release on the
 
 ## [Unreleased]
 
+### Added
+
+- Georgian Translation by [@EkaterinePapava](https://gitlab.gnome.org/EkaterinePapava).
+
 ### Fixed
 
 - Russian Translation by [@Moss3488](https://gitlab.gnome.org/Moss3488).
