@@ -158,12 +158,12 @@ export class Prefs
      * fill prefs window
      *
      * @param {Adw.PreferencesWindow} window prefs dialog
-     * @param {string} ResourcesFolderPath folder path to resources folder
+     * @param {string} resourcesFolderPath folder path to resources folder
      * @param {string} gettextDomain gettext domain
      *
      * @returns {void}
      */
-     fillPrefsWindow(window, ResourcesFolderPath, gettextDomain)
+     fillPrefsWindow(window, resourcesFolderPath, gettextDomain)
      {
          // changing the order here can change the elements order in ui
          let uiFilenames = [
@@ -174,7 +174,7 @@ export class Prefs
              'pages/customize',
          ];
 
-         this.#loadResource(ResourcesFolderPath);
+         this.#loadResource(resourcesFolderPath);
 
          this.#cssProvider.load_from_resource(
             `/org/gnome/Shell/Extensions/justperfection/css/prefs.css`

@@ -33,7 +33,7 @@ export default class JustPerfectionPrefs extends ExtensionPreferences
         const shellVersion = parseFloat(Config.PACKAGE_VERSION);
         const gettextDomain = this.metadata['gettext-domain'];
 
-        let ResourcesFolderPath = this.path;
+        let resourcesFolderPath = this.path;
         let prefsKeys = new PrefsKeys(shellVersion);
 
         let prefs = new Prefs(
@@ -51,6 +51,6 @@ export default class JustPerfectionPrefs extends ExtensionPreferences
             shellVersion
         );
 
-        prefs.fillPrefsWindow(window, ResourcesFolderPath, gettextDomain);
+        prefs.fillPrefsWindow(window, resourcesFolderPath, gettextDomain);
     }
 }
