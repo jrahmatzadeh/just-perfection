@@ -260,7 +260,7 @@ export class SupportNotifier
         notification.useBodyMarkup = true;
         notification.resident = true;
         notification.iconName = 'emblem-favorite-symbolic';
-        notification.urgency = this._messageTray.Urgency.CRITICAL;
+        notification.urgency = this._messageTray.Urgency.HIGH;
 
         return notification;
     }
