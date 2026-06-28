@@ -67,8 +67,6 @@ export class SupportNotifier
         this.#shellVersion = shellVersion;
         this.#extensionVersion = extensionVersion;
         this.#extension = extension;
-
-        this.#registerSettingsSignals();
     }
 
     /**
@@ -78,9 +76,23 @@ export class SupportNotifier
      */
     #registerSettingsSignals()
     {
-        this.#settings.connect('changed::support-notifier-type', () => {
-            this.restart();
-        });
+        this.#settings.connectObject(
+            'changed::support-notifier-type',
+            () => {
+                this.restart();
+            },
+            this
+        );
+    }
+
+    /**
+     * unregister all signals from settings
+     *
+     * @returns {void}
+     */
+    #unregisterSettingsSignals()
+    {
+        this.#settings.disconnectObject(this);
     }
 
     /**
@@ -93,6 +105,8 @@ export class SupportNotifier
         if (!this.#isAllowedForCurrentVersion()) {
             return;
         }
+
+        this.#registerSettingsSignals();
 
         let type = this.#settings.get_int('support-notifier-type');
 
@@ -129,6 +143,8 @@ export class SupportNotifier
             this._glib.source_remove(this._timeoutId);
             this._timeoutId = null;
         }
+
+        this.#unregisterSettingsSignals();
     }
 
     /**
