@@ -1,0 +1,13 @@
+stages:
+  - lint
+
+shexli-lint:
+  stage: lint
+  image: python:3.12-slim
+  before_script:
+    - pip install --no-cache-dir shexli
+  script:
+    - shexli "$CI_PROJECT_DIR/src"
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
