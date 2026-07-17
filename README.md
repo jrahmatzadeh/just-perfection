@@ -91,16 +91,16 @@ This extension allows you to do the following:
 
 | GNOME Shell Version | End Of Support | Status             | Last Version  |
 | ------------------- | -------------- | ------------------ | ------------- |
-| 51                  | TBA            | Supported          | TBA           |
-| 50                  | TBA            | Supported          | 36            |
-| 49                  | TBA            | Supported          | 36            |
+| 51                  | July 2027      | Supported          | TBA           |
+| 50                  | July 2029      | Supported          | 36            |
+| 49                  | July 2026      | Supported          | 36            |
 | 48                  | July 2026      | Supported          | 36            |
 | 47                  | July 2026      | Supported          | 36            |
 | 46                  | July 2028      | Supported          | 36            |
 | 45                  | July 2026      | Supported          | 36            |
 | 44                  | July 2024      | EOS                | 26            |
 | 43                  | July 2023      | EOS                | 26            |
-| 42                  | July 2026      | No New Features    | 26            |
+| 42                  | July 2026      | EOS                | 26            |
 | 41                  | May 2022       | EOS                | 24            |
 | 40                  | December 2021  | EOS                | 24            |
 | 3.38                | July 2025      | EOS                | 24            |
