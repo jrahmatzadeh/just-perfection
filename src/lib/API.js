@@ -150,6 +150,10 @@ export class API
         // can cause fatal error. So we wait for primary monitor
         // until it is available
         // Fixes #166
+        if (this.#timeoutIds.registerLookingGlassSignals) {
+            this._glib.source_remove(this.#timeoutIds.registerLookingGlassSignals);
+            delete(this.#timeoutIds.registerLookingGlassSignals);
+        }
         this.#timeoutIds.registerLookingGlassSignals = this._glib.timeout_add(
             this._glib.PRIORITY_DEFAULT,
             1000,
@@ -492,6 +496,10 @@ export class API
         // See https://gitlab.gnome.org/GNOME/mutter/-/issues/1627
         if (this.#shellVersion <= 48 && this._meta.is_wayland_compositor()) {
             let duration = this.#addToAnimationDuration(180);
+            if (this.#timeoutIds.panelHide) {
+                this._glib.source_remove(this.#timeoutIds.panelHide);
+                delete(this.#timeoutIds.panelHide);
+            }
             this.#timeoutIds.panelHide = this._glib.timeout_add(
                 this._glib.PRIORITY_DEFAULT,
                 duration,
