@@ -7,6 +7,8 @@ We go to the next version after each release on the
 
 ## [Unreleased]
 
+## [37.0] - 2026-08-29
+
 ### Added
 
 - Georgian Translation by [@EkaterinePapava](https://gitlab.gnome.org/EkaterinePapava).
