@@ -10,6 +10,7 @@ We go to the next version after each release on the
 ### Added
 
 - Georgian Translation by [@EkaterinePapava](https://gitlab.gnome.org/EkaterinePapava).
+- GNOME Shell 51 Support.
 
 ### Fixed
 
