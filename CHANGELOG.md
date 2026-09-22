@@ -7,6 +7,10 @@ We go to the next version after each release on the
 
 ## [Unreleased]
 
+### Fixed
+
+- Unresponsive panel when visible only in the overview.
+
 ## [37.0] - 2026-08-29
 
 ### Added

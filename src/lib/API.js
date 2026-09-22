@@ -440,7 +440,7 @@ export class API
 
         if (panelBox.get_parent() === this._main.layoutManager.uiGroup) {
             this._main.layoutManager.removeChrome(panelBox);
-            this._main.layoutManager.overviewGroup.insert_child_at_index(panelBox, 0);
+            this._main.layoutManager.overviewGroup.add_child(panelBox);
         }
 
         panelBox.translation_y = (mode === PANEL_HIDE_MODE.DESKTOP) ? 0 : panelHeight * direction;
