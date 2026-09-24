@@ -691,17 +691,21 @@ export class API
         let searchEntry = this._main.overview.searchEntry;
         let searchEntryParent = searchEntry.get_parent();
 
+        searchEntryParent.height = 0;
+        searchEntry.opacity = 0;
+        searchEntry.show();
+
         searchEntryParent.ease({
             height: searchEntry.height,
             opacity: 255,
             mode: this._clutter.AnimationMode.EASE,
-            duration: 110,
-            onComplete: () => {
+            duration: 90,
+            onStopped: () => {
                 searchEntryParent.height = -1;
                 searchEntry.ease({
                     opacity: 255,
                     mode: this._clutter.AnimationMode.EASE,
-                    duration: 700,
+                    duration: 300,
                 });
             },
         });
@@ -726,20 +730,8 @@ export class API
         this.UIStyleClassAdd(this.#getAPIClassname('no-search'));
 
         let searchEntry = this._main.overview.searchEntry;
-        let searchEntryParent = searchEntry.get_parent();
 
-        searchEntry.ease({
-            opacity: 0,
-            mode: this._clutter.AnimationMode.EASE,
-            duration: 50,
-        });
-
-        searchEntryParent.ease({
-            height: 0,
-            opacity: 0,
-            mode: this._clutter.AnimationMode.EASE,
-            duration: 120,
-        });
+        searchEntry.hide();
 
         if (!fake) {
             this._searchEntryVisibility = false;

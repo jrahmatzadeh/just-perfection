@@ -10,6 +10,7 @@ We go to the next version after each release on the
 ### Fixed
 
 - Unresponsive panel when visible only in the overview.
+- Search entry visibility logic to improve compatibility with other extensions.
 
 ## [37.0] - 2026-08-29
 
