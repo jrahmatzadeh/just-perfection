@@ -1005,8 +1005,8 @@ export class API
         }
 
         ThumbnailsBoxProto._init = function(...params) {
-            this._maxThumbnailScale = size;
             this._initOld(...params);
+            this._maxThumbnailScale = size;
         };
     }
 
