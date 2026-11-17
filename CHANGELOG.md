@@ -13,6 +13,10 @@ We go to the next version after each release on the
 - Unresponsive panel when visible only in the overview.
 - Workspace switcher size on secondary monitors by @pavellisy
 
+### Removed
+
+- Support section from profile settings page.
+
 ## [37.0] - 2026-08-29
 
 ### Added

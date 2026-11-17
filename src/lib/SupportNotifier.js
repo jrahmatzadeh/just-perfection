@@ -203,21 +203,18 @@ export class SupportNotifier
         let title = `Just Perfection Extension Updated To Version ${this.#extensionVersion}`;
         let body = "The future of the Just Perfection extension depends on your support! " +
             "Your donation will help add new features and updates. " +
-            "Please consider making a donation." +
-            "\r\r" +
-            "<i>Crypto donations are preferred since there are no platform fees, " +
-            "and 100% of your donation is received directly.</i>";
+            "Please consider making a donation.";
 
         const source = this.#getSource();
         const notification = this.#getNotification(source, title, body);
 
-        notification.addAction('Buy Me a Coffee', () => {
-            this._gio.AppInfo.launch_default_for_uri('https://www.buymeacoffee.com/justperfection', null);
+        notification.addAction('Changelog', () => {
+            this._gio.AppInfo.launch_default_for_uri('https://gitlab.gnome.org/jrahmatzadeh/just-perfection/-/blob/main/CHANGELOG.md', null);
             notification.destroy();
         });
 
-        notification.addAction('Donate Crypto', () => {
-            this.#extension.openPreferences();
+        notification.addAction('Donate', () => {
+            this._gio.AppInfo.launch_default_for_uri('https://jrahmatzadeh.pages.gitlab.gnome.org/ego-donations/', null);
             notification.destroy();
         });
 

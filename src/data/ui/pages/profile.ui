@@ -9,7 +9,7 @@
     <child>
       <object class="AdwPreferencesGroup" id="profile_group">
         <property name="title" translatable="yes">Profile</property>
-        
+
         <child>
           <object class="GtkLabel">
             <property name="visible">True</property>
@@ -29,7 +29,7 @@
             </attributes>
           </object>
         </child>
-        
+
         <child>
           <object class="GtkBox">
               <property name="visible">True</property>
@@ -81,14 +81,14 @@
               </style>
           </object>
         </child>
-        
+
       </object>
     </child>
 
     <child>
       <object class="AdwPreferencesGroup" id="override_group">
         <property name="title" translatable="yes">Override</property>
-        
+
         <child>
           <object class="AdwActionRow" id="theme_row">
             <property name="title" translatable="yes">Shell Theme</property>
@@ -97,95 +97,6 @@
             <child>
               <object class="GtkSwitch" id="theme_switch">
                 <property name="valign">center</property>
-              </object>
-            </child>
-          </object>
-        </child>
-        
-      </object>
-    </child>
-
-    <child>
-      <object class="AdwPreferencesGroup" id="support_group">
-        <property name="title" translatable="yes">Support</property>
-        <property name="description">Your support helps maintain and improve Just Perfection, develop new features, and ensure smooth updates. Even a small donation makes a big difference!
-
-Thank you for your support!</property>
-
-        <child>
-          <object class="GtkBox">
-            <property name="halign">center</property>
-            <child>
-              <object class="GtkPicture" id="donation_picture">
-                <property name="can-shrink">False</property>
-                <property name="file">resource:///org/gnome/Shell/Extensions/justperfection/imgs/donation.svg</property>
-              </object>
-            </child>
-          </object>
-        </child>
-
-      </object>
-    </child>
-
-    <child>
-      <object class="AdwPreferencesGroup" id="support_crypto_group">
-
-        <child>
-          <object class="AdwComboRow" id="support_crypto_row">
-            <property name="title" translatable="yes">Support Via Crypto</property>
-            <property name="subtitle" translatable="yes">Preferred Method</property>
-            <property name="model">support_crypto_model</property>
-          </object>
-        </child>
-
-        <child>
-          <object class="AdwActionRow" id="qr_row">
-          <property name="halign">center</property>
-          <style>
-            <class name="qr-code-row" />
-          </style>
-            <child>
-              <object class="GtkBox">
-                <property name="orientation">vertical</property>
-                <child>
-                  <object class="GtkPicture" id="qr_picture">
-                    <property name="can-shrink">False</property>
-                  </object>
-                </child>
-              </object>
-            </child>
-          </object>
-        </child>
-        <child>
-          <object class="AdwEntryRow" id="crypto_address_row">
-            <property name="editable">False</property>
-            <property name="show-apply-button">False</property>
-            <child>
-              <object class="GtkButton" id="crypto_address_copy_button">
-                <property name="valign">center</property>
-                <property name="icon_name">edit-copy-symbolic</property>
-                <property name="tooltip-text" translatable="yes">Copy</property>
-                <style>
-                  <class name="flat"/>
-                </style>
-              </object>
-            </child>
-          </object>
-        </child>
-
-      </object>
-    </child>
-
-    <child>
-      <object class="AdwPreferencesGroup" id="support_links_group">
-
-        <child>
-          <object class="AdwActionRow">
-            <property name="title" translatable="yes">Support via Buy Me a Coffee</property>
-            <property name="activatable-widget">buymeacoffee_linkbutton</property>
-            <child>
-              <object class="GtkLinkButton" id="buymeacoffee_linkbutton">
-                <property name="uri">https://www.buymeacoffee.com/justperfection</property>
               </object>
             </child>
           </object>
@@ -204,30 +115,10 @@ Thank you for your support!</property>
             <property name="model">support_notifier_type_model</property>
           </object>
         </child>
-        
+
       </object>
     </child>
-    
-  </object>
 
-  <object class="GtkStringList" id="support_crypto_model">
-    <items>
-      <item>Dogecoin</item>
-      <item>Bitcoin</item>
-      <item>Bitcoin Cash</item>
-      <item>Ethereum</item>
-      <item>XRP</item>
-      <item>USDT (Tether)</item>
-      <item>USDC</item>
-      <item>Solana</item>
-      <item>Cardano (ADA)</item>
-      <item>BNB (BSC Network)</item>
-      <item>Litecoin (LTC)</item>
-      <item>Stellar (XLM)</item>
-      <item>Monero</item>
-      <item>LBRY</item>
-      <item>Shiba Inu</item>
-    </items>
   </object>
 
   <object class="GtkStringList" id="support_notifier_type_model">
@@ -235,11 +126,6 @@ Thank you for your support!</property>
       <item translatable="yes">Never</item>
       <item translatable="yes">On New Releases</item>
     </items>
-  </object>
-
-  <object class="AdwToast" id="toast_added_to_clipboard">
-    <property name="title" translatable="yes">Address copied to the clipboard</property>
-    <property name="timeout">2</property>
   </object>
 
 </interface>
